@@ -1,0 +1,18 @@
+[submodule "C++/tensorflow"]
+	path = C++/tensorflow
+	url = https://github.com/tensorflow/tensorflow.git
+[submodule "C++/electron"]
+	path = C++/electron
+	url = https://github.com/electron/electron.git
+[submodule "C++/godot"]
+	path = C++/godot
+	url = https://github.com/godotengine/godot.git
+[submodule "C++/opencv"]
+	path = C++/opencv
+	url = https://github.com/opencv/opencv.git
+[submodule "C++/gpt4all"]
+	path = C++/gpt4all
+	url = https://github.com/nomic-ai/gpt4all.git
+[submodule "C++/llama.cpp"]
+	path = C++/llama.cpp
+	url = https://github.com/ggerganov/llama.cpp.git
