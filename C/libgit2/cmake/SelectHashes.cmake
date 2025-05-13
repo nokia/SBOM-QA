@@ -1,0 +1,127 @@
+# Select a hash backend
+
+include(SanitizeInput)
+
+sanitizeinput(USE_HTTPS)
+sanitizeinput(USE_SHA1)
+sanitizeinput(USE_SHA256)
+
+# sha1
+
+if(USE_SHA1 STREQUAL "" OR
+   USE_SHA1 STREQUAL ON OR
+   USE_SHA1 STREQUAL "collisiondetection")
+	SET(USE_SHA1 "builtin")
+elseif(USE_SHA1 STREQUAL "https")
+	if(USE_HTTPS STREQUAL "securetransport")
+		set(USE_SHA1 "commoncrypto")
+	elseif(USE_HTTPS STREQUAL "schannel")
+		set(USE_SHA1 "win32")
+	elseif(USE_HTTPS STREQUAL "winhttp")
+		set(USE_SHA1 "win32")
+	elseif(USE_HTTPS)
+		set(USE_SHA1 ${USE_HTTPS})
+	else()
+		message(FATAL_ERROR "asked for HTTPS SHA1 backend but HTTPS is not enabled")
+	endif()
+endif()
+
+if(USE_SHA1 STREQUAL "builtin")
+	set(GIT_SHA1_BUILTIN 1)
+	add_feature_info(SHA1 ON "using bundled collision detection implementation")
+elseif(USE_SHA1 STREQUAL "openssl")
+	set(GIT_SHA1_OPENSSL 1)
+	add_feature_info(SHA1 ON "using OpenSSL")
+elseif(USE_SHA1 STREQUAL "openssl-fips")
+	set(GIT_SHA1_OPENSSL_FIPS 1)
+	add_feature_info(SHA1 ON "using OpenSSL-FIPS")
+elseif(USE_SHA1 STREQUAL "openssl-dynamic")
+	list(APPEND LIBGIT2_SYSTEM_LIBS dl)
+	set(GIT_SHA1_OPENSSL_DYNAMIC 1)
+	add_feature_info(SHA1 ON "using OpenSSL-Dynamic")
+elseif(USE_SHA1 STREQUAL "commoncrypto")
+	set(GIT_SHA1_COMMON_CRYPTO 1)
+	add_feature_info(SHA1 ON "using CommonCrypto")
+elseif(USE_SHA1 STREQUAL "mbedtls")
+	set(GIT_SHA1_MBEDTLS 1)
+	add_feature_info(SHA1 ON "using mbedTLS")
+elseif(USE_SHA1 STREQUAL "win32")
+	set(GIT_SHA1_WIN32 1)
+	add_feature_info(SHA1 ON "using Win32 APIs")
+else()
+	message(FATAL_ERROR "asked for unknown SHA1 backend: ${USE_SHA1}")
+endif()
+
+# sha256
+
+if(USE_SHA256 STREQUAL "" OR USE_SHA256 STREQUAL ON)
+	if(USE_HTTPS)
+		SET(USE_SHA256 "https")
+	else()
+		SET(USE_SHA256 "builtin")
+	endif()
+endif()
+
+if(USE_SHA256 STREQUAL "https")
+	if(USE_HTTPS STREQUAL "securetransport")
+		set(USE_SHA256 "commoncrypto")
+	elseif(USE_HTTPS STREQUAL "schannel")
+		set(USE_SHA256 "win32")
+	elseif(USE_HTTPS STREQUAL "winhttp")
+		set(USE_SHA256 "win32")
+	elseif(USE_HTTPS)
+		set(USE_SHA256 ${USE_HTTPS})
+	endif()
+endif()
+
+if(USE_SHA256 STREQUAL "builtin")
+	set(GIT_SHA256_BUILTIN 1)
+	add_feature_info(SHA256 ON "using bundled implementation")
+elseif(USE_SHA256 STREQUAL "openssl")
+	set(GIT_SHA256_OPENSSL 1)
+	add_feature_info(SHA256 ON "using OpenSSL")
+elseif(USE_SHA256 STREQUAL "openssl-fips")
+	set(GIT_SHA256_OPENSSL_FIPS 1)
+	add_feature_info(SHA256 ON "using OpenSSL-FIPS")
+elseif(USE_SHA256 STREQUAL "openssl-dynamic")
+	list(APPEND LIBGIT2_SYSTEM_LIBS dl)
+	set(GIT_SHA256_OPENSSL_DYNAMIC 1)
+	add_feature_info(SHA256 ON "using OpenSSL-Dynamic")
+elseif(USE_SHA256 STREQUAL "commoncrypto")
+	set(GIT_SHA256_COMMON_CRYPTO 1)
+	add_feature_info(SHA256 ON "using CommonCrypto")
+elseif(USE_SHA256 STREQUAL "mbedtls")
+	set(GIT_SHA256_MBEDTLS 1)
+	add_feature_info(SHA256 ON "using mbedTLS")
+elseif(USE_SHA256 STREQUAL "win32")
+	set(GIT_SHA256_WIN32 1)
+	add_feature_info(SHA256 ON "using Win32 APIs")
+else()
+	message(FATAL_ERROR "asked for unknown SHA256 backend: ${USE_SHA256}")
+endif()
+
+# add library requirements
+if(USE_SHA1 STREQUAL "openssl" OR USE_SHA256 STREQUAL "openssl" OR
+   USE_SHA1 STREQUAL "openssl-fips" OR USE_SHA256 STREQUAL "openssl-fips")
+	if(CMAKE_SYSTEM_NAME MATCHES "FreeBSD")
+		list(APPEND LIBGIT2_PC_LIBS "-lssl")
+	else()
+		list(APPEND LIBGIT2_PC_REQUIRES "openssl")
+	endif()
+endif()
+
+if(USE_SHA1 STREQUAL "mbedtls" OR USE_SHA256 STREQUAL "mbedtls")
+	list(APPEND LIBGIT2_SYSTEM_INCLUDES ${MBEDTLS_INCLUDE_DIR})
+	list(APPEND LIBGIT2_SYSTEM_LIBS ${MBEDTLS_LIBRARIES})
+	# mbedTLS has no pkgconfig file, hence we can't require it
+	# https://github.com/ARMmbed/mbedtls/issues/228
+	# For now, pass its link flags as our own
+	list(APPEND LIBGIT2_PC_LIBS ${MBEDTLS_LIBRARIES})
+endif()
+
+# warn for users who do not use sha1dc
+
+if(NOT "${USE_SHA1}" STREQUAL "builtin")
+	list(APPEND WARNINGS "SHA1 support is set to ${USE_SHA1} which is not recommended - git's hash algorithm is sha1dc, it is *not* SHA1. Using SHA1 may leave you and your users susceptible to SHAttered-style attacks.")
+	set(WARNINGS ${WARNINGS} PARENT_SCOPE)
+endif()

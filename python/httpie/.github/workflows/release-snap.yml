@@ -1,0 +1,41 @@
+name: Release on Snap
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: "The branch, tag or SHA to release from"
+        required: true
+        default: "master"
+
+jobs:
+  snap-build-and-release:
+    name: Build & Release the Snap Package
+    runs-on: ubuntu-latest
+
+    strategy:
+      # If any of the stages fail, then we'll stop the action
+      # to give release manager time to investigate the underlying
+      # issue.
+      fail-fast: true
+      matrix:
+        level: [edge, beta, candidate, stable]
+
+    # Set the concurrency level for this version, so
+    # that we'll release one by one.
+    concurrency: ${{ github.event.inputs.branch }}
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.inputs.branch }}
+
+      - uses: snapcore/action-build@v1
+        id: build
+
+      - uses: snapcore/action-publish@v1
+        env:
+          SNAPCRAFT_STORE_CREDENTIALS: ${{ secrets.SNAP_STORE_LOGIN }}
+        with:
+          snap: ${{ steps.build.outputs.snap }}
+          release: ${{ matrix.level }}

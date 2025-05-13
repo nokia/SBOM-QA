@@ -1,0 +1,56 @@
+name: Tests
+concurrency:
+  group: ${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - .github/workflows/tests.yml
+      - httpie/**/*.py
+      - setup.*
+      - tests/**/*.py
+  pull_request:
+    paths:
+      - .github/workflows/tests.yml
+      - httpie/**/*.py
+      - setup.*
+      - tests/**/*.py
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-13, windows-latest]
+        python-version:
+          - '3.12'
+          - '3.11'
+          - '3.10'
+          - '3.9'
+          - '3.8'
+          - '3.7'
+        pyopenssl: [0, 1]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Windows setup
+        if: matrix.os == 'windows-latest'
+        run: |
+          python -m pip install --upgrade pip wheel
+          python -m pip install --upgrade '.[dev]'
+          python -m pytest --verbose ./httpie ./tests
+        env:
+          HTTPIE_TEST_WITH_PYOPENSSL: ${{ matrix.pyopenssl }}
+      - name: Linux & Mac setup
+        if: matrix.os != 'windows-latest'
+        run: |
+          make install
+          make test
+        env:
+          HTTPIE_TEST_WITH_PYOPENSSL: ${{ matrix.pyopenssl }}

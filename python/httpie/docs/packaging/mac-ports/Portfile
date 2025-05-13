@@ -1,0 +1,50 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8::et:sw=4:ts=4:sts=4
+
+PortSystem          1.0
+PortGroup           github 1.0
+PortGroup           python 1.0
+
+github.setup        httpie httpie 2.6.0
+
+maintainers         {g5pw @g5pw} openmaintainer
+categories          net
+description         Modern, user-friendly command-line HTTP client for the API era
+long_description    HTTPie (pronounced aych-tee-tee-pie) is a command line HTTP \
+                    client. Its goal is to make CLI interaction with web \
+                    services as human-friendly as possible. It provides a simple \
+                    http command that allows for sending arbitrary HTTP requests \
+                    using a simple and natural syntax, and displays colorized \
+                    responses. HTTPie can be used for testing, debugging, and \
+                    generally interacting with HTTP servers.
+platforms           darwin
+license             BSD
+homepage            https://httpie.io/
+
+variant python37 conflicts python36 python38 python39 python310 description "Use Python 3.7" {}
+variant python38 conflicts python36 python37 python39 python310 description "Use Python 3.8" {}
+variant python39 conflicts python36 python37 python38 python310 description "Use Python 3.9" {}
+variant python310 conflicts python36 python37 python38 python39 description "Use Python 3.10" {}
+
+if {[variant_isset python37]} {
+    python.default_version 37
+} elseif {[variant_isset python39]} {
+    python.default_version 39
+} elseif {[variant_isset python310]} {
+    python.default_version 310
+} else {
+    default_variants +python38
+    python.default_version 38
+}
+
+depends_lib-append  port:py${python.version}-requests \
+                    port:py${python.version}-requests-toolbelt \
+                    port:py${python.version}-pygments \
+                    port:py${python.version}-socks \
+                    port:py${python.version}-charset-normalizer \
+                    port:py${python.version}-defusedxml
+
+checksums           rmd160  07b1d1592da1c505ed3ee4ef3b6056215e16e9ff \
+                    sha256  63cf104bf3552305c68a74f16494a90172b15296610a875e17918e5e36373c0b \
+                    size    1133491
+
+python.link_binaries_suffix

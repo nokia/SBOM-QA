@@ -1,0 +1,77 @@
+name: Release as Standalone Linux Package
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: "The branch, tag or SHA to release from"
+        required: true
+        default: "master"
+      tag_name:
+        description: "Which release to upload the artifacts to (e.g., 3.0)"
+        required: true
+
+  release:
+    types: [released, prereleased]
+
+
+jobs:
+  binary-build-and-release:
+    name: Build and Release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.inputs.branch }}
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+
+      - name: Build Artifacts
+        run: |
+          cd extras/packaging/linux
+          ./get_release_artifacts.sh
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: http
+          path: extras/packaging/linux/artifacts/dist/http
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: httpie.deb
+          path: extras/packaging/linux/artifacts/dist/*.deb
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: httpie.rpm
+          path: extras/packaging/linux/artifacts/dist/*.rpm
+
+      - name: Determine the release upload upload_url
+        id: release_id
+        run: |
+          pip install httpie
+          export API_URL="api.github.com/repos/httpie/cli/releases/tags/${{ github.event.inputs.tag_name }}"
+          export UPLOAD_URL=`https --ignore-stdin GET $API_URL | jq -r ".upload_url"`
+          echo "::set-output name=UPLOAD_URL::$UPLOAD_URL"
+
+      - name: Publish Debian Package
+        uses: actions/upload-release-asset@v1.0.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.release_id.outputs.UPLOAD_URL }}
+          asset_path: extras/packaging/linux/artifacts/dist/httpie_${{ github.event.inputs.tag_name }}_amd64.deb
+          asset_name: httpie-${{ github.event.inputs.tag_name }}.deb
+          asset_content_type: binary/octet-stream
+
+      - name: Publish Single Executable
+        uses: actions/upload-release-asset@v1.0.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.release_id.outputs.UPLOAD_URL }}
+          asset_path: extras/packaging/linux/artifacts/dist/http
+          asset_name: http
+          asset_content_type: binary/octet-stream
