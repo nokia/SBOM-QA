@@ -1,0 +1,20 @@
+name: Test Brew Package (MacOS)
+
+on:
+  pull_request:
+    paths:
+      - .github/workflows/test-package-mac-brew.yml
+      - docs/packaging/brew/httpie.rb
+  workflow_dispatch:
+
+jobs:
+  brew:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup brew
+        run: |
+          brew developer on
+          brew update
+      - name: Build and test the formula
+        run: make brew-test

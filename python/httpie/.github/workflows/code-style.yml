@@ -1,0 +1,21 @@
+name: Code Style Check
+
+on:
+  pull_request:
+    paths:
+      - .github/workflows/code-style.yml
+      - extras/*.py
+      - httpie/**/*.py
+      - setup.py
+      - tests/**/*.py
+
+jobs:
+  code-style:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+      - run: make venv
+      - run: make codestyle

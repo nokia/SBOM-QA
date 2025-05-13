@@ -1,0 +1,30 @@
+name: Release on PyPI
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: "The branch, tag or SHA to release from"
+        required: true
+        default: "master"
+
+jobs:
+  pypi-build-and-release:
+    name: Build and Release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.inputs.branch }}
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+
+      - name: Build a binary wheel and a source tarball
+        run: make install && make build
+
+      - name: Release on PyPI
+        uses: pypa/gh-action-pypi-publish@master
+        with:
+          password: ${{ secrets.PYPI_TOKEN }}

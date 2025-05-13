@@ -1,0 +1,23 @@
+{
+    "__meta__": {
+        "about": "HTTPie session file",
+        "help": "https://httpie.io/docs#sessions",
+        "httpie": "3.2.0"
+    },
+    "auth": {
+        "password": null,
+        "type": null,
+        "username": null
+    },
+    "cookies": [],
+    "headers": [
+        {
+            "name": "X-Data",
+            "value": "value"
+        },
+        {
+            "name": "X-Foo",
+            "value": "bar"
+        }
+    ]
+}

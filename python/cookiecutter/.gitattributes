@@ -1,0 +1,5 @@
+# By default, all text files should use LF newlines.
+*       text=auto eol=lf
+
+# Use CRLF newlines for text files containing "crlf" in their names.
+*crlf*  text=auto eol=crlf

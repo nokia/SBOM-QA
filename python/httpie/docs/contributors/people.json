@@ -1,0 +1,691 @@
+{
+    "Aaron Miller": {
+        "committed": [],
+        "github": "aaronhmiller",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": "aaronmiller8"
+    },
+    "Alexander Bogdanov": {
+        "committed": [],
+        "github": "ab-kily",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "Almad": {
+        "committed": [
+            "2.5.0"
+        ],
+        "github": "Almad",
+        "reported": [
+            "2.6.0",
+            "3.0.0"
+        ],
+        "twitter": "almadcz"
+    },
+    "Andr\u00e1s Czig\u00e1ny": {
+        "committed": [],
+        "github": "andrascz",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "Annette Wilson": {
+        "committed": [],
+        "github": "annettejanewilson",
+        "reported": [
+            "2.6.0",
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "Anton Emelyanov": {
+        "committed": [
+            "2.5.0"
+        ],
+        "github": "king-menin",
+        "reported": [],
+        "twitter": null
+    },
+    "Batuhan Taskaya": {
+        "committed": [
+            "3.0.0",
+            "3.2.0"
+        ],
+        "github": "isidentical",
+        "reported": [
+            "3.0.0",
+            "3.2.0"
+        ],
+        "twitter": "isidentical"
+    },
+    "Brad Crittenden": {
+        "committed": [],
+        "github": "bac",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "Chad": {
+        "committed": [],
+        "github": "cythrawll",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "D8ger": {
+        "committed": [],
+        "github": "caofanCPU",
+        "reported": [
+            "2.5.0"
+        ],
+        "twitter": null
+    },
+    "Dave": {
+        "committed": [
+            "2.6.0",
+            "3.0.0"
+        ],
+        "github": "davecheney",
+        "reported": [],
+        "twitter": "davecheney"
+    },
+    "Dawid Ferenczy Rogo\u017ean": {
+        "committed": [],
+        "github": "ferenczy",
+        "reported": [
+            "2.5.0"
+        ],
+        "twitter": "DawidFerenczy"
+    },
+    "Ed Rooth": {
+        "committed": [],
+        "github": "sym3tri",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "Elena Lape": {
+        "committed": [
+            "2.5.0"
+        ],
+        "github": "elenalape",
+        "reported": [],
+        "twitter": "elena_lape"
+    },
+    "Ethan Mills": {
+        "committed": [
+            "3.2.0"
+        ],
+        "github": "ethanmills",
+        "reported": [],
+        "twitter": null
+    },
+    "Fabio Peruzzo": {
+        "committed": [],
+        "github": "peruzzof",
+        "reported": [
+            "2.6.0",
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "F\u00fash\u0113ng": {
+        "committed": [],
+        "github": "lienide",
+        "reported": [
+            "2.5.0"
+        ],
+        "twitter": null
+    },
+    "Gabriel Cruz": {
+        "committed": [],
+        "github": "gmelodie",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": "gmelodiecruz"
+    },
+    "Gaurav": {
+        "committed": [
+            "3.0.0"
+        ],
+        "github": "gkcs",
+        "reported": [],
+        "twitter": null
+    },
+    "Giampaolo Rodola": {
+        "committed": [],
+        "github": "giampaolo",
+        "reported": [
+            "2.5.0"
+        ],
+        "twitter": null
+    },
+    "Greg Myers": {
+        "committed": [
+            "3.0.0"
+        ],
+        "github": "myersg86",
+        "reported": [],
+        "twitter": null
+    },
+    "Hugh Williams": {
+        "committed": [],
+        "github": "hughpv",
+        "reported": [
+            "2.5.0"
+        ],
+        "twitter": null
+    },
+    "Ilya Sukhanov": {
+        "committed": [
+            "2.5.0"
+        ],
+        "github": "IlyaSukhanov",
+        "reported": [
+            "2.5.0"
+        ],
+        "twitter": null
+    },
+    "Jakub Roztocil": {
+        "committed": [
+            "2.5.0",
+            "2.6.0",
+            "3.0.0",
+            "3.2.0"
+        ],
+        "github": "jakubroztocil",
+        "reported": [
+            "2.5.0",
+            "2.6.0",
+            "3.0.0"
+        ],
+        "twitter": "jakubroztocil"
+    },
+    "Jan Bra\u0161na": {
+        "committed": [
+            "3.0.0"
+        ],
+        "github": "janbrasna",
+        "reported": [],
+        "twitter": "janbrasna"
+    },
+    "Jan Verbeek": {
+        "committed": [
+            "2.5.0"
+        ],
+        "github": "blyxxyz",
+        "reported": [
+            "3.0.0",
+            "3.2.0"
+        ],
+        "twitter": null
+    },
+    "Jannik Vieten": {
+        "committed": [
+            "2.5.0"
+        ],
+        "github": "exploide",
+        "reported": [],
+        "twitter": null
+    },
+    "Jesper Holmberg": {
+        "committed": [],
+        "github": "strindberg",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "Kirill Krasnov": {
+        "committed": [],
+        "github": "Kirill",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "Marcel St\u00f6r": {
+        "committed": [
+            "2.5.0"
+        ],
+        "github": "marcelstoer",
+        "reported": [],
+        "twitter": "frightanic"
+    },
+    "Marco Seguri": {
+        "committed": [],
+        "github": "seguri",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "Mariano Ruiz": {
+        "committed": [],
+        "github": "mrsarm",
+        "reported": [
+            "2.5.0"
+        ],
+        "twitter": "mrsarm82"
+    },
+    "Mark Rosenbaum": {
+        "committed": [],
+        "github": "markrosenbaum",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "Micka\u00ebl Schoentgen": {
+        "committed": [
+            "2.5.0",
+            "2.6.0",
+            "3.0.0"
+        ],
+        "github": "BoboTiG",
+        "reported": [
+            "2.5.0",
+            "2.6.0",
+            "3.0.0"
+        ],
+        "twitter": "__tiger222__"
+    },
+    "Mike DePalatis": {
+        "committed": [],
+        "github": "mivade",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "Miro Hron\u010dok": {
+        "committed": [
+            "2.5.0",
+            "2.6.0",
+            "3.0.0"
+        ],
+        "github": "hroncok",
+        "reported": [],
+        "twitter": "hroncok"
+    },
+    "Mohamed Daahir": {
+        "committed": [],
+        "github": "ducaale",
+        "reported": [
+            "2.5.0",
+            "3.2.0"
+        ],
+        "twitter": null
+    },
+    "Nanashi.": {
+        "committed": [],
+        "github": "sevenc-nanashi",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": "sevenc_nanashi"
+    },
+    "Nicklas Ansman Giertz": {
+        "committed": [],
+        "github": "ansman",
+        "reported": [
+            "3.2.0"
+        ],
+        "twitter": null
+    },
+    "Oliver Fish": {
+        "committed": [],
+        "github": "Oliver-Fish",
+        "reported": [
+            "3.2.0"
+        ],
+        "twitter": null
+    },
+    "Omer Akram": {
+        "committed": [
+            "2.6.0",
+            "3.0.0"
+        ],
+        "github": "om26er",
+        "reported": [
+            "2.6.0",
+            "3.0.0"
+        ],
+        "twitter": "om26er"
+    },
+    "Patrick Taylor": {
+        "committed": [],
+        "github": "pmeister",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "Paul Laffitte": {
+        "committed": [],
+        "github": "paullaffitte",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": "plaffitt"
+    },
+    "Pavel Alexeev aka Pahan-Hubbitus": {
+        "committed": [],
+        "github": "Hubbitus",
+        "reported": [
+            "2.5.0"
+        ],
+        "twitter": null
+    },
+    "Roberto L\u00f3pez L\u00f3pez": {
+        "committed": [],
+        "github": "robertolopezlopez",
+        "reported": [
+            "3.2.0"
+        ],
+        "twitter": null
+    },
+    "Russell Shurts": {
+        "committed": [],
+        "github": "rshurts",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "Samuel Marks": {
+        "committed": [],
+        "github": "SamuelMarks",
+        "reported": [
+            "2.5.0"
+        ],
+        "twitter": null
+    },
+    "Sebastian Czech": {
+        "committed": [
+            "3.0.0"
+        ],
+        "github": "sebastianczech",
+        "reported": [],
+        "twitter": "sebaczech"
+    },
+    "Sullivan SENECHAL": {
+        "committed": [],
+        "github": "soullivaneuh",
+        "reported": [
+            "2.5.0"
+        ],
+        "twitter": null
+    },
+    "Thomas Klinger": {
+        "committed": [],
+        "github": "mosesontheweb",
+        "reported": [
+            "2.5.0"
+        ],
+        "twitter": null
+    },
+    "Vincent van \u2019t Zand": {
+        "committed": [],
+        "github": "vovtz",
+        "reported": [
+            "2.6.0",
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "Vivaan Verma": {
+        "committed": [
+            "3.0.0"
+        ],
+        "github": "doublevcodes",
+        "reported": [],
+        "twitter": "doublevcodes"
+    },
+    "Vladimir Berkutov": {
+        "committed": [
+            "3.0.0"
+        ],
+        "github": "dair-targ",
+        "reported": [],
+        "twitter": null
+    },
+    "Will Rogers": {
+        "committed": [],
+        "github": "wjrogers",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "Yannic Schneider": {
+        "committed": [],
+        "github": "cynay",
+        "reported": [
+            "2.5.0"
+        ],
+        "twitter": null
+    },
+    "a1346054": {
+        "committed": [
+            "2.5.0"
+        ],
+        "github": "a1346054",
+        "reported": [],
+        "twitter": null
+    },
+    "arloan": {
+        "committed": [],
+        "github": "arloan",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "bl-ue": {
+        "committed": [
+            "2.5.0"
+        ],
+        "github": "FiReBlUe45",
+        "reported": [],
+        "twitter": null
+    },
+    "blueray453": {
+        "committed": [],
+        "github": "blueray453",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "claudiatd": {
+        "committed": [
+            "2.6.0",
+            "3.0.0"
+        ],
+        "github": "claudiatd",
+        "reported": [],
+        "twitter": null
+    },
+    "coldcoff": {
+        "committed": [],
+        "github": "coldcoff",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "dependabot[bot]": {
+        "committed": [
+            "3.2.0"
+        ],
+        "github": "dependabot-sr",
+        "reported": [],
+        "twitter": null
+    },
+    "dkreeft": {
+        "committed": [
+            "2.6.0",
+            "3.0.0"
+        ],
+        "github": "dkreeft",
+        "reported": [],
+        "twitter": null
+    },
+    "greg": {
+        "committed": [
+            "3.0.0"
+        ],
+        "github": "gregkh",
+        "reported": [],
+        "twitter": null
+    },
+    "henryhu712": {
+        "committed": [
+            "2.5.0"
+        ],
+        "github": "henryhu712",
+        "reported": [],
+        "twitter": null
+    },
+    "hosseingt": {
+        "committed": [
+            "3.0.0"
+        ],
+        "github": "hosseingt",
+        "reported": [],
+        "twitter": null
+    },
+    "jakubroztocil": {
+        "committed": [
+            "2.6.0",
+            "3.0.0"
+        ],
+        "github": "jkbr",
+        "reported": [],
+        "twitter": null
+    },
+    "josephworks": {
+        "committed": [],
+        "github": "josephworks",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "jungle-boogie": {
+        "committed": [],
+        "github": "jungle-boogie",
+        "reported": [
+            "2.5.0"
+        ],
+        "twitter": null
+    },
+    "luisuimi": {
+        "committed": [],
+        "github": "luisuimi",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "luzpaz": {
+        "committed": [
+            "3.2.0"
+        ],
+        "github": "luzpaz",
+        "reported": [],
+        "twitter": null
+    },
+    "nixbytes": {
+        "committed": [
+            "2.5.0"
+        ],
+        "github": "nixbytes",
+        "reported": [],
+        "twitter": "linuxbyte3"
+    },
+    "peterpt": {
+        "committed": [],
+        "github": "peterpt",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "qiulang": {
+        "committed": [],
+        "github": "qiulang",
+        "reported": [
+            "2.5.0"
+        ],
+        "twitter": null
+    },
+    "stonebig": {
+        "committed": [],
+        "github": "stonebig",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "whodidthis": {
+        "committed": [],
+        "github": "whodidthis",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "zhaohanqing95": {
+        "committed": [],
+        "github": "zhaohanqing95",
+        "reported": [
+            "3.2.0"
+        ],
+        "twitter": null
+    },
+    "zoulja": {
+        "committed": [],
+        "github": "zoulja",
+        "reported": [
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "zwx00": {
+        "committed": [],
+        "github": "zwx00",
+        "reported": [
+            "2.5.0"
+        ],
+        "twitter": null
+    },
+    "\u5d14\u5c0f\u4e8c": {
+        "committed": [],
+        "github": "rogerdehe",
+        "reported": [
+            "2.6.0",
+            "3.0.0"
+        ],
+        "twitter": null
+    },
+    "\u9ec4\u6d77": {
+        "committed": [],
+        "github": "hh-in-zhuzhou",
+        "reported": [
+            "2.6.0",
+            "3.0.0"
+        ],
+        "twitter": null
+    }
+}
