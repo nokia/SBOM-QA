@@ -52,3 +52,18 @@
 [submodule "ContainerImage/ContainerImage/pggb"]
 	path = ContainerImage/ContainerImage/pggb
 	url = https://github.com/pangenome/pggb.git
+[submodule "Node.js/Node.js/axios"]
+	path = Node.js/Node.js/axios
+	url = https://github.com/axios/axios.git
+[submodule "Node.js/Node.js/express"]
+	path = Node.js/Node.js/express
+	url = https://github.com/expressjs/express.git
+[submodule "Node.js/Node.js/socket.io"]
+	path = Node.js/Node.js/socket.io
+	url = https://github.com/socketio/socket.io.git
+[submodule "Node.js/Node.js/nest"]
+	path = Node.js/Node.js/nest
+	url = https://github.com/nestjs/nest.git
+[submodule "Node.js/Node.js/strapi"]
+	path = Node.js/Node.js/strapi
+	url = https://github.com/strapi/strapi.git
