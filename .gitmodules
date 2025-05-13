@@ -43,3 +43,12 @@
 [submodule "java_Maven/java_Maven/elasticsearch"]
 	path = java_Maven/java_Maven/elasticsearch
 	url = https://github.com/elastic/elasticsearch.git
+[submodule "ContainerImage/ContainerImage/io.livecode.ch"]
+	path = ContainerImage/ContainerImage/io.livecode.ch
+	url = https://github.com/namin/io.livecode.ch.git
+[submodule "ContainerImage/ContainerImage/shapmagn"]
+	path = ContainerImage/ContainerImage/shapmagn
+	url = https://github.com/uncbiag/shapmagn.git
+[submodule "ContainerImage/ContainerImage/pggb"]
+	path = ContainerImage/ContainerImage/pggb
+	url = https://github.com/pangenome/pggb.git
