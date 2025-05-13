@@ -1,0 +1,45 @@
+[submodule "C++/tensorflow"]
+	path = C++/tensorflow
+	url = https://github.com/tensorflow/tensorflow.git
+[submodule "C++/electron"]
+	path = C++/electron
+	url = https://github.com/electron/electron.git
+[submodule "C++/godot"]
+	path = C++/godot
+	url = https://github.com/godotengine/godot.git
+[submodule "C++/opencv"]
+	path = C++/opencv
+	url = https://github.com/opencv/opencv.git
+[submodule "C++/gpt4all"]
+	path = C++/gpt4all
+	url = https://github.com/nomic-ai/gpt4all.git
+[submodule "C++/llama.cpp"]
+	path = C++/llama.cpp
+	url = https://github.com/ggerganov/llama.cpp.git
+[submodule "C++_CONAN dependencies/cpp-conan-docker-starter"]
+	path = C++_CONAN dependencies/cpp-conan-docker-starter
+	url = https://github.com/evanxg852000/cpp-conan-docker-starter.git
+[submodule "C++_CONAN dependencies/conan_project_template"]
+	path = C++_CONAN dependencies/conan_project_template
+	url = https://github.com/meshell/conan_project_template.git
+[submodule "C++_CONAN dependencies/conan-center-index"]
+	path = C++_CONAN dependencies/conan-center-index
+	url = https://github.com/conan-io/conan-center-index.git
+[submodule "C++_CONAN dependencies/CppfrontTemplate"]
+	path = C++_CONAN dependencies/CppfrontTemplate
+	url = https://github.com/SavenkovIgor/CppfrontTemplate.git
+[submodule "C++_CONAN dependencies/Coronan"]
+	path = C++_CONAN dependencies/Coronan
+	url = https://github.com/bbvch/Coronan.git
+[submodule "java_Maven/java_Maven/spring-boot"]
+	path = java_Maven/java_Maven/spring-boot
+	url = https://github.com/spring-projects/spring-boot.git
+[submodule "java_Maven/java_Maven/java-design-patterns"]
+	path = java_Maven/java_Maven/java-design-patterns
+	url = https://github.com/iluwatar/java-design-patterns.git
+[submodule "java_Maven/java_Maven/mall"]
+	path = java_Maven/java_Maven/mall
+	url = https://github.com/macrozheng/mall.git
+[submodule "java_Maven/java_Maven/elasticsearch"]
+	path = java_Maven/java_Maven/elasticsearch
+	url = https://github.com/elastic/elasticsearch.git
