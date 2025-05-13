@@ -16,3 +16,18 @@
 [submodule "C++/llama.cpp"]
 	path = C++/llama.cpp
 	url = https://github.com/ggerganov/llama.cpp.git
+[submodule "C++_CONAN dependencies/cpp-conan-docker-starter"]
+	path = C++_CONAN dependencies/cpp-conan-docker-starter
+	url = https://github.com/evanxg852000/cpp-conan-docker-starter.git
+[submodule "C++_CONAN dependencies/conan_project_template"]
+	path = C++_CONAN dependencies/conan_project_template
+	url = https://github.com/meshell/conan_project_template.git
+[submodule "C++_CONAN dependencies/conan-center-index"]
+	path = C++_CONAN dependencies/conan-center-index
+	url = https://github.com/conan-io/conan-center-index.git
+[submodule "C++_CONAN dependencies/CppfrontTemplate"]
+	path = C++_CONAN dependencies/CppfrontTemplate
+	url = https://github.com/SavenkovIgor/CppfrontTemplate.git
+[submodule "C++_CONAN dependencies/Coronan"]
+	path = C++_CONAN dependencies/Coronan
+	url = https://github.com/bbvch/Coronan.git
