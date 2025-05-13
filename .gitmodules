@@ -31,3 +31,15 @@
 [submodule "C++_CONAN dependencies/Coronan"]
 	path = C++_CONAN dependencies/Coronan
 	url = https://github.com/bbvch/Coronan.git
+[submodule "java_Maven/java_Maven/spring-boot"]
+	path = java_Maven/java_Maven/spring-boot
+	url = https://github.com/spring-projects/spring-boot.git
+[submodule "java_Maven/java_Maven/java-design-patterns"]
+	path = java_Maven/java_Maven/java-design-patterns
+	url = https://github.com/iluwatar/java-design-patterns.git
+[submodule "java_Maven/java_Maven/mall"]
+	path = java_Maven/java_Maven/mall
+	url = https://github.com/macrozheng/mall.git
+[submodule "java_Maven/java_Maven/elasticsearch"]
+	path = java_Maven/java_Maven/elasticsearch
+	url = https://github.com/elastic/elasticsearch.git
