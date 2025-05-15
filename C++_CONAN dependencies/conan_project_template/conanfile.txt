@@ -1,0 +1,16 @@
+[requires]
+Boost/1.60.0@lasote/stable
+gmock/1.8.0@meshell/stable
+cucumber-cpp/master@meshell/stable
+
+[options]
+Boost:shared=False
+Boost:fPIC=True
+cucumber-cpp:disable_boost_test=True
+
+[generators]
+cmake
+
+[imports]
+bin, *.dll -> ./bin
+lib, *dylib -> ./bin

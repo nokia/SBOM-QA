@@ -1,0 +1,5 @@
+default: --no-source --no-color --tags ~@wip --tags ~@proposal --require features
+html: --no-source --no-color -f html -o ../../doc/Features.html -f pretty --tags ~@wip --tags ~@proposal --require features
+wip: --tags @wip:3 --wip --require features
+junit: -s --tags ~@wip --tags ~@proposal -f pretty -f junit -o ../../reports/tests --require features
+ci: -s --tags ~@wip --tags ~@proposal -f pretty -f junit -o ../../reports/tests -f html -o ../../doc/Features.html --require features
