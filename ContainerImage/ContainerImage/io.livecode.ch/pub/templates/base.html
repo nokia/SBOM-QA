@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{% filter striptags %}{% block title %}{% endblock %}{% endfilter %}</title>
+    <meta name="viewport" content="width=device-width">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/site.css" type="text/css" />
+{% block head_extra %}{% endblock %}
+  </head>
+<body>
+<h1>{{ self.title()|safe }}</h1>
+
+{% block body_top_extra %}{% endblock %}
+
+{% block content %}{% endblock %}
+
+{% block body_extra %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+
+cd $HOME/code
+./.io.livecode.ch/install
