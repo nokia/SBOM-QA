@@ -1,0 +1,44 @@
+{
+  "name": "@nestjs/platform-fastify",
+  "version": "11.1.1",
+  "description": "Nest - modern, fast, powerful node.js web framework (@platform-fastify)",
+  "author": "Kamil Mysliwiec",
+  "license": "MIT",
+  "homepage": "https://nestjs.com",
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/nest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nestjs/nest.git",
+    "directory": "packages/platform-fastify"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@fastify/cors": "11.0.1",
+    "@fastify/formbody": "8.0.2",
+    "@fastify/middie": "9.0.3",
+    "fast-querystring": "1.1.2",
+    "fastify": "5.3.3",
+    "light-my-request": "6.6.0",
+    "path-to-regexp": "8.2.0",
+    "tslib": "2.8.1"
+  },
+  "peerDependencies": {
+    "@fastify/static": "^8.0.0",
+    "@fastify/view": "^10.0.0 || ^11.0.0",
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/core": "^11.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@fastify/static": {
+      "optional": true
+    },
+    "@fastify/view": {
+      "optional": true
+    }
+  }
+}
