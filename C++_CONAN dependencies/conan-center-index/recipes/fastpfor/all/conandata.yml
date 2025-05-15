@@ -1,0 +1,9 @@
+sources:
+  "0.2.0":
+    url: "https://github.com/lemire/FastPFor/archive/refs/tags/v0.2.0.tar.gz"
+    sha256: "d9f0eacf9c3c61866cda23bae35107ca9c5d35fa7b7a96ca9ccc85803d7e753d"
+patches:
+  "0.2.0":
+    - patch_file: "patches/0.2.0-0001-fix-cmake.patch"
+      patch_description: "enable shared build, disable unittest/utility"
+      patch_type: "conan"
