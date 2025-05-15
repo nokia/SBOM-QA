@@ -1,0 +1,34 @@
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    timeout-minutes: 30
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install latest cmake and ninja
+      uses: lukka/get-cmake@latest
+
+    - name: Install Conan package manager
+      uses: turtlebrowser/get-conan@main
+      with:
+        version: 2.0.9
+
+    - name: Create default Conan profile
+      run: conan profile detect
+
+    - name: Replace default Conan profile
+      run: cp conan_profile/default ~/.conan2/profiles/default
+
+    - name: Install
+      run: ./project.py --install
+
+    - name: Build
+      run: ./project.py --build
+
+    - name: Run
+      run: ./project.py --run

@@ -1,0 +1,10 @@
+#include <fmt/core.h>
+
+printHelloWorld: (in num: int) = {
+    fmt::print("Hello, {} world!\n", num);
+}
+
+main: () -> int = {
+    printHelloWorld(42);
+    return 0;
+}
