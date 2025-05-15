@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+package math;
+
+service Math {
+  rpc Sum (RequestSum) returns (SumResult);
+  rpc SumStream(stream RequestSum) returns(stream SumResult);
+  rpc SumStreamPass(stream RequestSum) returns(stream SumResult);
+  rpc Divide (RequestDivide) returns (DivideResult);
+  rpc StreamLargeMessages(Empty) returns (stream BackpressureData);
+  /* Given a series of dividend and divisor, stream back the division results for each */
+  rpc StreamDivide (StreamDivideRequest) returns (stream StreamDivideResponse);
+}
+
+message BackpressureData {
+    int32 id = 1;
+    string data = 2;
+}
+
+message Empty {}
+
+message SumResult {
+  int32 result = 1;
+}
+
+message RequestSum {
+  repeated int32 data = 1;
+}
+
+message RequestDivide {
+  int32 dividend = 1;
+  int32 divisor = 2 ;
+}
+
+message DivideResult {
+  int32 result = 1;
+}
+
+message StreamDivideRequest {
+  repeated RequestDivide data = 1;
+}
+
+message StreamDivideResponse {
+  DivideResult data = 1;
+}
