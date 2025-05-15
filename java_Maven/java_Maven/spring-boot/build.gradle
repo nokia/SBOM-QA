@@ -1,0 +1,26 @@
+plugins {
+	id "base"
+	id "org.jetbrains.kotlin.jvm" apply false // https://youtrack.jetbrains.com/issue/KT-30276
+}
+
+description = "Spring Boot Build"
+
+defaultTasks 'build'
+
+allprojects {
+	group = "org.springframework.boot"
+}
+
+subprojects {
+	apply plugin: "org.springframework.boot.conventions"
+
+	repositories {
+		mavenCentral()
+		spring.mavenRepositories()
+	}
+
+	configurations.all {
+		resolutionStrategy.cacheChangingModulesFor 0, "minutes"
+	}
+}
+
