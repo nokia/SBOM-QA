@@ -1,0 +1,62 @@
+{
+    "folders": [
+        {
+            "name": "Coronan",
+            "path": "."
+        },
+        {
+            "name": "CLI",
+            "path": "./apps/cli"
+        },
+        {
+            "name": "Qt app",
+            "path": "./apps/qt"
+        },
+        {
+            "name": "Documentation",
+            "path": "./docs"
+        }
+    ],
+    "settings": {
+        "cmake.configureOnOpen": false,
+        "cmake.configureOnEdit": false,
+        "cmake.skipConfigureIfCachePresent": true,
+        "clangd.arguments": [
+            "--log=verbose",
+            "--pretty",
+            "--background-index=true",
+            "--all-scopes-completion",
+            "--compile-commands-dir=${workspaceFolder}/build",
+            "--clang-tidy",
+            "--header-insertion=iwyu",
+        ],
+        "clang-format.style": "file",
+        "C_Cpp.formatting": "disabled",
+        "C_Cpp.intelliSenseEngine": "disabled",
+        "testMate.cpp.discovery.loadOnStartup": true,
+        "[cpp]": {
+            "editor.defaultFormatter": "xaver.clang-format"
+        },
+        "editor.formatOnSave": true,
+        "editor.inlayHints.enabled": "offUnlessPressed",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "files.insertFinalNewline": true,
+        "files.trimFinalNewlines": true,
+        "files.trimTrailingWhitespace": true,
+        "files.eol": "\n",
+        "files.autoSave": "off",
+        "files.exclude": {
+            "**/.git": true
+        },
+        "files.watcherExclude": {
+            "**/.git/objects/**": true,
+            "**/.git/subtree-cache/**": true,
+            "**/.direnv/**": true,
+            "**/.clangd/**": true
+        }
+    }
+}

@@ -1,0 +1,88 @@
+---
+name: MacOS Builds
+
+on:
+    push:
+    pull_request:
+    release:
+        types: [published]
+
+jobs:
+    ci:
+        name: ${{ matrix.name }}
+        runs-on: ${{ matrix.os }}
+
+        strategy:
+            fail-fast: false
+            matrix:
+                include:
+                    - name: macOS-13-clang
+                      os: macOS-13
+                      build_type: Release
+                      cppcompiler: clang++
+                      ccompiler: clang
+                      generators: Ninja
+                    - name: macOS-14-clang
+                      os: macOS-14
+                      build_type: Release
+                      cppcompiler: clang++
+                      ccompiler: clang
+                      generators: Ninja
+                    - name: macOS-15-clang
+                      os: macOS-15
+                      build_type: Release
+                      cppcompiler: clang++
+                      ccompiler: clang
+                      generators: Ninja
+
+        env:
+            CXX: ${{ matrix.cppcompiler }}
+            CC: ${{ matrix.ccompiler }}
+
+        steps:
+            - uses: actions/checkout@v4
+            - name: Install dependencies
+              run: brew install ninja doxygen sphinx-doc
+            - name: Set up Python
+              uses: actions/setup-python@v5
+              with:
+                  python-version: 3.x
+            - name: Install python dependencies
+              run: |
+                  python -m pip install --upgrade pip
+                  pip install -r py-requirements.txt
+            - name: Install Qt
+              uses: jurplel/install-qt-action@v4
+              with:
+                  version: 6.8.3
+                  host: mac
+                  target: desktop
+                  arch: clang_64
+                  modules: qtcharts
+                  tools: tools_ifw
+            - name: Set conan compiler env
+              run: conan profile detect
+            - name: conan install
+              run: conan install . --build=missing --settings=build_type=${{ matrix.build_type }}
+            - name: CMake configure
+              run: |
+                  cmake -S . -B ./build -G "${{ matrix.generators }}" \
+                  -DENABLE_COVERAGE=${{ matrix.coverage }} \
+                  -DCMAKE_BUILD_TYPE=${{ matrix.build_type }}
+            - name: CMake build
+              run: cmake --build ./build --config ${{ matrix.build_type }}
+            - name: CTest
+              run: ctest -C Debug
+              working-directory: ./build
+            - name: CMake build packages
+              run: |
+                  cpack
+                  cpack --config CPackSourceConfig.cmake
+              working-directory: ./build
+            - uses: actions/upload-artifact@v4
+              with:
+                  name: ${{ matrix.name }}-artifacts
+                  path: |
+                      ./build/Coronan-*.tar.gz
+                      ./build/Coronan-*.pkg
+                      ./build/Coronan-*.dmg

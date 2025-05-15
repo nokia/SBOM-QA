@@ -1,0 +1,9 @@
+build/
+.vs/
+docs/conf.py
+CMakeFiles/*
+.cache/*
+CMakeUserPresets.json
+include/coronan/config.hpp
+.github/workflows/ci-windows.yml
+.venv/

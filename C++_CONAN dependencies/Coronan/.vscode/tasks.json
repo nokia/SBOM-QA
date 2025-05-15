@@ -1,0 +1,55 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build",
+        "command": "cmake --build build",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": {
+          "base": "$gcc"
+        },
+        "options": {
+          "cwd": "${workspaceFolder}/"
+        },
+        "type": "shell",
+        "presentation": {
+          "clear": true
+        }
+      },
+      {
+        "label": "clean",
+        "command": "/usr/bin/rm -rf build",
+        "group": "build",
+        "problemMatcher": [],
+        "type": "shell"
+      },
+      {
+        "label": "unittests",
+        "command": "cmake --build --preset=run-unittests",
+        "group": {
+          "isDefault": true,
+          "kind": "test"
+        },
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "problemMatcher": [],
+        "type": "shell"
+      },
+      {
+        "label": "format files",
+        "command": "./format_source_files.sh",
+        "problemMatcher": [],
+        "type": "shell"
+      },
+      {
+        "label": "run pre-commit hooks",
+        "command": "pre-commit run --all-files",
+        "problemMatcher": [],
+        "type": "shell"
+      }
+    ]
+  }

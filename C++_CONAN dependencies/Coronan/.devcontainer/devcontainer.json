@@ -1,0 +1,40 @@
+{
+	"name": "C++",
+	"build": {
+        "context": "..",
+		"dockerfile": "Dockerfile",
+		"args": {
+			"CLANG_VERSION": "18",
+			"GCC_VERSION": "14"
+		}
+	},
+	"mounts": [
+        "source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind",
+		"source=${localEnv:HOME}/.conan2,target=/home/vscode/.conan2,type=bind",
+		"source=native-ccache,target=/opt/.native-ccache,type=volume"
+	],
+    "updateRemoteUserUID": true,
+	"postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
+
+	"postAttachCommand": "pre-commit install -f --hook-type pre-commit && conan profile detect --force && conan install . --build=missing --settings=build_type=Debug && conan install . --build=missing --settings=build_type=Release",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools",
+				"ms-vscode.cpptools-extension-pack",
+				"xaver.clang-format",
+				"llvm-vs-code-extensions.vscode-clangd",
+				"twxs.cmake",
+				"ms-vscode.cmake-tools",
+				"mhutchie.git-graph",
+				"donjayamanne.githistory",
+				"webfreak.debug",
+				"jnoortheen.nix-ide",
+				"ms-python.python",
+				"hbenl.vscode-test-explorer",
+				"ms-azuretools.vscode-docker",
+				"codacy-app.codacy"
+			]
+		}
+	}
+}

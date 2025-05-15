@@ -1,0 +1,17 @@
+{
+	"recommendations": [
+		"llvm-vs-code-extensions.vscode-clangd",
+		"vadimcn.vscode-lldb",
+		"ms-vscode.cpptools",
+		"ms-vscode.cmake-tools",
+		"twxs.cmake",
+		"jeff-hykin.better-cpp-syntax",
+		"ms-python.python",
+		"ms-python.autopep8",
+		"xaver.clang-format",
+		"matepek.vscode-catch2-test-adapter",
+		"jnoortheen.nix-ide",
+		"notskm.clang-tidy"
+	],
+	"unwantedRecommendations": []
+}

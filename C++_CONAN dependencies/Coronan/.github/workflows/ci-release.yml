@@ -1,0 +1,172 @@
+---
+name: Release
+
+on:
+    push:
+        tags:
+            - v*
+
+jobs:
+    build-linux:
+        runs-on: ubuntu-24.04
+        env:
+            CXX: g++
+            CC: gcc
+        steps:
+            - uses: actions/checkout@v4
+            - name: Install dependencies
+              run: |
+                  sudo apt-get update
+                  sudo apt-get install -y --no-install-recommends ccache ninja-build dpkg pkg-config doxygen lcov
+                  sudo apt-get install -y --no-install-recommends libgl1-mesa-dev freeglut3-dev
+            - name: Install Qt
+              run: |
+                  sudo apt-get update
+                  sudo apt-get install -y --no-install-recommends qt6-base-dev qt6-tools-dev qt6-tools-dev-tools libqt6charts6 libqt6charts6-dev libqt6opengl6 libqt6opengl6-dev '^libxcb.*-dev' libgles2-mesa-dev libx11-xcb-dev libgl1-mesa-dev libglu1-mesa-dev libxrender-dev libxi-dev libxkbcommon-dev libxkbcommon-x11-dev
+            - name: Set up Python
+              uses: actions/setup-python@v5
+              with:
+                  python-version: 3.x
+            - name: Install python dependencies
+              run: |
+                  python -m pip install --upgrade pip
+                  pip install -r py-requirements.txt
+            - name: Install Qt
+              uses: jurplel/install-qt-action@v4
+              with:
+                  version: 6.8.3
+                  host: linux
+                  target: desktop
+                  modules: qtcharts
+                  tools: tools_ifw
+            - name: Set conan compiler env
+              run: conan profile detect
+            - name: conan install
+              run: conan install . --build=missing --settings=build_type=Release --settings=compiler.cppstd=17
+            - name: CMake configure
+              run: |
+                  cmake -S . --preset=linux-gcc-release
+            - name: CMake build
+              run: cmake --build ./build --config Release
+            - name: CMake build packages
+              run: |
+                  cpack
+                  cpack --config CPackSourceConfig.cmake
+              working-directory: ./build
+            - uses: actions/upload-artifact@v4
+              with:
+                  name: linux-artifacts
+                  path: |
+                      ./build/Coronan-*.deb
+                      ./build/Coronan-*.tar.gz
+                      ./build/Coronan-*.run
+
+    build-windows:
+        runs-on: windows-2025
+        steps:
+            - uses: actions/checkout@v4
+            - name: Install dependencies
+              run: |
+                  choco install doxygen.install
+            - name: Set up Python
+              uses: actions/setup-python@v5
+              with:
+                  python-version: 3.x
+            - name: Install python dependencies
+              run: |
+                  python -m pip install --upgrade pip
+                  pip install -r py-requirements.txt
+            - name: Install Qt
+              uses: jurplel/install-qt-action@v4
+              with:
+                  version: 6.8.3
+                  host: windows
+                  target: desktop
+                  arch: win64_msvc2022_64
+                  modules: qtcharts
+                  tools: tools_ifw
+            - name: setup-msvc-dev
+              uses: TheMrMilchmann/setup-msvc-dev@v3
+              with:
+                  arch: x64
+            - name: Set conan compiler env
+              run: conan profile detect
+            - name: conan install
+              run: conan install . --build=missing --settings=build_type=Release --settings=compiler.cppstd=17
+            - name: CMake configure
+              run: |
+                  cmake -S . --preset=visual-studio-2022-release
+            - name: CMake build
+              run: cmake --build ./build --config Release
+            - name: CMake build packages
+              run: |
+                  cpack
+                  cpack --config CPackSourceConfig.cmake
+              working-directory: ./build
+            - uses: actions/upload-artifact@v4
+              with:
+                  name: windows-artifacts
+                  path: |
+                      ./build/Coronan-*.zip
+                      ./build/Coronan-*.msi
+                      ./build/Coronan-*.exe
+
+    build-macos:
+        runs-on: macOS-15
+        steps:
+            - uses: actions/checkout@v4
+            - name: Install dependencies
+              run: brew install ninja doxygen sphinx-doc
+            - name: Set up Python
+              uses: actions/setup-python@v5
+              with:
+                  python-version: 3.x
+            - name: Install python dependencies
+              run: |
+                  python -m pip install --upgrade pip
+                  pip install -r py-requirements.txt
+            - name: Install Qt
+              uses: jurplel/install-qt-action@v4
+              with:
+                  version: 6.8.3
+                  host: mac
+                  target: desktop
+                  arch: clang_64
+                  modules: qtcharts
+                  tools: tools_ifw
+            - name: Set conan compiler env
+              run: conan profile detect
+            - name: conan install
+              run: conan install . --build=missing --settings=build_type=Release
+            - name: CMake configure
+              run: |
+                  cmake -S . -B ./build -G "Ninja" -DCMAKE_BUILD_TYPE=Release
+            - name: CMake build
+              run: cmake --build ./build --config Release
+            - name: CMake build packages
+              run: cpack
+              working-directory: ./build
+            - uses: actions/upload-artifact@v4
+              with:
+                  name: macos-artifacts
+                  path: |
+                      ./build/Coronan-*.tar.gz
+                      ./build/Coronan-*.pkg
+                      ./build/Coronan-*.dmg
+
+    release:
+        needs: [build-linux, build-windows, build-macos]
+        runs-on: ubuntu-latest
+        steps:
+            - name: Download all artifacts
+              uses: actions/download-artifact@v4
+              with:
+                  path: ./downloads
+
+            - name: Create GitHub Release
+              uses: softprops/action-gh-release@v2
+              with:
+                  tag_name: ${{ github.ref_name }} # z. B. v1.2.3
+                  name: Release ${{ github.ref_name }}
+                  files: |
+                      downloads/**/*

@@ -1,0 +1,452 @@
+{
+    "version": 6,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 25,
+        "patch": 0
+    },
+    "configurePresets": [
+        {
+            "name": "base",
+            "binaryDir": "${sourceDir}/build",
+            "cacheVariables": {
+                "ENABLE_TESTING": {
+                    "type": "BOOL",
+                    "value": true
+                }
+            },
+            "hidden": true
+        },
+        {
+            "name": "debug",
+            "description": "Configure debug build",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_PREFIX_PATH": {
+                    "type": "FILEPATH",
+                    "value": "${sourceDir}/build/Debug/generators"
+                }
+            },
+            "hidden": true
+        },
+        {
+            "name": "pch",
+            "description": "Enable precompiled headers",
+            "cacheVariables": {
+                "ENABLE_PCH": {
+                    "type": "BOOL",
+                    "value": true
+                },
+                "ENABLE_CLANG_TIDY": {
+                    "type": "BOOL",
+                    "value": false
+                }
+            },
+            "hidden": true
+        },
+        {
+            "name": "coverage",
+            "description": "Configure coverage",
+            "inherits": [
+                "debug"
+            ],
+            "cacheVariables": {
+                "ENABLE_COVERAGE": {
+                    "type": "BOOL",
+                    "value": true
+                }
+            },
+            "hidden": true
+        },
+        {
+            "name": "release",
+            "description": "Configure release build",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release",
+                "CMAKE_PREFIX_PATH": {
+                    "type": "FILEPATH",
+                    "value": "${sourceDir}/build/Release/generators"
+                }
+            },
+            "hidden": true
+        },
+        {
+            "name": "linux-gcc",
+            "description": "Configure gnu (Ninja)",
+            "generator": "Ninja Multi-Config",
+            "inherits": [
+                "base"
+            ],
+            "cacheVariables": {
+                "CMAKE_CXX_COMPILER": "g++",
+                "CMAKE_C_COMPILER": "gcc"
+            },
+            "hidden": true
+        },
+        {
+            "name": "linux-clang",
+            "description": "Configure clang (Ninja)",
+            "generator": "Ninja Multi-Config",
+            "inherits": [
+                "base"
+            ],
+            "cacheVariables": {
+                "CMAKE_CXX_COMPILER": "clang++",
+                "CMAKE_C_COMPILER": "clang"
+            },
+            "hidden": true
+        },
+        {
+            "name": "linux-gcc-coverage",
+            "displayName": "Coverage (gnu)",
+            "description": "Configure Coverage (gnu)",
+            "hidden": false,
+            "inherits": [
+                "linux-gcc",
+                "coverage"
+            ]
+        },
+        {
+            "name": "linux-gcc-debug",
+            "displayName": "Debug (gnu)",
+            "description": "Configure Debug (gnu)",
+            "hidden": false,
+            "inherits": [
+                "linux-gcc",
+                "debug",
+                "pch"
+            ]
+        },
+        {
+            "name": "linux-gcc-release",
+            "displayName": "Release (gcc)",
+            "description": "Configure Release (gcc)",
+            "hidden": false,
+            "inherits": [
+                "linux-gcc",
+                "release",
+                "pch"
+            ]
+        },
+        {
+            "name": "linux-clang-coverage",
+            "displayName": "Coverage (clang)",
+            "description": "Configure Coverage (clang)",
+            "hidden": false,
+            "inherits": [
+                "linux-clang",
+                "coverage"
+            ]
+        },
+        {
+            "name": "linux-clang-debug",
+            "displayName": "Debug (clang)",
+            "description": "Configure Debug (clang)",
+            "hidden": false,
+            "inherits": [
+                "linux-clang",
+                "debug",
+                "pch"
+            ]
+        },
+        {
+            "name": "linux-clang-release",
+            "displayName": "Release (clang)",
+            "description": "Configure Release (clang)",
+            "hidden": false,
+            "inherits": [
+                "linux-clang",
+                "release",
+                "pch"
+            ]
+        },
+        {
+            "name": "linux-clang-address-sanitizers",
+            "description": "Configure clang build with address sanitizers",
+            "displayName": "Address sanitizers",
+            "hidden": false,
+            "inherits": [
+                "linux-clang",
+                "debug"
+            ],
+            "cacheVariables": {
+                "ENABLE_SANITIZERS": {
+                    "type": "BOOL",
+                    "value": true
+                },
+                "ENABLE_SANITIZER_ADDRESS": {
+                    "type": "BOOL",
+                    "value": true
+                },
+                "ENABLE_SANITIZER_LEAK": {
+                    "type": "BOOL",
+                    "value": true
+                },
+                "ENABLE_SANITIZER_UNDEFINED_BEHAVIOR": {
+                    "type": "BOOL",
+                    "value": true
+                }
+            }
+        },
+        {
+            "name": "linux-clang-memory-sanitizers",
+            "description": "Configure clang build with memory sanitizers",
+            "displayName": "Memory sanitizers",
+            "hidden": false,
+            "inherits": [
+                "linux-clang",
+                "debug"
+            ],
+            "cacheVariables": {
+                "ENABLE_SANITIZERS": {
+                    "type": "BOOL",
+                    "value": true
+                },
+                "ENABLE_SANITIZER_MEMORY": {
+                    "type": "BOOL",
+                    "value": true
+                }
+            }
+        },
+        {
+            "name": "visual-studio-2022",
+            "description": "Configure Visual Studio 2022 build",
+            "generator": "Visual Studio 17 2022",
+            "inherits": [
+                "base"
+            ],
+            "hidden": true
+        },
+        {
+            "name": "visual-studio-2022-debug",
+            "displayName": "Visual Studio 2022 (Debug)",
+            "description": "Configure Visual Studio 2022 Debug build",
+            "hidden": false,
+            "inherits": [
+                "visual-studio-2022",
+                "debug"
+            ]
+        },
+        {
+            "name": "visual-studio-2022-release",
+            "displayName": "Visual Studio 2022 (Release)",
+            "description": "Configure Visual Studio 2022 Release build",
+            "hidden": false,
+            "inherits": [
+                "visual-studio-2022",
+                "release"
+            ]
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "gcc-debug",
+            "description": "gcc debug build.",
+            "displayName": "Debug",
+            "configurePreset": "linux-gcc-debug",
+            "configuration": "Debug",
+            "jobs": 16
+        },
+        {
+            "name": "gcc-coverage",
+            "description": "gcc debug with coverage.",
+            "displayName": "Coverage",
+            "configurePreset": "linux-gcc-coverage",
+            "configuration": "Debug",
+            "jobs": 16
+        },
+        {
+            "name": "gcc-release",
+            "description": "gcc release build.",
+            "displayName": "Release",
+            "configurePreset": "linux-gcc-release",
+            "configuration": "Release",
+            "jobs": 16
+        },
+        {
+            "name": "clang-debug",
+            "description": "clang debug build.",
+            "displayName": "Debug",
+            "configurePreset": "linux-clang-debug",
+            "configuration": "Debug",
+            "jobs": 16
+        },
+        {
+            "name": "clang-coverage",
+            "description": "clang debug with coverage.",
+            "displayName": "Coverage",
+            "configurePreset": "linux-clang-coverage",
+            "configuration": "Debug",
+            "jobs": 16
+        },
+        {
+            "name": "clang-release",
+            "description": "clang release build.",
+            "displayName": "Release",
+            "configurePreset": "linux-clang-release",
+            "configuration": "Release",
+            "jobs": 16
+        },
+        {
+            "name": "clang-address-sanitizers",
+            "description": "clang address sanitizers build.",
+            "displayName": "Address Sanitizers",
+            "configurePreset": "linux-clang-address-sanitizers",
+            "configuration": "Debug",
+            "jobs": 16
+        },
+        {
+            "name": "clang-memory-sanitizers",
+            "description": "clang memory sanitizers build.",
+            "displayName": "Memory Sanitizers",
+            "configurePreset": "linux-clang-memory-sanitizers",
+            "configuration": "Debug",
+            "jobs": 16
+        },
+        {
+            "name": "visual-studio-debug",
+            "description": "Visual Studio 2022 Debug build.",
+            "displayName": "Debug (Visual Studio)",
+            "configurePreset": "visual-studio-2022-debug",
+            "configuration": "Debug",
+            "jobs": 16
+        },
+        {
+            "name": "visual-studio-release",
+            "description": "Visual Studio 2022 Release build.",
+            "displayName": "Release (Visual Studio)",
+            "configurePreset": "visual-studio-2022-release",
+            "configuration": "Release",
+            "jobs": 16
+        },
+        {
+            "name": "run-unittests",
+            "description": "Unittests",
+            "displayName": "run unit tests",
+            "inherits": "gcc-coverage",
+            "targets": [
+                "run_unittests"
+            ]
+        },
+        {
+            "name": "doc",
+            "description": "gcc docu build.",
+            "displayName": "Documentation (linux)",
+            "configurePreset": "linux-gcc-release",
+            "configuration": "Release",
+            "jobs": 16,
+            "targets": [
+                "doxygen-docs"
+            ]
+        },
+        {
+            "name": "doc-windows",
+            "description": "windows docu build.",
+            "displayName": "Documentation (win)",
+            "configurePreset": "visual-studio-2022-release",
+            "configuration": "Release",
+            "jobs": 16,
+            "targets": [
+                "doxygen-docs"
+            ]
+        }
+    ],
+    "testPresets": [
+        {
+            "name": "unittest-coverage-gcc",
+            "description": "Unittest with coverage (gcc)",
+            "displayName": "Unittest Coverage",
+            "configurePreset": "linux-gcc-coverage"
+        },
+        {
+            "name": "unittest-gcc",
+            "description": "Unittest (gcc)",
+            "displayName": "Unittest",
+            "configurePreset": "linux-gcc-debug"
+        },
+        {
+            "name": "unittest-coverage-clang",
+            "description": "Unittest with coverage (clang)",
+            "displayName": "Unittest Coverage",
+            "configurePreset": "linux-clang-coverage"
+        },
+        {
+            "name": "unittest-clang",
+            "description": "Unittest (clang)",
+            "displayName": "Unittest",
+            "configurePreset": "linux-clang-debug"
+        },
+        {
+            "name": "unittest-vs-2022",
+            "description": "Unittest (Visual Studio",
+            "displayName": "Unittest",
+            "configurePreset": "visual-studio-2022-debug"
+        }
+    ],
+    "packagePresets": [
+        {
+            "name": "tgz-gcc",
+            "displayName": "Tar GZip",
+            "configurePreset": "linux-gcc-release",
+            "generators": [
+                "TGZ"
+            ]
+        },
+        {
+            "name": "tgz-clang",
+            "displayName": "Tar GZip",
+            "configurePreset": "linux-clang-release",
+            "generators": [
+                "TGZ"
+            ]
+        },
+        {
+            "name": "debian-gcc",
+            "displayName": "Debian package",
+            "configurePreset": "linux-gcc-release",
+            "generators": [
+                "DEB"
+            ]
+        },
+        {
+            "name": "debian-clang",
+            "displayName": "Debian package",
+            "configurePreset": "linux-clang-release",
+            "generators": [
+                "DEB"
+            ]
+        },
+        {
+            "name": "ifw-gcc",
+            "displayName": "Qt installer",
+            "configurePreset": "linux-gcc-release",
+            "generators": [
+                "IFW"
+            ]
+        },
+        {
+            "name": "ifw-gclang",
+            "displayName": "Qt installer",
+            "configurePreset": "linux-clang-release",
+            "generators": [
+                "IFW"
+            ]
+        },
+        {
+            "name": "ifw-visual-studio-2022",
+            "displayName": "Windows IFW",
+            "configurePreset": "visual-studio-2022-release",
+            "generators": [
+                "IFW"
+            ]
+        },
+        {
+            "name": "wix-visual-studio-2022",
+            "displayName": "Windows Wix",
+            "configurePreset": "visual-studio-2022-release",
+            "generators": [
+                "WIX"
+            ]
+        }
+    ]
+}

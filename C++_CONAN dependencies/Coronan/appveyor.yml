@@ -1,0 +1,42 @@
+---
+image:
+    - Visual Studio 2022
+clone_folder: c:\projects\coronan
+cache:
+    - c:\Users\appveyor\.conan -> cmake/Conan.cmake
+    - c:\.conan -> cmake/Conan.cmake
+    - c:\ProgramData\chocolatey\lib -> appveyor.yml
+    - c:\Users\appveyor\appdata\local\pip\cache -> py-requirements.txt
+
+environment:
+    PYTHON: c:\Python39-x64\python.exe
+    Qt6_DIR: c:\Qt\6.8.1\msvc2022_64
+
+install:
+    - cmd: |-
+          choco install doxygen.install
+          choco install qt6-base-dev
+          set PATH=%PATH%;C:\Users\appveyor\AppData\Roaming\Python\Python39\Scripts
+          "%PYTHON%" -m pip install --user -r %APPVEYOR_BUILD_FOLDER%\py-requirements.txt
+          conan profile detect
+
+before_build:
+    - cmd: |-
+          conan install . --build=missing --settings=build_type=Release --settings=compiler.cppstd=17
+          cmake -S %APPVEYOR_BUILD_FOLDER% --preset=visual-studio-2022-release
+
+build_script:
+    - cmd: |-
+          cmake --build --preset=visual-studio-release
+          cmake --build build --target package --config Release
+
+test_script:
+    - cmd: ctest --preset=unittest-vs-2022
+
+artifacts:
+    - path: \build\Coronan-*.msi
+      name: Coronan_installer
+      type: File
+    - path: \build\Coronan-*.exe
+      name: Coronan_qt_installer
+      type: File
