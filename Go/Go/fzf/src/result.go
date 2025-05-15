@@ -1,0 +1,302 @@
+package fzf
+
+import (
+	"math"
+	"sort"
+	"unicode"
+
+	"github.com/junegunn/fzf/src/tui"
+	"github.com/junegunn/fzf/src/util"
+)
+
+// Offset holds two 32-bit integers denoting the offsets of a matched substring
+type Offset [2]int32
+
+type colorOffset struct {
+	offset [2]int32
+	color  tui.ColorPair
+	match  bool
+	url    *url
+}
+
+type Result struct {
+	item   *Item
+	points [4]uint16
+}
+
+func buildResult(item *Item, offsets []Offset, score int) Result {
+	if len(offsets) > 1 {
+		sort.Sort(ByOrder(offsets))
+	}
+
+	result := Result{item: item}
+	numChars := item.text.Length()
+	minBegin := math.MaxUint16
+	minEnd := math.MaxUint16
+	maxEnd := 0
+	validOffsetFound := false
+	for _, offset := range offsets {
+		b, e := int(offset[0]), int(offset[1])
+		if b < e {
+			minBegin = util.Min(b, minBegin)
+			minEnd = util.Min(e, minEnd)
+			maxEnd = util.Max(e, maxEnd)
+			validOffsetFound = true
+		}
+	}
+
+	for idx, criterion := range sortCriteria {
+		val := uint16(math.MaxUint16)
+		switch criterion {
+		case byScore:
+			// Higher is better
+			val = math.MaxUint16 - util.AsUint16(score)
+		case byChunk:
+			if validOffsetFound {
+				b := minBegin
+				e := maxEnd
+				for ; b >= 1; b-- {
+					if unicode.IsSpace(item.text.Get(b - 1)) {
+						break
+					}
+				}
+				for ; e < numChars; e++ {
+					if unicode.IsSpace(item.text.Get(e)) {
+						break
+					}
+				}
+				val = util.AsUint16(e - b)
+			}
+		case byLength:
+			val = item.TrimLength()
+		case byPathname:
+			if validOffsetFound {
+				// lastDelim := strings.LastIndexByte(item.text.ToString(), '/')
+				lastDelim := -1
+				s := item.text.ToString()
+				for i := len(s) - 1; i >= 0; i-- {
+					if s[i] == '/' || s[i] == '\\' {
+						lastDelim = i
+						break
+					}
+				}
+				if lastDelim <= minBegin {
+					val = util.AsUint16(minBegin - lastDelim)
+				}
+			}
+		case byBegin, byEnd:
+			if validOffsetFound {
+				whitePrefixLen := 0
+				for idx := 0; idx < numChars; idx++ {
+					r := item.text.Get(idx)
+					whitePrefixLen = idx
+					if idx == minBegin || !unicode.IsSpace(r) {
+						break
+					}
+				}
+				if criterion == byBegin {
+					val = util.AsUint16(minEnd - whitePrefixLen)
+				} else {
+					val = util.AsUint16(math.MaxUint16 - math.MaxUint16*(maxEnd-whitePrefixLen)/(int(item.TrimLength())+1))
+				}
+			}
+		}
+		result.points[3-idx] = val
+	}
+
+	return result
+}
+
+// Sort criteria to use. Never changes once fzf is started.
+var sortCriteria []criterion
+
+// Index returns ordinal index of the Item
+func (result *Result) Index() int32 {
+	return result.item.Index()
+}
+
+func minRank() Result {
+	return Result{item: &minItem, points: [4]uint16{math.MaxUint16, 0, 0, 0}}
+}
+
+func (result *Result) colorOffsets(matchOffsets []Offset, nthOffsets []Offset, theme *tui.ColorTheme, colBase tui.ColorPair, colMatch tui.ColorPair, attrNth tui.Attr) []colorOffset {
+	itemColors := result.item.Colors()
+
+	// No ANSI codes
+	if len(itemColors) == 0 && len(nthOffsets) == 0 {
+		var offsets []colorOffset
+		for _, off := range matchOffsets {
+			offsets = append(offsets, colorOffset{offset: [2]int32{off[0], off[1]}, color: colMatch, match: true})
+		}
+		return offsets
+	}
+
+	// Find max column
+	var maxCol int32
+	for _, off := range append(matchOffsets, nthOffsets...) {
+		if off[1] > maxCol {
+			maxCol = off[1]
+		}
+	}
+	for _, ansi := range itemColors {
+		if ansi.offset[1] > maxCol {
+			maxCol = ansi.offset[1]
+		}
+	}
+
+	type cellInfo struct {
+		index int
+		color bool
+		match bool
+		nth   bool
+	}
+
+	cols := make([]cellInfo, maxCol)
+	for colorIndex, ansi := range itemColors {
+		for i := ansi.offset[0]; i < ansi.offset[1]; i++ {
+			cols[i] = cellInfo{colorIndex, true, false, false}
+		}
+	}
+
+	for _, off := range matchOffsets {
+		for i := off[0]; i < off[1]; i++ {
+			cols[i].match = true
+		}
+	}
+
+	for _, off := range nthOffsets {
+		for i := off[0]; i < off[1]; i++ {
+			cols[i].nth = true
+		}
+	}
+
+	// sort.Sort(ByOrder(offsets))
+
+	// Merge offsets
+	// ------------  ----  --  ----
+	//   ++++++++      ++++++++++
+	// --++++++++--  --++++++++++---
+	var curr cellInfo = cellInfo{0, false, false, false}
+	start := 0
+	ansiToColorPair := func(ansi ansiOffset, base tui.ColorPair) tui.ColorPair {
+		fg := ansi.color.fg
+		bg := ansi.color.bg
+		if fg == -1 {
+			fg = colBase.Fg()
+		}
+		if bg == -1 {
+			bg = colBase.Bg()
+		}
+		return tui.NewColorPair(fg, bg, ansi.color.attr).MergeAttr(base)
+	}
+	var colors []colorOffset
+	add := func(idx int) {
+		if (curr.color || curr.nth || curr.match) && idx > start {
+			if curr.match {
+				var color tui.ColorPair
+				if curr.nth {
+					color = colBase.WithAttr(attrNth).Merge(colMatch)
+				} else {
+					color = colBase.Merge(colMatch)
+				}
+				var url *url
+				if curr.color && theme.Colored {
+					ansi := itemColors[curr.index]
+					url = ansi.color.url
+					origColor := ansiToColorPair(ansi, colMatch)
+					// hl or hl+ only sets the foreground color, so colMatch is the
+					// combination of either [hl and bg] or [hl+ and bg+].
+					//
+					// If the original text already has background color, and the
+					// foreground color of colMatch is -1, we shouldn't only apply the
+					// background color of colMatch.
+					// e.g. echo -e "\x1b[32;7mfoo\x1b[mbar" | fzf --ansi --color bg+:1,hl+:-1:underline
+					//      echo -e "\x1b[42mfoo\x1b[mbar" | fzf --ansi --color bg+:1,hl+:-1:underline
+					if color.Fg().IsDefault() && origColor.HasBg() {
+						color = origColor
+						if curr.nth {
+							color = color.WithAttr(attrNth)
+						}
+					} else {
+						color = origColor.MergeNonDefault(color)
+					}
+				}
+				colors = append(colors, colorOffset{
+					offset: [2]int32{int32(start), int32(idx)}, color: color, match: true, url: url})
+			} else if curr.color {
+				ansi := itemColors[curr.index]
+				color := ansiToColorPair(ansi, colBase)
+				if curr.nth {
+					color = color.WithAttr(attrNth)
+				}
+				colors = append(colors, colorOffset{
+					offset: [2]int32{int32(start), int32(idx)},
+					color:  color,
+					match:  false,
+					url:    ansi.color.url})
+			} else {
+				colors = append(colors, colorOffset{
+					offset: [2]int32{int32(start), int32(idx)},
+					color:  colBase.WithAttr(attrNth),
+					match:  false,
+					url:    nil})
+			}
+		}
+	}
+	for idx, col := range cols {
+		if col != curr {
+			add(idx)
+			start = idx
+			curr = col
+		}
+	}
+	add(int(maxCol))
+	return colors
+}
+
+// ByOrder is for sorting substring offsets
+type ByOrder []Offset
+
+func (a ByOrder) Len() int {
+	return len(a)
+}
+
+func (a ByOrder) Swap(i, j int) {
+	a[i], a[j] = a[j], a[i]
+}
+
+func (a ByOrder) Less(i, j int) bool {
+	ioff := a[i]
+	joff := a[j]
+	return (ioff[0] < joff[0]) || (ioff[0] == joff[0]) && (ioff[1] <= joff[1])
+}
+
+// ByRelevance is for sorting Items
+type ByRelevance []Result
+
+func (a ByRelevance) Len() int {
+	return len(a)
+}
+
+func (a ByRelevance) Swap(i, j int) {
+	a[i], a[j] = a[j], a[i]
+}
+
+func (a ByRelevance) Less(i, j int) bool {
+	return compareRanks(a[i], a[j], false)
+}
+
+// ByRelevanceTac is for sorting Items
+type ByRelevanceTac []Result
+
+func (a ByRelevanceTac) Len() int {
+	return len(a)
+}
+
+func (a ByRelevanceTac) Swap(i, j int) {
+	a[i], a[j] = a[j], a[i]
+}
+
+func (a ByRelevanceTac) Less(i, j int) bool {
+	return compareRanks(a[i], a[j], true)
+}
