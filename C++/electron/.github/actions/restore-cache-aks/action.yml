@@ -1,0 +1,49 @@
+name: 'Restore Cache AKS'
+description: 'Restores Electron src cache via AKS'
+inputs:
+  target-platform:
+    description: 'Target platform, should be linux, win, macos'
+runs:
+  using: "composite"
+  steps:
+  - name: Restore and Ensure Src Cache
+    shell: bash
+    run: |
+      if [ "${{ inputs.target-platform }}" = "win" ]; then
+        cache_path=/mnt/win-cache/$DEPSHASH.tar
+      else
+        cache_path=/mnt/cross-instance-cache/$DEPSHASH.tar
+      fi
+
+      echo "Using cache key: $DEPSHASH"
+      echo "Checking for cache in: $cache_path"
+      if [ ! -f "$cache_path" ]; then
+        echo "Cache Does Not Exist for $DEPSHASH - exiting"
+        exit 1
+      else
+        echo "Found Cache for $DEPSHASH at $cache_path"
+      fi
+
+      echo "Persisted cache is $(du -sh $cache_path | cut -f1)"
+      if [ `du  $cache_path | cut -f1` = "0" ]; then
+        echo "Cache is empty - exiting"
+        exit 1
+      fi
+
+      mkdir temp-cache
+      tar -xf $cache_path -C temp-cache
+      echo "Unzipped cache is $(du -sh temp-cache/src | cut -f1)"
+
+      if [ -d "temp-cache/src" ]; then
+        echo "Relocating Cache"
+        rm -rf src
+        mv temp-cache/src src
+      fi
+
+      if [ ! -d "src/third_party/blink" ]; then
+        echo "Cache was not correctly restored - exiting"
+        exit 1
+      fi
+
+      echo "Wiping Electron Directory"
+      rm -rf src/electron

@@ -1,0 +1,11 @@
+action("generate_mas_config") {
+  outputs = [ "$target_gen_dir/../../mas.h" ]
+  script = "../../script/generate-mas-config.py"
+  if (is_mas_build) {
+    args = [ "true" ]
+  } else {
+    args = [ "false" ]
+  }
+
+  args += rebase_path(outputs)
+}

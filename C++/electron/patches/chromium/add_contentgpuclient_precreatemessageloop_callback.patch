@@ -1,0 +1,49 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Milan Burda <milan.burda@gmail.com>
+Date: Thu, 11 Apr 2019 14:49:20 +0200
+Subject: add_contentgpuclient_precreatemessageloop_callback.patch
+
+This adds a ContentGpuClient::PreCreateMessageLoop() callback.
+Invoke in GpuMain after SetErrorMode, before starting the message loop.
+Allows Electron to restore WER when ELECTRON_DEFAULT_ERROR_MODE is set.
+
+This should be upstreamed.
+
+diff --git a/content/gpu/gpu_main.cc b/content/gpu/gpu_main.cc
+index cadb96febde3fb3fe90929873b1db452a6d8fb8f..09f5504127b5a5ec3d0d69d9eb6d0cd93e0e75cd 100644
+--- a/content/gpu/gpu_main.cc
++++ b/content/gpu/gpu_main.cc
+@@ -254,6 +254,10 @@ int GpuMain(MainFunctionParams parameters) {
+   // to the GpuProcessHost once the GpuServiceImpl has started.
+   viz::GpuServiceImpl::InstallPreInitializeLogHandler();
+ 
++  auto* client = GetContentClient()->gpu();
++  if (client)
++    client->PreCreateMessageLoop();
++
+   // We are experiencing what appear to be memory-stomp issues in the GPU
+   // process. These issues seem to be impacting the task executor and listeners
+   // registered to it. Create the task executor on the heap to guard against
+@@ -363,7 +367,6 @@ int GpuMain(MainFunctionParams parameters) {
+ #endif
+   const bool dead_on_arrival = !init_success;
+ 
+-  auto* client = GetContentClient()->gpu();
+   if (client) {
+     client->PostSandboxInitialized();
+   }
+diff --git a/content/public/gpu/content_gpu_client.h b/content/public/gpu/content_gpu_client.h
+index c89b010e7ac78e2a7246ee54fe302cd6b9299710..46fd522fb2ac2793a3a073a4f833a4425dcee941 100644
+--- a/content/public/gpu/content_gpu_client.h
++++ b/content/public/gpu/content_gpu_client.h
+@@ -32,6 +32,10 @@ class CONTENT_EXPORT ContentGpuClient {
+  public:
+   virtual ~ContentGpuClient() {}
+ 
++  // Allows the embedder to perform platform-specific initialization before
++  // creating the message loop.
++  virtual void PreCreateMessageLoop() {}
++
+   // Called during initialization once the GpuService has been initialized.
+   virtual void GpuServiceInitialized() {}
+ 

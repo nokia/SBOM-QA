@@ -1,0 +1,6 @@
+<button id="closeBtn">close webview</button>
+<webview id="webview" src="webview.html"></webview>
+<script>
+  webview.onclose = () => webview.remove()
+  closeBtn.onclick = () => webview.executeJavaScript('window.close()', true)
+</script>

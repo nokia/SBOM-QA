@@ -1,0 +1,21 @@
+<html>
+<body>
+<script type="text/javascript" charset="utf-8">
+  const { ipcRenderer } = require('electron');
+  const url = new URL(location.href);
+  const port = url.searchParams.get('port');
+  (async () => {
+    try {
+      const response = await fetch(`http://127.0.0.1:${port}`, {
+        headers: {
+          'Authorization': `Basic ${btoa('test:test')}`
+        }
+      });
+      ipcRenderer.sendToHost(await response.text());
+    } catch (error) {
+      ipcRenderer.sendToHost(error);
+    }
+  })();
+</script>
+</body>
+</html>

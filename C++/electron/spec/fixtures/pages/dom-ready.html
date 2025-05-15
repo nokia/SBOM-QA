@@ -1,0 +1,9 @@
+<html>
+<body>
+<script type="text/javascript" charset="utf-8">
+  const url = new URL(location.href);
+  const port = url.searchParams.get('port');
+  document.write("<img src='http://127.0.0.1:" + port + "/logo.png' />");
+</script>
+</body>
+</html>

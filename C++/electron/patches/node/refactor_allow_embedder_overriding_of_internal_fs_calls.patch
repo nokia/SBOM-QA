@@ -1,0 +1,23 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Samuel Attard <sattard@slack-corp.com>
+Date: Mon, 22 Apr 2019 13:23:37 -0700
+Subject: refactor: allow embedder overriding of internal FS calls
+
+We use this to allow node's 'fs' module to read from ASAR files as if they were
+a real filesystem.
+
+diff --git a/lib/internal/bootstrap/node.js b/lib/internal/bootstrap/node.js
+index 4fd535f730e6382672b853bf2098b3fefc1f83b4..bd6724de52ee1f01fa42084c7652c71054f0a9c6 100644
+--- a/lib/internal/bootstrap/node.js
++++ b/lib/internal/bootstrap/node.js
+@@ -132,6 +132,10 @@ process.domain = null;
+ }
+ process._exiting = false;
+ 
++// NOTE: Electron deletes this references before user code runs so that
++// internalBinding is not leaked to user code.
++process.internalBinding = internalBinding;
++
+ // process.config is serialized config.gypi
+ const binding = internalBinding('builtins');
+ 

@@ -1,0 +1,34 @@
+# `git apply` and friends don't understand CRLF, even on windows. Force those
+# files to be checked out with LF endings even if core.autocrlf is true.
+*.patch text eol=lf
+DEPS text eol=lf
+yarn.lock text eol=lf
+script/zip_manifests/*.manifest text eol=lf
+patches/**/.patches merge=union
+
+# Source code and markdown files should always use LF as line ending.
+*.c text eol=lf
+*.cc text eol=lf
+*.cpp text eol=lf
+*.csv text eol=lf
+*.grd   text eol=lf
+*.grdp   text eol=lf
+*.gn text eol=lf
+*.gni text eol=lf
+*.h text eol=lf
+*.html   text eol=lf
+*.idl text eol=lf
+*.in   text eol=lf
+*.js   text eol=lf
+*.json   text eol=lf
+*.json5 text eol=lf
+*.md text eol=lf
+*.mm text eol=lf
+*.mojom text eol=lf
+*.patches text eol=lf
+*.proto text eol=lf
+*.py text eol=lf
+*.ps1 text eol=lf
+*.sh text eol=lf
+*.ts text eol=lf
+*.txt   text eol=lf

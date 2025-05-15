@@ -1,0 +1,68 @@
+# Keep GitHub Actions up to date with GitHub's Dependabot...
+# https://docs.github.com/en/code-security/dependabot/working-with-dependabot/keeping-your-actions-up-to-date-with-dependabot
+# https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file#package-ecosystem
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    labels:
+      - "no-backport"
+      - "semver/none"
+    target-branch: main
+  - package-ecosystem: npm
+    directories:
+      - /
+      - /spec
+      - /npm
+    schedule:
+      interval: daily
+    labels:
+      - "no-backport"
+    open-pull-requests-limit: 2
+    target-branch: main
+  - package-ecosystem: npm
+    directories:
+      - /
+      - /spec
+      - /npm
+    schedule:
+      interval: daily
+    labels:
+      - "backport-check-skip"
+    open-pull-requests-limit: 0
+    target-branch: 33-x-y
+  - package-ecosystem: npm
+    directories:
+      - /
+      - /spec
+      - /npm
+    schedule:
+      interval: daily
+    labels:
+      - "backport-check-skip"
+    open-pull-requests-limit: 0
+    target-branch: 32-x-y
+  - package-ecosystem: npm
+    directories:
+      - /
+      - /spec
+      - /npm
+    schedule:
+      interval: daily
+    labels:
+      - "backport-check-skip"
+    open-pull-requests-limit: 0
+    target-branch: 31-x-y
+  - package-ecosystem: npm
+    directories:
+      - /
+      - /spec
+      - /npm
+    schedule:
+      interval: daily
+    labels:
+      - "backport-check-skip"
+    open-pull-requests-limit: 0
+    target-branch: 30-x-y

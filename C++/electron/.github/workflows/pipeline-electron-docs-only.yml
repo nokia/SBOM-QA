@@ -1,0 +1,42 @@
+name: Electron Docs Compile
+
+on:
+  workflow_call:
+    inputs:
+      container:
+        required: true
+        description: 'Container to run the docs-only ts compile in'
+        type: string
+
+concurrency:
+  group: electron-docs-only-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  docs-only:
+    name: Docs Only Compile
+    runs-on: electron-arc-linux-amd64-4core
+    timeout-minutes: 20
+    container: ${{ fromJSON(inputs.container) }}
+    steps:
+    - name: Checkout Electron
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      with:
+        path: src/electron
+        fetch-depth: 0
+        ref: ${{ github.event.pull_request.head.sha }}
+    - name: Install Dependencies
+      uses: ./src/electron/.github/actions/install-dependencies
+    - name: Run TS/JS compile
+      shell: bash
+      run: |
+        cd src/electron
+        node script/yarn create-typescript-definitions
+        node script/yarn tsc -p tsconfig.default_app.json --noEmit
+        for f in build/webpack/*.js
+        do
+            out="${f:29}"
+            if [ "$out" != "base.js" ]; then
+            node script/yarn webpack --config $f --output-filename=$out --output-path=./.tmp --env mode=development
+            fi
+        done

@@ -1,0 +1,33 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Jeremy Apthorp <nornagon@nornagon.net>
+Date: Thu, 20 Sep 2018 17:48:05 -0700
+Subject: boringssl BUILD.gn
+
+Build BoringSSL with some extra functions that nodejs needs.
+
+diff --git a/third_party/boringssl/BUILD.gn b/third_party/boringssl/BUILD.gn
+index b962901a7db8e6e50155dabbb1371124b12f9b26..b01e197ae2e411a376ffa28b9058d62a16abf23b 100644
+--- a/third_party/boringssl/BUILD.gn
++++ b/third_party/boringssl/BUILD.gn
+@@ -48,6 +48,21 @@ all_sources = bcm_internal_headers + bcm_sources + crypto_internal_headers +
+               crypto_sources + ssl_internal_headers + ssl_sources + pki_sources
+ all_headers = crypto_headers + ssl_headers + pki_headers + pki_internal_headers
+ 
++if (is_electron_build) {
++  # Needed to build a nodejs-compatible boringssl.
++  all_sources += [
++    "decrepit/evp/evp_do_all.cc",
++    "decrepit/xts/xts.cc",
++  ]
++
++  all_sources += [
++    "decrepit/blowfish/blowfish.cc",
++    "decrepit/cfb/cfb.cc",
++    "decrepit/ripemd/internal.h",
++    "decrepit/ripemd/ripemd.cc",
++  ]
++}
++
+ if (enable_rust) {
+   rust_bindgen_generator("raw_bssl_sys_bindings") {
+     output_name = "bindgen"

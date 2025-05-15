@@ -1,0 +1,146 @@
+name: Pipeline Segment - Node/Nan Test
+
+on:
+  workflow_call:
+    inputs:
+      target-platform:
+        type: string
+        description: 'Platform to run on, can be macos, win or linux'
+        required: true
+      target-arch:
+        type: string
+        description: 'Arch to build for, can be x64, arm64 or arm'
+        required: true
+      test-runs-on:
+        type: string
+        description: 'What host to run the tests on'
+        required: true
+      test-container:
+        type: string
+        description: 'JSON container information for aks runs-on'
+        required: false
+        default: '{"image":null}'
+      gn-build-type:
+        description: 'The gn build type - testing or release'
+        required: true
+        type: string
+        default: testing
+
+concurrency:
+  group: electron-node-nan-test-${{ inputs.target-platform }}-${{ inputs.target-arch }}-${{ github.ref_protected == true && github.run_id || github.ref }}
+  cancel-in-progress: ${{ github.ref_protected != true }}
+
+env:
+  CHROMIUM_GIT_COOKIE: ${{ secrets.CHROMIUM_GIT_COOKIE }}
+  ELECTRON_OUT_DIR: Default
+  ELECTRON_RBE_JWT: ${{ secrets.ELECTRON_RBE_JWT }}
+
+jobs:
+  node-tests:
+    name: Run Node.js Tests
+    runs-on: electron-arc-linux-amd64-8core
+    timeout-minutes: 30
+    env: 
+      TARGET_ARCH: ${{ inputs.target-arch }}
+      BUILD_TYPE: linux
+    container: ${{ fromJSON(inputs.test-container) }}
+    steps:
+    - name: Checkout Electron
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      with:
+        path: src/electron
+        fetch-depth: 0
+        ref: ${{ github.event.pull_request.head.sha }}
+    - name: Set Chromium Git Cookie
+      uses: ./src/electron/.github/actions/set-chromium-cookie
+    - name: Install Build Tools
+      uses: ./src/electron/.github/actions/install-build-tools
+    - name: Init Build Tools
+      run: |
+        e init -f --root=$(pwd) --out=Default ${{ inputs.gn-build-type }} --import ${{ inputs.gn-build-type }} --target-cpu ${{ inputs.target-arch }}
+    - name: Install Dependencies
+      uses: ./src/electron/.github/actions/install-dependencies
+    - name: Download Generated Artifacts
+      uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+      with:
+        name: generated_artifacts_${{ env.BUILD_TYPE }}_${{ env.TARGET_ARCH }}
+        path: ./generated_artifacts_${{ env.BUILD_TYPE }}_${{ env.TARGET_ARCH }}
+    - name: Download Src Artifacts
+      uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+      with:
+        name: src_artifacts_linux_${{ env.TARGET_ARCH }}
+        path: ./src_artifacts_linux_${{ env.TARGET_ARCH }}
+    - name: Restore Generated Artifacts
+      run: ./src/electron/script/actions/restore-artifacts.sh
+    - name: Unzip Dist
+      run: |
+        cd src/out/Default
+        unzip -:o dist.zip
+    - name: Setup Linux for Headless Testing
+      run: sh -e /etc/init.d/xvfb start
+    - name: Run Node.js Tests
+      run: |
+        cd src
+        node electron/script/node-spec-runner.js --default --jUnitDir=junit
+    - name: Wait for active SSH sessions
+      if: always() && !cancelled()
+      shell: bash
+      run: |
+        while [ -f /var/.ssh-lock ]
+        do
+          sleep 60
+        done
+  nan-tests:
+    name: Run Nan Tests
+    runs-on: electron-arc-linux-amd64-4core
+    timeout-minutes: 30
+    env: 
+      TARGET_ARCH: ${{ inputs.target-arch }}
+      BUILD_TYPE: linux
+    container: ${{ fromJSON(inputs.test-container) }}
+    steps:
+    - name: Checkout Electron
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      with:
+        path: src/electron
+        fetch-depth: 0
+        ref: ${{ github.event.pull_request.head.sha }}
+    - name: Set Chromium Git Cookie
+      uses: ./src/electron/.github/actions/set-chromium-cookie
+    - name: Install Build Tools
+      uses: ./src/electron/.github/actions/install-build-tools
+    - name: Init Build Tools
+      run: |
+        e init -f --root=$(pwd) --out=Default ${{ inputs.gn-build-type }}
+    - name: Install Dependencies
+      uses: ./src/electron/.github/actions/install-dependencies
+    - name: Download Generated Artifacts
+      uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+      with:
+        name: generated_artifacts_${{ env.BUILD_TYPE }}_${{ env.TARGET_ARCH }}
+        path: ./generated_artifacts_${{ env.BUILD_TYPE }}_${{ env.TARGET_ARCH }}
+    - name: Download Src Artifacts
+      uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+      with:
+        name: src_artifacts_linux_${{ env.TARGET_ARCH }}
+        path: ./src_artifacts_linux_${{ env.TARGET_ARCH }}
+    - name: Restore Generated Artifacts
+      run: ./src/electron/script/actions/restore-artifacts.sh
+    - name: Unzip Dist
+      run: |
+        cd src/out/Default
+        unzip -:o dist.zip
+    - name: Setup Linux for Headless Testing
+      run: sh -e /etc/init.d/xvfb start
+    - name: Run Nan Tests
+      run: |
+        cd src
+        node electron/script/nan-spec-runner.js
+    - name: Wait for active SSH sessions
+      shell: bash
+      if: always() && !cancelled()
+      run: |
+        while [ -f /var/.ssh-lock ]
+        do
+          sleep 60
+        done
