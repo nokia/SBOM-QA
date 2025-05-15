@@ -1,0 +1,37 @@
+/*
+ * Copyright Elasticsearch B.V. and/or licensed to Elasticsearch B.V. under one
+ * or more contributor license agreements. Licensed under the Elastic License
+ * 2.0; you may not use this file except in compliance with the Elastic License
+ * 2.0.
+ */
+
+import org.apache.tools.ant.filters.ReplaceTokens
+
+apply plugin: 'elasticsearch.legacy-yaml-rest-test'
+apply plugin: 'elasticsearch.rest-resources'
+
+dependencies {
+  yamlRestTestImplementation project(':x-pack:qa')
+}
+
+def pluginPaths = project(':plugins').getChildProjects().collect {pluginName, pluginProject -> pluginProject.path }
+
+ext.expansions = [
+  'expected.plugins.count': pluginPaths.size()
+]
+
+tasks.named("processYamlRestTestResources").configure {
+  inputs.properties(project.expansions)
+  filter("tokens" : expansions.collectEntries {k, v -> [k, v.toString()]} /* must be a map of strings */, ReplaceTokens.class)
+}
+
+testClusters.matching { it.name == "yamlRestTest" }.configureEach {
+  testDistribution = 'DEFAULT'
+  setting 'xpack.security.enabled', 'true'
+  setting 'xpack.license.self_generated.type', 'trial'
+  user username: "test_user", password: "x-pack-test-password"
+
+  pluginPaths.each {pluginPath ->
+    plugin pluginPath
+  }
+}
