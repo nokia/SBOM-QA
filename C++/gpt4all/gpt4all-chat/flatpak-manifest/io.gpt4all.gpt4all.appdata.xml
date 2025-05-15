@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+    <id>io.gpt4all.gpt4all</id>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>MIT</project_license>
+    <name>GPT4ALL</name>
+    <summary>Open-source assistant</summary>
+    <developer_name>Nomic-ai</developer_name>
+    <description>
+        <p>Cross platform Qt based GUI for GPT4All</p>
+        <ul>
+            <li>Fast CPU and GPU based inference using ggml for open source LLM's</li>
+            <li>The UI is made to look and feel like you've come to expect from a chatty gpt</li>
+            <li>Check for updates so you can always stay fresh with latest models</li>
+            <li>Easy to install with precompiled binaries available for all three major desktop platforms</li>
+            <li>Multi-model - Ability to load more than one model and switch between them</li>
+            <li>Supports llama.cpp style models</li>
+            <li>Model downloader in GUI featuring many popular open source models</li>
+            <li>Settings dialog to change temp, top_p, top_k, threads, etc</li>
+            <li>Copy your conversation to clipboard</li>
+        </ul>
+    </description>
+    <screenshots>
+        <screenshot type="default">
+            <caption>Main Window</caption>
+            <image>https://raw.githubusercontent.com/nomic-ai/gpt4all/main/gpt4all-chat/flatpak-manifest/screenshots/welcome.png</image>
+        </screenshot>
+        <screenshot>
+            <image>https://raw.githubusercontent.com/nomic-ai/gpt4all/main/gpt4all-chat/flatpak-manifest/screenshots/chat.png</image>
+        </screenshot>
+        <screenshot>
+            <image>https://raw.githubusercontent.com/nomic-ai/gpt4all/main/gpt4all-chat/flatpak-manifest/screenshots/model.png</image>
+        </screenshot>
+    </screenshots>
+    <url type="homepage">https://www.nomic.ai/gpt4all</url>
+    <url type="bugtracker">https://github.com/nomic-ai/gpt4all/issues</url>
+    <url type="vcs-browser">https://github.com/nomic-ai/gpt4all</url>
+    <releases>
+      <release version="3.1.0" date="2024-07-24"/>
+      <release version="3.0.0" date="2024-07-02"/>
+      <release version="2.7.5" date="2024-05-03"/>
+    </releases>
+    <launchable type="desktop-id">io.gpt4all.gpt4all.desktop</launchable>
+    <content_rating type="oars-1.1">
+        <content_attribute id="language-profanity">mild</content_attribute>
+        <content_attribute id="language-humor">moderate</content_attribute>
+        <content_attribute id="language-discrimination">mild</content_attribute>
+    </content_rating>
+</component>
