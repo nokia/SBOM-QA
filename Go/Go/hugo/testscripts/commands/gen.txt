@@ -1,0 +1,22 @@
+# Test the gen commands.
+
+hugo gen -h
+stdout 'Generate documentation for your project using Hugo''s documentation engine, including syntax highlighting for various programming languages\.'
+hugo gen doc --dir clidocs
+
+hugo gen man -h
+stdout 'up-to-date man pages'
+hugo gen man --dir manpages
+
+hugo gen chromastyles -h
+stdout 'Generate CSS stylesheet for the Chroma code highlighter'
+hugo gen chromastyles --style monokai
+stdout 'Generated using: hugo gen chromastyles --style monokai'
+! hugo gen chromastyles --style __invalid_style__
+stderr 'invalid style: __invalid_style__'
+
+# Issue 13475
+hugo gen chromastyles --style monokai
+stdout '{  }'
+hugo gen chromastyles --omitEmpty --style monokai
+! stdout '\{  \}'

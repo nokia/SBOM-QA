@@ -1,0 +1,25 @@
+
+# Test deprecation logging.
+hugo -e info --logLevel info
+stderr 'INFO  deprecated: item was deprecated in Hugo'
+
+hugo -e warn --logLevel warn
+stderr 'WARN  deprecated: item was deprecated in Hugo'
+
+! hugo -e error --logLevel warn
+stderr 'ERROR deprecated: item was deprecated in Hugo'
+
+-- hugo.toml --
+baseURL = "https://example.com/"
+disableKinds = ["taxonomy", "term"]
+-- layouts/index.html --
+Deprecate:
+{{ if eq hugo.Environment "info" }}
+    {{ debug.TestDeprecationInfo "item" "alternative" }}
+{{ end }}
+{{ if eq hugo.Environment "warn" }}
+    {{ debug.TestDeprecationWarn "item" "alternative" }}
+{{ end }}
+{{ if eq hugo.Environment "error" }}
+    {{ debug.TestDeprecationErr "item" "alternative" }}
+{{ end }}

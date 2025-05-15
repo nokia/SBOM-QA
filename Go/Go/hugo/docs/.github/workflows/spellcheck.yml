@@ -1,0 +1,27 @@
+name: "Check spelling"
+on:
+  push:
+  pull_request:
+    branches-ignore:
+      - "dependabot/**"
+
+permissions:
+  contents: read
+
+jobs:
+  spellcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: streetsidesoftware/cspell-action@v5
+        with:
+          check_dot_files: false
+          files: content/**/*.md
+          incremental_files_only: true
+          inline: warning
+          strict: false
+      - uses: codespell-project/actions-codespell@v2
+        with:
+          check_filenames: true
+          check_hidden: true
+          # by default, codespell uses configuration from the .codespellrc
