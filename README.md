@@ -65,3 +65,25 @@ The C++_CONAN folder includes five example projects using the Conan package mana
 4. conan_project_template – A minimal Conan-ready project template, good for testing SCA behavior on clean setups.
 
 5. cpp-conan-docker-starter – Combines Conan with Docker for containerized builds, testing how tools handle hybrid environments.
+
+## C Projects (No Package Manager)
+The C folder contains five open-source projects written in C and built without a package manager. These projects are ideal for evaluating how SCA tools detect direct and transitive dependencies in traditional C environments.
+
+1. curl – A command-line tool and library for transferring data with URLs. Useful for testing detection of HTTP and networking-related dependencies.
+
+2. git – A distributed version control system. Included to benchmark how deeply tools can analyze large C codebases with complex build systems.
+
+3. libgit2 – A C library for interacting with Git repositories. Enables checking dependency resolution in C libraries used by other applications.
+
+4. sqlite – A lightweight, embedded SQL database. Helps evaluate detection of dependencies in database libraries.
+
+5. zlib – A compression library used in many systems. Useful for assessing discovery of widely embedded libraries in other software.
+
+## Container Images
+The ContainerImage folder includes projects built into container images using tools like apt, go install, wget, git clone, and manual copying of files. These images are used to test how well SCA tools handle scanning and analyzing software packaged in container layers.
+
+1. io.livecode.ch – A containerized application built with a mix of shell scripts and third-party tools, useful for checking detection of manually installed and downloaded binaries.
+
+2. pggb – A complex bioinformatics pipeline container built using multiple install mechanisms. Useful to benchmark tools on real-world containerized environments.
+
+3. shapmagn – A scientific container image using custom scripts and copied dependencies. Helps evaluate discovery of files outside of standard package managers.
