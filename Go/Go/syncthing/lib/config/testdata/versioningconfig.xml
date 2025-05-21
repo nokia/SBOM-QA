@@ -1,8 +1,0 @@
-<configuration version="22">
-    <folder id="test" path="testdata" type="readonly" ignorePerms="false" rescanIntervalS="600" autoNormalize="true">
-        <versioning type="simple">
-            <param key="foo" val="bar"/>
-            <param key="baz" val="quux"/>
-        </versioning>
-    </folder>
-</configuration>
