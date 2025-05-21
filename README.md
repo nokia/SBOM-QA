@@ -118,3 +118,18 @@ The java_Maven folder includes several Java projects built with Maven, showcasin
 **2.java-design-patterns** - A collection of common design patterns implemented in Java.
 
 **3. spring-boot** - A popular framework to build stand-alone, production-grade Spring-based applications.
+
+## Python Projects
+The Python folder contains a variety of projects demonstrating modern Python tools and frameworks:
+
+**1. cookiecutter** - A command-line utility to create projects from project templates quickly.
+
+**2. fastapi** - A high-performance web framework for building APIs with Python 3.7+ based on standard Python type hints.
+
+**3. frigate-hass-integration** - Integration component for the Frigate NVR with Home Assistant.
+
+**4. httpie** - A user-friendly command-line HTTP client for testing APIs.
+
+**5. rich* - A Python library for rich text and beautiful formatting in the terminal.
+
+
