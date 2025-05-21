@@ -130,6 +130,6 @@ The Python folder contains a variety of projects demonstrating modern Python too
 
 **4. httpie** - A user-friendly command-line HTTP client for testing APIs.
 
-**5. rich* - A Python library for rich text and beautiful formatting in the terminal.
+**5. rich** - A Python library for rich text and beautiful formatting in the terminal.
 
 
