@@ -100,3 +100,14 @@ Projects included:
 **3. fzf** – A command-line fuzzy finder with a lightweight dependency graph, ideal for minimalistic SBOM generation tests.
 
 **4. hugo** – A complex static site generator, representing large Go applications with many transitive dependencies.
+
+## Node.js Projects
+The Node.js folder contains five projects that showcase different popular frameworks and libraries used in JavaScript backend and real-time applications:
+
+**1. axios** - A promise-based HTTP client for making requests to APIs.
+
+**2. express** - A minimal and flexible Node.js web application framework.
+
+**3. nest** - A progressive Node.js framework for building efficient and scalable server-side applications.
+
+**4. socket.io** - Enables real-time, bidirectional communication between web clients and servers.
