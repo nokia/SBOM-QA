@@ -34,3 +34,15 @@ dependencies of software. The purpose of this repository is to benchmark a handf
 
 | Tool | Nontes |
 | ---- | ------ |
+
+
+# Folder Descriptions
+
+Descriptions of each test folder and what it contains.
+
+## Test Target: C/curl
+
+**Technology**: C (without package manager)  
+**Description**: This folder contains the source code of `curl`, a widely used open-source command-line tool for transferring data using URL syntax. It includes `libcurl`, the transfer library used by `curl`, which is also open-source and available for integration in other applications.  
+**Dependency Type**: Manually managed dependencies (no package manager)  
+**Purpose**: To evaluate how well SBOM/SCA tools detect dependencies in pure C projects that do not use a package manager.
