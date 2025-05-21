@@ -52,3 +52,16 @@ This folder contains five representative C++ projects selected for testing how a
 4. opencv – A popular library for computer vision, included to test SCA handling of modular, widely-used libraries.
 
 5. tensorflow (C++ part) – Although TensorFlow is mainly known for Python, its core is C++, making it ideal for testing detection in hybrid ecosystems.
+
+## C++ with Conan Package Manager
+The C++_CONAN folder includes five example projects using the Conan package manager. These test targets help evaluate how SCA tools detect and interpret dependencies when Conan is used.
+
+1. Coronan – A sample project using Conan to manage simple C++ dependencies, ideal for testing base Conan integration.
+
+2. CppfrontTemplate – A modern C++ project template using Cppfront, useful for verifying dependency capture in evolving C++ standards.
+
+3. conan-center-index – The official Conan recipe index; included to test how tools treat metadata-rich repositories and package recipes.
+
+4. conan_project_template – A minimal Conan-ready project template, good for testing SCA behavior on clean setups.
+
+5. cpp-conan-docker-starter – Combines Conan with Docker for containerized builds, testing how tools handle hybrid environments.
