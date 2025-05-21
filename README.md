@@ -78,3 +78,12 @@ The C folder contains five open-source projects written in C and built without a
 4. sqlite – A lightweight, embedded SQL database. Helps evaluate detection of dependencies in database libraries.
 
 5. zlib – A compression library used in many systems. Useful for assessing discovery of widely embedded libraries in other software.
+
+## Container Images
+The ContainerImage folder includes projects built into container images using tools like apt, go install, wget, git clone, and manual copying of files. These images are used to test how well SCA tools handle scanning and analyzing software packaged in container layers.
+
+1. io.livecode.ch – A containerized application built with a mix of shell scripts and third-party tools, useful for checking detection of manually installed and downloaded binaries.
+
+2. pggb – A complex bioinformatics pipeline container built using multiple install mechanisms. Useful to benchmark tools on real-world containerized environments.
+
+3. shapmagn – A scientific container image using custom scripts and copied dependencies. Helps evaluate discovery of files outside of standard package managers.
