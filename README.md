@@ -93,13 +93,11 @@ The Go folder contains four projects built with the Go programming language. Eac
 
 Projects included:
 
-**1. Go** – A basic Go project, useful for testing minimal setups and ensuring tools correctly handle simple module-based dependencies.
+**1. caddy** – A powerful web server with automatic HTTPS, showcasing plugin-based dependency handling.
 
-**2. caddy** – A powerful web server with automatic HTTPS, showcasing plugin-based dependency handling.
+**2. fzf** – A command-line fuzzy finder with a lightweight dependency graph, ideal for minimalistic SBOM generation tests.
 
-**3. fzf** – A command-line fuzzy finder with a lightweight dependency graph, ideal for minimalistic SBOM generation tests.
-
-**4. hugo** – A complex static site generator, representing large Go applications with many transitive dependencies.
+**3. hugo** – A complex static site generator, representing large Go applications with many transitive dependencies.
 
 ## Node.js Projects
 The Node.js folder contains five projects that showcase different popular frameworks and libraries used in JavaScript backend and real-time applications:
@@ -111,3 +109,12 @@ The Node.js folder contains five projects that showcase different popular framew
 **3. nest** - A progressive Node.js framework for building efficient and scalable server-side applications.
 
 **4. socket.io** - Enables real-time, bidirectional communication between web clients and servers.
+
+## Java Maven Projects
+The java_Maven folder includes several Java projects built with Maven, showcasing various applications and frameworks:
+
+**1. elasticsearch** - A distributed search and analytics engine.
+
+**2.java-design-patterns** - A collection of common design patterns implemented in Java.
+
+**3. spring-boot** - A popular framework to build stand-alone, production-grade Spring-based applications.
