@@ -1,0 +1,168 @@
+.\" Man page generated from reStructuredText.
+.
+.
+.nr rst2man-indent-level 0
+.
+.de1 rstReportMargin
+\\$1 \\n[an-margin]
+level \\n[rst2man-indent-level]
+level margin: \\n[rst2man-indent\\n[rst2man-indent-level]]
+-
+\\n[rst2man-indent0]
+\\n[rst2man-indent1]
+\\n[rst2man-indent2]
+..
+.de1 INDENT
+.\" .rstReportMargin pre:
+. RS \\$1
+. nr rst2man-indent\\n[rst2man-indent-level] \\n[an-margin]
+. nr rst2man-indent-level +1
+.\" .rstReportMargin post:
+..
+.de UNINDENT
+. RE
+.\" indent \\n[an-margin]
+.\" old: \\n[rst2man-indent\\n[rst2man-indent-level]]
+.nr rst2man-indent-level -1
+.\" new: \\n[rst2man-indent\\n[rst2man-indent-level]]
+.in \\n[rst2man-indent\\n[rst2man-indent-level]]u
+..
+.TH "SYNCTHING-NETWORKING" "7" "May 09, 2025" "v1.29.6" "Syncthing"
+.SH NAME
+syncthing-networking \- Firewall Setup
+.SH ROUTER SETUP
+.SS Port Forwards
+.sp
+If you have a NAT router which supports UPnP, the easiest way to get a working
+port forward is to make sure UPnP setting is enabled on both Syncthing and the
+router – Syncthing will try to handle the rest. If it succeeds you will see a
+message in the console saying:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.EX
+Created UPnP port mapping for external port XXXXX on UPnP device YYYYY.
+.EE
+.UNINDENT
+.UNINDENT
+.sp
+If this is not possible or desirable, you should set up a port forwarding for ports
+\fB22000/TCP\fP and \fB22000/UDP\fP (or whichever port is set in the \fISync Protocol Listen Address\fP setting).
+The external forwarded ports and the internal destination ports have to be the same
+(e.g. 22000/TCP).
+.sp
+Communication in Syncthing works both ways. Therefore if you set up port
+forwards for one device, other devices will be able to connect to it even when
+they are behind a NAT network or firewall.
+.sp
+In the absence of port forwarding, \fI\%Relaying\fP may work well enough to get
+devices connected and synced, but will perform poorly in comparison to a
+direct connection.
+.SS Local Discovery
+.sp
+The router needs to allow/forward broad\-/multicasts for local discovery to work.
+Usually these are allowed by default in a single local subnet, but may be
+blocked between different subnets or even between a bridged Wi\-Fi and LAN.
+.sp
+If you are unable to set up your router thus or your firewall as shown below,
+and your devices have static IP addresses, you can specify them directly by
+changing the default \fBdynamic\fP setting for \fIAddresses\fP to something like:
+\fBtcp://192.168.1.xxx:22000, dynamic\fP\&.
+.SH LOCAL FIREWALL
+.sp
+If your PC has a local firewall, you will need to open the following ports for
+incoming and outgoing traffic:
+.INDENT 0.0
+.IP \(bu 2
+Port \fB22000/TCP\fP: TCP based sync protocol traffic
+.IP \(bu 2
+Port \fB22000/UDP\fP: QUIC based sync protocol traffic
+.IP \(bu 2
+Port \fB21027/UDP\fP: for discovery broadcasts on IPv4 and multicasts on IPv6
+.UNINDENT
+.sp
+If you configured a custom port in the \fISync Protocol Listen Address\fP setting,
+you have to adapt the firewall rules accordingly.
+.SS Uncomplicated Firewall (ufw)
+.sp
+If you’re using \fBufw\fP on Linux and have installed the \X'tty: link https://apt.syncthing.net/'\fI\%Syncthing package\fP <\fBhttps://apt.syncthing.net/\fP>\X'tty: link', you can allow the necessary ports by running:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.EX
+sudo ufw allow syncthing
+.EE
+.UNINDENT
+.UNINDENT
+.sp
+If you also want to allow external access to the Syncthing web GUI, run:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.EX
+sudo ufw allow syncthing\-gui
+.EE
+.UNINDENT
+.UNINDENT
+.sp
+Allowing external access is \fBnot\fP  necessary for a typical installation.
+.sp
+You can then verify that the ports mentioned above are allowed:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.EX
+sudo ufw status verbose
+.EE
+.UNINDENT
+.UNINDENT
+.sp
+In case you installed Syncthing manually you can follow the \X'tty: link https://github.com/syncthing/syncthing/tree/main/etc/firewall-ufw'\fI\%instructions to manually add the syncthing preset\fP <\fBhttps://github.com/syncthing/syncthing/tree/main/etc/firewall-ufw\fP>\X'tty: link' to ufw.
+.SS Firewalld
+.sp
+If you are using \X'tty: link https://firewalld.org/'\fI\%Firewalld\fP <\fBhttps://firewalld.org/\fP>\X'tty: link' it has included
+support for syncthing (since version 0.5.0, January 2018), and you can enable
+it with:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.EX
+sudo firewall\-cmd \-\-zone=public \-\-add\-service=syncthing \-\-permanent
+sudo firewall\-cmd \-\-reload
+.EE
+.UNINDENT
+.UNINDENT
+.sp
+Similarly there is also a \fBsyncthing\-gui\fP service.
+.SH REMOTE WEB GUI
+.sp
+To be able to access the web GUI from other computers, you need to change the
+\fIGUI Listen Address\fP setting from the default \fB127.0.0.1:8384\fP to
+\fB0.0.0.0:8384\fP\&. You also need to open the port in your local firewall if you
+have one.
+.SS Tunneling via SSH
+.sp
+If you have SSH access to the machine running Syncthing but would rather not
+open the web GUI port to the outside world, you can access it through a SSH
+tunnel instead. You can start a tunnel with a command like the following:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.EX
+ssh \-L 9999:localhost:8384 machine
+.EE
+.UNINDENT
+.UNINDENT
+.sp
+This will bind to your local port 9999 and forward all connections from there to
+port 8384 on the target machine. This still works even if Syncthing is bound to
+listen on localhost only.
+.SH VIA A PROXY
+.sp
+Syncthing can use a SOCKS5 proxy for outbound connections. Please see \fI\%Using Proxies\fP\&.
+.SH AUTHOR
+The Syncthing Authors
+.SH COPYRIGHT
+2014-2019, The Syncthing Authors
+.\" Generated by docutils manpage writer.
+.

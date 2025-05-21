@@ -1,0 +1,8 @@
+# Text files use LF line endings in this repository
+*   text=auto
+
+# Except the dependencies, which we leave alone
+vendor/**   -text=auto
+
+# Diffs on these files are meaningless
+*.svg           -diff

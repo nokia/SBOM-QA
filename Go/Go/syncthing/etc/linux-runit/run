@@ -1,0 +1,8 @@
+#!/bin/sh
+
+export USERNAME=jb
+export HOME="/home/$USERNAME"
+export SYNCTHING="$HOME/bin/syncthing"
+
+exec 2>&1
+exec chpst -u "$USERNAME" "$SYNCTHING" serve --logflags 0

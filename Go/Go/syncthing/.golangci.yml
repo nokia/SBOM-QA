@@ -1,0 +1,39 @@
+linters:
+  enable-all: true
+  disable:
+    - cyclop
+    - depguard
+    - exhaustive
+    - exhaustruct
+    - funlen
+    - gci
+    - gochecknoglobals
+    - gochecknoinits
+    - gocognit
+    - goconst
+    - gocyclo
+    - godox
+    - gofmt
+    - goimports
+    - gomoddirectives
+    - inamedparam
+    - interfacebloat
+    - ireturn
+    - lll
+    - maintidx
+    - nestif
+    - nonamedreturns
+    - paralleltest
+    - protogetter
+    - scopelint
+    - tagalign
+    - tagliatelle
+    - testpackage
+    - varnamelen
+    - wsl
+
+issues:
+  exclude-dirs:
+    - internal/gen
+    - cmd/dev
+    - repos
