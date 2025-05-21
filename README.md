@@ -40,9 +40,15 @@ dependencies of software. The purpose of this repository is to benchmark a handf
 
 Descriptions of each test folder and what it contains.
 
-## Test Target: C/curl
+## C++ Projects
+This folder contains five representative C++ projects selected for testing how accurately Software Composition Analysis (SCA) tools detect dependencies, especially in environments with and without package managers.
 
-**Technology**: C (without package manager)  
-**Description**: This folder contains the source code of `curl`, a widely used open-source command-line tool for transferring data using URL syntax. It includes `libcurl`, the transfer library used by `curl`, which is also open-source and available for integration in other applications.  
-**Dependency Type**: Manually managed dependencies (no package manager)  
-**Purpose**: To evaluate how well SBOM/SCA tools detect dependencies in pure C projects that do not use a package manager.
+1. godot – An advanced open-source game engine, showcasing large-scale C++ applications with complex build dependencies.
+
+2. gpt4all – A local large language model implementation, useful for evaluating ML-related C++ dependencies.
+
+3. llama.cpp – A lightweight C++ LLM runner, testing how well SCA tools track AI/ML-related source integrations.
+
+4. opencv – A popular library for computer vision, included to test SCA handling of modular, widely-used libraries.
+
+5. tensorflow (C++ part) – Although TensorFlow is mainly known for Python, its core is C++, making it ideal for testing detection in hybrid ecosystems.
