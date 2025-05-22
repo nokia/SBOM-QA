@@ -27,7 +27,7 @@ dependencies of software. The purpose of this repository is to benchmark a handf
 | 5  | Python module with dependencies | v0.1.16 | [python/fastapi](python/fastapi) | [python/fastapi_fastapi_1aca71.json](python/fastapi_fastapi_1aca71.json) |
 | 6  | npm project with dependencies | v5.1.0 | [Node.js/express](Node.js/express) | [Node.js/expressjs_express_98d8b1.json](Node.js/expressjs_express_98d8b1.json) |
 | 7  | Java project with Maven | v9.0.1 | [java_Maven/elasticsearch](java_Maven/elasticsearch) | [java_Maven/elastic_elasticsearch_3c796f.json](java_Maven/elastic_elasticsearch_3c796f.json) |
-| 8  | Container image with apt-install, go install, wget, git clone and local copy of a zip file | v0.7.4 |  [ContainerImage/pggb](ContainerImage/pggb) | [java_Maven/elastic_elasticsearch_3c796f.json](java_Maven/elastic_elasticsearch_3c796f.json) |
+| 8  | Container image with apt-install, go install, wget, git clone and local copy of a zip file | v0.7.4 |  [ContainerImage/pggb](ContainerImage/pggb) | [ContainerImage/pangenome_pggb_4e1835.json](ContainerImage/pangenome_pggb_4e1835.json) |
 
 ### 2. Selected SCA tools
 
