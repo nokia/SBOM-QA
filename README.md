@@ -19,16 +19,16 @@ dependencies of software. The purpose of this repository is to benchmark a handf
 
 *Note:* The Artefact links are only examples. 
 
-| id | Description | Artefact | Reference SBOM |
-| -- | ----------- | -------- | -------------- | 
-| 1  | C++ code without package manager | [C++/electron](C++/electron) | TBD |
-| 2  | C code without package manager | [C/curl](C/curl) | TBD |
-| 3  | C++ code with Conan package manager | [C++_CONAN/Coronan](C++_CONAN/Coronan) | TBD |
-| 4  | Go module with dependencies | [Go/hugo](Go/hugo) | TBD |
-| 5  | Python module with dependencies | [python/fastapi](python/fastapi) | TBD |
-| 6  | npm project with dependencies | [Node.js/express](Node.js/express) | TBD |
-| 7  | Java project with Maven | [java_Maven/elasticsearch](java_Maven/elasticsearch) | TBD |
-| 8  | Container image with apt-install, go install, wget, git clone and local copy of a zip file | [ContainerImage/pggb](ContainerImage/pggb) | TBD |
+| id | Description | Tag | Artefact | Reference SBOM |
+| -- | ----------- | --- | -------- | -------------- | 
+| 1  | C++ code without package manager | v38.0.0-nightly.20250521 | [C++/electron](C++/electron) | TBD |
+| 2  | C code without package manager | v7_0_2beta | [C/curl](C/curl) | TBD |
+| 3  | C++ code with Conan package manager | v1.0.0 | [C++_CONAN/Coronan](C++_CONAN/Coronan) | TBD |
+| 4  | Go module with dependencies | v0.147.4| [Go/hugo](Go/hugo) | TBD |
+| 5  | Python module with dependencies | v0.1.16 | [python/fastapi](python/fastapi) | TBD |
+| 6  | npm project with dependencies | v5.1.0 | [Node.js/express](Node.js/express) | TBD |
+| 7  | Java project with Maven | v9.0.1 | [java_Maven/elasticsearch](java_Maven/elasticsearch) | TBD |
+| 8  | Container image with apt-install, go install, wget, git clone and local copy of a zip file | v0.7.4 |  [ContainerImage/pggb](ContainerImage/pggb) | TBD |
 
 ### 2. Selected SCA tools
 
