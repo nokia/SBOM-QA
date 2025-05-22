@@ -17,7 +17,6 @@ dependencies of software. The purpose of this repository is to benchmark a handf
 
 ### 1. Test targets
 
-*Note:* The Artefact links are only examples. 
 
 | id | Description | Tag | Artefact | Reference SBOM |
 | -- | ----------- | --- | -------- | -------------- | 
