@@ -1,9 +1,0 @@
-aiohttp
-aiohttp_cors
-attr
-janus
-homeassistant==2023.7.3
-paho-mqtt
-python-dateutil
-yarl
-pytz==2022.7
