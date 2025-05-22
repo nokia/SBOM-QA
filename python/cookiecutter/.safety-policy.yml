@@ -1,5 +1,0 @@
-security:
-  ignore-vulnerabilities:
-    70612:
-      # Jinja2 `.from_string()` may be "dangerous".
-      reason: "Rendering potentially-unsafe user-supplied templates is core functionality."
