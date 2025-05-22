@@ -21,9 +21,9 @@ dependencies of software. The purpose of this repository is to benchmark a handf
 
 | id | Description | Artefact | Reference SBOM |
 | -- | ----------- | -------- | -------------- | 
-| 1  | C/C++ code without package manager | [C/curl](C/curl) | TBD |
-| 2  | C/C++ code without package manager | [C/git](C/git) | TBD |
-| 3  | C/C++ code with Conan package manager | [C++_CONAN/CppfrontTemplate](C++_CONAN) | TBD |
+| 1  | C++ code without package manager | [C++/electron](C++/electron) | TBD |
+| 2  | C code without package manager | [C/curl](C/curl) | TBD |
+| 3  | C++ code with Conan package manager | [C++_CONAN/Coronan](C++_CONAN/Coronan) | TBD |
 | 4  | Go module with dependencies | [Go/hugo](Go/hugo) | TBD |
 | 5  | Python module with dependencies | [python/fastapi](python/fastapi) | TBD |
 | 6  | npm project with dependencies | [Node.js/express](Node.js/express) | TBD |
@@ -41,95 +41,43 @@ dependencies of software. The purpose of this repository is to benchmark a handf
 Descriptions of each test folder and what it contains.
 
 ## C++ Projects
-This folder contains five representative C++ projects selected for testing how accurately Software Composition Analysis (SCA) tools detect dependencies, especially in environments with and without package managers.
+This folder contains C++ projects that are built without using a package manager. They typically use custom build systems or plain CMake.
 
-**1. godot** – An advanced open-source game engine, showcasing large-scale C++ applications with complex build dependencies.
-
-**2. gpt4all** – A local large language model implementation, useful for evaluating ML-related C++ dependencies.
-
-**3. llama.cpp** – A lightweight C++ LLM runner, testing how well SCA tools track AI/ML-related source integrations.
-
-**4. opencv** – A popular library for computer vision, included to test SCA handling of modular, widely-used libraries.
-
-**5. tensorflow (C++ part)** – Although TensorFlow is mainly known for Python, its core is C++, making it ideal for testing detection in hybrid ecosystems.
+**1. electron** – An open-source game engine for Windows and Linux. Not to be confused with GitHub's Electron framework, this project provides a complex, full-scale C++ codebase for a game engine with manual dependency handling.
 
 ## C++ with Conan Package Manager
-The C++_CONAN folder includes five example projects using the Conan package manager. These test targets help evaluate how SCA tools detect and interpret dependencies when Conan is used.
+The C++_CONAN folder includes C++ projects that explicitly use the Conan package manager to manage dependencies.
 
-**1. Coronan** – A sample project using Conan to manage simple C++ dependencies, ideal for testing base Conan integration.
-
-**2. CppfrontTemplate** – A modern C++ project template using Cppfront, useful for verifying dependency capture in evolving C++ standards.
-
-**3. conan-center-index** – The official Conan recipe index; included to test how tools treat metadata-rich repositories and package recipes.
-
-**4. conan_project_template** – A minimal Conan-ready project template, good for testing SCA behavior on clean setups.
-
-**5. cpp-conan-docker-starter** – Combines Conan with Docker for containerized builds, testing how tools handle hybrid environments.
+**1. Coronan** – A simple CMake-based C++ project that uses Conan to fetch and integrate common libraries like zlib or gtest. It serves as an example for integrating Conan with modern C++ projects.
 
 ## C Projects (No Package Manager)
-The C folder contains five open-source projects written in C and built without a package manager. These projects are ideal for evaluating how SCA tools detect direct and transitive dependencies in traditional C environments.
+The C folder contains well-known open-source C projects, built and configured manually without dependency managers like vcpkg or Conan.
 
-**1. curl** – A command-line tool and library for transferring data with URLs. Useful for testing detection of HTTP and networking-related dependencies.
-
-**2. git** – A distributed version control system. Included to benchmark how deeply tools can analyze large C codebases with complex build systems.
-
-**3. libgit2** – A C library for interacting with Git repositories. Enables checking dependency resolution in C libraries used by other applications.
-
-**4. sqlite** – A lightweight, embedded SQL database. Helps evaluate detection of dependencies in database libraries.
-
-**5. zlib** – A compression library used in many systems. Useful for assessing discovery of widely embedded libraries in other software.
+**1. curl** – A powerful command-line tool and library (libcurl) for transferring data using various protocols including HTTP, FTP, and SMTP. It's known for its portable C codebase and rich feature set.
 
 ## Container Images
-The ContainerImage folder includes projects built into container images using tools like apt, go install, wget, git clone, and manual copying of files. These images are used to test how well SCA tools handle scanning and analyzing software packaged in container layers.
+The ContainerImage folder contains folders or Dockerfiles used to build container images. These images may install software using a combination of package managers, custom binaries, and manual setups.
 
-**1. io.livecode.ch** – A containerized application built with a mix of shell scripts and third-party tools, useful for checking detection of manually installed and downloaded binaries.
-
-**2. pggb** – A complex bioinformatics pipeline container built using multiple install mechanisms. Useful to benchmark tools on real-world containerized environments.
-
-**3. shapmagn** – A scientific container image using custom scripts and copied dependencies. Helps evaluate discovery of files outside of standard package managers.
+**1. pggb** – A bioinformatics pipeline for constructing pangenome graphs. It integrates several tools like seqwish, smoothxg, and others. The software is distributed as a container for easier reproducibility and execution in bioinformatics workflows.
 
 ## Go Projects
-The Go folder contains four projects built with the Go programming language. Each project demonstrates different dependency structures and sizes to help assess the effectiveness of SBOM and SCA tools when analyzing Go-based applications.
+The Go folder contains projects written in the Go programming language, typically using Go modules for dependency management.
 
-Projects included:
+**1. hugo** – A fast, modern static site generator written in Go. It converts markdown files into complete HTML websites and is widely used in the developer and open-source communities.
 
-**1. caddy** – A powerful web server with automatic HTTPS, showcasing plugin-based dependency handling.
+## Node.js 
+folder includes projects built using the Node.js runtime, often managed with npm or yarn.
 
-**2. fzf** – A command-line fuzzy finder with a lightweight dependency graph, ideal for minimalistic SBOM generation tests.
-
-**3. hugo** – A complex static site generator, representing large Go applications with many transitive dependencies.
-
-## Node.js Projects
-The Node.js folder contains five projects that showcase different popular frameworks and libraries used in JavaScript backend and real-time applications:
-
-**1. axios** - A promise-based HTTP client for making requests to APIs.
-
-**2. express** - A minimal and flexible Node.js web application framework.
-
-**3. nest** - A progressive Node.js framework for building efficient and scalable server-side applications.
-
-**4. socket.io** - Enables real-time, bidirectional communication between web clients and servers.
+**1. express** - A minimal and flexible web application framework for Node.js. It provides a thin layer of fundamental web features and is widely used to create server-side applications and REST APIs.
 
 ## Java Maven Projects
-The java_Maven folder includes several Java projects built with Maven, showcasing various applications and frameworks:
+The java_Maven folder contains Java projects that use the Maven build system for compilation and dependency resolution.
 
-**1. elasticsearch** - A distributed search and analytics engine.
-
-**2.java-design-patterns** - A collection of common design patterns implemented in Java.
-
-**3. spring-boot** - A popular framework to build stand-alone, production-grade Spring-based applications.
+**1. elasticsearch** - A distributed, scalable, real-time search and analytics engine built in Java. It's used to index and query large volumes of data and serves as the core engine behind the Elastic Stack.
 
 ## Python Projects
-The Python folder contains a variety of projects demonstrating modern Python tools and frameworks:
+The Python folder contains software projects written in Python, using tools like pip or poetry for environment and dependency management.
 
-**1. cookiecutter** - A command-line utility to create projects from project templates quickly.
-
-**2. fastapi** - A high-performance web framework for building APIs with Python 3.7+ based on standard Python type hints.
-
-**3. frigate-hass-integration** - Integration component for the Frigate NVR with Home Assistant.
-
-**4. httpie** - A user-friendly command-line HTTP client for testing APIs.
-
-**5. rich** - A Python library for rich text and beautiful formatting in the terminal.
+**1. fastapi** - A modern Python web framework designed for building APIs quickly with automatic OpenAPI and JSON Schema generation. It’s built on top of Starlette and Pydantic and supports asynchronous programming.
 
 
