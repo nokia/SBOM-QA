@@ -1,3 +1,0 @@
-LIBRARY hook.dll
-EXPORTS
-    DetourFinishHelperProcess@16 @1 NONAME

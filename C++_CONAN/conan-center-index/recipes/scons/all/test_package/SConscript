@@ -1,8 +1,0 @@
-# SConstruct
-import os
-
-env = Environment()
-
-print("CC is: {}".format(env.subst('$CC')))
-
-test_package = env.Program(["test_package.c"])

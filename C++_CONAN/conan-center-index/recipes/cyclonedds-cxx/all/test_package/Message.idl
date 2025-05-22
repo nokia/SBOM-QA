@@ -1,6 +1,0 @@
-module conan {
-  struct Message {
-    sequence<octet> payload;
-  };
-  #pragma keylist Message
-};

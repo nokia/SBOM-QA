@@ -1,6 +1,0 @@
-[library]
-name = "toml++"
-authors = ["Mark Gillard <mark.gillard@outlook.com.au>"]
-
-[dependencies]
-cpp = 17

@@ -1,2 +1,0 @@
-love:
-	echo "not war"
