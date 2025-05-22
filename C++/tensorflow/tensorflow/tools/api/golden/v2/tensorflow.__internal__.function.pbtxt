@@ -1,7 +1,0 @@
-path: "tensorflow.__internal__.function"
-tf_module {
-  member {
-    name: "Function"
-    mtype: "<type \'type\'>"
-  }
-}

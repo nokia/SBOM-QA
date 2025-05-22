@@ -1,4 +1,0 @@
-op {
-  name: "SyncDevice"
-  is_stateful: true
-}
