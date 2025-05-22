@@ -1,1 +1,0 @@
-This repository are modified from https://github.com/vinits5/learning3d
