@@ -1,7 +1,0 @@
-#!/bin/bash
-
-# Remove exited container
-docker ps -a --no-trunc | grep 'Exit' | awk '{print $1}' | xargs -r docker rm
-
-# Remove temporary built images
-docker images --no-trunc | grep none | awk '{print $3}' | xargs -r docker rmi

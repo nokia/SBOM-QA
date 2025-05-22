@@ -1,5 +1,0 @@
-#!/bin/bash
-
-docker pull namin/io.livecode.ch
-
-docker build -t=namin/io.livecode.ch-dev .

@@ -1,7 +1,0 @@
-#!/bin/bash
-
-# Delete all containers
-docker rm $(docker ps --no-trunc -aq)
-
-# Delete all images
-docker rmi $(docker images -q)
