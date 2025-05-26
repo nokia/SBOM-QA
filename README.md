@@ -80,3 +80,39 @@ The Python folder contains software projects written in Python, using tools like
 **1. fastapi** - A modern Python web framework designed for building APIs quickly with automatic OpenAPI and JSON Schema generation. It’s built on top of Starlette and Pydantic and supports asynchronous programming.
 
 
+# Software Composition Analysis (SCA) Tools & Container-Specific SBOM Tools
+
+This document presents a curated list of open source tools for generating and analyzing Software Bill of Materials (SBOMs). The tools are grouped into two categories:
+
+- **General SCA tools**: Work across multiple ecosystems.
+- **Container-specific tools**: Focused on container images and environments.
+
+Each tool is compared based on:
+- **Analysis Strategy**: How the tool identifies dependencies (e.g., package manager data, binary analysis).
+- **SPDX Support**: Whether the tool can output SPDX-compliant SBOMs.
+- **Ecosystem Coverage**: Languages, runtimes, or targets supported.
+- **Key Features**: Highlights of each tool.
+
+---
+
+## General-Purpose SCA Tools
+
+| Tool | Analysis Strategy | SPDX Support | Ecosystem Coverage | Key Features | GitHub | Docs |
+|------|-------------------|--------------|---------------------|--------------|--------|------|
+| **Syft** | Package manager, file system metadata | ✅ Yes | Go, Java, Python, Ruby, JavaScript, C/C++, containers | SBOM generation (SPDX, CycloneDX), Docker/OCI support, CLI/API | [anchore/syft](https://github.com/anchore/syft) | [Syft Docs](https://anchore.com/docs/syft/) |
+| **Tern** | File system inspection, Docker introspection | ✅ Yes | Linux containers | SBOM creation from container layers, SPDX support, Python-based | [tern-tools/tern](https://github.com/tern-tools/tern) | [Tern Docs](https://github.com/tern-tools/tern/blob/main/docs/index.md) |
+| **SPDX Generator** | Package metadata from managers | ✅ Yes | Python, Java, JS, C/C++ | Generates SPDX 2.2+, supported by SPDX working group | [spdx/spdx-sbom-generator](https://github.com/spdx/spdx-sbom-generator) | [SPDX Generator Docs](https://github.com/spdx/spdx-sbom-generator#usage) |
+| **SBOM-rs** | File system + metadata parsing | ✅ Yes | Rust, Linux, containers | Lightweight, Rust-based SBOM tool, SPDX and CycloneDX output | [authzed/sbom-rs](https://github.com/authzed/sbom-rs) | [SBOM-rs Docs](https://github.com/authzed/sbom-rs#usage) |
+| **ScanCode Toolkit** | Source code & license scanning | ✅ Yes | Python, Java, JS, C/C++, Ruby, etc. | Deep license + dependency scan, SPDX generation | [nexB/scancode-toolkit](https://github.com/nexB/scancode-toolkit) | [ScanCode Docs](https://scancode-toolkit.readthedocs.io/) |
+
+---
+
+## Container-Specific SBOM Tools
+
+| Tool | Analysis Strategy | SPDX Support | Ecosystem | Key Features | GitHub | Docs |
+|------|-------------------|--------------|------------|--------------|--------|------|
+| **Trivy** | Package manager, filesystem, vulnerabilities | ✅ Yes | Containers, VMs, source code | Vulnerability scanning, SBOM output (SPDX, CycloneDX), license scan | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | [Trivy Docs](https://aquasecurity.github.io/trivy/) |
+| **Docker SBOM** | Docker CLI plugin (experimental) | ✅ Yes | Docker images | Native Docker SBOM tool (JSON, SPDX), simple integration | [moby/buildkit (sbom)](https://github.com/moby/buildkit) | [Docker SBOM Docs](https://docs.docker.com/go/sbom/) |
+| **CNSpec** | Policy-as-code, config + SBOM inspection | ⚠️ Partial | Containers, cloud infra | Compliance rules, checks SBOMs, not full generator | [mundialis/cnspec](https://github.com/mondoo/cnspec) | [CNSpec Docs](https://mondoo.com/docs/cnspec/) |
+| **Grype** | Layer, package metadata, binaries | ✅ Yes | Containers (OCI, Docker), Linux | CVE scanning, pairs with Syft, supports SP
+
