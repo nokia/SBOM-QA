@@ -115,4 +115,15 @@ Each tool is compared based on:
 | **Docker SBOM** | Docker CLI plugin (experimental) | ✅ Yes | Docker images | Native Docker SBOM tool (JSON, SPDX), simple integration | [moby/buildkit (sbom)](https://github.com/moby/buildkit) | [Docker SBOM Docs](https://docs.docker.com/go/sbom/) |
 | **CNSpec** | Policy-as-code, config + SBOM inspection | ⚠️ Partial | Containers, cloud infra | Compliance rules, checks SBOMs, not full generator | [mundialis/cnspec](https://github.com/mondoo/cnspec) | [CNSpec Docs](https://mondoo.com/docs/cnspec/) |
 | **Grype** | Layer, package metadata, binaries | ✅ Yes | Containers (OCI, Docker), Linux | CVE scanning, pairs with Syft, supports SP
+| **TUF/Distro2SBOM** | Package index + signed metadata (TUF) | ⚠️ Partial | Linux distros | Experimental: generate SBOMs tied to signed distro updates | [theupdateframework/distro2sbom](https://github.com/theupdateframework/distro2sbom) | [TUF Docs](https://theupdateframework.io/) |
+
+---
+
+## 📌 Notes
+
+- ✅ = Official SPDX support
+- ⚠️ = Limited/indirect SPDX support
+- All tools are open-source and vary in maturity.
+- Several tools (e.g., Syft + Grype) are best used together for full SBOM + CVE coverage.
+- Tools like CNSpec can **consume** SBOMs for compliance, not necessarily generate them.
 
