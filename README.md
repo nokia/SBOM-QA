@@ -116,7 +116,7 @@ Each tool is compared based on:
 | **Docker SBOM** | Docker CLI plugin (experimental) | ✅ Yes | Docker images | Native Docker SBOM tool (JSON, SPDX), simple integration | [moby/buildkit (sbom)](https://github.com/moby/buildkit) | [Docker SBOM Docs](https://docs.docker.com/go/sbom/) |
 | **CNSpec** | Policy-as-code, config + SBOM inspection | ⚠️ Partial | Containers, cloud infra | Compliance rules, checks SBOMs, not full generator | [mundialis/cnspec](https://github.com/mondoo/cnspec) | [CNSpec Docs](https://mondoo.com/docs/cnspec/) |
 | **Grype** | Layer, package metadata, binaries | ✅ Yes | Containers (OCI, Docker), Linux | CVE scanning, pairs with Syft, supports SPDX, CycloneDX | [anchore/grype](https://github.com/anchore/grype) | [Grype Docs](https://anchore.com/docs/grype/) |
-| **TUF/Distro2SBOM** | Package index + signed metadata (TUF) | ⚠️ Partial | Linux distros | Experimental: generate SBOMs tied to signed distro updates | [theupdateframework/distro2sbom](https://github.com/theupdateframework/distro2sbom) | [TUF Docs](https://theupdateframework.io/) |
+| **distro2sbom** | Package index + signed metadata (TUF-based) | ⚠️ Partial | Linux distros | Experimental tool for generating SBOMs from Linux distro package metadata using TUF principles | [theupdateframework/distro2sbom](https://github.com/theupdateframework/distro2sbom) | [distro2sbom Docs](https://github.com/theupdateframework/distro2sbom#readme) |
 
 ---
 
