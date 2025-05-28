@@ -99,11 +99,11 @@ Each tool is compared based on:
 
 | Tool | Analysis Strategy | SPDX Support | Ecosystem Coverage | Key Features | GitHub | Docs |
 |------|-------------------|--------------|---------------------|--------------|--------|------|
-| **Syft** | Package manager, file system metadata | ✅ Yes | Go, Java, Python, Ruby, JavaScript, C/C++, containers | SBOM generation (SPDX, CycloneDX), Docker/OCI support, CLI/API | [anchore/syft](https://github.com/anchore/syft) | [Syft Docs](https://anchore.com/docs/syft/) |
-| **SPDX Generator** | Package metadata from managers | ✅ Yes | Python, Java, JS, C/C++ | Generates SPDX 2.2+, supported by SPDX working group | [spdx/spdx-sbom-generator](https://github.com/spdx/spdx-sbom-generator) | [SPDX Generator Docs](https://github.com/spdx/spdx-sbom-generator#usage) |
-| **ScanCode Toolkit** | Source code & license scanning | ✅ Yes | Python, Java, JS, C/C++, Ruby, etc. | Deep license + dependency scan, SPDX generation | [nexB/scancode-toolkit](https://github.com/nexB/scancode-toolkit) | [ScanCode Docs](https://scancode-toolkit.readthedocs.io/) |
-| **Trivy** | Package manager, filesystem, vulnerabilities | ✅ Yes | Containers, VMs, source code | Vulnerability scanning, SBOM output (SPDX, CycloneDX), license scan | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | [Trivy Docs](https://aquasecurity.github.io/trivy/) |
-| **ORT** | Package manager, source code, VCS | ✅ Yes | Source code, repositories | License compliance, vulnerability scanning, SBOM generation (SPDX, CycloneDX), dependency analysis | [oss-review-toolkit/ort](https://github.com/oss-review-toolkit/ort) | [ORT Docs](https://github.com/oss-review-toolkit/ort#documentation) |
+| **Syft** | Package manager, file system metadata | ✅ Yes | Go, Java, Python, Ruby, JavaScript, C/C++, containers | SBOM generation (SPDX, CycloneDX), Docker/OCI support, CLI/API | [anchore/syft] (https://github.com/anchore/syft) | [Syft Docs](https://anchore.com/docs/syft/) | Source, Build, Analyzed | 
+| **SPDX Generator** | Package metadata from managers | ✅ Yes | Python, Java, JS, C/C++ | Generates SPDX 2.2+, supported by SPDX working group | [spdx/spdx-sbom-generator](https://github.com/spdx/spdx-sbom-generator) | [SPDX Generator Docs](https://github.com/spdx/spdx-sbom-generator#usage) | Source |
+| **ScanCode Toolkit** | Source code & license scanning | ✅ Yes | Python, Java, JS, C/C++, Ruby, etc. | Deep license + dependency scan, SPDX generation | [nexB/scancode-toolkit](https://github.com/nexB/scancode-toolkit) | [ScanCode Docs](https://scancode-toolkit.readthedocs.io/) | Source, Analyzed |
+| **Trivy** | Package manager, filesystem, vulnerabilities | ✅ Yes | Containers, VMs, source code | Vulnerability scanning, SBOM output (SPDX, CycloneDX), license scan | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | [Trivy Docs](https://aquasecurity.github.io/trivy/) | Source, Build, Analyzed, Deployed |
+| **ORT** | Package manager, source code, VCS | ✅ Yes | Source code, repositories | License compliance, vulnerability scanning, SBOM generation (SPDX, CycloneDX), dependency analysis | [oss-review-toolkit/ort](https://github.com/oss-review-toolkit/ort) | [ORT Docs](https://github.com/oss-review-toolkit/ort#documentation) | 	Design, Source, Analyzed |
 ---
 
 ## Container-Specific SBOM Tools
@@ -111,11 +111,11 @@ Each tool is compared based on:
 
 | Tool | Analysis Strategy | SPDX Support | Ecosystem | Key Features | GitHub | Docs |
 |------|-------------------|--------------|------------|--------------|--------|------|
-| **Tern** | File system inspection, Docker introspection | ✅ Yes | Linux containers | SBOM creation from container layers, SPDX support, Python-based | [tern-tools/tern](https://github.com/tern-tools/tern) | [Tern Docs](https://github.com/tern-tools/tern/blob/main/docs/index.md) |
-| **Docker SBOM** | Docker CLI plugin (experimental) | ✅ Yes | Docker images | Native Docker SBOM tool (JSON, SPDX), simple integration | [moby/buildkit (sbom)](https://github.com/moby/buildkit) | [Docker SBOM Docs](https://docs.docker.com/go/sbom/) |
-| **CNSpec** | Policy-as-code, config + SBOM inspection | ⚠️ Partial | Containers, cloud infra | Compliance rules, checks SBOMs, not full generator | [mundialis/cnspec](https://github.com/mondoo/cnspec) | [CNSpec Docs](https://mondoo.com/docs/cnspec/) |
-| **Grype** | Layer, package metadata, binaries | ✅ Yes | Containers (OCI, Docker), Linux | CVE scanning, pairs with Syft, supports SPDX, CycloneDX | [anchore/grype](https://github.com/anchore/grype) | [Grype Docs](https://anchore.com/docs/grype/) |
-| **distro2sbom** | Package index + signed metadata (TUF-based) | ⚠️ Partial | Linux distros | Experimental tool for generating SBOMs from Linux distro package metadata using TUF principles | [theupdateframework/distro2sbom](https://github.com/theupdateframework/distro2sbom) | [distro2sbom Docs](https://github.com/theupdateframework/distro2sbom#readme) |
+| **Tern** | File system inspection, Docker introspection | ✅ Yes | Linux containers | SBOM creation from container layers, SPDX support, Python-based | [tern-tools/tern](https://github.com/tern-tools/tern) | [Tern Docs](https://github.com/tern-tools/tern/blob/main/docs/index.md) | 	Build, Analyzed, Deployed|
+| **Docker SBOM** | Docker CLI plugin (experimental) | ✅ Yes | Docker images | Native Docker SBOM tool (JSON, SPDX), simple integration | [moby/buildkit (sbom)](https://github.com/moby/buildkit) | [Docker SBOM Docs](https://docs.docker.com/go/sbom/) | Build, Deployed |
+| **CNSpec** | Policy-as-code, config + SBOM inspection | ⚠️ Partial | Containers, cloud infra | Compliance rules, checks SBOMs, not full generator | [mundialis/cnspec](https://github.com/mondoo/cnspec) | [CNSpec Docs](https://mondoo.com/docs/cnspec/) | Deployed, Runtime (partial) |
+| **Grype** | Layer, package metadata, binaries | ✅ Yes | Containers (OCI, Docker), Linux | CVE scanning, pairs with Syft, supports SPDX, CycloneDX | [anchore/grype](https://github.com/anchore/grype) | [Grype Docs](https://anchore.com/docs/grype/) | Analyzed, Deployed |
+| **distro2sbom** | Package index + signed metadata (TUF-based) | ⚠️ Partial | Linux distros | Experimental tool for generating SBOMs from Linux distro package metadata using TUF principles | [theupdateframework/distro2sbom](https://github.com/theupdateframework/distro2sbom) | [distro2sbom Docs](https://github.com/theupdateframework/distro2sbom#readme) | Source, Build (experimental) |
 
 ---
 
