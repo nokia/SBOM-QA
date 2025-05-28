@@ -99,7 +99,7 @@ Each tool is compared based on:
 
 | Tool | Analysis Strategy | SPDX Support | Ecosystem Coverage | Key Features | GitHub | Docs |
 |------|-------------------|--------------|---------------------|--------------|--------|------|
-| **Syft** | Package manager, file system metadata | ✅ Yes | Go, Java, Python, Ruby, JavaScript, C/C++, containers | SBOM generation (SPDX, CycloneDX), Docker/OCI support, CLI/API | [anchore/syft] (https://github.com/anchore/syft) | [Syft Docs](https://anchore.com/docs/syft/) | Source, Build, Analyzed | 
+| **Syft** | Package manager, file system metadata | ✅ Yes | Go, Java, Python, Ruby, JavaScript, C/C++, containers | SBOM generation (SPDX, CycloneDX), Docker/OCI support, CLI/API | [anchore/syft](https://github.com/anchore/syft) | [Syft Docs](https://anchore.com/docs/syft/) | Source, Build, Analyzed | 
 | **SPDX Generator** | Package metadata from managers | ✅ Yes | Python, Java, JS, C/C++ | Generates SPDX 2.2+, supported by SPDX working group | [spdx/spdx-sbom-generator](https://github.com/spdx/spdx-sbom-generator) | [SPDX Generator Docs](https://github.com/spdx/spdx-sbom-generator#usage) | Source |
 | **ScanCode Toolkit** | Source code & license scanning | ✅ Yes | Python, Java, JS, C/C++, Ruby, etc. | Deep license + dependency scan, SPDX generation | [nexB/scancode-toolkit](https://github.com/nexB/scancode-toolkit) | [ScanCode Docs](https://scancode-toolkit.readthedocs.io/) | Source, Analyzed |
 | **Trivy** | Package manager, filesystem, vulnerabilities | ✅ Yes | Containers, VMs, source code | Vulnerability scanning, SBOM output (SPDX, CycloneDX), license scan | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | [Trivy Docs](https://aquasecurity.github.io/trivy/) | Source, Build, Analyzed, Deployed |
