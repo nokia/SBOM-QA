@@ -12,7 +12,7 @@ This project helps answer key questions:
 ## 🧭 Work Methodology
 
 1. **Test Targets** – Software artifacts with known dependencies built using various tech stacks.
-2. **Reference SBOMs** – Manually curated for accuracy.
+2. **Reference SBOMs** – Exporting SBOM via GitHub Dependencies Graph of Origin Projects.
 3. **SCA Tools** – Open source tools selected for analysis.
 4. **Benchmarking** – We compare tool-generated SBOMs with reference SBOMs and document results.
 
@@ -82,13 +82,5 @@ Each folder corresponds to a test case with a specific language or platform:
 
 ---
 
-## 🙋 Want to Contribute?
-
-Feel free to open issues or submit PRs if you want to add:
-- New test targets
-- SCA tools
-- Benchmarking results
-
-Together, we can make SBOM generation more trustworthy and standardized. 🧩
 
 
