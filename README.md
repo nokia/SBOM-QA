@@ -99,11 +99,11 @@ Each tool is compared based on:
 
 | Tool | Analysis Strategy | SPDX Support | Ecosystem Coverage | Key Features | GitHub | Docs |
 |------|-------------------|--------------|---------------------|--------------|--------|------|
-| **Syft** | Package manager, file system metadata | ✅ Yes | Go, Java, Python, Ruby, JavaScript, C/C++, containers | SBOM generation (SPDX, CycloneDX), Docker/OCI support, CLI/API | [anchore/syft](https://github.com/anchore/syft) | [Syft Docs](https://anchore.com/docs/syft/) | Source, Build, Analyzed | 
-| **SPDX Generator** | Package metadata from managers | ✅ Yes | Python, Java, JS, C/C++ | Generates SPDX 2.2+, supported by SPDX working group | [spdx/spdx-sbom-generator](https://github.com/spdx/spdx-sbom-generator) | [SPDX Generator Docs](https://github.com/spdx/spdx-sbom-generator#usage) | Source |
-| **ScanCode Toolkit** | Source code & license scanning | ✅ Yes | Python, Java, JS, C/C++, Ruby, etc. | Deep license + dependency scan, SPDX generation | [nexB/scancode-toolkit](https://github.com/nexB/scancode-toolkit) | [ScanCode Docs](https://scancode-toolkit.readthedocs.io/) | Source, Analyzed |
-| **Trivy** | Package manager, filesystem, vulnerabilities | ✅ Yes | Containers, VMs, source code | Vulnerability scanning, SBOM output (SPDX, CycloneDX), license scan | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | [Trivy Docs](https://aquasecurity.github.io/trivy/) | Source, Build, Analyzed, Deployed |
-| **ORT** | Package manager, source code, VCS | ✅ Yes | Source code, repositories | License compliance, vulnerability scanning, SBOM generation (SPDX, CycloneDX), dependency analysis | [oss-review-toolkit/ort](https://github.com/oss-review-toolkit/ort) | [ORT Docs](https://github.com/oss-review-toolkit/ort#documentation) | 	Design, Source, Analyzed |
+| **Syft** | Package manager, file system metadata | ✅ Yes | Go, Java, Python, Ruby, JavaScript, C/C++, containers | SBOM generation (SPDX, CycloneDX), Docker/OCI support, CLI/API | [anchore/syft](https://github.com/anchore/syft) [ammend/syft](https://github.com/ammend/syft) | [Syft Docs](https://anchore.com/docs/syft/) [ammend/syft](https://github.com/ammend/syft) |
+| **SPDX Generator** | Package metadata from managers | ✅ Yes | Python, Java, JS, C/C++ | Generates SPDX 2.2+, supported by SPDX working group | [spdx/spdx-sbom-generator](https://github.com/spdx/spdx-sbom-generator) | [SPDX Generator Docs](https://github.com/spdx/spdx-sbom-generator#usage) |
+| **ScanCode Toolkit** | Source code & license scanning | ✅ Yes | Python, Java, JS, C/C++, Ruby, etc. | Deep license + dependency scan, SPDX generation | [nexB/scancode-toolkit](https://github.com/nexB/scancode-toolkit) | [ScanCode Docs](https://scancode-toolkit.readthedocs.io/) |
+| **Trivy** | Package manager, filesystem, vulnerabilities | ✅ Yes | Containers, VMs, source code | Vulnerability scanning, SBOM output (SPDX, CycloneDX), license scan | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | [Trivy Docs](https://aquasecurity.github.io/trivy/) |
+| **ORT** | Package manager, source code, VCS | ✅ Yes | Source code, repositories | License compliance, vulnerability scanning, SBOM generation (SPDX, CycloneDX), dependency analysis | [oss-review-toolkit/ort](https://github.com/oss-review-toolkit/ort) | [ORT Docs](https://github.com/oss-review-toolkit/ort#documentation) |
 ---
 
 ## Container-Specific SBOM Tools
@@ -126,4 +126,10 @@ Each tool is compared based on:
 - All tools are open-source and vary in maturity.
 - Several tools (e.g., Syft + Grype) are best used together for full SBOM + CVE coverage.
 - Tools like CNSpec can **consume** SBOMs for compliance, not necessarily generate them.
+
+## SBOM Generation Tools
+
+- [Syft](https://github.com/anchore/syft) – The primary tool used for generating Software Bill of Materials (SBOM).
+- [ammend/syft](https://github.com/ammend/syft) – A fork of Syft that, in theory, generates SPDX JSON output compliant with the [OpenChain Telco SBOM Guide](https://openchainproject.org/news/2025/05/22/case-study-bytedance-telco). This may be useful for telecom sector compliance requirements.
+
 
