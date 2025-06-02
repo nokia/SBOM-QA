@@ -37,8 +37,8 @@ This project helps answer key questions:
 
 | Tool              | Analysis Strategy                           | SPDX Support | Ecosystem Support                               | GitHub | Docs |
 |------------------|---------------------------------------------|--------------|--------------------------------------------------|--------------------------- | -------------------------|
-| **Syft**          | Package managers, file system metadata      | ✅ Yes       | Go, Java, Python, JS, C/C++, containers          | [anchore/syft](https://github.com/anchore/syft) [ammend/syft](https://github.com/ammend/syft) | [Syft Docs](https://anchore.com/docs/syft/) [ammend/syft](https://github.com/ammend/syft)   |
-| **ammend/syft**   | Syft fork with Telco SBOM Guide alignment   | ✅ Yes       | Same as Syft                                     | [Fork for telecom compliance](https://github.com/ammend/syft) |
+| **Syft**          | Package managers, file system metadata      | ✅ Yes       | Go, Java, Python, JS, C/C++, containers          | [anchore/syft](https://github.com/anchore/syft) | [Syft Docs](https://anchore.com/docs/syft/) |
+| **ammend/syft**   | Syft fork with Telco SBOM Guide alignment   | ✅ Yes       | Same as Syft                                     | [ammend/syft](https://github.com/elhamrasti/syft) |
 | **SPDX Generator**| Package metadata via managers               | ✅ Yes       | Python, Java, JS, C/C++                          |  [spdx/spdx-sbom-generator](https://github.com/spdx/spdx-sbom-generator) | [SPDX Generator Docs](https://github.com/spdx/spdx-sbom-generator#usage) |
 | **ScanCode**      | Source code & license scan                  | ✅ Yes       | Broad support                                    | [nexB/scancode-toolkit](https://github.com/nexB/scancode-toolkit) | [ScanCode Docs](https://scancode-toolkit.readthedocs.io/) |
 | **Trivy**         | Filesystem & vulnerability analysis         | ✅ Yes       | Containers, VMs, source code                     |   [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | [Trivy Docs](https://aquasecurity.github.io/trivy/)  |
