@@ -23,7 +23,7 @@ This project helps answer key questions:
 | ID | Description                        | Tag                    | Artefact                     | Reference SBOM                              |
 |----|------------------------------------|------------------------|------------------------------|---------------------------------------------|
 | 1  | C++ without package manager        | `v38.0.0-nightly.20250521` | [C++/electron](C++/electron) | [C++/electron_electron_dcefc2.json](C++/electron_electron_dcefc2.json) |
-| 2  | C without package manager          | `v7_0_2beta`           |  [C/curl_curl_0c7fe9.json](C/curl_curl_0c7fe9.json)  |
+| 2  | C without package manager          | `v7_0_2beta`           |  [C/curl](C/curl) | [C/curl_curl_0c7fe9.json](C/curl_curl_0c7fe9.json) |
 | 3  | C++ with Conan                     | `v1.0.0`               | [C++_CONAN/Coronan](C++_CONAN/Coronan) | [C++_CONAN/bbvch_Coronan_81a3f3.json](C++_CONAN/bbvch_Coronan_81a3f3.json)  |
 | 4  | Go with dependencies               | `v0.147.4`             | [Go/hugo](Go/hugo) | [Go/gohugoio_hugo_b0888a.json](Go/gohugoio_hugo_b0888a.json)  |
 | 5  | Python with dependencies           | `v0.1.16`              | [python/fastapi](python/fastapi) | [python/fastapi_fastapi_1aca71.json](python/fastapi_fastapi_1aca71.json) |
