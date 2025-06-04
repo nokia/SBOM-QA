@@ -35,27 +35,27 @@ This project helps answer key questions:
 
 ## 🧰 Open Source SCA Tools Used
 
-| Tool              | Analysis Strategy                           | SPDX Support | Ecosystem Support                               | GitHub | Docs |
-|------------------|---------------------------------------------|--------------|--------------------------------------------------|--------------------------- | -------------------------|
-| **Syft**          | Package managers, file system metadata      | ✅ Yes       | Go, Java, Python, JS, C/C++, containers          | [anchore/syft](https://github.com/anchore/syft) | [Syft Docs](https://anchore.com/docs/syft/) |
-| **ammend/syft**   | Syft fork with Telco SBOM Guide alignment   | ✅ Yes       | Same as Syft                                     | [ammend/syft](https://github.com/elhamrasti/syft) |
-| **SPDX Generator**| Package metadata via managers               | ✅ Yes       | Python, Java, JS, C/C++                          |  [spdx/spdx-sbom-generator](https://github.com/spdx/spdx-sbom-generator) | [SPDX Generator Docs](https://github.com/spdx/spdx-sbom-generator#usage) |
-| **ScanCode**      | Source code & license scan                  | ✅ Yes       | Broad support                                    | [nexB/scancode-toolkit](https://github.com/nexB/scancode-toolkit) | [ScanCode Docs](https://scancode-toolkit.readthedocs.io/) |
-| **Trivy**         | Filesystem & vulnerability analysis         | ✅ Yes       | Containers, VMs, source code                     |   [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | [Trivy Docs](https://aquasecurity.github.io/trivy/)  |
-| **ORT**           | Source code, VCS, metadata                  | ✅ Yes       | Repositories                                     |  [oss-review-toolkit/ort](https://github.com/oss-review-toolkit/ort) | [ORT Docs](https://github.com/oss-review-toolkit/ort#documentation)  |
-| **SCANOSS**       | Code fingerprinting, snippet detection      | ✅ Yes       | All languages, AI-generated code | [scanoss/sbom-workbench](https://github.com/scanoss/sbom-workbench)     [scanoss](https://www.scanoss.com) | [scanoss Docs](https://github.com/scanoss/sbom-workbench) |
-
+| Tool              | Analysis Strategy                           | SPDX Support | Ecosystem Support                               | GitHub | Docs | CISA Standards Types SBOM |
+|------------------|---------------------------------------------|--------------|--------------------------------------------------|--------------------------- | -------------------------|--------------------------|
+| **Syft**          | Package managers, file system metadata      | ✅ Yes       | Go, Java, Python, JS, C/C++, containers          | [anchore/syft](https://github.com/anchore/syft) | [Syft Docs](https://anchore.com/docs/syft/) | Source, Build, Analyze |
+| **ammend/syft**   | Syft fork with Telco SBOM Guide alignment   | ✅ Yes       | Same as Syft                                     | [ammend/syft](https://github.com/elhamrasti/syft) |           | Source, Build, Analyze |
+| **SPDX Generator**| Package metadata via managers               | ✅ Yes       | Python, Java, JS, C/C++                          |  [spdx/spdx-sbom-generator](https://github.com/spdx/spdx-sbom-generator) | [SPDX Generator Docs](https://github.com/spdx/spdx-sbom-generator#usage) | Source |
+| **ScanCode**      | Source code & license scan                  | ✅ Yes       | Broad support                                    | [nexB/scancode-toolkit](https://github.com/nexB/scancode-toolkit) | [ScanCode Docs](https://scancode-toolkit.readthedocs.io/) | Source, Build, Analyze |
+| **Trivy**         | Filesystem & vulnerability analysis, SBOM Scaning        | ✅ Yes       | Containers, VMs, source code                     |   [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | [Trivy Docs](https://aquasecurity.github.io/trivy/)  | Source, Build, Analyze, Deploy |
+| **ORT**           | Source code, VCS, metadata                  | ✅ Yes       | Repositories                                     |  [oss-review-toolkit/ort](https://github.com/oss-review-toolkit/ort) | [ORT Docs](https://github.com/oss-review-toolkit/ort#documentation)  | Source, Build, Analyze |
+| **SCANOSS**       | Code fingerprinting, snippet detection      | ✅ Yes       | All languages, AI-generated code | [scanoss/sbom-workbench](https://github.com/scanoss/sbom-workbench)     [scanoss](https://www.scanoss.com) | [scanoss Docs](https://github.com/scanoss/sbom-workbench) | Source |
+📌 **Note:** Pairing tools (e.g., Syft + Grype) may be needed to cover all CISA types.
 ---
 
 ## 🐳 Container-Specific SBOM Tools
 
-| Tool              | Analysis Strategy                  | SPDX Support | Ecosystem        |  GitHub | Docs |
-|------------------|-------------------------------------|--------------|------------------|---------------------------- | ----------------------------|
-| **Tern**          | Filesystem + Docker introspection  | ✅ Yes       | Linux containers | [tern-tools/tern](https://github.com/tern-tools/tern) | [Tern Docs](https://github.com/tern-tools/tern/blob/main/docs/index.md) |
-| **Docker SBOM**   | Native Docker CLI plugin           | ✅ Yes       | Docker images    | [moby/buildkit (sbom)](https://github.com/moby/buildkit) | [Docker SBOM Docs](https://docs.docker.com/go/sbom/) |
-| **CNSpec**        | Policy-as-code + SBOM inspection   | ⚠️ Partial   | Containers, cloud| [mundialis/cnspec](https://github.com/mondoo/cnspec) | [CNSpec Docs](https://mondoo.com/docs/cnspec/) | Deployed, Runtime (partial) |
-| **Grype**         | Layer + metadata + binaries        | ✅ Yes       | Containers       |  [anchore/grype](https://github.com/anchore/grype) | [Grype Docs](https://anchore.com/docs/grype/) |
-| **distro2sbom**   | Package metadata + TUF             | ⚠️ Partial   | Linux distros    | [theupdateframework/distro2sbom](https://github.com/theupdateframework/distro2sbom) | [distro2sbom Docs](https://github.com/theupdateframework/distro2sbom#readme) | Source, Build (experimental) |
+| Tool              | Analysis Strategy                  | SPDX Support | Ecosystem        |  GitHub | Docs | CISA Standards Types SBOM |
+|------------------|-------------------------------------|--------------|------------------|---------------------------- | ----------------------------|--------------------|
+| **Tern**          | Filesystem + Docker introspection  | ✅ Yes       | Linux containers | [tern-tools/tern](https://github.com/tern-tools/tern) | [Tern Docs](https://github.com/tern-tools/tern/blob/main/docs/index.md) | pending     |
+| **Docker SBOM**   | Native Docker CLI plugin           | ✅ Yes       | Docker images    | [moby/buildkit (sbom)](https://github.com/moby/buildkit) | [Docker SBOM Docs](https://docs.docker.com/go/sbom/) |   pending    |
+| **CNSpec**        | Policy-as-code + SBOM inspection   | ⚠️ Partial   | Containers, cloud| [mundialis/cnspec](https://github.com/mondoo/cnspec) | [CNSpec Docs](https://mondoo.com/docs/cnspec/) |  pending   |
+| **Grype**         | Layer + metadata + binaries        | ✅ Yes       | Containers       |  [anchore/grype](https://github.com/anchore/grype) | [Grype Docs](https://anchore.com/docs/grype/) | pending |
+| **distro2sbom**   | Package metadata + TUF             | ⚠️ Partial   | Linux distros    | [theupdateframework/distro2sbom](https://github.com/theupdateframework/distro2sbom) | [distro2sbom Docs](https://github.com/theupdateframework/distro2sbom#readme) | pending |
 
 📌 **Note:** Tools marked ✅ officially support SPDX. Tools like `Grype + Syft` are best paired for full SBOM + vulnerability insights.
 
