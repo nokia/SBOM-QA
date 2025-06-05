@@ -53,11 +53,12 @@ This project helps answer key questions:
 
 | Tool              | Analysis Strategy                  | SPDX Support | Ecosystem        |  GitHub | Docs | CISA SBOM Types |
 |------------------|-------------------------------------|--------------|------------------|---------------------------- | ----------------------------|--------------------|
-| **Tern**          | Filesystem + Docker introspection  | ✅ Yes       | Linux containers | [tern-tools/tern](https://github.com/tern-tools/tern) | [Tern Docs](https://github.com/tern-tools/tern/blob/main/docs/index.md) | pending     |
-| **Docker SBOM**   | Native Docker CLI plugin           | ✅ Yes       | Docker images    | [moby/buildkit (sbom)](https://github.com/moby/buildkit) | [Docker SBOM Docs](https://docs.docker.com/go/sbom/) |   pending    |
-| **CNSpec**        | Policy-as-code + SBOM inspection   | ⚠️ Partial   | Containers, cloud| [mundialis/cnspec](https://github.com/mondoo/cnspec) | [CNSpec Docs](https://mondoo.com/docs/cnspec/) |  pending   |
-| **Grype**         | Layer + metadata + binaries        | ✅ Yes       | Containers       |  [anchore/grype](https://github.com/anchore/grype) | [Grype Docs](https://anchore.com/docs/grype/) | pending |
-| **distro2sbom**   | Package metadata + TUF             | ⚠️ Partial   | Linux distros    | [theupdateframework/distro2sbom](https://github.com/theupdateframework/distro2sbom) | [distro2sbom Docs](https://github.com/theupdateframework/distro2sbom#readme) | pending |
+| **Tern**          | Filesystem + Docker introspection  | ✅ Yes       | Linux containers | [tern-tools/tern](https://github.com/tern-tools/tern) | [Tern Docs](https://github.com/tern-tools/tern/blob/main/docs/index.md) | Build, Analyze    |
+| **Docker SBOM**   | Native Docker CLI plugin           | ✅ Yes       | Docker images    | [moby/buildkit (sbom)](https://github.com/moby/buildkit) | [Docker SBOM Docs](https://docs.docker.com/go/sbom/) |   Build, Analyze    |
+| **Grype**         | Layer + metadata + binaries        | ✅ Yes       | Containers       |  [anchore/grype](https://github.com/anchore/grype) | [Grype Docs](https://anchore.com/docs/grype/) | Analyze |
+| **distro2sbom**   | Package metadata + TUF             | ✅ Yes   | Linux distros    | [theupdateframework/distro2sbom](https://github.com/anthonyharrison/distro2SBOM) | [distro2sbom Docs](https://github.com/anthonyharrison/distro2SBOM/blob/main/README.md) | Analyze |
+| **bom** (GUAC)    | Container image SBOM generation      | ✅ Yes       | Docker, OCI      | [guacsec/bom](https://github.com/kubernetes-sigs/bom) | [bom Docs](https://docs.guac.sh/ingesting-sboms/) | Analyze |
+
 
 📌 **Note:** Tools marked ✅ officially support SPDX. Tools like `Grype + Syft` are best paired for full SBOM + vulnerability insights.
 
