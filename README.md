@@ -44,7 +44,7 @@ This project helps answer key questions:
 | **ORT**           | Source code, VCS, metadata                  | ✅ Yes       | Repositories                                     |  [oss-review-toolkit/ort](https://github.com/oss-review-toolkit/ort) | [ORT Docs](https://github.com/oss-review-toolkit/ort#documentation)  | Source, Build, Analyze |
 | **SCANOSS**       | Code fingerprinting, snippet detection      | ✅ Yes       | All languages, AI-generated code | [scanoss/sbom-workbench](https://github.com/scanoss/sbom-workbench)     [scanoss](https://www.scanoss.com) | [scanoss Docs](https://github.com/scanoss/sbom-workbench) | Source |
 
-📌 **Note:** Tools like `Grype + Syft` are best paired for full CISA SBOM types.
+📌 **Note:** [ScanCode](https://github.com/nexB/scancode-toolkit) primarily detects license and copyright information at the file level within source trees. It does not fully reconstruct package dependency graphs as other SCA tools do, which may limit its usefulness for comprehensive SBOM generation.
 
 ---
 
@@ -54,12 +54,12 @@ This project helps answer key questions:
 |------------------|-------------------------------------|--------------|------------------|---------------------------- | ----------------------------|--------------------|
 | **Tern**          | Filesystem + Docker introspection  | ✅ Yes       | Linux containers | [tern-tools/tern](https://github.com/tern-tools/tern) | [Tern Docs](https://github.com/tern-tools/tern/tree/main/docs) | Build, Analyze    |
 | **Docker SBOM**   | Native Docker CLI plugin           | ✅ Yes       | Docker images    | [moby/buildkit (sbom)](https://github.com/moby/buildkit) | [Docker SBOM Docs](https://github.com/moby/buildkit/blob/master/README.md) |   Build, Analyze    |
-| **Grype**         | Layer + metadata + binaries        | ✅ Yes       | Containers       |  [anchore/grype](https://github.com/anchore/grype) | [Grype Docs](https://anchore.com/docs/grype/) | Analyze |
 | **distro2sbom**   | Package metadata + TUF             | ✅ Yes   | Linux distros    | [theupdateframework/distro2sbom](https://github.com/anthonyharrison/distro2SBOM) | [distro2sbom Docs](https://github.com/anthonyharrison/distro2SBOM/blob/main/README.md) | Analyze |
-| **bom** (GUAC)    | OCI/Docker image scanning and SPDX generation (early stage)      | ✅ Yes       | Docker, OCI      | [guacsec/bom](https://github.com/kubernetes-sigs/bom) | [bom Docs](https://docs.guac.sh/ingesting-sboms/) | Analyze |
+| **Syft**          | Package managers, file system metadata, container images | ✅ Yes       | Go, Java, Python, JS, C/C++, containers          | [anchore/syft](https://github.com/anchore/syft) | [Syft Docs](https://anchore.com/docs/syft/) | Source, Build, Analyze | 
 
 
-📌 **Note:** Tools marked ✅ officially support SPDX. Tools like `Grype + Syft` are best paired for full SBOM + vulnerability insights.
+📌 **Note:** [Syft](https://github.com/anchore/syft) supports scanning of **container images** (e.g., Docker, OCI) in addition to local file systems and source directories. It detects packages from image layers, which makes it useful for SBOM generation in container-based environments.
+
 
 ---
 
