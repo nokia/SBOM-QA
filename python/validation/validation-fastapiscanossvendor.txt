@@ -1,0 +1,12 @@
+Validating scanossvendor.new.tag.spdx.json
++---+--------------+--------------+---------------------------+---------------------------+
+| # | Error type   | SPDX ID      | Package name              | Reason                    |
++---+--------------+--------------+---------------------------+---------------------------+
+| 1 | Useless      | SPDXRef-     | slide%202.0b1%20tomcat%20 | purl (pkg:apache/slide%20 |
+|   | mandatory    | a7dafec480fa | 4.1.29.zip                | 2.0b1%20tomcat%204.1.29.z |
+|   | field from   | e152f96e8ada |                           | ip@2.0) in the            |
+|   | Package      | 80d4f17b     |                           | ExternalRef cannot be     |
+|   |              |              |                           | converted to a            |
+|   |              |              |                           | downloadable URL          |
++---+--------------+--------------+---------------------------+---------------------------+
+The SPDX file clone/python/newtag/scanossvendor.new.tag.spdx.json is not compliant with the OpenChain Telco SBOM Guide version 1.1 in strict mode (with RECOMMENDED also)

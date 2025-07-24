@@ -1,0 +1,818 @@
+Validating syft.python.newtag.spdx.json
++----+--------------+--------------+---------------------------+---------------------------+
+| #  | Error type   | SPDX ID      | Package name              | Reason                    |
++----+--------------+--------------+---------------------------+---------------------------+
+| 1  | NTIA         | SPDXRef-Docu | .                         | Package without a version |
+|    | validation   | mentRoot-    |                           |                           |
+|    | error        | Directory-.  |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 2  | NTIA         | SPDXRef-     | black                     | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-black |                           |                           |
+|    |              | -2dcd3b4e9f0 |                           |                           |
+|    |              | f2bea        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 3  | NTIA         | SPDXRef-     | cairosvg                  | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-cairo |                           |                           |
+|    |              | svg-         |                           |                           |
+|    |              | c4f91fece259 |                           |                           |
+|    |              | bc72         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 4  | NTIA         | SPDXRef-     | dirty-equals              | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | dirty-equals |                           |                           |
+|    |              | -c467aa05237 |                           |                           |
+|    |              | a5ce6        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 5  | NTIA         | SPDXRef-     | griffe-typingdoc          | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | griffe-typin |                           |                           |
+|    |              | gdoc-        |                           |                           |
+|    |              | f4d1e8968c9b |                           |                           |
+|    |              | 193c         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 6  | NTIA         | SPDXRef-     | jieba                     | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | jieba-ba2f33 |                           |                           |
+|    |              | fde9f8124b   |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 7  | NTIA         | SPDXRef-     | markdown-include-variants | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | markdown-    |                           |                           |
+|    |              | include-vari |                           |                           |
+|    |              | ants-        |                           |                           |
+|    |              | 547af4cdac83 |                           |                           |
+|    |              | e9f3         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 8  | NTIA         | SPDXRef-     | mkdocs-macros-plugin      | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | mkdocs-      |                           |                           |
+|    |              | macros-plugi |                           |                           |
+|    |              | n-           |                           |                           |
+|    |              | d9bccae92ad3 |                           |                           |
+|    |              | 383d         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 9  | NTIA         | SPDXRef-     | mkdocs-material           | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | mkdocs-mater |                           |                           |
+|    |              | ial-         |                           |                           |
+|    |              | 043e23fcfdc0 |                           |                           |
+|    |              | a0d2         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 10 | NTIA         | SPDXRef-     | mkdocstrings              | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-mkdoc |                           |                           |
+|    |              | strings-     |                           |                           |
+|    |              | 956a813b14da |                           |                           |
+|    |              | 1fd0         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 11 | NTIA         | SPDXRef-     | mypy                      | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-mypy- |                           |                           |
+|    |              | f7b147c7628e |                           |                           |
+|    |              | d8fe         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 12 | NTIA         | SPDXRef-     | pillow                    | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-pillo |                           |                           |
+|    |              | w-           |                           |                           |
+|    |              | 333048ca6da0 |                           |                           |
+|    |              | c454         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 13 | NTIA         | SPDXRef-     | pydantic-ai               | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | pydantic-ai- |                           |                           |
+|    |              | 1656113fb830 |                           |                           |
+|    |              | 9b32         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 14 | NTIA         | SPDXRef-     | pyjwt                     | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-pyjwt |                           |                           |
+|    |              | -40e751169d0 |                           |                           |
+|    |              | c769f        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 15 | NTIA         | SPDXRef-     | ruff                      | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-ruff- |                           |                           |
+|    |              | f7f46da5fd01 |                           |                           |
+|    |              | 1373         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 16 | NTIA         | SPDXRef-     | sqlmodel                  | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-sqlmo |                           |                           |
+|    |              | del-         |                           |                           |
+|    |              | 7134b532d1a8 |                           |                           |
+|    |              | 6bb5         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 17 | NTIA         | SPDXRef-     | typer                     | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-typer |                           |                           |
+|    |              | -31a2a5a1e71 |                           |                           |
+|    |              | 5993c        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 18 | NTIA         | SPDXRef-     | types-orjson              | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | types-orjson |                           |                           |
+|    |              | -a7dbd12e2dc |                           |                           |
+|    |              | 665bb        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 19 | NTIA         | SPDXRef-     | types-ujson               | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | types-ujson- |                           |                           |
+|    |              | f25585a9b561 |                           |                           |
+|    |              | 14f1         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 20 | NTIA         | SPDXRef-Docu | .                         | Package without a package |
+|    | validation   | mentRoot-    |                           | supplier                  |
+|    | error        | Directory-.  |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 21 | Missing      | General      | General                   | CreatorComment is missing |
+|    | mandatory    |              |                           |                           |
+|    | field from   |              |                           |                           |
+|    | CreationInfo |              |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 22 | Missing      | SPDXRef-     | actions/add-to-project    | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-add- |                           |                           |
+|    |              | to-project-  |                           |                           |
+|    |              | d937099f61fc |                           |                           |
+|    |              | a895         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 23 | Missing      | SPDXRef-     | actions/cache             | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-cach |                           |                           |
+|    |              | e-           |                           |                           |
+|    |              | 1e07686ad4eb |                           |                           |
+|    |              | fb74         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 24 | Missing      | SPDXRef-     | actions/checkout          | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-chec |                           |                           |
+|    |              | kout-        |                           |                           |
+|    |              | 067a915afa68 |                           |                           |
+|    |              | f83b         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 25 | Missing      | SPDXRef-     | actions/checkout          | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-chec |                           |                           |
+|    |              | kout-        |                           |                           |
+|    |              | 898063c99976 |                           |                           |
+|    |              | 900a         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 26 | Missing      | SPDXRef-     | actions/checkout          | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-chec |                           |                           |
+|    |              | kout-        |                           |                           |
+|    |              | 033883049328 |                           |                           |
+|    |              | ba25         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 27 | Missing      | SPDXRef-     | actions/checkout          | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-chec |                           |                           |
+|    |              | kout-        |                           |                           |
+|    |              | e204d9e04b89 |                           |                           |
+|    |              | 2174         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 28 | Missing      | SPDXRef-     | actions/checkout          | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-chec |                           |                           |
+|    |              | kout-        |                           |                           |
+|    |              | 227c1a6a8599 |                           |                           |
+|    |              | f5a3         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 29 | Missing      | SPDXRef-     | actions/checkout          | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-chec |                           |                           |
+|    |              | kout-        |                           |                           |
+|    |              | 262ed5c927fc |                           |                           |
+|    |              | 485c         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 30 | Missing      | SPDXRef-     | actions/checkout          | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-chec |                           |                           |
+|    |              | kout-        |                           |                           |
+|    |              | 32a7fd1f29da |                           |                           |
+|    |              | 682d         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 31 | Missing      | SPDXRef-     | actions/checkout          | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-chec |                           |                           |
+|    |              | kout-        |                           |                           |
+|    |              | a14e91d06a2e |                           |                           |
+|    |              | bb93         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 32 | Missing      | SPDXRef-     | actions/checkout          | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-chec |                           |                           |
+|    |              | kout-        |                           |                           |
+|    |              | e6825a7040e5 |                           |                           |
+|    |              | d79d         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 33 | Missing      | SPDXRef-     | actions/checkout          | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-chec |                           |                           |
+|    |              | kout-        |                           |                           |
+|    |              | 3457576d1a31 |                           |                           |
+|    |              | 2428         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 34 | Missing      | SPDXRef-     | actions/checkout          | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-     |                           |                           |
+|    |              | checkout-fa4 |                           |                           |
+|    |              | 0baec13d8510 |                           |                           |
+|    |              | 3            |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 35 | Missing      | SPDXRef-     | actions/checkout          | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-chec |                           |                           |
+|    |              | kout-        |                           |                           |
+|    |              | 5dcd168fc1a2 |                           |                           |
+|    |              | 1bb9         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 36 | Missing      | SPDXRef-     | actions/checkout          | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-chec |                           |                           |
+|    |              | kout-        |                           |                           |
+|    |              | 1420d9592852 |                           |                           |
+|    |              | bbf9         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 37 | Missing      | SPDXRef-     | actions/download-artifact | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-     |                           |                           |
+|    |              | download-art |                           |                           |
+|    |              | ifact-       |                           |                           |
+|    |              | 085c448cd742 |                           |                           |
+|    |              | 9968         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 38 | Missing      | SPDXRef-     | actions/download-artifact | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-     |                           |                           |
+|    |              | download-art |                           |                           |
+|    |              | ifact-       |                           |                           |
+|    |              | 3cb4dcfae4a5 |                           |                           |
+|    |              | 2cb2         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 39 | Missing      | SPDXRef-     | actions/download-artifact | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-     |                           |                           |
+|    |              | download-art |                           |                           |
+|    |              | ifact-       |                           |                           |
+|    |              | 7eb1bf02b16c |                           |                           |
+|    |              | 2ca7         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 40 | Missing      | SPDXRef-     | actions/labeler           | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-labe |                           |                           |
+|    |              | ler-         |                           |                           |
+|    |              | 6b64125835e6 |                           |                           |
+|    |              | e52f         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 41 | Missing      | SPDXRef-     | actions/setup-python      | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-     |                           |                           |
+|    |              | setup-python |                           |                           |
+|    |              | -859f78a0ce5 |                           |                           |
+|    |              | b64d0        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 42 | Missing      | SPDXRef-     | actions/setup-python      | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-     |                           |                           |
+|    |              | setup-       |                           |                           |
+|    |              | python-fe556 |                           |                           |
+|    |              | e4a3e17cba5  |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 43 | Missing      | SPDXRef-     | actions/setup-python      | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-     |                           |                           |
+|    |              | setup-python |                           |                           |
+|    |              | -a373f0da227 |                           |                           |
+|    |              | 86541        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 44 | Missing      | SPDXRef-     | actions/setup-python      | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-     |                           |                           |
+|    |              | setup-python |                           |                           |
+|    |              | -c026d3c1429 |                           |                           |
+|    |              | 8ddf1        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 45 | Missing      | SPDXRef-     | actions/setup-python      | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-     |                           |                           |
+|    |              | setup-python |                           |                           |
+|    |              | -13e4bc7d3cb |                           |                           |
+|    |              | c5289        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 46 | Missing      | SPDXRef-     | actions/setup-python      | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-     |                           |                           |
+|    |              | setup-python |                           |                           |
+|    |              | -7c1ab35985f |                           |                           |
+|    |              | 7c66e        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 47 | Missing      | SPDXRef-     | actions/setup-python      | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-     |                           |                           |
+|    |              | setup-python |                           |                           |
+|    |              | -5ce192e5731 |                           |                           |
+|    |              | c5bf6        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 48 | Missing      | SPDXRef-     | actions/setup-python      | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-     |                           |                           |
+|    |              | setup-python |                           |                           |
+|    |              | -1977fc2bfef |                           |                           |
+|    |              | d6b53        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 49 | Missing      | SPDXRef-     | actions/setup-python      | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-     |                           |                           |
+|    |              | setup-python |                           |                           |
+|    |              | -2ccdd7b105b |                           |                           |
+|    |              | 2cde7        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 50 | Missing      | SPDXRef-     | actions/setup-python      | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-     |                           |                           |
+|    |              | setup-python |                           |                           |
+|    |              | -03c95a0847e |                           |                           |
+|    |              | e3a78        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 51 | Missing      | SPDXRef-     | actions/setup-python      | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-     |                           |                           |
+|    |              | setup-python |                           |                           |
+|    |              | -7f110c3a690 |                           |                           |
+|    |              | 6c381        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 52 | Missing      | SPDXRef-     | actions/setup-python      | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-     |                           |                           |
+|    |              | setup-python |                           |                           |
+|    |              | -d51d44c42d4 |                           |                           |
+|    |              | 67d01        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 53 | Missing      | SPDXRef-     | actions/upload-artifact   | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-     |                           |                           |
+|    |              | upload-artif |                           |                           |
+|    |              | act-         |                           |                           |
+|    |              | 6d308ba10537 |                           |                           |
+|    |              | e657         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 54 | Missing      | SPDXRef-     | actions/upload-artifact   | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | actions-     |                           |                           |
+|    |              | upload-      |                           |                           |
+|    |              | artifact-ae7 |                           |                           |
+|    |              | 9b1ec00a674f |                           |                           |
+|    |              | e            |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 55 | Missing      | SPDXRef-     | astral-sh/setup-uv        | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | astral-sh-   |                           |                           |
+|    |              | setup-uv-    |                           |                           |
+|    |              | e1e5f324d6bb |                           |                           |
+|    |              | 8bf2         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 56 | Missing      | SPDXRef-     | astral-sh/setup-uv        | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | astral-sh-   |                           |                           |
+|    |              | setup-uv-ac2 |                           |                           |
+|    |              | cbb958640f78 |                           |                           |
+|    |              | a            |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 57 | Missing      | SPDXRef-     | astral-sh/setup-uv        | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | astral-sh-   |                           |                           |
+|    |              | setup-uv-    |                           |                           |
+|    |              | 526a7e3a0b5a |                           |                           |
+|    |              | bc4d         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 58 | Missing      | SPDXRef-     | astral-sh/setup-uv        | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | astral-sh-   |                           |                           |
+|    |              | setup-uv-    |                           |                           |
+|    |              | 1e5ea086365a |                           |                           |
+|    |              | b787         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 59 | Missing      | SPDXRef-     | astral-sh/setup-uv        | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | astral-sh-   |                           |                           |
+|    |              | setup-uv-    |                           |                           |
+|    |              | 1ef98af2e452 |                           |                           |
+|    |              | 97e7         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 60 | Missing      | SPDXRef-     | astral-sh/setup-uv        | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | astral-sh-   |                           |                           |
+|    |              | setup-uv-    |                           |                           |
+|    |              | 382e9ce3853b |                           |                           |
+|    |              | ad7e         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 61 | Missing      | SPDXRef-     | astral-sh/setup-uv        | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | astral-sh-   |                           |                           |
+|    |              | setup-uv-    |                           |                           |
+|    |              | 075c57fe0772 |                           |                           |
+|    |              | d9f9         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 62 | Missing      | SPDXRef-     | astral-sh/setup-uv        | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | astral-sh-   |                           |                           |
+|    |              | setup-uv-    |                           |                           |
+|    |              | 0de4a4213ea4 |                           |                           |
+|    |              | 4106         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 63 | Missing      | SPDXRef-     | astral-sh/setup-uv        | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | astral-sh-   |                           |                           |
+|    |              | setup-uv-    |                           |                           |
+|    |              | 4843d789eac2 |                           |                           |
+|    |              | 22a4         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 64 | Missing      | SPDXRef-     | astral-sh/setup-uv        | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | astral-sh-   |                           |                           |
+|    |              | setup-uv-    |                           |                           |
+|    |              | 898811fb3b41 |                           |                           |
+|    |              | 0a63         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 65 | Missing      | SPDXRef-     | black                     | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | python-black |                           | fields are missing        |
+|    | Package      | -2dcd3b4e9f0 |                           |                           |
+|    |              | f2bea        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 66 | Missing      | SPDXRef-     | cairosvg                  | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | python-cairo |                           | fields are missing        |
+|    | Package      | svg-         |                           |                           |
+|    |              | c4f91fece259 |                           |                           |
+|    |              | bc72         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 67 | Missing      | SPDXRef-     | cloudflare/wrangler-      | Both PackageChecksum and  |
+|    | mandatory    | Package-     | action                    | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | cloudflare-  |                           |                           |
+|    |              | wrangler-act |                           |                           |
+|    |              | ion-         |                           |                           |
+|    |              | 7535faeaee9a |                           |                           |
+|    |              | 010c         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 68 | Missing      | SPDXRef-     | dirty-equals              | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | python-      |                           | fields are missing        |
+|    | Package      | dirty-equals |                           |                           |
+|    |              | -c467aa05237 |                           |                           |
+|    |              | a5ce6        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 69 | Useless      | SPDXRef-     | docker://agilepathway/pul | purl (pkg:github/docker%3 |
+|    | mandatory    | Package-     | l-request-label-          | A/#agilepathway/pull-     |
+|    | field from   | github-      | checker:latest            | request-label-            |
+|    | Package      | action-      |                           | checker:latest) in the    |
+|    |              | docker---agi |                           | ExternalRef cannot be     |
+|    |              | lepathway-   |                           | converted to a            |
+|    |              | pull-        |                           | downloadable URL          |
+|    |              | request-     |                           |                           |
+|    |              | label-       |                           |                           |
+|    |              | checker-late |                           |                           |
+|    |              | st-          |                           |                           |
+|    |              | 9db96d739170 |                           |                           |
+|    |              | cd9f         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 70 | Missing      | SPDXRef-     | docker://agilepathway/pul | Both PackageChecksum and  |
+|    | mandatory    | Package-     | l-request-label-          | PackageVerificationCode   |
+|    | field from   | github-      | checker:latest            | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | docker---agi |                           |                           |
+|    |              | lepathway-   |                           |                           |
+|    |              | pull-        |                           |                           |
+|    |              | request-     |                           |                           |
+|    |              | label-       |                           |                           |
+|    |              | checker-late |                           |                           |
+|    |              | st-          |                           |                           |
+|    |              | 9db96d739170 |                           |                           |
+|    |              | cd9f         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 71 | Missing      | SPDXRef-     | dorny/paths-filter        | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | dorny-paths- |                           |                           |
+|    |              | filter-eb1de |                           |                           |
+|    |              | 9b5a02ab0b7  |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 72 | Missing      | SPDXRef-     | griffe-typingdoc          | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | python-      |                           | fields are missing        |
+|    | Package      | griffe-typin |                           |                           |
+|    |              | gdoc-        |                           |                           |
+|    |              | f4d1e8968c9b |                           |                           |
+|    |              | 193c         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 73 | Missing      | SPDXRef-     | jieba                     | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | python-      |                           | fields are missing        |
+|    | Package      | jieba-ba2f33 |                           |                           |
+|    |              | fde9f8124b   |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 74 | Missing      | SPDXRef-     | markdown-include-variants | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | python-      |                           | fields are missing        |
+|    | Package      | markdown-    |                           |                           |
+|    |              | include-vari |                           |                           |
+|    |              | ants-        |                           |                           |
+|    |              | 547af4cdac83 |                           |                           |
+|    |              | e9f3         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 75 | Missing      | SPDXRef-     | mkdocs-macros-plugin      | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | python-      |                           | fields are missing        |
+|    | Package      | mkdocs-      |                           |                           |
+|    |              | macros-plugi |                           |                           |
+|    |              | n-           |                           |                           |
+|    |              | d9bccae92ad3 |                           |                           |
+|    |              | 383d         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 76 | Missing      | SPDXRef-     | mkdocs-material           | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | python-      |                           | fields are missing        |
+|    | Package      | mkdocs-mater |                           |                           |
+|    |              | ial-         |                           |                           |
+|    |              | 043e23fcfdc0 |                           |                           |
+|    |              | a0d2         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 77 | Missing      | SPDXRef-     | mkdocstrings              | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | python-mkdoc |                           | fields are missing        |
+|    | Package      | strings-     |                           |                           |
+|    |              | 956a813b14da |                           |                           |
+|    |              | 1fd0         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 78 | Missing      | SPDXRef-     | mxschmitt/action-tmate    | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | mxschmitt-   |                           |                           |
+|    |              | action-tmate |                           |                           |
+|    |              | -1304ce54c5b |                           |                           |
+|    |              | cbfed        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 79 | Missing      | SPDXRef-     | mxschmitt/action-tmate    | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | mxschmitt-   |                           |                           |
+|    |              | action-tmate |                           |                           |
+|    |              | -b0335b374d9 |                           |                           |
+|    |              | 57522        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 80 | Missing      | SPDXRef-     | mxschmitt/action-tmate    | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | mxschmitt-   |                           |                           |
+|    |              | action-tmate |                           |                           |
+|    |              | -d2cc882882f |                           |                           |
+|    |              | 89aad        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 81 | Missing      | SPDXRef-     | mxschmitt/action-tmate    | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | mxschmitt-   |                           |                           |
+|    |              | action-tmate |                           |                           |
+|    |              | -61bc54919ff |                           |                           |
+|    |              | 77747        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 82 | Missing      | SPDXRef-     | mxschmitt/action-tmate    | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | mxschmitt-   |                           |                           |
+|    |              | action-tmate |                           |                           |
+|    |              | -64ce8f41e3f |                           |                           |
+|    |              | e2e34        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 83 | Missing      | SPDXRef-     | mypy                      | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | python-mypy- |                           | fields are missing        |
+|    | Package      | f7b147c7628e |                           |                           |
+|    |              | d8fe         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 84 | Missing      | SPDXRef-     | pillow                    | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | python-pillo |                           | fields are missing        |
+|    | Package      | w-           |                           |                           |
+|    |              | 333048ca6da0 |                           |                           |
+|    |              | c454         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 85 | Missing      | SPDXRef-     | pydantic-ai               | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | python-      |                           | fields are missing        |
+|    | Package      | pydantic-ai- |                           |                           |
+|    |              | 1656113fb830 |                           |                           |
+|    |              | 9b32         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 86 | Missing      | SPDXRef-     | pyjwt                     | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | python-pyjwt |                           | fields are missing        |
+|    | Package      | -40e751169d0 |                           |                           |
+|    |              | c769f        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 87 | Missing      | SPDXRef-     | pypa/gh-action-pypi-      | Both PackageChecksum and  |
+|    | mandatory    | Package-     | publish                   | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-pypa- |                           |                           |
+|    |              | gh-action-   |                           |                           |
+|    |              | pypi-        |                           |                           |
+|    |              | publish-cefa |                           |                           |
+|    |              | ebb324184c8e |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 88 | Missing      | SPDXRef-     | re-actors/alls-green      | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-re-   |                           |                           |
+|    |              | actors-alls- |                           |                           |
+|    |              | green-       |                           |                           |
+|    |              | 1d841581a9cb |                           |                           |
+|    |              | 654a         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 89 | Missing      | SPDXRef-     | re-actors/alls-green      | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-re-   |                           |                           |
+|    |              | actors-alls- |                           |                           |
+|    |              | green-       |                           |                           |
+|    |              | 5cc3335bd303 |                           |                           |
+|    |              | 3181         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 90 | Missing      | SPDXRef-     | re-actors/alls-green      | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-re-   |                           |                           |
+|    |              | actors-alls- |                           |                           |
+|    |              | green-ad4fdf |                           |                           |
+|    |              | 96de7e83e6   |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 91 | Missing      | SPDXRef-     | ruff                      | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | python-ruff- |                           | fields are missing        |
+|    | Package      | f7f46da5fd01 |                           |                           |
+|    |              | 1373         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 92 | Missing      | SPDXRef-     | sqlmodel                  | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | python-sqlmo |                           | fields are missing        |
+|    | Package      | del-         |                           |                           |
+|    |              | 7134b532d1a8 |                           |                           |
+|    |              | 6bb5         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 93 | Missing      | SPDXRef-     | tiangolo/issue-manager    | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | tiangolo-    |                           |                           |
+|    |              | issue-manage |                           |                           |
+|    |              | r-           |                           |                           |
+|    |              | d72144dedcd5 |                           |                           |
+|    |              | 37a2         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 94 | Missing      | SPDXRef-     | tiangolo/latest-changes   | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | github-      |                           | fields are missing        |
+|    | Package      | action-      |                           |                           |
+|    |              | tiangolo-    |                           |                           |
+|    |              | latest-chang |                           |                           |
+|    |              | es-          |                           |                           |
+|    |              | 0a608da21d98 |                           |                           |
+|    |              | 569d         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 95 | Missing      | SPDXRef-     | typer                     | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | python-typer |                           | fields are missing        |
+|    | Package      | -31a2a5a1e71 |                           |                           |
+|    |              | 5993c        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 96 | Missing      | SPDXRef-     | types-orjson              | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | python-      |                           | fields are missing        |
+|    | Package      | types-orjson |                           |                           |
+|    |              | -a7dbd12e2dc |                           |                           |
+|    |              | 665bb        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 97 | Missing      | SPDXRef-     | types-ujson               | Both PackageChecksum and  |
+|    | mandatory    | Package-     |                           | PackageVerificationCode   |
+|    | field from   | python-      |                           | fields are missing        |
+|    | Package      | types-ujson- |                           |                           |
+|    |              | f25585a9b561 |                           |                           |
+|    |              | 14f1         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 98 | Missing      | SPDXRef-Docu | .                         | ExternalRef field is      |
+|    | mandatory    | mentRoot-    |                           | missing                   |
+|    | field from   | Directory-.  |                           |                           |
+|    | Package      |              |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 99 | Missing      | SPDXRef-Docu | .                         | Both PackageChecksum and  |
+|    | mandatory    | mentRoot-    |                           | PackageVerificationCode   |
+|    | field from   | Directory-.  |                           | fields are missing        |
+|    | Package      |              |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+The SPDX file clone/python/newtag/syft.python.newtag.spdx.json is not compliant with the OpenChain Telco SBOM Guide version 1.1 in strict mode (with RECOMMENDED also)

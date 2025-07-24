@@ -1,0 +1,1113 @@
+{
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SCANOSS-SBOM",
+  "creationInfo": {
+    "created": "2025-07-08T10:28:36Z",
+    "creators": [
+      "Tool: SCANOSS-PY: 1.26.2",
+      "Person: mehdi",
+      "Organization: SCANOSS"
+    ],
+    "comment": "SBOM Build information - SBOM Type: Build"
+  },
+  "documentNamespace": "https://spdx.org/spdxdocs/scanoss-py-1.26.2-db0affa1229ccda3adbdacf9e2efd9ed",
+  "documentDescribes": [
+    "SPDXRef-4705b763e4557d6739c5d9ee5efe8ff0",
+    "SPDXRef-d6722f1b7020e7dc640cc4d48e8b97c9",
+    "SPDXRef-c320b8f6172340799e925674c274001f",
+    "SPDXRef-ac060b9fed858664e20503694d225727",
+    "SPDXRef-e44710b08ceb0760b159d25b9c304618",
+    "SPDXRef-e2e15cf9e351c1fea305c731a2546983",
+    "SPDXRef-a7ba041e548e64b16de9ac94feb4ffef",
+    "SPDXRef-f24e6c9421394f3f56aea357b4fe54a1",
+    "SPDXRef-41e738e44e5a9cfc2cc2f79c3374543d",
+    "SPDXRef-6bfe1b0372b791b49e475cd68e0e6c9c",
+    "SPDXRef-ebf485adfc718935be634da487985d69",
+    "SPDXRef-2d1329703c1fc5fe3d951d38c71b97d7",
+    "SPDXRef-f6e60f0acc6ccb0b255f886a59edecbe",
+    "SPDXRef-94d56c01931044dc89b69bb806f507c0",
+    "SPDXRef-f2b2caab782e6edee9fe9b00e1245224",
+    "SPDXRef-2308f4fd593984b782348ff7cfda2d5a",
+    "SPDXRef-f1909dbbf607ff23dc0ac73d0d9f1bc0",
+    "SPDXRef-d4ae520713bd58e8c24c5cc20f461ee9",
+    "SPDXRef-084c6854eaf0f4f8b07fddee24b1d12d",
+    "SPDXRef-b989e259500d3351502b82305762dec8",
+    "SPDXRef-0104f0c5999909a03f5ec322d167d255",
+    "SPDXRef-41ed30840f9b525ac73f07592653ad17",
+    "SPDXRef-b0c9b87a58c48c5890d1be7bd04b55f3",
+    "SPDXRef-fd05bce829baa08511e9786a0b8de6ac",
+    "SPDXRef-855bd491a7620de27ed7d5572f91bd76",
+    "SPDXRef-9b48dd56ff67f04b49ff0aa3655de3c7",
+    "SPDXRef-ef2e3e79829f1f6efdb57bb7b36fcd96",
+    "SPDXRef-f7385f69607c36ede2b19fb2c00d6e85",
+    "SPDXRef-42baf907655a75be32fe8bbef28b828f",
+    "SPDXRef-a7dafec480fae152f96e8ada80d4f17b",
+    "SPDXRef-1987b94a8d8726c85fa32f65e308ff32",
+    "SPDXRef-96e0a81e840a4728c1984dd974fd230c",
+    "SPDXRef-82e92180a2a018d5e2a2e54d150b16b2",
+    "SPDXRef-d0799d1e5a2dc669853396ad8216b73b",
+    "SPDXRef-68f88abf08724335dcb23c7f9b1477c8",
+    "SPDXRef-fc9f3656cba51395946f22f3ed078980",
+    "SPDXRef-5bebaaf7ad6f670053be7c52e149a44d",
+    "SPDXRef-e5b4fa087cd36212027658db5bafd0c8",
+    "SPDXRef-b36ff5b067e6cc2f7e37b0dff5206798",
+    "SPDXRef-c67595b025dd085a4bbfce25a57021b1",
+    "SPDXRef-960e2359a42ce0bc514065d43b418b42",
+    "SPDXRef-97be7f862d45f4214480a9436f2b7f37"
+  ],
+  "hasExtractedLicensingInfos": [],
+  "packages": [
+    {
+      "name": "fastapi",
+      "SPDXID": "SPDXRef-4705b763e4557d6739c5d9ee5efe8ff0",
+      "versionInfo": "0.112.0",
+      "downloadLocation": "https://github.com/tiangolo/fastapi",
+      "homepage": "https://github.com/tiangolo/fastapi",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: tiangolo",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/tiangolo/fastapi@0.112.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "85eaf5415862f738791950ffe9cd461b"
+        }
+      ]
+    },
+    {
+      "name": "fastapi",
+      "SPDXID": "SPDXRef-d6722f1b7020e7dc640cc4d48e8b97c9",
+      "versionInfo": "0.78.0",
+      "downloadLocation": "https://pypi.org/project/fastapi",
+      "homepage": "https://pypi.org/project/fastapi",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Sebasti\u00e1n Ram\u00edrez",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/fastapi@0.78.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "b4d943e21cc35a06adda7ddda19eb704"
+        }
+      ]
+    },
+    {
+      "name": "fastapi",
+      "SPDXID": "SPDXRef-c320b8f6172340799e925674c274001f",
+      "versionInfo": "0.62.0",
+      "downloadLocation": "https://github.com/fastapi/fastapi",
+      "homepage": "https://github.com/fastapi/fastapi",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: fastapi",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/fastapi/fastapi@0.62.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "62007795b4b2a8137ab5fb91d5285aff"
+        }
+      ]
+    },
+    {
+      "name": "fastapi-slim",
+      "SPDXID": "SPDXRef-ac060b9fed858664e20503694d225727",
+      "versionInfo": "0.115.4",
+      "downloadLocation": "https://pypi.org/project/fastapi-slim",
+      "homepage": "https://pypi.org/project/fastapi-slim",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: pypi",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/fastapi-slim@0.115.4",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "5cdc3d13b157a57906cf74b3a61f5ed6"
+        }
+      ]
+    },
+    {
+      "name": "audapolis",
+      "SPDXID": "SPDXRef-e44710b08ceb0760b159d25b9c304618",
+      "versionInfo": "0.2.2-pre3",
+      "downloadLocation": "https://github.com/bugbakery/audapolis",
+      "homepage": "https://github.com/bugbakery/audapolis",
+      "licenseDeclared": "AGPL-3.0-only",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: bugbakery",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/bugbakery/audapolis@0.2.2-pre3",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "ec0e8c96da9578872cd769fa0814b877"
+        }
+      ]
+    },
+    {
+      "name": "cdist",
+      "SPDXID": "SPDXRef-e2e15cf9e351c1fea305c731a2546983",
+      "versionInfo": "2.0.7",
+      "downloadLocation": "https://github.com/ungleich/cdist",
+      "homepage": "https://github.com/ungleich/cdist",
+      "licenseDeclared": "GPL-3.0-only",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: ungleich",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/ungleich/cdist@2.0.7",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "43a1c093acd822ef42e08f0dcb85a8f4"
+        }
+      ]
+    },
+    {
+      "name": "exec",
+      "SPDXID": "SPDXRef-a7ba041e548e64b16de9ac94feb4ffef",
+      "versionInfo": "2.3",
+      "downloadLocation": "https://github.com/DeepFile/exec",
+      "homepage": "https://github.com/DeepFile/exec",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: DeepFile",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/deepfile/exec@2.3",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "c622790e50aacefa3b90975dafbae58b"
+        }
+      ]
+    },
+    {
+      "name": "lingora",
+      "SPDXID": "SPDXRef-f24e6c9421394f3f56aea357b4fe54a1",
+      "versionInfo": "1.0.4",
+      "downloadLocation": "https://pypi.org/project/lingora",
+      "homepage": "https://pypi.org/project/lingora",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: pypi",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/lingora@1.0.4",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "7a76ec3bffe6390e57374993c74d7f5b"
+        }
+      ]
+    },
+    {
+      "name": "refl1d",
+      "SPDXID": "SPDXRef-41e738e44e5a9cfc2cc2f79c3374543d",
+      "versionInfo": "sid",
+      "downloadLocation": "https://github.com/reflectometry/refl1d",
+      "homepage": "https://github.com/reflectometry/refl1d",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: reflectometry",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/reflectometry/refl1d@sid",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "932d57e5d9180d14defb6d80b71df585"
+        }
+      ]
+    },
+    {
+      "name": "annotated-types",
+      "SPDXID": "SPDXRef-6bfe1b0372b791b49e475cd68e0e6c9c",
+      "versionInfo": "0757d41",
+      "downloadLocation": "https://github.com/annotated-types/annotated-types",
+      "homepage": "https://github.com/annotated-types/annotated-types",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: annotated-types",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/annotated-types/annotated-types@0757d41",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0b11ce33b78be46e25ebca87575e4749"
+        }
+      ]
+    },
+    {
+      "name": "anyio",
+      "SPDXID": "SPDXRef-ebf485adfc718935be634da487985d69",
+      "versionInfo": "4.5.2",
+      "downloadLocation": "https://pypi.org/project/anyio",
+      "homepage": "https://pypi.org/project/anyio",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: pypi",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/anyio@4.5.2",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "19420455be3c117c21f954fb50ebd13a"
+        }
+      ]
+    },
+    {
+      "name": "blrec",
+      "SPDXID": "SPDXRef-2d1329703c1fc5fe3d951d38c71b97d7",
+      "versionInfo": "2.0.0-beta.3",
+      "downloadLocation": "https://github.com/acgnhiki/blrec",
+      "homepage": "https://github.com/acgnhiki/blrec",
+      "licenseDeclared": "GPL-3.0-only",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: acgnhiki",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/acgnhiki/blrec@2.0.0-beta.3",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "d96b46d40cb8d9143fd51119172d9a7e"
+        }
+      ]
+    },
+    {
+      "name": "anyio",
+      "SPDXID": "SPDXRef-f6e60f0acc6ccb0b255f886a59edecbe",
+      "versionInfo": "4.5.1",
+      "downloadLocation": "https://github.com/agronholm/anyio",
+      "homepage": "https://github.com/agronholm/anyio",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: agronholm",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/agronholm/anyio@4.5.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "59a59c84f207ee57d6eddd035070d687"
+        }
+      ]
+    },
+    {
+      "name": "idna",
+      "SPDXID": "SPDXRef-94d56c01931044dc89b69bb806f507c0",
+      "versionInfo": "3.10",
+      "downloadLocation": "https://pypi.org/project/idna",
+      "homepage": "https://pypi.org/project/idna",
+      "licenseDeclared": "(BSD-2-Clause AND BSD-3-Clause)",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: pypi",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/idna@3.10",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "28448b00665099117b6daa9887812cc4"
+        }
+      ]
+    },
+    {
+      "name": "selfhost-discord-bot",
+      "SPDXID": "SPDXRef-f2b2caab782e6edee9fe9b00e1245224",
+      "versionInfo": "1.0.1",
+      "downloadLocation": "https://github.com/kostyanpro/selfhost-discord-bot",
+      "homepage": "https://github.com/kostyanpro/selfhost-discord-bot",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: kostyanpro",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/kostyanpro/selfhost-discord-bot@1.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "bbd5ecf1d0ca6b25cdb512a8d809c396"
+        }
+      ]
+    },
+    {
+      "name": "idna",
+      "SPDXID": "SPDXRef-2308f4fd593984b782348ff7cfda2d5a",
+      "versionInfo": "3.9",
+      "downloadLocation": "https://github.com/kjd/idna",
+      "homepage": "https://github.com/kjd/idna",
+      "licenseDeclared": "(BSD-2-Clause AND BSD-3-Clause)",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: kjd",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/kjd/idna@3.9",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "b20c46bc75b9fb4bd4173e05aefbe7ce"
+        }
+      ]
+    },
+    {
+      "name": "alfred-py3-default-browser",
+      "SPDXID": "SPDXRef-f1909dbbf607ff23dc0ac73d0d9f1bc0",
+      "versionInfo": "0.1.0",
+      "downloadLocation": "https://github.com/wmorland/alfred-py3-default-browser",
+      "homepage": "https://github.com/wmorland/alfred-py3-default-browser",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: wmorland",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/wmorland/alfred-py3-default-browser@0.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "908e48487221fa6ea4a481bb7f10ff91"
+        }
+      ]
+    },
+    {
+      "name": "DCSServerBot",
+      "SPDXID": "SPDXRef-d4ae520713bd58e8c24c5cc20f461ee9",
+      "versionInfo": "3.0.3.13",
+      "downloadLocation": "https://github.com/special-k-s-flightsim-bots/dcsserverbot",
+      "homepage": "https://github.com/special-k-s-flightsim-bots/dcsserverbot",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Special-K-s-Flightsim-Bots",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/special-k-s-flightsim-bots/dcsserverbot@3.0.3.13",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "39532e2b9c540e067832bf7f3a6a77f6"
+        }
+      ]
+    },
+    {
+      "name": "pydantic",
+      "SPDXID": "SPDXRef-084c6854eaf0f4f8b07fddee24b1d12d",
+      "versionInfo": "2.10.6",
+      "downloadLocation": "https://pypi.org/project/pydantic",
+      "homepage": "https://pypi.org/project/pydantic",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: pypi",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/pydantic@2.10.6",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "fc7927f675ad5f05498b8aa8afa3e29f"
+        }
+      ]
+    },
+    {
+      "name": "flashlight",
+      "SPDXID": "SPDXRef-b989e259500d3351502b82305762dec8",
+      "versionInfo": "Alpha",
+      "downloadLocation": "https://github.com/DelveCorp/flashlight",
+      "homepage": "https://github.com/DelveCorp/flashlight",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: DelveCorp",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/delvecorp/flashlight@Alpha",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "5860bf0a636b46b2184eb0f37c7c9efa"
+        }
+      ]
+    },
+    {
+      "name": "pytest-revealtype-injector",
+      "SPDXID": "SPDXRef-0104f0c5999909a03f5ec322d167d255",
+      "versionInfo": "0.2.0",
+      "downloadLocation": "https://github.com/abelcheung/pytest-revealtype-injector",
+      "homepage": "https://github.com/abelcheung/pytest-revealtype-injector",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: abelcheung",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/abelcheung/pytest-revealtype-injector@0.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "251d02c83f057426d71bd309d05f3db1"
+        }
+      ]
+    },
+    {
+      "name": "pydantic",
+      "SPDXID": "SPDXRef-41ed30840f9b525ac73f07592653ad17",
+      "versionInfo": "2.10.4",
+      "downloadLocation": "https://github.com/pydantic/pydantic",
+      "homepage": "https://github.com/pydantic/pydantic",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: pydantic",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/pydantic/pydantic@2.10.4",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "2e884d86f01235486ee8e3afab6846a7"
+        }
+      ]
+    },
+    {
+      "name": "pydantic",
+      "SPDXID": "SPDXRef-b0c9b87a58c48c5890d1be7bd04b55f3",
+      "versionInfo": "2.10.0b1",
+      "downloadLocation": "https://github.com/samuelcolvin/pydantic",
+      "homepage": "https://github.com/samuelcolvin/pydantic",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: samuelcolvin",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/samuelcolvin/pydantic@2.10.0b1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "fbc3a27a7e4ffc8a0222b08f0c46c287"
+        }
+      ]
+    },
+    {
+      "name": "pydantic-core",
+      "SPDXID": "SPDXRef-fd05bce829baa08511e9786a0b8de6ac",
+      "versionInfo": "2.27.2",
+      "downloadLocation": "https://pypi.org/project/pydantic-core",
+      "homepage": "https://pypi.org/project/pydantic-core",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: pypi",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/pydantic-core@2.27.2",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "281bed899b3acf3127d3d489f5797d59"
+        }
+      ]
+    },
+    {
+      "name": "Todo_App_Fastapi",
+      "SPDXID": "SPDXRef-855bd491a7620de27ed7d5572f91bd76",
+      "versionInfo": "1",
+      "downloadLocation": "https://github.com/dev-rakeshshaw/Todo_App_Fastapi",
+      "homepage": "https://github.com/dev-rakeshshaw/Todo_App_Fastapi",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: dev-rakeshshaw",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/dev-rakeshshaw/todo_app_fastapi@1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "61c196a3342e5def1bd097c074130486"
+        }
+      ]
+    },
+    {
+      "name": "rpds",
+      "SPDXID": "SPDXRef-9b48dd56ff67f04b49ff0aa3655de3c7",
+      "versionInfo": "0.22.2",
+      "downloadLocation": "https://github.com/crate-py/rpds",
+      "homepage": "https://github.com/crate-py/rpds",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: crate-py",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/crate-py/rpds@0.22.2",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "9a6bfdce0018462fe9198c3350380551"
+        }
+      ]
+    },
+    {
+      "name": "pydantic-core",
+      "SPDXID": "SPDXRef-ef2e3e79829f1f6efdb57bb7b36fcd96",
+      "versionInfo": "2.22.0",
+      "downloadLocation": "https://github.com/pydantic/pydantic-core",
+      "homepage": "https://github.com/pydantic/pydantic-core",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: pydantic",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/pydantic/pydantic-core@2.22.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "4d00ff62fa8cb8d9c33d1be3f689ba4e"
+        }
+      ]
+    },
+    {
+      "name": "example-nicegui-app",
+      "SPDXID": "SPDXRef-f7385f69607c36ede2b19fb2c00d6e85",
+      "versionInfo": "app-v0.1.0",
+      "downloadLocation": "https://github.com/pytauri/example-nicegui-app",
+      "homepage": "https://github.com/pytauri/example-nicegui-app",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: pytauri",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/pytauri/example-nicegui-app@app-v0.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0e11f03f816de00f37055d7726859bbc"
+        }
+      ]
+    },
+    {
+      "name": "pydantic-core",
+      "SPDXID": "SPDXRef-42baf907655a75be32fe8bbef28b828f",
+      "versionInfo": "2.27.2",
+      "downloadLocation": "https://github.com/samuelcolvin/pydantic-core",
+      "homepage": "https://github.com/samuelcolvin/pydantic-core",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: samuelcolvin",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/samuelcolvin/pydantic-core@2.27.2",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "7d10116e196644f5c2d0dfab5c7d1c6d"
+        }
+      ]
+    },
+    {
+      "name": "slide%202.0b1%20tomcat%204.1.29.zip",
+      "SPDXID": "SPDXRef-a7dafec480fae152f96e8ada80d4f17b",
+      "versionInfo": "2.0",
+      "downloadLocation": "https://archive.apache.org/dist/jakarta/slide/most-recent-2.0b1-binaries/slide%202.0b1%20tomcat%204.1.29.zip",
+      "homepage": "https://archive.apache.org/dist/jakarta/slide/most-recent-2.0b1-binaries/slide%202.0b1%20tomcat%204.1.29.zip",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: apache",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apache/slide%202.0b1%20tomcat%204.1.29.zip@2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "21efacf3a5a7bfc98604658710cc8226"
+        }
+      ]
+    },
+    {
+      "name": "electrum",
+      "SPDXID": "SPDXRef-1987b94a8d8726c85fa32f65e308ff32",
+      "versionInfo": "2.6",
+      "downloadLocation": "https://github.com/spesmilo/electrum",
+      "homepage": "https://github.com/spesmilo/electrum",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: spesmilo",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/spesmilo/electrum@2.6",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "2d6d694ab617c1c57da0b3f36056eac4"
+        }
+      ]
+    },
+    {
+      "name": "nvda-openai",
+      "SPDXID": "SPDXRef-96e0a81e840a4728c1984dd974fd230c",
+      "versionInfo": "libs",
+      "downloadLocation": "https://github.com/AAClause/nvda-OpenAI",
+      "homepage": "https://github.com/AAClause/nvda-OpenAI",
+      "licenseDeclared": "(MIT AND GPL-2.0-only)",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: aaclause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/aaclause/nvda-openai@libs",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0309b662fda21da6ff9ee03340e67d93"
+        }
+      ]
+    },
+    {
+      "name": "pyinstaller-builder",
+      "SPDXID": "SPDXRef-82e92180a2a018d5e2a2e54d150b16b2",
+      "versionInfo": "snapshot",
+      "downloadLocation": "https://github.com/webcomics/pyinstaller-builder",
+      "homepage": "https://github.com/webcomics/pyinstaller-builder",
+      "licenseDeclared": "0BSD",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: webcomics",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/webcomics/pyinstaller-builder@snapshot",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "b3468cc3bde8a3284ea930083ada198d"
+        }
+      ]
+    },
+    {
+      "name": "sniffio",
+      "SPDXID": "SPDXRef-d0799d1e5a2dc669853396ad8216b73b",
+      "versionInfo": "1.3.0",
+      "downloadLocation": "https://pypi.org/project/sniffio",
+      "homepage": "https://pypi.org/project/sniffio",
+      "licenseDeclared": "(MIT AND Apache-2.0)",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Nathaniel J. Smith",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/sniffio@1.3.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "7890655ffc549d04087bbc2f93332034"
+        }
+      ]
+    },
+    {
+      "name": "starlette",
+      "SPDXID": "SPDXRef-68f88abf08724335dcb23c7f9b1477c8",
+      "versionInfo": "0.44.0",
+      "downloadLocation": "https://pypi.org/project/starlette",
+      "homepage": "https://pypi.org/project/starlette",
+      "licenseDeclared": "(BSD-3-Clause AND 0BSD)",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: pypi",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/starlette@0.44.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "661352cc84c112327c58104a6df6e1e1"
+        }
+      ]
+    },
+    {
+      "name": "lab-ctrl",
+      "SPDXID": "SPDXRef-fc9f3656cba51395946f22f3ed078980",
+      "versionInfo": "nightly_v0.0.56",
+      "downloadLocation": "https://github.com/BirnadinErick/lab-ctrl",
+      "homepage": "https://github.com/BirnadinErick/lab-ctrl",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: BirnadinErick",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/birnadinerick/lab-ctrl@nightly_v0.0.56",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "46da88fcb0fabfa683d5923096b98af8"
+        }
+      ]
+    },
+    {
+      "name": "nanoplotter",
+      "SPDXID": "SPDXRef-5bebaaf7ad6f670053be7c52e149a44d",
+      "versionInfo": "0.44.0",
+      "downloadLocation": "https://pypi.org/project/nanoplotter",
+      "homepage": "https://pypi.org/project/nanoplotter",
+      "licenseDeclared": "(MIT AND GPL-3.0-only)",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Wouter De Coster",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/nanoplotter@0.44.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "eeead982c0dcd273d7b95075afd3b030"
+        }
+      ]
+    },
+    {
+      "name": "starlette",
+      "SPDXID": "SPDXRef-e5b4fa087cd36212027658db5bafd0c8",
+      "versionInfo": "0.38.4",
+      "downloadLocation": "https://github.com/encode/starlette",
+      "homepage": "https://github.com/encode/starlette",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: encode",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/encode/starlette@0.38.4",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "9291fcaecf6d43e0cc9517e864d3fc72"
+        }
+      ]
+    },
+    {
+      "name": "typing-extensions",
+      "SPDXID": "SPDXRef-b36ff5b067e6cc2f7e37b0dff5206798",
+      "versionInfo": "4.13.2",
+      "downloadLocation": "https://pypi.org/project/typing-extensions",
+      "homepage": "https://pypi.org/project/typing-extensions",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: pypi",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/typing-extensions@4.13.2",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0d9ada689b5a7c88163dd4c3417b8cc8"
+        }
+      ]
+    },
+    {
+      "name": "dobro_document_create",
+      "SPDXID": "SPDXRef-c67595b025dd085a4bbfce25a57021b1",
+      "versionInfo": "0.1.0",
+      "downloadLocation": "https://github.com/XuySGorbI/dobro_document_create",
+      "homepage": "https://github.com/XuySGorbI/dobro_document_create",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: XuySGorbI",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/xuysgorbi/dobro_document_create@0.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "b700792115cdd564d8122436a813be6f"
+        }
+      ]
+    },
+    {
+      "name": "aivisspeech",
+      "SPDXID": "SPDXRef-960e2359a42ce0bc514065d43b418b42",
+      "versionInfo": "1.1.0-dev",
+      "downloadLocation": "https://github.com/Aivis-Project/AivisSpeech",
+      "homepage": "https://github.com/Aivis-Project/AivisSpeech",
+      "licenseDeclared": "LGPL-3.0-only",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: aivis-project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/aivis-project/aivisspeech@1.1.0-dev",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "209ac044d08e05267cddd6555e9b9c39"
+        }
+      ]
+    },
+    {
+      "name": "cardslists",
+      "SPDXID": "SPDXRef-97be7f862d45f4214480a9436f2b7f37",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "https://github.com/Mrdev88/cardslists",
+      "homepage": "https://github.com/Mrdev88/cardslists",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Mrdev88",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/mrdev88/cardslists@1.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "92fb617048e657c97125d3abc34436b7"
+        }
+      ]
+    }
+  ]
+}
