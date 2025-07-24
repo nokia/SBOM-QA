@@ -1,0 +1,156 @@
+Validating newscanoss.go.spdx.json
+Fields with purl that cannot be converted to a downloadable URL:
++----+--------------------------------------------------+--------------+---------------------------+---------------------------+
+| #  | Error type (Scope)                               | SPDX ID      | Package name              | Reason                    |
++----+--------------------------------------------------+--------------+---------------------------+---------------------------+
+| 1  | Useless mandatory field from Package (OpenChain) | SPDXRef-     | golang-github-alecthomas- | purl                      |
+|    |                                                  | 097f8860f62c | chroma                    | (pkg:deb/debian/golang-   |
+|    |                                                  | 5fd971ee3d1f |                           | github-alecthomas-chroma@ |
+|    |                                                  | a2e7073c     |                           | 0.1.1%2Bgit20171116.9c81d |
+|    |                                                  |              |                           | 25-2) in the ExternalRef  |
+|    |                                                  |              |                           | cannot be converted to a  |
+|    |                                                  |              |                           | downloadable URL          |
++----+--------------------------------------------------+--------------+---------------------------+---------------------------+
+| 2  | Useless mandatory field from Package (OpenChain) | SPDXRef-     | golang-github-bep-goat    | purl                      |
+|    |                                                  | 35a4c350cca0 |                           | (pkg:deb/debian/golang-   |
+|    |                                                  | 291d8851be4c |                           | github-bep-goat@0.5.0-2)  |
+|    |                                                  | 18dcf8fb     |                           | in the ExternalRef cannot |
+|    |                                                  |              |                           | be converted to a         |
+|    |                                                  |              |                           | downloadable URL          |
++----+--------------------------------------------------+--------------+---------------------------+---------------------------+
+| 3  | Useless mandatory field from Package (OpenChain) | SPDXRef-db46 | golang-github-bep-gowebp  | purl                      |
+|    |                                                  | d1b4e44dea3c |                           | (pkg:deb/debian/golang-   |
+|    |                                                  | a7570fd63927 |                           | github-bep-               |
+|    |                                                  | 4e21         |                           | gowebp@0.3.0%2Bdfsg-1) in |
+|    |                                                  |              |                           | the ExternalRef cannot be |
+|    |                                                  |              |                           | converted to a            |
+|    |                                                  |              |                           | downloadable URL          |
++----+--------------------------------------------------+--------------+---------------------------+---------------------------+
+| 4  | Useless mandatory field from Package (OpenChain) | SPDXRef-ace3 | golang-github-bep-tmc     | purl                      |
+|    |                                                  | 5b41f2b6a543 |                           | (pkg:deb/debian/golang-   |
+|    |                                                  | d0da87207e2b |                           | github-bep-               |
+|    |                                                  | 3e84         |                           | tmc@0.5.1.orig) in the    |
+|    |                                                  |              |                           | ExternalRef cannot be     |
+|    |                                                  |              |                           | converted to a            |
+|    |                                                  |              |                           | downloadable URL          |
++----+--------------------------------------------------+--------------+---------------------------+---------------------------+
+| 5  | Useless mandatory field from Package (OpenChain) | SPDXRef-     | juju-core                 | purl (pkg:deb/juju-       |
+|    |                                                  | 55c2599757cf |                           | core@1.23-beta1) in the   |
+|    |                                                  | 2ab973666677 |                           | ExternalRef cannot be     |
+|    |                                                  | dca26883     |                           | converted to a            |
+|    |                                                  |              |                           | downloadable URL          |
++----+--------------------------------------------------+--------------+---------------------------+---------------------------+
+| 6  | Useless mandatory field from Package (OpenChain) | SPDXRef-be03 | hugo                      | purl (pkg:deb/debian/hugo |
+|    |                                                  | 039f6ec3b643 |                           | @0.129.0-2) in the        |
+|    |                                                  | b2c8b5d3ca28 |                           | ExternalRef cannot be     |
+|    |                                                  | 878f         |                           | converted to a            |
+|    |                                                  |              |                           | downloadable URL          |
++----+--------------------------------------------------+--------------+---------------------------+---------------------------+
+| 7  | Useless mandatory field from Package (OpenChain) | SPDXRef-     | wire.mirror/v0.2.2        | purl (pkg:sourceforge/wir |
+|    |                                                  | c1f676a5b1d2 |                           | e.mirror/v0.2.2@0.2.2) in |
+|    |                                                  | 0c3dfa7f982d |                           | the ExternalRef cannot be |
+|    |                                                  | c65c4b35     |                           | converted to a            |
+|    |                                                  |              |                           | downloadable URL          |
++----+--------------------------------------------------+--------------+---------------------------+---------------------------+
+| 8  | Useless mandatory field from Package (OpenChain) | SPDXRef-     | golang-github-jdkato-     | purl                      |
+|    |                                                  | 679e81757148 | prose                     | (pkg:deb/debian/golang-   |
+|    |                                                  | 802172a6faea |                           | github-jdkato-prose@1.1.0 |
+|    |                                                  | 8e2e42a0     |                           | %2Bgit20171031.e27abfd-2) |
+|    |                                                  |              |                           | in the ExternalRef cannot |
+|    |                                                  |              |                           | be converted to a         |
+|    |                                                  |              |                           | downloadable URL          |
++----+--------------------------------------------------+--------------+---------------------------+---------------------------+
+| 9  | Useless mandatory field from Package (OpenChain) | SPDXRef-     | juju                      | purl                      |
+|    |                                                  | 98338380ccbe |                           | (pkg:deb/juju@3.0-beta4)  |
+|    |                                                  | c64ddf05ab6c |                           | in the ExternalRef cannot |
+|    |                                                  | cf214a06     |                           | be converted to a         |
+|    |                                                  |              |                           | downloadable URL          |
++----+--------------------------------------------------+--------------+---------------------------+---------------------------+
+| 10 | Useless mandatory field from Package (OpenChain) | SPDXRef-     | golang-pretty             | purl                      |
+|    |                                                  | 21643f64fe06 |                           | (pkg:deb/debian/golang-pr |
+|    |                                                  | a0791ac9b3ad |                           | etty@0.0~git20130613.orig |
+|    |                                                  | c9f462a5     |                           | ) in the ExternalRef      |
+|    |                                                  |              |                           | cannot be converted to a  |
+|    |                                                  |              |                           | downloadable URL          |
++----+--------------------------------------------------+--------------+---------------------------+---------------------------+
+| 11 | Useless mandatory field from Package (OpenChain) | SPDXRef-     | golang-text               | purl (pkg:gnome/golang-   |
+|    |                                                  | d6afc9edbe31 |                           | text@0.0) in the          |
+|    |                                                  | e92343ccf411 |                           | ExternalRef cannot be     |
+|    |                                                  | 41c30c0c     |                           | converted to a            |
+|    |                                                  |              |                           | downloadable URL          |
++----+--------------------------------------------------+--------------+---------------------------+---------------------------+
+| 12 | Useless mandatory field from Package (OpenChain) | SPDXRef-fd2e | golang-github-muesli-     | purl                      |
+|    |                                                  | 8726c7ac11a1 | smartcrop                 | (pkg:deb/debian/golang-   |
+|    |                                                  | 5d819c679e62 |                           | github-muesli-smartcrop@0 |
+|    |                                                  | 8ca1         |                           | .2.0%2Bgit20180228.f6ebaa |
+|    |                                                  |              |                           | 7%2Bdfsg1-1) in the       |
+|    |                                                  |              |                           | ExternalRef cannot be     |
+|    |                                                  |              |                           | converted to a            |
+|    |                                                  |              |                           | downloadable URL          |
++----+--------------------------------------------------+--------------+---------------------------+---------------------------+
+| 13 | Useless mandatory field from Package (OpenChain) | SPDXRef-     | golang-github-pbnjay-     | purl                      |
+|    |                                                  | 3a8a409e4ae5 | memory                    | (pkg:deb/debian/golang-   |
+|    |                                                  | 3b64e45f7785 |                           | github-pbnjay-memory@0.0~ |
+|    |                                                  | d571f9b6     |                           | git20210728.7b4eea6-2) in |
+|    |                                                  |              |                           | the ExternalRef cannot be |
+|    |                                                  |              |                           | converted to a            |
+|    |                                                  |              |                           | downloadable URL          |
++----+--------------------------------------------------+--------------+---------------------------+---------------------------+
+| 14 | Useless mandatory field from Package (OpenChain) | SPDXRef-     | golang-github-rogpeppe-   | purl                      |
+|    |                                                  | 69ba28350ce5 | go-internal               | (pkg:deb/debian/golang-   |
+|    |                                                  | 7d8fc0e603a6 |                           | github-rogpeppe-go-       |
+|    |                                                  | e68f792a     |                           | internal@1.12.0-3) in the |
+|    |                                                  |              |                           | ExternalRef cannot be     |
+|    |                                                  |              |                           | converted to a            |
+|    |                                                  |              |                           | downloadable URL          |
++----+--------------------------------------------------+--------------+---------------------------+---------------------------+
+| 15 | Useless mandatory field from Package (OpenChain) | SPDXRef-     | golang-github-spf13-afero | purl                      |
+|    |                                                  | 10da88c2c08d |                           | (pkg:deb/debian/golang-   |
+|    |                                                  | 3429409cba8b |                           | github-spf13-             |
+|    |                                                  | 45695aff     |                           | afero@0.0~git20160113.0.2 |
+|    |                                                  |              |                           | ec8b79-1) in the          |
+|    |                                                  |              |                           | ExternalRef cannot be     |
+|    |                                                  |              |                           | converted to a            |
+|    |                                                  |              |                           | downloadable URL          |
++----+--------------------------------------------------+--------------+---------------------------+---------------------------+
+| 16 | Useless mandatory field from Package (OpenChain) | SPDXRef-     | golang-github-spf13-fsync | purl                      |
+|    |                                                  | 08cd3eda8232 |                           | (pkg:deb/debian/golang-   |
+|    |                                                  | 5146536a6cdb |                           | github-                   |
+|    |                                                  | 68fa1882     |                           | spf13-fsync@0.10.1-1) in  |
+|    |                                                  |              |                           | the ExternalRef cannot be |
+|    |                                                  |              |                           | converted to a            |
+|    |                                                  |              |                           | downloadable URL          |
++----+--------------------------------------------------+--------------+---------------------------+---------------------------+
+| 17 | Useless mandatory field from Package (OpenChain) | SPDXRef-     | golang-github-tdewolff-   | purl                      |
+|    |                                                  | 7226eae00eb6 | minify                    | (pkg:deb/debian/golang-   |
+|    |                                                  | 7d64e505fdef |                           | github-tdewolff-          |
+|    |                                                  | 3094f877     |                           | minify@2.7.2-1) in the    |
+|    |                                                  |              |                           | ExternalRef cannot be     |
+|    |                                                  |              |                           | converted to a            |
+|    |                                                  |              |                           | downloadable URL          |
++----+--------------------------------------------------+--------------+---------------------------+---------------------------+
+| 18 | Useless mandatory field from Package (OpenChain) | SPDXRef-     | golang-github-yuin-       | purl                      |
+|    |                                                  | 8e15835d6868 | goldmark                  | (pkg:deb/debian/golang-   |
+|    |                                                  | 9d5d1e0f0cc5 |                           | github-yuin-              |
+|    |                                                  | 0961ee99     |                           | goldmark@1.1.23-1) in the |
+|    |                                                  |              |                           | ExternalRef cannot be     |
+|    |                                                  |              |                           | converted to a            |
+|    |                                                  |              |                           | downloadable URL          |
++----+--------------------------------------------------+--------------+---------------------------+---------------------------+
+| 19 | Useless mandatory field from Package (OpenChain) | SPDXRef-     | golang-golang-x-net       | purl                      |
+|    |                                                  | 92ddc114215f |                           | (pkg:deb/debian/golang-   |
+|    |                                                  | 19e1a4c6acb1 |                           | golang-x-net@1:0.0%2Bgit2 |
+|    |                                                  | 092367a1     |                           | 0211209.491a49a%2Bdfsg-1) |
+|    |                                                  |              |                           | in the ExternalRef cannot |
+|    |                                                  |              |                           | be converted to a         |
+|    |                                                  |              |                           | downloadable URL          |
++----+--------------------------------------------------+--------------+---------------------------+---------------------------+
+| 20 | Useless mandatory field from Package (OpenChain) | SPDXRef-ea03 | platform/external/golang- | purl (pkg:googlesource/an |
+|    |                                                  | 95c72bc989ae | protobuf                  | droid/platform/external/g |
+|    |                                                  | 6eac66abf115 |                           | olang-protobuf@upstream-  |
+|    |                                                  | c45c         |                           | v1.21.0) in the           |
+|    |                                                  |              |                           | ExternalRef cannot be     |
+|    |                                                  |              |                           | converted to a            |
+|    |                                                  |              |                           | downloadable URL          |
++----+--------------------------------------------------+--------------+---------------------------+---------------------------+
+The SPDX file /home/elham/Downloads/scanoss/newscanoss.go.spdx.json is compliant with the OpenChain Telco SBOM Guide version 1.1 in strict mode (with RECOMMENDED also)

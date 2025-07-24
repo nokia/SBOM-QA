@@ -1,0 +1,4756 @@
+{
+  "tool": {
+    "name": "sbomdiff",
+    "version": "0.5.6"
+  },
+  "file_1": "SBOM-QA/Go/gohugoio_hugo_b0888a.json",
+  "file_2": "Downloads/scanoss/newscanoss.go.spdx.json",
+  "differences": [
+    {
+      "package": "@tailwindcss/typography",
+      "status": "remove",
+      "version": {
+        "from": "~0.5.16"
+      }
+    },
+    {
+      "package": "@alpinejs/focus",
+      "status": "remove",
+      "version": {
+        "from": "~3.14.9"
+      }
+    },
+    {
+      "package": "prettier-plugin-go-template",
+      "status": "remove",
+      "version": {
+        "from": "~0.0.15"
+      }
+    },
+    {
+      "package": "@alpinejs/persist",
+      "status": "remove",
+      "version": {
+        "from": "~3.14.9"
+      }
+    },
+    {
+      "package": "tailwindcss",
+      "status": "remove",
+      "version": {
+        "from": "~4.1.0"
+      }
+    },
+    {
+      "package": "@awmottaz/prettier-plugin-void-html",
+      "status": "remove",
+      "version": {
+        "from": "~1.8.0"
+      }
+    },
+    {
+      "package": "@hotwired/turbo",
+      "status": "remove",
+      "version": {
+        "from": "~8.0.13"
+      }
+    },
+    {
+      "package": "alpinejs",
+      "status": "remove",
+      "version": {
+        "from": "~3.14.9"
+      }
+    },
+    {
+      "package": "prettier",
+      "status": "remove",
+      "version": {
+        "from": "~3.5.3"
+      }
+    },
+    {
+      "package": "@tailwindcss/cli",
+      "status": "remove",
+      "version": {
+        "from": "~4.1.0"
+      }
+    },
+    {
+      "package": "katex",
+      "status": "remove",
+      "version": {
+        "from": "^0.16.21"
+      }
+    },
+    {
+      "package": "github.com/Azure/go-autorest",
+      "status": "remove",
+      "version": {
+        "from": "14.2.0+INCOMPATIBLE"
+      }
+    },
+    {
+      "package": "golang.org/x/exp",
+      "status": "remove",
+      "version": {
+        "from": "0.0.0-20221031165847-C99F073A8326"
+      }
+    },
+    {
+      "package": "github.com/go-openapi/jsonpointer",
+      "status": "remove",
+      "version": {
+        "from": "0.21.0"
+      }
+    },
+    {
+      "package": "cloud.google.com/go/storage",
+      "status": "remove",
+      "version": {
+        "from": "1.43.0"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+      "status": "remove",
+      "version": {
+        "from": "1.11.17"
+      }
+    },
+    {
+      "package": "github.com/bep/gitmap",
+      "status": "remove",
+      "version": {
+        "from": "1.6.0"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go",
+      "status": "remove",
+      "version": {
+        "from": "1.55.5"
+      }
+    },
+    {
+      "package": "github.com/spf13/cobra",
+      "status": "remove",
+      "version": {
+        "from": "1.9.1"
+      }
+    },
+    {
+      "package": "github.com/niklasfasching/go-org",
+      "status": "remove",
+      "version": {
+        "from": "1.7.0"
+      }
+    },
+    {
+      "package": "github.com/bep/gowebp",
+      "status": "remove",
+      "version": {
+        "from": "0.3.0"
+      }
+    },
+    {
+      "package": "github.com/googleapis/gax-go/v2",
+      "status": "remove",
+      "version": {
+        "from": "2.14.1"
+      }
+    },
+    {
+      "package": "github.com/dlclark/regexp2",
+      "status": "remove",
+      "version": {
+        "from": "1.11.5"
+      }
+    },
+    {
+      "package": "github.com/alecthomas/chroma/v2",
+      "status": "remove",
+      "version": {
+        "from": "2.17.2"
+      }
+    },
+    {
+      "package": "github.com/pkg/errors",
+      "status": "remove",
+      "version": {
+        "from": "0.9.1"
+      }
+    },
+    {
+      "package": "github.com/gobwas/glob",
+      "status": "remove",
+      "version": {
+        "from": "0.2.3"
+      }
+    },
+    {
+      "package": "github.com/ghodss/yaml",
+      "status": "remove",
+      "version": {
+        "from": "1.0.0"
+      }
+    },
+    {
+      "package": "google.golang.org/genproto/googleapis/api",
+      "status": "remove",
+      "version": {
+        "from": "0.0.0-20241209162323-E6FA225C2576"
+      }
+    },
+    {
+      "package": "github.com/bep/tmc",
+      "status": "remove",
+      "version": {
+        "from": "0.5.1"
+      }
+    },
+    {
+      "package": "github.com/makeworld-the-better-one/dither/v2",
+      "status": "remove",
+      "version": {
+        "from": "2.4.0"
+      }
+    },
+    {
+      "package": "github.com/go-logr/logr",
+      "status": "remove",
+      "version": {
+        "from": "1.4.2"
+      }
+    },
+    {
+      "package": "go.opentelemetry.io/otel",
+      "status": "remove",
+      "version": {
+        "from": "1.34.0"
+      }
+    },
+    {
+      "package": "github.com/oasdiff/yaml",
+      "status": "remove",
+      "version": {
+        "from": "0.0.0-20250309154309-F31BE36B4037"
+      }
+    },
+    {
+      "package": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+      "status": "remove",
+      "version": {
+        "from": "0.58.0"
+      }
+    },
+    {
+      "package": "github.com/google/uuid",
+      "status": "remove",
+      "version": {
+        "from": "1.6.0"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/service/sts",
+      "status": "remove",
+      "version": {
+        "from": "1.30.3"
+      }
+    },
+    {
+      "package": "github.com/bep/helpers",
+      "status": "remove",
+      "version": {
+        "from": "0.5.0"
+      }
+    },
+    {
+      "package": "gocloud.dev",
+      "status": "remove",
+      "version": {
+        "from": "0.40.0"
+      }
+    },
+    {
+      "package": "go.opentelemetry.io/otel/metric",
+      "status": "remove",
+      "version": {
+        "from": "1.34.0"
+      }
+    },
+    {
+      "package": "github.com/bep/simplecobra",
+      "status": "remove",
+      "version": {
+        "from": "0.6.0"
+      }
+    },
+    {
+      "package": "github.com/gohugoio/locales",
+      "status": "remove",
+      "version": {
+        "from": "0.14.0"
+      }
+    },
+    {
+      "package": "github.com/go-openapi/swag",
+      "status": "remove",
+      "version": {
+        "from": "0.23.0"
+      }
+    },
+    {
+      "package": "cloud.google.com/go/compute/metadata",
+      "status": "remove",
+      "version": {
+        "from": "0.6.0"
+      }
+    },
+    {
+      "package": "cloud.google.com/go/auth",
+      "status": "remove",
+      "version": {
+        "from": "0.14.1"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+      "status": "remove",
+      "version": {
+        "from": "2.6.32"
+      }
+    },
+    {
+      "package": "github.com/gohugoio/hashstructure",
+      "status": "remove",
+      "version": {
+        "from": "0.5.0"
+      }
+    },
+    {
+      "package": "golang.org/x/sync",
+      "status": "remove",
+      "version": {
+        "from": "0.13.0"
+      }
+    },
+    {
+      "package": "github.com/yuin/goldmark-emoji",
+      "status": "remove",
+      "version": {
+        "from": "1.0.6"
+      }
+    },
+    {
+      "package": "github.com/kr/pretty",
+      "status": "remove",
+      "version": {
+        "from": "0.3.1"
+      }
+    },
+    {
+      "package": "github.com/go-logr/stdr",
+      "status": "remove",
+      "version": {
+        "from": "1.2.2"
+      }
+    },
+    {
+      "package": "github.com/fortytw2/leaktest",
+      "status": "remove",
+      "version": {
+        "from": "1.3.0"
+      }
+    },
+    {
+      "package": "github.com/gorilla/websocket",
+      "status": "remove",
+      "version": {
+        "from": "1.5.3"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+      "status": "remove",
+      "version": {
+        "from": "1.16.11"
+      }
+    },
+    {
+      "package": "golang.org/x/tools",
+      "status": "remove",
+      "version": {
+        "from": "0.32.0"
+      }
+    },
+    {
+      "package": "github.com/yuin/goldmark",
+      "status": "remove",
+      "version": {
+        "from": "1.7.11"
+      }
+    },
+    {
+      "package": "github.com/mailru/easyjson",
+      "status": "remove",
+      "version": {
+        "from": "0.7.7"
+      }
+    },
+    {
+      "package": "github.com/golang/groupcache",
+      "status": "remove",
+      "version": {
+        "from": "0.0.0-20210331224755-41BB18BFE9DA"
+      }
+    },
+    {
+      "package": "github.com/kr/text",
+      "status": "remove",
+      "version": {
+        "from": "0.2.0"
+      }
+    },
+    {
+      "package": "github.com/magefile/mage",
+      "status": "remove",
+      "version": {
+        "from": "1.15.0"
+      }
+    },
+    {
+      "package": "github.com/Azure/azure-sdk-for-go/sdk/azidentity",
+      "status": "remove",
+      "version": {
+        "from": "1.7.0"
+      }
+    },
+    {
+      "package": "github.com/tdewolff/parse/v2",
+      "status": "remove",
+      "version": {
+        "from": "2.8.0"
+      }
+    },
+    {
+      "package": "github.com/tdewolff/minify/v2",
+      "status": "remove",
+      "version": {
+        "from": "2.23.5"
+      }
+    },
+    {
+      "package": "github.com/clbanning/mxj/v2",
+      "status": "remove",
+      "version": {
+        "from": "2.7.0"
+      }
+    },
+    {
+      "package": "github.com/frankban/quicktest",
+      "status": "remove",
+      "version": {
+        "from": "1.14.6"
+      }
+    },
+    {
+      "package": "github.com/disintegration/gift",
+      "status": "remove",
+      "version": {
+        "from": "1.2.1"
+      }
+    },
+    {
+      "package": "github.com/gohugoio/testmodBuilder/mods",
+      "status": "remove",
+      "version": {
+        "from": "0.0.0-20190520184928-C56AF20F2E95"
+      }
+    },
+    {
+      "package": "github.com/gohugoio/go-i18n/v2",
+      "status": "remove",
+      "version": {
+        "from": "2.1.3-0.20230805085216-E63C13218D0E"
+      }
+    },
+    {
+      "package": "github.com/bep/lazycache",
+      "status": "remove",
+      "version": {
+        "from": "0.8.0"
+      }
+    },
+    {
+      "package": "github.com/bep/logg",
+      "status": "remove",
+      "version": {
+        "from": "0.4.0"
+      }
+    },
+    {
+      "package": "github.com/mattn/go-runewidth",
+      "status": "remove",
+      "version": {
+        "from": "0.0.9"
+      }
+    },
+    {
+      "package": "github.com/sanity-io/litter",
+      "status": "remove",
+      "version": {
+        "from": "1.5.8"
+      }
+    },
+    {
+      "package": "golang.org/x/image",
+      "status": "remove",
+      "version": {
+        "from": "0.26.0"
+      }
+    },
+    {
+      "package": "golang.org/x/net",
+      "status": "remove",
+      "version": {
+        "from": "0.39.0"
+      }
+    },
+    {
+      "package": "github.com/mattn/go-colorable",
+      "status": "remove",
+      "version": {
+        "from": "0.1.13"
+      }
+    },
+    {
+      "package": "gopkg.in/yaml.v2",
+      "status": "remove",
+      "version": {
+        "from": "2.4.0"
+      }
+    },
+    {
+      "package": "github.com/bep/clocks",
+      "status": "remove",
+      "version": {
+        "from": "0.5.0"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/service/internal/s3shared",
+      "status": "remove",
+      "version": {
+        "from": "1.17.15"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/config",
+      "status": "remove",
+      "version": {
+        "from": "1.27.27"
+      }
+    },
+    {
+      "package": "cloud.google.com/go",
+      "status": "remove",
+      "version": {
+        "from": "0.116.0"
+      }
+    },
+    {
+      "package": "github.com/evanw/esbuild",
+      "status": "remove",
+      "version": {
+        "from": "0.25.3"
+      }
+    },
+    {
+      "package": "go.opencensus.io",
+      "status": "remove",
+      "version": {
+        "from": "0.24.0"
+      }
+    },
+    {
+      "package": "github.com/bep/mclib",
+      "status": "remove",
+      "version": {
+        "from": "1.20400.20402"
+      }
+    },
+    {
+      "package": "github.com/bep/goportabletext",
+      "status": "remove",
+      "version": {
+        "from": "0.1.0"
+      }
+    },
+    {
+      "package": "github.com/bep/imagemeta",
+      "status": "remove",
+      "version": {
+        "from": "0.12.0"
+      }
+    },
+    {
+      "package": "github.com/kylelemons/godebug",
+      "status": "remove",
+      "version": {
+        "from": "1.1.0"
+      }
+    },
+    {
+      "package": "github.com/perimeterx/marshmallow",
+      "status": "remove",
+      "version": {
+        "from": "1.1.5"
+      }
+    },
+    {
+      "package": "github.com/gohugoio/localescompressed",
+      "status": "remove",
+      "version": {
+        "from": "1.0.1"
+      }
+    },
+    {
+      "package": "github.com/google/wire",
+      "status": "remove",
+      "version": {
+        "from": "0.6.0"
+      }
+    },
+    {
+      "package": "golang.org/x/crypto",
+      "status": "remove",
+      "version": {
+        "from": "0.37.0"
+      }
+    },
+    {
+      "package": "github.com/jdkato/prose",
+      "status": "remove",
+      "version": {
+        "from": "1.2.1"
+      }
+    },
+    {
+      "package": "github.com/felixge/httpsnoop",
+      "status": "remove",
+      "version": {
+        "from": "1.0.4"
+      }
+    },
+    {
+      "package": "github.com/armon/go-radix",
+      "status": "remove",
+      "version": {
+        "from": "1.0.1-0.20221118154546-54DF44F2176C"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/internal/ini",
+      "status": "remove",
+      "version": {
+        "from": "1.8.0"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+      "status": "remove",
+      "version": {
+        "from": "1.26.4"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/service/sso",
+      "status": "remove",
+      "version": {
+        "from": "1.22.4"
+      }
+    },
+    {
+      "package": "github.com/olekukonko/tablewriter",
+      "status": "remove",
+      "version": {
+        "from": "0.0.5"
+      }
+    },
+    {
+      "package": "github.com/jmespath/go-jmespath",
+      "status": "remove",
+      "version": {
+        "from": "0.4.0"
+      }
+    },
+    {
+      "package": "github.com/kyokomi/emoji/v2",
+      "status": "remove",
+      "version": {
+        "from": "2.2.13"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream",
+      "status": "remove",
+      "version": {
+        "from": "1.6.3"
+      }
+    },
+    {
+      "package": "golang.org/x/mod",
+      "status": "remove",
+      "version": {
+        "from": "0.24.0"
+      }
+    },
+    {
+      "package": "rsc.io/qr",
+      "status": "remove",
+      "version": {
+        "from": "0.2.0"
+      }
+    },
+    {
+      "package": "github.com/marekm4/color-extractor",
+      "status": "remove",
+      "version": {
+        "from": "1.2.1"
+      }
+    },
+    {
+      "package": "github.com/mohae/deepcopy",
+      "status": "remove",
+      "version": {
+        "from": "0.0.0-20170929034955-C48CC78D4826"
+      }
+    },
+    {
+      "package": "github.com/bep/goat",
+      "status": "remove",
+      "version": {
+        "from": "0.5.0"
+      }
+    },
+    {
+      "package": "github.com/spf13/fsync",
+      "status": "remove",
+      "version": {
+        "from": "0.10.1"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+      "status": "remove",
+      "version": {
+        "from": "1.11.3"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/internal/v4a",
+      "status": "remove",
+      "version": {
+        "from": "1.3.15"
+      }
+    },
+    {
+      "package": "go.opentelemetry.io/auto/sdk",
+      "status": "remove",
+      "version": {
+        "from": "1.1.0"
+      }
+    },
+    {
+      "package": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+      "status": "remove",
+      "version": {
+        "from": "0.58.0"
+      }
+    },
+    {
+      "package": "go.opentelemetry.io/otel/trace",
+      "status": "remove",
+      "version": {
+        "from": "1.34.0"
+      }
+    },
+    {
+      "package": "github.com/russross/blackfriday/v2",
+      "status": "remove",
+      "version": {
+        "from": "2.1.0"
+      }
+    },
+    {
+      "package": "github.com/BurntSushi/locker",
+      "status": "remove",
+      "version": {
+        "from": "0.0.0-20171006230638-A6E239EA1C69"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/service/cloudfront",
+      "status": "remove",
+      "version": {
+        "from": "1.44.10"
+      }
+    },
+    {
+      "package": "howett.net/plist",
+      "status": "remove",
+      "version": {
+        "from": "1.0.0"
+      }
+    },
+    {
+      "package": "github.com/mattn/go-isatty",
+      "status": "remove",
+      "version": {
+        "from": "0.0.20"
+      }
+    },
+    {
+      "package": "github.com/pkg/browser",
+      "status": "remove",
+      "version": {
+        "from": "0.0.0-20240102092130-5AC0B6A4141C"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/credentials",
+      "status": "remove",
+      "version": {
+        "from": "1.17.27"
+      }
+    },
+    {
+      "package": "cloud.google.com/go/auth/oauth2adapt",
+      "status": "remove",
+      "version": {
+        "from": "0.2.7"
+      }
+    },
+    {
+      "package": "github.com/spf13/pflag",
+      "status": "remove",
+      "version": {
+        "from": "1.0.6"
+      }
+    },
+    {
+      "package": "golang.org/x/oauth2",
+      "status": "remove",
+      "version": {
+        "from": "0.26.0"
+      }
+    },
+    {
+      "package": "github.com/gohugoio/hugo-goldmark-extensions/extras",
+      "status": "remove",
+      "version": {
+        "from": "0.3.0"
+      }
+    },
+    {
+      "package": "github.com/hairyhenderson/go-codeowners",
+      "status": "remove",
+      "version": {
+        "from": "0.7.0"
+      }
+    },
+    {
+      "package": "github.com/google/s2a-go",
+      "status": "remove",
+      "version": {
+        "from": "0.1.9"
+      }
+    },
+    {
+      "package": "github.com/spf13/afero",
+      "status": "remove",
+      "version": {
+        "from": "1.14.0"
+      }
+    },
+    {
+      "package": "golang.org/x/text",
+      "status": "remove",
+      "version": {
+        "from": "0.24.0"
+      }
+    },
+    {
+      "package": "github.com/josharian/intern",
+      "status": "remove",
+      "version": {
+        "from": "1.0.0"
+      }
+    },
+    {
+      "package": "github.com/inconshreveable/mousetrap",
+      "status": "remove",
+      "version": {
+        "from": "1.1.0"
+      }
+    },
+    {
+      "package": "github.com/Azure/go-autorest/autorest/to",
+      "status": "remove",
+      "version": {
+        "from": "0.4.0"
+      }
+    },
+    {
+      "package": "github.com/pbnjay/memory",
+      "status": "remove",
+      "version": {
+        "from": "0.0.0-20210728143218-7B4EEA64CF58"
+      }
+    },
+    {
+      "package": "github.com/oasdiff/yaml3",
+      "status": "remove",
+      "version": {
+        "from": "0.0.0-20250309153720-D2182401DB90"
+      }
+    },
+    {
+      "package": "github.com/gohugoio/hugo-goldmark-extensions/passthrough",
+      "status": "remove",
+      "version": {
+        "from": "0.3.1"
+      }
+    },
+    {
+      "package": "github.com/fsnotify/fsnotify",
+      "status": "remove",
+      "version": {
+        "from": "1.9.0"
+      }
+    },
+    {
+      "package": "github.com/pelletier/go-toml/v2",
+      "status": "remove",
+      "version": {
+        "from": "2.2.4"
+      }
+    },
+    {
+      "package": "golang.org/x/xerrors",
+      "status": "remove",
+      "version": {
+        "from": "0.0.0-20240716161551-93CC26A95AE9"
+      }
+    },
+    {
+      "package": "github.com/bep/golibsass",
+      "status": "remove",
+      "version": {
+        "from": "1.2.0"
+      }
+    },
+    {
+      "package": "gopkg.in/yaml.v3",
+      "status": "remove",
+      "version": {
+        "from": "3.0.1"
+      }
+    },
+    {
+      "package": "software.sslmate.com/src/go-pkcs12",
+      "status": "remove",
+      "version": {
+        "from": "0.2.0"
+      }
+    },
+    {
+      "package": "github.com/gobuffalo/flect",
+      "status": "remove",
+      "version": {
+        "from": "1.0.3"
+      }
+    },
+    {
+      "package": "github.com/fatih/color",
+      "status": "remove",
+      "version": {
+        "from": "1.18.0"
+      }
+    },
+    {
+      "package": "github.com/hashicorp/golang-lru/v2",
+      "status": "remove",
+      "version": {
+        "from": "2.0.7"
+      }
+    },
+    {
+      "package": "cloud.google.com/go/iam",
+      "status": "remove",
+      "version": {
+        "from": "1.2.2"
+      }
+    },
+    {
+      "package": "github.com/getkin/kin-openapi",
+      "status": "remove",
+      "version": {
+        "from": "0.132.0"
+      }
+    },
+    {
+      "package": "github.com/mitchellh/mapstructure",
+      "status": "remove",
+      "version": {
+        "from": "1.5.1-0.20231216201459-8508981C8B6C"
+      }
+    },
+    {
+      "package": "github.com/bep/debounce",
+      "status": "remove",
+      "version": {
+        "from": "1.2.0"
+      }
+    },
+    {
+      "package": "google.golang.org/genproto",
+      "status": "remove",
+      "version": {
+        "from": "0.0.0-20241104194629-DD2EA8EFBC28"
+      }
+    },
+    {
+      "package": "golang.org/x/time",
+      "status": "remove",
+      "version": {
+        "from": "0.10.0"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2",
+      "status": "remove",
+      "version": {
+        "from": "1.36.1"
+      }
+    },
+    {
+      "package": "github.com/bep/overlayfs",
+      "status": "remove",
+      "version": {
+        "from": "0.10.0"
+      }
+    },
+    {
+      "package": "github.com/golang-jwt/jwt/v5",
+      "status": "remove",
+      "version": {
+        "from": "5.2.2"
+      }
+    },
+    {
+      "package": "github.com/dustin/go-humanize",
+      "status": "remove",
+      "version": {
+        "from": "1.0.1"
+      }
+    },
+    {
+      "package": "github.com/muesli/smartcrop",
+      "status": "remove",
+      "version": {
+        "from": "0.3.0"
+      }
+    },
+    {
+      "package": "google.golang.org/protobuf",
+      "status": "remove",
+      "version": {
+        "from": "1.36.5"
+      }
+    },
+    {
+      "package": "github.com/google/go-cmp",
+      "status": "remove",
+      "version": {
+        "from": "0.7.0"
+      }
+    },
+    {
+      "package": "github.com/AzureAD/microsoft-authentication-library-for-go",
+      "status": "remove",
+      "version": {
+        "from": "1.2.2"
+      }
+    },
+    {
+      "package": "github.com/cespare/xxhash/v2",
+      "status": "remove",
+      "version": {
+        "from": "2.3.0"
+      }
+    },
+    {
+      "package": "github.com/Azure/azure-sdk-for-go/sdk/storage/azblob",
+      "status": "remove",
+      "version": {
+        "from": "1.3.2"
+      }
+    },
+    {
+      "package": "github.com/spf13/cast",
+      "status": "remove",
+      "version": {
+        "from": "1.7.1"
+      }
+    },
+    {
+      "package": "google.golang.org/grpc",
+      "status": "remove",
+      "version": {
+        "from": "1.70.0"
+      }
+    },
+    {
+      "package": "github.com/bep/godartsass/v2",
+      "status": "remove",
+      "version": {
+        "from": "2.5.0"
+      }
+    },
+    {
+      "package": "golang.org/x/sys",
+      "status": "remove",
+      "version": {
+        "from": "0.32.0"
+      }
+    },
+    {
+      "package": "go.uber.org/automaxprocs",
+      "status": "remove",
+      "version": {
+        "from": "1.5.3"
+      }
+    },
+    {
+      "package": "github.com/gohugoio/httpcache",
+      "status": "remove",
+      "version": {
+        "from": "0.7.0"
+      }
+    },
+    {
+      "package": "github.com/Azure/azure-sdk-for-go/sdk/internal",
+      "status": "remove",
+      "version": {
+        "from": "1.10.0"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/feature/s3/manager",
+      "status": "remove",
+      "version": {
+        "from": "1.17.10"
+      }
+    },
+    {
+      "package": "github.com/aws/smithy-go",
+      "status": "remove",
+      "version": {
+        "from": "1.22.2"
+      }
+    },
+    {
+      "package": "google.golang.org/genproto/googleapis/rpc",
+      "status": "remove",
+      "version": {
+        "from": "0.0.0-20250207221924-E9438EA467C6"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/service/internal/checksum",
+      "status": "remove",
+      "version": {
+        "from": "1.3.17"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/service/s3",
+      "status": "remove",
+      "version": {
+        "from": "1.58.3"
+      }
+    },
+    {
+      "package": "github.com/cpuguy83/go-md2man/v2",
+      "status": "remove",
+      "version": {
+        "from": "2.0.6"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/internal/configsources",
+      "status": "remove",
+      "version": {
+        "from": "1.3.32"
+      }
+    },
+    {
+      "package": "github.com/tetratelabs/wazero",
+      "status": "remove",
+      "version": {
+        "from": "1.9.0"
+      }
+    },
+    {
+      "package": "github.com/rogpeppe/go-internal",
+      "status": "remove",
+      "version": {
+        "from": "1.14.1"
+      }
+    },
+    {
+      "package": "github.com/nfnt/resize",
+      "status": "remove",
+      "version": {
+        "from": "0.0.0-20180221191011-83C6A9932646"
+      }
+    },
+    {
+      "package": "github.com/Azure/azure-sdk-for-go/sdk/azcore",
+      "status": "remove",
+      "version": {
+        "from": "1.14.0"
+      }
+    },
+    {
+      "package": "github.com/googleapis/enterprise-certificate-proxy",
+      "status": "remove",
+      "version": {
+        "from": "0.3.4"
+      }
+    },
+    {
+      "package": "google.golang.org/api",
+      "status": "remove",
+      "version": {
+        "from": "0.221.0"
+      }
+    },
+    {
+      "package": "github.com/gohugoio/gohugoioTheme",
+      "status": "remove",
+      "version": {
+        "from": "0.0.0-20210409071416-C88DA48134B7"
+      }
+    },
+    {
+      "package": "docker/build-push-action",
+      "status": "remove",
+      "version": {
+        "from": "16EBE778DF0E7752D2CFCBD924AFDBBD89C1A755"
+      }
+    },
+    {
+      "package": "docker/metadata-action",
+      "status": "remove",
+      "version": {
+        "from": "8E5442C4EF9F78752691E2D8F8D19755C6F78E81"
+      }
+    },
+    {
+      "package": "actions/checkout",
+      "status": "remove",
+      "version": {
+        "from": "692973E3D937129BCBF40652EB9F2F61BECF3332"
+      }
+    },
+    {
+      "package": "docker/login-action",
+      "status": "remove",
+      "version": {
+        "from": "9780B0C442FBB1117ED29E0EFDFF1E18412F7567"
+      }
+    },
+    {
+      "package": "docker/setup-buildx-action",
+      "status": "remove",
+      "version": {
+        "from": "988B5A0280414F521DA01FCC63A27AEEB4B104DB"
+      }
+    },
+    {
+      "package": "actions/stale",
+      "status": "remove",
+      "version": {
+        "from": "28CA1036281A5E5922EAD5184A1BBF96E5FC984E"
+      }
+    },
+    {
+      "package": "dessant/lock-threads",
+      "status": "remove",
+      "version": {
+        "from": "7DE207BE1D3CE97A9ABE6FF1306222982D1CA9F9"
+      }
+    },
+    {
+      "package": "jlumbroso/free-disk-space",
+      "status": "remove",
+      "version": {
+        "from": "54081F138730DFA15788A46383842CD2F914A1BE"
+      }
+    },
+    {
+      "package": "actions/setup-go",
+      "status": "remove",
+      "version": {
+        "from": "0A12ED9D6A96AB950C8F026ED9F722FE0DA7EF32"
+      }
+    },
+    {
+      "package": "actions/setup-python",
+      "status": "remove",
+      "version": {
+        "from": "39CD14951B08E74B54015E9E001CDEFCF80E669F"
+      }
+    },
+    {
+      "package": "ruby/setup-ruby",
+      "status": "remove",
+      "version": {
+        "from": "A6E6F86333F0A2523ECE813039B8B4BE04560854"
+      }
+    },
+    {
+      "package": "reitzig/actions-asciidoctor",
+      "status": "remove",
+      "version": {
+        "from": "C642DB5EEDD1D729BB8C92034770D0B2F769EDA6"
+      }
+    },
+    {
+      "package": "com.github.gohugoio/hugo",
+      "status": "remove",
+      "version": {
+        "from": "MASTER"
+      }
+    },
+    {
+      "package": "hugo",
+      "status": "add",
+      "version": {
+        "from": "ISSUE12991-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "neohugo",
+      "status": "add",
+      "version": {
+        "from": "0.11.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "livereload-js",
+      "status": "add",
+      "version": {
+        "from": "4.0.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "strawberry",
+      "status": "add",
+      "version": {
+        "from": "0.26.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "aleph",
+      "status": "add",
+      "version": {
+        "from": "3.2.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "imagemeta",
+      "status": "add",
+      "version": {
+        "from": "0.4.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go",
+      "status": "add",
+      "version": {
+        "from": "24RC1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "buildscripts",
+      "status": "add",
+      "version": {
+        "from": "SOURCES"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go.old",
+      "status": "add",
+      "version": {
+        "from": "WEEKLY.2011-07-29"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "template",
+      "status": "add",
+      "version": {
+        "from": "B9F28C0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "megarepo",
+      "status": "add",
+      "version": {
+        "from": "5EEDC06"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go-bootstrap",
+      "status": "add",
+      "version": {
+        "from": "GO1.19BETA1-1531-G15E26698CC"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "CLFS-for-LoongArch",
+      "status": "add",
+      "version": {
+        "from": "5.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "loki",
+      "status": "add",
+      "version": {
+        "from": "HELM-LOKI-6.24.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "google-cloud-go",
+      "status": "add",
+      "version": {
+        "from": "BIGTABLE/V1.34.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "wandb",
+      "status": "add",
+      "version": {
+        "from": "0.18.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "boring-registry",
+      "status": "add",
+      "version": {
+        "from": "0.14.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "goravel-tinker",
+      "status": "add",
+      "version": {
+        "from": "1.0.6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gcs-fuse-csi-driver",
+      "status": "add",
+      "version": {
+        "from": "0.1.14"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "bosh-gcscli",
+      "status": "add",
+      "version": {
+        "from": "0.0.232"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "VictoriaMetrics",
+      "status": "add",
+      "version": {
+        "from": "PMM-6401-V1.99.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "azure-sdk-for-go",
+      "status": "add",
+      "version": {
+        "from": "SDK/RESOURCEMANAGER/MONGOCLUSTER/ARMMONGOCLUSTER/V0.1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "images",
+      "status": "add",
+      "version": {
+        "from": "0.72.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "azbrowse",
+      "status": "add",
+      "version": {
+        "from": "2.1.976"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "prometheus-engine",
+      "status": "add",
+      "version": {
+        "from": "0.12.0-RC.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "blob-csi-driver",
+      "status": "add",
+      "version": {
+        "from": "1.24.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gitlab-ingress-nginx",
+      "status": "add",
+      "version": {
+        "from": "NGINX-0.9.0-BETA.16"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go-autorest",
+      "status": "add",
+      "version": {
+        "from": "AUTOREST"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "microsoft-authentication-library-for-go",
+      "status": "add",
+      "version": {
+        "from": "0.9.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "buildkit",
+      "status": "add",
+      "version": {
+        "from": "PREVIEW1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "chroma",
+      "status": "add",
+      "version": {
+        "from": "2.9.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang-github-alecthomas-chroma",
+      "status": "add",
+      "version": {
+        "from": "0.1.1+GIT20171116.9C81D25-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "distfiles",
+      "status": "add",
+      "version": {
+        "from": "CHEZMOI-2.62.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "codeflow",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gitea",
+      "status": "add",
+      "version": {
+        "from": "1.21.0-RC0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "algorithm-study",
+      "status": "add",
+      "version": {
+        "from": "7596143"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sftpgo",
+      "status": "add",
+      "version": {
+        "from": "2.6.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "aws-sdk-go-v2",
+      "status": "add",
+      "version": {
+        "from": "0.21.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "bouncer",
+      "status": "add",
+      "version": {
+        "from": "6D18E04"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cilium",
+      "status": "add",
+      "version": {
+        "from": "1.12.0-RC0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ko",
+      "status": "add",
+      "version": {
+        "from": "0.10.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "backup-and-restore-sdk-release",
+      "status": "add",
+      "version": {
+        "from": "1.19.21"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "compage",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cortextheseus",
+      "status": "add",
+      "version": {
+        "from": "1.10.59"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "aws-sdk-go",
+      "status": "add",
+      "version": {
+        "from": "1.30.4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "scanner",
+      "status": "add",
+      "version": {
+        "from": "0.0.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "transcode-orchestrator",
+      "status": "add",
+      "version": {
+        "from": "2.0.16"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "autograph",
+      "status": "add",
+      "version": {
+        "from": "7.2.5"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go-pubsub",
+      "status": "add",
+      "version": {
+        "from": "0.0.19"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "terraform-provider-awscc",
+      "status": "add",
+      "version": {
+        "from": "0.0.5"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go-localstack",
+      "status": "add",
+      "version": {
+        "from": "1.0.95"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "aws-sam-apps",
+      "status": "add",
+      "version": {
+        "from": "2.1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "baton",
+      "status": "add",
+      "version": {
+        "from": "0.0.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "alustan",
+      "status": "add",
+      "version": {
+        "from": "0.1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "boulder",
+      "status": "add",
+      "version": {
+        "from": "RELEASE-2024-02-26"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "aws-sso",
+      "status": "add",
+      "version": {
+        "from": "1.2.4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "diego-release",
+      "status": "add",
+      "version": {
+        "from": "2.99.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "kn-plugin-func",
+      "status": "add",
+      "version": {
+        "from": "0.35.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "s3rw_exporter",
+      "status": "add",
+      "version": {
+        "from": "1.32.10"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "teller",
+      "status": "add",
+      "version": {
+        "from": "0.4.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "bosh-s3cli",
+      "status": "add",
+      "version": {
+        "from": "0.0.249"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "packer-plugin-arm-image",
+      "status": "add",
+      "version": {
+        "from": "0.2.6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "aerolab",
+      "status": "add",
+      "version": {
+        "from": "4.3.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "chef-analyze",
+      "status": "add",
+      "version": {
+        "from": "0.1.135"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "packer-builder-arm-image",
+      "status": "add",
+      "version": {
+        "from": "0.2.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "smithy-go",
+      "status": "add",
+      "version": {
+        "from": "1.13.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "clocks",
+      "status": "add",
+      "version": {
+        "from": "0.5.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "rancher",
+      "status": "add",
+      "version": {
+        "from": "2.2.0-RC1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gitmap",
+      "status": "add",
+      "version": {
+        "from": "1.6.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang-github-bep-goat",
+      "status": "add",
+      "version": {
+        "from": "0.5.0-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "goat",
+      "status": "add",
+      "version": {
+        "from": "2184EBE"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "godartsass",
+      "status": "add",
+      "version": {
+        "from": "2.3.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sass",
+      "status": "add",
+      "version": {
+        "from": "EMBEDDED-PROTOCOL-3.1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golibsass",
+      "status": "add",
+      "version": {
+        "from": "0.7.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang-github-bep-gowebp",
+      "status": "add",
+      "version": {
+        "from": "0.3.0+DFSG-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gowebp",
+      "status": "add",
+      "version": {
+        "from": "0.1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "helpers",
+      "status": "add",
+      "version": {
+        "from": "0.5.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "lazycache",
+      "status": "add",
+      "version": {
+        "from": "0.7.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "logg",
+      "status": "add",
+      "version": {
+        "from": "0.3.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mclib",
+      "status": "add",
+      "version": {
+        "from": "1.20400.20401"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "overlayfs",
+      "status": "add",
+      "version": {
+        "from": "0.9.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "simplecobra",
+      "status": "add",
+      "version": {
+        "from": "0.3.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang-github-bep-tmc",
+      "status": "add",
+      "version": {
+        "from": "0.5.1.ORIG"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "xxhash",
+      "status": "add",
+      "version": {
+        "from": "2.2.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mxj",
+      "status": "add",
+      "version": {
+        "from": "2.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mockingjay-server",
+      "status": "add",
+      "version": {
+        "from": "1.4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go-md2man",
+      "status": "add",
+      "version": {
+        "from": "2.0.5"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gift",
+      "status": "add",
+      "version": {
+        "from": "1.2.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "regexp2",
+      "status": "add",
+      "version": {
+        "from": "1.1.4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "algernon",
+      "status": "add",
+      "version": {
+        "from": "1.17.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "k6",
+      "status": "add",
+      "version": {
+        "from": "0.29.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "juju-core",
+      "status": "add",
+      "version": {
+        "from": "1.23-BETA1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go-humanize",
+      "status": "add",
+      "version": {
+        "from": "1.0.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "dt",
+      "status": "add",
+      "version": {
+        "from": "0.0.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "croc",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "zoi-go-humanize",
+      "status": "add",
+      "version": {
+        "from": "1.1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "OctoPrint-TFT",
+      "status": "add",
+      "version": {
+        "from": "0.1.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "esbuild",
+      "status": "add",
+      "version": {
+        "from": "0.11.13"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "corteza-server",
+      "status": "add",
+      "version": {
+        "from": "2022.3.0-RC.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "color",
+      "status": "add",
+      "version": {
+        "from": "1C8D870"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "singularity",
+      "status": "add",
+      "version": {
+        "from": "3.11.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "httpsnoop",
+      "status": "add",
+      "version": {
+        "from": "C5817C2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sourcegraph",
+      "status": "add",
+      "version": {
+        "from": "2.3.7"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "leaktest",
+      "status": "add",
+      "version": {
+        "from": "1.3.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "quicktest",
+      "status": "add",
+      "version": {
+        "from": "1.14.5"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "fsnotify",
+      "status": "add",
+      "version": {
+        "from": "1.9.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "kin-openapi",
+      "status": "add",
+      "version": {
+        "from": "0.130.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "monitoring-app",
+      "status": "add",
+      "version": {
+        "from": "0.0.15"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gohan",
+      "status": "add",
+      "version": {
+        "from": "PRE-RELEASE"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "logr",
+      "status": "add",
+      "version": {
+        "from": "1.2.4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "stdr",
+      "status": "add",
+      "version": {
+        "from": "1.1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jsonpointer",
+      "status": "add",
+      "version": {
+        "from": "0.21.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "chaos-runner",
+      "status": "add",
+      "version": {
+        "from": "1.1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "swag",
+      "status": "add",
+      "version": {
+        "from": "0.19.9"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "kubevirt",
+      "status": "add",
+      "version": {
+        "from": "0.11.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go-swagger",
+      "status": "add",
+      "version": {
+        "from": "0.10.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "flect",
+      "status": "add",
+      "version": {
+        "from": "0.1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "buffalo-auth",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gardener-extension-shoot-flux",
+      "status": "add",
+      "version": {
+        "from": "9FC6386"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "syncthing",
+      "status": "add",
+      "version": {
+        "from": "0.13.0-BETA.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "glob",
+      "status": "add",
+      "version": {
+        "from": "0.2.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "i18n",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go-i18n",
+      "status": "add",
+      "version": {
+        "from": "2.0.0-BETA.7"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "hashstructure",
+      "status": "add",
+      "version": {
+        "from": "2.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "hugo-goldmark-extensions",
+      "status": "add",
+      "version": {
+        "from": "CA07402"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "locales",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "hugoverse",
+      "status": "add",
+      "version": {
+        "from": "0.1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "localescompressed",
+      "status": "add",
+      "version": {
+        "from": "0.14.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jwt",
+      "status": "add",
+      "version": {
+        "from": "5.0.0-RC.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jwt-go",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "operator-sdk",
+      "status": "add",
+      "version": {
+        "from": "0.5.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go-cmp",
+      "status": "add",
+      "version": {
+        "from": "C3AD843"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "lima",
+      "status": "add",
+      "version": {
+        "from": "0.12.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gosdk",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "codeready-workspaces-images",
+      "status": "add",
+      "version": {
+        "from": "2.15.0-STACKS-GOLANG-ASSETS"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "s2a-go",
+      "status": "add",
+      "version": {
+        "from": "0.1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gif-maker",
+      "status": "add",
+      "version": {
+        "from": "0.0.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cloud-build-local",
+      "status": "add",
+      "version": {
+        "from": "0.2.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "uuid",
+      "status": "add",
+      "version": {
+        "from": "V.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "lxd",
+      "status": "add",
+      "version": {
+        "from": "4.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gardener",
+      "status": "add",
+      "version": {
+        "from": "0.18.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "stash",
+      "status": "add",
+      "version": {
+        "from": "0.6.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "lessgo",
+      "status": "add",
+      "version": {
+        "from": "0.5.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "wire.mirror/v0.2.2",
+      "status": "add",
+      "version": {
+        "from": "0.2.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "wire",
+      "status": "add",
+      "version": {
+        "from": "E57DEEA"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "enterprise-certificate-proxy",
+      "status": "add",
+      "version": {
+        "from": "0.3.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gax-go",
+      "status": "add",
+      "version": {
+        "from": "2.3.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "websocket",
+      "status": "add",
+      "version": {
+        "from": "1.5.1-RC.5"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "slurp",
+      "status": "add",
+      "version": {
+        "from": "1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go-codeowners",
+      "status": "add",
+      "version": {
+        "from": "0.7.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang-lru",
+      "status": "add",
+      "version": {
+        "from": "2.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "zdpgo_cmd",
+      "status": "add",
+      "version": {
+        "from": "0.1.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mousetrap",
+      "status": "add",
+      "version": {
+        "from": "4E8053E"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "prose",
+      "status": "add",
+      "version": {
+        "from": "1.1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang-github-jdkato-prose",
+      "status": "add",
+      "version": {
+        "from": "1.1.0+GIT20171031.E27ABFD-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go-jmespath",
+      "status": "add",
+      "version": {
+        "from": "0.3.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "goiardi",
+      "status": "add",
+      "version": {
+        "from": "0.11.1-PRE1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "intern",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ek",
+      "status": "add",
+      "version": {
+        "from": "12.7.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "juju",
+      "status": "add",
+      "version": {
+        "from": "3.0-BETA4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "monitor-app",
+      "status": "add",
+      "version": {
+        "from": "MA-20200220-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang-pretty",
+      "status": "add",
+      "version": {
+        "from": "0.0~GIT20130613.ORIG"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang-text",
+      "status": "add",
+      "version": {
+        "from": "0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ingress-nginx",
+      "status": "add",
+      "version": {
+        "from": "NGINX-INGRESS-CONTROLLER-0.9-BETA.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "flynn",
+      "status": "add",
+      "version": {
+        "from": "20150224.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "godebug",
+      "status": "add",
+      "version": {
+        "from": "1.1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "emoji",
+      "status": "add",
+      "version": {
+        "from": "3A71330"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mage",
+      "status": "add",
+      "version": {
+        "from": "1.10.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "easyjson",
+      "status": "add",
+      "version": {
+        "from": "0.7.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "k8s-ec2-srcdst",
+      "status": "add",
+      "version": {
+        "from": "0.0.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "kubewatch",
+      "status": "add",
+      "version": {
+        "from": "0.2.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "firehose-to-syslog",
+      "status": "add",
+      "version": {
+        "from": "2.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "dither",
+      "status": "add",
+      "version": {
+        "from": "2.2.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "color-extractor",
+      "status": "add",
+      "version": {
+        "from": "66B5A2D"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go-colorable",
+      "status": "add",
+      "version": {
+        "from": "0.1.10"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "tmlibs",
+      "status": "add",
+      "version": {
+        "from": "0.4.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "hub",
+      "status": "add",
+      "version": {
+        "from": "2.2.0-RC1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mapstructure",
+      "status": "add",
+      "version": {
+        "from": "8508981"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "bosh-init",
+      "status": "add",
+      "version": {
+        "from": "0.0.65"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "openstorage",
+      "status": "add",
+      "version": {
+        "from": "9.4.23"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "deepcopy",
+      "status": "add",
+      "version": {
+        "from": "C48CC78D482608239F6C4C92A4ABD87EB8761C90"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang-github-muesli-smartcrop",
+      "status": "add",
+      "version": {
+        "from": "0.2.0+GIT20180228.F6EBAA7+DFSG1-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go-org",
+      "status": "add",
+      "version": {
+        "from": "1.6.6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "yaml",
+      "status": "add",
+      "version": {
+        "from": "57832AD"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "woodpecker",
+      "status": "add",
+      "version": {
+        "from": "3.0.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "molecule",
+      "status": "add",
+      "version": {
+        "from": "0.2.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "k3os",
+      "status": "add",
+      "version": {
+        "from": "0.2.0-RC1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ship",
+      "status": "add",
+      "version": {
+        "from": "0.49.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "batten",
+      "status": "add",
+      "version": {
+        "from": "1206814"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "deviceplane",
+      "status": "add",
+      "version": {
+        "from": "CLI-2.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "engine",
+      "status": "add",
+      "version": {
+        "from": "0.1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "memory",
+      "status": "add",
+      "version": {
+        "from": "7B4EEA6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "bwk-dash",
+      "status": "add",
+      "version": {
+        "from": "1.0.0-RC1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang-github-pbnjay-memory",
+      "status": "add",
+      "version": {
+        "from": "0.0~GIT20210728.7B4EEA6-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "eventing-kafka",
+      "status": "add",
+      "version": {
+        "from": "0.24.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go-toml",
+      "status": "add",
+      "version": {
+        "from": "2.0.0-BETA.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "toml",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sds-demo",
+      "status": "add",
+      "version": {
+        "from": "0.0.18"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "marshmallow",
+      "status": "add",
+      "version": {
+        "from": "0.0.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cilium-cli",
+      "status": "add",
+      "version": {
+        "from": "0.8.6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "moggio",
+      "status": "add",
+      "version": {
+        "from": "0.0.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gofabric8",
+      "status": "add",
+      "version": {
+        "from": "0.4.131"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "browser",
+      "status": "add",
+      "version": {
+        "from": "681ADBF"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "crc",
+      "status": "add",
+      "version": {
+        "from": "1.36.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gosnowflake",
+      "status": "add",
+      "version": {
+        "from": "1.6.4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang-package",
+      "status": "add",
+      "version": {
+        "from": "95546E7"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libtorrent",
+      "status": "add",
+      "version": {
+        "from": "0.14.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go-internal",
+      "status": "add",
+      "version": {
+        "from": "1.14.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "riscv-bringup",
+      "status": "add",
+      "version": {
+        "from": "1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang-github-rogpeppe-go-internal",
+      "status": "add",
+      "version": {
+        "from": "1.12.0-3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "blackfriday",
+      "status": "add",
+      "version": {
+        "from": "2.1.0-PRE.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "vmd",
+      "status": "add",
+      "version": {
+        "from": "0.0.6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "litter",
+      "status": "add",
+      "version": {
+        "from": "1.5.8"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "afero",
+      "status": "add",
+      "version": {
+        "from": "1.9.4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang-github-spf13-afero",
+      "status": "add",
+      "version": {
+        "from": "0.0~GIT20160113.0.2EC8B79-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "totp-cli",
+      "status": "add",
+      "version": {
+        "from": "1.9.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cast",
+      "status": "add",
+      "version": {
+        "from": "1.4.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "polygon-sdk",
+      "status": "add",
+      "version": {
+        "from": "0.3.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cobra",
+      "status": "add",
+      "version": {
+        "from": "1.9.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "skyscraper",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang-github-spf13-fsync",
+      "status": "add",
+      "version": {
+        "from": "0.10.1-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "exposecontroller",
+      "status": "add",
+      "version": {
+        "from": "0.1.0.REDHAT-000005"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pflag",
+      "status": "add",
+      "version": {
+        "from": "1.0.4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "kubernetes",
+      "status": "add",
+      "version": {
+        "from": "1.1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "vv",
+      "status": "add",
+      "version": {
+        "from": "5CB46EE"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "malice",
+      "status": "add",
+      "version": {
+        "from": "0.2.0-ALPHA"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cli",
+      "status": "add",
+      "version": {
+        "from": "18.09.0-CE-TP0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pharmer",
+      "status": "add",
+      "version": {
+        "from": "0.1.0-ALPHA.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "minify",
+      "status": "add",
+      "version": {
+        "from": "2.11.12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang-github-tdewolff-minify",
+      "status": "add",
+      "version": {
+        "from": "2.7.2-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "parse",
+      "status": "add",
+      "version": {
+        "from": "2.7.14"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gasm",
+      "status": "add",
+      "version": {
+        "from": "1.7.0-PRE.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "wazero",
+      "status": "add",
+      "version": {
+        "from": "1.8.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sliver",
+      "status": "add",
+      "version": {
+        "from": "7ACBED9"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "streamdal",
+      "status": "add",
+      "version": {
+        "from": "APPS/CLI/V0.0.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "goldmark-emoji",
+      "status": "add",
+      "version": {
+        "from": "1.0.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "goldmark",
+      "status": "add",
+      "version": {
+        "from": "D9C03F0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang-github-yuin-goldmark",
+      "status": "add",
+      "version": {
+        "from": "1.1.23-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "honoroit",
+      "status": "add",
+      "version": {
+        "from": "0.9.28"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "opencensus-go",
+      "status": "add",
+      "version": {
+        "from": "0.22.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "transfer.sh",
+      "status": "add",
+      "version": {
+        "from": "5F4AC22"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "fritz-tls",
+      "status": "add",
+      "version": {
+        "from": "0.4.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "automate",
+      "status": "add",
+      "version": {
+        "from": "HAB-PKG-AUTOMATE-CHEF-IO"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "eventing-natss",
+      "status": "add",
+      "version": {
+        "from": "0.18.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "openshift-azure",
+      "status": "add",
+      "version": {
+        "from": "0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pachyderm",
+      "status": "add",
+      "version": {
+        "from": "1.8.5-3B15373481111AB338F03C171679C591965B3F3B"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "opentelemetry-go-instrumentation",
+      "status": "add",
+      "version": {
+        "from": "0.15.0-ALPHA"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "opentelemetry-go-contrib",
+      "status": "add",
+      "version": {
+        "from": "INSTRUMENTATION/GITHUB.COM/GIN-GONIC/GIN/OTELGIN/EXAMPLE/V0.57.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "guardian",
+      "status": "add",
+      "version": {
+        "from": "AF10D19"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "hoarder",
+      "status": "add",
+      "version": {
+        "from": "1.1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "opentelemetry-go",
+      "status": "add",
+      "version": {
+        "from": "METRIC/V1.25.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "automaxprocs",
+      "status": "add",
+      "version": {
+        "from": "1.5.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go-cloud",
+      "status": "add",
+      "version": {
+        "from": "DOCSTORE/MONGODOCSTORE/V0.22.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "crypto",
+      "status": "add",
+      "version": {
+        "from": "0.15.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "dnsproxy",
+      "status": "add",
+      "version": {
+        "from": "0.44.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gentoo-deps",
+      "status": "add",
+      "version": {
+        "from": "XRAY-1.8.6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ncrypto",
+      "status": "add",
+      "version": {
+        "from": "1.0.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "terraform",
+      "status": "add",
+      "version": {
+        "from": "0.6.4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "docker-machine-oneview",
+      "status": "add",
+      "version": {
+        "from": "0.5.2-DEV"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gentoo-go-deps",
+      "status": "add",
+      "version": {
+        "from": "HEADSCALE-0.20.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "image",
+      "status": "add",
+      "version": {
+        "from": "0.10.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "tci-flogo",
+      "status": "add",
+      "version": {
+        "from": "1.7.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mattermost-server",
+      "status": "add",
+      "version": {
+        "from": "5.22.0-RC2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "siegfried",
+      "status": "add",
+      "version": {
+        "from": "1.7.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "lantern",
+      "status": "add",
+      "version": {
+        "from": "0.0.23"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pixterm",
+      "status": "add",
+      "version": {
+        "from": "1.1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang.org",
+      "status": "add",
+      "version": {
+        "from": "RELEASE-20141215"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pdfcpu",
+      "status": "add",
+      "version": {
+        "from": "0.1.17"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gomuks",
+      "status": "add",
+      "version": {
+        "from": "2FC3378"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mod",
+      "status": "add",
+      "version": {
+        "from": "0.12.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang-net",
+      "status": "add",
+      "version": {
+        "from": "MASTER-AG-V0.11.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "net",
+      "status": "add",
+      "version": {
+        "from": "0.31.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "http2-custom-fingerprint",
+      "status": "add",
+      "version": {
+        "from": "0.35.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "build",
+      "status": "add",
+      "version": {
+        "from": "0.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "oci-cloud-controller-manager",
+      "status": "add",
+      "version": {
+        "from": "1.30.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gentoo-xray-dep",
+      "status": "add",
+      "version": {
+        "from": "1.5.5"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "garden-linux-release",
+      "status": "add",
+      "version": {
+        "from": "0.329.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "loggregator-agent-release",
+      "status": "add",
+      "version": {
+        "from": "6.X"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "bosh-agent",
+      "status": "add",
+      "version": {
+        "from": "2.234.63"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang-golang-x-net",
+      "status": "add",
+      "version": {
+        "from": "1:0.0+GIT20211209.491A49A+DFSG-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "text",
+      "status": "add",
+      "version": {
+        "from": "6C97A16"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gsctl",
+      "status": "add",
+      "version": {
+        "from": "0.6.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "oauth2",
+      "status": "add",
+      "version": {
+        "from": "0.13.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "nakama",
+      "status": "add",
+      "version": {
+        "from": "3.22.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "crypt",
+      "status": "add",
+      "version": {
+        "from": "0.0.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sops",
+      "status": "add",
+      "version": {
+        "from": "3.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go-social",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "kubernetes-nmstate",
+      "status": "add",
+      "version": {
+        "from": "0.1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sync",
+      "status": "add",
+      "version": {
+        "from": "0.13.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "exoscale-csi-driver",
+      "status": "add",
+      "version": {
+        "from": "0.31.4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sys",
+      "status": "add",
+      "version": {
+        "from": "0.14.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "common",
+      "status": "add",
+      "version": {
+        "from": "0.61.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "device-uart",
+      "status": "add",
+      "version": {
+        "from": "3.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "rfid-llrp-inventory-service",
+      "status": "add",
+      "version": {
+        "from": "3.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ruby-buildpack",
+      "status": "add",
+      "version": {
+        "from": "1.7.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "i3status-go",
+      "status": "add",
+      "version": {
+        "from": "1.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "kit",
+      "status": "add",
+      "version": {
+        "from": "3.0.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "archiver",
+      "status": "add",
+      "version": {
+        "from": "0.7.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "blessclient",
+      "status": "add",
+      "version": {
+        "from": "0.3.10"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "v2ray-core",
+      "status": "add",
+      "version": {
+        "from": "4.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "tls-observatory",
+      "status": "add",
+      "version": {
+        "from": "1.2.35"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "perceptor",
+      "status": "add",
+      "version": {
+        "from": "0.0.12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "scan",
+      "status": "add",
+      "version": {
+        "from": "2.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "dgraph",
+      "status": "add",
+      "version": {
+        "from": "1.0.11-RC2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "hoverfly",
+      "status": "add",
+      "version": {
+        "from": "0.8.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "time",
+      "status": "add",
+      "version": {
+        "from": "0.2.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "tools",
+      "status": "add",
+      "version": {
+        "from": "CMD/GORENAME/V0.1.0-DEPRECATED"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "xerrors",
+      "status": "add",
+      "version": {
+        "from": "2F41105"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "terraform-provider-berglas",
+      "status": "add",
+      "version": {
+        "from": "0.0.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "google-api-go-client",
+      "status": "add",
+      "version": {
+        "from": "0.218.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "terraform-provider-dnsimple",
+      "status": "add",
+      "version": {
+        "from": "0.3.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "prometheus",
+      "status": "add",
+      "version": {
+        "from": "2.17.0-RC.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pentaho-platform",
+      "status": "add",
+      "version": {
+        "from": "6.1.0.4-R"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go-genproto",
+      "status": "add",
+      "version": {
+        "from": "0867130"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "proxy",
+      "status": "add",
+      "version": {
+        "from": "1.29"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "grpc-go",
+      "status": "add",
+      "version": {
+        "from": "1.60.0-DEV"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "strongdm-sdk-go",
+      "status": "add",
+      "version": {
+        "from": "3.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "backoff",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "protobuf-go",
+      "status": "add",
+      "version": {
+        "from": "1.36.5"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "platform/external/golang-protobuf",
+      "status": "add",
+      "version": {
+        "from": "UPSTREAM-V1.21.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gitlab-release-resource",
+      "status": "add",
+      "version": {
+        "from": "1.9.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "camunda-platform",
+      "status": "add",
+      "version": {
+        "from": "8.1.0-ALPHA4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "status-go",
+      "status": "add",
+      "version": {
+        "from": "0.154.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "protobuf-go-lite",
+      "status": "add",
+      "version": {
+        "from": "0.1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang-china.github.com",
+      "status": "add",
+      "version": {
+        "from": "2DB2223"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pkg",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "nbp",
+      "status": "add",
+      "version": {
+        "from": "0.3.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "lunnel",
+      "status": "add",
+      "version": {
+        "from": "0.1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "bitrise-plugins-analytics",
+      "status": "add",
+      "version": {
+        "from": "0.10.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "skupper-docker",
+      "status": "add",
+      "version": {
+        "from": "0.0.1-BETA1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "codesigndoc",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ipapk",
+      "status": "add",
+      "version": {
+        "from": "1065FDA"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "appinstaller",
+      "status": "add",
+      "version": {
+        "from": "RELEASE-0.3.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "dlite",
+      "status": "add",
+      "version": {
+        "from": "2.0.0-BETA2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go-plist",
+      "status": "add",
+      "version": {
+        "from": "1454FAB"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "steps-xcode-archive",
+      "status": "add",
+      "version": {
+        "from": "2.8.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "steps-project-scanner",
+      "status": "add",
+      "version": {
+        "from": "3.3.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "steps-deploy-to-bitrise-io",
+      "status": "add",
+      "version": {
+        "from": "1.3.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "qr",
+      "status": "add",
+      "version": {
+        "from": "CA9A01F"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "rsc",
+      "status": "add",
+      "version": {
+        "from": "06E88DF8"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go-pkcs12",
+      "status": "add",
+      "version": {
+        "from": "0.0.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    }
+  ],
+  "summary": {
+    "version_changes": 0,
+    "new_packages": 341,
+    "removed_packages": 190,
+    "license_changes": 0
+  }
+}
