@@ -28,7 +28,7 @@ This project helps answer key questions:
 | 4  | Go with dependencies               | `v0.147.4`             | [Go/hugo](Go/hugo) | [Go/gohugoio_hugo_b0888a.json](Go/gohugoio_hugo_b0888a.json)  | https://github.com/gohugoio/hugo
 | 5  | Python with dependencies           | `0.116.1`              | [python/fastapi](python/fastapi) | [python/fastapi_fastapi_1aca71.json](python/fastapi_fastapi_1aca71.json) | https://github.com/fastapi/fastapi
 | 6  | Node.js (npm)                      | `v5.1.0`               | [Node.js/express](Node.js/express) | [Node.js/expressjs_express_98d8b1.json](Node.js/expressjs_express_98d8b1.json) | https://github.com/expressjs/express
-| 7  | Java with gardle                  | `v9.0.1`               | [java/elasticsearch](java/elasticsearch) | [java/elastic_elasticsearch_3c796f.json](java/elastic_elasticsearch_3c796f.json) | https://github.com/elastic/elasticsearch
+| 7  | Java with gradle                  | `v9.0.1`               | [java/elasticsearch](java/elasticsearch) | [java/elastic_elasticsearch_3c796f.json](java/elastic_elasticsearch_3c796f.json) | https://github.com/elastic/elasticsearch
 | 8  | Container image with mixed installs| `v0.7.4`               | [ContainerImage/pggb](ContainerImage/pggb) | [ContainerImage/pangenome_pggb_4e1835.json](ContainerImage/pangenome_pggb_4e1835.json) | https://github.com/pangenome/pggb
 
 ---
@@ -36,8 +36,8 @@ This project helps answer key questions:
 
 | ID | Description                        | Tag                    | Artefact                     | Reference SBOM                              | Original Repo |
 |----|------------------------------------|------------------------|------------------------------|---------------------------------------------|---------|
-| 1  | Python with dependencies           | `0.5.6.3`              | [python/gpt4free](python/gpt4free) | [python/xtekky_gpt4free_7d3dcb.json](python/xtekky_gpt4free_7d3dcb.json) | https://github.com/xtekky/gpt4free
-| 2  | Java with Maven                     | `1.5.x`               | [java_Maven/spring-petclinic](java/spring-petclinic) | [java/spring-projects_spring-petclinic_dd7e42.json](java_Maven/spring-projects_spring-petclinic_dd7e42.json) | https://github.com/spring-projects/spring-petclinic
+| 1  | Python with requirements.txt       | `v0.3.1`              | [python/gpt-engineer](python/gpt-engineer) | [python/gpt_engineer_0f3e4b.json](python/gpt_engineer_0f3e4b.json) | https://github.com/AntonOsika/gpt-engineer |
+| 2  | Java with Maven                     | `1.5.12`              | [java_Maven/bytedeco-javacv](java/bytedeco-javacv) | [java/bytedeco_javacv_1aa2ee.json](java_Maven/bytedeco_javacv_1aa2ee.json) | https://github.com/bytedeco/javacv |
 | 3  | C without package manager          | `v1.9.1`           |  [C/libgit2](C/libgit2) | [C/libgit2_libgit2_92b6d7.json](C/libgit2_libgit2_92b6d7.json) | https://github.com/libgit2/libgit2
 
 ##  Open Source SCA Tools Used
@@ -82,16 +82,17 @@ This project helps answer key questions:
 
 ##  Project Structure
 
-Each folder corresponds to a test case with a specific language or platform:
+Each folder corresponds to a test case categorized by language, platform, or build system:
 
-- `C++/` → C++ without a package manager
-- `C++_CONAN/` → C++ with Conan
-- `C/` → C projects like `curl`
-- `Go/` → Go modules (e.g., `hugo`)
-- `Node.js/` → JavaScript projects using npm
-- `java_Maven/` → Java projects with Maven
-- `python/` → Python projects (e.g., `fastapi`)
-- `ContainerImage/` → Complex setups including `apt`, `wget`, and manual install
+- **C/** → C projects without a package manager (e.g., `curl`, `libgit2`)
+- **C++/** → C++ projects without a package manager (e.g., `electron`)
+- **C++_CONAN/** → C++ projects using the Conan package manager
+- **Go/** → Go modules projects (e.g., `hugo`)
+- **Node.js/** → JavaScript projects using npm (e.g., `express`)
+- **java_Maven/** → Java projects using Maven (e.g., `bytedeco-javacv`)
+- **java_Gradle/** → Java projects using Gradle (e.g., `elasticsearch`)
+- **python/** → Python projects with `requirements.txt` or `pipenv` (e.g., `fastapi`, `gpt-engineer`)
+- **ContainerImage/** → Complex container setups with mixed install methods (e.g., `pggb`)
 
 Each test folder contains:
 - Source material or container image
