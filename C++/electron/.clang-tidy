@@ -1,4 +1,0 @@
----
-Checks: '-modernize-use-nullptr'
-InheritParentConfig: true
-...
