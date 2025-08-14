@@ -1,0 +1,470 @@
+{
+  "tool": {
+    "name": "sbomdiff",
+    "version": "0.5.6"
+  },
+  "file_1": "SBOM-QA/python/fastapi_fastapi_1aca71.json",
+  "file_2": "clone/python/new/trivy.pdm.pyhton.spdx.json",
+  "differences": [
+    {
+      "package": "playwright",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "pre-commit",
+      "status": "remove",
+      "version": {
+        "from": ">= 2.17.0,< 5.0.0"
+      }
+    },
+    {
+      "package": "actions/add-to-project",
+      "status": "remove",
+      "version": {
+        "from": "1.0.2"
+      }
+    },
+    {
+      "package": "actions/download-artifact",
+      "status": "remove",
+      "version": {
+        "from": "4.*.*"
+      }
+    },
+    {
+      "package": "cloudflare/wrangler-action",
+      "status": "remove",
+      "version": {
+        "from": "3.*.*"
+      }
+    },
+    {
+      "package": "tiangolo/latest-changes",
+      "status": "remove",
+      "version": {
+        "from": "0.3.2"
+      }
+    },
+    {
+      "package": "smokeshow",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "httpx",
+      "status": "remove",
+      "version": {
+        "from": ">= 0.27.0,< 0.28.0"
+      }
+    },
+    {
+      "package": "pygithub",
+      "status": "remove",
+      "version": {
+        "from": ">= 2.3.0,< 3.0.0"
+      }
+    },
+    {
+      "package": "pydantic",
+      "status": "change",
+      "version": {
+        "from": ">= 2.5.3,< 3.0.0",
+        "to": "2.10.6"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pydantic-settings",
+      "status": "remove",
+      "version": {
+        "from": ">= 2.1.0,< 3.0.0"
+      }
+    },
+    {
+      "package": "pydantic-ai",
+      "status": "remove",
+      "version": {
+        "from": "0.0.30"
+      }
+    },
+    {
+      "package": "starlette",
+      "status": "change",
+      "version": {
+        "from": ">= 0.40.0,< 0.47.0",
+        "to": "0.44.0"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "typing-extensions",
+      "status": "change",
+      "version": {
+        "from": ">= 4.8.0",
+        "to": "4.13.2"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "actions/setup-python",
+      "status": "remove",
+      "version": {
+        "from": "5.*.*"
+      }
+    },
+    {
+      "package": "actions/cache",
+      "status": "remove",
+      "version": {
+        "from": "4.*.*"
+      }
+    },
+    {
+      "package": "dorny/paths-filter",
+      "status": "remove",
+      "version": {
+        "from": "3.*.*"
+      }
+    },
+    {
+      "package": "astral-sh/setup-uv",
+      "status": "remove",
+      "version": {
+        "from": "6.*.*"
+      }
+    },
+    {
+      "package": "re-actors/alls-green",
+      "status": "remove",
+      "version": {
+        "from": "RELEASE/V1"
+      }
+    },
+    {
+      "package": "actions/checkout",
+      "status": "remove",
+      "version": {
+        "from": "4.*.*"
+      }
+    },
+    {
+      "package": "actions/upload-artifact",
+      "status": "remove",
+      "version": {
+        "from": "4.*.*"
+      }
+    },
+    {
+      "package": "tiangolo/issue-manager",
+      "status": "remove",
+      "version": {
+        "from": "0.5.1"
+      }
+    },
+    {
+      "package": "ruff",
+      "status": "remove",
+      "version": {
+        "from": "0.11.2"
+      }
+    },
+    {
+      "package": "cairosvg",
+      "status": "remove",
+      "version": {
+        "from": "2.7.1"
+      }
+    },
+    {
+      "package": "mkdocs-redirects",
+      "status": "remove",
+      "version": {
+        "from": ">= 1.2.1,< 1.3.0"
+      }
+    },
+    {
+      "package": "typer",
+      "status": "remove",
+      "version": {
+        "from": "0.12.5"
+      }
+    },
+    {
+      "package": "mkdocstrings",
+      "status": "remove",
+      "version": {
+        "from": "0.26.1"
+      }
+    },
+    {
+      "package": "griffe-typingdoc",
+      "status": "remove",
+      "version": {
+        "from": "0.2.7"
+      }
+    },
+    {
+      "package": "markdown-include-variants",
+      "status": "remove",
+      "version": {
+        "from": "0.0.4"
+      }
+    },
+    {
+      "package": "black",
+      "status": "remove",
+      "version": {
+        "from": "25.1.0"
+      }
+    },
+    {
+      "package": "mkdocs-material",
+      "status": "remove",
+      "version": {
+        "from": "9.6.1"
+      }
+    },
+    {
+      "package": "jieba",
+      "status": "remove",
+      "version": {
+        "from": "0.42.1"
+      }
+    },
+    {
+      "package": "pyyaml",
+      "status": "remove",
+      "version": {
+        "from": ">= 5.3.1,< 7.0.0"
+      }
+    },
+    {
+      "package": "mdx-include",
+      "status": "remove",
+      "version": {
+        "from": ">= 1.4.1,< 2.0.0"
+      }
+    },
+    {
+      "package": "pillow",
+      "status": "remove",
+      "version": {
+        "from": "11.1.0"
+      }
+    },
+    {
+      "package": "mkdocs-macros-plugin",
+      "status": "remove",
+      "version": {
+        "from": "1.3.7"
+      }
+    },
+    {
+      "package": "mxschmitt/action-tmate",
+      "status": "remove",
+      "version": {
+        "from": "3.*.*"
+      }
+    },
+    {
+      "package": "actions/labeler",
+      "status": "remove",
+      "version": {
+        "from": "5.*.*"
+      }
+    },
+    {
+      "package": "pypa/gh-action-pypi-publish",
+      "status": "remove",
+      "version": {
+        "from": "1.12.4"
+      }
+    },
+    {
+      "package": "mypy",
+      "status": "remove",
+      "version": {
+        "from": "1.8.0"
+      }
+    },
+    {
+      "package": "pytest",
+      "status": "remove",
+      "version": {
+        "from": ">= 7.1.3,< 9.0.0"
+      }
+    },
+    {
+      "package": "types-ujson",
+      "status": "remove",
+      "version": {
+        "from": "5.10.0.20240515"
+      }
+    },
+    {
+      "package": "sqlmodel",
+      "status": "remove",
+      "version": {
+        "from": "0.0.23"
+      }
+    },
+    {
+      "package": "types-orjson",
+      "status": "remove",
+      "version": {
+        "from": "3.6.2"
+      }
+    },
+    {
+      "package": "coverage",
+      "status": "remove",
+      "version": {
+        "from": ">= 6.5.0,< 8.0"
+      }
+    },
+    {
+      "package": "flask",
+      "status": "remove",
+      "version": {
+        "from": ">= 1.1.2,< 4.0.0"
+      }
+    },
+    {
+      "package": "anyio",
+      "status": "change",
+      "version": {
+        "from": ">= 3.2.1,< 5.0.0",
+        "to": "4.5.2"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "dirty-equals",
+      "status": "remove",
+      "version": {
+        "from": "0.9.0"
+      }
+    },
+    {
+      "package": "inline-snapshot",
+      "status": "remove",
+      "version": {
+        "from": ">= 0.21.1"
+      }
+    },
+    {
+      "package": "pyjwt",
+      "status": "remove",
+      "version": {
+        "from": "2.8.0"
+      }
+    },
+    {
+      "package": "passlib",
+      "status": "remove",
+      "version": {
+        "from": ">= 1.7.2,< 2.0.0"
+      }
+    },
+    {
+      "package": "com.github.fastapi/fastapi",
+      "status": "remove",
+      "version": {
+        "from": "MASTER"
+      }
+    },
+    {
+      "package": "requirements.txt",
+      "status": "add",
+      "version": {
+        "from": "UNKNOWN"
+      },
+      "license": {
+        "to": "NOT FOUND"
+      }
+    },
+    {
+      "package": "annotated-types",
+      "status": "add",
+      "version": {
+        "from": "0.7.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "exceptiongroup",
+      "status": "add",
+      "version": {
+        "from": "1.3.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "idna",
+      "status": "add",
+      "version": {
+        "from": "3.10"
+      },
+      "license": {
+        "to": "BSD-3-Clause"
+      }
+    },
+    {
+      "package": "pydantic-core",
+      "status": "add",
+      "version": {
+        "from": "2.27.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sniffio",
+      "status": "add",
+      "version": {
+        "from": "1.3.1"
+      },
+      "license": {
+        "to": "MIT AND Apache-2.0"
+      }
+    },
+    {
+      "package": ".",
+      "status": "add",
+      "version": {
+        "from": "UNKNOWN"
+      },
+      "license": {
+        "to": "NOT FOUND"
+      }
+    }
+  ],
+  "summary": {
+    "version_changes": 4,
+    "new_packages": 7,
+    "removed_packages": 48,
+    "license_changes": 4
+  }
+}

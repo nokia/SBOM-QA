@@ -1,0 +1,1350 @@
+{
+  "tool": {
+    "name": "sbomdiff",
+    "version": "0.5.6"
+  },
+  "file_1": "SBOM-QA/python/fastapi_fastapi_1aca71.json",
+  "file_2": "clone/python/new/syft.requirement-python-spdx.json",
+  "differences": [
+    {
+      "package": "playwright",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "pre-commit",
+      "status": "remove",
+      "version": {
+        "from": ">= 2.17.0,< 5.0.0"
+      }
+    },
+    {
+      "package": "actions/add-to-project",
+      "status": "remove",
+      "version": {
+        "from": "1.0.2"
+      }
+    },
+    {
+      "package": "actions/download-artifact",
+      "status": "remove",
+      "version": {
+        "from": "4.*.*"
+      }
+    },
+    {
+      "package": "cloudflare/wrangler-action",
+      "status": "remove",
+      "version": {
+        "from": "3.*.*"
+      }
+    },
+    {
+      "package": "tiangolo/latest-changes",
+      "status": "remove",
+      "version": {
+        "from": "0.3.2"
+      }
+    },
+    {
+      "package": "smokeshow",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "httpx",
+      "status": "remove",
+      "version": {
+        "from": ">= 0.27.0,< 0.28.0"
+      }
+    },
+    {
+      "package": "pygithub",
+      "status": "remove",
+      "version": {
+        "from": ">= 2.3.0,< 3.0.0"
+      }
+    },
+    {
+      "package": "pydantic",
+      "status": "change",
+      "version": {
+        "from": ">= 2.5.3,< 3.0.0",
+        "to": "0.16.1"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pydantic-settings",
+      "status": "remove",
+      "version": {
+        "from": ">= 2.1.0,< 3.0.0"
+      }
+    },
+    {
+      "package": "pydantic-ai",
+      "status": "remove",
+      "version": {
+        "from": "0.0.30"
+      }
+    },
+    {
+      "package": "starlette",
+      "status": "change",
+      "version": {
+        "from": ">= 0.40.0,< 0.47.0",
+        "to": "0.9.9"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "typing-extensions",
+      "status": "remove",
+      "version": {
+        "from": ">= 4.8.0"
+      }
+    },
+    {
+      "package": "actions/setup-python",
+      "status": "remove",
+      "version": {
+        "from": "5.*.*"
+      }
+    },
+    {
+      "package": "actions/cache",
+      "status": "remove",
+      "version": {
+        "from": "4.*.*"
+      }
+    },
+    {
+      "package": "dorny/paths-filter",
+      "status": "remove",
+      "version": {
+        "from": "3.*.*"
+      }
+    },
+    {
+      "package": "astral-sh/setup-uv",
+      "status": "remove",
+      "version": {
+        "from": "6.*.*"
+      }
+    },
+    {
+      "package": "re-actors/alls-green",
+      "status": "remove",
+      "version": {
+        "from": "RELEASE/V1"
+      }
+    },
+    {
+      "package": "actions/checkout",
+      "status": "remove",
+      "version": {
+        "from": "4.*.*"
+      }
+    },
+    {
+      "package": "actions/upload-artifact",
+      "status": "remove",
+      "version": {
+        "from": "4.*.*"
+      }
+    },
+    {
+      "package": "tiangolo/issue-manager",
+      "status": "remove",
+      "version": {
+        "from": "0.5.1"
+      }
+    },
+    {
+      "package": "ruff",
+      "status": "remove",
+      "version": {
+        "from": "0.11.2"
+      }
+    },
+    {
+      "package": "cairosvg",
+      "status": "remove",
+      "version": {
+        "from": "2.7.1"
+      }
+    },
+    {
+      "package": "mkdocs-redirects",
+      "status": "remove",
+      "version": {
+        "from": ">= 1.2.1,< 1.3.0"
+      }
+    },
+    {
+      "package": "typer",
+      "status": "remove",
+      "version": {
+        "from": "0.12.5"
+      }
+    },
+    {
+      "package": "mkdocstrings",
+      "status": "remove",
+      "version": {
+        "from": "0.26.1"
+      }
+    },
+    {
+      "package": "griffe-typingdoc",
+      "status": "remove",
+      "version": {
+        "from": "0.2.7"
+      }
+    },
+    {
+      "package": "markdown-include-variants",
+      "status": "remove",
+      "version": {
+        "from": "0.0.4"
+      }
+    },
+    {
+      "package": "black",
+      "status": "change",
+      "version": {
+        "from": "25.1.0",
+        "to": "18.9B0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mkdocs-material",
+      "status": "change",
+      "version": {
+        "from": "9.6.1",
+        "to": "3.1.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jieba",
+      "status": "remove",
+      "version": {
+        "from": "0.42.1"
+      }
+    },
+    {
+      "package": "pyyaml",
+      "status": "change",
+      "version": {
+        "from": ">= 5.3.1,< 7.0.0",
+        "to": "4.2B4"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mdx-include",
+      "status": "remove",
+      "version": {
+        "from": ">= 1.4.1,< 2.0.0"
+      }
+    },
+    {
+      "package": "pillow",
+      "status": "remove",
+      "version": {
+        "from": "11.1.0"
+      }
+    },
+    {
+      "package": "mkdocs-macros-plugin",
+      "status": "remove",
+      "version": {
+        "from": "1.3.7"
+      }
+    },
+    {
+      "package": "mxschmitt/action-tmate",
+      "status": "remove",
+      "version": {
+        "from": "3.*.*"
+      }
+    },
+    {
+      "package": "actions/labeler",
+      "status": "remove",
+      "version": {
+        "from": "5.*.*"
+      }
+    },
+    {
+      "package": "pypa/gh-action-pypi-publish",
+      "status": "remove",
+      "version": {
+        "from": "1.12.4"
+      }
+    },
+    {
+      "package": "mypy",
+      "status": "change",
+      "version": {
+        "from": "1.8.0",
+        "to": "0.650"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pytest",
+      "status": "change",
+      "version": {
+        "from": ">= 7.1.3,< 9.0.0",
+        "to": "4.0.2"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "types-ujson",
+      "status": "remove",
+      "version": {
+        "from": "5.10.0.20240515"
+      }
+    },
+    {
+      "package": "sqlmodel",
+      "status": "remove",
+      "version": {
+        "from": "0.0.23"
+      }
+    },
+    {
+      "package": "types-orjson",
+      "status": "remove",
+      "version": {
+        "from": "3.6.2"
+      }
+    },
+    {
+      "package": "coverage",
+      "status": "change",
+      "version": {
+        "from": ">= 6.5.0,< 8.0",
+        "to": "5.0A4"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "flask",
+      "status": "remove",
+      "version": {
+        "from": ">= 1.1.2,< 4.0.0"
+      }
+    },
+    {
+      "package": "anyio",
+      "status": "remove",
+      "version": {
+        "from": ">= 3.2.1,< 5.0.0"
+      }
+    },
+    {
+      "package": "dirty-equals",
+      "status": "remove",
+      "version": {
+        "from": "0.9.0"
+      }
+    },
+    {
+      "package": "inline-snapshot",
+      "status": "remove",
+      "version": {
+        "from": ">= 0.21.1"
+      }
+    },
+    {
+      "package": "pyjwt",
+      "status": "remove",
+      "version": {
+        "from": "2.8.0"
+      }
+    },
+    {
+      "package": "passlib",
+      "status": "remove",
+      "version": {
+        "from": ">= 1.7.2,< 2.0.0"
+      }
+    },
+    {
+      "package": "com.github.fastapi/fastapi",
+      "status": "remove",
+      "version": {
+        "from": "MASTER"
+      }
+    },
+    {
+      "package": "appdirs",
+      "status": "add",
+      "version": {
+        "from": "1.4.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "astroid",
+      "status": "add",
+      "version": {
+        "from": "2.0.4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "atomicwrites",
+      "status": "add",
+      "version": {
+        "from": "1.2.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "attrs",
+      "status": "add",
+      "version": {
+        "from": "18.2.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "autoflake",
+      "status": "add",
+      "version": {
+        "from": "1.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "backcall",
+      "status": "add",
+      "version": {
+        "from": "0.1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "better-exceptions",
+      "status": "add",
+      "version": {
+        "from": "0.2.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "bleach",
+      "status": "add",
+      "version": {
+        "from": "3.0.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "certifi",
+      "status": "add",
+      "version": {
+        "from": "2018.11.29"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "chardet",
+      "status": "add",
+      "version": {
+        "from": "3.0.4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "click",
+      "status": "add",
+      "version": {
+        "from": "7.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "dataclasses",
+      "status": "add",
+      "version": {
+        "from": "0.6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "decorator",
+      "status": "add",
+      "version": {
+        "from": "4.3.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "defusedxml",
+      "status": "add",
+      "version": {
+        "from": "0.5.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "dnspython",
+      "status": "add",
+      "version": {
+        "from": "1.16.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "docutils",
+      "status": "add",
+      "version": {
+        "from": "0.14"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "dodgy",
+      "status": "add",
+      "version": {
+        "from": "0.1.9"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "email-validator",
+      "status": "add",
+      "version": {
+        "from": "1.0.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "entrypoints",
+      "status": "add",
+      "version": {
+        "from": "0.2.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "flit",
+      "status": "add",
+      "version": {
+        "from": "1.2.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "idna",
+      "status": "add",
+      "version": {
+        "from": "2.8"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ipykernel",
+      "status": "add",
+      "version": {
+        "from": "5.1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ipython",
+      "status": "add",
+      "version": {
+        "from": "7.2.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ipython-genutils",
+      "status": "add",
+      "version": {
+        "from": "0.2.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ipywidgets",
+      "status": "add",
+      "version": {
+        "from": "7.4.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "isort",
+      "status": "add",
+      "version": {
+        "from": "4.3.4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jedi",
+      "status": "add",
+      "version": {
+        "from": "0.13.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jinja2",
+      "status": "add",
+      "version": {
+        "from": "2.10"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jsonschema",
+      "status": "add",
+      "version": {
+        "from": "3.0.0A3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jupyter",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jupyter-client",
+      "status": "add",
+      "version": {
+        "from": "5.2.4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jupyter-console",
+      "status": "add",
+      "version": {
+        "from": "6.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jupyter-core",
+      "status": "add",
+      "version": {
+        "from": "4.4.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "lazy-object-proxy",
+      "status": "add",
+      "version": {
+        "from": "1.3.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "livereload",
+      "status": "add",
+      "version": {
+        "from": "2.6.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "markdown",
+      "status": "add",
+      "version": {
+        "from": "3.0.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "markdown-include",
+      "status": "add",
+      "version": {
+        "from": "0.5.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "markupsafe",
+      "status": "add",
+      "version": {
+        "from": "1.1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mccabe",
+      "status": "add",
+      "version": {
+        "from": "0.6.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mistune",
+      "status": "add",
+      "version": {
+        "from": "0.8.4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mkdocs",
+      "status": "add",
+      "version": {
+        "from": "1.0.4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "more-itertools",
+      "status": "add",
+      "version": {
+        "from": "4.3.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mypy-extensions",
+      "status": "add",
+      "version": {
+        "from": "0.4.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "nbconvert",
+      "status": "add",
+      "version": {
+        "from": "5.4.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "nbformat",
+      "status": "add",
+      "version": {
+        "from": "4.4.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "notebook",
+      "status": "add",
+      "version": {
+        "from": "5.7.4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pandocfilters",
+      "status": "add",
+      "version": {
+        "from": "1.4.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "parso",
+      "status": "add",
+      "version": {
+        "from": "0.3.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pep8-naming",
+      "status": "add",
+      "version": {
+        "from": "0.4.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pexpect",
+      "status": "add",
+      "version": {
+        "from": "4.6.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pickleshare",
+      "status": "add",
+      "version": {
+        "from": "0.7.5"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pluggy",
+      "status": "add",
+      "version": {
+        "from": "0.8.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "prometheus-client",
+      "status": "add",
+      "version": {
+        "from": "0.5.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "prompt-toolkit",
+      "status": "add",
+      "version": {
+        "from": "2.0.7"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "prospector",
+      "status": "add",
+      "version": {
+        "from": "1.1.6.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ptyprocess",
+      "status": "add",
+      "version": {
+        "from": "0.6.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "py",
+      "status": "add",
+      "version": {
+        "from": "1.7.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pycodestyle",
+      "status": "add",
+      "version": {
+        "from": "2.4.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pydocstyle",
+      "status": "add",
+      "version": {
+        "from": "3.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pyflakes",
+      "status": "add",
+      "version": {
+        "from": "1.6.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pygments",
+      "status": "add",
+      "version": {
+        "from": "2.3.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pylint",
+      "status": "add",
+      "version": {
+        "from": "2.1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pylint-celery",
+      "status": "add",
+      "version": {
+        "from": "0.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pylint-django",
+      "status": "add",
+      "version": {
+        "from": "2.0.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pylint-flask",
+      "status": "add",
+      "version": {
+        "from": "0.5"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pylint-plugin-utils",
+      "status": "add",
+      "version": {
+        "from": "0.4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pymdown-extensions",
+      "status": "add",
+      "version": {
+        "from": "6.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pyrsistent",
+      "status": "add",
+      "version": {
+        "from": "0.14.8"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pytest-cov",
+      "status": "add",
+      "version": {
+        "from": "2.6.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "python-dateutil",
+      "status": "add",
+      "version": {
+        "from": "2.7.5"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pytoml",
+      "status": "add",
+      "version": {
+        "from": "0.1.20"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pyzmq",
+      "status": "add",
+      "version": {
+        "from": "17.1.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "qtconsole",
+      "status": "add",
+      "version": {
+        "from": "4.4.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "requests",
+      "status": "add",
+      "version": {
+        "from": "2.21.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "requirements-detector",
+      "status": "add",
+      "version": {
+        "from": "0.6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "rope",
+      "status": "add",
+      "version": {
+        "from": "0.11.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "send2trash",
+      "status": "add",
+      "version": {
+        "from": "1.5.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "setoptconf",
+      "status": "add",
+      "version": {
+        "from": "0.2.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "six",
+      "status": "add",
+      "version": {
+        "from": "1.12.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "snowballstemmer",
+      "status": "add",
+      "version": {
+        "from": "1.2.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "terminado",
+      "status": "add",
+      "version": {
+        "from": "0.8.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "testpath",
+      "status": "add",
+      "version": {
+        "from": "0.4.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "toml",
+      "status": "add",
+      "version": {
+        "from": "0.10.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "tornado",
+      "status": "add",
+      "version": {
+        "from": "5.1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "traitlets",
+      "status": "add",
+      "version": {
+        "from": "4.3.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "typed-ast",
+      "status": "add",
+      "version": {
+        "from": "1.1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ujson",
+      "status": "add",
+      "version": {
+        "from": "1.35"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "urllib3",
+      "status": "add",
+      "version": {
+        "from": "1.24.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "wcwidth",
+      "status": "add",
+      "version": {
+        "from": "0.1.7"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "webencodings",
+      "status": "add",
+      "version": {
+        "from": "0.5.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "widgetsnbextension",
+      "status": "add",
+      "version": {
+        "from": "3.4.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "wrapt",
+      "status": "add",
+      "version": {
+        "from": "1.10.11"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": ".",
+      "status": "add",
+      "version": {
+        "from": "UNKNOWN"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    }
+  ],
+  "summary": {
+    "version_changes": 8,
+    "new_packages": 93,
+    "removed_packages": 44,
+    "license_changes": 8
+  }
+}
