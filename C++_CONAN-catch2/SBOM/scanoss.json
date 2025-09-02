@@ -1,0 +1,489 @@
+{
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SCANOSS-SBOM",
+  "creationInfo": {
+    "created": "2025-08-12T09:36:15Z",
+    "creators": [
+      "Tool: SCANOSS-PY: 1.26.2",
+      "Person: mehdi",
+      "Organization: SCANOSS"
+    ],
+    "comment": "SBOM Build information - SBOM Type: Build"
+  },
+  "documentNamespace": "https://spdx.org/spdxdocs/scanoss-py-1.26.2-a697639c3c9f939fae711fc03e2f1772",
+  "documentDescribes": [
+    "SPDXRef-adbcc19525b0aeabaf8775086ec77399",
+    "SPDXRef-1cb8036ec0ddb6260e20d2a38b2aca73",
+    "SPDXRef-840c19261b97db3b4ed5394d34a9e886",
+    "SPDXRef-5940ec17cae74d4982b3ccafab740171",
+    "SPDXRef-3ddb8b3d459ae20f2cc4b94f8198ad4a",
+    "SPDXRef-0e92fa901a5f40f0c28602df16bed710",
+    "SPDXRef-aa9e08fe471569b48de9397a50c2b504",
+    "SPDXRef-f3db34c0afddd51f53ac15b755ef856a",
+    "SPDXRef-e95c0e2cb674f54bbea4bc0ba98078fd",
+    "SPDXRef-87f640c3c64410da4c360179dd68930d",
+    "SPDXRef-149bb513be9b5fd9664e120398fd01a9",
+    "SPDXRef-cf2d8f2c420edf399582b07fd2051f59",
+    "SPDXRef-4c98b9a530e7e344075b8ca5a4c47587",
+    "SPDXRef-29bd2e49a28d9b9ed7d6bead17faa2a8",
+    "SPDXRef-3a0dec4b8a1431abdf530f43e447b857",
+    "SPDXRef-8fb05408d24798711f58659d9767e256",
+    "SPDXRef-2975cf441712534f6e6bb883d4a62cc8",
+    "SPDXRef-74066e15a08d7747bee470c3f5edbd9d"
+  ],
+  "hasExtractedLicensingInfos": [],
+  "packages": [
+    {
+      "name": "mpc-catch2",
+      "SPDXID": "SPDXRef-adbcc19525b0aeabaf8775086ec77399",
+      "versionInfo": "3.1.1",
+      "downloadLocation": "https://bitbucket.org/kemaro-ag/mpc-catch2/get/v3.1.1.zip",
+      "homepage": "https://bitbucket.org/kemaro-ag/mpc-catch2/get/v3.1.1.zip",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: kemaro-ag",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:bitbucket/kemaro-ag/mpc-catch2@3.1.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "4794cc7cdbfed43dfc11ee7ef8815451"
+        }
+      ]
+    },
+    {
+      "name": "catch2",
+      "SPDXID": "SPDXRef-1cb8036ec0ddb6260e20d2a38b2aca73",
+      "versionInfo": "2.1.0",
+      "downloadLocation": "https://github.com/catchorg/catch2",
+      "homepage": "https://github.com/catchorg/catch2",
+      "licenseDeclared": "BSL-1.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: catchorg",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/catchorg/catch2@2.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "338328b503ce0cebf0dd1929224a5703"
+        }
+      ]
+    },
+    {
+      "name": "uppm-package-repository-macos-12.0-arm64",
+      "SPDXID": "SPDXRef-840c19261b97db3b4ed5394d34a9e886",
+      "versionInfo": "2024.06.15",
+      "downloadLocation": "https://github.com/leleliu008/uppm-package-repository-macos-12.0-arm64",
+      "homepage": "https://github.com/leleliu008/uppm-package-repository-macos-12.0-arm64",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: leleliu008",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/leleliu008/uppm-package-repository-macos-12.0-arm64@2024.06.15",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "00115846b8cc76014ee76386f92e38e8"
+        }
+      ]
+    },
+    {
+      "name": "cache-management",
+      "SPDXID": "SPDXRef-5940ec17cae74d4982b3ccafab740171",
+      "versionInfo": "0.8.0",
+      "downloadLocation": "https://github.com/magiruuvelvet/cache-management",
+      "homepage": "https://github.com/magiruuvelvet/cache-management",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: magiruuvelvet",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/magiruuvelvet/cache-management@0.8.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "e16ea38e849b841dbe4988b4cb947f79"
+        }
+      ]
+    },
+    {
+      "name": "teqp",
+      "SPDXID": "SPDXRef-3ddb8b3d459ae20f2cc4b94f8198ad4a",
+      "versionInfo": "0.17.0",
+      "downloadLocation": "https://pypi.org/project/teqp",
+      "homepage": "https://pypi.org/project/teqp",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Ian Bell and friends",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/teqp@0.17.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "b23f853c4c8ce6cf93801d80eba3a57b"
+        }
+      ]
+    },
+    {
+      "name": "reeber",
+      "SPDXID": "SPDXRef-0e92fa901a5f40f0c28602df16bed710",
+      "versionInfo": "bee3fad",
+      "downloadLocation": "https://github.com/mrzv/reeber",
+      "homepage": "https://github.com/mrzv/reeber",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: mrzv",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/mrzv/reeber@bee3fad",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "9cd8cee31033b9bd99585a56de54c42d"
+        }
+      ]
+    },
+    {
+      "name": "hybrid-example",
+      "SPDXID": "SPDXRef-aa9e08fe471569b48de9397a50c2b504",
+      "versionInfo": "0.1.1",
+      "downloadLocation": "https://pypi.org/project/hybrid-example",
+      "homepage": "https://pypi.org/project/hybrid-example",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Yaozhenghang Ma",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/hybrid-example@0.1.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "82742a5e4c859da4f527f6711d0cf5fc"
+        }
+      ]
+    },
+    {
+      "name": "Catch2",
+      "SPDXID": "SPDXRef-f3db34c0afddd51f53ac15b755ef856a",
+      "versionInfo": "3.0.0-preview3-migration-alpha",
+      "downloadLocation": "https://github.com/trrwilson/Catch2",
+      "homepage": "https://github.com/trrwilson/Catch2",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: trrwilson",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/trrwilson/catch2@3.0.0-preview3-migration-alpha",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "33abecd37a772e68e4ae789695acee0f"
+        }
+      ]
+    },
+    {
+      "name": "catch2",
+      "SPDXID": "SPDXRef-e95c0e2cb674f54bbea4bc0ba98078fd",
+      "versionInfo": "3.0.0-preview4",
+      "downloadLocation": "https://bitbucket.org/coryng2000/catch2/get/v3.0.0-preview4.zip",
+      "homepage": "https://bitbucket.org/coryng2000/catch2/get/v3.0.0-preview4.zip",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: coryng2000",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:bitbucket/coryng2000/catch2@3.0.0-preview4",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "4acd345f7a35ddb6b2ada9fb740f88cb"
+        }
+      ]
+    },
+    {
+      "name": "Slackbuild",
+      "SPDXID": "SPDXRef-87f640c3c64410da4c360179dd68930d",
+      "versionInfo": "Source",
+      "downloadLocation": "https://github.com/kermitdafrog8/Slackbuild",
+      "homepage": "https://github.com/kermitdafrog8/Slackbuild",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: kermitdafrog8",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/kermitdafrog8/slackbuild@Source",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "814d5e3cf0ea3023c6808a9c858b4354"
+        }
+      ]
+    },
+    {
+      "name": "deps",
+      "SPDXID": "SPDXRef-149bb513be9b5fd9664e120398fd01a9",
+      "versionInfo": "2023-08-09",
+      "downloadLocation": "https://github.com/legacyclonk/deps",
+      "homepage": "https://github.com/legacyclonk/deps",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: legacyclonk",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/legacyclonk/deps@2023-08-09",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "4af82c8d9669d1c4672bf3ca7e8de2e8"
+        }
+      ]
+    },
+    {
+      "name": "cosc345",
+      "SPDXID": "SPDXRef-cf2d8f2c420edf399582b07fd2051f59",
+      "versionInfo": "4f11aba",
+      "downloadLocation": "https://github.com/theinformationretrievers/cosc345",
+      "homepage": "https://github.com/theinformationretrievers/cosc345",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: theinformationretrievers",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/theinformationretrievers/cosc345@4f11aba",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "fdbe9dbfab2a4fca6cbd0879249b7d15"
+        }
+      ]
+    },
+    {
+      "name": "MIDI",
+      "SPDXID": "SPDXRef-4c98b9a530e7e344075b8ca5a4c47587",
+      "versionInfo": "dev-preview-1",
+      "downloadLocation": "https://github.com/microsoft/midi",
+      "homepage": "https://github.com/microsoft/midi",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: microsoft",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/microsoft/midi@dev-preview-1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "64d16b890401562f031ab07d5de8b3c3"
+        }
+      ]
+    },
+    {
+      "name": "set-covering-problem",
+      "SPDXID": "SPDXRef-29bd2e49a28d9b9ed7d6bead17faa2a8",
+      "versionInfo": "fe99d7a",
+      "downloadLocation": "https://github.com/caerbannogwhite/set-covering-problem",
+      "homepage": "https://github.com/caerbannogwhite/set-covering-problem",
+      "licenseDeclared": "GPL-3.0-only",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: caerbannogwhite",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/caerbannogwhite/set-covering-problem@fe99d7a",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "63c8729028ec19ce897fe47b28850672"
+        }
+      ]
+    },
+    {
+      "name": "Streamable",
+      "SPDXID": "SPDXRef-3a0dec4b8a1431abdf530f43e447b857",
+      "versionInfo": "1.5.0",
+      "downloadLocation": "https://github.com/ClaudiuHBann/Streamable",
+      "homepage": "https://github.com/ClaudiuHBann/Streamable",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: ClaudiuHBann",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/claudiuhbann/streamable@1.5.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "2761592f1607db90db736cfc5e7d6dbf"
+        }
+      ]
+    },
+    {
+      "name": "sme_deps_common",
+      "SPDXID": "SPDXRef-8fb05408d24798711f58659d9767e256",
+      "versionInfo": "2022.04.27",
+      "downloadLocation": "https://github.com/spatial-model-editor/sme_deps_common",
+      "homepage": "https://github.com/spatial-model-editor/sme_deps_common",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: spatial-model-editor",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/spatial-model-editor/sme_deps_common@2022.04.27",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "e7e3da6904d89cc82b64d0c93017047f"
+        }
+      ]
+    },
+    {
+      "name": "suanpan",
+      "SPDXID": "SPDXRef-2975cf441712534f6e6bb883d4a62cc8",
+      "versionInfo": "d18e626",
+      "downloadLocation": "https://github.com/tlcfem/suanpan",
+      "homepage": "https://github.com/tlcfem/suanpan",
+      "licenseDeclared": "GPL-3.0-only",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: tlcfem",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/tlcfem/suanpan@d18e626",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "4eee5aae813164e520ce774ee0432955"
+        }
+      ]
+    },
+    {
+      "name": "catch2",
+      "SPDXID": "SPDXRef-74066e15a08d7747bee470c3f5edbd9d",
+      "versionInfo": "2.4.0",
+      "downloadLocation": "https://bitbucket.org/logicals/catch2/get/v2.4.0.zip",
+      "homepage": "https://bitbucket.org/logicals/catch2/get/v2.4.0.zip",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: logicals",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:bitbucket/logicals/catch2@2.4.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "a4c7521d42d4623fd26024df778218a3"
+        }
+      ]
+    }
+  ]
+}

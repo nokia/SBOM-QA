@@ -1,0 +1,1975 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "creationInfo": {
+    "created": "2025-08-07T11:00:29Z",
+    "creators": [
+      "Tool: ort-62.2.0"
+    ],
+    "licenseListVersion": "3.27"
+  },
+  "name": "Unnamed document",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "spdx://6e2490e1-c969-408f-869c-a4e1e463b07b",
+  "documentDescribes": [
+    "SPDXRef-Project-Bazel-catch2-2.13.7",
+    "SPDXRef-Project-Conan-catch2-3.9.0",
+    "SPDXRef-Project-Conan-conanfile.py"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Project-Bazel-catch2-2.13.7",
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/catchorg/Catch2.git",
+      "filesAnalyzed": false,
+      "homepage": "NONE",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "catch2",
+      "versionInfo": "2.13.7"
+    },
+    {
+      "SPDXID": "SPDXRef-Project-Conan-catch2-3.9.0",
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/catchorg/Catch2.git",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/catchorg/Catch2",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSL-1.0",
+      "name": "catch2",
+      "versionInfo": "3.9.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Project-Conan-conanfile.py",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "homepage": "NONE",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "conanfile.py"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-abseil-cpp-20240116.1",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/abseil-cpp@20240116.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/abseil/abseil-cpp",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "abseil-cpp",
+      "versionInfo": "20240116.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-abseil-cpp-20240116.1-vcs",
+      "copyrightText": "NONE",
+      "downloadLocation": "git+https://github.com/abseil/abseil-cpp.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/abseil-cpp@20240116.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/abseil/abseil-cpp",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "abseil-cpp",
+      "versionInfo": "20240116.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-abseil-cpp-20240116.1-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3c743204df78366ad2eaf236d6631d83f6bc928d1705dd0000b872e53b73dc6a"
+        }
+      ],
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/abseil/abseil-cpp/releases/download/20240116.1/abseil-cpp-20240116.1.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/abseil-cpp@20240116.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/abseil/abseil-cpp",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "abseil-cpp",
+      "versionInfo": "20240116.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-bazel-features-1.30.0",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/bazel_features@1.30.0"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazel-contrib/bazel_features",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "bazel_features",
+      "versionInfo": "1.30.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-bazel-features-1.30.0-vcs",
+      "copyrightText": "NONE",
+      "downloadLocation": "git+https://github.com/bazel-contrib/bazel_features.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/bazel_features@1.30.0"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazel-contrib/bazel_features",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "bazel_features",
+      "versionInfo": "1.30.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-bazel-features-1.30.0-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a660027f5a87f13224ab54b8dc6e191693c554f2692fcca46e8e29ee7dabc43b"
+        }
+      ],
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/bazel-contrib/bazel_features/releases/download/v1.30.0/bazel_features-v1.30.0.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/bazel_features@1.30.0"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazel-contrib/bazel_features",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "bazel_features",
+      "versionInfo": "1.30.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-bazel-skylib-1.7.1",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/bazel_skylib@1.7.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/bazel-skylib",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "bazel_skylib",
+      "versionInfo": "1.7.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-bazel-skylib-1.7.1-vcs",
+      "copyrightText": "NONE",
+      "downloadLocation": "git+https://github.com/bazelbuild/bazel-skylib.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/bazel_skylib@1.7.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/bazel-skylib",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "bazel_skylib",
+      "versionInfo": "1.7.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-bazel-skylib-1.7.1-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bc283cdfcd526a52c3201279cda4bc298652efa898b10b4db0837dc51652756f"
+        }
+      ],
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/bazelbuild/bazel-skylib/releases/download/1.7.1/bazel-skylib-1.7.1.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/bazel_skylib@1.7.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/bazel-skylib",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "bazel_skylib",
+      "versionInfo": "1.7.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-googletest-1.14.0.bcr.1",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/googletest@1.14.0.bcr.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://google.github.io/googletest/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "googletest",
+      "versionInfo": "1.14.0.bcr.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-googletest-1.14.0.bcr.1-vcs",
+      "copyrightText": "NONE",
+      "downloadLocation": "git+https://github.com/google/googletest.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/googletest@1.14.0.bcr.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://google.github.io/googletest/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "googletest",
+      "versionInfo": "1.14.0.bcr.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-googletest-1.14.0.bcr.1-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8ad598c73ad796e0d8280b082cebd82a630d73e73cd3c70057938a6501bba5d7"
+        }
+      ],
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/google/googletest/archive/refs/tags/v1.14.0.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/googletest@1.14.0.bcr.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://google.github.io/googletest/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "googletest",
+      "versionInfo": "1.14.0.bcr.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-jsoncpp-1.9.5",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/jsoncpp@1.9.5"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/open-source-parsers/jsoncpp",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "jsoncpp",
+      "versionInfo": "1.9.5"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-jsoncpp-1.9.5-vcs",
+      "copyrightText": "NONE",
+      "downloadLocation": "git+https://github.com/open-source-parsers/jsoncpp.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/jsoncpp@1.9.5"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/open-source-parsers/jsoncpp",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "jsoncpp",
+      "versionInfo": "1.9.5"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-jsoncpp-1.9.5-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f409856e5920c18d0c2fb85276e24ee607d2a09b5e7d5f0a371368903c275da2"
+        }
+      ],
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/open-source-parsers/jsoncpp/archive/refs/tags/1.9.5.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/jsoncpp@1.9.5"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/open-source-parsers/jsoncpp",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "jsoncpp",
+      "versionInfo": "1.9.5"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-platforms-0.0.11",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/platforms@0.0.11"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/platforms",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "platforms",
+      "versionInfo": "0.0.11"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-platforms-0.0.11-vcs",
+      "copyrightText": "NONE",
+      "downloadLocation": "git+https://github.com/bazelbuild/platforms.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/platforms@0.0.11"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/platforms",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "platforms",
+      "versionInfo": "0.0.11"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-platforms-0.0.11-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "29742e87275809b5e598dc2f04d86960cc7a55b3067d97221c9abbc9926bff0f"
+        }
+      ],
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/bazelbuild/platforms/releases/download/0.0.11/platforms-0.0.11.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/platforms@0.0.11"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/platforms",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "platforms",
+      "versionInfo": "0.0.11"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-protobuf-29.0",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/protobuf@29.0"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/protocolbuffers/protobuf",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "protobuf",
+      "versionInfo": "29.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-protobuf-29.0-vcs",
+      "copyrightText": "NONE",
+      "downloadLocation": "git+https://github.com/protocolbuffers/protobuf.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/protobuf@29.0"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/protocolbuffers/protobuf",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "protobuf",
+      "versionInfo": "29.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-protobuf-29.0-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2e442d21839ec9dbafda4cc9083239aa04e78fc9c27dfa59b5374e968050cd22"
+        }
+      ],
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/protocolbuffers/protobuf/releases/download/v29.0/protobuf-29.0.zip",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/protobuf@29.0"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/protocolbuffers/protobuf",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "protobuf",
+      "versionInfo": "29.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-pybind11-bazel-2.11.1",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/pybind11_bazel@2.11.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/pybind/pybind11_bazel",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "pybind11_bazel",
+      "versionInfo": "2.11.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-pybind11-bazel-2.11.1-vcs",
+      "copyrightText": "NONE",
+      "downloadLocation": "git+https://github.com/pybind/pybind11_bazel.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/pybind11_bazel@2.11.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/pybind/pybind11_bazel",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "pybind11_bazel",
+      "versionInfo": "2.11.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-pybind11-bazel-2.11.1-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2c466c9b3cca7852b47e0785003128984fcf0d5d61a1a2e4c5aceefd935ac220"
+        }
+      ],
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/pybind/pybind11_bazel/releases/download/v2.11.1/pybind11_bazel-2.11.1.zip",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/pybind11_bazel@2.11.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/pybind/pybind11_bazel",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "pybind11_bazel",
+      "versionInfo": "2.11.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-re2-2023-09-01",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/re2@2023-09-01"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/google/re2",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "re2",
+      "versionInfo": "2023-09-01"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-re2-2023-09-01-vcs",
+      "copyrightText": "NONE",
+      "downloadLocation": "git+https://github.com/google/re2.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/re2@2023-09-01"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/google/re2",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "re2",
+      "versionInfo": "2023-09-01"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-re2-2023-09-01-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "224b8351dc4633b1012dbd847564e060a46be60a22a1463d4b5b993fd4bf59cc"
+        }
+      ],
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/google/re2/releases/download/2023-09-01/re2-2023-09-01.zip",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/re2@2023-09-01"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/google/re2",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "re2",
+      "versionInfo": "2023-09-01"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-android-0.1.1",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_android@0.1.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_android",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_android",
+      "versionInfo": "0.1.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-android-0.1.1-vcs",
+      "copyrightText": "NONE",
+      "downloadLocation": "git+https://github.com/bazelbuild/rules_android.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_android@0.1.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_android",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_android",
+      "versionInfo": "0.1.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-android-0.1.1-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6461c1c5744442b394f46645957d6bd3420eb1b421908fe63caa03091b1b3655"
+        }
+      ],
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/bazelbuild/rules_android/archive/refs/tags/v0.1.1.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_android@0.1.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_android",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_android",
+      "versionInfo": "0.1.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-cc-0.1.1",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_cc@0.1.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_cc",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_cc",
+      "versionInfo": "0.1.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-cc-0.1.1-vcs",
+      "copyrightText": "NONE",
+      "downloadLocation": "git+https://github.com/bazelbuild/rules_cc.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_cc@0.1.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_cc",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_cc",
+      "versionInfo": "0.1.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-cc-0.1.1-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "712d77868b3152dd618c4d64faaddefcc5965f90f5de6e6dd1d5ddcd0be82d42"
+        }
+      ],
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/bazelbuild/rules_cc/releases/download/0.1.1/rules_cc-0.1.1.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_cc@0.1.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_cc",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_cc",
+      "versionInfo": "0.1.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-fuzzing-0.5.2",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_fuzzing@0.5.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_fuzzing",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_fuzzing",
+      "versionInfo": "0.5.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-fuzzing-0.5.2-vcs",
+      "copyrightText": "NONE",
+      "downloadLocation": "git+https://github.com/bazel-contrib/rules_fuzzing.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_fuzzing@0.5.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_fuzzing",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_fuzzing",
+      "versionInfo": "0.5.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-fuzzing-0.5.2-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e6bc219bfac9e1f83b327dd090f728a9f973ee99b9b5d8e5a184a2732ef08623"
+        }
+      ],
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/bazelbuild/rules_fuzzing/releases/download/v0.5.2/rules_fuzzing-0.5.2.zip",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_fuzzing@0.5.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_fuzzing",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_fuzzing",
+      "versionInfo": "0.5.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-java-8.12.0",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_java@8.12.0"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_java",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_java",
+      "versionInfo": "8.12.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-java-8.12.0-vcs",
+      "copyrightText": "NONE",
+      "downloadLocation": "git+https://github.com/bazelbuild/rules_java.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_java@8.12.0"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_java",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_java",
+      "versionInfo": "8.12.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-java-8.12.0-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1558508fc6c348d7f99477bd21681e5746936f15f0436b5f4233e30832a590f9"
+        }
+      ],
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/bazelbuild/rules_java/releases/download/8.12.0/rules_java-8.12.0.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_java@8.12.0"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_java",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_java",
+      "versionInfo": "8.12.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-jvm-external-6.3",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_jvm_external@6.3"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_jvm_external",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_jvm_external",
+      "versionInfo": "6.3"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-jvm-external-6.3-vcs",
+      "copyrightText": "NONE",
+      "downloadLocation": "git+https://github.com/bazel-contrib/rules_jvm_external.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_jvm_external@6.3"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_jvm_external",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_jvm_external",
+      "versionInfo": "6.3"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-jvm-external-6.3-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c18a69d784bcd851be95897ca0eca0b57dc86bb02e62402f15736df44160eb02"
+        }
+      ],
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/bazelbuild/rules_jvm_external/releases/download/6.3/rules_jvm_external-6.3.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_jvm_external@6.3"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_jvm_external",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_jvm_external",
+      "versionInfo": "6.3"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-kotlin-1.9.6",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_kotlin@1.9.6"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_kotlin",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_kotlin",
+      "versionInfo": "1.9.6"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-kotlin-1.9.6-vcs",
+      "copyrightText": "NONE",
+      "downloadLocation": "git+https://github.com/bazelbuild/rules_kotlin.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_kotlin@1.9.6"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_kotlin",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_kotlin",
+      "versionInfo": "1.9.6"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-kotlin-1.9.6-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3b772976fec7bdcda1d84b9d39b176589424c047eb2175bed09aac630e50af43"
+        }
+      ],
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/bazelbuild/rules_kotlin/releases/download/v1.9.6/rules_kotlin-v1.9.6.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_kotlin@1.9.6"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_kotlin",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_kotlin",
+      "versionInfo": "1.9.6"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-license-1.0.0",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_license@1.0.0"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_license",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_license",
+      "versionInfo": "1.0.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-license-1.0.0-vcs",
+      "copyrightText": "NONE",
+      "downloadLocation": "git+https://github.com/bazelbuild/rules_license.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_license@1.0.0"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_license",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_license",
+      "versionInfo": "1.0.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-license-1.0.0-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "26d4021f6898e23b82ef953078389dd49ac2b5618ac564ade4ef87cced147b38"
+        }
+      ],
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/bazelbuild/rules_license/releases/download/1.0.0/rules_license-1.0.0.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_license@1.0.0"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_license",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_license",
+      "versionInfo": "1.0.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-pkg-1.0.1",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_pkg@1.0.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_pkg.git",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_pkg",
+      "versionInfo": "1.0.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-pkg-1.0.1-vcs",
+      "copyrightText": "NONE",
+      "downloadLocation": "git+https://github.com/bazelbuild/rules_pkg.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_pkg@1.0.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_pkg.git",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_pkg",
+      "versionInfo": "1.0.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-pkg-1.0.1-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d20c951960ed77cb7b341c2a59488534e494d5ad1d30c4818c736d57772a9fef"
+        }
+      ],
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/bazelbuild/rules_pkg/releases/download/1.0.1/rules_pkg-1.0.1.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_pkg@1.0.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_pkg.git",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_pkg",
+      "versionInfo": "1.0.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-proto-7.0.2",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_proto@7.0.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_proto",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_proto",
+      "versionInfo": "7.0.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-proto-7.0.2-vcs",
+      "copyrightText": "NONE",
+      "downloadLocation": "git+https://github.com/bazelbuild/rules_proto.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_proto@7.0.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_proto",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_proto",
+      "versionInfo": "7.0.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-proto-7.0.2-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0e5c64a2599a6e26c6a03d6162242d231ecc0de219534c38cb4402171def21e8"
+        }
+      ],
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/bazelbuild/rules_proto/releases/download/7.0.2/rules_proto-7.0.2.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_proto@7.0.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_proto",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_proto",
+      "versionInfo": "7.0.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-python-0.40.0",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_python@0.40.0"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazel-contrib/rules_python",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_python",
+      "versionInfo": "0.40.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-python-0.40.0-vcs",
+      "copyrightText": "NONE",
+      "downloadLocation": "git+https://github.com/bazelbuild/rules_python.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_python@0.40.0"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazel-contrib/rules_python",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_python",
+      "versionInfo": "0.40.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-python-0.40.0-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "690e0141724abb568267e003c7b6d9a54925df40c275a870a4d934161dc9dd53"
+        }
+      ],
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/bazelbuild/rules_python/releases/download/0.40.0/rules_python-0.40.0.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_python@0.40.0"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazel-contrib/rules_python",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_python",
+      "versionInfo": "0.40.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-shell-0.2.0",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_shell@0.2.0"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_shell",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_shell",
+      "versionInfo": "0.2.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-shell-0.2.0-vcs",
+      "copyrightText": "NONE",
+      "downloadLocation": "git+https://github.com/bazelbuild/rules_shell.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_shell@0.2.0"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_shell",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_shell",
+      "versionInfo": "0.2.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-rules-shell-0.2.0-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "410e8ff32e018b9efd2743507e7595c26e2628567c42224411ff533b57d27c28"
+        }
+      ],
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/bazelbuild/rules_shell/releases/download/v0.2.0/rules_shell-v0.2.0.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/rules_shell@0.2.0"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/rules_shell",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "rules_shell",
+      "versionInfo": "0.2.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-stardoc-0.7.1",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/stardoc@0.7.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/stardoc",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "stardoc",
+      "versionInfo": "0.7.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-stardoc-0.7.1-vcs",
+      "copyrightText": "NONE",
+      "downloadLocation": "git+https://github.com/bazelbuild/stardoc.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/stardoc@0.7.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/stardoc",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "stardoc",
+      "versionInfo": "0.7.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-stardoc-0.7.1-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fabb280f6c92a3b55eed89a918ca91e39fb733373c81e87a18ae9e33e75023ec"
+        }
+      ],
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/bazelbuild/stardoc/releases/download/0.7.1/stardoc-0.7.1.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/stardoc@0.7.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bazelbuild/stardoc",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "stardoc",
+      "versionInfo": "0.7.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-zlib-1.3.1.bcr.5",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/zlib@1.3.1.bcr.5"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://zlib.net",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "zlib",
+      "versionInfo": "1.3.1.bcr.5"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-zlib-1.3.1.bcr.5-vcs",
+      "copyrightText": "NONE",
+      "downloadLocation": "git+https://github.com/madler/zlib.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/zlib@1.3.1.bcr.5"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://zlib.net",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "zlib",
+      "versionInfo": "1.3.1.bcr.5"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Bazel-zlib-1.3.1.bcr.5-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9a93b2b7dfdac77ceba5a558a580e74667dd6fede4585b91eefb60f03b72df23"
+        }
+      ],
+      "copyrightText": "NONE",
+      "downloadLocation": "https://github.com/madler/zlib/releases/download/v1.3.1/zlib-1.3.1.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:bazel/zlib@1.3.1.bcr.5"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://zlib.net",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "zlib",
+      "versionInfo": "1.3.1.bcr.5"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-abseil-cpp-20240116.1",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-abseil-cpp-20240116.1-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-abseil-cpp-20240116.1",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-abseil-cpp-20240116.1-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-abseil-cpp-20240116.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-skylib-1.7.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-abseil-cpp-20240116.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-googletest-1.14.0.bcr.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-abseil-cpp-20240116.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-platforms-0.0.11"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-bazel-features-1.30.0",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-features-1.30.0-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-bazel-features-1.30.0",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-features-1.30.0-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-bazel-features-1.30.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-skylib-1.7.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-bazel-skylib-1.7.1",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-skylib-1.7.1-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-bazel-skylib-1.7.1",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-skylib-1.7.1-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-bazel-skylib-1.7.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-platforms-0.0.11"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-bazel-skylib-1.7.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-license-1.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-googletest-1.14.0.bcr.1",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-googletest-1.14.0.bcr.1-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-googletest-1.14.0.bcr.1",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-googletest-1.14.0.bcr.1-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-googletest-1.14.0.bcr.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-platforms-0.0.11"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-googletest-1.14.0.bcr.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-re2-2023-09-01"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-jsoncpp-1.9.5",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-jsoncpp-1.9.5-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-jsoncpp-1.9.5",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-jsoncpp-1.9.5-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-platforms-0.0.11",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-platforms-0.0.11-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-platforms-0.0.11",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-platforms-0.0.11-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-platforms-0.0.11",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-license-1.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-protobuf-29.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-abseil-cpp-20240116.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-protobuf-29.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-features-1.30.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-protobuf-29.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-skylib-1.7.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-protobuf-29.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-jsoncpp-1.9.5"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-protobuf-29.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-platforms-0.0.11"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-protobuf-29.0",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-protobuf-29.0-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-protobuf-29.0",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-protobuf-29.0-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-protobuf-29.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-fuzzing-0.5.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-protobuf-29.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-java-8.12.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-protobuf-29.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-jvm-external-6.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-protobuf-29.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-kotlin-1.9.6"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-protobuf-29.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-license-1.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-protobuf-29.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-pkg-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-protobuf-29.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-python-0.40.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-protobuf-29.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-shell-0.2.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-protobuf-29.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-zlib-1.3.1.bcr.5"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-pybind11-bazel-2.11.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-platforms-0.0.11"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-pybind11-bazel-2.11.1",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-pybind11-bazel-2.11.1-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-pybind11-bazel-2.11.1",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-pybind11-bazel-2.11.1-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-re2-2023-09-01",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-platforms-0.0.11"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-re2-2023-09-01",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-pybind11-bazel-2.11.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-re2-2023-09-01",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-re2-2023-09-01-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-re2-2023-09-01",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-re2-2023-09-01-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-re2-2023-09-01",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-python-0.40.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-android-0.1.1",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-android-0.1.1-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-android-0.1.1",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-android-0.1.1-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-cc-0.1.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-features-1.30.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-cc-0.1.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-skylib-1.7.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-cc-0.1.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-platforms-0.0.11"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-cc-0.1.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-protobuf-29.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-cc-0.1.1",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-cc-0.1.1-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-cc-0.1.1",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-cc-0.1.1-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-fuzzing-0.5.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-abseil-cpp-20240116.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-fuzzing-0.5.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-skylib-1.7.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-fuzzing-0.5.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-platforms-0.0.11"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-fuzzing-0.5.2",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-fuzzing-0.5.2-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-fuzzing-0.5.2",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-fuzzing-0.5.2-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-fuzzing-0.5.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-java-8.12.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-fuzzing-0.5.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-python-0.40.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-java-8.12.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-abseil-cpp-20240116.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-java-8.12.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-features-1.30.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-java-8.12.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-skylib-1.7.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-java-8.12.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-platforms-0.0.11"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-java-8.12.0",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-java-8.12.0-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-java-8.12.0",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-java-8.12.0-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-java-8.12.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-license-1.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-java-8.12.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-zlib-1.3.1.bcr.5"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-jvm-external-6.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-features-1.30.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-jvm-external-6.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-skylib-1.7.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-jvm-external-6.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-platforms-0.0.11"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-jvm-external-6.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-android-0.1.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-jvm-external-6.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-java-8.12.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-jvm-external-6.3",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-jvm-external-6.3-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-jvm-external-6.3",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-jvm-external-6.3-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-jvm-external-6.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-kotlin-1.9.6"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-jvm-external-6.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-license-1.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-kotlin-1.9.6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-skylib-1.7.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-kotlin-1.9.6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-platforms-0.0.11"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-kotlin-1.9.6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-java-8.12.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-kotlin-1.9.6",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-kotlin-1.9.6-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-kotlin-1.9.6",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-kotlin-1.9.6-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-kotlin-1.9.6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-proto-7.0.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-kotlin-1.9.6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-python-0.40.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-license-1.0.0",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-license-1.0.0-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-license-1.0.0",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-license-1.0.0-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-pkg-1.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-skylib-1.7.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-pkg-1.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-license-1.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-pkg-1.0.1",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-pkg-1.0.1-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-pkg-1.0.1",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-pkg-1.0.1-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-pkg-1.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-python-0.40.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-proto-7.0.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-skylib-1.7.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-proto-7.0.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-license-1.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-proto-7.0.2",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-proto-7.0.2-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-proto-7.0.2",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-proto-7.0.2-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-python-0.40.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-features-1.30.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-python-0.40.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-skylib-1.7.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-python-0.40.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-platforms-0.0.11"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-python-0.40.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-proto-7.0.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-python-0.40.0",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-python-0.40.0-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-python-0.40.0",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-python-0.40.0-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-python-0.40.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-stardoc-0.7.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-shell-0.2.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-features-1.30.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-shell-0.2.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-skylib-1.7.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-shell-0.2.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-platforms-0.0.11"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-shell-0.2.0",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-shell-0.2.0-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-rules-shell-0.2.0",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-shell-0.2.0-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-stardoc-0.7.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-skylib-1.7.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-stardoc-0.7.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-java-8.12.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-stardoc-0.7.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-jvm-external-6.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-stardoc-0.7.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-license-1.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-stardoc-0.7.1",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-stardoc-0.7.1-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-stardoc-0.7.1",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-stardoc-0.7.1-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-zlib-1.3.1.bcr.5",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-platforms-0.0.11"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-zlib-1.3.1.bcr.5",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-license-1.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-zlib-1.3.1.bcr.5",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-zlib-1.3.1.bcr.5-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Bazel-zlib-1.3.1.bcr.5",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-zlib-1.3.1.bcr.5-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Project-Bazel-catch2-2.13.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-bazel-skylib-1.7.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Project-Bazel-catch2-2.13.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-cc-0.1.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Project-Bazel-catch2-2.13.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Bazel-rules-license-1.0.0"
+    }
+  ]
+}

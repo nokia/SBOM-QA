@@ -1,0 +1,284 @@
+{
+  "tool": {
+    "name": "sbomdiff",
+    "version": "0.5.6"
+  },
+  "file_1": "SBOM-QA/new.conan/catchorg_Catch2_5642fc.json",
+  "file_2": "final.projects/conan/ort.json",
+  "differences": [
+    {
+      "package": "actions/checkout",
+      "status": "remove",
+      "version": {
+        "from": "4.*.*"
+      }
+    },
+    {
+      "package": "actions/cache",
+      "status": "remove",
+      "version": {
+        "from": "3.*.*"
+      }
+    },
+    {
+      "package": "actions/setup-python",
+      "status": "remove",
+      "version": {
+        "from": "2.*.*"
+      }
+    },
+    {
+      "package": "com.github.catchorg/Catch2",
+      "status": "remove",
+      "version": {
+        "from": "DEVEL"
+      }
+    },
+    {
+      "package": "catch2",
+      "status": "add",
+      "version": {
+        "from": "2.13.7"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "conanfile.py",
+      "status": "add",
+      "version": {
+        "from": "UNKNOWN"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "abseil-cpp",
+      "status": "add",
+      "version": {
+        "from": "20240116.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "bazel_features",
+      "status": "add",
+      "version": {
+        "from": "1.30.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "bazel_skylib",
+      "status": "add",
+      "version": {
+        "from": "1.7.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "googletest",
+      "status": "add",
+      "version": {
+        "from": "1.14.0.BCR.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jsoncpp",
+      "status": "add",
+      "version": {
+        "from": "1.9.5"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "platforms",
+      "status": "add",
+      "version": {
+        "from": "0.0.11"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "protobuf",
+      "status": "add",
+      "version": {
+        "from": "29.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pybind11_bazel",
+      "status": "add",
+      "version": {
+        "from": "2.11.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "re2",
+      "status": "add",
+      "version": {
+        "from": "2023-09-01"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "rules_android",
+      "status": "add",
+      "version": {
+        "from": "0.1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "rules_cc",
+      "status": "add",
+      "version": {
+        "from": "0.1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "rules_fuzzing",
+      "status": "add",
+      "version": {
+        "from": "0.5.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "rules_java",
+      "status": "add",
+      "version": {
+        "from": "8.12.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "rules_jvm_external",
+      "status": "add",
+      "version": {
+        "from": "6.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "rules_kotlin",
+      "status": "add",
+      "version": {
+        "from": "1.9.6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "rules_license",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "rules_pkg",
+      "status": "add",
+      "version": {
+        "from": "1.0.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "rules_proto",
+      "status": "add",
+      "version": {
+        "from": "7.0.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "rules_python",
+      "status": "add",
+      "version": {
+        "from": "0.40.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "rules_shell",
+      "status": "add",
+      "version": {
+        "from": "0.2.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "stardoc",
+      "status": "add",
+      "version": {
+        "from": "0.7.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "zlib",
+      "status": "add",
+      "version": {
+        "from": "1.3.1.BCR.5"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    }
+  ],
+  "summary": {
+    "version_changes": 0,
+    "new_packages": 24,
+    "removed_packages": 4,
+    "license_changes": 0
+  }
+}
