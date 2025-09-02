@@ -1,0 +1,1736 @@
+Validating trivy-tidy.json
++-----+--------------+--------------+---------------------------+---------------------------+
+| #   | Error type   | SPDX ID      | Package name              | Reason                    |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 1   | NTIA         | SPDXRef-Appl | docs/go.mod               | Package without a version |
+|     | validation   | ication-     |                           |                           |
+|     | error        | 21b0f7823fcd |                           |                           |
+|     |              | b07e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 2   | NTIA         | SPDXRef-     | go.mod                    | Package without a version |
+|     | validation   | Application- |                           |                           |
+|     | error        | cac518ef1d8f |                           |                           |
+|     |              | f1ba         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 3   | NTIA         | SPDXRef-Pack | github.com/gohugoio/hugo  | Package without a version |
+|     | validation   | age-         |                           |                           |
+|     | error        | c4bceb7a0149 |                           |                           |
+|     |              | f5ad         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 4   | NTIA         | SPDXRef-Pack | github.com/gohugoio/hugoD | Package without a version |
+|     | validation   | age-         | ocs                       |                           |
+|     | error        | e21de2ff70a9 |                           |                           |
+|     |              | 56d5         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 5   | NTIA         | SPDXRef-File | .                         | Package without a version |
+|     | validation   | system-      |                           |                           |
+|     | error        | 1465386cfbe4 |                           |                           |
+|     |              | e9c7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 6   | NTIA         | SPDXRef-Appl | docs/go.mod               | Package without a package |
+|     | validation   | ication-     |                           | supplier                  |
+|     | error        | 21b0f7823fcd |                           |                           |
+|     |              | b07e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 7   | NTIA         | SPDXRef-     | go.mod                    | Package without a package |
+|     | validation   | Application- |                           | supplier                  |
+|     | error        | cac518ef1d8f |                           |                           |
+|     |              | f1ba         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 8   | NTIA         | SPDXRef-Pack | cloud.google.com/go       | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 51979d47175e |                           |                           |
+|     |              | d73b         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 9   | NTIA         | SPDXRef-Pack | cloud.google.com/go/auth  | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 940c2134ccae |                           |                           |
+|     |              | d223         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 10  | NTIA         | SPDXRef-Pack | cloud.google.com/go/auth/ | Package without a package |
+|     | validation   | age-         | oauth2adapt               | supplier                  |
+|     | error        | 7044167e5708 |                           |                           |
+|     |              | 5bb4         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 11  | NTIA         | SPDXRef-Pack | cloud.google.com/go/compu | Package without a package |
+|     | validation   | age-         | te/metadata               | supplier                  |
+|     | error        | 9187ef117498 |                           |                           |
+|     |              | 7cc4         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 12  | NTIA         | SPDXRef-Pack | cloud.google.com/go/iam   | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 6a953e4cf909 |                           |                           |
+|     |              | 2080         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 13  | NTIA         | SPDXRef-Pack | cloud.google.com/go/stora | Package without a package |
+|     | validation   | age-         | ge                        | supplier                  |
+|     | error        | 2e06978eba98 |                           |                           |
+|     |              | bc57         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 14  | NTIA         | SPDXRef-Pack | github.com/Azure/azure-   | Package without a package |
+|     | validation   | age-         | sdk-for-go/sdk/azcore     | supplier                  |
+|     | error        | a5763023f6e3 |                           |                           |
+|     |              | 2951         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 15  | NTIA         | SPDXRef-Pack | github.com/Azure/azure-   | Package without a package |
+|     | validation   | age-         | sdk-for-go/sdk/azidentity | supplier                  |
+|     | error        | 2f0986a53f33 |                           |                           |
+|     |              | 0acc         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 16  | NTIA         | SPDXRef-Pack | github.com/Azure/azure-   | Package without a package |
+|     | validation   | age-         | sdk-for-go/sdk/internal   | supplier                  |
+|     | error        | 887857adee4a |                           |                           |
+|     |              | 3d13         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 17  | NTIA         | SPDXRef-     | github.com/Azure/azure-   | Package without a package |
+|     | validation   | Package-ab48 | sdk-for-                  | supplier                  |
+|     | error        | 96bc2c144c1d | go/sdk/storage/azblob     |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 18  | NTIA         | SPDXRef-     | github.com/Azure/go-      | Package without a package |
+|     | validation   | Package-afb9 | autorest                  | supplier                  |
+|     | error        | c149709705e  |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 19  | NTIA         | SPDXRef-Pack | github.com/Azure/go-      | Package without a package |
+|     | validation   | age-         | autorest/autorest/to      | supplier                  |
+|     | error        | 48be6304d1ab |                           |                           |
+|     |              | 7737         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 20  | NTIA         | SPDXRef-Pack | github.com/AzureAD/micros | Package without a package |
+|     | validation   | age-         | oft-authentication-       | supplier                  |
+|     | error        | d4d7753ba56c | library-for-go            |                           |
+|     |              | 81d0         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 21  | NTIA         | SPDXRef-     | github.com/BurntSushi/loc | Package without a package |
+|     | validation   | Package-bda8 | ker                       | supplier                  |
+|     | error        | 4fe3931efd78 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 22  | NTIA         | SPDXRef-Pack | github.com/alecthomas/chr | Package without a package |
+|     | validation   | age-         | oma/v2                    | supplier                  |
+|     | error        | 410bae17c959 |                           |                           |
+|     |              | 10b0         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 23  | NTIA         | SPDXRef-     | github.com/armon/go-radix | Package without a package |
+|     | validation   | Package-ccf7 |                           | supplier                  |
+|     | error        | 2b2dc3b2469d |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 24  | NTIA         | SPDXRef-Pack | github.com/aws/aws-sdk-go | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | b3ddd1000a60 |                           |                           |
+|     |              | 87eb         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 25  | NTIA         | SPDXRef-Pack | github.com/aws/aws-sdk-   | Package without a package |
+|     | validation   | age-         | go-v2                     | supplier                  |
+|     | error        | c09dc2e9abd6 |                           |                           |
+|     |              | a3f2         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 26  | NTIA         | SPDXRef-Pack | github.com/aws/aws-sdk-go | Package without a package |
+|     | validation   | age-         | -v2/aws/protocol/eventstr | supplier                  |
+|     | error        | 303e8676c42b | eam                       |                           |
+|     |              | 8389         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 27  | NTIA         | SPDXRef-Pack | github.com/aws/aws-sdk-   | Package without a package |
+|     | validation   | age-         | go-v2/config              | supplier                  |
+|     | error        | 6da0e9f4737a |                           |                           |
+|     |              | 5692         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 28  | NTIA         | SPDXRef-Pack | github.com/aws/aws-sdk-   | Package without a package |
+|     | validation   | age-         | go-v2/credentials         | supplier                  |
+|     | error        | 6b23438e88a2 |                           |                           |
+|     |              | d640         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 29  | NTIA         | SPDXRef-Pack | github.com/aws/aws-sdk-   | Package without a package |
+|     | validation   | age-         | go-v2/feature/ec2/imds    | supplier                  |
+|     | error        | f951f3d30444 |                           |                           |
+|     |              | 793e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 30  | NTIA         | SPDXRef-Pack | github.com/aws/aws-sdk-   | Package without a package |
+|     | validation   | age-         | go-v2/feature/s3/manager  | supplier                  |
+|     | error        | 29d7401cd9e4 |                           |                           |
+|     |              | 544d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 31  | NTIA         | SPDXRef-Pack | github.com/aws/aws-sdk-go | Package without a package |
+|     | validation   | age-         | -v2/internal/configsource | supplier                  |
+|     | error        | 7b15bc45f48e | s                         |                           |
+|     |              | 0346         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 32  | NTIA         | SPDXRef-Pack | github.com/aws/aws-sdk-go | Package without a package |
+|     | validation   | age-         | -v2/internal/endpoints/v2 | supplier                  |
+|     | error        | 9672b9a1aaf5 |                           |                           |
+|     |              | e516         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 33  | NTIA         | SPDXRef-Pack | github.com/aws/aws-sdk-   | Package without a package |
+|     | validation   | age-         | go-v2/internal/ini        | supplier                  |
+|     | error        | 90b70d10e3ea |                           |                           |
+|     |              | ae30         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 34  | NTIA         | SPDXRef-Pack | github.com/aws/aws-sdk-   | Package without a package |
+|     | validation   | age-         | go-v2/internal/v4a        | supplier                  |
+|     | error        | a54e811aafc0 |                           |                           |
+|     |              | 3e80         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 35  | NTIA         | SPDXRef-Pack | github.com/aws/aws-sdk-   | Package without a package |
+|     | validation   | age-         | go-v2/service/cloudfront  | supplier                  |
+|     | error        | 301596c4853e |                           |                           |
+|     |              | 19b6         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 36  | NTIA         | SPDXRef-Pack | github.com/aws/aws-sdk-go | Package without a package |
+|     | validation   | age-         | -v2/service/internal/acce | supplier                  |
+|     | error        | 9b23c72009e0 | pt-encoding               |                           |
+|     |              | 09d2         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 37  | NTIA         | SPDXRef-Pack | github.com/aws/aws-sdk-go | Package without a package |
+|     | validation   | age-         | -v2/service/internal/chec | supplier                  |
+|     | error        | 2e4bd6a74954 | ksum                      |                           |
+|     |              | f942         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 38  | NTIA         | SPDXRef-Pack | github.com/aws/aws-sdk-go | Package without a package |
+|     | validation   | age-         | -v2/service/internal/pres | supplier                  |
+|     | error        | 1a4361b521e4 | igned-url                 |                           |
+|     |              | 49b5         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 39  | NTIA         | SPDXRef-Pack | github.com/aws/aws-sdk-go | Package without a package |
+|     | validation   | age-         | -v2/service/internal/s3sh | supplier                  |
+|     | error        | 9d8ad23bc267 | ared                      |                           |
+|     |              | 233e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 40  | NTIA         | SPDXRef-Pack | github.com/aws/aws-sdk-   | Package without a package |
+|     | validation   | age-         | go-v2/service/s3          | supplier                  |
+|     | error        | 30476469def4 |                           |                           |
+|     |              | 6463         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 41  | NTIA         | SPDXRef-Pack | github.com/aws/aws-sdk-   | Package without a package |
+|     | validation   | age-         | go-v2/service/sso         | supplier                  |
+|     | error        | 9d82d2ed670c |                           |                           |
+|     |              | 8163         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 42  | NTIA         | SPDXRef-Pack | github.com/aws/aws-sdk-   | Package without a package |
+|     | validation   | age-         | go-v2/service/ssooidc     | supplier                  |
+|     | error        | a2a1d853c649 |                           |                           |
+|     |              | ac6d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 43  | NTIA         | SPDXRef-     | github.com/aws/aws-sdk-   | Package without a package |
+|     | validation   | Package-eea0 | go-v2/service/sts         | supplier                  |
+|     | error        | bb7b505b18d  |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 44  | NTIA         | SPDXRef-Pack | github.com/aws/smithy-go  | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 8b16860552da |                           |                           |
+|     |              | 4e23         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 45  | NTIA         | SPDXRef-     | github.com/bep/clocks     | Package without a package |
+|     | validation   | Package-fbbd |                           | supplier                  |
+|     | error        | 5a96e6dc060f |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 46  | NTIA         | SPDXRef-Pack | github.com/bep/debounce   | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 47ffcb958a56 |                           |                           |
+|     |              | 83f0         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 47  | NTIA         | SPDXRef-Pack | github.com/bep/gitmap     | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 863112397f14 |                           |                           |
+|     |              | 671c         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 48  | NTIA         | SPDXRef-Pack | github.com/bep/goat       | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 9d9ff8856cb5 |                           |                           |
+|     |              | 4cf5         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 49  | NTIA         | SPDXRef-Pack | github.com/bep/godartsass | Package without a package |
+|     | validation   | age-         | /v2                       | supplier                  |
+|     | error        | 4052d97efff3 |                           |                           |
+|     |              | 8171         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 50  | NTIA         | SPDXRef-Pack | github.com/bep/golibsass  | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | f3ad195214ee |                           |                           |
+|     |              | 1ab          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 51  | NTIA         | SPDXRef-Pack | github.com/bep/goportable | Package without a package |
+|     | validation   | age-         | text                      | supplier                  |
+|     | error        | 2a57efc9bc2e |                           |                           |
+|     |              | c488         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 52  | NTIA         | SPDXRef-Pack | github.com/bep/gowebp     | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | e6004f9b47e9 |                           |                           |
+|     |              | 7d61         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 53  | NTIA         | SPDXRef-Pack | github.com/bep/helpers    | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 50434887a6e6 |                           |                           |
+|     |              | a70d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 54  | NTIA         | SPDXRef-Pack | github.com/bep/imagemeta  | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | f591f3680a57 |                           |                           |
+|     |              | 0edb         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 55  | NTIA         | SPDXRef-Pack | github.com/bep/lazycache  | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | e08ab3fd42d2 |                           |                           |
+|     |              | dfc3         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 56  | NTIA         | SPDXRef-Pack | github.com/bep/logg       | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 7e99ba6f63db |                           |                           |
+|     |              | 4868         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 57  | NTIA         | SPDXRef-Pack | github.com/bep/mclib      | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 2eff211f723a |                           |                           |
+|     |              | d6ec         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 58  | NTIA         | SPDXRef-     | github.com/bep/overlayfs  | Package without a package |
+|     | validation   | Package-bd0d |                           | supplier                  |
+|     | error        | d1b197408f5c |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 59  | NTIA         | SPDXRef-Pack | github.com/bep/simplecobr | Package without a package |
+|     | validation   | age-         | a                         | supplier                  |
+|     | error        | b8a66802c7ca |                           |                           |
+|     |              | 9cd9         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 60  | NTIA         | SPDXRef-Pack | github.com/bep/tmc        | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 54fdb3ab5190 |                           |                           |
+|     |              | 5c7a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 61  | NTIA         | SPDXRef-Pack | github.com/cespare/xxhash | Package without a package |
+|     | validation   | age-         | /v2                       | supplier                  |
+|     | error        | 9e66791d8ab8 |                           |                           |
+|     |              | 89d9         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 62  | NTIA         | SPDXRef-Pack | github.com/clbanning/mxj/ | Package without a package |
+|     | validation   | age-         | v2                        | supplier                  |
+|     | error        | 2ab5f0334daf |                           |                           |
+|     |              | 53ac         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 63  | NTIA         | SPDXRef-Pack | github.com/cpuguy83/go-   | Package without a package |
+|     | validation   | age-         | md2man/v2                 | supplier                  |
+|     | error        | f7b1a9a3adbd |                           |                           |
+|     |              | 5154         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 64  | NTIA         | SPDXRef-     | github.com/disintegration | Package without a package |
+|     | validation   | Package-ec8e | /gift                     | supplier                  |
+|     | error        | 9b46080e9760 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 65  | NTIA         | SPDXRef-Pack | github.com/dlclark/regexp | Package without a package |
+|     | validation   | age-         | 2                         | supplier                  |
+|     | error        | 6f6f993e7b38 |                           |                           |
+|     |              | 3af1         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 66  | NTIA         | SPDXRef-Pack | github.com/dustin/go-     | Package without a package |
+|     | validation   | age-         | humanize                  | supplier                  |
+|     | error        | 70f44f2b6b5a |                           |                           |
+|     |              | df0f         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 67  | NTIA         | SPDXRef-Pack | github.com/evanw/esbuild  | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 75a173af421c |                           |                           |
+|     |              | 40d2         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 68  | NTIA         | SPDXRef-     | github.com/fatih/color    | Package without a package |
+|     | validation   | Package-dc90 |                           | supplier                  |
+|     | error        | 3aad18b63897 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 69  | NTIA         | SPDXRef-Pack | github.com/felixge/httpsn | Package without a package |
+|     | validation   | age-         | oop                       | supplier                  |
+|     | error        | 4d6c1b6c6bcc |                           |                           |
+|     |              | 7c58         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 70  | NTIA         | SPDXRef-Pack | github.com/fortytw2/leakt | Package without a package |
+|     | validation   | age-         | est                       | supplier                  |
+|     | error        | 6e2c218c3942 |                           |                           |
+|     |              | 08ed         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 71  | NTIA         | SPDXRef-Pack | github.com/frankban/quick | Package without a package |
+|     | validation   | age-         | test                      | supplier                  |
+|     | error        | 3cbfe156299e |                           |                           |
+|     |              | 59e3         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 72  | NTIA         | SPDXRef-Pack | github.com/fsnotify/fsnot | Package without a package |
+|     | validation   | age-         | ify                       | supplier                  |
+|     | error        | 48b67dd53711 |                           |                           |
+|     |              | 4993         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 73  | NTIA         | SPDXRef-     | github.com/getkin/kin-    | Package without a package |
+|     | validation   | Package-ba40 | openapi                   | supplier                  |
+|     | error        | ccef21aff5a7 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 74  | NTIA         | SPDXRef-Pack | github.com/ghodss/yaml    | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 92a23cca9012 |                           |                           |
+|     |              | 7217         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 75  | NTIA         | SPDXRef-Pack | github.com/go-logr/logr   | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 7b45e6be8ea1 |                           |                           |
+|     |              | 671e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 76  | NTIA         | SPDXRef-Pack | github.com/go-logr/stdr   | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 383c41b0a994 |                           |                           |
+|     |              | 5888         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 77  | NTIA         | SPDXRef-Pack | github.com/go-            | Package without a package |
+|     | validation   | age-         | openapi/jsonpointer       | supplier                  |
+|     | error        | 1142d6b28d77 |                           |                           |
+|     |              | 585b         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 78  | NTIA         | SPDXRef-Pack | github.com/go-            | Package without a package |
+|     | validation   | age-         | openapi/swag              | supplier                  |
+|     | error        | a15f506f7a41 |                           |                           |
+|     |              | 70ad         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 79  | NTIA         | SPDXRef-     | github.com/gobuffalo/flec | Package without a package |
+|     | validation   | Package-cb01 | t                         | supplier                  |
+|     | error        | 6a9410a4ce01 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 80  | NTIA         | SPDXRef-Pack | github.com/gobwas/glob    | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 9dc33e33dcd7 |                           |                           |
+|     |              | 9fb7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 81  | NTIA         | SPDXRef-Pack | github.com/gohugoio/go-   | Package without a package |
+|     | validation   | age-         | i18n/v2                   | supplier                  |
+|     | error        | 5deccc92e987 |                           |                           |
+|     |              | bc5f         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 82  | NTIA         | SPDXRef-Pack | github.com/gohugoio/gohug | Package without a package |
+|     | validation   | age-         | oioTheme                  | supplier                  |
+|     | error        | f005af8bbefa |                           |                           |
+|     |              | be69         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 83  | NTIA         | SPDXRef-Pack | github.com/gohugoio/hashs | Package without a package |
+|     | validation   | age-         | tructure                  | supplier                  |
+|     | error        | 944d9c761b58 |                           |                           |
+|     |              | 65a7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 84  | NTIA         | SPDXRef-     | github.com/gohugoio/httpc | Package without a package |
+|     | validation   | Package-ea5c | ache                      | supplier                  |
+|     | error        | 58c115d074dd |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 85  | NTIA         | SPDXRef-Pack | github.com/gohugoio/hugo  | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | c4bceb7a0149 |                           |                           |
+|     |              | f5ad         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 86  | NTIA         | SPDXRef-Pack | github.com/gohugoio/hugo- | Package without a package |
+|     | validation   | age-         | goldmark-                 | supplier                  |
+|     | error        | 984461caa849 | extensions/extras         |                           |
+|     |              | d200         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 87  | NTIA         | SPDXRef-Pack | github.com/gohugoio/hugo- | Package without a package |
+|     | validation   | age-         | goldmark-                 | supplier                  |
+|     | error        | 1a59be9e4acb | extensions/passthrough    |                           |
+|     |              | efbc         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 88  | NTIA         | SPDXRef-Pack | github.com/gohugoio/hugoD | Package without a package |
+|     | validation   | age-         | ocs                       | supplier                  |
+|     | error        | e21de2ff70a9 |                           |                           |
+|     |              | 56d5         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 89  | NTIA         | SPDXRef-     | github.com/gohugoio/local | Package without a package |
+|     | validation   | Package-cda6 | es                        | supplier                  |
+|     | error        | 04d17801c40a |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 90  | NTIA         | SPDXRef-Pack | github.com/gohugoio/local | Package without a package |
+|     | validation   | age-         | escompressed              | supplier                  |
+|     | error        | f1230fdcd921 |                           |                           |
+|     |              | 321          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 91  | NTIA         | SPDXRef-Pack | github.com/gohugoio/testm | Package without a package |
+|     | validation   | age-         | odBuilder/mods            | supplier                  |
+|     | error        | e826e1149a9b |                           |                           |
+|     |              | d2ed         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 92  | NTIA         | SPDXRef-     | github.com/golang-        | Package without a package |
+|     | validation   | Package-bb86 | jwt/jwt/v5                | supplier                  |
+|     | error        | 45e3bc6d040e |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 93  | NTIA         | SPDXRef-Pack | github.com/golang/groupca | Package without a package |
+|     | validation   | age-         | che                       | supplier                  |
+|     | error        | 945b5ff65af3 |                           |                           |
+|     |              | 9416         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 94  | NTIA         | SPDXRef-Pack | github.com/google/go-cmp  | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | f4c6e1f40b17 |                           |                           |
+|     |              | 8f36         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 95  | NTIA         | SPDXRef-Pack | github.com/google/s2a-go  | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | f21fd97f2e03 |                           |                           |
+|     |              | 4d02         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 96  | NTIA         | SPDXRef-Pack | github.com/google/uuid    | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | c078fb5a778f |                           |                           |
+|     |              | 21b8         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 97  | NTIA         | SPDXRef-Pack | github.com/google/wire    | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 9f96d3b6f168 |                           |                           |
+|     |              | 61cb         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 98  | NTIA         | SPDXRef-Pack | github.com/googleapis/ent | Package without a package |
+|     | validation   | age-         | erprise-certificate-proxy | supplier                  |
+|     | error        | 2c49d99986cc |                           |                           |
+|     |              | 3641         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 99  | NTIA         | SPDXRef-Pack | github.com/googleapis/gax | Package without a package |
+|     | validation   | age-         | -go/v2                    | supplier                  |
+|     | error        | 5317676c2535 |                           |                           |
+|     |              | 526e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 100 | NTIA         | SPDXRef-     | github.com/gorilla/websoc | Package without a package |
+|     | validation   | Package-eda4 | ket                       | supplier                  |
+|     | error        | fb6ca597a815 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 101 | NTIA         | SPDXRef-Pack | github.com/hairyhenderson | Package without a package |
+|     | validation   | age-         | /go-codeowners            | supplier                  |
+|     | error        | 5ab42cd7b0dc |                           |                           |
+|     |              | 6c4a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 102 | NTIA         | SPDXRef-Pack | github.com/hashicorp/gola | Package without a package |
+|     | validation   | age-         | ng-lru/v2                 | supplier                  |
+|     | error        | 6f74ec82d691 |                           |                           |
+|     |              | c1a9         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 103 | NTIA         | SPDXRef-     | github.com/inconshreveabl | Package without a package |
+|     | validation   | Package-ab1f | e/mousetrap               | supplier                  |
+|     | error        | 795d3096aa7e |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 104 | NTIA         | SPDXRef-Pack | github.com/jdkato/prose   | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 26823aa15823 |                           |                           |
+|     |              | 531a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 105 | NTIA         | SPDXRef-Pack | github.com/jmespath/go-   | Package without a package |
+|     | validation   | age-         | jmespath                  | supplier                  |
+|     | error        | 1de9d4c0e271 |                           |                           |
+|     |              | 93cb         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 106 | NTIA         | SPDXRef-Pack | github.com/josharian/inte | Package without a package |
+|     | validation   | age-         | rn                        | supplier                  |
+|     | error        | 71264cc8616f |                           |                           |
+|     |              | d141         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 107 | NTIA         | SPDXRef-Pack | github.com/kr/pretty      | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 4b31d6be1291 |                           |                           |
+|     |              | 58d8         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 108 | NTIA         | SPDXRef-Pack | github.com/kr/text        | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 99dd51806920 |                           |                           |
+|     |              | 6764         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 109 | NTIA         | SPDXRef-Pack | github.com/kylelemons/god | Package without a package |
+|     | validation   | age-         | ebug                      | supplier                  |
+|     | error        | 8accdcf7367d |                           |                           |
+|     |              | 29f6         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 110 | NTIA         | SPDXRef-Pack | github.com/kyokomi/emoji/ | Package without a package |
+|     | validation   | age-         | v2                        | supplier                  |
+|     | error        | c49b492a4baf |                           |                           |
+|     |              | 0fef         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 111 | NTIA         | SPDXRef-Pack | github.com/magefile/mage  | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | b187ced420c9 |                           |                           |
+|     |              | a47f         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 112 | NTIA         | SPDXRef-Pack | github.com/mailru/easyjso | Package without a package |
+|     | validation   | age-         | n                         | supplier                  |
+|     | error        | 1a6d677f7c9a |                           |                           |
+|     |              | 4ab4         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 113 | NTIA         | SPDXRef-Pack | github.com/makeworld-the- | Package without a package |
+|     | validation   | age-         | better-one/dither/v2      | supplier                  |
+|     | error        | 7791c0f884a2 |                           |                           |
+|     |              | ebf3         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 114 | NTIA         | SPDXRef-Pack | github.com/marekm4/color- | Package without a package |
+|     | validation   | age-         | extractor                 | supplier                  |
+|     | error        | c86e62e67c45 |                           |                           |
+|     |              | 175d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 115 | NTIA         | SPDXRef-Pack | github.com/mattn/go-      | Package without a package |
+|     | validation   | age-         | colorable                 | supplier                  |
+|     | error        | 767602d33ec4 |                           |                           |
+|     |              | cb11         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 116 | NTIA         | SPDXRef-Pack | github.com/mattn/go-      | Package without a package |
+|     | validation   | age-         | isatty                    | supplier                  |
+|     | error        | 5dfba48c8226 |                           |                           |
+|     |              | c8ee         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 117 | NTIA         | SPDXRef-     | github.com/mattn/go-      | Package without a package |
+|     | validation   | Package-aede | runewidth                 | supplier                  |
+|     | error        | 26e24036aefb |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 118 | NTIA         | SPDXRef-     | github.com/mitchellh/maps | Package without a package |
+|     | validation   | Package-fa3c | tructure                  | supplier                  |
+|     | error        | 04eeee314872 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 119 | NTIA         | SPDXRef-Pack | github.com/mohae/deepcopy | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 63c82912d149 |                           |                           |
+|     |              | 5f15         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 120 | NTIA         | SPDXRef-Pack | github.com/muesli/smartcr | Package without a package |
+|     | validation   | age-         | op                        | supplier                  |
+|     | error        | 2ec9ce2ac5c0 |                           |                           |
+|     |              | f3d3         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 121 | NTIA         | SPDXRef-Pack | github.com/nfnt/resize    | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 8d5fb13f71ca |                           |                           |
+|     |              | 2d52         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 122 | NTIA         | SPDXRef-Pack | github.com/niklasfasching | Package without a package |
+|     | validation   | age-         | /go-org                   | supplier                  |
+|     | error        | a9446ea73121 |                           |                           |
+|     |              | 0545         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 123 | NTIA         | SPDXRef-Pack | github.com/oasdiff/yaml   | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | e7cad53b423d |                           |                           |
+|     |              | 36ef         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 124 | NTIA         | SPDXRef-     | github.com/oasdiff/yaml3  | Package without a package |
+|     | validation   | Package-bbf5 |                           | supplier                  |
+|     | error        | 9d347b096bdf |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 125 | NTIA         | SPDXRef-Pack | github.com/olekukonko/tab | Package without a package |
+|     | validation   | age-         | lewriter                  | supplier                  |
+|     | error        | c847712f9b97 |                           |                           |
+|     |              | 2be7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 126 | NTIA         | SPDXRef-Pack | github.com/pbnjay/memory  | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | e7af5bd1fde8 |                           |                           |
+|     |              | a925         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 127 | NTIA         | SPDXRef-Pack | github.com/pelletier/go-  | Package without a package |
+|     | validation   | age-         | toml/v2                   | supplier                  |
+|     | error        | 5c3142c49afd |                           |                           |
+|     |              | 4160         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 128 | NTIA         | SPDXRef-Pack | github.com/perimeterx/mar | Package without a package |
+|     | validation   | age-         | shmallow                  | supplier                  |
+|     | error        | b73c250eb81e |                           |                           |
+|     |              | 8c98         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 129 | NTIA         | SPDXRef-Pack | github.com/pkg/browser    | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 3d046a549b6a |                           |                           |
+|     |              | fb4d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 130 | NTIA         | SPDXRef-Pack | github.com/pkg/errors     | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 7cb0eb6b4bf9 |                           |                           |
+|     |              | f000         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 131 | NTIA         | SPDXRef-Pack | github.com/rogpeppe/go-   | Package without a package |
+|     | validation   | age-         | internal                  | supplier                  |
+|     | error        | 947cb1a9884d |                           |                           |
+|     |              | d052         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 132 | NTIA         | SPDXRef-Pack | github.com/russross/black | Package without a package |
+|     | validation   | age-         | friday/v2                 | supplier                  |
+|     | error        | e9e8f38b3d86 |                           |                           |
+|     |              | f119         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 133 | NTIA         | SPDXRef-Pack | github.com/sanity-        | Package without a package |
+|     | validation   | age-         | io/litter                 | supplier                  |
+|     | error        | 1786280d16d6 |                           |                           |
+|     |              | 2be2         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 134 | NTIA         | SPDXRef-Pack | github.com/spf13/afero    | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 9bf269389bb7 |                           |                           |
+|     |              | 7626         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 135 | NTIA         | SPDXRef-Pack | github.com/spf13/cast     | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 1895cf101330 |                           |                           |
+|     |              | ff8b         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 136 | NTIA         | SPDXRef-Pack | github.com/spf13/cobra    | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | d765865a481b |                           |                           |
+|     |              | 51e7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 137 | NTIA         | SPDXRef-Pack | github.com/spf13/fsync    | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | c7742950eeea |                           |                           |
+|     |              | aeee         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 138 | NTIA         | SPDXRef-Pack | github.com/spf13/pflag    | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | f6796095472d |                           |                           |
+|     |              | 5d96         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 139 | NTIA         | SPDXRef-Pack | github.com/tdewolff/minif | Package without a package |
+|     | validation   | age-         | y/v2                      | supplier                  |
+|     | error        | 446890fadc52 |                           |                           |
+|     |              | 1933         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 140 | NTIA         | SPDXRef-Pack | github.com/tdewolff/parse | Package without a package |
+|     | validation   | age-         | /v2                       | supplier                  |
+|     | error        | 9b380089579c |                           |                           |
+|     |              | 75f5         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 141 | NTIA         | SPDXRef-Pack | github.com/tetratelabs/wa | Package without a package |
+|     | validation   | age-         | zero                      | supplier                  |
+|     | error        | 2f23b4896e30 |                           |                           |
+|     |              | 547          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 142 | NTIA         | SPDXRef-Pack | github.com/yuin/goldmark  | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 338eed6a4633 |                           |                           |
+|     |              | f0e          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 143 | NTIA         | SPDXRef-Pack | github.com/yuin/goldmark- | Package without a package |
+|     | validation   | age-         | emoji                     | supplier                  |
+|     | error        | a4323f95991d |                           |                           |
+|     |              | a9fa         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 144 | NTIA         | SPDXRef-     | go.opencensus.io          | Package without a package |
+|     | validation   | Package-cdd1 |                           | supplier                  |
+|     | error        | 559d828337ba |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 145 | NTIA         | SPDXRef-Pack | go.opentelemetry.io/auto/ | Package without a package |
+|     | validation   | age-         | sdk                       | supplier                  |
+|     | error        | 8b9d75597b79 |                           |                           |
+|     |              | 3a3d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 146 | NTIA         | SPDXRef-Pack | go.opentelemetry.io/contr | Package without a package |
+|     | validation   | age-         | ib/instrumentation/google | supplier                  |
+|     | error        | f83673708a3a | .golang.org/grpc/otelgrpc |                           |
+|     |              | d0df         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 147 | NTIA         | SPDXRef-     | go.opentelemetry.io/contr | Package without a package |
+|     | validation   | Package-ce9a | ib/instrumentation/net/ht | supplier                  |
+|     | error        | 09789aa74060 | tp/otelhttp               |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 148 | NTIA         | SPDXRef-Pack | go.opentelemetry.io/otel  | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 2915b5c105cf |                           |                           |
+|     |              | b5ff         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 149 | NTIA         | SPDXRef-Pack | go.opentelemetry.io/otel/ | Package without a package |
+|     | validation   | age-         | metric                    | supplier                  |
+|     | error        | a4445352965b |                           |                           |
+|     |              | d375         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 150 | NTIA         | SPDXRef-Pack | go.opentelemetry.io/otel/ | Package without a package |
+|     | validation   | age-         | trace                     | supplier                  |
+|     | error        | 5efe7804f90a |                           |                           |
+|     |              | a31          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 151 | NTIA         | SPDXRef-Pack | go.uber.org/automaxprocs  | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 13c98328d1a9 |                           |                           |
+|     |              | f150         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 152 | NTIA         | SPDXRef-Pack | gocloud.dev               | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 8c965ca2bc59 |                           |                           |
+|     |              | 96e6         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 153 | NTIA         | SPDXRef-Pack | golang.org/x/crypto       | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 5734b3132052 |                           |                           |
+|     |              | df07         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 154 | NTIA         | SPDXRef-Pack | golang.org/x/exp          | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 87547bbef9b2 |                           |                           |
+|     |              | 29e4         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 155 | NTIA         | SPDXRef-Pack | golang.org/x/image        | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 8a42f116d886 |                           |                           |
+|     |              | 88c3         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 156 | NTIA         | SPDXRef-Pack | golang.org/x/mod          | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 78429fce61f0 |                           |                           |
+|     |              | 17dc         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 157 | NTIA         | SPDXRef-Pack | golang.org/x/net          | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 562ff29294b1 |                           |                           |
+|     |              | 5fac         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 158 | NTIA         | SPDXRef-Pack | golang.org/x/oauth2       | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | a71bc8e3aaea |                           |                           |
+|     |              | 8480         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 159 | NTIA         | SPDXRef-Pack | golang.org/x/sync         | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | c0509b0a4d66 |                           |                           |
+|     |              | 5669         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 160 | NTIA         | SPDXRef-     | golang.org/x/sys          | Package without a package |
+|     | validation   | Package-ab47 |                           | supplier                  |
+|     | error        | 7c585eee85bc |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 161 | NTIA         | SPDXRef-Pack | golang.org/x/text         | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 348b04f18730 |                           |                           |
+|     |              | fb03         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 162 | NTIA         | SPDXRef-Pack | golang.org/x/time         | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 248fd4dc6cb4 |                           |                           |
+|     |              | 5cb8         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 163 | NTIA         | SPDXRef-Pack | golang.org/x/tools        | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 8125acf12f72 |                           |                           |
+|     |              | 91b9         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 164 | NTIA         | SPDXRef-Pack | golang.org/x/xerrors      | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 981d45074e9e |                           |                           |
+|     |              | 5e4a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 165 | NTIA         | SPDXRef-     | google.golang.org/api     | Package without a package |
+|     | validation   | Package-dbc6 |                           | supplier                  |
+|     | error        | e79afc22d4e5 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 166 | NTIA         | SPDXRef-Pack | google.golang.org/genprot | Package without a package |
+|     | validation   | age-         | o                         | supplier                  |
+|     | error        | 826c83465073 |                           |                           |
+|     |              | 9924         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 167 | NTIA         | SPDXRef-Pack | google.golang.org/genprot | Package without a package |
+|     | validation   | age-         | o/googleapis/api          | supplier                  |
+|     | error        | f14e08afa74c |                           |                           |
+|     |              | 4d00         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 168 | NTIA         | SPDXRef-Pack | google.golang.org/genprot | Package without a package |
+|     | validation   | age-         | o/googleapis/rpc          | supplier                  |
+|     | error        | 2b119b7a17f1 |                           |                           |
+|     |              | a7d1         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 169 | NTIA         | SPDXRef-Pack | google.golang.org/grpc    | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 5701a560e0e0 |                           |                           |
+|     |              | 151d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 170 | NTIA         | SPDXRef-Pack | google.golang.org/protobu | Package without a package |
+|     | validation   | age-         | f                         | supplier                  |
+|     | error        | 13ef5d6e09f0 |                           |                           |
+|     |              | 7c78         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 171 | NTIA         | SPDXRef-Pack | gopkg.in/yaml.v2          | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | d03c69732038 |                           |                           |
+|     |              | 5b32         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 172 | NTIA         | SPDXRef-Pack | gopkg.in/yaml.v3          | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 5083e48fd109 |                           |                           |
+|     |              | 9f7          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 173 | NTIA         | SPDXRef-Pack | howett.net/plist          | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 992a4c304365 |                           |                           |
+|     |              | 12ff         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 174 | NTIA         | SPDXRef-Pack | rsc.io/qr                 | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 25677e5c9d09 |                           |                           |
+|     |              | 310a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 175 | NTIA         | SPDXRef-     | software.sslmate.com/src/ | Package without a package |
+|     | validation   | Package-ffb1 | go-pkcs12                 | supplier                  |
+|     | error        | 27c80607883c |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 176 | NTIA         | SPDXRef-File | .                         | Package without a package |
+|     | validation   | system-      |                           | supplier                  |
+|     | error        | 1465386cfbe4 |                           |                           |
+|     |              | e9c7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 177 | Missing      | General      | General                   | CreatorComment is missing |
+|     | mandatory    |              |                           |                           |
+|     | field from   |              |                           |                           |
+|     | CreationInfo |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 178 | Missing      | SPDXRef-Appl | docs/go.mod               | ExternalRef field is      |
+|     | mandatory    | ication-     |                           | missing                   |
+|     | field from   | 21b0f7823fcd |                           |                           |
+|     | Package      | b07e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 179 | Missing      | SPDXRef-Appl | docs/go.mod               | Both PackageChecksum and  |
+|     | mandatory    | ication-     |                           | PackageVerificationCode   |
+|     | field from   | 21b0f7823fcd |                           | fields are missing        |
+|     | Package      | b07e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 180 | Missing      | SPDXRef-     | go.mod                    | ExternalRef field is      |
+|     | mandatory    | Application- |                           | missing                   |
+|     | field from   | cac518ef1d8f |                           |                           |
+|     | Package      | f1ba         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 181 | Missing      | SPDXRef-     | go.mod                    | Both PackageChecksum and  |
+|     | mandatory    | Application- |                           | PackageVerificationCode   |
+|     | field from   | cac518ef1d8f |                           | fields are missing        |
+|     | Package      | f1ba         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 182 | Missing      | SPDXRef-Pack | cloud.google.com/go       | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 51979d47175e |                           | fields are missing        |
+|     | Package      | d73b         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 183 | Missing      | SPDXRef-Pack | cloud.google.com/go/auth  | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 940c2134ccae |                           | fields are missing        |
+|     | Package      | d223         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 184 | Missing      | SPDXRef-Pack | cloud.google.com/go/auth/ | Both PackageChecksum and  |
+|     | mandatory    | age-         | oauth2adapt               | PackageVerificationCode   |
+|     | field from   | 7044167e5708 |                           | fields are missing        |
+|     | Package      | 5bb4         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 185 | Missing      | SPDXRef-Pack | cloud.google.com/go/compu | Both PackageChecksum and  |
+|     | mandatory    | age-         | te/metadata               | PackageVerificationCode   |
+|     | field from   | 9187ef117498 |                           | fields are missing        |
+|     | Package      | 7cc4         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 186 | Missing      | SPDXRef-Pack | cloud.google.com/go/iam   | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 6a953e4cf909 |                           | fields are missing        |
+|     | Package      | 2080         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 187 | Missing      | SPDXRef-Pack | cloud.google.com/go/stora | Both PackageChecksum and  |
+|     | mandatory    | age-         | ge                        | PackageVerificationCode   |
+|     | field from   | 2e06978eba98 |                           | fields are missing        |
+|     | Package      | bc57         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 188 | Missing      | SPDXRef-Pack | github.com/Azure/azure-   | Both PackageChecksum and  |
+|     | mandatory    | age-         | sdk-for-go/sdk/azcore     | PackageVerificationCode   |
+|     | field from   | a5763023f6e3 |                           | fields are missing        |
+|     | Package      | 2951         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 189 | Missing      | SPDXRef-Pack | github.com/Azure/azure-   | Both PackageChecksum and  |
+|     | mandatory    | age-         | sdk-for-go/sdk/azidentity | PackageVerificationCode   |
+|     | field from   | 2f0986a53f33 |                           | fields are missing        |
+|     | Package      | 0acc         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 190 | Missing      | SPDXRef-Pack | github.com/Azure/azure-   | Both PackageChecksum and  |
+|     | mandatory    | age-         | sdk-for-go/sdk/internal   | PackageVerificationCode   |
+|     | field from   | 887857adee4a |                           | fields are missing        |
+|     | Package      | 3d13         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 191 | Missing      | SPDXRef-     | github.com/Azure/azure-   | Both PackageChecksum and  |
+|     | mandatory    | Package-ab48 | sdk-for-                  | PackageVerificationCode   |
+|     | field from   | 96bc2c144c1d | go/sdk/storage/azblob     | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 192 | Missing      | SPDXRef-     | github.com/Azure/go-      | Both PackageChecksum and  |
+|     | mandatory    | Package-afb9 | autorest                  | PackageVerificationCode   |
+|     | field from   | c149709705e  |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 193 | Missing      | SPDXRef-Pack | github.com/Azure/go-      | Both PackageChecksum and  |
+|     | mandatory    | age-         | autorest/autorest/to      | PackageVerificationCode   |
+|     | field from   | 48be6304d1ab |                           | fields are missing        |
+|     | Package      | 7737         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 194 | Missing      | SPDXRef-Pack | github.com/AzureAD/micros | Both PackageChecksum and  |
+|     | mandatory    | age-         | oft-authentication-       | PackageVerificationCode   |
+|     | field from   | d4d7753ba56c | library-for-go            | fields are missing        |
+|     | Package      | 81d0         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 195 | Missing      | SPDXRef-     | github.com/BurntSushi/loc | Both PackageChecksum and  |
+|     | mandatory    | Package-bda8 | ker                       | PackageVerificationCode   |
+|     | field from   | 4fe3931efd78 |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 196 | Missing      | SPDXRef-Pack | github.com/alecthomas/chr | Both PackageChecksum and  |
+|     | mandatory    | age-         | oma/v2                    | PackageVerificationCode   |
+|     | field from   | 410bae17c959 |                           | fields are missing        |
+|     | Package      | 10b0         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 197 | Missing      | SPDXRef-     | github.com/armon/go-radix | Both PackageChecksum and  |
+|     | mandatory    | Package-ccf7 |                           | PackageVerificationCode   |
+|     | field from   | 2b2dc3b2469d |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 198 | Missing      | SPDXRef-Pack | github.com/aws/aws-sdk-go | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | b3ddd1000a60 |                           | fields are missing        |
+|     | Package      | 87eb         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 199 | Missing      | SPDXRef-Pack | github.com/aws/aws-sdk-   | Both PackageChecksum and  |
+|     | mandatory    | age-         | go-v2                     | PackageVerificationCode   |
+|     | field from   | c09dc2e9abd6 |                           | fields are missing        |
+|     | Package      | a3f2         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 200 | Missing      | SPDXRef-Pack | github.com/aws/aws-sdk-go | Both PackageChecksum and  |
+|     | mandatory    | age-         | -v2/aws/protocol/eventstr | PackageVerificationCode   |
+|     | field from   | 303e8676c42b | eam                       | fields are missing        |
+|     | Package      | 8389         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 201 | Missing      | SPDXRef-Pack | github.com/aws/aws-sdk-   | Both PackageChecksum and  |
+|     | mandatory    | age-         | go-v2/config              | PackageVerificationCode   |
+|     | field from   | 6da0e9f4737a |                           | fields are missing        |
+|     | Package      | 5692         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 202 | Missing      | SPDXRef-Pack | github.com/aws/aws-sdk-   | Both PackageChecksum and  |
+|     | mandatory    | age-         | go-v2/credentials         | PackageVerificationCode   |
+|     | field from   | 6b23438e88a2 |                           | fields are missing        |
+|     | Package      | d640         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 203 | Missing      | SPDXRef-Pack | github.com/aws/aws-sdk-   | Both PackageChecksum and  |
+|     | mandatory    | age-         | go-v2/feature/ec2/imds    | PackageVerificationCode   |
+|     | field from   | f951f3d30444 |                           | fields are missing        |
+|     | Package      | 793e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 204 | Missing      | SPDXRef-Pack | github.com/aws/aws-sdk-   | Both PackageChecksum and  |
+|     | mandatory    | age-         | go-v2/feature/s3/manager  | PackageVerificationCode   |
+|     | field from   | 29d7401cd9e4 |                           | fields are missing        |
+|     | Package      | 544d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 205 | Missing      | SPDXRef-Pack | github.com/aws/aws-sdk-go | Both PackageChecksum and  |
+|     | mandatory    | age-         | -v2/internal/configsource | PackageVerificationCode   |
+|     | field from   | 7b15bc45f48e | s                         | fields are missing        |
+|     | Package      | 0346         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 206 | Missing      | SPDXRef-Pack | github.com/aws/aws-sdk-go | Both PackageChecksum and  |
+|     | mandatory    | age-         | -v2/internal/endpoints/v2 | PackageVerificationCode   |
+|     | field from   | 9672b9a1aaf5 |                           | fields are missing        |
+|     | Package      | e516         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 207 | Missing      | SPDXRef-Pack | github.com/aws/aws-sdk-   | Both PackageChecksum and  |
+|     | mandatory    | age-         | go-v2/internal/ini        | PackageVerificationCode   |
+|     | field from   | 90b70d10e3ea |                           | fields are missing        |
+|     | Package      | ae30         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 208 | Missing      | SPDXRef-Pack | github.com/aws/aws-sdk-   | Both PackageChecksum and  |
+|     | mandatory    | age-         | go-v2/internal/v4a        | PackageVerificationCode   |
+|     | field from   | a54e811aafc0 |                           | fields are missing        |
+|     | Package      | 3e80         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 209 | Missing      | SPDXRef-Pack | github.com/aws/aws-sdk-   | Both PackageChecksum and  |
+|     | mandatory    | age-         | go-v2/service/cloudfront  | PackageVerificationCode   |
+|     | field from   | 301596c4853e |                           | fields are missing        |
+|     | Package      | 19b6         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 210 | Missing      | SPDXRef-Pack | github.com/aws/aws-sdk-go | Both PackageChecksum and  |
+|     | mandatory    | age-         | -v2/service/internal/acce | PackageVerificationCode   |
+|     | field from   | 9b23c72009e0 | pt-encoding               | fields are missing        |
+|     | Package      | 09d2         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 211 | Missing      | SPDXRef-Pack | github.com/aws/aws-sdk-go | Both PackageChecksum and  |
+|     | mandatory    | age-         | -v2/service/internal/chec | PackageVerificationCode   |
+|     | field from   | 2e4bd6a74954 | ksum                      | fields are missing        |
+|     | Package      | f942         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 212 | Missing      | SPDXRef-Pack | github.com/aws/aws-sdk-go | Both PackageChecksum and  |
+|     | mandatory    | age-         | -v2/service/internal/pres | PackageVerificationCode   |
+|     | field from   | 1a4361b521e4 | igned-url                 | fields are missing        |
+|     | Package      | 49b5         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 213 | Missing      | SPDXRef-Pack | github.com/aws/aws-sdk-go | Both PackageChecksum and  |
+|     | mandatory    | age-         | -v2/service/internal/s3sh | PackageVerificationCode   |
+|     | field from   | 9d8ad23bc267 | ared                      | fields are missing        |
+|     | Package      | 233e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 214 | Missing      | SPDXRef-Pack | github.com/aws/aws-sdk-   | Both PackageChecksum and  |
+|     | mandatory    | age-         | go-v2/service/s3          | PackageVerificationCode   |
+|     | field from   | 30476469def4 |                           | fields are missing        |
+|     | Package      | 6463         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 215 | Missing      | SPDXRef-Pack | github.com/aws/aws-sdk-   | Both PackageChecksum and  |
+|     | mandatory    | age-         | go-v2/service/sso         | PackageVerificationCode   |
+|     | field from   | 9d82d2ed670c |                           | fields are missing        |
+|     | Package      | 8163         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 216 | Missing      | SPDXRef-Pack | github.com/aws/aws-sdk-   | Both PackageChecksum and  |
+|     | mandatory    | age-         | go-v2/service/ssooidc     | PackageVerificationCode   |
+|     | field from   | a2a1d853c649 |                           | fields are missing        |
+|     | Package      | ac6d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 217 | Missing      | SPDXRef-     | github.com/aws/aws-sdk-   | Both PackageChecksum and  |
+|     | mandatory    | Package-eea0 | go-v2/service/sts         | PackageVerificationCode   |
+|     | field from   | bb7b505b18d  |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 218 | Missing      | SPDXRef-Pack | github.com/aws/smithy-go  | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 8b16860552da |                           | fields are missing        |
+|     | Package      | 4e23         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 219 | Missing      | SPDXRef-     | github.com/bep/clocks     | Both PackageChecksum and  |
+|     | mandatory    | Package-fbbd |                           | PackageVerificationCode   |
+|     | field from   | 5a96e6dc060f |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 220 | Missing      | SPDXRef-Pack | github.com/bep/debounce   | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 47ffcb958a56 |                           | fields are missing        |
+|     | Package      | 83f0         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 221 | Missing      | SPDXRef-Pack | github.com/bep/gitmap     | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 863112397f14 |                           | fields are missing        |
+|     | Package      | 671c         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 222 | Missing      | SPDXRef-Pack | github.com/bep/goat       | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 9d9ff8856cb5 |                           | fields are missing        |
+|     | Package      | 4cf5         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 223 | Missing      | SPDXRef-Pack | github.com/bep/godartsass | Both PackageChecksum and  |
+|     | mandatory    | age-         | /v2                       | PackageVerificationCode   |
+|     | field from   | 4052d97efff3 |                           | fields are missing        |
+|     | Package      | 8171         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 224 | Missing      | SPDXRef-Pack | github.com/bep/golibsass  | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | f3ad195214ee |                           | fields are missing        |
+|     | Package      | 1ab          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 225 | Missing      | SPDXRef-Pack | github.com/bep/goportable | Both PackageChecksum and  |
+|     | mandatory    | age-         | text                      | PackageVerificationCode   |
+|     | field from   | 2a57efc9bc2e |                           | fields are missing        |
+|     | Package      | c488         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 226 | Missing      | SPDXRef-Pack | github.com/bep/gowebp     | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | e6004f9b47e9 |                           | fields are missing        |
+|     | Package      | 7d61         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 227 | Missing      | SPDXRef-Pack | github.com/bep/helpers    | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 50434887a6e6 |                           | fields are missing        |
+|     | Package      | a70d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 228 | Missing      | SPDXRef-Pack | github.com/bep/imagemeta  | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | f591f3680a57 |                           | fields are missing        |
+|     | Package      | 0edb         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 229 | Missing      | SPDXRef-Pack | github.com/bep/lazycache  | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | e08ab3fd42d2 |                           | fields are missing        |
+|     | Package      | dfc3         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 230 | Missing      | SPDXRef-Pack | github.com/bep/logg       | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 7e99ba6f63db |                           | fields are missing        |
+|     | Package      | 4868         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 231 | Missing      | SPDXRef-Pack | github.com/bep/mclib      | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 2eff211f723a |                           | fields are missing        |
+|     | Package      | d6ec         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 232 | Missing      | SPDXRef-     | github.com/bep/overlayfs  | Both PackageChecksum and  |
+|     | mandatory    | Package-bd0d |                           | PackageVerificationCode   |
+|     | field from   | d1b197408f5c |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 233 | Missing      | SPDXRef-Pack | github.com/bep/simplecobr | Both PackageChecksum and  |
+|     | mandatory    | age-         | a                         | PackageVerificationCode   |
+|     | field from   | b8a66802c7ca |                           | fields are missing        |
+|     | Package      | 9cd9         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 234 | Missing      | SPDXRef-Pack | github.com/bep/tmc        | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 54fdb3ab5190 |                           | fields are missing        |
+|     | Package      | 5c7a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 235 | Missing      | SPDXRef-Pack | github.com/cespare/xxhash | Both PackageChecksum and  |
+|     | mandatory    | age-         | /v2                       | PackageVerificationCode   |
+|     | field from   | 9e66791d8ab8 |                           | fields are missing        |
+|     | Package      | 89d9         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 236 | Missing      | SPDXRef-Pack | github.com/clbanning/mxj/ | Both PackageChecksum and  |
+|     | mandatory    | age-         | v2                        | PackageVerificationCode   |
+|     | field from   | 2ab5f0334daf |                           | fields are missing        |
+|     | Package      | 53ac         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 237 | Missing      | SPDXRef-Pack | github.com/cpuguy83/go-   | Both PackageChecksum and  |
+|     | mandatory    | age-         | md2man/v2                 | PackageVerificationCode   |
+|     | field from   | f7b1a9a3adbd |                           | fields are missing        |
+|     | Package      | 5154         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 238 | Missing      | SPDXRef-     | github.com/disintegration | Both PackageChecksum and  |
+|     | mandatory    | Package-ec8e | /gift                     | PackageVerificationCode   |
+|     | field from   | 9b46080e9760 |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 239 | Missing      | SPDXRef-Pack | github.com/dlclark/regexp | Both PackageChecksum and  |
+|     | mandatory    | age-         | 2                         | PackageVerificationCode   |
+|     | field from   | 6f6f993e7b38 |                           | fields are missing        |
+|     | Package      | 3af1         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 240 | Missing      | SPDXRef-Pack | github.com/dustin/go-     | Both PackageChecksum and  |
+|     | mandatory    | age-         | humanize                  | PackageVerificationCode   |
+|     | field from   | 70f44f2b6b5a |                           | fields are missing        |
+|     | Package      | df0f         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 241 | Missing      | SPDXRef-Pack | github.com/evanw/esbuild  | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 75a173af421c |                           | fields are missing        |
+|     | Package      | 40d2         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 242 | Missing      | SPDXRef-     | github.com/fatih/color    | Both PackageChecksum and  |
+|     | mandatory    | Package-dc90 |                           | PackageVerificationCode   |
+|     | field from   | 3aad18b63897 |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 243 | Missing      | SPDXRef-Pack | github.com/felixge/httpsn | Both PackageChecksum and  |
+|     | mandatory    | age-         | oop                       | PackageVerificationCode   |
+|     | field from   | 4d6c1b6c6bcc |                           | fields are missing        |
+|     | Package      | 7c58         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 244 | Missing      | SPDXRef-Pack | github.com/fortytw2/leakt | Both PackageChecksum and  |
+|     | mandatory    | age-         | est                       | PackageVerificationCode   |
+|     | field from   | 6e2c218c3942 |                           | fields are missing        |
+|     | Package      | 08ed         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 245 | Missing      | SPDXRef-Pack | github.com/frankban/quick | Both PackageChecksum and  |
+|     | mandatory    | age-         | test                      | PackageVerificationCode   |
+|     | field from   | 3cbfe156299e |                           | fields are missing        |
+|     | Package      | 59e3         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 246 | Missing      | SPDXRef-Pack | github.com/fsnotify/fsnot | Both PackageChecksum and  |
+|     | mandatory    | age-         | ify                       | PackageVerificationCode   |
+|     | field from   | 48b67dd53711 |                           | fields are missing        |
+|     | Package      | 4993         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 247 | Missing      | SPDXRef-     | github.com/getkin/kin-    | Both PackageChecksum and  |
+|     | mandatory    | Package-ba40 | openapi                   | PackageVerificationCode   |
+|     | field from   | ccef21aff5a7 |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 248 | Missing      | SPDXRef-Pack | github.com/ghodss/yaml    | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 92a23cca9012 |                           | fields are missing        |
+|     | Package      | 7217         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 249 | Missing      | SPDXRef-Pack | github.com/go-logr/logr   | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 7b45e6be8ea1 |                           | fields are missing        |
+|     | Package      | 671e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 250 | Missing      | SPDXRef-Pack | github.com/go-logr/stdr   | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 383c41b0a994 |                           | fields are missing        |
+|     | Package      | 5888         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 251 | Missing      | SPDXRef-Pack | github.com/go-            | Both PackageChecksum and  |
+|     | mandatory    | age-         | openapi/jsonpointer       | PackageVerificationCode   |
+|     | field from   | 1142d6b28d77 |                           | fields are missing        |
+|     | Package      | 585b         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 252 | Missing      | SPDXRef-Pack | github.com/go-            | Both PackageChecksum and  |
+|     | mandatory    | age-         | openapi/swag              | PackageVerificationCode   |
+|     | field from   | a15f506f7a41 |                           | fields are missing        |
+|     | Package      | 70ad         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 253 | Missing      | SPDXRef-     | github.com/gobuffalo/flec | Both PackageChecksum and  |
+|     | mandatory    | Package-cb01 | t                         | PackageVerificationCode   |
+|     | field from   | 6a9410a4ce01 |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 254 | Missing      | SPDXRef-Pack | github.com/gobwas/glob    | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 9dc33e33dcd7 |                           | fields are missing        |
+|     | Package      | 9fb7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 255 | Missing      | SPDXRef-Pack | github.com/gohugoio/go-   | Both PackageChecksum and  |
+|     | mandatory    | age-         | i18n/v2                   | PackageVerificationCode   |
+|     | field from   | 5deccc92e987 |                           | fields are missing        |
+|     | Package      | bc5f         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 256 | Missing      | SPDXRef-Pack | github.com/gohugoio/gohug | Both PackageChecksum and  |
+|     | mandatory    | age-         | oioTheme                  | PackageVerificationCode   |
+|     | field from   | f005af8bbefa |                           | fields are missing        |
+|     | Package      | be69         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 257 | Missing      | SPDXRef-Pack | github.com/gohugoio/hashs | Both PackageChecksum and  |
+|     | mandatory    | age-         | tructure                  | PackageVerificationCode   |
+|     | field from   | 944d9c761b58 |                           | fields are missing        |
+|     | Package      | 65a7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 258 | Missing      | SPDXRef-     | github.com/gohugoio/httpc | Both PackageChecksum and  |
+|     | mandatory    | Package-ea5c | ache                      | PackageVerificationCode   |
+|     | field from   | 58c115d074dd |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 259 | Missing      | SPDXRef-Pack | github.com/gohugoio/hugo  | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | c4bceb7a0149 |                           | fields are missing        |
+|     | Package      | f5ad         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 260 | Missing      | SPDXRef-Pack | github.com/gohugoio/hugo- | Both PackageChecksum and  |
+|     | mandatory    | age-         | goldmark-                 | PackageVerificationCode   |
+|     | field from   | 984461caa849 | extensions/extras         | fields are missing        |
+|     | Package      | d200         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 261 | Missing      | SPDXRef-Pack | github.com/gohugoio/hugo- | Both PackageChecksum and  |
+|     | mandatory    | age-         | goldmark-                 | PackageVerificationCode   |
+|     | field from   | 1a59be9e4acb | extensions/passthrough    | fields are missing        |
+|     | Package      | efbc         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 262 | Missing      | SPDXRef-Pack | github.com/gohugoio/hugoD | Both PackageChecksum and  |
+|     | mandatory    | age-         | ocs                       | PackageVerificationCode   |
+|     | field from   | e21de2ff70a9 |                           | fields are missing        |
+|     | Package      | 56d5         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 263 | Missing      | SPDXRef-     | github.com/gohugoio/local | Both PackageChecksum and  |
+|     | mandatory    | Package-cda6 | es                        | PackageVerificationCode   |
+|     | field from   | 04d17801c40a |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 264 | Missing      | SPDXRef-Pack | github.com/gohugoio/local | Both PackageChecksum and  |
+|     | mandatory    | age-         | escompressed              | PackageVerificationCode   |
+|     | field from   | f1230fdcd921 |                           | fields are missing        |
+|     | Package      | 321          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 265 | Missing      | SPDXRef-Pack | github.com/gohugoio/testm | Both PackageChecksum and  |
+|     | mandatory    | age-         | odBuilder/mods            | PackageVerificationCode   |
+|     | field from   | e826e1149a9b |                           | fields are missing        |
+|     | Package      | d2ed         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 266 | Missing      | SPDXRef-     | github.com/golang-        | Both PackageChecksum and  |
+|     | mandatory    | Package-bb86 | jwt/jwt/v5                | PackageVerificationCode   |
+|     | field from   | 45e3bc6d040e |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 267 | Missing      | SPDXRef-Pack | github.com/golang/groupca | Both PackageChecksum and  |
+|     | mandatory    | age-         | che                       | PackageVerificationCode   |
+|     | field from   | 945b5ff65af3 |                           | fields are missing        |
+|     | Package      | 9416         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 268 | Missing      | SPDXRef-Pack | github.com/google/go-cmp  | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | f4c6e1f40b17 |                           | fields are missing        |
+|     | Package      | 8f36         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 269 | Missing      | SPDXRef-Pack | github.com/google/s2a-go  | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | f21fd97f2e03 |                           | fields are missing        |
+|     | Package      | 4d02         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 270 | Missing      | SPDXRef-Pack | github.com/google/uuid    | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | c078fb5a778f |                           | fields are missing        |
+|     | Package      | 21b8         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 271 | Missing      | SPDXRef-Pack | github.com/google/wire    | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 9f96d3b6f168 |                           | fields are missing        |
+|     | Package      | 61cb         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 272 | Missing      | SPDXRef-Pack | github.com/googleapis/ent | Both PackageChecksum and  |
+|     | mandatory    | age-         | erprise-certificate-proxy | PackageVerificationCode   |
+|     | field from   | 2c49d99986cc |                           | fields are missing        |
+|     | Package      | 3641         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 273 | Missing      | SPDXRef-Pack | github.com/googleapis/gax | Both PackageChecksum and  |
+|     | mandatory    | age-         | -go/v2                    | PackageVerificationCode   |
+|     | field from   | 5317676c2535 |                           | fields are missing        |
+|     | Package      | 526e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 274 | Missing      | SPDXRef-     | github.com/gorilla/websoc | Both PackageChecksum and  |
+|     | mandatory    | Package-eda4 | ket                       | PackageVerificationCode   |
+|     | field from   | fb6ca597a815 |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 275 | Missing      | SPDXRef-Pack | github.com/hairyhenderson | Both PackageChecksum and  |
+|     | mandatory    | age-         | /go-codeowners            | PackageVerificationCode   |
+|     | field from   | 5ab42cd7b0dc |                           | fields are missing        |
+|     | Package      | 6c4a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 276 | Missing      | SPDXRef-Pack | github.com/hashicorp/gola | Both PackageChecksum and  |
+|     | mandatory    | age-         | ng-lru/v2                 | PackageVerificationCode   |
+|     | field from   | 6f74ec82d691 |                           | fields are missing        |
+|     | Package      | c1a9         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 277 | Missing      | SPDXRef-     | github.com/inconshreveabl | Both PackageChecksum and  |
+|     | mandatory    | Package-ab1f | e/mousetrap               | PackageVerificationCode   |
+|     | field from   | 795d3096aa7e |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 278 | Missing      | SPDXRef-Pack | github.com/jdkato/prose   | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 26823aa15823 |                           | fields are missing        |
+|     | Package      | 531a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 279 | Missing      | SPDXRef-Pack | github.com/jmespath/go-   | Both PackageChecksum and  |
+|     | mandatory    | age-         | jmespath                  | PackageVerificationCode   |
+|     | field from   | 1de9d4c0e271 |                           | fields are missing        |
+|     | Package      | 93cb         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 280 | Missing      | SPDXRef-Pack | github.com/josharian/inte | Both PackageChecksum and  |
+|     | mandatory    | age-         | rn                        | PackageVerificationCode   |
+|     | field from   | 71264cc8616f |                           | fields are missing        |
+|     | Package      | d141         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 281 | Missing      | SPDXRef-Pack | github.com/kr/pretty      | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 4b31d6be1291 |                           | fields are missing        |
+|     | Package      | 58d8         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 282 | Missing      | SPDXRef-Pack | github.com/kr/text        | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 99dd51806920 |                           | fields are missing        |
+|     | Package      | 6764         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 283 | Missing      | SPDXRef-Pack | github.com/kylelemons/god | Both PackageChecksum and  |
+|     | mandatory    | age-         | ebug                      | PackageVerificationCode   |
+|     | field from   | 8accdcf7367d |                           | fields are missing        |
+|     | Package      | 29f6         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 284 | Missing      | SPDXRef-Pack | github.com/kyokomi/emoji/ | Both PackageChecksum and  |
+|     | mandatory    | age-         | v2                        | PackageVerificationCode   |
+|     | field from   | c49b492a4baf |                           | fields are missing        |
+|     | Package      | 0fef         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 285 | Missing      | SPDXRef-Pack | github.com/magefile/mage  | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | b187ced420c9 |                           | fields are missing        |
+|     | Package      | a47f         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 286 | Missing      | SPDXRef-Pack | github.com/mailru/easyjso | Both PackageChecksum and  |
+|     | mandatory    | age-         | n                         | PackageVerificationCode   |
+|     | field from   | 1a6d677f7c9a |                           | fields are missing        |
+|     | Package      | 4ab4         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 287 | Missing      | SPDXRef-Pack | github.com/makeworld-the- | Both PackageChecksum and  |
+|     | mandatory    | age-         | better-one/dither/v2      | PackageVerificationCode   |
+|     | field from   | 7791c0f884a2 |                           | fields are missing        |
+|     | Package      | ebf3         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 288 | Missing      | SPDXRef-Pack | github.com/marekm4/color- | Both PackageChecksum and  |
+|     | mandatory    | age-         | extractor                 | PackageVerificationCode   |
+|     | field from   | c86e62e67c45 |                           | fields are missing        |
+|     | Package      | 175d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 289 | Missing      | SPDXRef-Pack | github.com/mattn/go-      | Both PackageChecksum and  |
+|     | mandatory    | age-         | colorable                 | PackageVerificationCode   |
+|     | field from   | 767602d33ec4 |                           | fields are missing        |
+|     | Package      | cb11         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 290 | Missing      | SPDXRef-Pack | github.com/mattn/go-      | Both PackageChecksum and  |
+|     | mandatory    | age-         | isatty                    | PackageVerificationCode   |
+|     | field from   | 5dfba48c8226 |                           | fields are missing        |
+|     | Package      | c8ee         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 291 | Missing      | SPDXRef-     | github.com/mattn/go-      | Both PackageChecksum and  |
+|     | mandatory    | Package-aede | runewidth                 | PackageVerificationCode   |
+|     | field from   | 26e24036aefb |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 292 | Missing      | SPDXRef-     | github.com/mitchellh/maps | Both PackageChecksum and  |
+|     | mandatory    | Package-fa3c | tructure                  | PackageVerificationCode   |
+|     | field from   | 04eeee314872 |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 293 | Missing      | SPDXRef-Pack | github.com/mohae/deepcopy | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 63c82912d149 |                           | fields are missing        |
+|     | Package      | 5f15         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 294 | Missing      | SPDXRef-Pack | github.com/muesli/smartcr | Both PackageChecksum and  |
+|     | mandatory    | age-         | op                        | PackageVerificationCode   |
+|     | field from   | 2ec9ce2ac5c0 |                           | fields are missing        |
+|     | Package      | f3d3         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 295 | Missing      | SPDXRef-Pack | github.com/nfnt/resize    | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 8d5fb13f71ca |                           | fields are missing        |
+|     | Package      | 2d52         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 296 | Missing      | SPDXRef-Pack | github.com/niklasfasching | Both PackageChecksum and  |
+|     | mandatory    | age-         | /go-org                   | PackageVerificationCode   |
+|     | field from   | a9446ea73121 |                           | fields are missing        |
+|     | Package      | 0545         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 297 | Missing      | SPDXRef-Pack | github.com/oasdiff/yaml   | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | e7cad53b423d |                           | fields are missing        |
+|     | Package      | 36ef         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 298 | Missing      | SPDXRef-     | github.com/oasdiff/yaml3  | Both PackageChecksum and  |
+|     | mandatory    | Package-bbf5 |                           | PackageVerificationCode   |
+|     | field from   | 9d347b096bdf |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 299 | Missing      | SPDXRef-Pack | github.com/olekukonko/tab | Both PackageChecksum and  |
+|     | mandatory    | age-         | lewriter                  | PackageVerificationCode   |
+|     | field from   | c847712f9b97 |                           | fields are missing        |
+|     | Package      | 2be7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 300 | Missing      | SPDXRef-Pack | github.com/pbnjay/memory  | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | e7af5bd1fde8 |                           | fields are missing        |
+|     | Package      | a925         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 301 | Missing      | SPDXRef-Pack | github.com/pelletier/go-  | Both PackageChecksum and  |
+|     | mandatory    | age-         | toml/v2                   | PackageVerificationCode   |
+|     | field from   | 5c3142c49afd |                           | fields are missing        |
+|     | Package      | 4160         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 302 | Missing      | SPDXRef-Pack | github.com/perimeterx/mar | Both PackageChecksum and  |
+|     | mandatory    | age-         | shmallow                  | PackageVerificationCode   |
+|     | field from   | b73c250eb81e |                           | fields are missing        |
+|     | Package      | 8c98         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 303 | Missing      | SPDXRef-Pack | github.com/pkg/browser    | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 3d046a549b6a |                           | fields are missing        |
+|     | Package      | fb4d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 304 | Missing      | SPDXRef-Pack | github.com/pkg/errors     | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 7cb0eb6b4bf9 |                           | fields are missing        |
+|     | Package      | f000         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 305 | Missing      | SPDXRef-Pack | github.com/rogpeppe/go-   | Both PackageChecksum and  |
+|     | mandatory    | age-         | internal                  | PackageVerificationCode   |
+|     | field from   | 947cb1a9884d |                           | fields are missing        |
+|     | Package      | d052         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 306 | Missing      | SPDXRef-Pack | github.com/russross/black | Both PackageChecksum and  |
+|     | mandatory    | age-         | friday/v2                 | PackageVerificationCode   |
+|     | field from   | e9e8f38b3d86 |                           | fields are missing        |
+|     | Package      | f119         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 307 | Missing      | SPDXRef-Pack | github.com/sanity-        | Both PackageChecksum and  |
+|     | mandatory    | age-         | io/litter                 | PackageVerificationCode   |
+|     | field from   | 1786280d16d6 |                           | fields are missing        |
+|     | Package      | 2be2         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 308 | Missing      | SPDXRef-Pack | github.com/spf13/afero    | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 9bf269389bb7 |                           | fields are missing        |
+|     | Package      | 7626         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 309 | Missing      | SPDXRef-Pack | github.com/spf13/cast     | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 1895cf101330 |                           | fields are missing        |
+|     | Package      | ff8b         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 310 | Missing      | SPDXRef-Pack | github.com/spf13/cobra    | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | d765865a481b |                           | fields are missing        |
+|     | Package      | 51e7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 311 | Missing      | SPDXRef-Pack | github.com/spf13/fsync    | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | c7742950eeea |                           | fields are missing        |
+|     | Package      | aeee         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 312 | Missing      | SPDXRef-Pack | github.com/spf13/pflag    | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | f6796095472d |                           | fields are missing        |
+|     | Package      | 5d96         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 313 | Missing      | SPDXRef-Pack | github.com/tdewolff/minif | Both PackageChecksum and  |
+|     | mandatory    | age-         | y/v2                      | PackageVerificationCode   |
+|     | field from   | 446890fadc52 |                           | fields are missing        |
+|     | Package      | 1933         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 314 | Missing      | SPDXRef-Pack | github.com/tdewolff/parse | Both PackageChecksum and  |
+|     | mandatory    | age-         | /v2                       | PackageVerificationCode   |
+|     | field from   | 9b380089579c |                           | fields are missing        |
+|     | Package      | 75f5         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 315 | Missing      | SPDXRef-Pack | github.com/tetratelabs/wa | Both PackageChecksum and  |
+|     | mandatory    | age-         | zero                      | PackageVerificationCode   |
+|     | field from   | 2f23b4896e30 |                           | fields are missing        |
+|     | Package      | 547          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 316 | Missing      | SPDXRef-Pack | github.com/yuin/goldmark  | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 338eed6a4633 |                           | fields are missing        |
+|     | Package      | f0e          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 317 | Missing      | SPDXRef-Pack | github.com/yuin/goldmark- | Both PackageChecksum and  |
+|     | mandatory    | age-         | emoji                     | PackageVerificationCode   |
+|     | field from   | a4323f95991d |                           | fields are missing        |
+|     | Package      | a9fa         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 318 | Missing      | SPDXRef-     | go.opencensus.io          | Both PackageChecksum and  |
+|     | mandatory    | Package-cdd1 |                           | PackageVerificationCode   |
+|     | field from   | 559d828337ba |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 319 | Missing      | SPDXRef-Pack | go.opentelemetry.io/auto/ | Both PackageChecksum and  |
+|     | mandatory    | age-         | sdk                       | PackageVerificationCode   |
+|     | field from   | 8b9d75597b79 |                           | fields are missing        |
+|     | Package      | 3a3d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 320 | Missing      | SPDXRef-Pack | go.opentelemetry.io/contr | Both PackageChecksum and  |
+|     | mandatory    | age-         | ib/instrumentation/google | PackageVerificationCode   |
+|     | field from   | f83673708a3a | .golang.org/grpc/otelgrpc | fields are missing        |
+|     | Package      | d0df         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 321 | Missing      | SPDXRef-     | go.opentelemetry.io/contr | Both PackageChecksum and  |
+|     | mandatory    | Package-ce9a | ib/instrumentation/net/ht | PackageVerificationCode   |
+|     | field from   | 09789aa74060 | tp/otelhttp               | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 322 | Missing      | SPDXRef-Pack | go.opentelemetry.io/otel  | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 2915b5c105cf |                           | fields are missing        |
+|     | Package      | b5ff         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 323 | Missing      | SPDXRef-Pack | go.opentelemetry.io/otel/ | Both PackageChecksum and  |
+|     | mandatory    | age-         | metric                    | PackageVerificationCode   |
+|     | field from   | a4445352965b |                           | fields are missing        |
+|     | Package      | d375         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 324 | Missing      | SPDXRef-Pack | go.opentelemetry.io/otel/ | Both PackageChecksum and  |
+|     | mandatory    | age-         | trace                     | PackageVerificationCode   |
+|     | field from   | 5efe7804f90a |                           | fields are missing        |
+|     | Package      | a31          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 325 | Missing      | SPDXRef-Pack | go.uber.org/automaxprocs  | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 13c98328d1a9 |                           | fields are missing        |
+|     | Package      | f150         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 326 | Missing      | SPDXRef-Pack | gocloud.dev               | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 8c965ca2bc59 |                           | fields are missing        |
+|     | Package      | 96e6         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 327 | Missing      | SPDXRef-Pack | golang.org/x/crypto       | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 5734b3132052 |                           | fields are missing        |
+|     | Package      | df07         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 328 | Missing      | SPDXRef-Pack | golang.org/x/exp          | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 87547bbef9b2 |                           | fields are missing        |
+|     | Package      | 29e4         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 329 | Missing      | SPDXRef-Pack | golang.org/x/image        | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 8a42f116d886 |                           | fields are missing        |
+|     | Package      | 88c3         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 330 | Missing      | SPDXRef-Pack | golang.org/x/mod          | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 78429fce61f0 |                           | fields are missing        |
+|     | Package      | 17dc         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 331 | Missing      | SPDXRef-Pack | golang.org/x/net          | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 562ff29294b1 |                           | fields are missing        |
+|     | Package      | 5fac         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 332 | Missing      | SPDXRef-Pack | golang.org/x/oauth2       | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | a71bc8e3aaea |                           | fields are missing        |
+|     | Package      | 8480         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 333 | Missing      | SPDXRef-Pack | golang.org/x/sync         | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | c0509b0a4d66 |                           | fields are missing        |
+|     | Package      | 5669         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 334 | Missing      | SPDXRef-     | golang.org/x/sys          | Both PackageChecksum and  |
+|     | mandatory    | Package-ab47 |                           | PackageVerificationCode   |
+|     | field from   | 7c585eee85bc |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 335 | Missing      | SPDXRef-Pack | golang.org/x/text         | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 348b04f18730 |                           | fields are missing        |
+|     | Package      | fb03         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 336 | Missing      | SPDXRef-Pack | golang.org/x/time         | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 248fd4dc6cb4 |                           | fields are missing        |
+|     | Package      | 5cb8         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 337 | Missing      | SPDXRef-Pack | golang.org/x/tools        | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 8125acf12f72 |                           | fields are missing        |
+|     | Package      | 91b9         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 338 | Missing      | SPDXRef-Pack | golang.org/x/xerrors      | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 981d45074e9e |                           | fields are missing        |
+|     | Package      | 5e4a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 339 | Missing      | SPDXRef-     | google.golang.org/api     | Both PackageChecksum and  |
+|     | mandatory    | Package-dbc6 |                           | PackageVerificationCode   |
+|     | field from   | e79afc22d4e5 |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 340 | Missing      | SPDXRef-Pack | google.golang.org/genprot | Both PackageChecksum and  |
+|     | mandatory    | age-         | o                         | PackageVerificationCode   |
+|     | field from   | 826c83465073 |                           | fields are missing        |
+|     | Package      | 9924         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 341 | Missing      | SPDXRef-Pack | google.golang.org/genprot | Both PackageChecksum and  |
+|     | mandatory    | age-         | o/googleapis/api          | PackageVerificationCode   |
+|     | field from   | f14e08afa74c |                           | fields are missing        |
+|     | Package      | 4d00         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 342 | Missing      | SPDXRef-Pack | google.golang.org/genprot | Both PackageChecksum and  |
+|     | mandatory    | age-         | o/googleapis/rpc          | PackageVerificationCode   |
+|     | field from   | 2b119b7a17f1 |                           | fields are missing        |
+|     | Package      | a7d1         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 343 | Missing      | SPDXRef-Pack | google.golang.org/grpc    | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 5701a560e0e0 |                           | fields are missing        |
+|     | Package      | 151d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 344 | Missing      | SPDXRef-Pack | google.golang.org/protobu | Both PackageChecksum and  |
+|     | mandatory    | age-         | f                         | PackageVerificationCode   |
+|     | field from   | 13ef5d6e09f0 |                           | fields are missing        |
+|     | Package      | 7c78         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 345 | Missing      | SPDXRef-Pack | gopkg.in/yaml.v2          | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | d03c69732038 |                           | fields are missing        |
+|     | Package      | 5b32         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 346 | Missing      | SPDXRef-Pack | gopkg.in/yaml.v3          | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 5083e48fd109 |                           | fields are missing        |
+|     | Package      | 9f7          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 347 | Missing      | SPDXRef-Pack | howett.net/plist          | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 992a4c304365 |                           | fields are missing        |
+|     | Package      | 12ff         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 348 | Missing      | SPDXRef-Pack | rsc.io/qr                 | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 25677e5c9d09 |                           | fields are missing        |
+|     | Package      | 310a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 349 | Missing      | SPDXRef-     | software.sslmate.com/src/ | Both PackageChecksum and  |
+|     | mandatory    | Package-ffb1 | go-pkcs12                 | PackageVerificationCode   |
+|     | field from   | 27c80607883c |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 350 | Missing      | SPDXRef-File | .                         | ExternalRef field is      |
+|     | mandatory    | system-      |                           | missing                   |
+|     | field from   | 1465386cfbe4 |                           |                           |
+|     | Package      | e9c7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 351 | Missing      | SPDXRef-File | .                         | Both PackageChecksum and  |
+|     | mandatory    | system-      |                           | PackageVerificationCode   |
+|     | field from   | 1465386cfbe4 |                           | fields are missing        |
+|     | Package      | e9c7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+The SPDX file clone/Go/mehdi-new/trivy-tidy.json is not compliant with the OpenChain Telco SBOM Guide version 1.1 in strict mode (with RECOMMENDED also)

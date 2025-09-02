@@ -1,0 +1,2167 @@
+{
+  "tool": {
+    "name": "sbomdiff",
+    "version": "0.5.6"
+  },
+  "file_1": "SBOM-QA/Go/gohugoio_hugo_b0888a.json",
+  "file_2": "clone/Go/mehdi-new/ort.json",
+  "differences": [
+    {
+      "package": "@tailwindcss/typography",
+      "status": "remove",
+      "version": {
+        "from": "~0.5.16"
+      }
+    },
+    {
+      "package": "@alpinejs/focus",
+      "status": "remove",
+      "version": {
+        "from": "~3.14.9"
+      }
+    },
+    {
+      "package": "prettier-plugin-go-template",
+      "status": "change",
+      "version": {
+        "from": "~0.0.15",
+        "to": "0.0.15"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "@alpinejs/persist",
+      "status": "remove",
+      "version": {
+        "from": "~3.14.9"
+      }
+    },
+    {
+      "package": "tailwindcss",
+      "status": "change",
+      "version": {
+        "from": "~4.1.0",
+        "to": "4.1.11"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "@awmottaz/prettier-plugin-void-html",
+      "status": "remove",
+      "version": {
+        "from": "~1.8.0"
+      }
+    },
+    {
+      "package": "@hotwired/turbo",
+      "status": "remove",
+      "version": {
+        "from": "~8.0.13"
+      }
+    },
+    {
+      "package": "alpinejs",
+      "status": "change",
+      "version": {
+        "from": "~3.14.9",
+        "to": "3.14.9"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "prettier",
+      "status": "change",
+      "version": {
+        "from": "~3.5.3",
+        "to": "3.5.3"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "@tailwindcss/cli",
+      "status": "remove",
+      "version": {
+        "from": "~4.1.0"
+      }
+    },
+    {
+      "package": "katex",
+      "status": "change",
+      "version": {
+        "from": "^0.16.21",
+        "to": "0.16.22"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/Azure/go-autorest",
+      "status": "change",
+      "version": {
+        "from": "14.2.0+INCOMPATIBLE",
+        "to": "14.2.0"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang.org/x/exp",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/go-openapi/jsonpointer",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cloud.google.com/go/storage",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/bep/gitmap",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/spf13/cobra",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/niklasfasching/go-org",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/bep/gowebp",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/googleapis/gax-go/v2",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/dlclark/regexp2",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/alecthomas/chroma/v2",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/pkg/errors",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/gobwas/glob",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/ghodss/yaml",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "google.golang.org/genproto/googleapis/api",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/bep/tmc",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/makeworld-the-better-one/dither/v2",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/go-logr/logr",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go.opentelemetry.io/otel",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/oasdiff/yaml",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/google/uuid",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/service/sts",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/bep/helpers",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gocloud.dev",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go.opentelemetry.io/otel/metric",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/bep/simplecobra",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/gohugoio/locales",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/go-openapi/swag",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cloud.google.com/go/compute/metadata",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cloud.google.com/go/auth",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/gohugoio/hashstructure",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang.org/x/sync",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/yuin/goldmark-emoji",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/kr/pretty",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/go-logr/stdr",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/fortytw2/leaktest",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/gorilla/websocket",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang.org/x/tools",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/yuin/goldmark",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/mailru/easyjson",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/golang/groupcache",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/kr/text",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/magefile/mage",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/Azure/azure-sdk-for-go/sdk/azidentity",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/tdewolff/parse/v2",
+      "status": "change",
+      "version": {
+        "from": "2.8.0",
+        "to": "2.7.15"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/tdewolff/minify/v2",
+      "status": "change",
+      "version": {
+        "from": "2.23.5",
+        "to": "2.20.37"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/clbanning/mxj/v2",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/frankban/quicktest",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/disintegration/gift",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/gohugoio/testmodBuilder/mods",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/gohugoio/go-i18n/v2",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/bep/lazycache",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/bep/logg",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/mattn/go-runewidth",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/sanity-io/litter",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang.org/x/image",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang.org/x/net",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/mattn/go-colorable",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gopkg.in/yaml.v2",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/bep/clocks",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/service/internal/s3shared",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/config",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cloud.google.com/go",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/evanw/esbuild",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go.opencensus.io",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/bep/mclib",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/bep/goportabletext",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/bep/imagemeta",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/kylelemons/godebug",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/perimeterx/marshmallow",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/gohugoio/localescompressed",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/google/wire",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang.org/x/crypto",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/jdkato/prose",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/felixge/httpsnoop",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/armon/go-radix",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/internal/ini",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/service/sso",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/olekukonko/tablewriter",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/jmespath/go-jmespath",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/kyokomi/emoji/v2",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang.org/x/mod",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "rsc.io/qr",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/marekm4/color-extractor",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/mohae/deepcopy",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/bep/goat",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/spf13/fsync",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/internal/v4a",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go.opentelemetry.io/auto/sdk",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go.opentelemetry.io/otel/trace",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/russross/blackfriday/v2",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/BurntSushi/locker",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/service/cloudfront",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "howett.net/plist",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/mattn/go-isatty",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/pkg/browser",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/credentials",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cloud.google.com/go/auth/oauth2adapt",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/spf13/pflag",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang.org/x/oauth2",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/gohugoio/hugo-goldmark-extensions/extras",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/hairyhenderson/go-codeowners",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/google/s2a-go",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/spf13/afero",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang.org/x/text",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/josharian/intern",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/inconshreveable/mousetrap",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/Azure/go-autorest/autorest/to",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/pbnjay/memory",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/oasdiff/yaml3",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/gohugoio/hugo-goldmark-extensions/passthrough",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/fsnotify/fsnotify",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/pelletier/go-toml/v2",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang.org/x/xerrors",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/bep/golibsass",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gopkg.in/yaml.v3",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "software.sslmate.com/src/go-pkcs12",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/gobuffalo/flect",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/fatih/color",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/hashicorp/golang-lru/v2",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cloud.google.com/go/iam",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/getkin/kin-openapi",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/mitchellh/mapstructure",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/bep/debounce",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "google.golang.org/genproto",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang.org/x/time",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/bep/overlayfs",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/golang-jwt/jwt/v5",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/dustin/go-humanize",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/muesli/smartcrop",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "google.golang.org/protobuf",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/google/go-cmp",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/AzureAD/microsoft-authentication-library-for-go",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/cespare/xxhash/v2",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/Azure/azure-sdk-for-go/sdk/storage/azblob",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/spf13/cast",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "google.golang.org/grpc",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/bep/godartsass/v2",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "golang.org/x/sys",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "go.uber.org/automaxprocs",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/gohugoio/httpcache",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/Azure/azure-sdk-for-go/sdk/internal",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/feature/s3/manager",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/aws/smithy-go",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "google.golang.org/genproto/googleapis/rpc",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/service/internal/checksum",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/service/s3",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/cpuguy83/go-md2man/v2",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go-v2/internal/configsources",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/tetratelabs/wazero",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/rogpeppe/go-internal",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/nfnt/resize",
+      "status": "remove",
+      "version": {
+        "from": "0.0.0-20180221191011-83C6A9932646"
+      }
+    },
+    {
+      "package": "github.com/Azure/azure-sdk-for-go/sdk/azcore",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/googleapis/enterprise-certificate-proxy",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "google.golang.org/api",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/gohugoio/gohugoioTheme",
+      "status": "remove",
+      "version": {
+        "from": "0.0.0-20210409071416-C88DA48134B7"
+      }
+    },
+    {
+      "package": "docker/build-push-action",
+      "status": "remove",
+      "version": {
+        "from": "16EBE778DF0E7752D2CFCBD924AFDBBD89C1A755"
+      }
+    },
+    {
+      "package": "docker/metadata-action",
+      "status": "remove",
+      "version": {
+        "from": "8E5442C4EF9F78752691E2D8F8D19755C6F78E81"
+      }
+    },
+    {
+      "package": "actions/checkout",
+      "status": "remove",
+      "version": {
+        "from": "692973E3D937129BCBF40652EB9F2F61BECF3332"
+      }
+    },
+    {
+      "package": "docker/login-action",
+      "status": "remove",
+      "version": {
+        "from": "9780B0C442FBB1117ED29E0EFDFF1E18412F7567"
+      }
+    },
+    {
+      "package": "docker/setup-buildx-action",
+      "status": "remove",
+      "version": {
+        "from": "988B5A0280414F521DA01FCC63A27AEEB4B104DB"
+      }
+    },
+    {
+      "package": "actions/stale",
+      "status": "remove",
+      "version": {
+        "from": "28CA1036281A5E5922EAD5184A1BBF96E5FC984E"
+      }
+    },
+    {
+      "package": "dessant/lock-threads",
+      "status": "remove",
+      "version": {
+        "from": "7DE207BE1D3CE97A9ABE6FF1306222982D1CA9F9"
+      }
+    },
+    {
+      "package": "jlumbroso/free-disk-space",
+      "status": "remove",
+      "version": {
+        "from": "54081F138730DFA15788A46383842CD2F914A1BE"
+      }
+    },
+    {
+      "package": "actions/setup-go",
+      "status": "remove",
+      "version": {
+        "from": "0A12ED9D6A96AB950C8F026ED9F722FE0DA7EF32"
+      }
+    },
+    {
+      "package": "actions/setup-python",
+      "status": "remove",
+      "version": {
+        "from": "39CD14951B08E74B54015E9E001CDEFCF80E669F"
+      }
+    },
+    {
+      "package": "ruby/setup-ruby",
+      "status": "remove",
+      "version": {
+        "from": "A6E6F86333F0A2523ECE813039B8B4BE04560854"
+      }
+    },
+    {
+      "package": "reitzig/actions-asciidoctor",
+      "status": "remove",
+      "version": {
+        "from": "C642DB5EEDD1D729BB8C92034770D0B2F769EDA6"
+      }
+    },
+    {
+      "package": "com.github.gohugoio/hugo",
+      "status": "remove",
+      "version": {
+        "from": "MASTER"
+      }
+    },
+    {
+      "package": "github.com/gohugoio/hugo",
+      "status": "add",
+      "version": {
+        "from": "84C8426F328A946B2E10611431C450B352CECD11"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "github.com/gohugoio/hugoDocs",
+      "status": "add",
+      "version": {
+        "from": "84C8426F328A946B2E10611431C450B352CECD11"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "hugoDocs",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "js",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "braces",
+      "status": "add",
+      "version": {
+        "from": "3.0.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "chownr",
+      "status": "add",
+      "version": {
+        "from": "3.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "commander",
+      "status": "add",
+      "version": {
+        "from": "8.3.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cssesc",
+      "status": "add",
+      "version": {
+        "from": "3.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "detect-libc",
+      "status": "add",
+      "version": {
+        "from": "1.0.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "enhanced-resolve",
+      "status": "add",
+      "version": {
+        "from": "5.18.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "fill-range",
+      "status": "add",
+      "version": {
+        "from": "7.1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "focus-trap",
+      "status": "add",
+      "version": {
+        "from": "6.9.4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "graceful-fs",
+      "status": "add",
+      "version": {
+        "from": "4.2.11"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "is-extglob",
+      "status": "add",
+      "version": {
+        "from": "2.1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "is-glob",
+      "status": "add",
+      "version": {
+        "from": "4.0.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "is-number",
+      "status": "add",
+      "version": {
+        "from": "7.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jiti",
+      "status": "add",
+      "version": {
+        "from": "2.5.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "lightningcss",
+      "status": "add",
+      "version": {
+        "from": "1.30.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "lightningcss-linux-x64-gnu",
+      "status": "add",
+      "version": {
+        "from": "1.30.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "lightningcss-linux-x64-musl",
+      "status": "add",
+      "version": {
+        "from": "1.30.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "lodash.castarray",
+      "status": "add",
+      "version": {
+        "from": "4.4.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "lodash.isplainobject",
+      "status": "add",
+      "version": {
+        "from": "4.0.6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "lodash.merge",
+      "status": "add",
+      "version": {
+        "from": "4.6.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "magic-string",
+      "status": "add",
+      "version": {
+        "from": "0.30.17"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "micromatch",
+      "status": "add",
+      "version": {
+        "from": "4.0.8"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "minipass",
+      "status": "add",
+      "version": {
+        "from": "7.1.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "minizlib",
+      "status": "add",
+      "version": {
+        "from": "3.0.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mkdirp",
+      "status": "add",
+      "version": {
+        "from": "3.0.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mri",
+      "status": "add",
+      "version": {
+        "from": "1.2.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "node-addon-api",
+      "status": "add",
+      "version": {
+        "from": "7.1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "picocolors",
+      "status": "add",
+      "version": {
+        "from": "1.1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "picomatch",
+      "status": "add",
+      "version": {
+        "from": "2.3.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "postcss-selector-parser",
+      "status": "add",
+      "version": {
+        "from": "6.0.10"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "source-map-js",
+      "status": "add",
+      "version": {
+        "from": "1.2.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "tabbable",
+      "status": "add",
+      "version": {
+        "from": "5.3.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "tapable",
+      "status": "add",
+      "version": {
+        "from": "2.2.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "tar",
+      "status": "add",
+      "version": {
+        "from": "7.4.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "to-regex-range",
+      "status": "add",
+      "version": {
+        "from": "5.0.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ulid",
+      "status": "add",
+      "version": {
+        "from": "2.4.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "util-deprecate",
+      "status": "add",
+      "version": {
+        "from": "1.0.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "yallist",
+      "status": "add",
+      "version": {
+        "from": "5.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "focus",
+      "status": "add",
+      "version": {
+        "from": "3.14.9"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "persist",
+      "status": "add",
+      "version": {
+        "from": "3.14.9"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "remapping",
+      "status": "add",
+      "version": {
+        "from": "2.3.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "prettier-plugin-void-html",
+      "status": "add",
+      "version": {
+        "from": "1.8.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "turbo",
+      "status": "add",
+      "version": {
+        "from": "8.0.13"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "fs-minipass",
+      "status": "add",
+      "version": {
+        "from": "4.0.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gen-mapping",
+      "status": "add",
+      "version": {
+        "from": "0.3.12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "resolve-uri",
+      "status": "add",
+      "version": {
+        "from": "3.1.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sourcemap-codec",
+      "status": "add",
+      "version": {
+        "from": "1.5.4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "trace-mapping",
+      "status": "add",
+      "version": {
+        "from": "0.3.29"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "watcher",
+      "status": "add",
+      "version": {
+        "from": "2.5.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "watcher-linux-x64-glibc",
+      "status": "add",
+      "version": {
+        "from": "2.5.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "watcher-linux-x64-musl",
+      "status": "add",
+      "version": {
+        "from": "2.5.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cli",
+      "status": "add",
+      "version": {
+        "from": "4.1.11"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "node",
+      "status": "add",
+      "version": {
+        "from": "4.1.11"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "oxide",
+      "status": "add",
+      "version": {
+        "from": "4.1.11"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "oxide-linux-x64-gnu",
+      "status": "add",
+      "version": {
+        "from": "4.1.11"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "oxide-linux-x64-musl",
+      "status": "add",
+      "version": {
+        "from": "4.1.11"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "typography",
+      "status": "add",
+      "version": {
+        "from": "0.5.16"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "reactivity",
+      "status": "add",
+      "version": {
+        "from": "3.1.5"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "shared",
+      "status": "add",
+      "version": {
+        "from": "3.1.5"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    }
+  ],
+  "summary": {
+    "version_changes": 8,
+    "new_packages": 62,
+    "removed_packages": 21,
+    "license_changes": 169
+  }
+}
