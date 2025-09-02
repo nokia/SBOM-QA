@@ -1,6 +1,0 @@
-if(NOT TARGET @PROJECT_NAME@::coronan_lib
-   OR NOT TARGET @PROJECT_NAME@::coronan_cli
-   OR NOT TARGET @PROJECT_NAME@::coronan_gui
-)
-    include("${CMAKE_CURRENT_LIST_DIR}/@PROJECT_NAME@Targets.cmake")
-endif()
