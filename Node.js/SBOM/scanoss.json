@@ -1,0 +1,541 @@
+{
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SCANOSS-SBOM",
+  "creationInfo": {
+    "created": "2025-08-04T10:10:12Z",
+    "creators": [
+      "Tool: SCANOSS-PY: 1.26.2",
+      "Person: mehdi",
+      "Organization: SCANOSS"
+    ],
+    "comment": "SBOM Build information - SBOM Type: Build"
+  },
+  "documentNamespace": "https://spdx.org/spdxdocs/scanoss-py-1.26.2-aac87013438ee3c73fcf4ca17261a69f",
+  "documentDescribes": [
+    "SPDXRef-4e18760ab797aea3284ee791ce113651",
+    "SPDXRef-49d39f7f7036421b90a804d252841e97",
+    "SPDXRef-5e4d5ab426243d8876c787e9b0e75351",
+    "SPDXRef-95310f1859fb89b9a9ad48dba2357389",
+    "SPDXRef-f43c9a332d4f03c6f87c4a3ed23a0402",
+    "SPDXRef-cbb132e80e1b50a17b6ddf0231b588d7",
+    "SPDXRef-86fc4090f3375b913b74e831f5277937",
+    "SPDXRef-7653e901adc00be6ec3ffcd664b195a7",
+    "SPDXRef-607584a06f219f782440b99a5bf27da9",
+    "SPDXRef-1a2a8130d1a9dac70421c186bf85a54a",
+    "SPDXRef-2dfc5bb44e76981cce0a9c59bb5f9ee5",
+    "SPDXRef-de23f80b6c8c94bab228a1dfe55cffc2",
+    "SPDXRef-fffe5a5358530575034793d4b7e0d55c",
+    "SPDXRef-8c5bcd5333a1f5da9af565280407317a",
+    "SPDXRef-0cbdc4fb6f342702d8ff081032c020e9",
+    "SPDXRef-d99f9f026ad7d0853f67968c85e1d9e5",
+    "SPDXRef-2bc3875faea2aab8ce73a1b229c7bdbd",
+    "SPDXRef-0656a9181232ed71624d1b86a8126819",
+    "SPDXRef-6d0b1464d9464006c1a30ea17d9d6dab",
+    "SPDXRef-ab34d6daeb19b68de20cac7bd85973bc"
+  ],
+  "hasExtractedLicensingInfos": [],
+  "packages": [
+    {
+      "name": "hugo",
+      "SPDXID": "SPDXRef-4e18760ab797aea3284ee791ce113651",
+      "versionInfo": "issue12991-1",
+      "downloadLocation": "https://github.com/bep/hugo",
+      "homepage": "https://github.com/bep/hugo",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: bep",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/bep/hugo@issue12991-1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "39e9d9716bdf74592cc09cabfdc6066c"
+        }
+      ]
+    },
+    {
+      "name": "hugo",
+      "SPDXID": "SPDXRef-49d39f7f7036421b90a804d252841e97",
+      "versionInfo": "0.96.0",
+      "downloadLocation": "https://github.com/gohugoio/hugo",
+      "homepage": "https://github.com/gohugoio/hugo",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: gohugoio",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/gohugoio/hugo@0.96.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "ca16a3ea28e6084162dbeb65e7b0a8f5"
+        }
+      ]
+    },
+    {
+      "name": "hugo",
+      "SPDXID": "SPDXRef-5e4d5ab426243d8876c787e9b0e75351",
+      "versionInfo": "0.141.0",
+      "downloadLocation": "https://gitlab.com/systemkern/hugo",
+      "homepage": "https://gitlab.com/systemkern/hugo",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: systemkern",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:gitlab/systemkern/hugo@0.141.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "5ebed960d1915dfddadc84e90be9374f"
+        }
+      ]
+    },
+    {
+      "name": "neohugo",
+      "SPDXID": "SPDXRef-95310f1859fb89b9a9ad48dba2357389",
+      "versionInfo": "0.11.1",
+      "downloadLocation": "https://github.com/neohugo/neohugo",
+      "homepage": "https://github.com/neohugo/neohugo",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: neohugo",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/neohugo/neohugo@0.11.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "119a799347bea290089965811fc1a30e"
+        }
+      ]
+    },
+    {
+      "name": "hugo",
+      "SPDXID": "SPDXRef-f43c9a332d4f03c6f87c4a3ed23a0402",
+      "versionInfo": "0.21",
+      "downloadLocation": "https://github.com/spf13/hugo",
+      "homepage": "https://github.com/spf13/hugo",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: spf13",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/spf13/hugo@0.21",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "2e09d189acc0cf83908db3752d5b7ac7"
+        }
+      ]
+    },
+    {
+      "name": "livereload-js",
+      "SPDXID": "SPDXRef-cbb132e80e1b50a17b6ddf0231b588d7",
+      "versionInfo": "4.0.2",
+      "downloadLocation": "https://github.com/livereload/livereload-js",
+      "homepage": "https://github.com/livereload/livereload-js",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: livereload",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/livereload/livereload-js@4.0.2",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "f13a1d598aaed7c1e7cc312715cd5ec6"
+        }
+      ]
+    },
+    {
+      "name": "strawberry",
+      "SPDXID": "SPDXRef-86fc4090f3375b913b74e831f5277937",
+      "versionInfo": "0.26.0",
+      "downloadLocation": "https://github.com/strawberry-tools/strawberry",
+      "homepage": "https://github.com/strawberry-tools/strawberry",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: strawberry-tools",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/strawberry-tools/strawberry@0.26.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "9798600c16153e8a58207ea7c1ef2d9f"
+        }
+      ]
+    },
+    {
+      "name": "aleph",
+      "SPDXID": "SPDXRef-7653e901adc00be6ec3ffcd664b195a7",
+      "versionInfo": "3.2.0",
+      "downloadLocation": "https://github.com/alephdata/aleph",
+      "homepage": "https://github.com/alephdata/aleph",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: alephdata",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/alephdata/aleph@3.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "76b91c833e49ef54b14ae286ca15aecd"
+        }
+      ]
+    },
+    {
+      "name": "imagemeta",
+      "SPDXID": "SPDXRef-607584a06f219f782440b99a5bf27da9",
+      "versionInfo": "0.4.0",
+      "downloadLocation": "https://github.com/bep/imagemeta",
+      "homepage": "https://github.com/bep/imagemeta",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: bep",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/bep/imagemeta@0.4.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0634911adb93655d6667536983fad348"
+        }
+      ]
+    },
+    {
+      "name": "go",
+      "SPDXID": "SPDXRef-1a2a8130d1a9dac70421c186bf85a54a",
+      "versionInfo": "24rc1",
+      "downloadLocation": "https://github.com/golang/go",
+      "homepage": "https://github.com/golang/go",
+      "licenseDeclared": "(Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause)",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: golang",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/golang/go@24rc1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "fbab35b509b76e44d19dc3bb7af9431f"
+        }
+      ]
+    },
+    {
+      "name": "buildscripts",
+      "SPDXID": "SPDXRef-2dfc5bb44e76981cce0a9c59bb5f9ee5",
+      "versionInfo": "sources",
+      "downloadLocation": "https://github.com/devkitPro/buildscripts",
+      "homepage": "https://github.com/devkitPro/buildscripts",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: devkitpro",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/devkitpro/buildscripts@sources",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "31c86f2ced76acac66992eeedce2fce2"
+        }
+      ]
+    },
+    {
+      "name": "go",
+      "SPDXID": "SPDXRef-de23f80b6c8c94bab228a1dfe55cffc2",
+      "versionInfo": "0.0.1-test",
+      "downloadLocation": "https://github.com/asubiotto/go",
+      "homepage": "https://github.com/asubiotto/go",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: asubiotto",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/asubiotto/go@0.0.1-test",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "4a006745950574f30d77218943093dea"
+        }
+      ]
+    },
+    {
+      "name": "go",
+      "SPDXID": "SPDXRef-fffe5a5358530575034793d4b7e0d55c",
+      "versionInfo": "weekly.2011-09-01",
+      "downloadLocation": "https://github.com/tav/go",
+      "homepage": "https://github.com/tav/go",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: tav",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/tav/go@weekly.2011-09-01",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "70689d1fa8c4b3222cc41b8b9dc71550"
+        }
+      ]
+    },
+    {
+      "name": "go.old",
+      "SPDXID": "SPDXRef-8c5bcd5333a1f5da9af565280407317a",
+      "versionInfo": "weekly.2011-07-29",
+      "downloadLocation": "https://github.com/Go-zh/go.old",
+      "homepage": "https://github.com/Go-zh/go.old",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Go-zh",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/go-zh/go.old@weekly.2011-07-29",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "805e0b2e3d414a851ab57304c9bb3b9f"
+        }
+      ]
+    },
+    {
+      "name": "template",
+      "SPDXID": "SPDXRef-0cbdc4fb6f342702d8ff081032c020e9",
+      "versionInfo": "b9f28c0",
+      "downloadLocation": "https://github.com/jonas747/template",
+      "homepage": "https://github.com/jonas747/template",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: jonas747",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/jonas747/template@b9f28c0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "000ddfb13f04d9192483c714cc1c3604"
+        }
+      ]
+    },
+    {
+      "name": "megarepo",
+      "SPDXID": "SPDXRef-d99f9f026ad7d0853f67968c85e1d9e5",
+      "versionInfo": "5eedc06",
+      "downloadLocation": "https://github.com/sgtest/megarepo",
+      "homepage": "https://github.com/sgtest/megarepo",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: sgtest",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/sgtest/megarepo@5eedc06",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "a5d6ee7f84e640675986c6f98963a750"
+        }
+      ]
+    },
+    {
+      "name": "go-bootstrap",
+      "SPDXID": "SPDXRef-2bc3875faea2aab8ce73a1b229c7bdbd",
+      "versionInfo": "go1.19beta1-1531-g15e26698cc",
+      "downloadLocation": "https://github.com/dmgk/go-bootstrap",
+      "homepage": "https://github.com/dmgk/go-bootstrap",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: dmgk",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/dmgk/go-bootstrap@go1.19beta1-1531-g15e26698cc",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "03b8888e52bdd839553ab74465d6122e"
+        }
+      ]
+    },
+    {
+      "name": "go",
+      "SPDXID": "SPDXRef-0656a9181232ed71624d1b86a8126819",
+      "versionInfo": "build-go1.21.0",
+      "downloadLocation": "https://github.com/gocachedev/go",
+      "homepage": "https://github.com/gocachedev/go",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: gocachedev",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/gocachedev/go@build-go1.21.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "ff7f6b5f48b4007a5e07c0cc69f261bd"
+        }
+      ]
+    },
+    {
+      "name": "CLFS-for-LoongArch",
+      "SPDXID": "SPDXRef-6d0b1464d9464006c1a30ea17d9d6dab",
+      "versionInfo": "5.0",
+      "downloadLocation": "https://github.com/sunhaiyong1978/CLFS-for-LoongArch",
+      "homepage": "https://github.com/sunhaiyong1978/CLFS-for-LoongArch",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: sunhaiyong1978",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/sunhaiyong1978/clfs-for-loongarch@5.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "162807f0732c29dba90d516ee3c3f78a"
+        }
+      ]
+    },
+    {
+      "name": "cli",
+      "SPDXID": "SPDXRef-ab34d6daeb19b68de20cac7bd85973bc",
+      "versionInfo": "17.07.0-ce-rc1",
+      "downloadLocation": "https://github.com/docker/cli",
+      "homepage": "https://github.com/docker/cli",
+      "licenseDeclared": "(Apache-2.0 AND MIT AND ISC AND BSD-2-Clause AND BSD-3-Clause)",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: docker",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/docker/cli@17.07.0-ce-rc1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "885da1463d84be6415dad33ffe59a16b"
+        }
+      ]
+    }
+  ]
+}

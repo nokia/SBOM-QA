@@ -1,0 +1,1027 @@
+{
+  "tool": {
+    "name": "sbomdiff",
+    "version": "0.5.6"
+  },
+  "file_1": "SBOM-QA/Node.js/expressjs_express_98d8b1.json",
+  "file_2": "clone/Node.js/mehdi-new/scanoss-lock-production.json",
+  "differences": [
+    {
+      "package": "mocha",
+      "status": "remove",
+      "version": {
+        "from": "^10.7.3"
+      }
+    },
+    {
+      "package": "qs",
+      "status": "change",
+      "version": {
+        "from": "^6.14.0",
+        "to": "6.14.0"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "body-parser",
+      "status": "change",
+      "version": {
+        "from": "^2.2.0",
+        "to": "A729397"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "type-is",
+      "status": "change",
+      "version": {
+        "from": "^2.0.1",
+        "to": "2.0.1"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mime-types",
+      "status": "change",
+      "version": {
+        "from": "^3.0.0",
+        "to": "3.0.0"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "encodeurl",
+      "status": "change",
+      "version": {
+        "from": "^2.0.0",
+        "to": "2.0.0"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "range-parser",
+      "status": "remove",
+      "version": {
+        "from": "^1.2.1"
+      }
+    },
+    {
+      "package": "proxy-addr",
+      "status": "remove",
+      "version": {
+        "from": "^2.0.7"
+      }
+    },
+    {
+      "package": "finalhandler",
+      "status": "change",
+      "version": {
+        "from": "^2.1.0",
+        "to": "2.1.0"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "eslint",
+      "status": "remove",
+      "version": {
+        "from": "8.47.0"
+      }
+    },
+    {
+      "package": "accepts",
+      "status": "change",
+      "version": {
+        "from": "^2.0.0",
+        "to": "203FD41"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "content-disposition",
+      "status": "change",
+      "version": {
+        "from": "^1.0.0",
+        "to": "1.0.0"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cookie-parser",
+      "status": "remove",
+      "version": {
+        "from": "1.4.7"
+      }
+    },
+    {
+      "package": "http-errors",
+      "status": "change",
+      "version": {
+        "from": "^2.0.0",
+        "to": "206AA2C"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "debug",
+      "status": "change",
+      "version": {
+        "from": "^4.4.0",
+        "to": "4.4.1"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "supertest",
+      "status": "remove",
+      "version": {
+        "from": "^6.3.0"
+      }
+    },
+    {
+      "package": "express-session",
+      "status": "remove",
+      "version": {
+        "from": "^1.18.1"
+      }
+    },
+    {
+      "package": "vhost",
+      "status": "remove",
+      "version": {
+        "from": "~3.0.2"
+      }
+    },
+    {
+      "package": "once",
+      "status": "remove",
+      "version": {
+        "from": "^1.4.0"
+      }
+    },
+    {
+      "package": "connect-redis",
+      "status": "remove",
+      "version": {
+        "from": "^8.0.1"
+      }
+    },
+    {
+      "package": "vary",
+      "status": "remove",
+      "version": {
+        "from": "^1.1.2"
+      }
+    },
+    {
+      "package": "nyc",
+      "status": "remove",
+      "version": {
+        "from": "^17.1.0"
+      }
+    },
+    {
+      "package": "serve-static",
+      "status": "change",
+      "version": {
+        "from": "^2.2.0",
+        "to": "2.1.0"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "parseurl",
+      "status": "remove",
+      "version": {
+        "from": "^1.3.3"
+      }
+    },
+    {
+      "package": "hbs",
+      "status": "remove",
+      "version": {
+        "from": "4.2.0"
+      }
+    },
+    {
+      "package": "after",
+      "status": "remove",
+      "version": {
+        "from": "0.8.2"
+      }
+    },
+    {
+      "package": "morgan",
+      "status": "remove",
+      "version": {
+        "from": "1.10.0"
+      }
+    },
+    {
+      "package": "method-override",
+      "status": "remove",
+      "version": {
+        "from": "3.0.0"
+      }
+    },
+    {
+      "package": "marked",
+      "status": "remove",
+      "version": {
+        "from": "^15.0.3"
+      }
+    },
+    {
+      "package": "content-type",
+      "status": "remove",
+      "version": {
+        "from": "^1.0.5"
+      }
+    },
+    {
+      "package": "router",
+      "status": "change",
+      "version": {
+        "from": "^2.2.0",
+        "to": "2.2.0"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "statuses",
+      "status": "change",
+      "version": {
+        "from": "^2.0.1",
+        "to": "2.0.1"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "fresh",
+      "status": "change",
+      "version": {
+        "from": "^2.0.0",
+        "to": "2.0.0"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ejs",
+      "status": "remove",
+      "version": {
+        "from": "^3.1.10"
+      }
+    },
+    {
+      "package": "cookie-session",
+      "status": "remove",
+      "version": {
+        "from": "2.1.0"
+      }
+    },
+    {
+      "package": "send",
+      "status": "change",
+      "version": {
+        "from": "^1.1.0",
+        "to": "1.2.0"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "merge-descriptors",
+      "status": "change",
+      "version": {
+        "from": "^2.0.0",
+        "to": "2.0.0"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cookie-signature",
+      "status": "remove",
+      "version": {
+        "from": "^1.2.1"
+      }
+    },
+    {
+      "package": "cookie",
+      "status": "change",
+      "version": {
+        "from": "^0.7.1",
+        "to": "0.7.2"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "escape-html",
+      "status": "change",
+      "version": {
+        "from": "^1.0.3",
+        "to": "1.0.3"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "on-finished",
+      "status": "change",
+      "version": {
+        "from": "^2.4.1",
+        "to": "2.4.1"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "etag",
+      "status": "change",
+      "version": {
+        "from": "^1.8.1",
+        "to": "1.8.1"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pbkdf2-password",
+      "status": "remove",
+      "version": {
+        "from": "1.2.1"
+      }
+    },
+    {
+      "package": "coverallsapp/github-action",
+      "status": "remove",
+      "version": {
+        "from": "648A8EB78E6D50909EFF900E4EC85CAB4524A45B"
+      }
+    },
+    {
+      "package": "actions/upload-artifact",
+      "status": "remove",
+      "version": {
+        "from": "EA165F8D65B6E75B540449E92B4886F43607FA02"
+      }
+    },
+    {
+      "package": "actions/setup-node",
+      "status": "remove",
+      "version": {
+        "from": "49933EA5288CAECA8642D1E84AFBD3F7D6820020"
+      }
+    },
+    {
+      "package": "actions/download-artifact",
+      "status": "remove",
+      "version": {
+        "from": "D3F86A106A0BAC45B974A628896C90DBDF5C8093"
+      }
+    },
+    {
+      "package": "actions/checkout",
+      "status": "remove",
+      "version": {
+        "from": "11BD71901BBE5B1630CEEA73D27597364C9AF683"
+      }
+    },
+    {
+      "package": "github/codeql-action/init",
+      "status": "remove",
+      "version": {
+        "from": "28DEAEDA66B76A05916B6923827895F2B14AB387"
+      }
+    },
+    {
+      "package": "github/codeql-action/analyze",
+      "status": "remove",
+      "version": {
+        "from": "28DEAEDA66B76A05916B6923827895F2B14AB387"
+      }
+    },
+    {
+      "package": "ossf/scorecard-action",
+      "status": "remove",
+      "version": {
+        "from": "F49AABE0B5AF0936A0987CFB85D86B75731B0186"
+      }
+    },
+    {
+      "package": "github/codeql-action/upload-sarif",
+      "status": "remove",
+      "version": {
+        "from": "28DEAEDA66B76A05916B6923827895F2B14AB387"
+      }
+    },
+    {
+      "package": "com.github.expressjs/express",
+      "status": "remove",
+      "version": {
+        "from": "MASTER"
+      }
+    },
+    {
+      "package": "express",
+      "status": "add",
+      "version": {
+        "from": "4.18.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "bytes.js",
+      "status": "add",
+      "version": {
+        "from": "3.1.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "call-bind-apply-helpers",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "call-bound",
+      "status": "add",
+      "version": {
+        "from": "1.0.4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "vulnerable-app-nodejs-express",
+      "status": "add",
+      "version": {
+        "from": "0.10.0-VULNERABLE"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "node-cookie-signature",
+      "status": "add",
+      "version": {
+        "from": "1.2.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "nodejs-depd",
+      "status": "add",
+      "version": {
+        "from": "2.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "dunder-proto",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ee-first",
+      "status": "add",
+      "version": {
+        "from": "1.1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "node-cache",
+      "status": "add",
+      "version": {
+        "from": "SHA-D165F464E91928F0FAD4A3DC199077BCEA06F8C4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "es-define-property",
+      "status": "add",
+      "version": {
+        "from": "1.0.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cockpit-sensors",
+      "status": "add",
+      "version": {
+        "from": "1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "es-object-atoms",
+      "status": "add",
+      "version": {
+        "from": "1.0.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "platform",
+      "status": "add",
+      "version": {
+        "from": "1.8.0-RC.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "forwarded",
+      "status": "add",
+      "version": {
+        "from": "0.2.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "function-bind",
+      "status": "add",
+      "version": {
+        "from": "40197BE"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cncjs",
+      "status": "add",
+      "version": {
+        "from": "MARLIN-LATEST"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "get-intrinsic",
+      "status": "add",
+      "version": {
+        "from": "1.3.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "get-proto",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gopd",
+      "status": "add",
+      "version": {
+        "from": "1.2.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "has-symbols",
+      "status": "add",
+      "version": {
+        "from": "1.1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "hasown",
+      "status": "add",
+      "version": {
+        "from": "2.0.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "node",
+      "status": "add",
+      "version": {
+        "from": "15.5.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "iconv-lite",
+      "status": "add",
+      "version": {
+        "from": "0.6.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "msi-keyboard-gui",
+      "status": "add",
+      "version": {
+        "from": "0.2.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "trilium",
+      "status": "add",
+      "version": {
+        "from": "0.23.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sciencefair",
+      "status": "add",
+      "version": {
+        "from": "1.0.0-BETA5"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "builder-webpack-zlj-test",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "thorium",
+      "status": "add",
+      "version": {
+        "from": "2.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ipaddr.js",
+      "status": "add",
+      "version": {
+        "from": "1.9.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "is-promise",
+      "status": "add",
+      "version": {
+        "from": "4.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "effectful",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "math-intrinsics",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "media-typer",
+      "status": "add",
+      "version": {
+        "from": "1.1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "betaflight-configurator-nightlies",
+      "status": "add",
+      "version": {
+        "from": "20231127.584"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "riscv-bringup",
+      "status": "add",
+      "version": {
+        "from": "1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "negotiator",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "node-versions",
+      "status": "add",
+      "version": {
+        "from": "18.12.1-3459514213"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "object-inspect",
+      "status": "add",
+      "version": {
+        "from": "21BDAA0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "path-to-regexp",
+      "status": "add",
+      "version": {
+        "from": "8.1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "raw-body",
+      "status": "add",
+      "version": {
+        "from": "3.0.0-BETA.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "markdownxiaoshujiang",
+      "status": "add",
+      "version": {
+        "from": "7.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "safe-buffer",
+      "status": "add",
+      "version": {
+        "from": "5.2.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "safer-buffer",
+      "status": "add",
+      "version": {
+        "from": "2.1.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "setprototypeof",
+      "status": "add",
+      "version": {
+        "from": "1.2.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "side-channel-list",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "spt-raid-review",
+      "status": "add",
+      "version": {
+        "from": "0.3.1A"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "side-channel-map",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "side-channel-weakmap",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "side-channel",
+      "status": "add",
+      "version": {
+        "from": "1.1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "toidentifier",
+      "status": "add",
+      "version": {
+        "from": "1.0.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sdk-deps-win32",
+      "status": "add",
+      "version": {
+        "from": "0.0.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "erlang",
+      "status": "add",
+      "version": {
+        "from": "1:15.B.1-DFSG-4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "moduloteste",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    }
+  ],
+  "summary": {
+    "version_changes": 20,
+    "new_packages": 54,
+    "removed_packages": 33,
+    "license_changes": 20
+  }
+}

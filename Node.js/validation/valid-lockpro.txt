@@ -1,0 +1,11 @@
+Validating scanoss-lock-production.json
++---+--------------+--------------+--------------+---------------------------+
+| # | Error type   | SPDX ID      | Package name | Reason                    |
++---+--------------+--------------+--------------+---------------------------+
+| 1 | Useless      | SPDXRef-     | erlang       | purl (pkg:deb/debian/erla |
+|   | mandatory    | 0f099b3d9631 |              | ng@1:15.b.1-dfsg-4) in    |
+|   | field from   | 1f1b1c50e70a |              | the ExternalRef cannot be |
+|   | Package      | 3b4b9239     |              | converted to a            |
+|   |              |              |              | downloadable URL          |
++---+--------------+--------------+--------------+---------------------------+
+The SPDX file clone/Node.js/mehdi-new/scanoss-lock-production.json is not compliant with the OpenChain Telco SBOM Guide version 1.1 in strict mode (with RECOMMENDED also)

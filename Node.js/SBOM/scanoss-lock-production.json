@@ -1,0 +1,2231 @@
+{
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SCANOSS-SBOM",
+  "creationInfo": {
+    "created": "2025-08-04T11:43:29Z",
+    "creators": [
+      "Tool: SCANOSS-PY: 1.26.2",
+      "Person: mehdi",
+      "Organization: SCANOSS"
+    ],
+    "comment": "SBOM Build information - SBOM Type: Build"
+  },
+  "documentNamespace": "https://spdx.org/spdxdocs/scanoss-py-1.26.2-0e52fc8e5b63531d5a8da955fe5160e7",
+  "documentDescribes": [
+    "SPDXRef-f527d785ddd96ed37d5457973c773419",
+    "SPDXRef-b95c7ffb0722581bf2504de018472bcc",
+    "SPDXRef-4998e3806cf71f7a5477da6e0e5130fc",
+    "SPDXRef-b24caecb645d43eed30eae8995123684",
+    "SPDXRef-b1c3d62c4c7c18e25c586749ee59dabe",
+    "SPDXRef-e3ca3c633d008fc8fb3eee72ab8ce1a9",
+    "SPDXRef-10f74c4feb454e4a29b8a859a1143da0",
+    "SPDXRef-f62c444fa306ac7ee478c449f34754d1",
+    "SPDXRef-5ee143b282323232ca131083f5d15a1e",
+    "SPDXRef-2b6608d0817a9f8661b0edd94b7c6d53",
+    "SPDXRef-cabb447c8b927ffe2fee10eb564ba721",
+    "SPDXRef-c6e6545c0285a9d5392e112ab1438392",
+    "SPDXRef-23a63a058a42604b0e72dd9693227a52",
+    "SPDXRef-0e20705b2eee1d823a228c914c9da13f",
+    "SPDXRef-989fa367365a765a90670bf82720e990",
+    "SPDXRef-0ed6d8aae617795486d16a4cce4ecc8c",
+    "SPDXRef-54b5a62dcb16f994547c41d2acc79038",
+    "SPDXRef-0d046b9679d392b848382b592c02b182",
+    "SPDXRef-612508d5950c94c64116e80df9d29c5d",
+    "SPDXRef-f2531e8ed9954b9abb3923e5ca2bfd5c",
+    "SPDXRef-4b5957996f6371516f731941e304cab3",
+    "SPDXRef-293fbec00877ec9d1ddbb4bb682296ae",
+    "SPDXRef-7d3546aeebdfbbd5d00cad4ef4af9c74",
+    "SPDXRef-75fb3f4a2ea5c7c57bc8e540b5f7cc1d",
+    "SPDXRef-61d9ea6f40fd6f4bed85b6ee9a288d9a",
+    "SPDXRef-a9ab23e0f54d1de9c5c5a8327e88aca2",
+    "SPDXRef-e2a24ea11e2e1c567fc9316713ae04aa",
+    "SPDXRef-2c3fc0407fcb04712dea89e610d82567",
+    "SPDXRef-ca994df8935934f970d903e94d6359a2",
+    "SPDXRef-64633cc0d1bbced8e1e1db0a77bbe448",
+    "SPDXRef-3119eb5be4d0e66a11ba3acd9b97881c",
+    "SPDXRef-53f7c2f333b8662138366ab9f07d56a9",
+    "SPDXRef-e166a731a0ce28089094ebd8b9e14364",
+    "SPDXRef-f7c7654a74373d6a1cf330110d5a6a67",
+    "SPDXRef-a52cd4180fd73765b10b9a4eb8f2b742",
+    "SPDXRef-0f03c9de4c9b40440d7aae318b057257",
+    "SPDXRef-d6d47da8fab44a614530ed43db217de2",
+    "SPDXRef-388ff39899a765b11c3d1d30ffd1ad7d",
+    "SPDXRef-1cd04cf5ee6e30fe6a679a5303e00a75",
+    "SPDXRef-5c1f1ddc5543a042e702dfa441974c32",
+    "SPDXRef-83f24d8c043c13e9b5ab07e73524ba2e",
+    "SPDXRef-86d60e2357b34ea9baddcb42c546c47f",
+    "SPDXRef-ecccc006af8d6efc9856b8884eeea52b",
+    "SPDXRef-e3cf27d40e0e543b9e0a37ff717b4a7b",
+    "SPDXRef-d0e3523b5b5c3b50928fbb97b1815175",
+    "SPDXRef-b141de1789800a31bc81b8c6d5b7f643",
+    "SPDXRef-1d13ead634440ba50b8559e52a9712a1",
+    "SPDXRef-5e82dad99351f0e457a5f33d1c9becae",
+    "SPDXRef-1052aaa2743d8abaf8b51f907a239db3",
+    "SPDXRef-333e59fcfab4e3ed40b972e147be1cb0",
+    "SPDXRef-1b6498eed4bfbcc4f8b1955bdd3961ae",
+    "SPDXRef-b4201beb2739fd82f79d623244c4e901",
+    "SPDXRef-bafde75cff7f2bb68b69799975e0f436",
+    "SPDXRef-dfe078c67a88e13109f6a0f00521b8bc",
+    "SPDXRef-5670304d326ddf85c78d14fb9a875534",
+    "SPDXRef-8951eed37bb4ce25af9365f177ce5037",
+    "SPDXRef-44d743e5d81842514418d6f248153dae",
+    "SPDXRef-50671628f64c0dcb8eea30fa4dfcccb6",
+    "SPDXRef-02d226b545714686e0af49777473f222",
+    "SPDXRef-6a26b92efbe9ddd1fc13143f3fa8ab9e",
+    "SPDXRef-12b1dde9a7e427c27080200b2f65a92a",
+    "SPDXRef-9bf1826fd372bcadc4e2381652e15d54",
+    "SPDXRef-97f5a155b96a1e0b2fa288b4109217f8",
+    "SPDXRef-b4c92781644ea71f686774aca64d05ad",
+    "SPDXRef-ba7d8785ec8bf6abd3154d916c10d973",
+    "SPDXRef-d94aa199ebd8ecb8c15940d45867af6a",
+    "SPDXRef-5c235c2717f8a5ca2b2f8435d05f835b",
+    "SPDXRef-2e45adab51479f72a102f542d8c66c39",
+    "SPDXRef-befbc50d5f813f23db99a4c9959fdd35",
+    "SPDXRef-8e0ae63275fd5025bc882e15db73c818",
+    "SPDXRef-a149d4cc1d83195a1b862c910e6a2bfa",
+    "SPDXRef-95b4b4440a86fa76e68510e52b8b74bf",
+    "SPDXRef-d2f84ee676d591bad5acf203d6d202fb",
+    "SPDXRef-3c3bdb9ef67541a5b73d2163e040b45d",
+    "SPDXRef-eb27cb04af54c67da9fa3f0d1ee6f493",
+    "SPDXRef-a10512aae2e374f20e5f979cbc92fe4c",
+    "SPDXRef-7672271feeb103bd46c3e17460d6faf7",
+    "SPDXRef-4ee5ddced5aaae59df71036bf57cfada",
+    "SPDXRef-73ae4b521ff5e497a2f7ec23820f417e",
+    "SPDXRef-e59d2a8009f21a8409530044f41b10f6",
+    "SPDXRef-470f007feede63dd15126ba4866d1f36",
+    "SPDXRef-7bf843766f7bc8dcb07aac1c2df62706",
+    "SPDXRef-dbbcde1c54565858a9b73422a7af73a6",
+    "SPDXRef-0f099b3d96311f1b1c50e70a3b4b9239",
+    "SPDXRef-c5e12398a8fd3b5b903d6ce09bb5a59d"
+  ],
+  "hasExtractedLicensingInfos": [],
+  "packages": [
+    {
+      "name": "express",
+      "SPDXID": "SPDXRef-f527d785ddd96ed37d5457973c773419",
+      "versionInfo": "4.18.1",
+      "downloadLocation": "https://github.com/expressjs/express",
+      "homepage": "https://github.com/expressjs/express",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: expressjs",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/expressjs/express@4.18.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "7c7dc204f454524e6a9a11f68a5c2673"
+        }
+      ]
+    },
+    {
+      "name": "express",
+      "SPDXID": "SPDXRef-b95c7ffb0722581bf2504de018472bcc",
+      "versionInfo": "4.18.0",
+      "downloadLocation": "https://bitbucket.org/devops_rd/express/get/4.18.0.zip",
+      "homepage": "https://bitbucket.org/devops_rd/express/get/4.18.0.zip",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: devops_rd",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:bitbucket/devops_rd/express@4.18.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "977d4eb971f49dc950f7a51fb8af254c"
+        }
+      ]
+    },
+    {
+      "name": "accepts",
+      "SPDXID": "SPDXRef-4998e3806cf71f7a5477da6e0e5130fc",
+      "versionInfo": "203fd41",
+      "downloadLocation": "https://github.com/jshttp/accepts",
+      "homepage": "https://github.com/jshttp/accepts",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: jshttp",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/jshttp/accepts@203fd41",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "638324ae9da2ee2b3506f98576d13704"
+        }
+      ]
+    },
+    {
+      "name": "body-parser",
+      "SPDXID": "SPDXRef-b24caecb645d43eed30eae8995123684",
+      "versionInfo": "a729397",
+      "downloadLocation": "https://github.com/expressjs/body-parser",
+      "homepage": "https://github.com/expressjs/body-parser",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: expressjs",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/expressjs/body-parser@a729397",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "a91fded8e52225d04cbdb859d5a73f6d"
+        }
+      ]
+    },
+    {
+      "name": "bytes.js",
+      "SPDXID": "SPDXRef-b1c3d62c4c7c18e25c586749ee59dabe",
+      "versionInfo": "3.1.2",
+      "downloadLocation": "https://github.com/visionmedia/bytes.js",
+      "homepage": "https://github.com/visionmedia/bytes.js",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: visionmedia",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/visionmedia/bytes.js@3.1.2",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "ef009c9ece393c8bf8765ed75b22b96c"
+        }
+      ]
+    },
+    {
+      "name": "call-bind-apply-helpers",
+      "SPDXID": "SPDXRef-e3ca3c633d008fc8fb3eee72ab8ce1a9",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "https://github.com/ljharb/call-bind-apply-helpers",
+      "homepage": "https://github.com/ljharb/call-bind-apply-helpers",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: ljharb",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/ljharb/call-bind-apply-helpers@1.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "2764fc7d84dab719f3348805c9ab9431"
+        }
+      ]
+    },
+    {
+      "name": "call-bound",
+      "SPDXID": "SPDXRef-10f74c4feb454e4a29b8a859a1143da0",
+      "versionInfo": "1.0.4",
+      "downloadLocation": "https://github.com/ljharb/call-bound",
+      "homepage": "https://github.com/ljharb/call-bound",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: ljharb",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/ljharb/call-bound@1.0.4",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "00e45b2834a3f92cbc19e97ef08c01a0"
+        }
+      ]
+    },
+    {
+      "name": "content-disposition",
+      "SPDXID": "SPDXRef-f62c444fa306ac7ee478c449f34754d1",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "https://github.com/jshttp/content-disposition",
+      "homepage": "https://github.com/jshttp/content-disposition",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: jshttp",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/jshttp/content-disposition@1.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "985c8d77b22b7244d3761ea20010f431"
+        }
+      ]
+    },
+    {
+      "name": "vulnerable-app-nodejs-express",
+      "SPDXID": "SPDXRef-5ee143b282323232ca131083f5d15a1e",
+      "versionInfo": "0.10.0-vulnerable",
+      "downloadLocation": "https://github.com/samoylenko/vulnerable-app-nodejs-express",
+      "homepage": "https://github.com/samoylenko/vulnerable-app-nodejs-express",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: samoylenko",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/samoylenko/vulnerable-app-nodejs-express@0.10.0-vulnerable",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "29cadd5c889e794251767c9b64f4e441"
+        }
+      ]
+    },
+    {
+      "name": "node-cookie-signature",
+      "SPDXID": "SPDXRef-2b6608d0817a9f8661b0edd94b7c6d53",
+      "versionInfo": "1.2.1",
+      "downloadLocation": "https://github.com/tj/node-cookie-signature",
+      "homepage": "https://github.com/tj/node-cookie-signature",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: tj",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/tj/node-cookie-signature@1.2.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "c430b01fdde4d629575c7e16cfa629da"
+        }
+      ]
+    },
+    {
+      "name": "cookie",
+      "SPDXID": "SPDXRef-cabb447c8b927ffe2fee10eb564ba721",
+      "versionInfo": "0.7.2",
+      "downloadLocation": "https://www.npmjs.com/package/cookie",
+      "homepage": "https://www.npmjs.com/package/cookie",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Roman Shtylman",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/cookie@0.7.2",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "733ab516f94a2b57236feec90ceaa2bc"
+        }
+      ]
+    },
+    {
+      "name": "debug",
+      "SPDXID": "SPDXRef-c6e6545c0285a9d5392e112ab1438392",
+      "versionInfo": "4.4.1",
+      "downloadLocation": "https://github.com/debug-js/debug",
+      "homepage": "https://github.com/debug-js/debug",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: debug-js",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/debug-js/debug@4.4.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "a90614012de4f2d968ce963d142af98d"
+        }
+      ]
+    },
+    {
+      "name": "debug",
+      "SPDXID": "SPDXRef-23a63a058a42604b0e72dd9693227a52",
+      "versionInfo": "3.2.0",
+      "downloadLocation": "https://www.npmjs.com/package/debug",
+      "homepage": "https://www.npmjs.com/package/debug",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: TJ Holowaychuk",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/debug@3.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "3d6117cb746d22ad6fae944eba93b3c2"
+        }
+      ]
+    },
+    {
+      "name": "nodejs-depd",
+      "SPDXID": "SPDXRef-0e20705b2eee1d823a228c914c9da13f",
+      "versionInfo": "2.0.0",
+      "downloadLocation": "https://github.com/dougwilson/nodejs-depd",
+      "homepage": "https://github.com/dougwilson/nodejs-depd",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: dougwilson",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/dougwilson/nodejs-depd@2.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0c940ef2e8e48e9458bfa0ff96638bc9"
+        }
+      ]
+    },
+    {
+      "name": "dunder-proto",
+      "SPDXID": "SPDXRef-989fa367365a765a90670bf82720e990",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "https://www.npmjs.com/package/dunder-proto",
+      "homepage": "https://www.npmjs.com/package/dunder-proto",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Jordan Harband",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/dunder-proto@1.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "b41993272fdf89d0c3fdd1a834b1f032"
+        }
+      ]
+    },
+    {
+      "name": "dunder-proto",
+      "SPDXID": "SPDXRef-0ed6d8aae617795486d16a4cce4ecc8c",
+      "versionInfo": "1.0.1",
+      "downloadLocation": "https://github.com/es-shims/dunder-proto",
+      "homepage": "https://github.com/es-shims/dunder-proto",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: es-shims",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/es-shims/dunder-proto@1.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "1f65d6fa3de590d75a0f39b3a906c345"
+        }
+      ]
+    },
+    {
+      "name": "ee-first",
+      "SPDXID": "SPDXRef-54b5a62dcb16f994547c41d2acc79038",
+      "versionInfo": "1.1.1",
+      "downloadLocation": "https://github.com/jonathanong/ee-first",
+      "homepage": "https://github.com/jonathanong/ee-first",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: jonathanong",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/jonathanong/ee-first@1.1.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "5fa52345b9afe6321f89aa1e12a842c8"
+        }
+      ]
+    },
+    {
+      "name": "encodeurl",
+      "SPDXID": "SPDXRef-0d046b9679d392b848382b592c02b182",
+      "versionInfo": "2.0.0",
+      "downloadLocation": "https://www.npmjs.com/package/encodeurl",
+      "homepage": "https://www.npmjs.com/package/encodeurl",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: npmjs",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/encodeurl@2.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "7141037172aa88565844a5f07aec0c61"
+        }
+      ]
+    },
+    {
+      "name": "node-cache",
+      "SPDXID": "SPDXRef-612508d5950c94c64116e80df9d29c5d",
+      "versionInfo": "sha-d165f464e91928f0fad4a3dc199077bcea06f8c4",
+      "downloadLocation": "https://github.com/cockpit-project/node-cache",
+      "homepage": "https://github.com/cockpit-project/node-cache",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: cockpit-project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/cockpit-project/node-cache@sha-d165f464e91928f0fad4a3dc199077bcea06f8c4",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "12f9387a68acf6b8b729dba52b406410"
+        }
+      ]
+    },
+    {
+      "name": "es-define-property",
+      "SPDXID": "SPDXRef-f2531e8ed9954b9abb3923e5ca2bfd5c",
+      "versionInfo": "1.0.1",
+      "downloadLocation": "https://www.npmjs.com/package/es-define-property",
+      "homepage": "https://www.npmjs.com/package/es-define-property",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Jordan Harband",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/es-define-property@1.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "2fcf616981b35058451b0f295edfb995"
+        }
+      ]
+    },
+    {
+      "name": "cockpit-sensors",
+      "SPDXID": "SPDXRef-4b5957996f6371516f731941e304cab3",
+      "versionInfo": "1.0",
+      "downloadLocation": "https://github.com/ocristopfer/cockpit-sensors",
+      "homepage": "https://github.com/ocristopfer/cockpit-sensors",
+      "licenseDeclared": "LGPL-2.1-only",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: ocristopfer",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/ocristopfer/cockpit-sensors@1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "c76abf71b0415ea501f905beb33093f8"
+        }
+      ]
+    },
+    {
+      "name": "es-object-atoms",
+      "SPDXID": "SPDXRef-293fbec00877ec9d1ddbb4bb682296ae",
+      "versionInfo": "1.0.1",
+      "downloadLocation": "https://github.com/es-shims/es-object-atoms",
+      "homepage": "https://github.com/es-shims/es-object-atoms",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: es-shims",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/es-shims/es-object-atoms@1.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "51fb63dd0dce14cb46dca94a09fca0ec"
+        }
+      ]
+    },
+    {
+      "name": "es-object-atoms",
+      "SPDXID": "SPDXRef-7d3546aeebdfbbd5d00cad4ef4af9c74",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "https://www.npmjs.com/package/es-object-atoms",
+      "homepage": "https://www.npmjs.com/package/es-object-atoms",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Jordan Harband",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/es-object-atoms@1.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0006bbe8b43fba44009a1b26a1b796b8"
+        }
+      ]
+    },
+    {
+      "name": "platform",
+      "SPDXID": "SPDXRef-75fb3f4a2ea5c7c57bc8e540b5f7cc1d",
+      "versionInfo": "1.8.0-rc.1",
+      "downloadLocation": "https://github.com/dashevo/platform",
+      "homepage": "https://github.com/dashevo/platform",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: dashevo",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/dashevo/platform@1.8.0-rc.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0196b0d86b7b657bf9a1a1664e2f4780"
+        }
+      ]
+    },
+    {
+      "name": "escape-html",
+      "SPDXID": "SPDXRef-61d9ea6f40fd6f4bed85b6ee9a288d9a",
+      "versionInfo": "1.0.3",
+      "downloadLocation": "https://github.com/component/escape-html",
+      "homepage": "https://github.com/component/escape-html",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: component",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/component/escape-html@1.0.3",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "30d7c749d83f6664a68a1a3a85f3a122"
+        }
+      ]
+    },
+    {
+      "name": "etag",
+      "SPDXID": "SPDXRef-a9ab23e0f54d1de9c5c5a8327e88aca2",
+      "versionInfo": "1.8.1",
+      "downloadLocation": "https://www.npmjs.com/package/etag",
+      "homepage": "https://www.npmjs.com/package/etag",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: David Bj\u00f6rklund",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/etag@1.8.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "1ccf0041293792c96d81db7f15c3561d"
+        }
+      ]
+    },
+    {
+      "name": "finalhandler",
+      "SPDXID": "SPDXRef-e2a24ea11e2e1c567fc9316713ae04aa",
+      "versionInfo": "2.1.0",
+      "downloadLocation": "https://github.com/pillarjs/finalhandler",
+      "homepage": "https://github.com/pillarjs/finalhandler",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: pillarjs",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/pillarjs/finalhandler@2.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "f067a50783b44111c218bc5432dc62c6"
+        }
+      ]
+    },
+    {
+      "name": "forwarded",
+      "SPDXID": "SPDXRef-2c3fc0407fcb04712dea89e610d82567",
+      "versionInfo": "0.2.0",
+      "downloadLocation": "https://www.npmjs.com/package/forwarded",
+      "homepage": "https://www.npmjs.com/package/forwarded",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: npmjs",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/forwarded@0.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "3e68442ff1ae764d4ee78ed1bce70e7a"
+        }
+      ]
+    },
+    {
+      "name": "fresh",
+      "SPDXID": "SPDXRef-ca994df8935934f970d903e94d6359a2",
+      "versionInfo": "2.0.0",
+      "downloadLocation": "https://www.npmjs.com/package/fresh",
+      "homepage": "https://www.npmjs.com/package/fresh",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: TJ Holowaychuk",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/fresh@2.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "a34a5be3ead568b4c3c19f89bde11103"
+        }
+      ]
+    },
+    {
+      "name": "function-bind",
+      "SPDXID": "SPDXRef-64633cc0d1bbced8e1e1db0a77bbe448",
+      "versionInfo": "40197be",
+      "downloadLocation": "https://github.com/raynos/function-bind",
+      "homepage": "https://github.com/raynos/function-bind",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: raynos",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/raynos/function-bind@40197be",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "5022671f98f9ca2dffdfde00a21aca57"
+        }
+      ]
+    },
+    {
+      "name": "cncjs",
+      "SPDXID": "SPDXRef-3119eb5be4d0e66a11ba3acd9b97881c",
+      "versionInfo": "marlin-latest",
+      "downloadLocation": "https://github.com/cncjs/cncjs",
+      "homepage": "https://github.com/cncjs/cncjs",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: cncjs",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/cncjs/cncjs@marlin-latest",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "3f5a1fcc761b56e42cff851527ce4dc3"
+        }
+      ]
+    },
+    {
+      "name": "get-intrinsic",
+      "SPDXID": "SPDXRef-53f7c2f333b8662138366ab9f07d56a9",
+      "versionInfo": "1.3.0",
+      "downloadLocation": "https://www.npmjs.com/package/get-intrinsic",
+      "homepage": "https://www.npmjs.com/package/get-intrinsic",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Jordan Harband",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/get-intrinsic@1.3.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "a858395e627954d2166a4dd676afad5f"
+        }
+      ]
+    },
+    {
+      "name": "get-proto",
+      "SPDXID": "SPDXRef-e166a731a0ce28089094ebd8b9e14364",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "https://www.npmjs.com/package/get-proto",
+      "homepage": "https://www.npmjs.com/package/get-proto",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Jordan Harband",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/get-proto@1.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "8e4ff49884bf3895e331852f74ee9f34"
+        }
+      ]
+    },
+    {
+      "name": "gopd",
+      "SPDXID": "SPDXRef-f7c7654a74373d6a1cf330110d5a6a67",
+      "versionInfo": "1.2.0",
+      "downloadLocation": "https://www.npmjs.com/package/gopd",
+      "homepage": "https://www.npmjs.com/package/gopd",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Jordan Harband",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/gopd@1.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "a7a56c7353c7ba6f9809be40a73f5626"
+        }
+      ]
+    },
+    {
+      "name": "gopd",
+      "SPDXID": "SPDXRef-a52cd4180fd73765b10b9a4eb8f2b742",
+      "versionInfo": "1.1.0",
+      "downloadLocation": "https://github.com/ljharb/gopd",
+      "homepage": "https://github.com/ljharb/gopd",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: ljharb",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/ljharb/gopd@1.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "acc4ec51965ab2beb55282138ee9e3fb"
+        }
+      ]
+    },
+    {
+      "name": "has-symbols",
+      "SPDXID": "SPDXRef-0f03c9de4c9b40440d7aae318b057257",
+      "versionInfo": "1.1.0",
+      "downloadLocation": "https://github.com/inspect-js/has-symbols",
+      "homepage": "https://github.com/inspect-js/has-symbols",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: inspect-js",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/inspect-js/has-symbols@1.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "ee97bfe8d3c54c452189eb92cb62c3c2"
+        }
+      ]
+    },
+    {
+      "name": "hasown",
+      "SPDXID": "SPDXRef-d6d47da8fab44a614530ed43db217de2",
+      "versionInfo": "2.0.2",
+      "downloadLocation": "https://www.npmjs.com/package/hasown",
+      "homepage": "https://www.npmjs.com/package/hasown",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Jordan Harband",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/hasown@2.0.2",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "1795dc53760264efe2c2bec1ae704cb8"
+        }
+      ]
+    },
+    {
+      "name": "http-errors",
+      "SPDXID": "SPDXRef-388ff39899a765b11c3d1d30ffd1ad7d",
+      "versionInfo": "206aa2c",
+      "downloadLocation": "https://github.com/jshttp/http-errors",
+      "homepage": "https://github.com/jshttp/http-errors",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: jshttp",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/jshttp/http-errors@206aa2c",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "bb84368f18a16a8ef9476cb17ca2e170"
+        }
+      ]
+    },
+    {
+      "name": "statuses",
+      "SPDXID": "SPDXRef-1cd04cf5ee6e30fe6a679a5303e00a75",
+      "versionInfo": "2.0.1",
+      "downloadLocation": "https://github.com/jshttp/statuses",
+      "homepage": "https://github.com/jshttp/statuses",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: jshttp",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/jshttp/statuses@2.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "661998b3f7d0e2699b4019b39194c980"
+        }
+      ]
+    },
+    {
+      "name": "node",
+      "SPDXID": "SPDXRef-5c1f1ddc5543a042e702dfa441974c32",
+      "versionInfo": "15.5.0",
+      "downloadLocation": "https://mvnrepository.com/artifact/com.github.hazendaz.nodejs/node",
+      "homepage": "https://mvnrepository.com/artifact/com.github.hazendaz.nodejs/node",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: com.github.hazendaz.nodejs",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/com.github.hazendaz.nodejs/node@15.5.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "54a9bba614ca423d40c530089ac7e54a"
+        }
+      ]
+    },
+    {
+      "name": "iconv-lite",
+      "SPDXID": "SPDXRef-83f24d8c043c13e9b5ab07e73524ba2e",
+      "versionInfo": "0.6.3",
+      "downloadLocation": "https://github.com/ashtuchkin/iconv-lite",
+      "homepage": "https://github.com/ashtuchkin/iconv-lite",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: ashtuchkin",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/ashtuchkin/iconv-lite@0.6.3",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "6ff7e71e06496d2ddea98bb55549a267"
+        }
+      ]
+    },
+    {
+      "name": "msi-keyboard-gui",
+      "SPDXID": "SPDXRef-86d60e2357b34ea9baddcb42c546c47f",
+      "versionInfo": "0.2.3",
+      "downloadLocation": "https://github.com/stephenlacy/msi-keyboard-gui",
+      "homepage": "https://github.com/stephenlacy/msi-keyboard-gui",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: stephenlacy",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/stephenlacy/msi-keyboard-gui@0.2.3",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "3f35a23ec7d6230f547f382b15e26857"
+        }
+      ]
+    },
+    {
+      "name": "trilium",
+      "SPDXID": "SPDXRef-ecccc006af8d6efc9856b8884eeea52b",
+      "versionInfo": "0.23.1",
+      "downloadLocation": "https://github.com/zadam/trilium",
+      "homepage": "https://github.com/zadam/trilium",
+      "licenseDeclared": "(BSD-2-Clause AND MIT AND AGPL-3.0-only AND ISC AND X11 AND Apache-2.0)",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: zadam",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/zadam/trilium@0.23.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "03c4c8baaf6c480eff194ed79e10abd5"
+        }
+      ]
+    },
+    {
+      "name": "iconv-lite",
+      "SPDXID": "SPDXRef-e3cf27d40e0e543b9e0a37ff717b4a7b",
+      "versionInfo": "0.4.19",
+      "downloadLocation": "https://www.npmjs.com/package/iconv-lite",
+      "homepage": "https://www.npmjs.com/package/iconv-lite",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Alexander Shtuchkin",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/iconv-lite@0.4.19",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "47c3c32c40dda12be2b51776f83fc143"
+        }
+      ]
+    },
+    {
+      "name": "sciencefair",
+      "SPDXID": "SPDXRef-d0e3523b5b5c3b50928fbb97b1815175",
+      "versionInfo": "1.0.0-beta5",
+      "downloadLocation": "https://github.com/science-fair/sciencefair",
+      "homepage": "https://github.com/science-fair/sciencefair",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: science-fair",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/science-fair/sciencefair@1.0.0-beta5",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0a63b7225a564943278803a1a4f83ef3"
+        }
+      ]
+    },
+    {
+      "name": "builder-webpack-zlj-test",
+      "SPDXID": "SPDXRef-b141de1789800a31bc81b8c6d5b7f643",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "https://www.npmjs.com/package/builder-webpack-zlj-test",
+      "homepage": "https://www.npmjs.com/package/builder-webpack-zlj-test",
+      "licenseDeclared": "ISC",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: npmjs",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/builder-webpack-zlj-test@1.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "02b93530fca3afb2b4dd1298d5c29539"
+        }
+      ]
+    },
+    {
+      "name": "thorium",
+      "SPDXID": "SPDXRef-1d13ead634440ba50b8559e52a9712a1",
+      "versionInfo": "2.0.0",
+      "downloadLocation": "https://github.com/Thorium-Sim/thorium",
+      "homepage": "https://github.com/Thorium-Sim/thorium",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Thorium-Sim",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/thorium-sim/thorium@2.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "00a7319f62e5ed3ea7b1747f7e8e34c7"
+        }
+      ]
+    },
+    {
+      "name": "ipaddr.js",
+      "SPDXID": "SPDXRef-5e82dad99351f0e457a5f33d1c9becae",
+      "versionInfo": "1.9.1",
+      "downloadLocation": "https://github.com/whitequark/ipaddr.js",
+      "homepage": "https://github.com/whitequark/ipaddr.js",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: whitequark",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/whitequark/ipaddr.js@1.9.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "185812006e7436d5fab276693b36fe86"
+        }
+      ]
+    },
+    {
+      "name": "is-promise",
+      "SPDXID": "SPDXRef-1052aaa2743d8abaf8b51f907a239db3",
+      "versionInfo": "4.0.0",
+      "downloadLocation": "https://github.com/then/is-promise",
+      "homepage": "https://github.com/then/is-promise",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: then",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/then/is-promise@4.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "59a47c1741be0f3915396fbafec2bc75"
+        }
+      ]
+    },
+    {
+      "name": "effectful",
+      "SPDXID": "SPDXRef-333e59fcfab4e3ed40b972e147be1cb0",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "https://www.npmjs.com/package/effectful",
+      "homepage": "https://www.npmjs.com/package/effectful",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Christoffer Artmann",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/effectful@1.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "56eb7d2cc7a908140d1fe1809aa866b5"
+        }
+      ]
+    },
+    {
+      "name": "math-intrinsics",
+      "SPDXID": "SPDXRef-1b6498eed4bfbcc4f8b1955bdd3961ae",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "https://www.npmjs.com/package/math-intrinsics",
+      "homepage": "https://www.npmjs.com/package/math-intrinsics",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Jordan Harband",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/math-intrinsics@1.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "d991e82ee6c5a0d1cb245f2fb5786d2b"
+        }
+      ]
+    },
+    {
+      "name": "math-intrinsics",
+      "SPDXID": "SPDXRef-b4201beb2739fd82f79d623244c4e901",
+      "versionInfo": "1.1.0",
+      "downloadLocation": "https://github.com/es-shims/math-intrinsics",
+      "homepage": "https://github.com/es-shims/math-intrinsics",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: es-shims",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/es-shims/math-intrinsics@1.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "95c1ad15f23350fa56b1bbcdf7a84e10"
+        }
+      ]
+    },
+    {
+      "name": "media-typer",
+      "SPDXID": "SPDXRef-bafde75cff7f2bb68b69799975e0f436",
+      "versionInfo": "1.1.0",
+      "downloadLocation": "https://github.com/jshttp/media-typer",
+      "homepage": "https://github.com/jshttp/media-typer",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: jshttp",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/jshttp/media-typer@1.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "a3c1dffe47e66fbcce0bd0131ec51cc2"
+        }
+      ]
+    },
+    {
+      "name": "merge-descriptors",
+      "SPDXID": "SPDXRef-dfe078c67a88e13109f6a0f00521b8bc",
+      "versionInfo": "2.0.0",
+      "downloadLocation": "https://github.com/sindresorhus/merge-descriptors",
+      "homepage": "https://github.com/sindresorhus/merge-descriptors",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: sindresorhus",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/sindresorhus/merge-descriptors@2.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "f5016452c4a2214d4248a611506ed153"
+        }
+      ]
+    },
+    {
+      "name": "betaflight-configurator-nightlies",
+      "SPDXID": "SPDXRef-5670304d326ddf85c78d14fb9a875534",
+      "versionInfo": "20231127.584",
+      "downloadLocation": "https://github.com/betaflight/betaflight-configurator-nightlies",
+      "homepage": "https://github.com/betaflight/betaflight-configurator-nightlies",
+      "licenseDeclared": "(MIT AND GPL-3.0-only)",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: betaflight",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/betaflight/betaflight-configurator-nightlies@20231127.584",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "7d4a1bf6460f5b9494adaf3c44a2e49e"
+        }
+      ]
+    },
+    {
+      "name": "mime-types",
+      "SPDXID": "SPDXRef-8951eed37bb4ce25af9365f177ce5037",
+      "versionInfo": "3.0.0",
+      "downloadLocation": "https://github.com/jshttp/mime-types",
+      "homepage": "https://github.com/jshttp/mime-types",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: jshttp",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/jshttp/mime-types@3.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "ceda647502d615d8504e54a36f4cb5a3"
+        }
+      ]
+    },
+    {
+      "name": "riscv-bringup",
+      "SPDXID": "SPDXRef-44d743e5d81842514418d6f248153dae",
+      "versionInfo": "1.0",
+      "downloadLocation": "https://github.com/carlosedp/riscv-bringup",
+      "homepage": "https://github.com/carlosedp/riscv-bringup",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: carlosedp",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/carlosedp/riscv-bringup@1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "47a7efafe0815457cf9ea100ff731420"
+        }
+      ]
+    },
+    {
+      "name": "negotiator",
+      "SPDXID": "SPDXRef-50671628f64c0dcb8eea30fa4dfcccb6",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "https://www.npmjs.com/package/negotiator",
+      "homepage": "https://www.npmjs.com/package/negotiator",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Federico Romero",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/negotiator@1.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "92078315efae9097258bf3a74f52abb9"
+        }
+      ]
+    },
+    {
+      "name": "node-versions",
+      "SPDXID": "SPDXRef-02d226b545714686e0af49777473f222",
+      "versionInfo": "18.12.1-3459514213",
+      "downloadLocation": "https://github.com/actions/node-versions",
+      "homepage": "https://github.com/actions/node-versions",
+      "licenseDeclared": "(ISC AND MIT)",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: actions",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/actions/node-versions@18.12.1-3459514213",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "01225e905f914d53d671d2e20bc12c26"
+        }
+      ]
+    },
+    {
+      "name": "object-inspect",
+      "SPDXID": "SPDXRef-6a26b92efbe9ddd1fc13143f3fa8ab9e",
+      "versionInfo": "21bdaa0",
+      "downloadLocation": "https://github.com/inspect-js/object-inspect",
+      "homepage": "https://github.com/inspect-js/object-inspect",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: inspect-js",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/inspect-js/object-inspect@21bdaa0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "f3109fab993f1d45ac49d2fc06218d74"
+        }
+      ]
+    },
+    {
+      "name": "object-inspect",
+      "SPDXID": "SPDXRef-12b1dde9a7e427c27080200b2f65a92a",
+      "versionInfo": "1.8.0",
+      "downloadLocation": "https://mvnrepository.com/artifact/org.webjars.npm/object-inspect",
+      "homepage": "https://mvnrepository.com/artifact/org.webjars.npm/object-inspect",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: org.webjars.npm",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.webjars.npm/object-inspect@1.8.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0055ef70b80fa7578af8d4ab8dace472"
+        }
+      ]
+    },
+    {
+      "name": "object-inspect",
+      "SPDXID": "SPDXRef-9bf1826fd372bcadc4e2381652e15d54",
+      "versionInfo": "1.4.0",
+      "downloadLocation": "https://www.npmjs.com/package/object-inspect",
+      "homepage": "https://www.npmjs.com/package/object-inspect",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: James Halliday",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/object-inspect@1.4.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "c669aeadaf3ca68c7cd82ac4a5805833"
+        }
+      ]
+    },
+    {
+      "name": "on-finished",
+      "SPDXID": "SPDXRef-97f5a155b96a1e0b2fa288b4109217f8",
+      "versionInfo": "2.4.1",
+      "downloadLocation": "https://github.com/jshttp/on-finished",
+      "homepage": "https://github.com/jshttp/on-finished",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: jshttp",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/jshttp/on-finished@2.4.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "4ec0ecd94821828f471712f4ad1c9993"
+        }
+      ]
+    },
+    {
+      "name": "node",
+      "SPDXID": "SPDXRef-b4c92781644ea71f686774aca64d05ad",
+      "versionInfo": "6.8.0",
+      "downloadLocation": "https://www.npmjs.com/package/node",
+      "homepage": "https://www.npmjs.com/package/node",
+      "licenseDeclared": "ISC",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: nodejs",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/node@6.8.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "2cd8523514f95a3924260256a96cfc31"
+        }
+      ]
+    },
+    {
+      "name": "path-to-regexp",
+      "SPDXID": "SPDXRef-ba7d8785ec8bf6abd3154d916c10d973",
+      "versionInfo": "8.1.0",
+      "downloadLocation": "https://www.npmjs.com/package/path-to-regexp",
+      "homepage": "https://www.npmjs.com/package/path-to-regexp",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: npmjs",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/path-to-regexp@8.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "d5b9f5a5fb08aceeb09330d1cd71edb9"
+        }
+      ]
+    },
+    {
+      "name": "qs",
+      "SPDXID": "SPDXRef-d94aa199ebd8ecb8c15940d45867af6a",
+      "versionInfo": "6.14.0",
+      "downloadLocation": "https://www.npmjs.com/package/qs",
+      "homepage": "https://www.npmjs.com/package/qs",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: TJ Holowaychuk",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/qs@6.14.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "cffe7c8ace470b31b4d253e726259063"
+        }
+      ]
+    },
+    {
+      "name": "qs",
+      "SPDXID": "SPDXRef-5c235c2717f8a5ca2b2f8435d05f835b",
+      "versionInfo": "6.3.0",
+      "downloadLocation": "https://github.com/ljharb/qs",
+      "homepage": "https://github.com/ljharb/qs",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: ljharb",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/ljharb/qs@6.3.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0a52deaeff5f866273d51178b2a7f3f3"
+        }
+      ]
+    },
+    {
+      "name": "raw-body",
+      "SPDXID": "SPDXRef-2e45adab51479f72a102f542d8c66c39",
+      "versionInfo": "3.0.0-beta.1",
+      "downloadLocation": "https://github.com/stream-utils/raw-body",
+      "homepage": "https://github.com/stream-utils/raw-body",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: stream-utils",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/stream-utils/raw-body@3.0.0-beta.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "85bb1900a5d091977a319e14c761145d"
+        }
+      ]
+    },
+    {
+      "name": "router",
+      "SPDXID": "SPDXRef-befbc50d5f813f23db99a4c9959fdd35",
+      "versionInfo": "2.2.0",
+      "downloadLocation": "https://github.com/pillarjs/router",
+      "homepage": "https://github.com/pillarjs/router",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: pillarjs",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/pillarjs/router@2.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "8b9771ef8690ed8192aa30a9eea768d8"
+        }
+      ]
+    },
+    {
+      "name": "markdownxiaoshujiang",
+      "SPDXID": "SPDXRef-8e0ae63275fd5025bc882e15db73c818",
+      "versionInfo": "7.0.0",
+      "downloadLocation": "https://github.com/suziwen/markdownxiaoshujiang",
+      "homepage": "https://github.com/suziwen/markdownxiaoshujiang",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: suziwen",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/suziwen/markdownxiaoshujiang@7.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "227e82886babcbcf0830e7cf4748f2cb"
+        }
+      ]
+    },
+    {
+      "name": "safe-buffer",
+      "SPDXID": "SPDXRef-a149d4cc1d83195a1b862c910e6a2bfa",
+      "versionInfo": "5.2.1",
+      "downloadLocation": "https://mvnrepository.com/artifact/org.webjars.npm/safe-buffer",
+      "homepage": "https://mvnrepository.com/artifact/org.webjars.npm/safe-buffer",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: org.webjars.npm",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.webjars.npm/safe-buffer@5.2.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0fcfcb807c2fd1734c428e624a6a0793"
+        }
+      ]
+    },
+    {
+      "name": "safer-buffer",
+      "SPDXID": "SPDXRef-95b4b4440a86fa76e68510e52b8b74bf",
+      "versionInfo": "2.1.2",
+      "downloadLocation": "https://www.npmjs.com/package/safer-buffer",
+      "homepage": "https://www.npmjs.com/package/safer-buffer",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Nikita Skovoroda",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/safer-buffer@2.1.2",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "1ea31bbc681f283e6148edd28904b3b3"
+        }
+      ]
+    },
+    {
+      "name": "send",
+      "SPDXID": "SPDXRef-d2f84ee676d591bad5acf203d6d202fb",
+      "versionInfo": "1.2.0",
+      "downloadLocation": "https://github.com/pillarjs/send",
+      "homepage": "https://github.com/pillarjs/send",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: pillarjs",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/pillarjs/send@1.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "084f8e1744ade10cda1b930aa1226642"
+        }
+      ]
+    },
+    {
+      "name": "serve-static",
+      "SPDXID": "SPDXRef-3c3bdb9ef67541a5b73d2163e040b45d",
+      "versionInfo": "2.1.0",
+      "downloadLocation": "https://github.com/expressjs/serve-static",
+      "homepage": "https://github.com/expressjs/serve-static",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: expressjs",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/expressjs/serve-static@2.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "67281cbb308367bf1bc94d1ae05fe931"
+        }
+      ]
+    },
+    {
+      "name": "setprototypeof",
+      "SPDXID": "SPDXRef-eb27cb04af54c67da9fa3f0d1ee6f493",
+      "versionInfo": "1.2.0",
+      "downloadLocation": "https://www.npmjs.com/package/setprototypeof",
+      "homepage": "https://www.npmjs.com/package/setprototypeof",
+      "licenseDeclared": "ISC",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Wes Todd",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/setprototypeof@1.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0c73b74773798d807dccd7d50638dfaf"
+        }
+      ]
+    },
+    {
+      "name": "side-channel-list",
+      "SPDXID": "SPDXRef-a10512aae2e374f20e5f979cbc92fe4c",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "https://www.npmjs.com/package/side-channel-list",
+      "homepage": "https://www.npmjs.com/package/side-channel-list",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Jordan Harband",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/side-channel-list@1.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "97e3b20b089ff8f4bbb96a826808bf78"
+        }
+      ]
+    },
+    {
+      "name": "spt-raid-review",
+      "SPDXID": "SPDXRef-7672271feeb103bd46c3e17460d6faf7",
+      "versionInfo": "0.3.1A",
+      "downloadLocation": "https://github.com/ekky-llc/spt-raid-review",
+      "homepage": "https://github.com/ekky-llc/spt-raid-review",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: ekky-llc",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/ekky-llc/spt-raid-review@0.3.1A",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "3fe653d54e65eba9a89cad08ed11b3c3"
+        }
+      ]
+    },
+    {
+      "name": "side-channel-map",
+      "SPDXID": "SPDXRef-4ee5ddced5aaae59df71036bf57cfada",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "https://www.npmjs.com/package/side-channel-map",
+      "homepage": "https://www.npmjs.com/package/side-channel-map",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Jordan Harband",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/side-channel-map@1.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "11131fc1ed8736117a7c99cc41798d13"
+        }
+      ]
+    },
+    {
+      "name": "side-channel-weakmap",
+      "SPDXID": "SPDXRef-73ae4b521ff5e497a2f7ec23820f417e",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "https://www.npmjs.com/package/side-channel-weakmap",
+      "homepage": "https://www.npmjs.com/package/side-channel-weakmap",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Jordan Harband",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/side-channel-weakmap@1.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "a9cd2377e2687889470da8220b51fe60"
+        }
+      ]
+    },
+    {
+      "name": "side-channel",
+      "SPDXID": "SPDXRef-e59d2a8009f21a8409530044f41b10f6",
+      "versionInfo": "1.1.0",
+      "downloadLocation": "https://www.npmjs.com/package/side-channel",
+      "homepage": "https://www.npmjs.com/package/side-channel",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Jordan Harband",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/side-channel@1.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "8572e9a255fdc809dd7e54443a7454a6"
+        }
+      ]
+    },
+    {
+      "name": "toidentifier",
+      "SPDXID": "SPDXRef-470f007feede63dd15126ba4866d1f36",
+      "versionInfo": "1.0.1",
+      "downloadLocation": "https://www.npmjs.com/package/toidentifier",
+      "homepage": "https://www.npmjs.com/package/toidentifier",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Douglas Christopher Wilson",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/toidentifier@1.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "7770534f4c5d8220c88f87f74293a7e1"
+        }
+      ]
+    },
+    {
+      "name": "type-is",
+      "SPDXID": "SPDXRef-7bf843766f7bc8dcb07aac1c2df62706",
+      "versionInfo": "2.0.1",
+      "downloadLocation": "https://github.com/jshttp/type-is",
+      "homepage": "https://github.com/jshttp/type-is",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: jshttp",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/jshttp/type-is@2.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "4aa33fa094da930b7ac510d7d2dba834"
+        }
+      ]
+    },
+    {
+      "name": "sdk-deps-win32",
+      "SPDXID": "SPDXRef-dbbcde1c54565858a9b73422a7af73a6",
+      "versionInfo": "0.0.1",
+      "downloadLocation": "https://github.com/cloud9ide/sdk-deps-win32",
+      "homepage": "https://github.com/cloud9ide/sdk-deps-win32",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: cloud9ide",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/cloud9ide/sdk-deps-win32@0.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0361354d53f1dabd199024af6afdf5cd"
+        }
+      ]
+    },
+    {
+      "name": "erlang",
+      "SPDXID": "SPDXRef-0f099b3d96311f1b1c50e70a3b4b9239",
+      "versionInfo": "1:15.b.1-dfsg-4",
+      "downloadLocation": "https://snapshot.debian.org/archive/debian/20130128T212549Z/pool/main/e/erlang/erlang-edoc_15.b.1-dfsg-4_hurd-i386.deb",
+      "homepage": "https://snapshot.debian.org/archive/debian/20130128T212549Z/pool/main/e/erlang/erlang-edoc_15.b.1-dfsg-4_hurd-i386.deb",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: erlang",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:deb/debian/erlang@1:15.b.1-dfsg-4",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "726e75006270c5bc3d7a752c5d7d01ef"
+        }
+      ]
+    },
+    {
+      "name": "moduloteste",
+      "SPDXID": "SPDXRef-c5e12398a8fd3b5b903d6ce09bb5a59d",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "https://www.npmjs.com/package/moduloteste",
+      "homepage": "https://www.npmjs.com/package/moduloteste",
+      "licenseDeclared": "ISC",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: heldermmelo",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/moduloteste@1.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "137c12727e95cefba5002591b56852bc"
+        }
+      ]
+    }
+  ]
+}

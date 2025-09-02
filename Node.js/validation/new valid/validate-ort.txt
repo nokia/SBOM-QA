@@ -1,0 +1,1068 @@
+Validating node.js.ORT.ScanSbom.json
++-----+--------------+--------------+---------------------------+---------------------------+
+| #   | Error type   | SPDX ID      | Package name              | Reason                    |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 1   | NTIA         | SPDXRef-     | accepts                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | accepts-     |                           |                           |
+|     |              | 2.0.0        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 2   | NTIA         | SPDXRef-     | accepts                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | accepts-     |                           |                           |
+|     |              | 2.0.0-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 3   | NTIA         | SPDXRef-     | accepts                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | accepts-     |                           |                           |
+|     |              | 2.0.0-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 4   | NTIA         | SPDXRef-     | acorn                     | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | acorn-8.15.0 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 5   | NTIA         | SPDXRef-     | acorn                     | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | acorn-       |                           |                           |
+|     |              | 8.15.0-vcs   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 6   | NTIA         | SPDXRef-     | acorn                     | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | acorn-       |                           |                           |
+|     |              | 8.15.0-      |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 7   | NTIA         | SPDXRef-     | acorn-jsx                 | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | acorn-       |                           |                           |
+|     |              | jsx-5.3.2    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 8   | NTIA         | SPDXRef-     | acorn-jsx                 | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | acorn-jsx-   |                           |                           |
+|     |              | 5.3.2-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 9   | NTIA         | SPDXRef-     | acorn-jsx                 | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | acorn-jsx-   |                           |                           |
+|     |              | 5.3.2-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 10  | NTIA         | SPDXRef-     | argparse                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | argparse-    |                           |                           |
+|     |              | 1.0.10       |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 11  | NTIA         | SPDXRef-     | argparse                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | argparse-    |                           |                           |
+|     |              | 1.0.10-vcs   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 12  | NTIA         | SPDXRef-     | argparse                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | argparse-    |                           |                           |
+|     |              | 1.0.10-      |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 13  | NTIA         | SPDXRef-     | argparse                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | argparse-    |                           |                           |
+|     |              | 2.0.1        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 14  | NTIA         | SPDXRef-     | argparse                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | argparse-    |                           |                           |
+|     |              | 2.0.1-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 15  | NTIA         | SPDXRef-     | argparse                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | argparse-    |                           |                           |
+|     |              | 2.0.1-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 16  | NTIA         | SPDXRef-     | asap                      | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | asap-2.0.6   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 17  | NTIA         | SPDXRef-     | asap                      | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | asap-2.0.6-  |                           |                           |
+|     |              | vcs          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 18  | NTIA         | SPDXRef-     | asap                      | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | asap-2.0.6-  |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 19  | NTIA         | SPDXRef-     | basic-auth                | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | basic-       |                           |                           |
+|     |              | auth-2.0.1   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 20  | NTIA         | SPDXRef-     | basic-auth                | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | basic-auth-  |                           |                           |
+|     |              | 2.0.1-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 21  | NTIA         | SPDXRef-     | basic-auth                | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | basic-auth-  |                           |                           |
+|     |              | 2.0.1-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 22  | NTIA         | SPDXRef-     | body-parser               | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | body-        |                           |                           |
+|     |              | parser-2.2.0 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 23  | NTIA         | SPDXRef-     | body-parser               | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | body-parser- |                           |                           |
+|     |              | 2.2.0-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 24  | NTIA         | SPDXRef-     | body-parser               | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | body-parser- |                           |                           |
+|     |              | 2.2.0-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 25  | NTIA         | SPDXRef-     | caching-transform         | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | caching-tran |                           |                           |
+|     |              | sform-4.0.0  |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 26  | NTIA         | SPDXRef-     | caching-transform         | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | caching-tran |                           |                           |
+|     |              | sform-4.0.0- |                           |                           |
+|     |              | vcs          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 27  | NTIA         | SPDXRef-     | caching-transform         | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | caching-tran |                           |                           |
+|     |              | sform-4.0.0- |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 28  | NTIA         | SPDXRef-     | chalk                     | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | chalk-4.1.2  |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 29  | NTIA         | SPDXRef-     | chalk                     | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | chalk-4.1.2- |                           |                           |
+|     |              | vcs          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 30  | NTIA         | SPDXRef-     | chalk                     | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | chalk-4.1.2- |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 31  | NTIA         | SPDXRef-     | component-emitter         | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | component-em |                           |                           |
+|     |              | itter-1.3.1  |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 32  | NTIA         | SPDXRef-     | component-emitter         | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | component-em |                           |                           |
+|     |              | itter-1.3.1- |                           |                           |
+|     |              | vcs          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 33  | NTIA         | SPDXRef-     | component-emitter         | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | component-em |                           |                           |
+|     |              | itter-1.3.1- |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 34  | NTIA         | SPDXRef-     | cookie-session            | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | cookie-sessi |                           |                           |
+|     |              | on-2.1.0     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 35  | NTIA         | SPDXRef-     | cookie-session            | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | cookie-sessi |                           |                           |
+|     |              | on-2.1.0-vcs |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 36  | NTIA         | SPDXRef-     | cookie-session            | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | cookie-sessi |                           |                           |
+|     |              | on-2.1.0-    |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 37  | NTIA         | SPDXRef-     | default-require-          | Package without a package |
+|     | validation   | Package-NPM- | extensions                | supplier                  |
+|     | error        | default-     |                           |                           |
+|     |              | require-exte |                           |                           |
+|     |              | nsions-3.0.1 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 38  | NTIA         | SPDXRef-     | default-require-          | Package without a package |
+|     | validation   | Package-NPM- | extensions                | supplier                  |
+|     | error        | default-     |                           |                           |
+|     |              | require-exte |                           |                           |
+|     |              | nsions-      |                           |                           |
+|     |              | 3.0.1-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 39  | NTIA         | SPDXRef-     | default-require-          | Package without a package |
+|     | validation   | Package-NPM- | extensions                | supplier                  |
+|     | error        | default-     |                           |                           |
+|     |              | require-exte |                           |                           |
+|     |              | nsions-      |                           |                           |
+|     |              | 3.0.1-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 40  | NTIA         | SPDXRef-     | diff                      | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | diff-5.2.0   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 41  | NTIA         | SPDXRef-     | diff                      | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | diff-5.2.0-  |                           |                           |
+|     |              | vcs          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 42  | NTIA         | SPDXRef-     | diff                      | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | diff-5.2.0-  |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 43  | NTIA         | SPDXRef-     | doctrine                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | doctrine-    |                           |                           |
+|     |              | 3.0.0        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 44  | NTIA         | SPDXRef-     | doctrine                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | doctrine-    |                           |                           |
+|     |              | 3.0.0-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 45  | NTIA         | SPDXRef-     | doctrine                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | doctrine-    |                           |                           |
+|     |              | 3.0.0-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 46  | NTIA         | SPDXRef-     | encodeurl                 | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | encodeurl-   |                           |                           |
+|     |              | 2.0.0        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 47  | NTIA         | SPDXRef-     | encodeurl                 | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | encodeurl-   |                           |                           |
+|     |              | 2.0.0-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 48  | NTIA         | SPDXRef-     | encodeurl                 | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | encodeurl-   |                           |                           |
+|     |              | 2.0.0-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 49  | NTIA         | SPDXRef-     | escape-html               | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | escape-      |                           |                           |
+|     |              | html-1.0.3   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 50  | NTIA         | SPDXRef-     | escape-html               | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | escape-html- |                           |                           |
+|     |              | 1.0.3-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 51  | NTIA         | SPDXRef-     | escape-html               | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | escape-html- |                           |                           |
+|     |              | 1.0.3-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 52  | NTIA         | SPDXRef-     | eslint-scope              | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | eslint-      |                           |                           |
+|     |              | scope-7.2.2  |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 53  | NTIA         | SPDXRef-     | eslint-scope              | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | eslint-scope |                           |                           |
+|     |              | -7.2.2-vcs   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 54  | NTIA         | SPDXRef-     | eslint-scope              | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | eslint-scope |                           |                           |
+|     |              | -7.2.2-      |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 55  | NTIA         | SPDXRef-     | esrecurse                 | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | esrecurse-   |                           |                           |
+|     |              | 4.3.0        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 56  | NTIA         | SPDXRef-     | esrecurse                 | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | esrecurse-   |                           |                           |
+|     |              | 4.3.0-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 57  | NTIA         | SPDXRef-     | esrecurse                 | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | esrecurse-   |                           |                           |
+|     |              | 4.3.0-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 58  | NTIA         | SPDXRef-     | estraverse                | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | estraverse-  |                           |                           |
+|     |              | 5.3.0        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 59  | NTIA         | SPDXRef-     | estraverse                | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | estraverse-  |                           |                           |
+|     |              | 5.3.0-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 60  | NTIA         | SPDXRef-     | estraverse                | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | estraverse-  |                           |                           |
+|     |              | 5.3.0-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 61  | NTIA         | SPDXRef-     | esutils                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | esutils-     |                           |                           |
+|     |              | 2.0.3        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 62  | NTIA         | SPDXRef-     | esutils                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | esutils-     |                           |                           |
+|     |              | 2.0.3-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 63  | NTIA         | SPDXRef-     | esutils                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | esutils-     |                           |                           |
+|     |              | 2.0.3-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 64  | NTIA         | SPDXRef-     | etag                      | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | etag-1.8.1   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 65  | NTIA         | SPDXRef-     | etag                      | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | etag-1.8.1-  |                           |                           |
+|     |              | vcs          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 66  | NTIA         | SPDXRef-     | etag                      | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | etag-1.8.1-  |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 67  | NTIA         | SPDXRef-     | find-cache-dir            | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | find-cache-  |                           |                           |
+|     |              | dir-3.3.2    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 68  | NTIA         | SPDXRef-     | find-cache-dir            | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | find-cache-d |                           |                           |
+|     |              | ir-3.3.2-vcs |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 69  | NTIA         | SPDXRef-     | find-cache-dir            | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | find-cache-d |                           |                           |
+|     |              | ir-3.3.2-    |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 70  | NTIA         | SPDXRef-     | formidable                | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | formidable-  |                           |                           |
+|     |              | 2.1.5        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 71  | NTIA         | SPDXRef-     | formidable                | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | formidable-  |                           |                           |
+|     |              | 2.1.5-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 72  | NTIA         | SPDXRef-     | formidable                | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | formidable-  |                           |                           |
+|     |              | 2.1.5-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 73  | NTIA         | SPDXRef-     | forwarded                 | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | forwarded-   |                           |                           |
+|     |              | 0.2.0        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 74  | NTIA         | SPDXRef-     | forwarded                 | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | forwarded-   |                           |                           |
+|     |              | 0.2.0-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 75  | NTIA         | SPDXRef-     | forwarded                 | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | forwarded-   |                           |                           |
+|     |              | 0.2.0-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 76  | NTIA         | SPDXRef-     | fsevents                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | fsevents-    |                           |                           |
+|     |              | 2.3.3        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 77  | NTIA         | SPDXRef-     | fsevents                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | fsevents-    |                           |                           |
+|     |              | 2.3.3-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 78  | NTIA         | SPDXRef-     | fsevents                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | fsevents-    |                           |                           |
+|     |              | 2.3.3-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 79  | NTIA         | SPDXRef-     | graceful-fs               | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | graceful-    |                           |                           |
+|     |              | fs-4.2.11    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 80  | NTIA         | SPDXRef-     | graceful-fs               | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | graceful-fs- |                           |                           |
+|     |              | 4.2.11-vcs   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 81  | NTIA         | SPDXRef-     | graceful-fs               | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | graceful-fs- |                           |                           |
+|     |              | 4.2.11-      |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 82  | NTIA         | SPDXRef-     | inherits                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | inherits-    |                           |                           |
+|     |              | 2.0.4        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 83  | NTIA         | SPDXRef-     | inherits                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | inherits-    |                           |                           |
+|     |              | 2.0.4-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 84  | NTIA         | SPDXRef-     | inherits                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | inherits-    |                           |                           |
+|     |              | 2.0.4-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 85  | NTIA         | SPDXRef-     | istanbul-lib-processinfo  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | istanbul-    |                           |                           |
+|     |              | lib-processi |                           |                           |
+|     |              | nfo-2.0.3    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 86  | NTIA         | SPDXRef-     | istanbul-lib-processinfo  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | istanbul-    |                           |                           |
+|     |              | lib-processi |                           |                           |
+|     |              | nfo-2.0.3-   |                           |                           |
+|     |              | vcs          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 87  | NTIA         | SPDXRef-     | istanbul-lib-processinfo  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | istanbul-    |                           |                           |
+|     |              | lib-processi |                           |                           |
+|     |              | nfo-2.0.3-   |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 88  | NTIA         | SPDXRef-     | keygrip                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | keygrip-     |                           |                           |
+|     |              | 1.1.0        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 89  | NTIA         | SPDXRef-     | keygrip                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | keygrip-     |                           |                           |
+|     |              | 1.1.0-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 90  | NTIA         | SPDXRef-     | keygrip                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | keygrip-     |                           |                           |
+|     |              | 1.1.0-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 91  | NTIA         | SPDXRef-     | merge-descriptors         | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | merge-descri |                           |                           |
+|     |              | ptors-2.0.0  |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 92  | NTIA         | SPDXRef-     | merge-descriptors         | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | merge-descri |                           |                           |
+|     |              | ptors-2.0.0- |                           |                           |
+|     |              | vcs          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 93  | NTIA         | SPDXRef-     | merge-descriptors         | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | merge-descri |                           |                           |
+|     |              | ptors-2.0.0- |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 94  | NTIA         | SPDXRef-     | method-override           | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | method-overr |                           |                           |
+|     |              | ide-3.0.0    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 95  | NTIA         | SPDXRef-     | method-override           | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | method-overr |                           |                           |
+|     |              | ide-3.0.0-   |                           |                           |
+|     |              | vcs          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 96  | NTIA         | SPDXRef-     | method-override           | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | method-overr |                           |                           |
+|     |              | ide-3.0.0-   |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 97  | NTIA         | SPDXRef-     | methods                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | methods-     |                           |                           |
+|     |              | 1.1.2        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 98  | NTIA         | SPDXRef-     | methods                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | methods-     |                           |                           |
+|     |              | 1.1.2-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 99  | NTIA         | SPDXRef-     | methods                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | methods-     |                           |                           |
+|     |              | 1.1.2-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 100 | NTIA         | SPDXRef-     | mime-db                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | mime-        |                           |                           |
+|     |              | db-1.52.0    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 101 | NTIA         | SPDXRef-     | mime-db                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | mime-db-     |                           |                           |
+|     |              | 1.52.0-vcs   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 102 | NTIA         | SPDXRef-     | mime-db                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | mime-db-     |                           |                           |
+|     |              | 1.52.0-      |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 103 | NTIA         | SPDXRef-     | mime-db                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | mime-        |                           |                           |
+|     |              | db-1.54.0    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 104 | NTIA         | SPDXRef-     | mime-db                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | mime-db-     |                           |                           |
+|     |              | 1.54.0-vcs   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 105 | NTIA         | SPDXRef-     | mime-db                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | mime-db-     |                           |                           |
+|     |              | 1.54.0-      |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 106 | NTIA         | SPDXRef-     | mime-types                | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | mime-        |                           |                           |
+|     |              | types-2.1.35 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 107 | NTIA         | SPDXRef-     | mime-types                | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | mime-types-  |                           |                           |
+|     |              | 2.1.35-vcs   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 108 | NTIA         | SPDXRef-     | mime-types                | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | mime-types-  |                           |                           |
+|     |              | 2.1.35-      |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 109 | NTIA         | SPDXRef-     | mime-types                | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | mime-        |                           |                           |
+|     |              | types-3.0.1  |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 110 | NTIA         | SPDXRef-     | mime-types                | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | mime-types-  |                           |                           |
+|     |              | 3.0.1-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 111 | NTIA         | SPDXRef-     | mime-types                | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | mime-types-  |                           |                           |
+|     |              | 3.0.1-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 112 | NTIA         | SPDXRef-     | morgan                    | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | morgan-      |                           |                           |
+|     |              | 1.10.0       |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 113 | NTIA         | SPDXRef-     | morgan                    | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | morgan-      |                           |                           |
+|     |              | 1.10.0-vcs   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 114 | NTIA         | SPDXRef-     | morgan                    | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | morgan-      |                           |                           |
+|     |              | 1.10.0-      |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 115 | NTIA         | SPDXRef-     | ms                        | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | ms-2.0.0     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 116 | NTIA         | SPDXRef-     | ms                        | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | ms-2.0.0-vcs |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 117 | NTIA         | SPDXRef-     | ms                        | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | ms-2.0.0-    |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 118 | NTIA         | SPDXRef-     | ms                        | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | ms-2.1.3     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 119 | NTIA         | SPDXRef-     | ms                        | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | ms-2.1.3-vcs |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 120 | NTIA         | SPDXRef-     | ms                        | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | ms-2.1.3-    |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 121 | NTIA         | SPDXRef-     | negotiator                | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | negotiator-  |                           |                           |
+|     |              | 1.0.0        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 122 | NTIA         | SPDXRef-     | negotiator                | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | negotiator-  |                           |                           |
+|     |              | 1.0.0-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 123 | NTIA         | SPDXRef-     | negotiator                | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | negotiator-  |                           |                           |
+|     |              | 1.0.0-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 124 | NTIA         | SPDXRef-     | neo-async                 | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | neo-         |                           |                           |
+|     |              | async-2.6.2  |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 125 | NTIA         | SPDXRef-     | neo-async                 | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | neo-async-   |                           |                           |
+|     |              | 2.6.2-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 126 | NTIA         | SPDXRef-     | neo-async                 | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | neo-async-   |                           |                           |
+|     |              | 2.6.2-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 127 | NTIA         | SPDXRef-     | on-finished               | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | on-finished- |                           |                           |
+|     |              | 2.3.0        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 128 | NTIA         | SPDXRef-     | on-finished               | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | on-finished- |                           |                           |
+|     |              | 2.3.0-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 129 | NTIA         | SPDXRef-     | on-finished               | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | on-finished- |                           |                           |
+|     |              | 2.3.0-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 130 | NTIA         | SPDXRef-     | on-finished               | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | on-finished- |                           |                           |
+|     |              | 2.4.1        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 131 | NTIA         | SPDXRef-     | on-finished               | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | on-finished- |                           |                           |
+|     |              | 2.4.1-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 132 | NTIA         | SPDXRef-     | on-finished               | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | on-finished- |                           |                           |
+|     |              | 2.4.1-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 133 | NTIA         | SPDXRef-     | parseurl                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | parseurl-    |                           |                           |
+|     |              | 1.3.3        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 134 | NTIA         | SPDXRef-     | parseurl                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | parseurl-    |                           |                           |
+|     |              | 1.3.3-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 135 | NTIA         | SPDXRef-     | parseurl                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | parseurl-    |                           |                           |
+|     |              | 1.3.3-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 136 | NTIA         | SPDXRef-     | path-to-regexp            | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | path-to-     |                           |                           |
+|     |              | regexp-8.2.0 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 137 | NTIA         | SPDXRef-     | path-to-regexp            | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | path-to-rege |                           |                           |
+|     |              | xp-8.2.0-vcs |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 138 | NTIA         | SPDXRef-     | path-to-regexp            | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | path-to-rege |                           |                           |
+|     |              | xp-8.2.0-    |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 139 | NTIA         | SPDXRef-     | qs                        | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | qs-6.14.0    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 140 | NTIA         | SPDXRef-     | qs                        | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | qs-6.14.0-   |                           |                           |
+|     |              | vcs          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 141 | NTIA         | SPDXRef-     | qs                        | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | qs-6.14.0-   |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 142 | NTIA         | SPDXRef-     | random-bytes              | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | random-      |                           |                           |
+|     |              | bytes-1.0.0  |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 143 | NTIA         | SPDXRef-     | random-bytes              | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | random-bytes |                           |                           |
+|     |              | -1.0.0-vcs   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 144 | NTIA         | SPDXRef-     | random-bytes              | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | random-bytes |                           |                           |
+|     |              | -1.0.0-      |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 145 | NTIA         | SPDXRef-     | randombytes               | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | randombytes- |                           |                           |
+|     |              | 2.1.0        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 146 | NTIA         | SPDXRef-     | randombytes               | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | randombytes- |                           |                           |
+|     |              | 2.1.0-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 147 | NTIA         | SPDXRef-     | randombytes               | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | randombytes- |                           |                           |
+|     |              | 2.1.0-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 148 | NTIA         | SPDXRef-     | statuses                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | statuses-    |                           |                           |
+|     |              | 2.0.1        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 149 | NTIA         | SPDXRef-     | statuses                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | statuses-    |                           |                           |
+|     |              | 2.0.1-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 150 | NTIA         | SPDXRef-     | statuses                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | statuses-    |                           |                           |
+|     |              | 2.0.1-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 151 | NTIA         | SPDXRef-     | statuses                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | statuses-    |                           |                           |
+|     |              | 2.0.2        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 152 | NTIA         | SPDXRef-     | statuses                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | statuses-    |                           |                           |
+|     |              | 2.0.2-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 153 | NTIA         | SPDXRef-     | statuses                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | statuses-    |                           |                           |
+|     |              | 2.0.2-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 154 | NTIA         | SPDXRef-     | type-is                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | type-        |                           |                           |
+|     |              | is-2.0.1     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 155 | NTIA         | SPDXRef-     | type-is                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | type-        |                           |                           |
+|     |              | is-2.0.1-vcs |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 156 | NTIA         | SPDXRef-     | type-is                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | type-is-     |                           |                           |
+|     |              | 2.0.1-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 157 | NTIA         | SPDXRef-     | uid-safe                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | uid-         |                           |                           |
+|     |              | safe-2.1.5   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 158 | NTIA         | SPDXRef-     | uid-safe                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | uid-safe-    |                           |                           |
+|     |              | 2.1.5-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 159 | NTIA         | SPDXRef-     | uid-safe                  | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | uid-safe-    |                           |                           |
+|     |              | 2.1.5-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 160 | NTIA         | SPDXRef-     | uuid                      | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | uuid-8.3.2   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 161 | NTIA         | SPDXRef-     | uuid                      | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | uuid-8.3.2-  |                           |                           |
+|     |              | vcs          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 162 | NTIA         | SPDXRef-     | uuid                      | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | uuid-8.3.2-  |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 163 | NTIA         | SPDXRef-     | vhost                     | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | vhost-3.0.2  |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 164 | NTIA         | SPDXRef-     | vhost                     | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | vhost-3.0.2- |                           |                           |
+|     |              | vcs          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 165 | NTIA         | SPDXRef-     | vhost                     | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | vhost-3.0.2- |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 166 | NTIA         | SPDXRef-     | yargs                     | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | yargs-15.4.1 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 167 | NTIA         | SPDXRef-     | yargs                     | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | yargs-       |                           |                           |
+|     |              | 15.4.1-vcs   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 168 | NTIA         | SPDXRef-     | yargs                     | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | yargs-       |                           |                           |
+|     |              | 15.4.1-      |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 169 | NTIA         | SPDXRef-     | yargs                     | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | yargs-16.2.0 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 170 | NTIA         | SPDXRef-     | yargs                     | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | yargs-       |                           |                           |
+|     |              | 16.2.0-vcs   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 171 | NTIA         | SPDXRef-     | yargs                     | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | yargs-       |                           |                           |
+|     |              | 16.2.0-      |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 172 | NTIA         | SPDXRef-     | js                        | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | eslint-      |                           |                           |
+|     |              | js-8.57.1    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 173 | NTIA         | SPDXRef-     | js                        | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | eslint-js-   |                           |                           |
+|     |              | 8.57.1-vcs   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 174 | NTIA         | SPDXRef-     | js                        | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | eslint-js-   |                           |                           |
+|     |              | 8.57.1-      |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 175 | NTIA         | SPDXRef-     | load-nyc-config           | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | istanbuljs-  |                           |                           |
+|     |              | load-nyc-    |                           |                           |
+|     |              | config-1.1.0 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 176 | NTIA         | SPDXRef-     | load-nyc-config           | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | istanbuljs-  |                           |                           |
+|     |              | load-nyc-con |                           |                           |
+|     |              | fig-1.1.0-   |                           |                           |
+|     |              | vcs          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 177 | NTIA         | SPDXRef-     | load-nyc-config           | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | istanbuljs-  |                           |                           |
+|     |              | load-nyc-con |                           |                           |
+|     |              | fig-1.1.0-   |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 178 | NTIA         | SPDXRef-     | fs.scandir                | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | nodelib-fs.s |                           |                           |
+|     |              | candir-2.1.5 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 179 | NTIA         | SPDXRef-     | fs.scandir                | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | nodelib-fs.s |                           |                           |
+|     |              | candir-      |                           |                           |
+|     |              | 2.1.5-vcs    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 180 | NTIA         | SPDXRef-     | fs.scandir                | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | nodelib-fs.s |                           |                           |
+|     |              | candir-      |                           |                           |
+|     |              | 2.1.5-       |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 181 | NTIA         | SPDXRef-     | fs.stat                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | nodelib-fs.s |                           |                           |
+|     |              | tat-2.0.5    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 182 | NTIA         | SPDXRef-     | fs.stat                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | nodelib-fs.s |                           |                           |
+|     |              | tat-2.0.5-   |                           |                           |
+|     |              | vcs          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 183 | NTIA         | SPDXRef-     | fs.stat                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | nodelib-fs.s |                           |                           |
+|     |              | tat-2.0.5-   |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 184 | NTIA         | SPDXRef-     | fs.walk                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | nodelib-fs.w |                           |                           |
+|     |              | alk-1.2.8    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 185 | NTIA         | SPDXRef-     | fs.walk                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | nodelib-fs.w |                           |                           |
+|     |              | alk-1.2.8-   |                           |                           |
+|     |              | vcs          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 186 | NTIA         | SPDXRef-     | fs.walk                   | Package without a package |
+|     | validation   | Package-NPM- |                           | supplier                  |
+|     | error        | nodelib-fs.w |                           |                           |
+|     |              | alk-1.2.8-   |                           |                           |
+|     |              | source-      |                           |                           |
+|     |              | artifact     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 187 | Missing      | General      | General                   | CreatorComment is missing |
+|     | mandatory    |              |                           |                           |
+|     | field from   |              |                           |                           |
+|     | CreationInfo |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 188 | Missing or   | General      | General                   | There is no Creator field |
+|     | invalid      |              |                           | with Organization keyword |
+|     | field in Cre |              |                           | in it                     |
+|     | ationInfo::C |              |                           |                           |
+|     | reator       |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+The SPDX file final.projects/node.js/node.js.ORT.ScanSbom.json is not compliant with the OpenChain Telco SBOM Guide version 1.1

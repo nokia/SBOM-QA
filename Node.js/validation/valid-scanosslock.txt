@@ -1,0 +1,84 @@
+Validating scanoss-lock.json
++----+--------------+--------------+---------------------------+---------------------------+
+| #  | Error type   | SPDX ID      | Package name              | Reason                    |
++----+--------------+--------------+---------------------------+---------------------------+
+| 1  | Useless      | SPDXRef-     | node-babel7               | purl                      |
+|    | mandatory    | 7cba0588bfb0 |                           | (pkg:deb/debian/node-babe |
+|    | field from   | 21df8b966ae6 |                           | l7@7.20.6%2Bds1%2B~cs214. |
+|    | Package      | 9f148370     |                           | 250.188-1) in the         |
+|    |              |              |                           | ExternalRef cannot be     |
+|    |              |              |                           | converted to a            |
+|    |              |              |                           | downloadable URL          |
++----+--------------+--------------+---------------------------+---------------------------+
+| 2  | Useless      | SPDXRef-     | node-ampproject-remapping | purl                      |
+|    | mandatory    | a04dce6bc326 |                           | (pkg:deb/debian/node-     |
+|    | field from   | a203902fdbd2 |                           | ampproject-remapping@2.0. |
+|    | Package      | 1820bc31     |                           | 4%2B~cs4.7.16-4) in the   |
+|    |              |              |                           | ExternalRef cannot be     |
+|    |              |              |                           | converted to a            |
+|    |              |              |                           | downloadable URL          |
++----+--------------+--------------+---------------------------+---------------------------+
+| 3  | Useless      | SPDXRef-     | erlang                    | purl (pkg:deb/debian/erla |
+|    | mandatory    | 0f099b3d9631 |                           | ng@1:15.b.1-dfsg-4) in    |
+|    | field from   | 1f1b1c50e70a |                           | the ExternalRef cannot be |
+|    | Package      | 3b4b9239     |                           | converted to a            |
+|    |              |              |                           | downloadable URL          |
++----+--------------+--------------+---------------------------+---------------------------+
+| 4  | Useless      | SPDXRef-     | node-ajv                  | purl                      |
+|    | mandatory    | a332d644d4e8 |                           | (pkg:deb/debian/node-     |
+|    | field from   | 4f1e02cac0ee |                           | ajv@6.12.6-3) in the      |
+|    | Package      | 632be989     |                           | ExternalRef cannot be     |
+|    |              |              |                           | converted to a            |
+|    |              |              |                           | downloadable URL          |
++----+--------------+--------------+---------------------------+---------------------------+
+| 5  | Useless      | SPDXRef-     | slide%202.0b1%20tomcat%20 | purl (pkg:apache/slide%20 |
+|    | mandatory    | a7dafec480fa | 4.1.29.zip                | 2.0b1%20tomcat%204.1.29.z |
+|    | field from   | e152f96e8ada |                           | ip@2.0) in the            |
+|    | Package      | 80d4f17b     |                           | ExternalRef cannot be     |
+|    |              |              |                           | converted to a            |
+|    |              |              |                           | downloadable URL          |
++----+--------------+--------------+---------------------------+---------------------------+
+| 6  | Useless      | SPDXRef-     | node-electron-to-chromium | purl                      |
+|    | mandatory    | 5a9cd988925e |                           | (pkg:deb/debian/node-     |
+|    | field from   | 667bdd665144 |                           | electron-to-              |
+|    | Package      | 086050f4     |                           | chromium@1.5.166-1) in    |
+|    |              |              |                           | the ExternalRef cannot be |
+|    |              |              |                           | converted to a            |
+|    |              |              |                           | downloadable URL          |
++----+--------------+--------------+---------------------------+---------------------------+
+| 7  | Useless      | SPDXRef-     | node-brace-expansion      | purl                      |
+|    | mandatory    | 4f5722a8c5fe |                           | (pkg:deb/debian/node-     |
+|    | field from   | 788db671582a |                           | brace-expansion@2.0.1%2B~ |
+|    | Package      | e9859104     |                           | 1.1.0-2) in the           |
+|    |              |              |                           | ExternalRef cannot be     |
+|    |              |              |                           | converted to a            |
+|    |              |              |                           | downloadable URL          |
++----+--------------+--------------+---------------------------+---------------------------+
+| 8  | Useless      | SPDXRef-     | node-ci-info              | purl                      |
+|    | mandatory    | 06c701526a04 |                           | (pkg:deb/debian/node-ci-  |
+|    | field from   | 3a5a73748b62 |                           | info@3.2.0%2B~cs4.2.0-3)  |
+|    | Package      | 818a3a96     |                           | in the ExternalRef cannot |
+|    |              |              |                           | be converted to a         |
+|    |              |              |                           | downloadable URL          |
++----+--------------+--------------+---------------------------+---------------------------+
+| 9  | Useless      | SPDXRef-     | json5.mirror/v2.2.0       | purl (pkg:sourceforge/jso |
+|    | mandatory    | 5f1c406d90dc |                           | n5.mirror/v2.2.0@2.2.0)   |
+|    | field from   | 14daa872f218 |                           | in the ExternalRef cannot |
+|    | Package      | 0bf4bfd9     |                           | be converted to a         |
+|    |              |              |                           | downloadable URL          |
++----+--------------+--------------+---------------------------+---------------------------+
+| 10 | Useless      | SPDXRef-     | whatsapptodesktop         | purl (pkg:sourceforge/wha |
+|    | mandatory    | 534719035cda |                           | tsapptodesktop@1.0) in    |
+|    | field from   | ecd0e1888eb2 |                           | the ExternalRef cannot be |
+|    | Package      | aeb04d17     |                           | converted to a            |
+|    |              |              |                           | downloadable URL          |
++----+--------------+--------------+---------------------------+---------------------------+
+| 11 | Useless      | SPDXRef-     | node-write-file-atomic    | purl                      |
+|    | mandatory    | e26df89f829c |                           | (pkg:deb/debian/node-     |
+|    | field from   | e39917a0b905 |                           | write-file-               |
+|    | Package      | ddb90e32     |                           | atomic@3.0.3.orig) in the |
+|    |              |              |                           | ExternalRef cannot be     |
+|    |              |              |                           | converted to a            |
+|    |              |              |                           | downloadable URL          |
++----+--------------+--------------+---------------------------+---------------------------+
+The SPDX file clone/Node.js/mehdi-new/scanoss-lock.json is not compliant with the OpenChain Telco SBOM Guide version 1.1 in strict mode (with RECOMMENDED also)

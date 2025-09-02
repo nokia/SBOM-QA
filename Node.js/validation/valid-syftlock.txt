@@ -1,0 +1,1022 @@
+Validating syft-lock-production.json
++-----+--------------+--------------+---------------------------+---------------------------+
+| #   | Error type   | SPDX ID      | Package name              | Reason                    |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 1   | NTIA         | SPDXRef-Docu | .                         | Package without a version |
+|     | validation   | mentRoot-    |                           |                           |
+|     | error        | Directory-.  |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 2   | NTIA         | SPDXRef-     | accepts                   | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | accepts-     |                           |                           |
+|     |              | e78ba75cf676 |                           |                           |
+|     |              | 5049         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 3   | NTIA         | SPDXRef-     | body-parser               | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | body-parser- |                           |                           |
+|     |              | 9b4f3a5574b4 |                           |                           |
+|     |              | 6544         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 4   | NTIA         | SPDXRef-     | bytes                     | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | bytes-       |                           |                           |
+|     |              | f38469712f0b |                           |                           |
+|     |              | 15b5         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 5   | NTIA         | SPDXRef-     | call-bind-apply-helpers   | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | call-bind-   |                           |                           |
+|     |              | apply-helper |                           |                           |
+|     |              | s-           |                           |                           |
+|     |              | 4c48dd844074 |                           |                           |
+|     |              | 1395         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 6   | NTIA         | SPDXRef-     | call-bound                | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | call-bound-  |                           |                           |
+|     |              | c33ba3dfbd76 |                           |                           |
+|     |              | b987         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 7   | NTIA         | SPDXRef-     | content-disposition       | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | content-disp |                           |                           |
+|     |              | osition-     |                           |                           |
+|     |              | 005d2674ba47 |                           |                           |
+|     |              | 9966         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 8   | NTIA         | SPDXRef-     | content-type              | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | content-type |                           |                           |
+|     |              | -e048b319ade |                           |                           |
+|     |              | 43810        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 9   | NTIA         | SPDXRef-     | cookie                    | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | cookie-      |                           |                           |
+|     |              | 79c1501f2e69 |                           |                           |
+|     |              | 5f32         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 10  | NTIA         | SPDXRef-     | cookie-signature          | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | cookie-signa |                           |                           |
+|     |              | ture-        |                           |                           |
+|     |              | d080a691304a |                           |                           |
+|     |              | 4dac         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 11  | NTIA         | SPDXRef-     | debug                     | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | debug-       |                           |                           |
+|     |              | 0d5406036a4d |                           |                           |
+|     |              | 243b         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 12  | NTIA         | SPDXRef-     | depd                      | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | depd-        |                           |                           |
+|     |              | f437fabb7ca4 |                           |                           |
+|     |              | 5a95         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 13  | NTIA         | SPDXRef-     | dunder-proto              | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | dunder-proto |                           |                           |
+|     |              | -c0b12fbacd0 |                           |                           |
+|     |              | d172a        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 14  | NTIA         | SPDXRef-     | ee-first                  | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | ee-first-    |                           |                           |
+|     |              | c777ae601ea5 |                           |                           |
+|     |              | 7da5         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 15  | NTIA         | SPDXRef-     | encodeurl                 | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | encodeurl-   |                           |                           |
+|     |              | b2c3d5129472 |                           |                           |
+|     |              | 9f44         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 16  | NTIA         | SPDXRef-     | es-define-property        | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | es-define-pr |                           |                           |
+|     |              | operty-      |                           |                           |
+|     |              | 9bbade145797 |                           |                           |
+|     |              | 23ed         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 17  | NTIA         | SPDXRef-     | es-errors                 | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | es-errors-   |                           |                           |
+|     |              | 44c1f3f6ad59 |                           |                           |
+|     |              | 1506         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 18  | NTIA         | SPDXRef-     | es-object-atoms           | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | es-object-at |                           |                           |
+|     |              | oms-         |                           |                           |
+|     |              | a3bd802010f6 |                           |                           |
+|     |              | 5b6a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 19  | NTIA         | SPDXRef-     | escape-html               | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | escape-html- |                           |                           |
+|     |              | 384c058675c0 |                           |                           |
+|     |              | 8650         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 20  | NTIA         | SPDXRef-     | etag                      | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | etag-        |                           |                           |
+|     |              | 548794664518 |                           |                           |
+|     |              | dc40         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 21  | NTIA         | SPDXRef-     | express                   | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | express-     |                           |                           |
+|     |              | 0725c9ba64f6 |                           |                           |
+|     |              | 1ab6         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 22  | NTIA         | SPDXRef-     | finalhandler              | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | finalhandler |                           |                           |
+|     |              | -3ffbb327ba3 |                           |                           |
+|     |              | 7fa51        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 23  | NTIA         | SPDXRef-     | forwarded                 | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | forwarded-   |                           |                           |
+|     |              | e7c6c5836fcc |                           |                           |
+|     |              | 515d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 24  | NTIA         | SPDXRef-     | fresh                     | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | fresh-       |                           |                           |
+|     |              | 6791308e69c5 |                           |                           |
+|     |              | 167e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 25  | NTIA         | SPDXRef-     | function-bind             | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | function-bin |                           |                           |
+|     |              | d-           |                           |                           |
+|     |              | 25892f512ba1 |                           |                           |
+|     |              | 1122         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 26  | NTIA         | SPDXRef-     | get-intrinsic             | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | get-intrinsi |                           |                           |
+|     |              | c-           |                           |                           |
+|     |              | e18d56b7aceb |                           |                           |
+|     |              | 91f1         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 27  | NTIA         | SPDXRef-     | get-proto                 | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | get-proto-   |                           |                           |
+|     |              | e033ec94e741 |                           |                           |
+|     |              | 5de8         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 28  | NTIA         | SPDXRef-     | gopd                      | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | gopd-        |                           |                           |
+|     |              | 282cdcc91f1a |                           |                           |
+|     |              | eafb         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 29  | NTIA         | SPDXRef-     | has-symbols               | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | has-symbols- |                           |                           |
+|     |              | 4700dc4ba68d |                           |                           |
+|     |              | ec6a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 30  | NTIA         | SPDXRef-     | hasown                    | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | hasown-      |                           |                           |
+|     |              | 49059637712a |                           |                           |
+|     |              | 695c         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 31  | NTIA         | SPDXRef-     | http-errors               | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | http-errors- |                           |                           |
+|     |              | c26531c242be |                           |                           |
+|     |              | b085         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 32  | NTIA         | SPDXRef-     | iconv-lite                | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | iconv-lite-  |                           |                           |
+|     |              | 59bf00c7e64c |                           |                           |
+|     |              | 22e7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 33  | NTIA         | SPDXRef-     | inherits                  | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | inherits-    |                           |                           |
+|     |              | 173e26509791 |                           |                           |
+|     |              | 1623         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 34  | NTIA         | SPDXRef-     | ipaddr.js                 | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | ipaddr.js-ba |                           |                           |
+|     |              | b391e65de520 |                           |                           |
+|     |              | 9b           |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 35  | NTIA         | SPDXRef-     | is-promise                | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | is-promise-  |                           |                           |
+|     |              | f47811488d33 |                           |                           |
+|     |              | fdac         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 36  | NTIA         | SPDXRef-     | math-intrinsics           | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | math-intrins |                           |                           |
+|     |              | ics-         |                           |                           |
+|     |              | 0c43b6e07473 |                           |                           |
+|     |              | cbe0         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 37  | NTIA         | SPDXRef-     | media-typer               | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | media-typer- |                           |                           |
+|     |              | 9e3cf45aad57 |                           |                           |
+|     |              | 8942         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 38  | NTIA         | SPDXRef-     | merge-descriptors         | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | merge-descri |                           |                           |
+|     |              | ptors-       |                           |                           |
+|     |              | 38a46889761c |                           |                           |
+|     |              | 81d3         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 39  | NTIA         | SPDXRef-     | mime-db                   | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | mime-db-abac |                           |                           |
+|     |              | 0d6bf4a75444 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 40  | NTIA         | SPDXRef-     | mime-types                | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | mime-types-  |                           |                           |
+|     |              | 9cfe0cf6908a |                           |                           |
+|     |              | ea92         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 41  | NTIA         | SPDXRef-     | ms                        | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | ms-          |                           |                           |
+|     |              | 2f6ed649f637 |                           |                           |
+|     |              | f520         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 42  | NTIA         | SPDXRef-     | negotiator                | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | negotiator-e |                           |                           |
+|     |              | dfc79bba9b44 |                           |                           |
+|     |              | 890          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 43  | NTIA         | SPDXRef-     | object-inspect            | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | object-inspe |                           |                           |
+|     |              | ct-          |                           |                           |
+|     |              | 6e6b67d1790d |                           |                           |
+|     |              | 6abd         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 44  | NTIA         | SPDXRef-     | on-finished               | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | on-finished- |                           |                           |
+|     |              | 30976dc860e5 |                           |                           |
+|     |              | f6a0         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 45  | NTIA         | SPDXRef-     | once                      | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | once-        |                           |                           |
+|     |              | d3d2a5b95231 |                           |                           |
+|     |              | 9fe6         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 46  | NTIA         | SPDXRef-     | parseurl                  | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | parseurl-    |                           |                           |
+|     |              | 21d1d312bba4 |                           |                           |
+|     |              | a1f0         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 47  | NTIA         | SPDXRef-     | path-to-regexp            | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | path-to-rege |                           |                           |
+|     |              | xp-          |                           |                           |
+|     |              | 5aab18c429c1 |                           |                           |
+|     |              | 9791         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 48  | NTIA         | SPDXRef-     | proxy-addr                | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | proxy-addr-  |                           |                           |
+|     |              | d81e3b3b6212 |                           |                           |
+|     |              | ec59         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 49  | NTIA         | SPDXRef-     | qs                        | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | qs-          |                           |                           |
+|     |              | 95ffc51072fe |                           |                           |
+|     |              | cd04         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 50  | NTIA         | SPDXRef-     | range-parser              | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | range-parser |                           |                           |
+|     |              | -560452791b9 |                           |                           |
+|     |              | 57369        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 51  | NTIA         | SPDXRef-     | raw-body                  | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | raw-body-    |                           |                           |
+|     |              | f91703760dc6 |                           |                           |
+|     |              | 57b1         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 52  | NTIA         | SPDXRef-     | router                    | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | router-      |                           |                           |
+|     |              | c6648861803e |                           |                           |
+|     |              | a7ec         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 53  | NTIA         | SPDXRef-     | safe-buffer               | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | safe-buffer- |                           |                           |
+|     |              | 41b6ae6cbf9f |                           |                           |
+|     |              | 681f         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 54  | NTIA         | SPDXRef-     | safer-buffer              | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | safer-buffer |                           |                           |
+|     |              | -17916b33f39 |                           |                           |
+|     |              | c99b3        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 55  | NTIA         | SPDXRef-     | send                      | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | send-        |                           |                           |
+|     |              | a2dc665e1368 |                           |                           |
+|     |              | 9a0a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 56  | NTIA         | SPDXRef-     | serve-static              | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | serve-static |                           |                           |
+|     |              | -3300ffa113d |                           |                           |
+|     |              | 5981b        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 57  | NTIA         | SPDXRef-     | setprototypeof            | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | setprototype |                           |                           |
+|     |              | of-bb73f174a |                           |                           |
+|     |              | fabbfec      |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 58  | NTIA         | SPDXRef-     | side-channel              | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | side-channel |                           |                           |
+|     |              | -0014797ad41 |                           |                           |
+|     |              | 5cb97        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 59  | NTIA         | SPDXRef-     | side-channel-list         | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | side-        |                           |                           |
+|     |              | channel-     |                           |                           |
+|     |              | list-bb6bda3 |                           |                           |
+|     |              | 76120345f    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 60  | NTIA         | SPDXRef-     | side-channel-map          | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | side-        |                           |                           |
+|     |              | channel-map- |                           |                           |
+|     |              | cb62ac8f0e49 |                           |                           |
+|     |              | 164c         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 61  | NTIA         | SPDXRef-     | side-channel-weakmap      | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | side-        |                           |                           |
+|     |              | channel-weak |                           |                           |
+|     |              | map-         |                           |                           |
+|     |              | 78e7a467e7e1 |                           |                           |
+|     |              | 4a51         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 62  | NTIA         | SPDXRef-     | statuses                  | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | statuses-    |                           |                           |
+|     |              | b45ed3890572 |                           |                           |
+|     |              | 0182         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 63  | NTIA         | SPDXRef-     | statuses                  | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | statuses-    |                           |                           |
+|     |              | 9bae83651f6c |                           |                           |
+|     |              | bc64         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 64  | NTIA         | SPDXRef-     | toidentifier              | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | toidentifier |                           |                           |
+|     |              | -8c975961a59 |                           |                           |
+|     |              | 3add6        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 65  | NTIA         | SPDXRef-     | type-is                   | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | type-is-     |                           |                           |
+|     |              | 1a9e1405d48d |                           |                           |
+|     |              | a898         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 66  | NTIA         | SPDXRef-     | unpipe                    | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | unpipe-      |                           |                           |
+|     |              | 8b03eb311641 |                           |                           |
+|     |              | c31d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 67  | NTIA         | SPDXRef-     | vary                      | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | vary-bfcaef6 |                           |                           |
+|     |              | d67aa4dfa    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 68  | NTIA         | SPDXRef-     | wrappy                    | Package without a package |
+|     | validation   | Package-npm- |                           | supplier                  |
+|     | error        | wrappy-      |                           |                           |
+|     |              | 6c30993cf3d1 |                           |                           |
+|     |              | b4fc         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 69  | NTIA         | SPDXRef-Docu | .                         | Package without a package |
+|     | validation   | mentRoot-    |                           | supplier                  |
+|     | error        | Directory-.  |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 70  | Missing      | General      | General                   | CreatorComment is missing |
+|     | mandatory    |              |                           |                           |
+|     | field from   |              |                           |                           |
+|     | CreationInfo |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 71  | Missing      | SPDXRef-     | accepts                   | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | accepts-     |                           | fields are missing        |
+|     | Package      | e78ba75cf676 |                           |                           |
+|     |              | 5049         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 72  | Missing      | SPDXRef-     | actions/checkout          | Both PackageChecksum and  |
+|     | mandatory    | Package-     |                           | PackageVerificationCode   |
+|     | field from   | github-      |                           | fields are missing        |
+|     | Package      | action-      |                           |                           |
+|     |              | actions-chec |                           |                           |
+|     |              | kout-        |                           |                           |
+|     |              | 7cc33d334234 |                           |                           |
+|     |              | 3b53         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 73  | Missing      | SPDXRef-     | actions/checkout          | Both PackageChecksum and  |
+|     | mandatory    | Package-     |                           | PackageVerificationCode   |
+|     | field from   | github-      |                           | fields are missing        |
+|     | Package      | action-      |                           |                           |
+|     |              | actions-chec |                           |                           |
+|     |              | kout-        |                           |                           |
+|     |              | b8fa0c66a39b |                           |                           |
+|     |              | 15d2         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 74  | Missing      | SPDXRef-     | actions/checkout          | Both PackageChecksum and  |
+|     | mandatory    | Package-     |                           | PackageVerificationCode   |
+|     | field from   | github-      |                           | fields are missing        |
+|     | Package      | action-      |                           |                           |
+|     |              | actions-     |                           |                           |
+|     |              | checkout-bbf |                           |                           |
+|     |              | 2b484f55d312 |                           |                           |
+|     |              | 6            |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 75  | Missing      | SPDXRef-     | actions/checkout          | Both PackageChecksum and  |
+|     | mandatory    | Package-     |                           | PackageVerificationCode   |
+|     | field from   | github-      |                           | fields are missing        |
+|     | Package      | action-      |                           |                           |
+|     |              | actions-chec |                           |                           |
+|     |              | kout-        |                           |                           |
+|     |              | b141e14d24d2 |                           |                           |
+|     |              | eb52         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 76  | Missing      | SPDXRef-     | actions/download-artifact | Both PackageChecksum and  |
+|     | mandatory    | Package-     |                           | PackageVerificationCode   |
+|     | field from   | github-      |                           | fields are missing        |
+|     | Package      | action-      |                           |                           |
+|     |              | actions-     |                           |                           |
+|     |              | download-art |                           |                           |
+|     |              | ifact-       |                           |                           |
+|     |              | 62e5a0fcdd14 |                           |                           |
+|     |              | d26c         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 77  | Missing      | SPDXRef-     | actions/download-artifact | Both PackageChecksum and  |
+|     | mandatory    | Package-     |                           | PackageVerificationCode   |
+|     | field from   | github-      |                           | fields are missing        |
+|     | Package      | action-      |                           |                           |
+|     |              | actions-     |                           |                           |
+|     |              | download-art |                           |                           |
+|     |              | ifact-       |                           |                           |
+|     |              | d836fb5b19d1 |                           |                           |
+|     |              | b9e2         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 78  | Missing      | SPDXRef-     | actions/setup-node        | Both PackageChecksum and  |
+|     | mandatory    | Package-     |                           | PackageVerificationCode   |
+|     | field from   | github-      |                           | fields are missing        |
+|     | Package      | action-      |                           |                           |
+|     |              | actions-     |                           |                           |
+|     |              | setup-node-  |                           |                           |
+|     |              | 7622fa8333ac |                           |                           |
+|     |              | 8f86         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 79  | Missing      | SPDXRef-     | actions/setup-node        | Both PackageChecksum and  |
+|     | mandatory    | Package-     |                           | PackageVerificationCode   |
+|     | field from   | github-      |                           | fields are missing        |
+|     | Package      | action-      |                           |                           |
+|     |              | actions-     |                           |                           |
+|     |              | setup-node-  |                           |                           |
+|     |              | 5f71896f8cf3 |                           |                           |
+|     |              | a55a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 80  | Missing      | SPDXRef-     | actions/upload-artifact   | Both PackageChecksum and  |
+|     | mandatory    | Package-     |                           | PackageVerificationCode   |
+|     | field from   | github-      |                           | fields are missing        |
+|     | Package      | action-      |                           |                           |
+|     |              | actions-     |                           |                           |
+|     |              | upload-artif |                           |                           |
+|     |              | act-         |                           |                           |
+|     |              | b8111b34b0dd |                           |                           |
+|     |              | 4621         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 81  | Missing      | SPDXRef-     | actions/upload-artifact   | Both PackageChecksum and  |
+|     | mandatory    | Package-     |                           | PackageVerificationCode   |
+|     | field from   | github-      |                           | fields are missing        |
+|     | Package      | action-      |                           |                           |
+|     |              | actions-     |                           |                           |
+|     |              | upload-      |                           |                           |
+|     |              | artifact-bd6 |                           |                           |
+|     |              | a905f9e39e5a |                           |                           |
+|     |              | 8            |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 82  | Missing      | SPDXRef-     | actions/upload-artifact   | Both PackageChecksum and  |
+|     | mandatory    | Package-     |                           | PackageVerificationCode   |
+|     | field from   | github-      |                           | fields are missing        |
+|     | Package      | action-      |                           |                           |
+|     |              | actions-     |                           |                           |
+|     |              | upload-      |                           |                           |
+|     |              | artifact-bc8 |                           |                           |
+|     |              | 2a3467ab2407 |                           |                           |
+|     |              | 6            |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 83  | Missing      | SPDXRef-     | body-parser               | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | body-parser- |                           | fields are missing        |
+|     | Package      | 9b4f3a5574b4 |                           |                           |
+|     |              | 6544         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 84  | Missing      | SPDXRef-     | bytes                     | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | bytes-       |                           | fields are missing        |
+|     | Package      | f38469712f0b |                           |                           |
+|     |              | 15b5         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 85  | Missing      | SPDXRef-     | call-bind-apply-helpers   | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | call-bind-   |                           | fields are missing        |
+|     | Package      | apply-helper |                           |                           |
+|     |              | s-           |                           |                           |
+|     |              | 4c48dd844074 |                           |                           |
+|     |              | 1395         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 86  | Missing      | SPDXRef-     | call-bound                | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | call-bound-  |                           | fields are missing        |
+|     | Package      | c33ba3dfbd76 |                           |                           |
+|     |              | b987         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 87  | Missing      | SPDXRef-     | content-disposition       | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | content-disp |                           | fields are missing        |
+|     | Package      | osition-     |                           |                           |
+|     |              | 005d2674ba47 |                           |                           |
+|     |              | 9966         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 88  | Missing      | SPDXRef-     | content-type              | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | content-type |                           | fields are missing        |
+|     | Package      | -e048b319ade |                           |                           |
+|     |              | 43810        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 89  | Missing      | SPDXRef-     | cookie                    | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | cookie-      |                           | fields are missing        |
+|     | Package      | 79c1501f2e69 |                           |                           |
+|     |              | 5f32         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 90  | Missing      | SPDXRef-     | cookie-signature          | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | cookie-signa |                           | fields are missing        |
+|     | Package      | ture-        |                           |                           |
+|     |              | d080a691304a |                           |                           |
+|     |              | 4dac         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 91  | Missing      | SPDXRef-     | coverallsapp/github-      | Both PackageChecksum and  |
+|     | mandatory    | Package-     | action                    | PackageVerificationCode   |
+|     | field from   | github-      |                           | fields are missing        |
+|     | Package      | action-cover |                           |                           |
+|     |              | allsapp-     |                           |                           |
+|     |              | github-      |                           |                           |
+|     |              | action-eb725 |                           |                           |
+|     |              | 6ff2f3b4f0f  |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 92  | Missing      | SPDXRef-     | coverallsapp/github-      | Both PackageChecksum and  |
+|     | mandatory    | Package-     | action                    | PackageVerificationCode   |
+|     | field from   | github-      |                           | fields are missing        |
+|     | Package      | action-cover |                           |                           |
+|     |              | allsapp-     |                           |                           |
+|     |              | github-      |                           |                           |
+|     |              | action-ec7ee |                           |                           |
+|     |              | 289eacfe7f2  |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 93  | Missing      | SPDXRef-     | debug                     | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | debug-       |                           | fields are missing        |
+|     | Package      | 0d5406036a4d |                           |                           |
+|     |              | 243b         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 94  | Missing      | SPDXRef-     | depd                      | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | depd-        |                           | fields are missing        |
+|     | Package      | f437fabb7ca4 |                           |                           |
+|     |              | 5a95         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 95  | Missing      | SPDXRef-     | dunder-proto              | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | dunder-proto |                           | fields are missing        |
+|     | Package      | -c0b12fbacd0 |                           |                           |
+|     |              | d172a        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 96  | Missing      | SPDXRef-     | ee-first                  | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | ee-first-    |                           | fields are missing        |
+|     | Package      | c777ae601ea5 |                           |                           |
+|     |              | 7da5         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 97  | Missing      | SPDXRef-     | encodeurl                 | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | encodeurl-   |                           | fields are missing        |
+|     | Package      | b2c3d5129472 |                           |                           |
+|     |              | 9f44         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 98  | Missing      | SPDXRef-     | es-define-property        | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | es-define-pr |                           | fields are missing        |
+|     | Package      | operty-      |                           |                           |
+|     |              | 9bbade145797 |                           |                           |
+|     |              | 23ed         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 99  | Missing      | SPDXRef-     | es-errors                 | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | es-errors-   |                           | fields are missing        |
+|     | Package      | 44c1f3f6ad59 |                           |                           |
+|     |              | 1506         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 100 | Missing      | SPDXRef-     | es-object-atoms           | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | es-object-at |                           | fields are missing        |
+|     | Package      | oms-         |                           |                           |
+|     |              | a3bd802010f6 |                           |                           |
+|     |              | 5b6a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 101 | Missing      | SPDXRef-     | escape-html               | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | escape-html- |                           | fields are missing        |
+|     | Package      | 384c058675c0 |                           |                           |
+|     |              | 8650         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 102 | Missing      | SPDXRef-     | etag                      | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | etag-        |                           | fields are missing        |
+|     | Package      | 548794664518 |                           |                           |
+|     |              | dc40         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 103 | Missing      | SPDXRef-     | express                   | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | express-     |                           | fields are missing        |
+|     | Package      | 0725c9ba64f6 |                           |                           |
+|     |              | 1ab6         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 104 | Missing      | SPDXRef-     | finalhandler              | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | finalhandler |                           | fields are missing        |
+|     | Package      | -3ffbb327ba3 |                           |                           |
+|     |              | 7fa51        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 105 | Missing      | SPDXRef-     | forwarded                 | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | forwarded-   |                           | fields are missing        |
+|     | Package      | e7c6c5836fcc |                           |                           |
+|     |              | 515d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 106 | Missing      | SPDXRef-     | fresh                     | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | fresh-       |                           | fields are missing        |
+|     | Package      | 6791308e69c5 |                           |                           |
+|     |              | 167e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 107 | Missing      | SPDXRef-     | function-bind             | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | function-bin |                           | fields are missing        |
+|     | Package      | d-           |                           |                           |
+|     |              | 25892f512ba1 |                           |                           |
+|     |              | 1122         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 108 | Missing      | SPDXRef-     | get-intrinsic             | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | get-intrinsi |                           | fields are missing        |
+|     | Package      | c-           |                           |                           |
+|     |              | e18d56b7aceb |                           |                           |
+|     |              | 91f1         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 109 | Missing      | SPDXRef-     | get-proto                 | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | get-proto-   |                           | fields are missing        |
+|     | Package      | e033ec94e741 |                           |                           |
+|     |              | 5de8         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 110 | Missing      | SPDXRef-     | github/codeql-            | Both PackageChecksum and  |
+|     | mandatory    | Package-     | action/analyze            | PackageVerificationCode   |
+|     | field from   | github-      |                           | fields are missing        |
+|     | Package      | action-      |                           |                           |
+|     |              | github-      |                           |                           |
+|     |              | codeql-      |                           |                           |
+|     |              | action-      |                           |                           |
+|     |              | analyze-ffc3 |                           |                           |
+|     |              | 4331ca93453a |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 111 | Missing      | SPDXRef-     | github/codeql-action/init | Both PackageChecksum and  |
+|     | mandatory    | Package-     |                           | PackageVerificationCode   |
+|     | field from   | github-      |                           | fields are missing        |
+|     | Package      | action-      |                           |                           |
+|     |              | github-      |                           |                           |
+|     |              | codeql-      |                           |                           |
+|     |              | action-init- |                           |                           |
+|     |              | 91d09dd33c8a |                           |                           |
+|     |              | 7fd5         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 112 | Missing      | SPDXRef-     | github/codeql-            | Both PackageChecksum and  |
+|     | mandatory    | Package-     | action/upload-sarif       | PackageVerificationCode   |
+|     | field from   | github-      |                           | fields are missing        |
+|     | Package      | action-      |                           |                           |
+|     |              | github-      |                           |                           |
+|     |              | codeql-      |                           |                           |
+|     |              | action-      |                           |                           |
+|     |              | upload-sarif |                           |                           |
+|     |              | -2fff945e692 |                           |                           |
+|     |              | aa3e6        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 113 | Missing      | SPDXRef-     | gopd                      | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | gopd-        |                           | fields are missing        |
+|     | Package      | 282cdcc91f1a |                           |                           |
+|     |              | eafb         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 114 | Missing      | SPDXRef-     | has-symbols               | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | has-symbols- |                           | fields are missing        |
+|     | Package      | 4700dc4ba68d |                           |                           |
+|     |              | ec6a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 115 | Missing      | SPDXRef-     | hasown                    | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | hasown-      |                           | fields are missing        |
+|     | Package      | 49059637712a |                           |                           |
+|     |              | 695c         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 116 | Missing      | SPDXRef-     | http-errors               | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | http-errors- |                           | fields are missing        |
+|     | Package      | c26531c242be |                           |                           |
+|     |              | b085         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 117 | Missing      | SPDXRef-     | iconv-lite                | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | iconv-lite-  |                           | fields are missing        |
+|     | Package      | 59bf00c7e64c |                           |                           |
+|     |              | 22e7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 118 | Missing      | SPDXRef-     | inherits                  | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | inherits-    |                           | fields are missing        |
+|     | Package      | 173e26509791 |                           |                           |
+|     |              | 1623         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 119 | Missing      | SPDXRef-     | ipaddr.js                 | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | ipaddr.js-ba |                           | fields are missing        |
+|     | Package      | b391e65de520 |                           |                           |
+|     |              | 9b           |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 120 | Missing      | SPDXRef-     | is-promise                | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | is-promise-  |                           | fields are missing        |
+|     | Package      | f47811488d33 |                           |                           |
+|     |              | fdac         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 121 | Missing      | SPDXRef-     | math-intrinsics           | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | math-intrins |                           | fields are missing        |
+|     | Package      | ics-         |                           |                           |
+|     |              | 0c43b6e07473 |                           |                           |
+|     |              | cbe0         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 122 | Missing      | SPDXRef-     | media-typer               | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | media-typer- |                           | fields are missing        |
+|     | Package      | 9e3cf45aad57 |                           |                           |
+|     |              | 8942         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 123 | Missing      | SPDXRef-     | merge-descriptors         | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | merge-descri |                           | fields are missing        |
+|     | Package      | ptors-       |                           |                           |
+|     |              | 38a46889761c |                           |                           |
+|     |              | 81d3         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 124 | Missing      | SPDXRef-     | mime-db                   | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | mime-db-abac |                           | fields are missing        |
+|     | Package      | 0d6bf4a75444 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 125 | Missing      | SPDXRef-     | mime-types                | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | mime-types-  |                           | fields are missing        |
+|     | Package      | 9cfe0cf6908a |                           |                           |
+|     |              | ea92         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 126 | Missing      | SPDXRef-     | ms                        | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | ms-          |                           | fields are missing        |
+|     | Package      | 2f6ed649f637 |                           |                           |
+|     |              | f520         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 127 | Missing      | SPDXRef-     | negotiator                | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | negotiator-e |                           | fields are missing        |
+|     | Package      | dfc79bba9b44 |                           |                           |
+|     |              | 890          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 128 | Missing      | SPDXRef-     | object-inspect            | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | object-inspe |                           | fields are missing        |
+|     | Package      | ct-          |                           |                           |
+|     |              | 6e6b67d1790d |                           |                           |
+|     |              | 6abd         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 129 | Missing      | SPDXRef-     | on-finished               | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | on-finished- |                           | fields are missing        |
+|     | Package      | 30976dc860e5 |                           |                           |
+|     |              | f6a0         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 130 | Missing      | SPDXRef-     | once                      | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | once-        |                           | fields are missing        |
+|     | Package      | d3d2a5b95231 |                           |                           |
+|     |              | 9fe6         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 131 | Missing      | SPDXRef-     | ossf/scorecard-action     | Both PackageChecksum and  |
+|     | mandatory    | Package-     |                           | PackageVerificationCode   |
+|     | field from   | github-      |                           | fields are missing        |
+|     | Package      | action-ossf- |                           |                           |
+|     |              | scorecard-ac |                           |                           |
+|     |              | tion-        |                           |                           |
+|     |              | d6d7333a1080 |                           |                           |
+|     |              | 056e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 132 | Missing      | SPDXRef-     | parseurl                  | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | parseurl-    |                           | fields are missing        |
+|     | Package      | 21d1d312bba4 |                           |                           |
+|     |              | a1f0         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 133 | Missing      | SPDXRef-     | path-to-regexp            | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | path-to-rege |                           | fields are missing        |
+|     | Package      | xp-          |                           |                           |
+|     |              | 5aab18c429c1 |                           |                           |
+|     |              | 9791         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 134 | Missing      | SPDXRef-     | proxy-addr                | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | proxy-addr-  |                           | fields are missing        |
+|     | Package      | d81e3b3b6212 |                           |                           |
+|     |              | ec59         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 135 | Missing      | SPDXRef-     | qs                        | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | qs-          |                           | fields are missing        |
+|     | Package      | 95ffc51072fe |                           |                           |
+|     |              | cd04         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 136 | Missing      | SPDXRef-     | range-parser              | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | range-parser |                           | fields are missing        |
+|     | Package      | -560452791b9 |                           |                           |
+|     |              | 57369        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 137 | Missing      | SPDXRef-     | raw-body                  | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | raw-body-    |                           | fields are missing        |
+|     | Package      | f91703760dc6 |                           |                           |
+|     |              | 57b1         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 138 | Missing      | SPDXRef-     | router                    | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | router-      |                           | fields are missing        |
+|     | Package      | c6648861803e |                           |                           |
+|     |              | a7ec         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 139 | Missing      | SPDXRef-     | safe-buffer               | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | safe-buffer- |                           | fields are missing        |
+|     | Package      | 41b6ae6cbf9f |                           |                           |
+|     |              | 681f         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 140 | Missing      | SPDXRef-     | safer-buffer              | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | safer-buffer |                           | fields are missing        |
+|     | Package      | -17916b33f39 |                           |                           |
+|     |              | c99b3        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 141 | Missing      | SPDXRef-     | send                      | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | send-        |                           | fields are missing        |
+|     | Package      | a2dc665e1368 |                           |                           |
+|     |              | 9a0a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 142 | Missing      | SPDXRef-     | serve-static              | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | serve-static |                           | fields are missing        |
+|     | Package      | -3300ffa113d |                           |                           |
+|     |              | 5981b        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 143 | Missing      | SPDXRef-     | setprototypeof            | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | setprototype |                           | fields are missing        |
+|     | Package      | of-bb73f174a |                           |                           |
+|     |              | fabbfec      |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 144 | Missing      | SPDXRef-     | side-channel              | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | side-channel |                           | fields are missing        |
+|     | Package      | -0014797ad41 |                           |                           |
+|     |              | 5cb97        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 145 | Missing      | SPDXRef-     | side-channel-list         | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | side-        |                           | fields are missing        |
+|     | Package      | channel-     |                           |                           |
+|     |              | list-bb6bda3 |                           |                           |
+|     |              | 76120345f    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 146 | Missing      | SPDXRef-     | side-channel-map          | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | side-        |                           | fields are missing        |
+|     | Package      | channel-map- |                           |                           |
+|     |              | cb62ac8f0e49 |                           |                           |
+|     |              | 164c         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 147 | Missing      | SPDXRef-     | side-channel-weakmap      | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | side-        |                           | fields are missing        |
+|     | Package      | channel-weak |                           |                           |
+|     |              | map-         |                           |                           |
+|     |              | 78e7a467e7e1 |                           |                           |
+|     |              | 4a51         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 148 | Missing      | SPDXRef-     | statuses                  | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | statuses-    |                           | fields are missing        |
+|     | Package      | b45ed3890572 |                           |                           |
+|     |              | 0182         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 149 | Missing      | SPDXRef-     | statuses                  | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | statuses-    |                           | fields are missing        |
+|     | Package      | 9bae83651f6c |                           |                           |
+|     |              | bc64         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 150 | Missing      | SPDXRef-     | toidentifier              | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | toidentifier |                           | fields are missing        |
+|     | Package      | -8c975961a59 |                           |                           |
+|     |              | 3add6        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 151 | Missing      | SPDXRef-     | type-is                   | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | type-is-     |                           | fields are missing        |
+|     | Package      | 1a9e1405d48d |                           |                           |
+|     |              | a898         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 152 | Missing      | SPDXRef-     | unpipe                    | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | unpipe-      |                           | fields are missing        |
+|     | Package      | 8b03eb311641 |                           |                           |
+|     |              | c31d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 153 | Missing      | SPDXRef-     | vary                      | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | vary-bfcaef6 |                           | fields are missing        |
+|     | Package      | d67aa4dfa    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 154 | Missing      | SPDXRef-     | wrappy                    | Both PackageChecksum and  |
+|     | mandatory    | Package-npm- |                           | PackageVerificationCode   |
+|     | field from   | wrappy-      |                           | fields are missing        |
+|     | Package      | 6c30993cf3d1 |                           |                           |
+|     |              | b4fc         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 155 | Missing      | SPDXRef-Docu | .                         | ExternalRef field is      |
+|     | mandatory    | mentRoot-    |                           | missing                   |
+|     | field from   | Directory-.  |                           |                           |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 156 | Missing      | SPDXRef-Docu | .                         | Both PackageChecksum and  |
+|     | mandatory    | mentRoot-    |                           | PackageVerificationCode   |
+|     | field from   | Directory-.  |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+The SPDX file clone/Node.js/mehdi-new/syft-lock-production.json is not compliant with the OpenChain Telco SBOM Guide version 1.1 in strict mode (with RECOMMENDED also)
