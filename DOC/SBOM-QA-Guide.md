@@ -1,12 +1,12 @@
-# SBOM-QualityAssurance-Guide
+# SBOM_Quality-Assurance_Guide
 
 ## 1. Scope
-- 
+
 
 ## 2. Terms and Definition
 ### SBOM
 A Software Bill of Materials (SBOM) is a structured inventory of all software components, libraries, and dependencies within an application, including key metadata such as version, license, and origin. It enhances transparency, security, and compliance across the software supply chain.
-### SBOM Types: 
+### SBOM Types
 SBOMs can exist at different stages of the software lifecycle, including *Design, Source, Build, Analyzed, Deployed,* and *Runtime*, as defined in the [CISA guidelines](https://www.cisa.gov/sbom).
 ### Data Format
 Data Format refers to the structure in which SBOM information is represented. Common formats include [SPDX](https://spdx.dev/), [CycloneDX](https://cyclonedx.org/), [SWID](https://www.iso.org/standard/65871.html), or other proprietary formats. For the purposes of this case study, the SBOM is represented using the **SPDX** format.
@@ -40,36 +40,34 @@ A transitive dependency is an indirect package required by a direct dependency o
 ## Tools Used
 ### [Syft](https://github.com/anchore/syft)
 **Command:**  
+For generating SBOMs for all test targets this command is used:
 ```
 syft -o spdx-json=syft-sbom.json --enrich all --verbose
 ```
 
-**Ecosystem:** [Node.js]()
+**Ecosystem:** [Node.js](https://github.com/nokia/SBOM-QA/tree/main/Node.js)
 
 
-Notes / Observations:
+**Compilation Step:**
+The project did not originally include a package-lock.json file, which is required to resolve and capture the full dependency tree. To generate it, the following command was executed in test target root:
+```
+npm install --package-lock
+```
+**Generated Files:**
+package-lock.json , node_modules.
 
-The project initially lacked a package-lock.json file, required to capture the full dependency tree.
+**Generated SBOMs:**
+[Syft-lock-Node.js](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/syft-lock-production.json) , [Syft-default-Node.js]
 
-Generated files: syft-sbom.json, package-lock.json, and node_modules.
-  - Test Target:
-  - Notes / Observations:
 
-### Scanoss 
-  - Command:  
-  - Test Target:
-  - Notes / Observations:
+### [Scanoss](https://github.com/scanoss) 
+**Command:**  
 
-### ORT  
-  - Command:  
-  - Test Target:
-  - Notes / Observations:
+### [ORT](https://github.com/oss-review-toolkit/ort)  
+**Command:**
 
-### Trivy  
-  - Command:  
-  - Test Target:
-  - Notes / Observations:
-
+### [Trivy](https://github.com/aquasecurity/trivy)  
+**Command:** 
 
 ---
 
