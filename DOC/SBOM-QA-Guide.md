@@ -8,6 +8,7 @@ The project covers:
 - Alignment with the [OpenChain Telco SBOM Guide](https://www.openchainproject.org/standard/telco-sbom) to ensure standardized practices for SBOM structure, content, and validation.
 - Evaluation of tool performance, accuracy, and coverage to inform reliable and actionable benchmarking results.
 
+This project is licensed under the [BSD 3-Clause License](https://github.com/nokia/SBOM-QA/blob/main/LICENSE). 
 
 ## 2. Terms and Definition
 ### SBOM
