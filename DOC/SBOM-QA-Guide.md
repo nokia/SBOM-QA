@@ -1,6 +1,12 @@
 # SBOM_Quality-Assurance_Guide
 
 ## 1. Scope
+The project covers:
+- Open-source software repositories as test targets, including multiple programming languages and ecosystems.
+- Generation and analysis of SBOMs in [SPDX](https://spdx.dev/specifications/) format.
+- Use of reference SBOMs exported from original repository dependency graphs to serve as a consistent baseline.
+- Alignment with the [OpenChain Telco SBOM Guide](https://www.openchainproject.org/standard/telco-sbom) to ensure standardized practices for SBOM structure, content, and validation.
+- Evaluation of tool performance, accuracy, and coverage to inform reliable and actionable benchmarking results.
 
 
 ## 2. Terms and Definition
@@ -96,7 +102,7 @@ For each test target, the Reference SBOM was exported from its **GitHub reposito
 **Command:**  
 For generating SBOMs for all test targets this command is used:
 ```
-syft -o spdx-json=syft-sbom.json --enrich all --verbose
+syft -o spdx-json=syft-sbom.json --enrich all --verbose .
 ```
 
 **Ecosystem:** [Node.js](https://github.com/nokia/SBOM-QA/tree/main/Node.js)
