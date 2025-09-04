@@ -1,14 +1,17 @@
 # SBOM_Quality-Assurance_Guide
 
 ## 1. Scope
-The project covers:
-- Open-source software repositories as test targets, including multiple programming languages and ecosystems.
-- Generation and analysis of SBOMs in [SPDX](https://spdx.dev/specifications/) format.
-- Use of reference SBOMs exported from original repository dependency graphs to serve as a consistent baseline.
-- Alignment with the [OpenChain Telco SBOM Guide](https://www.openchainproject.org/standard/telco-sbom) to ensure standardized practices for SBOM structure, content, and validation.
-- Evaluation of tool performance, accuracy, and coverage to inform reliable and actionable benchmarking results.
+The scope of this project is to evaluate and benchmark open-source SBOM generation tools in a structured and standardized manner.  
 
-This project is licensed under the [BSD 3-Clause License](https://github.com/nokia/SBOM-QA/blob/main/LICENSE). 
+Specifically, the project covers:  
+- Open-source software repositories as test targets, spanning multiple programming languages and ecosystems.  
+- Generation and analysis of SBOMs in the [SPDX](https://spdx.dev/) format.  
+- Use of reference SBOMs exported from original repository dependency graphs to serve as a consistent baseline.  
+- Alignment with the [OpenChain Telco SBOM Guide](https://github.com/OpenChain-Project/Specification-Discussion/blob/master/Reference-Material/Telco-SBOM-Guide.md) to ensure standardized practices for SBOM structure, content, and validation.  
+- Evaluation of tool performance, accuracy, and coverage to deliver reliable and actionable benchmarking results.  
+
+This project is licensed under the [BSD 3-Clause License](https://github.com/nokia/SBOM-QA/blob/main/LICENSE).  
+ 
 
 ## 2. Terms and Definition
 ### SBOM
