@@ -66,13 +66,25 @@ The test targets linked in this part are the original, publicly available reposi
 ### 8. [C++ (No package manager)](https://github.com/zeux/meshoptimizer)  
 [MeshOptimizer](https://github.com/zeux/meshoptimizer) is an open-source C++ library developed by Arseny Kapoulkine, providing algorithms to optimize meshes for modern GPU vertex and index processing pipelines. It can reindex an existing index buffer or generate an entirely new set of indices from an unindexed vertex buffer. The project does not utilize a package manager, making it suitable for manual integration and analysis.
 
+### 9. [ContainerImage](https://github.com/pangenome/pggb)  
+[pggb](https://github.com/pangenome/pggb) builds pangenome variation graphs from input sequences using wfmash, seqwish, smoothxg, gfaffix, and odgi.  
+
+The project provides a **Dockerfile** for containerized usage, enabling local builds or pulls from the GitHub Container Registry.
+
 
 
 
 **Note:** In the Observations section, the cloned copies and case study directories used for testing and SBOM generation are detailed, including the specific tags checked out.
 
+
+
 ## 3.3. Reference SBOM
-- Mention references and SBOM (Software Bill of Materials).
+A **Reference SBOM** is a standardized, machine-readable inventory of a project's dependencies and associated metadata, such as versions, licenses, and transitive relationships. It is generated directly from the **dependency graph** of the original, publicly available repositories of the respective test targets.
+
+These SBOMs provide a canonical view of all software components, including direct and transitive dependencies, and serve as a baseline for comparison and validation. The dependency graph is a summary of the manifest and lock files stored in a repository and any dependencies that are submitted for the repository using the dependency submission API ([GitHub Docs: Dependency Graph](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph?utm_source=chatgpt.com)).
+
+For each test target, the Reference SBOM was exported from its **GitHub repository** using automated SBOM generation tools. These SBOMs capture the original dependency tree and associated metadata (e.g., versions, licenses) before any modifications or local testing. GitHub facilitates this process by allowing users to export an SBOM from a repository's dependency graph via the UI or REST API, producing an SPDX-compatible JSON file ([GitHub Docs: Exporting SBOM](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/exporting-a-software-bill-of-materials-for-your-repository?utm_source=chatgpt.com)).
+
 
 
 ---
