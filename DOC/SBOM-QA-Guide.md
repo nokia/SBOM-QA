@@ -47,31 +47,31 @@ The SCANOSS Python package provides a simple library for interacting with SCANOS
 ## 3.2. Test Target
 The test targets linked in this part are the original, publicly available repositories of the respective projects. 
 
-### 1. [C++ (Conan)](https://github.com/catchorg/Catch2)  
+### 1. [C (No package manager)](https://github.com/besser82/libxcrypt)  
+[libxcrypt](https://github.com/besser82/libxcrypt) is a modern library for one-way hashing of passwords, supporting various algorithms like bcrypt, md5crypt, and yescrypt. It provides traditional Unix `crypt` interfaces and extended functions for secure password handling. The project does not utilize a package manager, making it suitable for manual integration and analysis.
+
+### 2. [C++ (No package manager)](https://github.com/zeux/meshoptimizer)  
+[MeshOptimizer](https://github.com/zeux/meshoptimizer) is an open-source C++ library developed by Arseny Kapoulkine, providing algorithms to optimize meshes for modern GPU vertex and index processing pipelines. It can reindex an existing index buffer or generate an entirely new set of indices from an unindexed vertex buffer. The project does not utilize a package manager, making it suitable for manual integration and analysis.
+
+### 3. [C++ (Conan)](https://github.com/catchorg/Catch2)  
 [Catch2](https://github.com/catchorg/Catch2) is a modern, header-only testing framework for C++. It provides robust unit testing, micro-benchmarking, and test case management. For this study, the project is managed using the [Conan](https://conan.io/) package manager.
 
-### 2. [Go](https://github.com/gohugoio/hugo)  
+### 4. [Go](https://github.com/gohugoio/hugo)  
 [Hugo](https://github.com/gohugoio/hugo) is a fast and flexible static site generator written in Go. It is widely used for websites, blogs, documentation, and portfolios.
 
-### 3. [Node.js](https://github.com/expressjs/express)  
+### 5. [Node.js](https://github.com/expressjs/express)  
 [Express](https://github.com/expressjs/express) is a minimal and flexible Node.js web application framework that provides robust features for building web and mobile applications.
 
-### 4. [Java (Gradle-managed)](https://github.com/elastic/elasticsearch)  
+### 6. [Java (Gradle-managed)](https://github.com/elastic/elasticsearch)  
 [Elasticsearch](https://github.com/elastic/elasticsearch) is a distributed, RESTful search and analytics engine optimized for speed and relevance on production-scale workloads. It is managed using [Gradle](https://gradle.org/) package manager.
 
-### 5. [Python (FastAPI)](https://github.com/fastapi/fastapi) | [Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
+### 7. [Python (FastAPI)](https://github.com/fastapi/fastapi) | [Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
 - [FastAPI](https://github.com/fastapi/fastapi) is a modern, fast (high-performance) web framework for building APIs with Python 3.7+ based on standard Python type hints. It is widely used for developing web applications and APIs efficiently.
 
 - [GPT Engineer](https://github.com/AntonOsika/gpt-engineer) is a Python project designed to facilitate building AI-driven solutions and applications, providing a structured environment for rapid prototyping and experimentation.
 
-### 6. [Java (Maven-managed)](https://github.com/bytedeco/javacv)  
+### 8. [Java (Maven-managed)](https://github.com/bytedeco/javacv)  
 [JavaCV](https://github.com/bytedeco/javacv) is a Java interface to OpenCV, FFmpeg, and other computer vision and machine learning libraries. It provides a comprehensive set of tools for image and video processing, machine learning, and computer vision tasks. The project is managed using the [Maven](https://maven.apache.org/) package manager.
-
-### 7. [C (No package manager)](https://github.com/besser82/libxcrypt)  
-[libxcrypt](https://github.com/besser82/libxcrypt) is a modern library for one-way hashing of passwords, supporting various algorithms like bcrypt, md5crypt, and yescrypt. It provides traditional Unix `crypt` interfaces and extended functions for secure password handling. The project does not utilize a package manager, making it suitable for manual integration and analysis.
-
-### 8. [C++ (No package manager)](https://github.com/zeux/meshoptimizer)  
-[MeshOptimizer](https://github.com/zeux/meshoptimizer) is an open-source C++ library developed by Arseny Kapoulkine, providing algorithms to optimize meshes for modern GPU vertex and index processing pipelines. It can reindex an existing index buffer or generate an entirely new set of indices from an unindexed vertex buffer. The project does not utilize a package manager, making it suitable for manual integration and analysis.
 
 ### 9. [ContainerImage](https://github.com/pangenome/pggb)  
 [pggb](https://github.com/pangenome/pggb) builds pangenome variation graphs from input sequences using wfmash, seqwish, smoothxg, gfaffix, and odgi.  
@@ -81,7 +81,7 @@ The project provides a **Dockerfile** for containerized usage, enabling local bu
 
 
 
-**Note:** In the Observations section, the cloned copies and case study directories used for testing and SBOM generation are detailed, including the specific tags checked out.
+> **Note:** In the Observations section, the cloned copies and case study directories used for testing and SBOM generation are detailed, including the specific tags checked out.
 
 
 
@@ -106,19 +106,20 @@ For generating SBOMs for all test targets this command is used:
 syft -o spdx-json=syft-sbom.json --enrich all --verbose .
 ```
 
-**Ecosystem:** [Node.js](https://github.com/nokia/SBOM-QA/tree/main/Node.js)
+**Ecosystem:** [Node.js](https://github.com/nokia/SBOM-QA/tree/main/Node.js) (tag : v5.1.0)
 
+- **Default SBOM:** Generated directly from the project source without performing any compilation step.[Syft-default-Node.js]
 
 **Compilation Step:**
 The project did not originally include a package-lock.json file, which is required to resolve and capture the full dependency tree. To generate it, the following command was executed in test target root:
 ```
 npm install --package-lock
 ```
-**Generated Files:**
+- **Generated Files:**
 package-lock.json , node_modules.
 
-**Generated SBOMs:**
-[Syft-lock-Node.js](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/syft-lock-production.json) , [Syft-default-Node.js]
+- **Enriched SBOMs:**
+[Syft-lock-Node.js](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/syft-lock-production.json)
 
 
 ### [Scanoss](https://github.com/scanoss) 
