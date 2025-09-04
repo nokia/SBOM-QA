@@ -23,13 +23,55 @@ A transitive dependency is an indirect package required by a direct dependency o
 
 
 ## 3. Methodology
-### Tools
-- List and describe tools used.
+### 3.1. Tools
+#### 1. [Syft](https://github.com/anchore/syft) | [Docs](https://anchore.com/opensource/syft/)  
+A CLI tool and Go library for generating an SBOM from container images and filesystems.  
+Exceptional for SBOM creation and integrates well with vulnerability scanners like [Grype](https://github.com/anchore/grype).
+#### 2. [Trivy](https://github.com/aquasecurity/trivy) | [Docs](https://aquasecurity.github.io/trivy/)  
+A comprehensive security tool for SBOM generation, vulnerability detection, license analysis, misconfiguration scanning, and secret discovery across container images, filesystems, repositories, VMs, and Kubernetes environments.  
+#### 3. [OSS Review Toolkit (ORT)](https://github.com/oss-review-toolkit/ort) | [Docs](https://oss-review-toolkit.org/)  
+A policy automation and orchestration toolkit for SBOM generation, license compliance, vulnerability detection, and open-source risk management. ORT supports CycloneDX, SPDX, and custom attribution documents, while enabling policy-as-code checks, dependency analysis, and automated reporting across software projects.  
+#### 4. [SCANOSS](https://github.com/scanoss/scanoss.py) | [Docs](https://osskb.org/docs)  
+The SCANOSS Python package provides a simple library for interacting with SCANOSS APIs and engine, enabling SBOM generation, license compliance, and open-source component identification.  
 
-## 4. Test Target
-- Define the targets for testing.
 
-## 4. Reference SBOM
+
+
+## 3.2. Test Target
+The test targets linked in this part are the original, publicly available repositories of the respective projects. 
+
+### 1. [C++ (Conan)](https://github.com/catchorg/Catch2)  
+[Catch2](https://github.com/catchorg/Catch2) is a modern, header-only testing framework for C++. It provides robust unit testing, micro-benchmarking, and test case management. For this study, the project is managed using the [Conan](https://conan.io/) package manager.
+
+### 2. [Go](https://github.com/gohugoio/hugo)  
+[Hugo](https://github.com/gohugoio/hugo) is a fast and flexible static site generator written in Go. It is widely used for websites, blogs, documentation, and portfolios.
+
+### 3. [Node.js](https://github.com/expressjs/express)  
+[Express](https://github.com/expressjs/express) is a minimal and flexible Node.js web application framework that provides robust features for building web and mobile applications.
+
+### 4. [Java (Gradle-managed)](https://github.com/elastic/elasticsearch)  
+[Elasticsearch](https://github.com/elastic/elasticsearch) is a distributed, RESTful search and analytics engine optimized for speed and relevance on production-scale workloads. It is managed using [Gradle](https://gradle.org/) package manager.
+
+### 5. [Python (FastAPI)](https://github.com/fastapi/fastapi) | [Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
+- [FastAPI](https://github.com/fastapi/fastapi) is a modern, fast (high-performance) web framework for building APIs with Python 3.7+ based on standard Python type hints. It is widely used for developing web applications and APIs efficiently.
+
+- [GPT Engineer](https://github.com/AntonOsika/gpt-engineer) is a Python project designed to facilitate building AI-driven solutions and applications, providing a structured environment for rapid prototyping and experimentation.
+
+### 6. [Java (Maven-managed)](https://github.com/bytedeco/javacv)  
+[JavaCV](https://github.com/bytedeco/javacv) is a Java interface to OpenCV, FFmpeg, and other computer vision and machine learning libraries. It provides a comprehensive set of tools for image and video processing, machine learning, and computer vision tasks. The project is managed using the [Maven](https://maven.apache.org/) package manager.
+
+### 7. [C (No package manager)](https://github.com/besser82/libxcrypt)  
+[libxcrypt](https://github.com/besser82/libxcrypt) is a modern library for one-way hashing of passwords, supporting various algorithms like bcrypt, md5crypt, and yescrypt. It provides traditional Unix `crypt` interfaces and extended functions for secure password handling. The project does not utilize a package manager, making it suitable for manual integration and analysis.
+
+### 8. [C++ (No package manager)](https://github.com/zeux/meshoptimizer)  
+[MeshOptimizer](https://github.com/zeux/meshoptimizer) is an open-source C++ library developed by Arseny Kapoulkine, providing algorithms to optimize meshes for modern GPU vertex and index processing pipelines. It can reindex an existing index buffer or generate an entirely new set of indices from an unindexed vertex buffer. The project does not utilize a package manager, making it suitable for manual integration and analysis.
+
+
+
+
+**Note:** In the Observations section, the cloned copies and case study directories used for testing and SBOM generation are detailed, including the specific tags checked out.
+
+## 3.3. Reference SBOM
 - Mention references and SBOM (Software Bill of Materials).
 
 
