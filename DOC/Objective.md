@@ -6,3 +6,4 @@ The SBOM Quality Assurance (SBOM QA) project aims to establish a benchmarking fr
 - Comparing tool outputs against reference SBOMs derived from the GitHub dependency graphs of target projects.
 - Providing actionable insights to improve transparency, security, and compliance in software supply chains.
 
+For detailed project guidance, see the [SBOM-Quality-Assurance_Guide](./guide.md).
