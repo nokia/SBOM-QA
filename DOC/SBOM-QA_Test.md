@@ -1,4 +1,4 @@
-# SBOM_Quality-Assurance_Guide
+# SBOM_Quality-Assurance_Test
 
 ## 1. Scope
 The scope of this project is to evaluate and benchmark open-source SBOM generation tools in a structured and standardized manner.  
@@ -119,7 +119,7 @@ syft -o spdx-json=syft-sbom.json --enrich all --verbose .
 
 **Ecosystem:** [Node.js](https://github.com/nokia/SBOM-QA/tree/main/Node.js)
 
-- **Default SBOM:** Generated directly from the project source without performing any compilation step. [Syft-default-Node.js](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/
+- **Default SBOM:** Generated directly from the project source without performing any compilation step. [Syft-default-Node.js](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/syft-default.json)
 
 **Compilation Step:**
 The project did not originally include a package-lock.json file, which is required to resolve and capture the full dependency tree. To generate it, the following command was executed in test target root:
