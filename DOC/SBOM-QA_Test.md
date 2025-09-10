@@ -34,50 +34,58 @@ A transitive dependency is an indirect package required by a direct dependency o
 
 ## 3. Methodology
 ### 3.1. Tools
-#### 1. [Syft](https://github.com/anchore/syft) | [Docs](https://anchore.com/opensource/syft/)  
+**General Tools:**
+#### 1. [Syft](https://github.com/anchore/syft) | [Docs](https://anchore.com/opensource/syft/) (version : 1.26.1)
 A CLI tool and Go library for generating an SBOM from container images and filesystems.  
 Exceptional for SBOM creation and integrates well with vulnerability scanners like [Grype](https://github.com/anchore/grype).
-#### 2. [Trivy](https://github.com/aquasecurity/trivy) | [Docs](https://aquasecurity.github.io/trivy/)  
+#### 2. [Trivy](https://github.com/aquasecurity/trivy) | [Docs](https://aquasecurity.github.io/trivy/)  (version : 0.63.0)
 A comprehensive security tool for SBOM generation, vulnerability detection, license analysis, misconfiguration scanning, and secret discovery across container images, filesystems, repositories, VMs, and Kubernetes environments.  
-#### 3. [OSS Review Toolkit (ORT)](https://github.com/oss-review-toolkit/ort) | [Docs](https://oss-review-toolkit.org/)  
+#### 3. [OSS Review Toolkit (ORT)](https://github.com/oss-review-toolkit/ort) | [Docs](https://oss-review-toolkit.org/)  (version : 62.2.0)
 A policy automation and orchestration toolkit for SBOM generation, license compliance, vulnerability detection, and open-source risk management. ORT supports CycloneDX, SPDX, and custom attribution documents, while enabling policy-as-code checks, dependency analysis, and automated reporting across software projects.  
-#### 4. [SCANOSS](https://github.com/scanoss/scanoss.py) | [Docs](https://osskb.org/docs)  
+#### 4. [SCANOSS](https://github.com/scanoss/scanoss.py) | [Docs](https://osskb.org/docs)  (version : 1.26.2)
 The SCANOSS Python package provides a simple library for interacting with SCANOSS APIs and engine, enabling SBOM generation, license compliance, and open-source component identification.  
 
-
+**Container-based Tools:**
+#### 1. [Syft](https://github.com/anchore/syft) | [Docs](https://anchore.com/opensource/syft/) (version : 1.30.0)
+A CLI tool and Go library for generating SBOMs from **container images**.  
+It identifies installed packages and their metadata across multiple ecosystems, supporting images from registries, local Docker/OCI images, and tar archives.
+#### 2. [Tern](https://github.com/tern-tools/tern) | [Docs](https://tern-tools.github.io/tern/) (version : 2.12.2)
+An inspection tool to collect metadata of packages installed in a container image. It analyzes each layer of the image, executes scripts in a chroot environment to gather package information, and generates a detailed report showing packages and their metadata, with optional mapping to Dockerfile instructions.
+#### 3. [DISTRO2SBOM](https://github.com/anthonyharrison/distro2SBOM) | [Docs](https://github.com/anthonyharrison/distro2SBOM)  (version : 0.6.0)
+Generates an SBOM for either an installed application or a complete system installation in formats like SPDX and CycloneDX. It identifies all dependent components of a package and is intended for use in continuous integration systems to maintain accurate SBOM records and support audit requirements.
 
 
 ## 3.2. Test Target
 The test targets linked in this part are the original, publicly available repositories of the respective projects. 
 
 ### 1. [C (No package manager)](https://github.com/besser82/libxcrypt)  
-[libxcrypt](https://github.com/besser82/libxcrypt) is a modern library for one-way hashing of passwords, supporting various algorithms like bcrypt, md5crypt, and yescrypt. It provides traditional Unix `crypt` interfaces and extended functions for secure password handling. The project does not utilize a package manager, making it suitable for manual integration and analysis.
+[libxcrypt](https://github.com/besser82/libxcrypt) (tag : v4.4.38) is a modern library for one-way hashing of passwords, supporting various algorithms like bcrypt, md5crypt, and yescrypt. It provides traditional Unix `crypt` interfaces and extended functions for secure password handling. The project does not utilize a package manager, making it suitable for manual integration and analysis.
 
 ### 2. [C++ (No package manager)](https://github.com/zeux/meshoptimizer)  
-[MeshOptimizer](https://github.com/zeux/meshoptimizer) is an open-source C++ library developed by Arseny Kapoulkine, providing algorithms to optimize meshes for modern GPU vertex and index processing pipelines. It can reindex an existing index buffer or generate an entirely new set of indices from an unindexed vertex buffer. The project does not utilize a package manager, making it suitable for manual integration and analysis.
+[MeshOptimizer](https://github.com/zeux/meshoptimizer) (tag : v0.24)is an open-source C++ library developed by Arseny Kapoulkine, providing algorithms to optimize meshes for modern GPU vertex and index processing pipelines. It can reindex an existing index buffer or generate an entirely new set of indices from an unindexed vertex buffer. The project does not utilize a package manager, making it suitable for manual integration and analysis.
 
 ### 3. [C++ (Conan)](https://github.com/catchorg/Catch2)  
-[Catch2](https://github.com/catchorg/Catch2) is a modern, header-only testing framework for C++. It provides robust unit testing, micro-benchmarking, and test case management. For this study, the project is managed using the [Conan](https://conan.io/) package manager.
+[Catch2](https://github.com/catchorg/Catch2) (tag : v3.9.0) is a modern, header-only testing framework for C++. It provides robust unit testing, micro-benchmarking, and test case management. For this study, the project is managed using the [Conan](https://conan.io/) package manager.
 
 ### 4. [Go](https://github.com/gohugoio/hugo)  
-[Hugo](https://github.com/gohugoio/hugo) is a fast and flexible static site generator written in Go. It is widely used for websites, blogs, documentation, and portfolios.
+[Hugo](https://github.com/gohugoio/hugo) (tag : v0.147.4) is a fast and flexible static site generator written in Go. It is widely used for websites, blogs, documentation, and portfolios.
 
 ### 5. [Node.js](https://github.com/expressjs/express)  
-[Express](https://github.com/expressjs/express) is a minimal and flexible Node.js web application framework that provides robust features for building web and mobile applications.
+[Express](https://github.com/expressjs/express (tag : v5.1.0) is a minimal and flexible Node.js web application framework that provides robust features for building web and mobile applications.
 
 ### 6. [Java (Gradle-managed)](https://github.com/elastic/elasticsearch)  
-[Elasticsearch](https://github.com/elastic/elasticsearch) is a distributed, RESTful search and analytics engine optimized for speed and relevance on production-scale workloads. It is managed using [Gradle](https://gradle.org/) package manager.
+[Elasticsearch](https://github.com/elastic/elasticsearch) (tag : v9.0.1)is a distributed, RESTful search and analytics engine optimized for speed and relevance on production-scale workloads. It is managed using [Gradle](https://gradle.org/) package manager.
 
 ### 7. [Python (FastAPI)](https://github.com/fastapi/fastapi) | [Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
-- [FastAPI](https://github.com/fastapi/fastapi) is a modern, fast (high-performance) web framework for building APIs with Python 3.7+ based on standard Python type hints. It is widely used for developing web applications and APIs efficiently.
+- [FastAPI](https://github.com/fastapi/fastapi) (tag : 0.116.0) is a modern, fast (high-performance) web framework for building APIs with Python 3.7+ based on standard Python type hints. It is widely used for developing web applications and APIs efficiently.
 
-- [GPT Engineer](https://github.com/AntonOsika/gpt-engineer) is a Python project designed to facilitate building AI-driven solutions and applications, providing a structured environment for rapid prototyping and experimentation.
+- [GPT Engineer](https://github.com/AntonOsika/gpt-engineer) (tag : v0.3.1)is a Python project designed to facilitate building AI-driven solutions and applications, providing a structured environment for rapid prototyping and experimentation.
 
 ### 8. [Java (Maven-managed)](https://github.com/bytedeco/javacv)  
-[JavaCV](https://github.com/bytedeco/javacv) is a Java interface to OpenCV, FFmpeg, and other computer vision and machine learning libraries. It provides a comprehensive set of tools for image and video processing, machine learning, and computer vision tasks. The project is managed using the [Maven](https://maven.apache.org/) package manager.
+[JavaCV](https://github.com/bytedeco/javacv) (tag : 1.5.12) is a Java interface to OpenCV, FFmpeg, and other computer vision and machine learning libraries. It provides a comprehensive set of tools for image and video processing, machine learning, and computer vision tasks. The project is managed using the [Maven](https://maven.apache.org/) package manager.
 
 ### 9. [ContainerImage](https://github.com/pangenome/pggb)  
-[pggb](https://github.com/pangenome/pggb) builds pangenome variation graphs from input sequences using wfmash, seqwish, smoothxg, gfaffix, and odgi.  
+[pggb](https://github.com/pangenome/pggb) (tag : v0.7.4) builds pangenome variation graphs from input sequences using wfmash, seqwish, smoothxg, gfaffix, and odgi.  
 
 The project provides a **Dockerfile** for containerized usage, enabling local builds or pulls from the GitHub Container Registry.
 
@@ -109,9 +117,9 @@ For generating SBOMs for all test targets this command is used:
 syft -o spdx-json=syft-sbom.json --enrich all --verbose .
 ```
 
-**Ecosystem:** [Node.js](https://github.com/nokia/SBOM-QA/tree/main/Node.js) (tag : v5.1.0)
+**Ecosystem:** [Node.js](https://github.com/nokia/SBOM-QA/tree/main/Node.js)
 
-- **Default SBOM:** Generated directly from the project source without performing any compilation step.[Syft-default-Node.js]
+- **Default SBOM:** Generated directly from the project source without performing any compilation step. [Syft-default-Node.js](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/
 
 **Compilation Step:**
 The project did not originally include a package-lock.json file, which is required to resolve and capture the full dependency tree. To generate it, the following command was executed in test target root:
@@ -139,17 +147,14 @@ package-lock.json , node_modules.
 ## Container-Based Tools
 
 ### Syft
-- Version:  
 - Command:  
 - Notes / Observations:  
 
 ### Tern
-- Version:  
 - Command:   
 - Notes / Observations:  
 
-### Distro2sbom
-- Version:  
+### Distro2sbom 
 - Command:   
 - Notes / Observations:
 
