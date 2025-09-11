@@ -162,13 +162,39 @@ package-lock.json , node_modules.
 
 ## Conclusion
 
-### Ecosystem Point of View
-- Insights about ecosystem (e.g., package management).
+### 1. Ecosystem Point of View
+Insights about ecosystem (e.g., package management).
 
-### Tools Point of View
-- Strengths and weaknesses of tools used.
+| Aspect              | Observation                                  |
+|---------------------|----------------------------------------------|
+| Package Management  | Handles dependencies well, but sometimes heavy. |
+| Compatibility       | Works across multiple platforms.             |
 
-### Quality Point of View
-- Validation results  
-- Diffs / comparisons
+---
+
+### 2. Tools Point of View
+Strengths and weaknesses of tools used.
+
+| Tool       | Strengths                          | Weaknesses                          |
+|------------|-----------------------------------|-------------------------------------|
+| Tool A     | Easy to use, good docs             | Limited scalability                  |
+| Tool B     | Fast performance                   | Poor error messages                  |
+
+---
+
+### 3. Quality Point of View
+Validation results and differences
+
+#### 3.1. Validation Results
+| File/Module   | Status     | Notes                     |
+|---------------|-----------|----------------------------|
+| File1.json    | ✅ Passed | All checks OK              |
+| File2.json    | ❌ Failed | Missing field `version`    |
+
+#### 3.2. Diffs / Comparisons
+| Compared Files        | Differences Found | Notes                       |
+|-----------------------|------------------|-----------------------------|
+| file1.json vs file2.json | Yes              | Field mismatch on `author`  |
+| file3.json vs file4.json | No               | Identical                   |
+
 
