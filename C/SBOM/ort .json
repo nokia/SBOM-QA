@@ -1,0 +1,30 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "creationInfo": {
+    "created": "2025-08-07T09:23:38Z",
+    "creators": [
+      "Tool: ort-62.2.0"
+    ],
+    "licenseListVersion": "3.27"
+  },
+  "name": "Unnamed document",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "spdx://7b0dc6f2-f8d4-407d-9f43-946684006d82",
+  "documentDescribes": [
+    "SPDXRef-Project-Unmanaged-libxcrypt-55ea777e8d567e5e86ffac917c28815ac54cc341"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Project-Unmanaged-libxcrypt-55ea777e8d567e5e86ffac917c28815ac54cc341",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "homepage": "NONE",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "libxcrypt",
+      "versionInfo": "55ea777e8d567e5e86ffac917c28815ac54cc341"
+    }
+  ]
+}

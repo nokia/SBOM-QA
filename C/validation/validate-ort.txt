@@ -1,0 +1,7 @@
++---+------------+---------+--------------+---------------------------+
+| # | Error type | SPDX ID | Package name | Reason                    |
++---+------------+---------+--------------+---------------------------+
+| 1 | File error | General | General      | File does not exist (fina |
+|   |            |         |              | l.projects/newc/ort.json) |
++---+------------+---------+--------------+---------------------------+
+The SPDX file final.projects/newc/ort.json is not compliant with the OpenChain Telco SBOM Guide version 1.1

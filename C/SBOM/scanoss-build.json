@@ -1,0 +1,470 @@
+{
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SCANOSS-SBOM",
+  "creationInfo": {
+    "created": "2025-08-07T09:49:04Z",
+    "creators": [
+      "Tool: SCANOSS-PY: 1.26.2",
+      "Person: mehdi",
+      "Organization: SCANOSS"
+    ],
+    "comment": "SBOM Build information - SBOM Type: Build"
+  },
+  "documentNamespace": "https://spdx.org/spdxdocs/scanoss-py-1.26.2-1ade01ed35330d62881994436aa2fa9b",
+  "documentDescribes": [
+    "SPDXRef-268d52fc0211cf89b3cc787c431f7a7a",
+    "SPDXRef-606a38f32f771dcd5b24bb4cea341eb2",
+    "SPDXRef-468ee5a36fae74cc13b65ef1c55c8e48",
+    "SPDXRef-e0381ad78c742a0cfb78ae906ecb72b5",
+    "SPDXRef-fbf921139d5edd95439a9fdbf9c2166b",
+    "SPDXRef-ab068634b30a10f5b8a5a56dbc73f486",
+    "SPDXRef-8b1117cf743f74473e806a7a400dd3c1",
+    "SPDXRef-a4b71d4acddccaceba6e3ef70f3acf3c",
+    "SPDXRef-f9c2fa7b42ae0040a7c2b6e1d34f3681",
+    "SPDXRef-f3c2af1dda472b587f94105a4f868920",
+    "SPDXRef-49815875b3b1950847b09b3b04369612",
+    "SPDXRef-563ee575b48def2cd93fce37ee7cfb69",
+    "SPDXRef-ddacb5cb664ee63b1fb1abadec82cbbb",
+    "SPDXRef-bc864141de51905b541c716e58f3af21",
+    "SPDXRef-f0044444c07a43dc46d51e62b51154a1",
+    "SPDXRef-fed267ad2a38754c14e86fdc30d602e1",
+    "SPDXRef-dcc15192d1518dfb46182bed39403b05"
+  ],
+  "hasExtractedLicensingInfos": [
+    {
+      "licenseId": "LicenseRef-scanoss-custom-mostly-gpl-65",
+      "name": "custom mostly gpl 65",
+      "extractedText": "Detected license, please review component source code.",
+      "comment": "Detected license by scanoss."
+    }
+  ],
+  "packages": [
+    {
+      "name": "venomlinux/venomlinux-rootfs-s6-x86",
+      "SPDXID": "SPDXRef-268d52fc0211cf89b3cc787c431f7a7a",
+      "versionInfo": "64",
+      "downloadLocation": "https://sourceforge.net/projects/venomlinux/venomlinux-rootfs-s6-x86",
+      "homepage": "https://sourceforge.net/projects/venomlinux/venomlinux-rootfs-s6-x86",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: sourceforge.net",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:sourceforge/venomlinux/venomlinux-rootfs-s6-x86@64",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "18922577d0d2a8e8fef6c17e8996c839"
+        }
+      ]
+    },
+    {
+      "name": "libxcrypt",
+      "SPDXID": "SPDXRef-606a38f32f771dcd5b24bb4cea341eb2",
+      "versionInfo": "4.4.26",
+      "downloadLocation": "https://github.com/besser82/libxcrypt",
+      "homepage": "https://github.com/besser82/libxcrypt",
+      "licenseDeclared": "LGPL-2.1-only",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: besser82",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/besser82/libxcrypt@4.4.26",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "34954869627f62f9992808b6cff0d0a9"
+        }
+      ]
+    },
+    {
+      "name": "handbrake-contribs",
+      "SPDXID": "SPDXRef-468ee5a36fae74cc13b65ef1c55c8e48",
+      "versionInfo": "contribs2",
+      "downloadLocation": "https://github.com/HandBrake/HandBrake-contribs",
+      "homepage": "https://github.com/HandBrake/HandBrake-contribs",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: handbrake",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/handbrake/handbrake-contribs@contribs2",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "e97b457a54a83f72aedf413439728d0b"
+        }
+      ]
+    },
+    {
+      "name": "asymptote",
+      "SPDXID": "SPDXRef-e0381ad78c742a0cfb78ae906ecb72b5",
+      "versionInfo": "3.01",
+      "downloadLocation": "https://github.com/vectorgraphics/asymptote",
+      "homepage": "https://github.com/vectorgraphics/asymptote",
+      "licenseDeclared": "GPL-3.0-only",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: vectorgraphics",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/vectorgraphics/asymptote@3.01",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "eafb54d977a81eeccfe8000ec66e8ed7"
+        }
+      ]
+    },
+    {
+      "name": "gnulib",
+      "SPDXID": "SPDXRef-fbf921139d5edd95439a9fdbf9c2166b",
+      "versionInfo": "20250102-1",
+      "downloadLocation": "https://snapshot.debian.org/archive/debian/20250103T031111Z/pool/main/g/gnulib/gnulib_20250102.orig.tar.gz",
+      "homepage": "https://snapshot.debian.org/archive/debian/20250103T031111Z/pool/main/g/gnulib/gnulib_20250102.orig.tar.gz",
+      "licenseDeclared": "LicenseRef-scanoss-custom-mostly-gpl-65",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: gnulib",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:deb/debian/gnulib@20250102-1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "79c1e443c9cc541fc23edc680a25c913"
+        }
+      ]
+    },
+    {
+      "name": "tex-jp-build",
+      "SPDXID": "SPDXRef-ab068634b30a10f5b8a5a56dbc73f486",
+      "versionInfo": "f8613d4",
+      "downloadLocation": "https://github.com/texjporg/tex-jp-build",
+      "homepage": "https://github.com/texjporg/tex-jp-build",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: texjporg",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/texjporg/tex-jp-build@f8613d4",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "2554df61b3522d72327fac41f484f010"
+        }
+      ]
+    },
+    {
+      "name": "libtool",
+      "SPDXID": "SPDXRef-8b1117cf743f74473e806a7a400dd3c1",
+      "versionInfo": "2.5.4",
+      "downloadLocation": "https://ftp.gnu.org/gnu/libtool/libtool-2.5.4.tar.xz",
+      "homepage": "https://ftp.gnu.org/gnu/libtool/libtool-2.5.4.tar.xz",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: GNU",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:gnu/gnu/libtool@2.5.4",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "22e0a29df8af5fdde276ea3a7d351d30"
+        }
+      ]
+    },
+    {
+      "name": "diffutils",
+      "SPDXID": "SPDXRef-a4b71d4acddccaceba6e3ef70f3acf3c",
+      "versionInfo": "3.11",
+      "downloadLocation": "https://ftp.gnu.org/gnu/diffutils/diffutils-3.11.tar.xz",
+      "homepage": "https://ftp.gnu.org/gnu/diffutils/diffutils-3.11.tar.xz",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: GNU",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:gnu/gnu/diffutils@3.11",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "75ab2bb7b5ac0e3e10cece85bd1780c2"
+        }
+      ]
+    },
+    {
+      "name": "emax64",
+      "SPDXID": "SPDXRef-f9c2fa7b42ae0040a7c2b6e1d34f3681",
+      "versionInfo": "20200930",
+      "downloadLocation": "https://github.com/m-parashar/emax64",
+      "homepage": "https://github.com/m-parashar/emax64",
+      "licenseDeclared": "GPL-3.0-only",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: m-parashar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/m-parashar/emax64@20200930",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "f1f25356b68ec69caccd41d95988d23d"
+        }
+      ]
+    },
+    {
+      "name": "bazel-central-registry",
+      "SPDXID": "SPDXRef-f3c2af1dda472b587f94105a4f868920",
+      "versionInfo": "1bb137f",
+      "downloadLocation": "https://github.com/bazelbuild/bazel-central-registry",
+      "homepage": "https://github.com/bazelbuild/bazel-central-registry",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: bazelbuild",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/bazelbuild/bazel-central-registry@1bb137f",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "ac10e52a5ae40dd4a74bcabd4ba9c479"
+        }
+      ]
+    },
+    {
+      "name": "xforms",
+      "SPDXID": "SPDXRef-49815875b3b1950847b09b3b04369612",
+      "versionInfo": "1.2.4.1",
+      "downloadLocation": "https://github.com/yayahjb/xforms",
+      "homepage": "https://github.com/yayahjb/xforms",
+      "licenseDeclared": "LGPL-2.1-only",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: yayahjb",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/yayahjb/xforms@1.2.4.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "a8d4f82d82ca407cfeecef3da97a1cc9"
+        }
+      ]
+    },
+    {
+      "name": "meta-starfive",
+      "SPDXID": "SPDXRef-563ee575b48def2cd93fce37ee7cfb69",
+      "versionInfo": "REL_DUBHE_DEC2023",
+      "downloadLocation": "https://github.com/starfive-tech/meta-starfive",
+      "homepage": "https://github.com/starfive-tech/meta-starfive",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: starfive-tech",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/starfive-tech/meta-starfive@REL_DUBHE_DEC2023",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "621d35bce789a8ddf8ac62b9ef762bb5"
+        }
+      ]
+    },
+    {
+      "name": "net-snmp",
+      "SPDXID": "SPDXRef-ddacb5cb664ee63b1fb1abadec82cbbb",
+      "versionInfo": "3.0.3",
+      "downloadLocation": "https://github.com/net-snmp/net-snmp",
+      "homepage": "https://github.com/net-snmp/net-snmp",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: net-snmp",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/net-snmp/net-snmp@3.0.3",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "1a06c2b0aba63669795f63737883ccdd"
+        }
+      ]
+    },
+    {
+      "name": "libxcrypt_jll.jl",
+      "SPDXID": "SPDXRef-bc864141de51905b541c716e58f3af21",
+      "versionInfo": "libxcrypt-v4.4.38+0",
+      "downloadLocation": "https://github.com/JuliaBinaryWrappers/libxcrypt_jll.jl",
+      "homepage": "https://github.com/JuliaBinaryWrappers/libxcrypt_jll.jl",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: JuliaBinaryWrappers",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/juliabinarywrappers/libxcrypt_jll.jl@libxcrypt-v4.4.38%2B0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "7f3e07d5c3e92b1aca3346a076e94575"
+        }
+      ]
+    },
+    {
+      "name": "assets",
+      "SPDXID": "SPDXRef-f0044444c07a43dc46d51e62b51154a1",
+      "versionInfo": "xbb",
+      "downloadLocation": "https://github.com/xpack/assets",
+      "homepage": "https://github.com/xpack/assets",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: xpack",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/xpack/assets@xbb",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "7e49b524fd5a9070c658a1386e0724f8"
+        }
+      ]
+    },
+    {
+      "name": "strawberry-macos-dependencies",
+      "SPDXID": "SPDXRef-fed267ad2a38754c14e86fdc30d602e1",
+      "versionInfo": "release-13652710395",
+      "downloadLocation": "https://github.com/strawberrymusicplayer/strawberry-macos-dependencies",
+      "homepage": "https://github.com/strawberrymusicplayer/strawberry-macos-dependencies",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: strawberrymusicplayer",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/strawberrymusicplayer/strawberry-macos-dependencies@release-13652710395",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "b4f2570a7974b571bb8bd34fe0dd2730"
+        }
+      ]
+    },
+    {
+      "name": "asc-hq/asc-source",
+      "SPDXID": "SPDXRef-dcc15192d1518dfb46182bed39403b05",
+      "versionInfo": "1.11.0.0",
+      "downloadLocation": "https://sourceforge.net/projects/asc-hq/asc-source",
+      "homepage": "https://sourceforge.net/projects/asc-hq/asc-source",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: sourceforge.net",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:sourceforge/asc-hq/asc-source@1.11.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "25aedafd6629d7fc17523aebf2c16087"
+        }
+      ]
+    }
+  ]
+}

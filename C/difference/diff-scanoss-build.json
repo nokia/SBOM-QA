@@ -1,0 +1,242 @@
+{
+  "tool": {
+    "name": "sbomdiff",
+    "version": "0.5.6"
+  },
+  "file_1": "final.projects/newc/besser82_libxcrypt_aaabc2.json",
+  "file_2": "final.projects/newc/sbom/scanoss-build.json",
+  "differences": [
+    {
+      "package": "github/codeql-action/analyze",
+      "status": "remove",
+      "version": {
+        "from": "3.*.*"
+      }
+    },
+    {
+      "package": "github/codeql-action/init",
+      "status": "remove",
+      "version": {
+        "from": "3.*.*"
+      }
+    },
+    {
+      "package": "shogo82148/actions-setup-perl",
+      "status": "remove",
+      "version": {
+        "from": "1.*.*"
+      }
+    },
+    {
+      "package": "codecov/codecov-action",
+      "status": "remove",
+      "version": {
+        "from": "5.*.*"
+      }
+    },
+    {
+      "package": "actions/checkout",
+      "status": "remove",
+      "version": {
+        "from": "4.*.*"
+      }
+    },
+    {
+      "package": "actions/cache",
+      "status": "remove",
+      "version": {
+        "from": "4.*.*"
+      }
+    },
+    {
+      "package": "fkirc/skip-duplicate-actions",
+      "status": "remove",
+      "version": {
+        "from": "5.*.*"
+      }
+    },
+    {
+      "package": "com.github.besser82/libxcrypt",
+      "status": "remove",
+      "version": {
+        "from": "DEVELOP"
+      }
+    },
+    {
+      "package": "venomlinux/venomlinux-rootfs-s6-x86",
+      "status": "add",
+      "version": {
+        "from": "64"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libxcrypt",
+      "status": "add",
+      "version": {
+        "from": "4.4.26"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "handbrake-contribs",
+      "status": "add",
+      "version": {
+        "from": "CONTRIBS2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "asymptote",
+      "status": "add",
+      "version": {
+        "from": "3.01"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gnulib",
+      "status": "add",
+      "version": {
+        "from": "20250102-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "tex-jp-build",
+      "status": "add",
+      "version": {
+        "from": "F8613D4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libtool",
+      "status": "add",
+      "version": {
+        "from": "2.5.4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "diffutils",
+      "status": "add",
+      "version": {
+        "from": "3.11"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "emax64",
+      "status": "add",
+      "version": {
+        "from": "20200930"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "bazel-central-registry",
+      "status": "add",
+      "version": {
+        "from": "1BB137F"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "xforms",
+      "status": "add",
+      "version": {
+        "from": "1.2.4.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "meta-starfive",
+      "status": "add",
+      "version": {
+        "from": "REL_DUBHE_DEC2023"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "net-snmp",
+      "status": "add",
+      "version": {
+        "from": "3.0.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libxcrypt_jll.jl",
+      "status": "add",
+      "version": {
+        "from": "LIBXCRYPT-V4.4.38+0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "assets",
+      "status": "add",
+      "version": {
+        "from": "XBB"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "strawberry-macos-dependencies",
+      "status": "add",
+      "version": {
+        "from": "RELEASE-13652710395"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "asc-hq/asc-source",
+      "status": "add",
+      "version": {
+        "from": "1.11.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    }
+  ],
+  "summary": {
+    "version_changes": 0,
+    "new_packages": 17,
+    "removed_packages": 8,
+    "license_changes": 0
+  }
+}
