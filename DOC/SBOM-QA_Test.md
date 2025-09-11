@@ -55,7 +55,19 @@ An inspection tool to collect metadata of packages installed in a container imag
 Generates an SBOM for either an installed application or a complete system installation in formats like SPDX and CycloneDX. It identifies all dependent components of a package and is intended for use in continuous integration systems to maintain accurate SBOM records and support audit requirements.
 
 
-## 3.2. Test Target
+### 3.2. Tools Selection Criteria 
+
+**Open Source and Actively Maintained:** Only open-source tools with active development communities and regular updates were considered to ensure relevance, reliability, and transparency. 
+
+**Support for SPDX JSON Output:** Since SPDX JSON was the standardized SBOM format chosen for comparison, all selected tools needed to either natively support or allow conversion to this format. 
+
+**Language and Ecosystem Compatibility:** Tools were required to support multiple programming languages and environments, particularly those used in our test targets (e.g., C, C++, Java, Python, Node.js, Go, container images). 
+
+**Alignment with OpenChain Telco SBOM Guide:** Where applicable, tools were evaluated for their ability to generate SBOMs conforming to the recommendations and structure outlined in the OpenChain Telco SBOM Guide. 
+
+**Richness of Metadata:** Tools were assessed on the granularity and completeness of SBOM content, including license information, versioning, source origin, cryptographic hashes, and component relationships. 
+
+## 3.3. Test Target
 The test targets linked in this part are the original, publicly available repositories of the respective projects. 
 
 ### 1. [C (No package manager)](https://github.com/besser82/libxcrypt)  
@@ -89,21 +101,33 @@ The test targets linked in this part are the original, publicly available reposi
 
 The project provides a **Dockerfile** for containerized usage, enabling local builds or pulls from the GitHub Container Registry.
 
+## 3.4. Test Targets Selection Criteria 
+**Real-World Relevance:** Only publicly available, widely used open-source projects were considered to ensure practical evaluation of SCA tools.
 
+**Ecosystem Diversity:** Projects cover multiple languages, build systems, and with or without package managers.
 
+**Reference SBOM Availability:** For each test target, a Reference SBOM was available.
 
-> **Note:** In the Observations section, the cloned copies and case study directories used for testing and SBOM generation are detailed, including the specific tags checked out.
-
-
-
-## 3.3. Reference SBOM
+## 3.5. Reference SBOM
 A **Reference SBOM** is a standardized, machine-readable inventory of a project's dependencies and associated metadata, such as versions, licenses, and transitive relationships. It is generated directly from the **dependency graph** of the original, publicly available repositories of the respective test targets.
 
 These SBOMs provide a canonical view of all software components, including direct and transitive dependencies, and serve as a baseline for comparison and validation. The dependency graph is a summary of the manifest and lock files stored in a repository and any dependencies that are submitted for the repository using the dependency submission API ([GitHub Docs: Dependency Graph](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph?utm_source=chatgpt.com)).
 
 For each test target, the Reference SBOM was exported from its **GitHub repository** using automated SBOM generation tools. These SBOMs capture the original dependency tree and associated metadata (e.g., versions, licenses) before any modifications or local testing. GitHub facilitates this process by allowing users to export an SBOM from a repository's dependency graph via the UI or REST API, producing an SPDX-compatible JSON file ([GitHub Docs: Exporting SBOM](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/exporting-a-software-bill-of-materials-for-your-repository?utm_source=chatgpt.com)).
 
+## 3.6. Comparison and Analysis 
+The generated SBOMs from each tool were benchmarked against the corresponding reference SBOMs. 
+The comparison focused on: 
+Dependency coverage (direct and transitive) 
+Accuracy of versioning 
+Presence of critical metadata (license, hash, source URL) 
 
+## 3.7. Validation 
+[OpenChain Telco SBOM Validator](https://pypi.org/project/openchain-telco-sbom-validator/0.3.0/) was used to validate the structural compliance and metadata quality of each generated SBOM. 
+Validation criteria included: 
+Conformance to SPDX specification 
+Inclusion of mandatory and recommended fields 
+Logical consistency (e.g., relationships, identifiers) 
 
 ---
 
@@ -192,6 +216,7 @@ Validation results and differences
 | File2.json    | ❌ Failed | Missing field `version`    |
 
 #### 3.2. Diffs / Comparisons
+
 | Compared Files        | Differences Found | Notes                       |
 |-----------------------|------------------|-----------------------------|
 | file1.json vs file2.json | Yes              | Field mismatch on `author`  |
