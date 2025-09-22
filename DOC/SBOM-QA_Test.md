@@ -85,21 +85,18 @@ The test targets linked in this part are the original, publicly available reposi
 ### 5. [Node.js](https://github.com/expressjs/express)  
 [Express](https://github.com/expressjs/express) | [tag-v5.1.0](https://github.com/expressjs/express/releases/tag/v5.1.0) is a minimal and flexible Node.js web application framework that provides robust features for building web and mobile applications.
 
-### 6. [Java (Gradle-managed)](https://github.com/elastic/elasticsearch)  
-[Elasticsearch](https://github.com/elastic/elasticsearch) | [tag-v9.0.1](https://github.com/elastic/elasticsearch/releases/tag/v9.0.1) is a distributed, RESTful search and analytics engine optimized for speed and relevance on production-scale workloads. It is managed using [Gradle](https://gradle.org/) package manager.
-
-### 7. [Python (FastAPI)](https://github.com/fastapi/fastapi) | [Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
+### 6. [Python (FastAPI)](https://github.com/fastapi/fastapi) | [Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
 - [FastAPI](https://github.com/fastapi/fastapi) | [tag-0.116.0](https://github.com/fastapi/fastapi/releases/tag/0.116.0) is a modern, fast (high-performance) web framework for building APIs with Python 3.7+ based on standard Python type hints. It is widely used for developing web applications and APIs efficiently.
 
 - [GPT Engineer](https://github.com/AntonOsika/gpt-engineer) | [tag-v0.3.1](https://github.com/AntonOsika/gpt-engineer/releases/tag/v0.3.1) is a Python project designed to facilitate building AI-driven solutions and applications, providing a structured environment for rapid prototyping and experimentation.
 
-### 8. [Java (Maven-managed)](https://github.com/bytedeco/javacv)  
+### 7. [Java (Maven-managed)](https://github.com/bytedeco/javacv)  
 [JavaCV](https://github.com/bytedeco/javacv) | [tag-1.5.12](https://github.com/bytedeco/javacv/releases/tag/1.5.12) is a Java interface to OpenCV, FFmpeg, and other computer vision and machine learning libraries. It provides a comprehensive set of tools for image and video processing, machine learning, and computer vision tasks. The project is managed using the [Maven](https://maven.apache.org/) package manager.
 
-### 9. [ContainerImage](https://github.com/pangenome/pggb)  
+### 8. [ContainerImage](https://github.com/pangenome/pggb)  
 [pggb](https://github.com/pangenome/pggb) | [tag-v0.7.4](https://github.com/pangenome/pggb/releases/tag/v0.7.4) builds pangenome variation graphs from input sequences using wfmash, seqwish, smoothxg, gfaffix, and odgi.  
 
-The project provides a **Dockerfile** for containerized usage, enabling local builds or pulls from the GitHub Container Registry.
+>***Note:*** The project provides a **Dockerfile** for containerized usage, enabling local builds or pulls from the GitHub Container Registry.
 
 ## 3.4. Test Targets Selection Criteria 
 **Real-World Relevance:** Only publicly available, widely used open-source projects were considered to ensure practical evaluation of SCA tools.
@@ -162,6 +159,131 @@ package-lock.json , node_modules.
 
 ### [ORT](https://github.com/oss-review-toolkit/ort)  
 **Command:**
+
+For generating SBOMs for all test targets this command is used:
+**Analyze phase:**
+```
+ort analyze -i /path/to/your/project -o /path/to/output-dir 
+```
+
+**Report phase:**
+```
+ort report -i /path/to/analyzer-result.yml -o /path/to/output-dir -f spdxDocument 
+```
+
+>***Note:*** The resulting output is an SBOM compliant with SPDX version 2.2, delivered as a YAML file. Although the maintainers of ORT suggested the use of the following parameter to enforce SPDX version 2.3, no version change was observed in practice: 
+```
+-O SpdxDocument=spdx_version=SPDX-2.3 
+```
+
+The generation of an **SBOM** with the **ORT** is structured into several phases: 
+
+•	**Analyzer** 
+
+•	**Scanner**
+
+•	**Advisor** 
+
+•	**Evaluator** 
+
+•	**Reporter**
+
+These phases can either be executed sequentially or selectively, depending on the requirements. The **Analyzer Phase** is ***mandatory***, as its output serves as the essential input for all subsequent stages and therefore cannot be omitted. 
+
+In the examined workflow, only the Analyzer and Reporter phases were executed. 
+The Analyzer phase produces the file ***analyzer-result.yml*** 
+Then the Reporter phase use this file as input file.
+
+**Ecosystem:** 
+[Go](https://github.com/gohugoio/hugo)
+- In this project, the following files were identified: 
+
+***docs/go.mod*** 
+
+***go.mod*** 
+
+***docs/package.json***
+
+***internal/warpc/js/package.json*** 
+
+indicating the use of two different **Package Managers**: 
+
+**GoMod & NPM** 
+
+>***Note:*** The **SBOM** was successfully generated without any errors and without the need for any modifications or special configurations. 
+
+- **Generated SBOM:**
+...
+
+**Ecosystem:** 
+[C (No package manager)](https://github.com/besser82/libxcrypt)
+
+Given that **ORT** relies on a package manager for SBOM generation, and no package manager was present in this project, no SBOM was produced.
+
+**Ecosystem:** 
+[C++ (No package manager)](https://github.com/zeux/meshoptimizer)
+
+In this project, no package manager associated with C++ was identified; However, in the two files listed below, **NPM-related Packages** were detected. 
+
+- gltf/package.json, js/package.json 
+
+**Ecosystem:** 
+[Node.js](https://github.com/expressjs/express)  
+
+In this project, the following file was identified: 
+
+- Package.json 
+
+indicating the use of a package manager: 
+
+- ***NPM*** 
+
+>***Note:*** The **SBOM** was successfully generated without any errors and without the need for any modifications or special configurations.
+
+- **Generated SBOM:**
+  ...
+  
+**Ecosystem:**
+
+[Java (Maven-managed)](https://github.com/bytedeco/javacv) 
+
+During the process, an error related to the Maven compiler was encountered, which necessitated modifications in the ***pom.xml*** file as described below: 
+
+        <artifactId>maven-compiler-plugin</artifactId> 
+
+        <version>3.12.1</version> 
+
+        <configuration> 
+
+          <source>1.8</source> 
+
+          <target>1.8</target> 
+
+In addition, the following three files were identified: 
+
+- platform/pom.xml ,  pom.xml , samples/pom.xml 
+
+Indicating that the project relied on a single package manager: 
+
+- ***Maven*** 
+
+After the version was corrected, **ORT** was ultimately able to generate the **SBOM** successfully without errors.
+
+- **Generated SBOM:**
+  ...
+
+
+
+ 
+
+
+
+
+
+
+
+
+
 
 ### [Trivy](https://github.com/aquasecurity/trivy)  
 **Command:** 
