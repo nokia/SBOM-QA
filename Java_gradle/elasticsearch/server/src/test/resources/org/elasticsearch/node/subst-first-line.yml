@@ -1,3 +1,0 @@
-foo: ${mysubst}
-bar: v2
-baz: v3

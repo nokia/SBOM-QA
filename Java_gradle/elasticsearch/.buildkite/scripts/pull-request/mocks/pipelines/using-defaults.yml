@@ -1,5 +1,0 @@
-env:
-  CUSTOM_ENV_VAR: "value"
-steps:
-  - label: test-step
-    command: echo 'hello world'

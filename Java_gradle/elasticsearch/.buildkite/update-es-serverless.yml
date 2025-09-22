@@ -1,4 +1,0 @@
-steps:
-  - label: ":git: Trigger submodule update build"
-    command: ".buildkite/scripts/update-serverless-submodule.sh"
-

@@ -1,2 +1,0 @@
-class org.elasticsearch.xpack.spatial.index.fielddata.GeoShapeValues$GeoShapeValue {
-}

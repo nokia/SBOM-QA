@@ -1,7 +1,0 @@
-{
-  "range": {
-    "indices": "client_cidr",
-    "match_field": "client_cidr",
-    "enrich_fields": ["env", "client_cidr"]
-  }
-}
