@@ -1,6 +1,0 @@
-showInfo
-show info | stats v = count(version);
-
-v:long
-1
-;

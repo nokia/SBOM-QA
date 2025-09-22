@@ -1,7 +1,0 @@
-{
-    "properties" : {
-        "emp_no" : {
-            "type" : "integer"
-        }
-    }
-}

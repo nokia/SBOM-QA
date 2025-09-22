@@ -1,8 +1,0 @@
-"_default_": {
-  "properties": {
-    "content": {
-      "type": "text",
-      "similarity": "custom_dfr"
-    }
-  }
-}

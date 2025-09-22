@@ -1,7 +1,0 @@
-tasks.named("javaRestTest").configure {
-  systemProperty 'tests.ssl.enabled', 'false'
-}
-
-testClusters.matching { it.name == "javaRestTest" }.configureEach {
-  setting 'xpack.license.self_generated.type', 'trial'
-}

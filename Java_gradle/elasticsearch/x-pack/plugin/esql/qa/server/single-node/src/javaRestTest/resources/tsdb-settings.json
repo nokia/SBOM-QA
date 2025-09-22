@@ -1,9 +1,0 @@
-{
-  "index": {
-    "mode": "time_series",
-    "routing_path": [
-      "metricset",
-      "k8s.pod.uid"
-    ]
-  }
-}

@@ -1,5 +1,0 @@
-config:
-  skip-labels: ">test-mute"
-  excluded-regions:
-    - ^docs/.*
-    - ^x-pack/docs/.*

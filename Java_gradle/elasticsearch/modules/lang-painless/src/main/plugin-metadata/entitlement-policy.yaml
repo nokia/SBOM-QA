@@ -1,2 +1,0 @@
-org.elasticsearch.painless:
-  - create_class_loader
