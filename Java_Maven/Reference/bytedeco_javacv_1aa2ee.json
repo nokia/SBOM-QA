@@ -1,1 +1,1001 @@
-{"spdxVersion":"SPDX-2.3","dataLicense":"CC0-1.0","SPDXID":"SPDXRef-DOCUMENT","name":"com.github.bytedeco/javacv","documentNamespace":"https://spdx.org/spdxdocs/protobom/4f4adef7-7c23-4865-97a0-87a76686b0f2","comment":"Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included.","creationInfo":{"creators":["Tool: protobom-v0.0.0-20250731140552-613e75aeb253+dirty","Tool: GitHub.com-Dependency-Graph"],"created":"2025-08-05T08:40:51Z"},"packages":[{"name":"org.bytedeco:javacv-platform","SPDXID":"SPDXRef-maven-org.bytedeco-javacv-platform-1.5.12-75c946","versionInfo":"1.5.12","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/javacv-platform@1.5.12"}]},{"name":"org.bytedeco:opencv-platform-gpu","SPDXID":"SPDXRef-maven-org.bytedeco-opencv-platform-gpu-4.11.0-1.5.12-75c946","versionInfo":"4.11.0-1.5.12","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/opencv-platform-gpu@4.11.0-1.5.12"}]},{"name":"org.bytedeco:ffmpeg-platform-gpl","SPDXID":"SPDXRef-maven-org.bytedeco-ffmpeg-platform-gpl-7.1.1-1.5.12-75c946","versionInfo":"7.1.1-1.5.12","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/ffmpeg-platform-gpl@7.1.1-1.5.12"}]},{"name":"bytedeco/javacpp-presets/.github/actions/deploy-macosx","SPDXID":"SPDXRef-githubactions-bytedecojavacpp-presets.githubactions-deploy-macosx-actions-75c946","versionInfo":"actions","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:githubactions/bytedeco/javacpp-presets/.github/actions/deploy-macosx@actions"}]},{"name":"bytedeco/javacpp-presets/.github/actions/deploy-windows","SPDXID":"SPDXRef-githubactions-bytedecojavacpp-presets.githubactions-deploy-windows-actions-75c946","versionInfo":"actions","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:githubactions/bytedeco/javacpp-presets/.github/actions/deploy-windows@actions"}]},{"name":"bytedeco/javacpp-presets/.github/actions/deploy-ubuntu","SPDXID":"SPDXRef-githubactions-bytedecojavacpp-presets.githubactions-deploy-ubuntu-actions-75c946","versionInfo":"actions","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:githubactions/bytedeco/javacpp-presets/.github/actions/deploy-ubuntu@actions"}]},{"name":"mxschmitt/action-tmate","SPDXID":"SPDXRef-githubactions-mxschmitt-action-tmate-3.5.-75c946","versionInfo":"3.5.*","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:githubactions/mxschmitt/action-tmate@3.5.%2A"}]},{"name":"org.bytedeco:librealsense","SPDXID":"SPDXRef-maven-org.bytedeco-librealsense-1.12.4-1.5.9-75c946","versionInfo":"1.12.4-1.5.9","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/librealsense@1.12.4-1.5.9"}]},{"name":"com.badlogicgames.gdx:gdx","SPDXID":"SPDXRef-maven-com.badlogicgames.gdx-gdx-1.13.1-75c946","versionInfo":"1.13.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","copyrightText":"Copyright 2011, Copyright 2024","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.badlogicgames.gdx/gdx@1.13.1"}]},{"name":"org.sonatype.central:central-publishing-maven-plugin","SPDXID":"SPDXRef-maven-org.sonatype.central-central-publishing-maven-plugin-0.8.0-75c946","versionInfo":"0.8.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.sonatype.central/central-publishing-maven-plugin@0.8.0"}]},{"name":"org.moditect:moditect-maven-plugin","SPDXID":"SPDXRef-maven-org.moditect-moditect-maven-plugin-1.1.0-75c946","versionInfo":"1.1.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","copyrightText":"Copyright 2017 - 2023 The ModiTect authors","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.moditect/moditect-maven-plugin@1.1.0"}]},{"name":"org.jogamp.jocl:jocl-main","SPDXID":"SPDXRef-maven-org.jogamp.jocl-jocl-main-2.3.2-75c946","versionInfo":"2.3.2","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause OR BSD-3-Clause OR Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.jogamp.jocl/jocl-main@2.3.2"}]},{"name":"org.bytedeco:javacpp","SPDXID":"SPDXRef-maven-org.bytedeco-javacpp-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/javacpp"}]},{"name":"net.java.openjfx.backport:openjfx-78-backport","SPDXID":"SPDXRef-maven-net.java.openjfx.backport-openjfx-78-backport-1.8.0-ea-b96.1-75c946","versionInfo":"1.8.0-ea-b96.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"copyrightText":"Copyright (c) 2007 the Initial Developer, Copyright (c) 2009, 2011, Oracle and/or its affiliates, Copyright (c) 2009, 2011, Oracle anis/or its affiliates, Copyright (c) 2011, Oracle and/or its affiliates, Copyright (c) 2012, Oracle and/or its affiliates, Copyright (c) 2013, Oracle and/or its affiliates","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/net.java.openjfx.backport/openjfx-78-backport@1.8.0-ea-b96.1"}]},{"name":"org.openjfx:javafx-graphics","SPDXID":"SPDXRef-maven-org.openjfx-javafx-graphics-17-75c946","versionInfo":"17","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.openjfx/javafx-graphics@17"}]},{"name":"org.bytedeco:libdc1394","SPDXID":"SPDXRef-maven-org.bytedeco-libdc1394-2.2.6-1.5.9-75c946","versionInfo":"2.2.6-1.5.9","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/libdc1394@2.2.6-1.5.9"}]},{"name":"org.bytedeco:libfreenect2","SPDXID":"SPDXRef-maven-org.bytedeco-libfreenect2-0.2.0-1.5.9-75c946","versionInfo":"0.2.0-1.5.9","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/libfreenect2@0.2.0-1.5.9"}]},{"name":"org.bytedeco:librealsense2","SPDXID":"SPDXRef-maven-org.bytedeco-librealsense2-2.53.1-1.5.9-75c946","versionInfo":"2.53.1-1.5.9","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/librealsense2@2.53.1-1.5.9"}]},{"name":"org.jogamp.gluegen:gluegen-rt-main","SPDXID":"SPDXRef-maven-org.jogamp.gluegen-gluegen-rt-main-2.3.2-75c946","versionInfo":"2.3.2","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause OR BSD-3-Clause","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.jogamp.gluegen/gluegen-rt-main@2.3.2"}]},{"name":"org.bytedeco:opencv","SPDXID":"SPDXRef-maven-org.bytedeco-opencv-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/opencv"}]},{"name":"org.bytedeco:tesseract","SPDXID":"SPDXRef-maven-org.bytedeco-tesseract-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/tesseract"}]},{"name":"org.bytedeco:flycapture","SPDXID":"SPDXRef-maven-org.bytedeco-flycapture-2.13.3.31-1.5.9-75c946","versionInfo":"2.13.3.31-1.5.9","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/flycapture@2.13.3.31-1.5.9"}]},{"name":"org.bytedeco:libfreenect","SPDXID":"SPDXRef-maven-org.bytedeco-libfreenect-0.5.7-1.5.9-75c946","versionInfo":"0.5.7-1.5.9","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/libfreenect@0.5.7-1.5.9"}]},{"name":"org.jogamp.jogl:jogl-all-main","SPDXID":"SPDXRef-maven-org.jogamp.jogl-jogl-all-main-2.3.2-75c946","versionInfo":"2.3.2","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause OR BSD-3-Clause OR Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.jogamp.jogl/jogl-all-main@2.3.2"}]},{"name":"org.bytedeco:ffmpeg","SPDXID":"SPDXRef-maven-org.bytedeco-ffmpeg-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/ffmpeg"}]},{"name":"org.bytedeco:leptonica","SPDXID":"SPDXRef-maven-org.bytedeco-leptonica-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/leptonica"}]},{"name":"org.bytedeco:artoolkitplus","SPDXID":"SPDXRef-maven-org.bytedeco-artoolkitplus-2.3.1-1.5.9-75c946","versionInfo":"2.3.1-1.5.9","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/artoolkitplus@2.3.1-1.5.9"}]},{"name":"org.bytedeco:videoinput","SPDXID":"SPDXRef-maven-org.bytedeco-videoinput-0.200-1.5.9-75c946","versionInfo":"0.200-1.5.9","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/videoinput@0.200-1.5.9"}]},{"name":"org.openjfx:javafx-graphics","SPDXID":"SPDXRef-maven-org.openjfx-javafx-graphics-11-75c946","versionInfo":"11","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.openjfx/javafx-graphics@11"}]},{"name":"org.openjfx:javafx-graphics","SPDXID":"SPDXRef-maven-org.openjfx-javafx-graphics-21-75c946","versionInfo":"21","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.openjfx/javafx-graphics@21"}]},{"name":"com.google.android:android","SPDXID":"SPDXRef-maven-com.google.android-android-4.1.1.4-75c946","versionInfo":"4.1.1.4","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.google.android/android@4.1.1.4"}]},{"name":"org.bytedeco:openblas","SPDXID":"SPDXRef-maven-org.bytedeco-openblas-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/openblas"}]},{"name":"org.bytedeco:libfreenect2-platform","SPDXID":"SPDXRef-maven-org.bytedeco-libfreenect2-platform-0.2.0-1.5.9-75c946","versionInfo":"0.2.0-1.5.9","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/libfreenect2-platform@0.2.0-1.5.9"}]},{"name":"org.bytedeco:librealsense2-platform","SPDXID":"SPDXRef-maven-org.bytedeco-librealsense2-platform-2.53.1-1.5.9-75c946","versionInfo":"2.53.1-1.5.9","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/librealsense2-platform@2.53.1-1.5.9"}]},{"name":"org.bytedeco:videoinput-platform","SPDXID":"SPDXRef-maven-org.bytedeco-videoinput-platform-0.200-1.5.9-75c946","versionInfo":"0.200-1.5.9","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/videoinput-platform@0.200-1.5.9"}]},{"name":"org.bytedeco:opencv-platform-gpu","SPDXID":"SPDXRef-maven-org.bytedeco-opencv-platform-gpu-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/opencv-platform-gpu"}]},{"name":"org.bytedeco:flycapture-platform","SPDXID":"SPDXRef-maven-org.bytedeco-flycapture-platform-2.13.3.31-1.5.9-75c946","versionInfo":"2.13.3.31-1.5.9","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/flycapture-platform@2.13.3.31-1.5.9"}]},{"name":"org.bytedeco:libdc1394-platform","SPDXID":"SPDXRef-maven-org.bytedeco-libdc1394-platform-2.2.6-1.5.9-75c946","versionInfo":"2.2.6-1.5.9","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/libdc1394-platform@2.2.6-1.5.9"}]},{"name":"org.bytedeco:leptonica-platform","SPDXID":"SPDXRef-maven-org.bytedeco-leptonica-platform-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/leptonica-platform"}]},{"name":"org.bytedeco:libfreenect-platform","SPDXID":"SPDXRef-maven-org.bytedeco-libfreenect-platform-0.5.7-1.5.9-75c946","versionInfo":"0.5.7-1.5.9","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/libfreenect-platform@0.5.7-1.5.9"}]},{"name":"junit:junit","SPDXID":"SPDXRef-maven-junit-junit-4.13.2-75c946","versionInfo":"4.13.2","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"EPL-1.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/junit/junit@4.13.2"}]},{"name":"org.bytedeco:openblas-platform","SPDXID":"SPDXRef-maven-org.bytedeco-openblas-platform-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/openblas-platform"}]},{"name":"org.bytedeco:opencv-platform","SPDXID":"SPDXRef-maven-org.bytedeco-opencv-platform-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/opencv-platform"}]},{"name":"org.bytedeco:tesseract-platform","SPDXID":"SPDXRef-maven-org.bytedeco-tesseract-platform-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/tesseract-platform"}]},{"name":"org.bytedeco:artoolkitplus-platform","SPDXID":"SPDXRef-maven-org.bytedeco-artoolkitplus-platform-2.3.1-1.5.9-75c946","versionInfo":"2.3.1-1.5.9","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/artoolkitplus-platform@2.3.1-1.5.9"}]},{"name":"org.bytedeco:librealsense-platform","SPDXID":"SPDXRef-maven-org.bytedeco-librealsense-platform-1.12.4-1.5.9-75c946","versionInfo":"1.12.4-1.5.9","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/librealsense-platform@1.12.4-1.5.9"}]},{"name":"org.bytedeco:javacv","SPDXID":"SPDXRef-maven-org.bytedeco-javacv-1.5.13-SNAPSHOT-75c946","versionInfo":"1.5.13-SNAPSHOT","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/javacv@1.5.13-SNAPSHOT"}]},{"name":"org.bytedeco:ffmpeg-platform","SPDXID":"SPDXRef-maven-org.bytedeco-ffmpeg-platform-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/ffmpeg-platform"}]},{"name":"org.bytedeco:javacpp-platform","SPDXID":"SPDXRef-maven-org.bytedeco-javacpp-platform-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/javacpp-platform"}]},{"name":"org.bytedeco:ffmpeg-platform-gpl","SPDXID":"SPDXRef-maven-org.bytedeco-ffmpeg-platform-gpl-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bytedeco/ffmpeg-platform-gpl"}]},{"name":"com.github.bytedeco/javacv","SPDXID":"SPDXRef-github-bytedeco-javacv-master-bb1670","versionInfo":"master","downloadLocation":"git+https://github.com/bytedeco/javacv","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:github/bytedeco/javacv@master"}]}],"relationships":[{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.jogamp.gluegen-gluegen-rt-main-2.3.2-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-flycapture-2.13.3.31-1.5.9-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-leptonica-platform-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-junit-junit-4.13.2-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-opencv-platform-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.openjfx-javafx-graphics-17-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-libfreenect-0.5.7-1.5.9-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-artoolkitplus-2.3.1-1.5.9-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-libfreenect2-platform-0.2.0-1.5.9-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-libdc1394-platform-2.2.6-1.5.9-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-libfreenect-platform-0.5.7-1.5.9-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-artoolkitplus-platform-2.3.1-1.5.9-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-javacv-1.5.13-SNAPSHOT-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.moditect-moditect-maven-plugin-1.1.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-leptonica-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-javacpp-platform-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.jogamp.jogl-jogl-all-main-2.3.2-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-ffmpeg-platform-gpl-7.1.1-1.5.12-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-githubactions-bytedecojavacpp-presets.githubactions-deploy-macosx-actions-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.jogamp.jocl-jocl-main-2.3.2-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-opencv-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-tesseract-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-openblas-platform-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-ffmpeg-platform-gpl-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-javacv-platform-1.5.12-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-githubactions-mxschmitt-action-tmate-3.5.-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-libdc1394-2.2.6-1.5.9-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-videoinput-platform-0.200-1.5.9-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-tesseract-platform-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-ffmpeg-platform-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-librealsense-1.12.4-1.5.9-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-net.java.openjfx.backport-openjfx-78-backport-1.8.0-ea-b96.1-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-ffmpeg-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-openblas-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-librealsense-platform-1.12.4-1.5.9-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.sonatype.central-central-publishing-maven-plugin-0.8.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-libfreenect2-0.2.0-1.5.9-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-opencv-platform-gpu-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-flycapture-platform-2.13.3.31-1.5.9-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-videoinput-0.200-1.5.9-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-githubactions-bytedecojavacpp-presets.githubactions-deploy-windows-actions-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-githubactions-bytedecojavacpp-presets.githubactions-deploy-ubuntu-actions-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-librealsense2-2.53.1-1.5.9-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.openjfx-javafx-graphics-11-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.openjfx-javafx-graphics-21-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-com.google.android-android-4.1.1.4-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-librealsense2-platform-2.53.1-1.5.9-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-opencv-platform-gpu-4.11.0-1.5.12-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-com.badlogicgames.gdx-gdx-1.13.1-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-bytedeco-javacv-master-bb1670","relatedSpdxElement":"SPDXRef-maven-org.bytedeco-javacpp-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-DOCUMENT","relatedSpdxElement":"SPDXRef-github-bytedeco-javacv-master-bb1670","relationshipType":"DESCRIBES"}]}
+{
+    "spdxVersion": "SPDX-2.3",
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": "com.github.bytedeco/javacv",
+    "documentNamespace": "https://spdx.org/spdxdocs/protobom/4f4adef7-7c23-4865-97a0-87a76686b0f2",
+    "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included.",
+    "creationInfo": {
+        "creators": [
+            "Tool: protobom-v0.0.0-20250731140552-613e75aeb253+dirty",
+            "Tool: GitHub.com-Dependency-Graph"
+        ],
+        "created": "2025-08-05T08:40:51Z"
+    },
+    "packages": [
+        {
+            "name": "org.bytedeco:javacv-platform",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-javacv-platform-1.5.12-75c946",
+            "versionInfo": "1.5.12",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/javacv-platform@1.5.12"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:opencv-platform-gpu",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-opencv-platform-gpu-4.11.0-1.5.12-75c946",
+            "versionInfo": "4.11.0-1.5.12",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/opencv-platform-gpu@4.11.0-1.5.12"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:ffmpeg-platform-gpl",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-ffmpeg-platform-gpl-7.1.1-1.5.12-75c946",
+            "versionInfo": "7.1.1-1.5.12",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg-platform-gpl@7.1.1-1.5.12"
+                }
+            ]
+        },
+        {
+            "name": "bytedeco/javacpp-presets/.github/actions/deploy-macosx",
+            "SPDXID": "SPDXRef-githubactions-bytedecojavacpp-presets.githubactions-deploy-macosx-actions-75c946",
+            "versionInfo": "actions",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:githubactions/bytedeco/javacpp-presets/.github/actions/deploy-macosx@actions"
+                }
+            ]
+        },
+        {
+            "name": "bytedeco/javacpp-presets/.github/actions/deploy-windows",
+            "SPDXID": "SPDXRef-githubactions-bytedecojavacpp-presets.githubactions-deploy-windows-actions-75c946",
+            "versionInfo": "actions",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:githubactions/bytedeco/javacpp-presets/.github/actions/deploy-windows@actions"
+                }
+            ]
+        },
+        {
+            "name": "bytedeco/javacpp-presets/.github/actions/deploy-ubuntu",
+            "SPDXID": "SPDXRef-githubactions-bytedecojavacpp-presets.githubactions-deploy-ubuntu-actions-75c946",
+            "versionInfo": "actions",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:githubactions/bytedeco/javacpp-presets/.github/actions/deploy-ubuntu@actions"
+                }
+            ]
+        },
+        {
+            "name": "mxschmitt/action-tmate",
+            "SPDXID": "SPDXRef-githubactions-mxschmitt-action-tmate-3.5.-75c946",
+            "versionInfo": "3.5.*",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:githubactions/mxschmitt/action-tmate@3.5.%2A"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:librealsense",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-librealsense-1.12.4-1.5.9-75c946",
+            "versionInfo": "1.12.4-1.5.9",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/librealsense@1.12.4-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "com.badlogicgames.gdx:gdx",
+            "SPDXID": "SPDXRef-maven-com.badlogicgames.gdx-gdx-1.13.1-75c946",
+            "versionInfo": "1.13.1",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "copyrightText": "Copyright 2011, Copyright 2024",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/com.badlogicgames.gdx/gdx@1.13.1"
+                }
+            ]
+        },
+        {
+            "name": "org.sonatype.central:central-publishing-maven-plugin",
+            "SPDXID": "SPDXRef-maven-org.sonatype.central-central-publishing-maven-plugin-0.8.0-75c946",
+            "versionInfo": "0.8.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.sonatype.central/central-publishing-maven-plugin@0.8.0"
+                }
+            ]
+        },
+        {
+            "name": "org.moditect:moditect-maven-plugin",
+            "SPDXID": "SPDXRef-maven-org.moditect-moditect-maven-plugin-1.1.0-75c946",
+            "versionInfo": "1.1.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "copyrightText": "Copyright 2017 - 2023 The ModiTect authors",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.moditect/moditect-maven-plugin@1.1.0"
+                }
+            ]
+        },
+        {
+            "name": "org.jogamp.jocl:jocl-main",
+            "SPDXID": "SPDXRef-maven-org.jogamp.jocl-jocl-main-2.3.2-75c946",
+            "versionInfo": "2.3.2",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-2-Clause OR BSD-3-Clause OR Apache-2.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.jogamp.jocl/jocl-main@2.3.2"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:javacpp",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-javacpp-75c946",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/javacpp"
+                }
+            ]
+        },
+        {
+            "name": "net.java.openjfx.backport:openjfx-78-backport",
+            "SPDXID": "SPDXRef-maven-net.java.openjfx.backport-openjfx-78-backport-1.8.0-ea-b96.1-75c946",
+            "versionInfo": "1.8.0-ea-b96.1",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "copyrightText": "Copyright (c) 2007 the Initial Developer, Copyright (c) 2009, 2011, Oracle and/or its affiliates, Copyright (c) 2009, 2011, Oracle anis/or its affiliates, Copyright (c) 2011, Oracle and/or its affiliates, Copyright (c) 2012, Oracle and/or its affiliates, Copyright (c) 2013, Oracle and/or its affiliates",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/net.java.openjfx.backport/openjfx-78-backport@1.8.0-ea-b96.1"
+                }
+            ]
+        },
+        {
+            "name": "org.openjfx:javafx-graphics",
+            "SPDXID": "SPDXRef-maven-org.openjfx-javafx-graphics-17-75c946",
+            "versionInfo": "17",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.openjfx/javafx-graphics@17"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:libdc1394",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-libdc1394-2.2.6-1.5.9-75c946",
+            "versionInfo": "2.2.6-1.5.9",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/libdc1394@2.2.6-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:libfreenect2",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-libfreenect2-0.2.0-1.5.9-75c946",
+            "versionInfo": "0.2.0-1.5.9",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/libfreenect2@0.2.0-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:librealsense2",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-librealsense2-2.53.1-1.5.9-75c946",
+            "versionInfo": "2.53.1-1.5.9",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/librealsense2@2.53.1-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "org.jogamp.gluegen:gluegen-rt-main",
+            "SPDXID": "SPDXRef-maven-org.jogamp.gluegen-gluegen-rt-main-2.3.2-75c946",
+            "versionInfo": "2.3.2",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-2-Clause OR BSD-3-Clause",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.jogamp.gluegen/gluegen-rt-main@2.3.2"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:opencv",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-opencv-75c946",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/opencv"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:tesseract",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-tesseract-75c946",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/tesseract"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:flycapture",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-flycapture-2.13.3.31-1.5.9-75c946",
+            "versionInfo": "2.13.3.31-1.5.9",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/flycapture@2.13.3.31-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:libfreenect",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-libfreenect-0.5.7-1.5.9-75c946",
+            "versionInfo": "0.5.7-1.5.9",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/libfreenect@0.5.7-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "org.jogamp.jogl:jogl-all-main",
+            "SPDXID": "SPDXRef-maven-org.jogamp.jogl-jogl-all-main-2.3.2-75c946",
+            "versionInfo": "2.3.2",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-2-Clause OR BSD-3-Clause OR Apache-2.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.jogamp.jogl/jogl-all-main@2.3.2"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:ffmpeg",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-ffmpeg-75c946",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:leptonica",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-leptonica-75c946",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/leptonica"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:artoolkitplus",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-artoolkitplus-2.3.1-1.5.9-75c946",
+            "versionInfo": "2.3.1-1.5.9",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/artoolkitplus@2.3.1-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:videoinput",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-videoinput-0.200-1.5.9-75c946",
+            "versionInfo": "0.200-1.5.9",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/videoinput@0.200-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "org.openjfx:javafx-graphics",
+            "SPDXID": "SPDXRef-maven-org.openjfx-javafx-graphics-11-75c946",
+            "versionInfo": "11",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.openjfx/javafx-graphics@11"
+                }
+            ]
+        },
+        {
+            "name": "org.openjfx:javafx-graphics",
+            "SPDXID": "SPDXRef-maven-org.openjfx-javafx-graphics-21-75c946",
+            "versionInfo": "21",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.openjfx/javafx-graphics@21"
+                }
+            ]
+        },
+        {
+            "name": "com.google.android:android",
+            "SPDXID": "SPDXRef-maven-com.google.android-android-4.1.1.4-75c946",
+            "versionInfo": "4.1.1.4",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/com.google.android/android@4.1.1.4"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:openblas",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-openblas-75c946",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/openblas"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:libfreenect2-platform",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-libfreenect2-platform-0.2.0-1.5.9-75c946",
+            "versionInfo": "0.2.0-1.5.9",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/libfreenect2-platform@0.2.0-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:librealsense2-platform",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-librealsense2-platform-2.53.1-1.5.9-75c946",
+            "versionInfo": "2.53.1-1.5.9",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/librealsense2-platform@2.53.1-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:videoinput-platform",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-videoinput-platform-0.200-1.5.9-75c946",
+            "versionInfo": "0.200-1.5.9",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/videoinput-platform@0.200-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:opencv-platform-gpu",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-opencv-platform-gpu-75c946",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/opencv-platform-gpu"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:flycapture-platform",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-flycapture-platform-2.13.3.31-1.5.9-75c946",
+            "versionInfo": "2.13.3.31-1.5.9",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/flycapture-platform@2.13.3.31-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:libdc1394-platform",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-libdc1394-platform-2.2.6-1.5.9-75c946",
+            "versionInfo": "2.2.6-1.5.9",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/libdc1394-platform@2.2.6-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:leptonica-platform",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-leptonica-platform-75c946",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/leptonica-platform"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:libfreenect-platform",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-libfreenect-platform-0.5.7-1.5.9-75c946",
+            "versionInfo": "0.5.7-1.5.9",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/libfreenect-platform@0.5.7-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "junit:junit",
+            "SPDXID": "SPDXRef-maven-junit-junit-4.13.2-75c946",
+            "versionInfo": "4.13.2",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "EPL-1.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/junit/junit@4.13.2"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:openblas-platform",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-openblas-platform-75c946",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/openblas-platform"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:opencv-platform",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-opencv-platform-75c946",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/opencv-platform"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:tesseract-platform",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-tesseract-platform-75c946",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/tesseract-platform"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:artoolkitplus-platform",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-artoolkitplus-platform-2.3.1-1.5.9-75c946",
+            "versionInfo": "2.3.1-1.5.9",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/artoolkitplus-platform@2.3.1-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:librealsense-platform",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-librealsense-platform-1.12.4-1.5.9-75c946",
+            "versionInfo": "1.12.4-1.5.9",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/librealsense-platform@1.12.4-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:javacv",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-javacv-1.5.13-SNAPSHOT-75c946",
+            "versionInfo": "1.5.13-SNAPSHOT",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/javacv@1.5.13-SNAPSHOT"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:ffmpeg-platform",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-ffmpeg-platform-75c946",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg-platform"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:javacpp-platform",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-javacpp-platform-75c946",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/javacpp-platform"
+                }
+            ]
+        },
+        {
+            "name": "org.bytedeco:ffmpeg-platform-gpl",
+            "SPDXID": "SPDXRef-maven-org.bytedeco-ffmpeg-platform-gpl-75c946",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg-platform-gpl"
+                }
+            ]
+        },
+        {
+            "name": "com.github.bytedeco/javacv",
+            "SPDXID": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "versionInfo": "master",
+            "downloadLocation": "git+https://github.com/bytedeco/javacv",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:github/bytedeco/javacv@master"
+                }
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.jogamp.gluegen-gluegen-rt-main-2.3.2-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-flycapture-2.13.3.31-1.5.9-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-leptonica-platform-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-junit-junit-4.13.2-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-opencv-platform-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.openjfx-javafx-graphics-17-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-libfreenect-0.5.7-1.5.9-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-artoolkitplus-2.3.1-1.5.9-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-libfreenect2-platform-0.2.0-1.5.9-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-libdc1394-platform-2.2.6-1.5.9-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-libfreenect-platform-0.5.7-1.5.9-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-artoolkitplus-platform-2.3.1-1.5.9-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-javacv-1.5.13-SNAPSHOT-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.moditect-moditect-maven-plugin-1.1.0-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-leptonica-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-javacpp-platform-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.jogamp.jogl-jogl-all-main-2.3.2-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-ffmpeg-platform-gpl-7.1.1-1.5.12-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-githubactions-bytedecojavacpp-presets.githubactions-deploy-macosx-actions-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.jogamp.jocl-jocl-main-2.3.2-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-opencv-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-tesseract-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-openblas-platform-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-ffmpeg-platform-gpl-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-javacv-platform-1.5.12-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-githubactions-mxschmitt-action-tmate-3.5.-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-libdc1394-2.2.6-1.5.9-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-videoinput-platform-0.200-1.5.9-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-tesseract-platform-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-ffmpeg-platform-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-librealsense-1.12.4-1.5.9-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-net.java.openjfx.backport-openjfx-78-backport-1.8.0-ea-b96.1-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-ffmpeg-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-openblas-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-librealsense-platform-1.12.4-1.5.9-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.sonatype.central-central-publishing-maven-plugin-0.8.0-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-libfreenect2-0.2.0-1.5.9-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-opencv-platform-gpu-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-flycapture-platform-2.13.3.31-1.5.9-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-videoinput-0.200-1.5.9-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-githubactions-bytedecojavacpp-presets.githubactions-deploy-windows-actions-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-githubactions-bytedecojavacpp-presets.githubactions-deploy-ubuntu-actions-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-librealsense2-2.53.1-1.5.9-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.openjfx-javafx-graphics-11-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.openjfx-javafx-graphics-21-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-com.google.android-android-4.1.1.4-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-librealsense2-platform-2.53.1-1.5.9-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-opencv-platform-gpu-4.11.0-1.5.12-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-com.badlogicgames.gdx-gdx-1.13.1-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relatedSpdxElement": "SPDXRef-maven-org.bytedeco-javacpp-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-github-bytedeco-javacv-master-bb1670",
+            "relationshipType": "DESCRIBES"
+        }
+    ]
+}
