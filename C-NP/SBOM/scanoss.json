@@ -1,0 +1,73 @@
+{
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SCANOSS-SBOM",
+  "creationInfo": {
+    "created": "2025-08-07T09:14:08Z",
+    "creators": [
+      "Tool: SCANOSS-PY: 1.26.2",
+      "Person: mehdi",
+      "Organization: SCANOSS"
+    ],
+    "comment": "SBOM Build information - SBOM Type: Build"
+  },
+  "documentNamespace": "https://spdx.org/spdxdocs/scanoss-py-1.26.2-8e4a86b346969b6345ea444c08607274",
+  "documentDescribes": [
+    "SPDXRef-606a38f32f771dcd5b24bb4cea341eb2",
+    "SPDXRef-f9c2fa7b42ae0040a7c2b6e1d34f3681"
+  ],
+  "hasExtractedLicensingInfos": [],
+  "packages": [
+    {
+      "name": "libxcrypt",
+      "SPDXID": "SPDXRef-606a38f32f771dcd5b24bb4cea341eb2",
+      "versionInfo": "4.4.26",
+      "downloadLocation": "https://github.com/besser82/libxcrypt",
+      "homepage": "https://github.com/besser82/libxcrypt",
+      "licenseDeclared": "LGPL-2.1-only",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: besser82",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/besser82/libxcrypt@4.4.26",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "34954869627f62f9992808b6cff0d0a9"
+        }
+      ]
+    },
+    {
+      "name": "emax64",
+      "SPDXID": "SPDXRef-f9c2fa7b42ae0040a7c2b6e1d34f3681",
+      "versionInfo": "20200930",
+      "downloadLocation": "https://github.com/m-parashar/emax64",
+      "homepage": "https://github.com/m-parashar/emax64",
+      "licenseDeclared": "GPL-3.0-only",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: m-parashar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/m-parashar/emax64@20200930",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "f1f25356b68ec69caccd41d95988d23d"
+        }
+      ]
+    }
+  ]
+}
