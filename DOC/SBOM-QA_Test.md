@@ -142,15 +142,15 @@ syft -o spdx-json=syft-sbom.json --enrich all --verbose .
 
 - **Default SBOM:** Generated directly from the project source without performing any compilation step. [syft-default.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/syft-default.json)
 
-**Compilation Step:**
+- **Compilation Step:**
 The project did not originally include a package-lock.json file, which is required to resolve and capture the full dependency tree. To generate it, the following command was executed in test target root:
 ```
 npm install --package-lock
 ```
-- **Generated Files:**
-package-lock.json , node_modules.
+**Generated Files:**
+- ***package-lock.json*** , ***node_modules***
 
-- **Enriched SBOMs:**
+**Enriched SBOMs:**
   [syft-lock.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/syft-lock.json)
 
 
@@ -161,6 +161,7 @@ package-lock.json , node_modules.
 **Command:**
 
 For generating SBOMs for all test targets this command is used:
+
 **Analyze phase:**
 ```
 ort analyze -i /path/to/your/project -o /path/to/output-dir 
@@ -196,23 +197,18 @@ Then the Reporter phase use this file as input file.
 
 **Ecosystem:** 
 [Go](https://github.com/gohugoio/hugo)
-- In this project, the following files were identified: 
 
-***docs/go.mod*** 
+In this project, the following files were identified: 
 
-***go.mod*** 
+- ***docs/go.mod*** , ***go.mod*** , ***docs/package.json*** , ***internal/warpc/js/package.json*** 
 
-***docs/package.json***
+Indicating the use of two different **Package Managers**: 
 
-***internal/warpc/js/package.json*** 
-
-indicating the use of two different **Package Managers**: 
-
-**GoMod & NPM** 
+- **GoMod & NPM** 
 
 >***Note:*** The **SBOM** was successfully generated without any errors and without the need for any modifications or special configurations. 
 
-- **Generated SBOM:**
+**Generated SBOM:**
 ...
 
 **Ecosystem:** 
@@ -225,14 +221,14 @@ Given that **ORT** relies on a package manager for SBOM generation, and no packa
 
 In this project, no package manager associated with C++ was identified; However, in the two files listed below, **NPM-related Packages** were detected. 
 
-- gltf/package.json, js/package.json 
+- ***gltf/package.json*** , ***js/package.json*** 
 
 **Ecosystem:** 
 [Node.js](https://github.com/expressjs/express)  
 
 In this project, the following file was identified: 
 
-- Package.json 
+- ***Package.json***
 
 indicating the use of a package manager: 
 
@@ -240,7 +236,7 @@ indicating the use of a package manager:
 
 >***Note:*** The **SBOM** was successfully generated without any errors and without the need for any modifications or special configurations.
 
-- **Generated SBOM:**
+**Generated SBOM:**
   ...
   
 **Ecosystem:**
@@ -261,7 +257,7 @@ During the process, an error related to the Maven compiler was encountered, whic
 
 In addition, the following three files were identified: 
 
-- platform/pom.xml ,  pom.xml , samples/pom.xml 
+- ***platform/pom.xml*** ,  ***pom.xml*** , ***samples/pom.xml***
 
 Indicating that the project relied on a single package manager: 
 
@@ -269,7 +265,7 @@ Indicating that the project relied on a single package manager:
 
 After the version was corrected, **ORT** was ultimately able to generate the **SBOM** successfully without errors.
 
-- **Generated SBOM:**
+**Generated SBOM:**
   ...
 
 
