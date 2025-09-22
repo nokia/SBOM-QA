@@ -1,0 +1,60 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "creationInfo": {
+    "created": "2025-08-13T10:46:46Z",
+    "creators": [
+      "Tool: ort-62.2.0"
+    ],
+    "licenseListVersion": "3.27"
+  },
+  "name": "Unnamed document",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "spdx://88701145-97b6-476f-9866-8a23b5e7566e",
+  "documentDescribes": [
+    "SPDXRef-Project-NPM-gltfpack-0.24.0",
+    "SPDXRef-Project-NPM-meshoptimizer-0.24.0",
+    "SPDXRef-Project-Unmanaged-meshoptimizer-7b2d4f4c817aea55d74dcd65d9763ac2ca608026"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Project-NPM-gltfpack-0.24.0",
+      "copyrightText": "NONE",
+      "description": "A command-line tool that can optimize glTF files for size and speed",
+      "downloadLocation": "https://github.com/zeux/meshoptimizer",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/zeux/meshoptimizer",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "name": "gltfpack",
+      "originator": "Person: Arseny Kapoulkine",
+      "supplier": "Person: Arseny Kapoulkine",
+      "versionInfo": "0.24.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Project-NPM-meshoptimizer-0.24.0",
+      "copyrightText": "NONE",
+      "description": "Mesh optimization library that makes meshes smaller and faster to render",
+      "downloadLocation": "https://github.com/zeux/meshoptimizer",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/zeux/meshoptimizer",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "name": "meshoptimizer",
+      "originator": "Person: Arseny Kapoulkine",
+      "supplier": "Person: Arseny Kapoulkine",
+      "versionInfo": "0.24.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Project-Unmanaged-meshoptimizer-7b2d4f4c817aea55d74dcd65d9763ac2ca608026",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "homepage": "NONE",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "meshoptimizer",
+      "versionInfo": "7b2d4f4c817aea55d74dcd65d9763ac2ca608026"
+    }
+  ]
+}

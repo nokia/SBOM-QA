@@ -1,0 +1,25 @@
+Validating ortC++MeShop.json
++---+--------------+--------------+---------------+---------------------------+
+| # | Error type   | SPDX ID      | Package name  | Reason                    |
++---+--------------+--------------+---------------+---------------------------+
+| 1 | NTIA         | SPDXRef-     | meshoptimizer | Package without a package |
+|   | validation   | Project-     |               | supplier                  |
+|   | error        | Unmanaged-me |               |                           |
+|   |              | shoptimizer- |               |                           |
+|   |              | 7b2d4f4c817a |               |                           |
+|   |              | ea55d74dcd65 |               |                           |
+|   |              | d9763ac2ca60 |               |                           |
+|   |              | 8026         |               |                           |
++---+--------------+--------------+---------------+---------------------------+
+| 2 | Missing      | General      | General       | CreatorComment is missing |
+|   | mandatory    |              |               |                           |
+|   | field from   |              |               |                           |
+|   | CreationInfo |              |               |                           |
++---+--------------+--------------+---------------+---------------------------+
+| 3 | Missing or   | General      | General       | There is no Creator field |
+|   | invalid      |              |               | with Organization keyword |
+|   | field in Cre |              |               | in it                     |
+|   | ationInfo::C |              |               |                           |
+|   | reator       |              |               |                           |
++---+--------------+--------------+---------------+---------------------------+
+The SPDX file clone/C++-NP/ortC++MeShop.json is not compliant with the OpenChain Telco SBOM Guide version 1.1

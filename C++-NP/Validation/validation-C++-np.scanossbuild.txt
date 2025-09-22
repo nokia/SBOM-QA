@@ -1,0 +1,2 @@
+Validating scanoss-build.json
+The SPDX file clone/C++-NP/scanoss-build.json is compliant with the OpenChain Telco SBOM Guide version 1.1

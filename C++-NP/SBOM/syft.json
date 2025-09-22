@@ -1,0 +1,661 @@
+{
+    "spdxVersion": "SPDX-2.3",
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": ".",
+    "documentNamespace": "https://anchore.com/syft/dir/9613fe07-99fe-4e01-a52c-19997ef72c5e",
+    "creationInfo": {
+        "licenseListVersion": "3.25",
+        "creators": [
+            "Organization: Anchore, Inc",
+            "Tool: syft-1.26.1"
+        ],
+        "created": "2025-08-14T08:34:21Z"
+    },
+    "packages": [
+        {
+            "name": "actions/checkout",
+            "SPDXID": "SPDXRef-Package-github-action-actions-checkout-9897a827ae1ecfc3",
+            "versionInfo": "v4",
+            "supplier": "Organization: GitHub",
+            "originator": "Organization: GitHub",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/build.yml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:github/actions/checkout@v4"
+                }
+            ]
+        },
+        {
+            "name": "actions/checkout",
+            "SPDXID": "SPDXRef-Package-github-action-actions-checkout-9eb4338500f07f9e",
+            "versionInfo": "v4",
+            "supplier": "Organization: GitHub",
+            "originator": "Organization: GitHub",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/release.yml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:github/actions/checkout@v4"
+                }
+            ]
+        },
+        {
+            "name": "actions/setup-node",
+            "SPDXID": "SPDXRef-Package-github-action-actions-setup-node-e4c6d3f2c854fb3b",
+            "versionInfo": "v4",
+            "supplier": "Organization: GitHub",
+            "originator": "Organization: GitHub",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/build.yml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/setup-node:actions\\/setup-node:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/setup-node:actions\\/setup_node:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/setup_node:actions\\/setup-node:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/setup_node:actions\\/setup_node:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/setup:actions\\/setup-node:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/setup:actions\\/setup_node:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:github/actions/setup-node@v4"
+                }
+            ]
+        },
+        {
+            "name": "actions/setup-node",
+            "SPDXID": "SPDXRef-Package-github-action-actions-setup-node-54a0ac30b2c140e0",
+            "versionInfo": "v4",
+            "supplier": "Organization: GitHub",
+            "originator": "Organization: GitHub",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/release.yml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/setup-node:actions\\/setup-node:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/setup-node:actions\\/setup_node:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/setup_node:actions\\/setup-node:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/setup_node:actions\\/setup_node:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/setup:actions\\/setup-node:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/setup:actions\\/setup_node:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:github/actions/setup-node@v4"
+                }
+            ]
+        },
+        {
+            "name": "actions/upload-artifact",
+            "SPDXID": "SPDXRef-Package-github-action-actions-upload-artifact-4270b206b0dc703b",
+            "versionInfo": "v4",
+            "supplier": "Organization: GitHub",
+            "originator": "Organization: GitHub",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/cifuzz.yml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload-artifact:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload_artifact:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload-artifact:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload_artifact:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/upload:actions\\/upload-artifact:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/upload:actions\\/upload_artifact:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:github/actions/upload-artifact@v4"
+                }
+            ]
+        },
+        {
+            "name": "actions/upload-artifact",
+            "SPDXID": "SPDXRef-Package-github-action-actions-upload-artifact-796c2f5062424580",
+            "versionInfo": "v4",
+            "supplier": "Organization: GitHub",
+            "originator": "Organization: GitHub",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/release.yml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload-artifact:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload_artifact:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload-artifact:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload_artifact:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/upload:actions\\/upload-artifact:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:actions\\/upload:actions\\/upload_artifact:v4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:github/actions/upload-artifact@v4"
+                }
+            ]
+        },
+        {
+            "name": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers",
+            "SPDXID": "SPDXRef-Package-github-action-google-oss-fuzz-infra-cifuzz-actions-build-fuzzers-95c24ead5738875a",
+            "versionInfo": "master",
+            "supplier": "Organization: google",
+            "originator": "Organization: google",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/cifuzz.yml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:github/google/oss-fuzz@master#infra/cifuzz/actions/build_fuzzers"
+                }
+            ]
+        },
+        {
+            "name": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers",
+            "SPDXID": "SPDXRef-Package-github-action-google-oss-fuzz-infra-cifuzz-actions-run-fuzzers-003690b85bd9f86c",
+            "versionInfo": "master",
+            "supplier": "Organization: google",
+            "originator": "Organization: google",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/cifuzz.yml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google\\/oss:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:github/google/oss-fuzz@master#infra/cifuzz/actions/run_fuzzers"
+                }
+            ]
+        },
+        {
+            "name": ".",
+            "SPDXID": "SPDXRef-DocumentRoot-Directory-.",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "primaryPackagePurpose": "FILE"
+        }
+    ],
+    "files": [
+        {
+            "fileName": ".github/workflows/build.yml",
+            "SPDXID": "SPDXRef-File-.github-workflows-build.yml-ebff2c81fbaf921b",
+            "fileTypes": [
+                "TEXT"
+            ],
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "90dc2c27fd911dfd36cdaa806390f8f1c3f8a9ca"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "bb95bbd499e6a1f59f792401d2157186cdf11f1768ede36bc637c4acf355988f"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "fileName": ".github/workflows/cifuzz.yml",
+            "SPDXID": "SPDXRef-File-.github-workflows-cifuzz.yml-aca88650164dfbe2",
+            "fileTypes": [
+                "TEXT"
+            ],
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "8362e7f611577f59a6dddc61d051a6952f4b6814"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "94dd126115dabf1e7b337608dacff831740fd18519cef660d7140f222dbfb22f"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "fileName": ".github/workflows/release.yml",
+            "SPDXID": "SPDXRef-File-.github-workflows-release.yml-cc210d8a1a5f5704",
+            "fileTypes": [
+                "TEXT"
+            ],
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "3e399d5d4416e1dcadb112384c25dd85a3069455"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "819f749b6b251f0b71232b1cbdd6b10ab029a3a9b13fb17543919ebfc68cb1dc"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ],
+            "copyrightText": "NOASSERTION"
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-Package-github-action-google-oss-fuzz-infra-cifuzz-actions-run-fuzzers-003690b85bd9f86c",
+            "relatedSpdxElement": "SPDXRef-File-.github-workflows-cifuzz.yml-aca88650164dfbe2",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-github-action-actions-upload-artifact-4270b206b0dc703b",
+            "relatedSpdxElement": "SPDXRef-File-.github-workflows-cifuzz.yml-aca88650164dfbe2",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-github-action-actions-setup-node-54a0ac30b2c140e0",
+            "relatedSpdxElement": "SPDXRef-File-.github-workflows-release.yml-cc210d8a1a5f5704",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-github-action-actions-upload-artifact-796c2f5062424580",
+            "relatedSpdxElement": "SPDXRef-File-.github-workflows-release.yml-cc210d8a1a5f5704",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-github-action-google-oss-fuzz-infra-cifuzz-actions-build-fuzzers-95c24ead5738875a",
+            "relatedSpdxElement": "SPDXRef-File-.github-workflows-cifuzz.yml-aca88650164dfbe2",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-github-action-actions-checkout-9897a827ae1ecfc3",
+            "relatedSpdxElement": "SPDXRef-File-.github-workflows-build.yml-ebff2c81fbaf921b",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-github-action-actions-checkout-9eb4338500f07f9e",
+            "relatedSpdxElement": "SPDXRef-File-.github-workflows-release.yml-cc210d8a1a5f5704",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-github-action-actions-setup-node-e4c6d3f2c854fb3b",
+            "relatedSpdxElement": "SPDXRef-File-.github-workflows-build.yml-ebff2c81fbaf921b",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-github-action-actions-checkout-9897a827ae1ecfc3",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-github-action-actions-checkout-9eb4338500f07f9e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-github-action-actions-setup-node-e4c6d3f2c854fb3b",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-github-action-actions-setup-node-54a0ac30b2c140e0",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-github-action-actions-upload-artifact-4270b206b0dc703b",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-github-action-actions-upload-artifact-796c2f5062424580",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-github-action-google-oss-fuzz-infra-cifuzz-actions-build-fuzzers-95c24ead5738875a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-github-action-google-oss-fuzz-infra-cifuzz-actions-run-fuzzers-003690b85bd9f86c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-DocumentRoot-Directory-.",
+            "relationshipType": "DESCRIBES"
+        }
+    ]
+}

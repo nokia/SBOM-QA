@@ -1,0 +1,218 @@
+{
+  "tool": {
+    "name": "sbomdiff",
+    "version": "0.5.6"
+  },
+  "file_1": "SBOM-QA/C++-np/zeux_meshoptimizer_4b6446.json",
+  "file_2": "clone/C++-NP/scanoss-build.json",
+  "differences": [
+    {
+      "package": "actions/checkout",
+      "status": "remove",
+      "version": {
+        "from": "4.*.*"
+      }
+    },
+    {
+      "package": "actions/setup-node",
+      "status": "remove",
+      "version": {
+        "from": "4.*.*"
+      }
+    },
+    {
+      "package": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers",
+      "status": "remove",
+      "version": {
+        "from": "MASTER"
+      }
+    },
+    {
+      "package": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers",
+      "status": "remove",
+      "version": {
+        "from": "MASTER"
+      }
+    },
+    {
+      "package": "actions/upload-artifact",
+      "status": "remove",
+      "version": {
+        "from": "4.*.*"
+      }
+    },
+    {
+      "package": "com.github.zeux/meshoptimizer",
+      "status": "remove",
+      "version": {
+        "from": "MASTER"
+      }
+    },
+    {
+      "package": "EitnyEditor",
+      "status": "add",
+      "version": {
+        "from": "EITNYEDITOR"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cmake_ctest",
+      "status": "add",
+      "version": {
+        "from": "NIGHTLY-20250513111018"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "BetterScrobbler",
+      "status": "add",
+      "version": {
+        "from": "1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sqliteman",
+      "status": "add",
+      "version": {
+        "from": "0.99"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "TradeIQ",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sef",
+      "status": "add",
+      "version": {
+        "from": "000"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "Raytracer",
+      "status": "add",
+      "version": {
+        "from": "RAYTRACER"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cratered/curl",
+      "status": "add",
+      "version": {
+        "from": "7.5.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "meshoptimizer",
+      "status": "add",
+      "version": {
+        "from": "0.8"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "fast_obj",
+      "status": "add",
+      "version": {
+        "from": "D620667"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "filament",
+      "status": "add",
+      "version": {
+        "from": "1.25.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mapbox-gl-js",
+      "status": "add",
+      "version": {
+        "from": "STYLE-SPEC@14.0.0-BETA.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "engine",
+      "status": "add",
+      "version": {
+        "from": "0.0.37"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "app-wasm",
+      "status": "add",
+      "version": {
+        "from": "D8B3097"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "spacerisk-env-flax",
+      "status": "add",
+      "version": {
+        "from": "0.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "Lumos",
+      "status": "add",
+      "version": {
+        "from": "8A17AEB"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    }
+  ],
+  "summary": {
+    "version_changes": 0,
+    "new_packages": 16,
+    "removed_packages": 6,
+    "license_changes": 0
+  }
+}

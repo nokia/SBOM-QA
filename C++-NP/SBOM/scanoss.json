@@ -1,0 +1,255 @@
+{
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SCANOSS-SBOM",
+  "creationInfo": {
+    "created": "2025-08-14T08:39:20Z",
+    "creators": [
+      "Tool: SCANOSS-PY: 1.26.2",
+      "Person: mehdi",
+      "Organization: SCANOSS"
+    ],
+    "comment": "SBOM Build information - SBOM Type: Build"
+  },
+  "documentNamespace": "https://spdx.org/spdxdocs/scanoss-py-1.26.2-21f878f58042363f3febd59df3f17659",
+  "documentDescribes": [
+    "SPDXRef-96674a77a6c05d6586b02fc4fcc0c358",
+    "SPDXRef-fa7f771f6a59f9decf681b951cb60c52",
+    "SPDXRef-94b24f8c5852c5ae44b2aa9c92279978",
+    "SPDXRef-655001e13baeffe72d55492ab770e63b",
+    "SPDXRef-a50f5cebd1f79d4b0b7b7a762309e12b",
+    "SPDXRef-6fe335abf318fd205fe3a5868611d7a9",
+    "SPDXRef-dafa60445289d84ecb781e8dbf67df9f",
+    "SPDXRef-34b4b23734d17de976733838bdf2cc1d",
+    "SPDXRef-13519da2131d4f7e8bef0c9bb105d92f"
+  ],
+  "hasExtractedLicensingInfos": [],
+  "packages": [
+    {
+      "name": "meshoptimizer",
+      "SPDXID": "SPDXRef-96674a77a6c05d6586b02fc4fcc0c358",
+      "versionInfo": "0.8",
+      "downloadLocation": "https://github.com/zeux/meshoptimizer",
+      "homepage": "https://github.com/zeux/meshoptimizer",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: zeux",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/zeux/meshoptimizer@0.8",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "a2c4b43676e200c328cc903afa8542e9"
+        }
+      ]
+    },
+    {
+      "name": "fast_obj",
+      "SPDXID": "SPDXRef-fa7f771f6a59f9decf681b951cb60c52",
+      "versionInfo": "d620667",
+      "downloadLocation": "https://github.com/thisistherk/fast_obj",
+      "homepage": "https://github.com/thisistherk/fast_obj",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: thisistherk",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/thisistherk/fast_obj@d620667",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "6c973636b8057b00a65a38bd059cee69"
+        }
+      ]
+    },
+    {
+      "name": "filament",
+      "SPDXID": "SPDXRef-94b24f8c5852c5ae44b2aa9c92279978",
+      "versionInfo": "1.25.0",
+      "downloadLocation": "https://github.com/google/filament",
+      "homepage": "https://github.com/google/filament",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: google",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/google/filament@1.25.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "55e9d4b29716801784f5d80835665aa9"
+        }
+      ]
+    },
+    {
+      "name": "mapbox-gl-js",
+      "SPDXID": "SPDXRef-655001e13baeffe72d55492ab770e63b",
+      "versionInfo": "style-spec@14.0.0-beta.1",
+      "downloadLocation": "https://github.com/mapbox/mapbox-gl-js",
+      "homepage": "https://github.com/mapbox/mapbox-gl-js",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: mapbox",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/mapbox/mapbox-gl-js%40style-spec@14.0.0-beta.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "c88fbb5e6c15c7d26c4a83faeac07110"
+        }
+      ]
+    },
+    {
+      "name": "meshoptimizer",
+      "SPDXID": "SPDXRef-a50f5cebd1f79d4b0b7b7a762309e12b",
+      "versionInfo": "0.24.0",
+      "downloadLocation": "https://www.npmjs.com/package/meshoptimizer",
+      "homepage": "https://www.npmjs.com/package/meshoptimizer",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Arseny Kapoulkine",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/meshoptimizer@0.24.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "da4c1afce3789d6a5fa03cd357e4cb43"
+        }
+      ]
+    },
+    {
+      "name": "engine",
+      "SPDXID": "SPDXRef-6fe335abf318fd205fe3a5868611d7a9",
+      "versionInfo": "0.0.37",
+      "downloadLocation": "https://github.com/mgerhardy/engine",
+      "homepage": "https://github.com/mgerhardy/engine",
+      "licenseDeclared": "(Zlib AND MIT AND BSD-3-Clause)",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: mgerhardy",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/mgerhardy/engine@0.0.37",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "5bae7881da534fd7ce8c6947c889e99c"
+        }
+      ]
+    },
+    {
+      "name": "app-wasm",
+      "SPDXID": "SPDXRef-dafa60445289d84ecb781e8dbf67df9f",
+      "versionInfo": "d8b3097",
+      "downloadLocation": "https://github.com/webaverse/app-wasm",
+      "homepage": "https://github.com/webaverse/app-wasm",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: webaverse",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/webaverse/app-wasm@d8b3097",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "ccaf3f84ff6bbf80c9f9bc0632bc5c0a"
+        }
+      ]
+    },
+    {
+      "name": "spacerisk-env-flax",
+      "SPDXID": "SPDXRef-34b4b23734d17de976733838bdf2cc1d",
+      "versionInfo": "0.0.0",
+      "downloadLocation": "https://github.com/Withaust/spacerisk-env-flax",
+      "homepage": "https://github.com/Withaust/spacerisk-env-flax",
+      "licenseDeclared": "(Zlib AND MIT AND BSD-3-Clause)",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Withaust",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/withaust/spacerisk-env-flax@0.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "be537aea5876757a09b5a1a3c5535613"
+        }
+      ]
+    },
+    {
+      "name": "Lumos",
+      "SPDXID": "SPDXRef-13519da2131d4f7e8bef0c9bb105d92f",
+      "versionInfo": "8a17aeb",
+      "downloadLocation": "https://github.com/jmorton06/Lumos",
+      "homepage": "https://github.com/jmorton06/Lumos",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: jmorton06",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/jmorton06/lumos@8a17aeb",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "4c74a3480e9ff13f211c167e41f511ef"
+        }
+      ]
+    }
+  ]
+}
