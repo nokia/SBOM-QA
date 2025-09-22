@@ -1,0 +1,26 @@
+Validating scanoss-build-vendor.json
++---+--------------+--------------+---------------------------+---------------------------+
+| # | Error type   | SPDX ID      | Package name              | Reason                    |
++---+--------------+--------------+---------------------------+---------------------------+
+| 1 | Useless      | SPDXRef-     | javacv                    | purl (pkg:gitee/hjljy/jav |
+|   | mandatory    | c2729ea205b5 |                           | acv@ca0fd69) in the       |
+|   | field from   | ccdeec113851 |                           | ExternalRef cannot be     |
+|   | Package      | d7d41811     |                           | converted to a            |
+|   |              |              |                           | downloadable URL          |
++---+--------------+--------------+---------------------------+---------------------------+
+| 2 | Useless      | SPDXRef-     | platform/external/jetbrai | purl (pkg:googlesource/an |
+|   | mandatory    | 421a983220ac | ns/JetBrainsRuntime       | droid/platform/external/j |
+|   | field from   | bcaf01cfc92e |                           | etbrains/jetbrainsruntime |
+|   | Package      | c3d17ca5     |                           | @jbr-                     |
+|   |              |              |                           | release-21.0.2b375.1) in  |
+|   |              |              |                           | the ExternalRef cannot be |
+|   |              |              |                           | converted to a            |
+|   |              |              |                           | downloadable URL          |
++---+--------------+--------------+---------------------------+---------------------------+
+| 3 | Useless      | SPDXRef-da7d | openjdk-8                 | purl (pkg:deb/debian/open |
+|   | mandatory    | 77d55bd1bbfb |                           | jdk-8@8u20~b26-1) in the  |
+|   | field from   | 725c8bbe2ee5 |                           | ExternalRef cannot be     |
+|   | Package      | 2cf9         |                           | converted to a            |
+|   |              |              |                           | downloadable URL          |
++---+--------------+--------------+---------------------------+---------------------------+
+The SPDX file clone/java_maven/scanoss-build-vendor.json is not compliant with the OpenChain Telco SBOM Guide version 1.1 in strict mode (with RECOMMENDED also)

@@ -1,0 +1,1165 @@
+{
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SCANOSS-SBOM",
+  "creationInfo": {
+    "created": "2025-08-01T09:36:26Z",
+    "creators": [
+      "Tool: SCANOSS-PY: 1.26.2",
+      "Person: mehdi",
+      "Organization: SCANOSS"
+    ],
+    "comment": "SBOM Build information - SBOM Type: Build"
+  },
+  "documentNamespace": "https://spdx.org/spdxdocs/scanoss-py-1.26.2-ff0198568d228114dcade3e5c2ff9c4f",
+  "documentDescribes": [
+    "SPDXRef-84b21b54ae50a2a54c8212e9e79df851",
+    "SPDXRef-8ae19711850c8e4935d944d7c8395912",
+    "SPDXRef-099d908e3726b37c2a4e0a68147b7136",
+    "SPDXRef-c2f6aa5650be885d8e7f5477e2814718",
+    "SPDXRef-63e952ce074218561ad48db12a916e76",
+    "SPDXRef-136f831318feb30d74f221580f0356d0",
+    "SPDXRef-9c94a0c22e31404d6accc401339247ba",
+    "SPDXRef-417e99c5bd681f8a9e2c8489ff88564d",
+    "SPDXRef-b8e73838f30b98ad6c948b72980c7bb9",
+    "SPDXRef-9576f0052ec0a599934f96e48089ec3a",
+    "SPDXRef-c2729ea205b5ccdeec113851d7d41811",
+    "SPDXRef-d527f68debc52b36a3ddf5e8a4e235a7",
+    "SPDXRef-2a4becbe647615b2ac48410e2495539d",
+    "SPDXRef-db6d76d0b7870a7f8e3b06c398bfe17a",
+    "SPDXRef-e0df6467a2774cc72b0e8cfb66d4ca13",
+    "SPDXRef-3ea78d7f59c05526207b5284c9cced02",
+    "SPDXRef-8ee67a9c01b5cf45a550cb7bcb557a52",
+    "SPDXRef-6799e485f523a6a8ca6652d83ed8d2a0",
+    "SPDXRef-731297e49f1ed30c684efbba15369815",
+    "SPDXRef-3b0706665e65c6994ed40ccbc6dcdd57",
+    "SPDXRef-35bdf61aabddd595a302a5dc8df4db40",
+    "SPDXRef-91fa58e2a74b8727f348e11e4291d0cd",
+    "SPDXRef-12340532649b1b149dc706b3c5657961",
+    "SPDXRef-b286e9080778f94ab877481622db3e64",
+    "SPDXRef-1221723ad8c35de0b30519aa001ded3f",
+    "SPDXRef-21929d766ebcf7d13ca01ffbe302ffae",
+    "SPDXRef-319d26ced9edbf1b7ccf891e61343c7b",
+    "SPDXRef-7479ffbaf2c3fe0788adb8366fd13d26",
+    "SPDXRef-d00f5ce4b46e555b6eea1f2f786ee388",
+    "SPDXRef-49de725d42b3af74512fe8146e84104a",
+    "SPDXRef-d9cf631f4b2e9e0c420c5747e81eb00c",
+    "SPDXRef-7ca713979164f079035f426c7726369c",
+    "SPDXRef-bbb1a393ab617bb779b4890e3cb755ce",
+    "SPDXRef-f7f8a2b115e87727f619490efb4bfbb9",
+    "SPDXRef-a4177dd2798ee2ff6c4df82d4a1907d2",
+    "SPDXRef-b7d7112e8a2b7ebf24fa6de39d10775a",
+    "SPDXRef-ab98829138046bccdb20b948527ccf01",
+    "SPDXRef-a40fa3169fbaec0edbb6065a6cf8ed78",
+    "SPDXRef-421a983220acbcaf01cfc92ec3d17ca5",
+    "SPDXRef-f8bccf758e2bcc7bf60b4f4960100b6c",
+    "SPDXRef-7db7850aa30b6691ec8d28932300b87f",
+    "SPDXRef-708ed4f3ed3deedbcb61c959bc30045d",
+    "SPDXRef-6e837a13232cf22779fd16dd270d0170",
+    "SPDXRef-da7d77d55bd1bbfb725c8bbe2ee52cf9"
+  ],
+  "hasExtractedLicensingInfos": [],
+  "packages": [
+    {
+      "name": "javacv",
+      "SPDXID": "SPDXRef-84b21b54ae50a2a54c8212e9e79df851",
+      "versionInfo": "1.3.3",
+      "downloadLocation": "https://github.com/bytedeco/javacv",
+      "homepage": "https://github.com/bytedeco/javacv",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: bytedeco",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/bytedeco/javacv@1.3.3",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "bd4dac0a8f39c2c02fd49a19450ec576"
+        }
+      ]
+    },
+    {
+      "name": "artoolkitplus",
+      "SPDXID": "SPDXRef-8ae19711850c8e4935d944d7c8395912",
+      "versionInfo": "2.3.1-1.5.9",
+      "downloadLocation": "https://mvnrepository.com/artifact/org.bytedeco/artoolkitplus",
+      "homepage": "https://mvnrepository.com/artifact/org.bytedeco/artoolkitplus",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: org.bytedeco",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.bytedeco/artoolkitplus@2.3.1-1.5.9",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "27ade20be4eaf90a3d4d225346095975"
+        }
+      ]
+    },
+    {
+      "name": "artoolkitplus",
+      "SPDXID": "SPDXRef-099d908e3726b37c2a4e0a68147b7136",
+      "versionInfo": "2.3.1-1.4.4",
+      "downloadLocation": "https://mvnrepository.com/artifact/org.bytedeco.javacpp-presets/artoolkitplus",
+      "homepage": "https://mvnrepository.com/artifact/org.bytedeco.javacpp-presets/artoolkitplus",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: org.bytedeco.javacpp-presets",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.bytedeco.javacpp-presets/artoolkitplus@2.3.1-1.4.4",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "cc797344fbd84c5b9d0c968309adf013"
+        }
+      ]
+    },
+    {
+      "name": "javacpp-presets",
+      "SPDXID": "SPDXRef-c2f6aa5650be885d8e7f5477e2814718",
+      "versionInfo": "1.5.12",
+      "downloadLocation": "https://github.com/bytedeco/javacpp-presets",
+      "homepage": "https://github.com/bytedeco/javacpp-presets",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: bytedeco",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/bytedeco/javacpp-presets@1.5.12",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "094f0629e07f09259ff40686fc4a274f"
+        }
+      ]
+    },
+    {
+      "name": "ffmpeg",
+      "SPDXID": "SPDXRef-63e952ce074218561ad48db12a916e76",
+      "versionInfo": "4.1.3-1.5",
+      "downloadLocation": "https://mvnrepository.com/artifact/org.bytedeco/ffmpeg",
+      "homepage": "https://mvnrepository.com/artifact/org.bytedeco/ffmpeg",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: org.bytedeco",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg@4.1.3-1.5",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "20f63a792e10099cdf1eaafe8245c81b"
+        }
+      ]
+    },
+    {
+      "name": "flycapture",
+      "SPDXID": "SPDXRef-136f831318feb30d74f221580f0356d0",
+      "versionInfo": "2.13.3.31-1.5.9",
+      "downloadLocation": "https://mvnrepository.com/artifact/org.bytedeco/flycapture",
+      "homepage": "https://mvnrepository.com/artifact/org.bytedeco/flycapture",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: org.bytedeco",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.bytedeco/flycapture@2.13.3.31-1.5.9",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "e9225d77a2b38f434c98ba9743e47faa"
+        }
+      ]
+    },
+    {
+      "name": "javacpp",
+      "SPDXID": "SPDXRef-9c94a0c22e31404d6accc401339247ba",
+      "versionInfo": "1.5.6",
+      "downloadLocation": "https://github.com/bytedeco/javacpp",
+      "homepage": "https://github.com/bytedeco/javacpp",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: bytedeco",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/bytedeco/javacpp@1.5.6",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "1875a3086d0b12eb6470e3b4f57322a7"
+        }
+      ]
+    },
+    {
+      "name": "javacpp",
+      "SPDXID": "SPDXRef-417e99c5bd681f8a9e2c8489ff88564d",
+      "versionInfo": "1.5.8",
+      "downloadLocation": "https://mvnrepository.com/artifact/org.bytedeco/javacpp",
+      "homepage": "https://mvnrepository.com/artifact/org.bytedeco/javacpp",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: org.bytedeco",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp@1.5.8",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "4cd22be087b272965275224432f9d88c"
+        }
+      ]
+    },
+    {
+      "name": "javacpp",
+      "SPDXID": "SPDXRef-b8e73838f30b98ad6c948b72980c7bb9",
+      "versionInfo": "1.5.9",
+      "downloadLocation": "https://mvnrepository.com/artifact/us.ihmc/javacpp",
+      "homepage": "https://mvnrepository.com/artifact/us.ihmc/javacpp",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: us.ihmc",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/us.ihmc/javacpp@1.5.9",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "15e95844925817b6486172d615afeb89"
+        }
+      ]
+    },
+    {
+      "name": "javacv",
+      "SPDXID": "SPDXRef-9576f0052ec0a599934f96e48089ec3a",
+      "versionInfo": "1.5.5",
+      "downloadLocation": "https://mvnrepository.com/artifact/org.bytedeco/javacv",
+      "homepage": "https://mvnrepository.com/artifact/org.bytedeco/javacv",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: org.bytedeco",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacv@1.5.5",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "6786a37c31c38e80575ac0fb623561c9"
+        }
+      ]
+    },
+    {
+      "name": "javacv",
+      "SPDXID": "SPDXRef-c2729ea205b5ccdeec113851d7d41811",
+      "versionInfo": "ca0fd69",
+      "downloadLocation": "https://gitee.com/hjljy/javacv",
+      "homepage": "https://gitee.com/hjljy/javacv",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: hjljy",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:gitee/hjljy/javacv@ca0fd69",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "5be29aeaf500958093fa8b36e194dc7d"
+        }
+      ]
+    },
+    {
+      "name": "leptonica",
+      "SPDXID": "SPDXRef-d527f68debc52b36a3ddf5e8a4e235a7",
+      "versionInfo": "1.82.0-1.5.8",
+      "downloadLocation": "https://mvnrepository.com/artifact/org.bytedeco/leptonica",
+      "homepage": "https://mvnrepository.com/artifact/org.bytedeco/leptonica",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: org.bytedeco",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.bytedeco/leptonica@1.82.0-1.5.8",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "a7d698759b06638b328e9f74f02d011b"
+        }
+      ]
+    },
+    {
+      "name": "libfreenect2",
+      "SPDXID": "SPDXRef-2a4becbe647615b2ac48410e2495539d",
+      "versionInfo": "0.2.0-1.5.9",
+      "downloadLocation": "https://mvnrepository.com/artifact/org.bytedeco/libfreenect2",
+      "homepage": "https://mvnrepository.com/artifact/org.bytedeco/libfreenect2",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: org.bytedeco",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect2@0.2.0-1.5.9",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "d54ddf178845248f99af545ac229fae4"
+        }
+      ]
+    },
+    {
+      "name": "librealsense",
+      "SPDXID": "SPDXRef-db6d76d0b7870a7f8e3b06c398bfe17a",
+      "versionInfo": "1.12.4-1.5.9",
+      "downloadLocation": "https://mvnrepository.com/artifact/org.bytedeco/librealsense",
+      "homepage": "https://mvnrepository.com/artifact/org.bytedeco/librealsense",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: org.bytedeco",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense@1.12.4-1.5.9",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "4a511480cad5a9fa0e69e8718f97c2bd"
+        }
+      ]
+    },
+    {
+      "name": "librealsense2",
+      "SPDXID": "SPDXRef-e0df6467a2774cc72b0e8cfb66d4ca13",
+      "versionInfo": "2.53.1-1.5.9",
+      "downloadLocation": "https://mvnrepository.com/artifact/org.bytedeco/librealsense2",
+      "homepage": "https://mvnrepository.com/artifact/org.bytedeco/librealsense2",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: org.bytedeco",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense2@2.53.1-1.5.9",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "3112a454239ff654f7faee2e94264302"
+        }
+      ]
+    },
+    {
+      "name": "openblas",
+      "SPDXID": "SPDXRef-3ea78d7f59c05526207b5284c9cced02",
+      "versionInfo": "0.3.13-1.5.5",
+      "downloadLocation": "https://mvnrepository.com/artifact/org.bytedeco/openblas",
+      "homepage": "https://mvnrepository.com/artifact/org.bytedeco/openblas",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: org.bytedeco",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.bytedeco/openblas@0.3.13-1.5.5",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "b9c340712005788a16089e74b59caa53"
+        }
+      ]
+    },
+    {
+      "name": "opencv",
+      "SPDXID": "SPDXRef-8ee67a9c01b5cf45a550cb7bcb557a52",
+      "versionInfo": "4.0.1-1.5",
+      "downloadLocation": "https://mvnrepository.com/artifact/org.bytedeco/opencv",
+      "homepage": "https://mvnrepository.com/artifact/org.bytedeco/opencv",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: org.bytedeco",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.bytedeco/opencv@4.0.1-1.5",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "44060d3988dbad059fe0e1b7ef446c94"
+        }
+      ]
+    },
+    {
+      "name": "opencv",
+      "SPDXID": "SPDXRef-6799e485f523a6a8ca6652d83ed8d2a0",
+      "versionInfo": "4.7.0-1.5.9",
+      "downloadLocation": "https://mvnrepository.com/artifact/us.ihmc/opencv",
+      "homepage": "https://mvnrepository.com/artifact/us.ihmc/opencv",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: us.ihmc",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/us.ihmc/opencv@4.7.0-1.5.9",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "01e6695bbee8d4bd66e4bbad217b7eba"
+        }
+      ]
+    },
+    {
+      "name": "videoinput",
+      "SPDXID": "SPDXRef-731297e49f1ed30c684efbba15369815",
+      "versionInfo": "0.200-1.5.9",
+      "downloadLocation": "https://mvnrepository.com/artifact/org.bytedeco/videoinput",
+      "homepage": "https://mvnrepository.com/artifact/org.bytedeco/videoinput",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: org.bytedeco",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.bytedeco/videoinput@0.200-1.5.9",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0fbe5cee066817538b2cc06f12a4538c"
+        }
+      ]
+    },
+    {
+      "name": "opencv",
+      "SPDXID": "SPDXRef-3b0706665e65c6994ed40ccbc6dcdd57",
+      "versionInfo": "2.1.0",
+      "downloadLocation": "https://mvnrepository.com/artifact/com.github.jenly1314.wechatqrcode/opencv",
+      "homepage": "https://mvnrepository.com/artifact/com.github.jenly1314.wechatqrcode/opencv",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: com.github.jenly1314.WeChatQRCode",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/com.github.jenly1314.wechatqrcode/opencv@2.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "6ced8f760d88ead2cf27218443d5e555"
+        }
+      ]
+    },
+    {
+      "name": "akvo-caddisfly",
+      "SPDXID": "SPDXRef-35bdf61aabddd595a302a5dc8df4db40",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "https://github.com/akvo/akvo-caddisfly",
+      "homepage": "https://github.com/akvo/akvo-caddisfly",
+      "licenseDeclared": "GPL-3.0-only",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: akvo",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/akvo/akvo-caddisfly@1.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "c18fbc6c01ed93e57e7312936ddcb539"
+        }
+      ]
+    },
+    {
+      "name": "WechatQrcode",
+      "SPDXID": "SPDXRef-91fa58e2a74b8727f348e11e4291d0cd",
+      "versionInfo": "1.0.3",
+      "downloadLocation": "https://github.com/MALTF/WechatQrcode",
+      "homepage": "https://github.com/MALTF/WechatQrcode",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: MALTF",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/maltf/wechatqrcode@1.0.3",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "1b4829e0ef48001876844cdca99b6a71"
+        }
+      ]
+    },
+    {
+      "name": "opencv",
+      "SPDXID": "SPDXRef-12340532649b1b149dc706b3c5657961",
+      "versionInfo": "4.11.0",
+      "downloadLocation": "https://github.com/opencv/opencv",
+      "homepage": "https://github.com/opencv/opencv",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: opencv",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/opencv/opencv@4.11.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "938426754464c7a9ec6411b99205649b"
+        }
+      ]
+    },
+    {
+      "name": "distortion",
+      "SPDXID": "SPDXRef-b286e9080778f94ab877481622db3e64",
+      "versionInfo": "debug",
+      "downloadLocation": "https://github.com/kmasan/distortion",
+      "homepage": "https://github.com/kmasan/distortion",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: kmasan",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/kmasan/distortion@debug",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "ee6711db3d0be78a64401417098bac40"
+        }
+      ]
+    },
+    {
+      "name": "opencvlibrary",
+      "SPDXID": "SPDXRef-1221723ad8c35de0b30519aa001ded3f",
+      "versionInfo": "2.3.1-android",
+      "downloadLocation": "https://sourceforge.net/projects/opencvlibrary",
+      "homepage": "https://sourceforge.net/projects/opencvlibrary",
+      "licenseDeclared": "(Apache-2.0 AND BSD-2-Clause AND IJG AND BSD-3-Clause AND LGPL-2.1-or-later)",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: opencvlibrary",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:sourceforge/opencvlibrary@2.3.1-android",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "8a2f9d7435b00d3d29a1eaa3df71f0e2"
+        }
+      ]
+    },
+    {
+      "name": "detectpeopleopencv",
+      "SPDXID": "SPDXRef-21929d766ebcf7d13ca01ffbe302ffae",
+      "versionInfo": "a855959",
+      "downloadLocation": "https://github.com/eugene-tkachenko/detectpeopleopencv",
+      "homepage": "https://github.com/eugene-tkachenko/detectpeopleopencv",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: eugene-tkachenko",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/eugene-tkachenko/detectpeopleopencv@a855959",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "1de1623beb56bc6c038b45f7384895f2"
+        }
+      ]
+    },
+    {
+      "name": "openalpr",
+      "SPDXID": "SPDXRef-319d26ced9edbf1b7ccf891e61343c7b",
+      "versionInfo": "1.2.0",
+      "downloadLocation": "https://github.com/openalpr/openalpr",
+      "homepage": "https://github.com/openalpr/openalpr",
+      "licenseDeclared": "AGPL-3.0-only",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: openalpr",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/openalpr/openalpr@1.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "8c5b6f1a08459bcefa66d6c784058a09"
+        }
+      ]
+    },
+    {
+      "name": "letter-images-collector",
+      "SPDXID": "SPDXRef-7479ffbaf2c3fe0788adb8366fd13d26",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "https://github.com/DEARaison/letter-images-collector",
+      "homepage": "https://github.com/DEARaison/letter-images-collector",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: DEARaison",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/dearaison/letter-images-collector@1.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "b89537c0020abb72108075d9eb643e92"
+        }
+      ]
+    },
+    {
+      "name": "opencv",
+      "SPDXID": "SPDXRef-d00f5ce4b46e555b6eea1f2f786ee388",
+      "versionInfo": "4.9.0-0",
+      "downloadLocation": "https://mvnrepository.com/artifact/org.openpnp/opencv",
+      "homepage": "https://mvnrepository.com/artifact/org.openpnp/opencv",
+      "licenseDeclared": "0BSD",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: org.openpnp",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.openpnp/opencv@4.9.0-0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "77cb51e7907d47c77b37ef5556e22a5a"
+        }
+      ]
+    },
+    {
+      "name": "AL-Library",
+      "SPDXID": "SPDXRef-49de725d42b3af74512fe8146e84104a",
+      "versionInfo": "6.70.10.1",
+      "downloadLocation": "https://github.com/AnLaVN/AL-Library",
+      "homepage": "https://github.com/AnLaVN/AL-Library",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: AnLaVN",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/anlavn/al-library@6.70.10.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "61b4329beaa0182b1440b2b53353bf80"
+        }
+      ]
+    },
+    {
+      "name": "goiv",
+      "SPDXID": "SPDXRef-d9cf631f4b2e9e0c420c5747e81eb00c",
+      "versionInfo": "4.0.0",
+      "downloadLocation": "https://github.com/farkam135/goiv",
+      "homepage": "https://github.com/farkam135/goiv",
+      "licenseDeclared": "GPL-3.0-only",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: farkam135",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/farkam135/goiv@4.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "156621ed99b3f1f7a25e2d4e041ef8a9"
+        }
+      ]
+    },
+    {
+      "name": "AndroidOpenCVLib",
+      "SPDXID": "SPDXRef-7ca713979164f079035f426c7726369c",
+      "versionInfo": "0.1.0",
+      "downloadLocation": "https://github.com/RichieZhl/AndroidOpenCVLib",
+      "homepage": "https://github.com/RichieZhl/AndroidOpenCVLib",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: RichieZhl",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/richiezhl/androidopencvlib@0.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "03eb2b69b493976add6824e31d8e8925"
+        }
+      ]
+    },
+    {
+      "name": "opencv_android_sdk",
+      "SPDXID": "SPDXRef-bbb1a393ab617bb779b4890e3cb755ce",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "https://github.com/nvstudio90/opencv_android_sdk",
+      "homepage": "https://github.com/nvstudio90/opencv_android_sdk",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: nvstudio90",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/nvstudio90/opencv_android_sdk@1.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "19425e44f4aa273e7d9659894ff1cb00"
+        }
+      ]
+    },
+    {
+      "name": "opencv",
+      "SPDXID": "SPDXRef-f7f8a2b115e87727f619490efb4bfbb9",
+      "versionInfo": "3.4.1-1.4.1",
+      "downloadLocation": "https://mvnrepository.com/artifact/org.bytedeco.javacpp-presets/opencv",
+      "homepage": "https://mvnrepository.com/artifact/org.bytedeco.javacpp-presets/opencv",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: org.bytedeco.javacpp-presets",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.4.1-1.4.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "04bfe5aec4a9700cc22cc99bf852d59f"
+        }
+      ]
+    },
+    {
+      "name": "WeChatQRCode",
+      "SPDXID": "SPDXRef-a4177dd2798ee2ff6c4df82d4a1907d2",
+      "versionInfo": "1.3.0",
+      "downloadLocation": "https://github.com/jenly1314/wechatqrcode",
+      "homepage": "https://github.com/jenly1314/wechatqrcode",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: jenly1314",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/jenly1314/wechatqrcode@1.3.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "14c7912b2794d8a4828bd022ad7a1690"
+        }
+      ]
+    },
+    {
+      "name": "opencv-natives",
+      "SPDXID": "SPDXRef-b7d7112e8a2b7ebf24fa6de39d10775a",
+      "versionInfo": "4.5.2",
+      "downloadLocation": "https://github.com/jseinturier/opencv-natives",
+      "homepage": "https://github.com/jseinturier/opencv-natives",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: jseinturier",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/jseinturier/opencv-natives@4.5.2",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "47688f393a2f47e516aab8105b5d4abb"
+        }
+      ]
+    },
+    {
+      "name": "javacv",
+      "SPDXID": "SPDXRef-ab98829138046bccdb20b948527ccf01",
+      "versionInfo": "e23dce1",
+      "downloadLocation": "https://github.com/boybeak/javacv",
+      "homepage": "https://github.com/boybeak/javacv",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: boybeak",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/boybeak/javacv@e23dce1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "7c4851a44892bfc398123ee54fc6ab68"
+        }
+      ]
+    },
+    {
+      "name": "javelin",
+      "SPDXID": "SPDXRef-a40fa3169fbaec0edbb6065a6cf8ed78",
+      "versionInfo": "1.7b17",
+      "downloadLocation": "https://github.com/tukkek/javelin",
+      "homepage": "https://github.com/tukkek/javelin",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: tukkek",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/tukkek/javelin@1.7b17",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0827226a9daa65ad7d6135ea855072a1"
+        }
+      ]
+    },
+    {
+      "name": "platform/external/jetbrains/JetBrainsRuntime",
+      "SPDXID": "SPDXRef-421a983220acbcaf01cfc92ec3d17ca5",
+      "versionInfo": "jbr-release-21.0.2b375.1",
+      "downloadLocation": "https://android.googlesource.com/platform/external/jetbrains/JetBrainsRuntime/+archive/jbr-release-21.0.2b375.1.tar.gz",
+      "homepage": "https://android.googlesource.com/platform/external/jetbrains/JetBrainsRuntime/+archive/jbr-release-21.0.2b375.1.tar.gz",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: android",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:googlesource/android/platform/external/jetbrains/jetbrainsruntime@jbr-release-21.0.2b375.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "a3470c34038de8293ff832a809c88c99"
+        }
+      ]
+    },
+    {
+      "name": "ghidra-cpp-class-analyzer",
+      "SPDXID": "SPDXRef-f8bccf758e2bcc7bf60b4f4960100b6c",
+      "versionInfo": "2.0-alpha.4",
+      "downloadLocation": "https://github.com/astrelsky/Ghidra-Cpp-Class-Analyzer",
+      "homepage": "https://github.com/astrelsky/Ghidra-Cpp-Class-Analyzer",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: astrelsky",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/astrelsky/ghidra-cpp-class-analyzer@2.0-alpha.4",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "7f92b41f91dae0331cfc9c82df30c5ea"
+        }
+      ]
+    },
+    {
+      "name": "overrungl-doc",
+      "SPDXID": "SPDXRef-7db7850aa30b6691ec8d28932300b87f",
+      "versionInfo": "0.1.0-SNAPSHOT.23",
+      "downloadLocation": "https://github.com/Over-Run/overrungl-doc",
+      "homepage": "https://github.com/Over-Run/overrungl-doc",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Over-Run",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/over-run/overrungl-doc@0.1.0-SNAPSHOT.23",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "12d513812c6719a3296400fc45f63179"
+        }
+      ]
+    },
+    {
+      "name": "onedrive-java-sdk",
+      "SPDXID": "SPDXRef-708ed4f3ed3deedbcb61c959bc30045d",
+      "versionInfo": "0.1.2",
+      "downloadLocation": "https://github.com/andy-miles/onedrive-java-sdk",
+      "homepage": "https://github.com/andy-miles/onedrive-java-sdk",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: andy-miles",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/andy-miles/onedrive-java-sdk@0.1.2",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "05c111d97bc48b8a915d3f6a0a10dd33"
+        }
+      ]
+    },
+    {
+      "name": "purejin",
+      "SPDXID": "SPDXRef-6e837a13232cf22779fd16dd270d0170",
+      "versionInfo": "8.1",
+      "downloadLocation": "https://github.com/jbee/purejin",
+      "homepage": "https://github.com/jbee/purejin",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: jbee",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/jbee/purejin@8.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "56d3d6e77d7753183f55c13b973a53fe"
+        }
+      ]
+    },
+    {
+      "name": "openjdk-8",
+      "SPDXID": "SPDXRef-da7d77d55bd1bbfb725c8bbe2ee52cf9",
+      "versionInfo": "8u20~b26-1",
+      "downloadLocation": "https://snapshot.debian.org/archive/debian/20140801T165206Z/pool/main/o/openjdk-8/openjdk-8-doc_8u20~b26-1_all.deb",
+      "homepage": "https://snapshot.debian.org/archive/debian/20140801T165206Z/pool/main/o/openjdk-8/openjdk-8-doc_8u20~b26-1_all.deb",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: openjdk-8",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:deb/debian/openjdk-8@8u20~b26-1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "17462366d01907ca0ab879b8e5f5d93e"
+        }
+      ]
+    }
+  ]
+}

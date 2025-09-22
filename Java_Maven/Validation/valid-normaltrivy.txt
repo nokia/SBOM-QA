@@ -1,0 +1,857 @@
+Validating normal.trivy.json
++-----+--------------+--------------+---------------------------+---------------------------+
+| #   | Error type   | SPDX ID      | Package name              | Reason                    |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 1   | NTIA         | SPDXRef-Appl | platform/pom.xml          | Package without a version |
+|     | validation   | ication-     |                           |                           |
+|     | error        | f6ba57c0a271 |                           |                           |
+|     |              | 3684         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 2   | NTIA         | SPDXRef-Appl | pom.xml                   | Package without a version |
+|     | validation   | ication-     |                           |                           |
+|     | error        | f8f4c07e63af |                           |                           |
+|     |              | adde         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 3   | NTIA         | SPDXRef-Appl | samples/pom.xml           | Package without a version |
+|     | validation   | ication-     |                           |                           |
+|     | error        | 6d22f9c9fdcf |                           |                           |
+|     |              | e773         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 4   | NTIA         | SPDXRef-File | .                         | Package without a version |
+|     | validation   | system-      |                           |                           |
+|     | error        | 1465386cfbe4 |                           |                           |
+|     |              | e9c7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 5   | NTIA         | SPDXRef-Appl | platform/pom.xml          | Package without a package |
+|     | validation   | ication-     |                           | supplier                  |
+|     | error        | f6ba57c0a271 |                           |                           |
+|     |              | 3684         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 6   | NTIA         | SPDXRef-Appl | pom.xml                   | Package without a package |
+|     | validation   | ication-     |                           | supplier                  |
+|     | error        | f8f4c07e63af |                           |                           |
+|     |              | adde         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 7   | NTIA         | SPDXRef-Appl | samples/pom.xml           | Package without a package |
+|     | validation   | ication-     |                           | supplier                  |
+|     | error        | 6d22f9c9fdcf |                           |                           |
+|     |              | e773         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 8   | NTIA         | SPDXRef-Pack | org.bytedeco.javacv:demo  | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 4d9193445db6 |                           |                           |
+|     |              | d7a          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 9   | NTIA         | SPDXRef-Pack | org.bytedeco:artoolkitplu | Package without a package |
+|     | validation   | age-         | s                         | supplier                  |
+|     | error        | 130da500fd28 |                           |                           |
+|     |              | 528f         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 10  | NTIA         | SPDXRef-Pack | org.bytedeco:artoolkitplu | Package without a package |
+|     | validation   | age-         | s                         | supplier                  |
+|     | error        | 1d0cab341a1c |                           |                           |
+|     |              | b3d6         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 11  | NTIA         | SPDXRef-Pack | org.bytedeco:artoolkitplu | Package without a package |
+|     | validation   | age-         | s                         | supplier                  |
+|     | error        | 58a05420c256 |                           |                           |
+|     |              | 67e0         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 12  | NTIA         | SPDXRef-Pack | org.bytedeco:artoolkitplu | Package without a package |
+|     | validation   | age-         | s-platform                | supplier                  |
+|     | error        | e783239b5935 |                           |                           |
+|     |              | 74d8         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 13  | NTIA         | SPDXRef-     | org.bytedeco:artoolkitplu | Package without a package |
+|     | validation   | Package-fc5d | s-platform                | supplier                  |
+|     | error        | 5b11630a5492 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 14  | NTIA         | SPDXRef-Pack | org.bytedeco:ffmpeg       | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 3c36ae24a768 |                           |                           |
+|     |              | 03a2         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 15  | NTIA         | SPDXRef-Pack | org.bytedeco:ffmpeg       | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 6dd34a480ac6 |                           |                           |
+|     |              | 1b72         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 16  | NTIA         | SPDXRef-     | org.bytedeco:ffmpeg       | Package without a package |
+|     | validation   | Package-ae71 |                           | supplier                  |
+|     | error        | e8509b5dc482 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 17  | NTIA         | SPDXRef-Pack | org.bytedeco:ffmpeg-      | Package without a package |
+|     | validation   | age-         | platform                  | supplier                  |
+|     | error        | 5f931abd4a4e |                           |                           |
+|     |              | 09e8         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 18  | NTIA         | SPDXRef-     | org.bytedeco:ffmpeg-      | Package without a package |
+|     | validation   | Package-cc1c | platform                  | supplier                  |
+|     | error        | 322ec30452c8 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 19  | NTIA         | SPDXRef-Pack | org.bytedeco:ffmpeg-      | Package without a package |
+|     | validation   | age-         | platform-gpl              | supplier                  |
+|     | error        | 38f94bdf5da1 |                           |                           |
+|     |              | 2e77         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 20  | NTIA         | SPDXRef-Pack | org.bytedeco:flycapture   | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 37a7b6dff6d5 |                           |                           |
+|     |              | f0e          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 21  | NTIA         | SPDXRef-Pack | org.bytedeco:flycapture   | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 7567ddc8aa37 |                           |                           |
+|     |              | 145b         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 22  | NTIA         | SPDXRef-Pack | org.bytedeco:flycapture   | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | c7e24bc31316 |                           |                           |
+|     |              | 2c7e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 23  | NTIA         | SPDXRef-Pack | org.bytedeco:flycapture-  | Package without a package |
+|     | validation   | age-         | platform                  | supplier                  |
+|     | error        | 7e83058dbf20 |                           |                           |
+|     |              | 806c         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 24  | NTIA         | SPDXRef-Pack | org.bytedeco:flycapture-  | Package without a package |
+|     | validation   | age-         | platform                  | supplier                  |
+|     | error        | 92f8a1bdc742 |                           |                           |
+|     |              | 43da         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 25  | NTIA         | SPDXRef-Pack | org.bytedeco:javacpp      | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 34688c4a30f5 |                           |                           |
+|     |              | bb42         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 26  | NTIA         | SPDXRef-Pack | org.bytedeco:javacpp      | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 46a146b4d268 |                           |                           |
+|     |              | 3a81         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 27  | NTIA         | SPDXRef-     | org.bytedeco:javacpp      | Package without a package |
+|     | validation   | Package-fe10 |                           | supplier                  |
+|     | error        | fd8c393bdbe1 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 28  | NTIA         | SPDXRef-Pack | org.bytedeco:javacpp-     | Package without a package |
+|     | validation   | age-         | platform                  | supplier                  |
+|     | error        | 64dc204e0e07 |                           |                           |
+|     |              | 3210         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 29  | NTIA         | SPDXRef-Pack | org.bytedeco:javacpp-     | Package without a package |
+|     | validation   | age-         | platform                  | supplier                  |
+|     | error        | e0bcc98f9f77 |                           |                           |
+|     |              | 9340         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 30  | NTIA         | SPDXRef-Pack | org.bytedeco:javacv       | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 1c96b9a81e94 |                           |                           |
+|     |              | dce5         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 31  | NTIA         | SPDXRef-Pack | org.bytedeco:javacv       | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 30f08fdcc7bf |                           |                           |
+|     |              | 7982         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 32  | NTIA         | SPDXRef-     | org.bytedeco:javacv       | Package without a package |
+|     | validation   | Package-bb56 |                           | supplier                  |
+|     | error        | c84e1b429714 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 33  | NTIA         | SPDXRef-Pack | org.bytedeco:javacv-      | Package without a package |
+|     | validation   | age-         | platform                  | supplier                  |
+|     | error        | d60d56e9f21a |                           |                           |
+|     |              | cae0         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 34  | NTIA         | SPDXRef-     | org.bytedeco:javacv-      | Package without a package |
+|     | validation   | Package-dbb3 | platform                  | supplier                  |
+|     | error        | 4540ddf7c18c |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 35  | NTIA         | SPDXRef-Pack | org.bytedeco:leptonica    | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 6bc8079f77e7 |                           |                           |
+|     |              | b06d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 36  | NTIA         | SPDXRef-Pack | org.bytedeco:leptonica    | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 7b76ff48d220 |                           |                           |
+|     |              | 377          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 37  | NTIA         | SPDXRef-Pack | org.bytedeco:leptonica    | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 9cf4c76a914b |                           |                           |
+|     |              | 04c2         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 38  | NTIA         | SPDXRef-     | org.bytedeco:leptonica-   | Package without a package |
+|     | validation   | Package-bf87 | platform                  | supplier                  |
+|     | error        | 7f1aabc921b4 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 39  | NTIA         | SPDXRef-Pack | org.bytedeco:leptonica-   | Package without a package |
+|     | validation   | age-         | platform                  | supplier                  |
+|     | error        | c919631c5b01 |                           |                           |
+|     |              | 7160         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 40  | NTIA         | SPDXRef-Pack | org.bytedeco:libdc1394    | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 6f38343a6f5d |                           |                           |
+|     |              | 84b9         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 41  | NTIA         | SPDXRef-Pack | org.bytedeco:libdc1394    | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 818c8cced3e2 |                           |                           |
+|     |              | e88e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 42  | NTIA         | SPDXRef-Pack | org.bytedeco:libdc1394    | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | a8960b465516 |                           |                           |
+|     |              | 88a4         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 43  | NTIA         | SPDXRef-     | org.bytedeco:libdc1394-   | Package without a package |
+|     | validation   | Package-bcab | platform                  | supplier                  |
+|     | error        | 536ce3368669 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 44  | NTIA         | SPDXRef-Pack | org.bytedeco:libdc1394-   | Package without a package |
+|     | validation   | age-         | platform                  | supplier                  |
+|     | error        | e18c9d697767 |                           |                           |
+|     |              | 48a4         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 45  | NTIA         | SPDXRef-Pack | org.bytedeco:libfreenect  | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | c1a12c60a521 |                           |                           |
+|     |              | 88bd         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 46  | NTIA         | SPDXRef-Pack | org.bytedeco:libfreenect  | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | e15778fbfb3f |                           |                           |
+|     |              | 62d1         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 47  | NTIA         | SPDXRef-Pack | org.bytedeco:libfreenect  | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | e458102eaa94 |                           |                           |
+|     |              | 9993         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 48  | NTIA         | SPDXRef-Pack | org.bytedeco:libfreenect- | Package without a package |
+|     | validation   | age-         | platform                  | supplier                  |
+|     | error        | 33d9f672fda6 |                           |                           |
+|     |              | e0ed         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 49  | NTIA         | SPDXRef-Pack | org.bytedeco:libfreenect- | Package without a package |
+|     | validation   | age-         | platform                  | supplier                  |
+|     | error        | 7b037cc38cee |                           |                           |
+|     |              | 0fd2         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 50  | NTIA         | SPDXRef-Pack | org.bytedeco:libfreenect2 | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 7b31ab25acd8 |                           |                           |
+|     |              | 6b42         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 51  | NTIA         | SPDXRef-Pack | org.bytedeco:libfreenect2 | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | a3ba5af652bd |                           |                           |
+|     |              | 4f3e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 52  | NTIA         | SPDXRef-Pack | org.bytedeco:libfreenect2 | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | d4165d476847 |                           |                           |
+|     |              | a4a3         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 53  | NTIA         | SPDXRef-Pack | org.bytedeco:libfreenect2 | Package without a package |
+|     | validation   | age-         | -platform                 | supplier                  |
+|     | error        | 7672656630bc |                           |                           |
+|     |              | b44          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 54  | NTIA         | SPDXRef-Pack | org.bytedeco:libfreenect2 | Package without a package |
+|     | validation   | age-         | -platform                 | supplier                  |
+|     | error        | f882747e425f |                           |                           |
+|     |              | abff         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 55  | NTIA         | SPDXRef-     | org.bytedeco:librealsense | Package without a package |
+|     | validation   | Package-acfb |                           | supplier                  |
+|     | error        | 333d9819c2b  |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 56  | NTIA         | SPDXRef-Pack | org.bytedeco:librealsense | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | b7cdcf834f12 |                           |                           |
+|     |              | da1          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 57  | NTIA         | SPDXRef-Pack | org.bytedeco:librealsense | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | c892ea509467 |                           |                           |
+|     |              | c5c          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 58  | NTIA         | SPDXRef-Pack | org.bytedeco:librealsense | Package without a package |
+|     | validation   | age-         | -platform                 | supplier                  |
+|     | error        | 25e72e12479e |                           |                           |
+|     |              | 76ec         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 59  | NTIA         | SPDXRef-     | org.bytedeco:librealsense | Package without a package |
+|     | validation   | Package-eb72 | -platform                 | supplier                  |
+|     | error        | a891dc0a1705 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 60  | NTIA         | SPDXRef-Pack | org.bytedeco:librealsense | Package without a package |
+|     | validation   | age-         | 2                         | supplier                  |
+|     | error        | 1660674d3daf |                           |                           |
+|     |              | 7e56         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 61  | NTIA         | SPDXRef-Pack | org.bytedeco:librealsense | Package without a package |
+|     | validation   | age-         | 2                         | supplier                  |
+|     | error        | 906a9a99cff0 |                           |                           |
+|     |              | 1a9d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 62  | NTIA         | SPDXRef-Pack | org.bytedeco:librealsense | Package without a package |
+|     | validation   | age-         | 2                         | supplier                  |
+|     | error        | f2ef63e75240 |                           |                           |
+|     |              | 1250         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 63  | NTIA         | SPDXRef-Pack | org.bytedeco:librealsense | Package without a package |
+|     | validation   | age-         | 2-platform                | supplier                  |
+|     | error        | 32911cb19080 |                           |                           |
+|     |              | 9e3b         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 64  | NTIA         | SPDXRef-Pack | org.bytedeco:librealsense | Package without a package |
+|     | validation   | age-         | 2-platform                | supplier                  |
+|     | error        | f7553087b3be |                           |                           |
+|     |              | c503         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 65  | NTIA         | SPDXRef-Pack | org.bytedeco:openblas     | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 272269deed67 |                           |                           |
+|     |              | 434          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 66  | NTIA         | SPDXRef-Pack | org.bytedeco:openblas     | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 5608e88bd2ab |                           |                           |
+|     |              | 9dff         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 67  | NTIA         | SPDXRef-Pack | org.bytedeco:openblas     | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 61c16fd220a6 |                           |                           |
+|     |              | 06f5         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 68  | NTIA         | SPDXRef-Pack | org.bytedeco:openblas-    | Package without a package |
+|     | validation   | age-         | platform                  | supplier                  |
+|     | error        | 7d15b5bed6ab |                           |                           |
+|     |              | 2d85         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 69  | NTIA         | SPDXRef-Pack | org.bytedeco:openblas-    | Package without a package |
+|     | validation   | age-         | platform                  | supplier                  |
+|     | error        | 9d0337eaa98b |                           |                           |
+|     |              | d60f         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 70  | NTIA         | SPDXRef-Pack | org.bytedeco:opencv       | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 6a6255be1fe2 |                           |                           |
+|     |              | 5f2          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 71  | NTIA         | SPDXRef-Pack | org.bytedeco:opencv       | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 73d86bc0207b |                           |                           |
+|     |              | f68c         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 72  | NTIA         | SPDXRef-Pack | org.bytedeco:opencv       | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | b17fab55cc13 |                           |                           |
+|     |              | 9245         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 73  | NTIA         | SPDXRef-Pack | org.bytedeco:opencv-      | Package without a package |
+|     | validation   | age-         | platform                  | supplier                  |
+|     | error        | 82afe6803349 |                           |                           |
+|     |              | 4dc9         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 74  | NTIA         | SPDXRef-Pack | org.bytedeco:opencv-      | Package without a package |
+|     | validation   | age-         | platform                  | supplier                  |
+|     | error        | 83f1357afa9d |                           |                           |
+|     |              | 4dab         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 75  | NTIA         | SPDXRef-Pack | org.bytedeco:opencv-      | Package without a package |
+|     | validation   | age-         | platform-gpu              | supplier                  |
+|     | error        | 56bddd323059 |                           |                           |
+|     |              | 242          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 76  | NTIA         | SPDXRef-Pack | org.bytedeco:tesseract    | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 378bb0b19dfa |                           |                           |
+|     |              | 5eb8         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 77  | NTIA         | SPDXRef-     | org.bytedeco:tesseract    | Package without a package |
+|     | validation   | Package-bed4 |                           | supplier                  |
+|     | error        | 466d6ef2ed04 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 78  | NTIA         | SPDXRef-     | org.bytedeco:tesseract    | Package without a package |
+|     | validation   | Package-cf60 |                           | supplier                  |
+|     | error        | a74f6f9d8a9f |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 79  | NTIA         | SPDXRef-Pack | org.bytedeco:tesseract-   | Package without a package |
+|     | validation   | age-         | platform                  | supplier                  |
+|     | error        | 2205aaae95e3 |                           |                           |
+|     |              | 4bb6         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 80  | NTIA         | SPDXRef-     | org.bytedeco:tesseract-   | Package without a package |
+|     | validation   | Package-ea77 | platform                  | supplier                  |
+|     | error        | 0fdcb4805be3 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 81  | NTIA         | SPDXRef-Pack | org.bytedeco:videoinput   | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 4c14d0d7057e |                           |                           |
+|     |              | e75a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 82  | NTIA         | SPDXRef-Pack | org.bytedeco:videoinput   | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 7fc5447284f5 |                           |                           |
+|     |              | 0955         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 83  | NTIA         | SPDXRef-Pack | org.bytedeco:videoinput   | Package without a package |
+|     | validation   | age-         |                           | supplier                  |
+|     | error        | 9cdbc57301db |                           |                           |
+|     |              | 9914         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 84  | NTIA         | SPDXRef-Pack | org.bytedeco:videoinput-  | Package without a package |
+|     | validation   | age-         | platform                  | supplier                  |
+|     | error        | 24a3cf8b3883 |                           |                           |
+|     |              | 4b9          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 85  | NTIA         | SPDXRef-Pack | org.bytedeco:videoinput-  | Package without a package |
+|     | validation   | age-         | platform                  | supplier                  |
+|     | error        | 40b2cb5b143e |                           |                           |
+|     |              | 6259         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 86  | NTIA         | SPDXRef-File | .                         | Package without a package |
+|     | validation   | system-      |                           | supplier                  |
+|     | error        | 1465386cfbe4 |                           |                           |
+|     |              | e9c7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 87  | Missing      | General      | General                   | CreatorComment is missing |
+|     | mandatory    |              |                           |                           |
+|     | field from   |              |                           |                           |
+|     | CreationInfo |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 88  | Missing      | SPDXRef-Appl | platform/pom.xml          | ExternalRef field is      |
+|     | mandatory    | ication-     |                           | missing                   |
+|     | field from   | f6ba57c0a271 |                           |                           |
+|     | Package      | 3684         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 89  | Missing      | SPDXRef-Appl | platform/pom.xml          | Both PackageChecksum and  |
+|     | mandatory    | ication-     |                           | PackageVerificationCode   |
+|     | field from   | f6ba57c0a271 |                           | fields are missing        |
+|     | Package      | 3684         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 90  | Missing      | SPDXRef-Appl | pom.xml                   | ExternalRef field is      |
+|     | mandatory    | ication-     |                           | missing                   |
+|     | field from   | f8f4c07e63af |                           |                           |
+|     | Package      | adde         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 91  | Missing      | SPDXRef-Appl | pom.xml                   | Both PackageChecksum and  |
+|     | mandatory    | ication-     |                           | PackageVerificationCode   |
+|     | field from   | f8f4c07e63af |                           | fields are missing        |
+|     | Package      | adde         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 92  | Missing      | SPDXRef-Appl | samples/pom.xml           | ExternalRef field is      |
+|     | mandatory    | ication-     |                           | missing                   |
+|     | field from   | 6d22f9c9fdcf |                           |                           |
+|     | Package      | e773         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 93  | Missing      | SPDXRef-Appl | samples/pom.xml           | Both PackageChecksum and  |
+|     | mandatory    | ication-     |                           | PackageVerificationCode   |
+|     | field from   | 6d22f9c9fdcf |                           | fields are missing        |
+|     | Package      | e773         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 94  | Missing      | SPDXRef-Pack | org.bytedeco.javacv:demo  | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 4d9193445db6 |                           | fields are missing        |
+|     | Package      | d7a          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 95  | Missing      | SPDXRef-Pack | org.bytedeco:artoolkitplu | Both PackageChecksum and  |
+|     | mandatory    | age-         | s                         | PackageVerificationCode   |
+|     | field from   | 130da500fd28 |                           | fields are missing        |
+|     | Package      | 528f         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 96  | Missing      | SPDXRef-Pack | org.bytedeco:artoolkitplu | Both PackageChecksum and  |
+|     | mandatory    | age-         | s                         | PackageVerificationCode   |
+|     | field from   | 1d0cab341a1c |                           | fields are missing        |
+|     | Package      | b3d6         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 97  | Missing      | SPDXRef-Pack | org.bytedeco:artoolkitplu | Both PackageChecksum and  |
+|     | mandatory    | age-         | s                         | PackageVerificationCode   |
+|     | field from   | 58a05420c256 |                           | fields are missing        |
+|     | Package      | 67e0         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 98  | Missing      | SPDXRef-Pack | org.bytedeco:artoolkitplu | Both PackageChecksum and  |
+|     | mandatory    | age-         | s-platform                | PackageVerificationCode   |
+|     | field from   | e783239b5935 |                           | fields are missing        |
+|     | Package      | 74d8         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 99  | Missing      | SPDXRef-     | org.bytedeco:artoolkitplu | Both PackageChecksum and  |
+|     | mandatory    | Package-fc5d | s-platform                | PackageVerificationCode   |
+|     | field from   | 5b11630a5492 |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 100 | Missing      | SPDXRef-Pack | org.bytedeco:ffmpeg       | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 3c36ae24a768 |                           | fields are missing        |
+|     | Package      | 03a2         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 101 | Missing      | SPDXRef-Pack | org.bytedeco:ffmpeg       | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 6dd34a480ac6 |                           | fields are missing        |
+|     | Package      | 1b72         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 102 | Missing      | SPDXRef-     | org.bytedeco:ffmpeg       | Both PackageChecksum and  |
+|     | mandatory    | Package-ae71 |                           | PackageVerificationCode   |
+|     | field from   | e8509b5dc482 |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 103 | Missing      | SPDXRef-Pack | org.bytedeco:ffmpeg-      | Both PackageChecksum and  |
+|     | mandatory    | age-         | platform                  | PackageVerificationCode   |
+|     | field from   | 5f931abd4a4e |                           | fields are missing        |
+|     | Package      | 09e8         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 104 | Missing      | SPDXRef-     | org.bytedeco:ffmpeg-      | Both PackageChecksum and  |
+|     | mandatory    | Package-cc1c | platform                  | PackageVerificationCode   |
+|     | field from   | 322ec30452c8 |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 105 | Missing      | SPDXRef-Pack | org.bytedeco:ffmpeg-      | Both PackageChecksum and  |
+|     | mandatory    | age-         | platform-gpl              | PackageVerificationCode   |
+|     | field from   | 38f94bdf5da1 |                           | fields are missing        |
+|     | Package      | 2e77         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 106 | Missing      | SPDXRef-Pack | org.bytedeco:flycapture   | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 37a7b6dff6d5 |                           | fields are missing        |
+|     | Package      | f0e          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 107 | Missing      | SPDXRef-Pack | org.bytedeco:flycapture   | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 7567ddc8aa37 |                           | fields are missing        |
+|     | Package      | 145b         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 108 | Missing      | SPDXRef-Pack | org.bytedeco:flycapture   | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | c7e24bc31316 |                           | fields are missing        |
+|     | Package      | 2c7e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 109 | Missing      | SPDXRef-Pack | org.bytedeco:flycapture-  | Both PackageChecksum and  |
+|     | mandatory    | age-         | platform                  | PackageVerificationCode   |
+|     | field from   | 7e83058dbf20 |                           | fields are missing        |
+|     | Package      | 806c         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 110 | Missing      | SPDXRef-Pack | org.bytedeco:flycapture-  | Both PackageChecksum and  |
+|     | mandatory    | age-         | platform                  | PackageVerificationCode   |
+|     | field from   | 92f8a1bdc742 |                           | fields are missing        |
+|     | Package      | 43da         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 111 | Missing      | SPDXRef-Pack | org.bytedeco:javacpp      | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 34688c4a30f5 |                           | fields are missing        |
+|     | Package      | bb42         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 112 | Missing      | SPDXRef-Pack | org.bytedeco:javacpp      | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 46a146b4d268 |                           | fields are missing        |
+|     | Package      | 3a81         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 113 | Missing      | SPDXRef-     | org.bytedeco:javacpp      | Both PackageChecksum and  |
+|     | mandatory    | Package-fe10 |                           | PackageVerificationCode   |
+|     | field from   | fd8c393bdbe1 |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 114 | Missing      | SPDXRef-Pack | org.bytedeco:javacpp-     | Both PackageChecksum and  |
+|     | mandatory    | age-         | platform                  | PackageVerificationCode   |
+|     | field from   | 64dc204e0e07 |                           | fields are missing        |
+|     | Package      | 3210         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 115 | Missing      | SPDXRef-Pack | org.bytedeco:javacpp-     | Both PackageChecksum and  |
+|     | mandatory    | age-         | platform                  | PackageVerificationCode   |
+|     | field from   | e0bcc98f9f77 |                           | fields are missing        |
+|     | Package      | 9340         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 116 | Missing      | SPDXRef-Pack | org.bytedeco:javacv       | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 1c96b9a81e94 |                           | fields are missing        |
+|     | Package      | dce5         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 117 | Missing      | SPDXRef-Pack | org.bytedeco:javacv       | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 30f08fdcc7bf |                           | fields are missing        |
+|     | Package      | 7982         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 118 | Missing      | SPDXRef-     | org.bytedeco:javacv       | Both PackageChecksum and  |
+|     | mandatory    | Package-bb56 |                           | PackageVerificationCode   |
+|     | field from   | c84e1b429714 |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 119 | Missing      | SPDXRef-Pack | org.bytedeco:javacv-      | Both PackageChecksum and  |
+|     | mandatory    | age-         | platform                  | PackageVerificationCode   |
+|     | field from   | d60d56e9f21a |                           | fields are missing        |
+|     | Package      | cae0         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 120 | Missing      | SPDXRef-     | org.bytedeco:javacv-      | Both PackageChecksum and  |
+|     | mandatory    | Package-dbb3 | platform                  | PackageVerificationCode   |
+|     | field from   | 4540ddf7c18c |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 121 | Missing      | SPDXRef-Pack | org.bytedeco:leptonica    | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 6bc8079f77e7 |                           | fields are missing        |
+|     | Package      | b06d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 122 | Missing      | SPDXRef-Pack | org.bytedeco:leptonica    | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 7b76ff48d220 |                           | fields are missing        |
+|     | Package      | 377          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 123 | Missing      | SPDXRef-Pack | org.bytedeco:leptonica    | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 9cf4c76a914b |                           | fields are missing        |
+|     | Package      | 04c2         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 124 | Missing      | SPDXRef-     | org.bytedeco:leptonica-   | Both PackageChecksum and  |
+|     | mandatory    | Package-bf87 | platform                  | PackageVerificationCode   |
+|     | field from   | 7f1aabc921b4 |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 125 | Missing      | SPDXRef-Pack | org.bytedeco:leptonica-   | Both PackageChecksum and  |
+|     | mandatory    | age-         | platform                  | PackageVerificationCode   |
+|     | field from   | c919631c5b01 |                           | fields are missing        |
+|     | Package      | 7160         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 126 | Missing      | SPDXRef-Pack | org.bytedeco:libdc1394    | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 6f38343a6f5d |                           | fields are missing        |
+|     | Package      | 84b9         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 127 | Missing      | SPDXRef-Pack | org.bytedeco:libdc1394    | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 818c8cced3e2 |                           | fields are missing        |
+|     | Package      | e88e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 128 | Missing      | SPDXRef-Pack | org.bytedeco:libdc1394    | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | a8960b465516 |                           | fields are missing        |
+|     | Package      | 88a4         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 129 | Missing      | SPDXRef-     | org.bytedeco:libdc1394-   | Both PackageChecksum and  |
+|     | mandatory    | Package-bcab | platform                  | PackageVerificationCode   |
+|     | field from   | 536ce3368669 |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 130 | Missing      | SPDXRef-Pack | org.bytedeco:libdc1394-   | Both PackageChecksum and  |
+|     | mandatory    | age-         | platform                  | PackageVerificationCode   |
+|     | field from   | e18c9d697767 |                           | fields are missing        |
+|     | Package      | 48a4         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 131 | Missing      | SPDXRef-Pack | org.bytedeco:libfreenect  | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | c1a12c60a521 |                           | fields are missing        |
+|     | Package      | 88bd         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 132 | Missing      | SPDXRef-Pack | org.bytedeco:libfreenect  | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | e15778fbfb3f |                           | fields are missing        |
+|     | Package      | 62d1         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 133 | Missing      | SPDXRef-Pack | org.bytedeco:libfreenect  | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | e458102eaa94 |                           | fields are missing        |
+|     | Package      | 9993         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 134 | Missing      | SPDXRef-Pack | org.bytedeco:libfreenect- | Both PackageChecksum and  |
+|     | mandatory    | age-         | platform                  | PackageVerificationCode   |
+|     | field from   | 33d9f672fda6 |                           | fields are missing        |
+|     | Package      | e0ed         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 135 | Missing      | SPDXRef-Pack | org.bytedeco:libfreenect- | Both PackageChecksum and  |
+|     | mandatory    | age-         | platform                  | PackageVerificationCode   |
+|     | field from   | 7b037cc38cee |                           | fields are missing        |
+|     | Package      | 0fd2         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 136 | Missing      | SPDXRef-Pack | org.bytedeco:libfreenect2 | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 7b31ab25acd8 |                           | fields are missing        |
+|     | Package      | 6b42         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 137 | Missing      | SPDXRef-Pack | org.bytedeco:libfreenect2 | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | a3ba5af652bd |                           | fields are missing        |
+|     | Package      | 4f3e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 138 | Missing      | SPDXRef-Pack | org.bytedeco:libfreenect2 | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | d4165d476847 |                           | fields are missing        |
+|     | Package      | a4a3         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 139 | Missing      | SPDXRef-Pack | org.bytedeco:libfreenect2 | Both PackageChecksum and  |
+|     | mandatory    | age-         | -platform                 | PackageVerificationCode   |
+|     | field from   | 7672656630bc |                           | fields are missing        |
+|     | Package      | b44          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 140 | Missing      | SPDXRef-Pack | org.bytedeco:libfreenect2 | Both PackageChecksum and  |
+|     | mandatory    | age-         | -platform                 | PackageVerificationCode   |
+|     | field from   | f882747e425f |                           | fields are missing        |
+|     | Package      | abff         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 141 | Missing      | SPDXRef-     | org.bytedeco:librealsense | Both PackageChecksum and  |
+|     | mandatory    | Package-acfb |                           | PackageVerificationCode   |
+|     | field from   | 333d9819c2b  |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 142 | Missing      | SPDXRef-Pack | org.bytedeco:librealsense | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | b7cdcf834f12 |                           | fields are missing        |
+|     | Package      | da1          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 143 | Missing      | SPDXRef-Pack | org.bytedeco:librealsense | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | c892ea509467 |                           | fields are missing        |
+|     | Package      | c5c          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 144 | Missing      | SPDXRef-Pack | org.bytedeco:librealsense | Both PackageChecksum and  |
+|     | mandatory    | age-         | -platform                 | PackageVerificationCode   |
+|     | field from   | 25e72e12479e |                           | fields are missing        |
+|     | Package      | 76ec         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 145 | Missing      | SPDXRef-     | org.bytedeco:librealsense | Both PackageChecksum and  |
+|     | mandatory    | Package-eb72 | -platform                 | PackageVerificationCode   |
+|     | field from   | a891dc0a1705 |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 146 | Missing      | SPDXRef-Pack | org.bytedeco:librealsense | Both PackageChecksum and  |
+|     | mandatory    | age-         | 2                         | PackageVerificationCode   |
+|     | field from   | 1660674d3daf |                           | fields are missing        |
+|     | Package      | 7e56         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 147 | Missing      | SPDXRef-Pack | org.bytedeco:librealsense | Both PackageChecksum and  |
+|     | mandatory    | age-         | 2                         | PackageVerificationCode   |
+|     | field from   | 906a9a99cff0 |                           | fields are missing        |
+|     | Package      | 1a9d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 148 | Missing      | SPDXRef-Pack | org.bytedeco:librealsense | Both PackageChecksum and  |
+|     | mandatory    | age-         | 2                         | PackageVerificationCode   |
+|     | field from   | f2ef63e75240 |                           | fields are missing        |
+|     | Package      | 1250         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 149 | Missing      | SPDXRef-Pack | org.bytedeco:librealsense | Both PackageChecksum and  |
+|     | mandatory    | age-         | 2-platform                | PackageVerificationCode   |
+|     | field from   | 32911cb19080 |                           | fields are missing        |
+|     | Package      | 9e3b         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 150 | Missing      | SPDXRef-Pack | org.bytedeco:librealsense | Both PackageChecksum and  |
+|     | mandatory    | age-         | 2-platform                | PackageVerificationCode   |
+|     | field from   | f7553087b3be |                           | fields are missing        |
+|     | Package      | c503         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 151 | Missing      | SPDXRef-Pack | org.bytedeco:openblas     | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 272269deed67 |                           | fields are missing        |
+|     | Package      | 434          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 152 | Missing      | SPDXRef-Pack | org.bytedeco:openblas     | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 5608e88bd2ab |                           | fields are missing        |
+|     | Package      | 9dff         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 153 | Missing      | SPDXRef-Pack | org.bytedeco:openblas     | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 61c16fd220a6 |                           | fields are missing        |
+|     | Package      | 06f5         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 154 | Missing      | SPDXRef-Pack | org.bytedeco:openblas-    | Both PackageChecksum and  |
+|     | mandatory    | age-         | platform                  | PackageVerificationCode   |
+|     | field from   | 7d15b5bed6ab |                           | fields are missing        |
+|     | Package      | 2d85         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 155 | Missing      | SPDXRef-Pack | org.bytedeco:openblas-    | Both PackageChecksum and  |
+|     | mandatory    | age-         | platform                  | PackageVerificationCode   |
+|     | field from   | 9d0337eaa98b |                           | fields are missing        |
+|     | Package      | d60f         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 156 | Missing      | SPDXRef-Pack | org.bytedeco:opencv       | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 6a6255be1fe2 |                           | fields are missing        |
+|     | Package      | 5f2          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 157 | Missing      | SPDXRef-Pack | org.bytedeco:opencv       | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 73d86bc0207b |                           | fields are missing        |
+|     | Package      | f68c         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 158 | Missing      | SPDXRef-Pack | org.bytedeco:opencv       | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | b17fab55cc13 |                           | fields are missing        |
+|     | Package      | 9245         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 159 | Missing      | SPDXRef-Pack | org.bytedeco:opencv-      | Both PackageChecksum and  |
+|     | mandatory    | age-         | platform                  | PackageVerificationCode   |
+|     | field from   | 82afe6803349 |                           | fields are missing        |
+|     | Package      | 4dc9         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 160 | Missing      | SPDXRef-Pack | org.bytedeco:opencv-      | Both PackageChecksum and  |
+|     | mandatory    | age-         | platform                  | PackageVerificationCode   |
+|     | field from   | 83f1357afa9d |                           | fields are missing        |
+|     | Package      | 4dab         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 161 | Missing      | SPDXRef-Pack | org.bytedeco:opencv-      | Both PackageChecksum and  |
+|     | mandatory    | age-         | platform-gpu              | PackageVerificationCode   |
+|     | field from   | 56bddd323059 |                           | fields are missing        |
+|     | Package      | 242          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 162 | Missing      | SPDXRef-Pack | org.bytedeco:tesseract    | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 378bb0b19dfa |                           | fields are missing        |
+|     | Package      | 5eb8         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 163 | Missing      | SPDXRef-     | org.bytedeco:tesseract    | Both PackageChecksum and  |
+|     | mandatory    | Package-bed4 |                           | PackageVerificationCode   |
+|     | field from   | 466d6ef2ed04 |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 164 | Missing      | SPDXRef-     | org.bytedeco:tesseract    | Both PackageChecksum and  |
+|     | mandatory    | Package-cf60 |                           | PackageVerificationCode   |
+|     | field from   | a74f6f9d8a9f |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 165 | Missing      | SPDXRef-Pack | org.bytedeco:tesseract-   | Both PackageChecksum and  |
+|     | mandatory    | age-         | platform                  | PackageVerificationCode   |
+|     | field from   | 2205aaae95e3 |                           | fields are missing        |
+|     | Package      | 4bb6         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 166 | Missing      | SPDXRef-     | org.bytedeco:tesseract-   | Both PackageChecksum and  |
+|     | mandatory    | Package-ea77 | platform                  | PackageVerificationCode   |
+|     | field from   | 0fdcb4805be3 |                           | fields are missing        |
+|     | Package      |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 167 | Missing      | SPDXRef-Pack | org.bytedeco:videoinput   | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 4c14d0d7057e |                           | fields are missing        |
+|     | Package      | e75a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 168 | Missing      | SPDXRef-Pack | org.bytedeco:videoinput   | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 7fc5447284f5 |                           | fields are missing        |
+|     | Package      | 0955         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 169 | Missing      | SPDXRef-Pack | org.bytedeco:videoinput   | Both PackageChecksum and  |
+|     | mandatory    | age-         |                           | PackageVerificationCode   |
+|     | field from   | 9cdbc57301db |                           | fields are missing        |
+|     | Package      | 9914         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 170 | Missing      | SPDXRef-Pack | org.bytedeco:videoinput-  | Both PackageChecksum and  |
+|     | mandatory    | age-         | platform                  | PackageVerificationCode   |
+|     | field from   | 24a3cf8b3883 |                           | fields are missing        |
+|     | Package      | 4b9          |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 171 | Missing      | SPDXRef-Pack | org.bytedeco:videoinput-  | Both PackageChecksum and  |
+|     | mandatory    | age-         | platform                  | PackageVerificationCode   |
+|     | field from   | 40b2cb5b143e |                           | fields are missing        |
+|     | Package      | 6259         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 172 | Missing      | SPDXRef-File | .                         | ExternalRef field is      |
+|     | mandatory    | system-      |                           | missing                   |
+|     | field from   | 1465386cfbe4 |                           |                           |
+|     | Package      | e9c7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 173 | Missing      | SPDXRef-File | .                         | Both PackageChecksum and  |
+|     | mandatory    | system-      |                           | PackageVerificationCode   |
+|     | field from   | 1465386cfbe4 |                           | fields are missing        |
+|     | Package      | e9c7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+The SPDX file clone/java_maven/normal.trivy.json is not compliant with the OpenChain Telco SBOM Guide version 1.1 in strict mode (with RECOMMENDED also)

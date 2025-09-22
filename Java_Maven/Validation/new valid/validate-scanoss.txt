@@ -1,0 +1,2 @@
+Validating normal.scanoss.json
+The SPDX file final.projects/java.maven/normal.scanoss.json is compliant with the OpenChain Telco SBOM Guide version 1.1

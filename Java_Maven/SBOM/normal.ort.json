@@ -1,0 +1,3816 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "creationInfo": {
+    "created": "2025-07-31T12:01:37Z",
+    "creators": [
+      "Tool: ort-62.2.0"
+    ],
+    "licenseListVersion": "3.27"
+  },
+  "name": "Unnamed document",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "spdx://ca9a45b8-161b-493d-b624-60857fc5f64d",
+  "documentDescribes": [
+    "SPDXRef-Project-Maven-org.bytedeco.javacv-demo-1.5.12"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Project-Maven-org.bytedeco.javacv-demo-1.5.12",
+      "copyrightText": "NONE",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "homepage": "NONE",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "demo",
+      "versionInfo": "1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-com.badlogicgames.gdx-gdx-1.13.1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "734d9a5ca877bbce0c595dbdc3165fe6a22b7a30"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "Android/Desktop/iOS/HTML5 game development framework",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx/1.13.1/gdx-1.13.1.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.badlogicgames.gdx/gdx@1.13.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/libgdx/libgdx",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "gdx",
+      "versionInfo": "1.13.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-com.badlogicgames.gdx-gdx-1.13.1-vcs",
+      "copyrightText": "NONE",
+      "description": "Android/Desktop/iOS/HTML5 game development framework",
+      "downloadLocation": "git+https://github.com/libgdx/libgdx.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.badlogicgames.gdx/gdx@1.13.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/libgdx/libgdx",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "gdx",
+      "versionInfo": "1.13.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-com.badlogicgames.gdx-gdx-1.13.1-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "012dc3ca46a914fec543f6186a9cf17fa4a93c1b"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "Android/Desktop/iOS/HTML5 game development framework",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx/1.13.1/gdx-1.13.1-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.badlogicgames.gdx/gdx@1.13.1"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/libgdx/libgdx",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "gdx",
+      "versionInfo": "1.13.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-com.badlogicgames.gdx-gdx-jnigen-loader-2.5.2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f35e90affe07c46b4f5e5958a1a4c1820c4890e2"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "libGDX jnigen library",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-jnigen-loader/2.5.2/gdx-jnigen-loader-2.5.2.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.badlogicgames.gdx/gdx-jnigen-loader@2.5.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/libgdx/gdx-jnigen",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "gdx-jnigen-loader",
+      "originator": "Person: Tom Wojciechowski",
+      "supplier": "Person: Tom Wojciechowski",
+      "versionInfo": "2.5.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-com.badlogicgames.gdx-gdx-jnigen-loader-2.5.2-vcs",
+      "copyrightText": "NONE",
+      "description": "libGDX jnigen library",
+      "downloadLocation": "git+https://github.com/libgdx/gdx-jnigen.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.badlogicgames.gdx/gdx-jnigen-loader@2.5.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/libgdx/gdx-jnigen",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "gdx-jnigen-loader",
+      "originator": "Person: Tom Wojciechowski",
+      "supplier": "Person: Tom Wojciechowski",
+      "versionInfo": "2.5.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-com.badlogicgames.gdx-gdx-jnigen-loader-2.5.2-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2a21b103d03be8d1ed81a021981376615f481cf5"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "libGDX jnigen library",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/com/badlogicgames/gdx/gdx-jnigen-loader/2.5.2/gdx-jnigen-loader-2.5.2-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.badlogicgames.gdx/gdx-jnigen-loader@2.5.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/libgdx/gdx-jnigen",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "gdx-jnigen-loader",
+      "originator": "Person: Tom Wojciechowski",
+      "supplier": "Person: Tom Wojciechowski",
+      "versionInfo": "2.5.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-com.google.android-android-4.1.1.4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3fb039385e71e9aa2ba547ea9ea8caa34a4ffac7"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "A library jar that provides APIs for Applications written for the Google Android Platform.",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/com/google/android/android/4.1.1.4/android-4.1.1.4.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.android/android@4.1.1.4"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://source.android.com/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "android",
+      "originator": "Person: The Android Open Source Projects",
+      "supplier": "Person: The Android Open Source Projects",
+      "versionInfo": "4.1.1.4"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-com.google.android-android-4.1.1.4-vcs",
+      "copyrightText": "NONE",
+      "description": "A library jar that provides APIs for Applications written for the Google Android Platform.",
+      "downloadLocation": "git+https://android.git.kernel.org/platform/manifest.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.android/android@4.1.1.4"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://source.android.com/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "android",
+      "originator": "Person: The Android Open Source Projects",
+      "supplier": "Person: The Android Open Source Projects",
+      "versionInfo": "4.1.1.4"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-com.google.android-android-4.1.1.4-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d0b222ba86f4143dd837ece95f84f0cf220dd737"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "A library jar that provides APIs for Applications written for the Google Android Platform.",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/com/google/android/android/4.1.1.4/android-4.1.1.4-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.android/android@4.1.1.4"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://source.android.com/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "android",
+      "originator": "Person: The Android Open Source Projects",
+      "supplier": "Person: The Android Open Source Projects",
+      "versionInfo": "4.1.1.4"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-junit-junit-4.13.2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/junit/junit@4.13.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://junit.org",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "EPL-1.0",
+      "name": "junit",
+      "originator": "Person: Kevin Cooney, Stefan Birkner, JUnit, David Saff, Marc Philipp",
+      "supplier": "Person: Kevin Cooney, Stefan Birkner, JUnit, David Saff, Marc Philipp",
+      "versionInfo": "4.13.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-junit-junit-4.13.2-vcs",
+      "copyrightText": "NONE",
+      "description": "JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.",
+      "downloadLocation": "git+https://github.com/junit-team/junit4.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/junit/junit@4.13.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://junit.org",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "EPL-1.0",
+      "name": "junit",
+      "originator": "Person: Kevin Cooney, Stefan Birkner, JUnit, David Saff, Marc Philipp",
+      "supplier": "Person: Kevin Cooney, Stefan Birkner, JUnit, David Saff, Marc Philipp",
+      "versionInfo": "4.13.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-junit-junit-4.13.2-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "33987872a811fe4d4001ed494b07854822257f42"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/junit/junit/4.13.2/junit-4.13.2-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/junit/junit@4.13.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://junit.org",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "EPL-1.0",
+      "name": "junit",
+      "originator": "Person: Kevin Cooney, Stefan Birkner, JUnit, David Saff, Marc Philipp",
+      "supplier": "Person: Kevin Cooney, Stefan Birkner, JUnit, David Saff, Marc Philipp",
+      "versionInfo": "4.13.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-artoolkitplus-2.3.1-1.5.9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "af6a8e3a14873b7de80d632e06eb0b3c9cc00c86"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/artoolkitplus/2.3.1-1.5.9/artoolkitplus-2.3.1-1.5.9.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/artoolkitplus@2.3.1-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/artoolkitplus/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "artoolkitplus",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.3.1-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-artoolkitplus-2.3.1-1.5.9-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/artoolkitplus@2.3.1-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/artoolkitplus/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "artoolkitplus",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.3.1-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-artoolkitplus-2.3.1-1.5.9-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "22514dcfcae1515074082e3f0be75b9f20e9f327"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/artoolkitplus/2.3.1-1.5.9/artoolkitplus-2.3.1-1.5.9-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/artoolkitplus@2.3.1-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/artoolkitplus/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "artoolkitplus",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.3.1-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-artoolkitplus-platform-2.3.1-1.5.9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2a0b81d30cb1e17eb3ae9d7af3fe8f53b8a27735"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/artoolkitplus-platform/2.3.1-1.5.9/artoolkitplus-platform-2.3.1-1.5.9.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/artoolkitplus-platform@2.3.1-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/artoolkitplus-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "artoolkitplus-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.3.1-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-artoolkitplus-platform-2.3.1-1.5.9-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/artoolkitplus-platform@2.3.1-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/artoolkitplus-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "artoolkitplus-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.3.1-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-artoolkitplus-platform-2.3.1-1.5.9-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9df73b66c0c6117969c48cdf6486a4e1fc27bb1f"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/artoolkitplus-platform/2.3.1-1.5.9/artoolkitplus-platform-2.3.1-1.5.9-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/artoolkitplus-platform@2.3.1-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/artoolkitplus-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "artoolkitplus-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.3.1-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-7.1.1-1.5.12",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cb9ea8db4629207cba7b2bcfd2a7f7f87c789054"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/ffmpeg/7.1.1-1.5.12/ffmpeg-7.1.1-1.5.12.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg@7.1.1-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/ffmpeg/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "ffmpeg",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "7.1.1-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-7.1.1-1.5.12-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg@7.1.1-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/ffmpeg/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "ffmpeg",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "7.1.1-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-7.1.1-1.5.12-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "594935f99628fa0275aa13290304344c702578ef"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/ffmpeg/7.1.1-1.5.12/ffmpeg-7.1.1-1.5.12-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg@7.1.1-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/ffmpeg/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "ffmpeg",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "7.1.1-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-platform-7.1.1-1.5.12",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8ae14a6f17e83aca6c65ecdf5491d883efd33f14"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/ffmpeg-platform/7.1.1-1.5.12/ffmpeg-platform-7.1.1-1.5.12.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg-platform@7.1.1-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/ffmpeg-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "ffmpeg-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "7.1.1-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-platform-7.1.1-1.5.12-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg-platform@7.1.1-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/ffmpeg-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "ffmpeg-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "7.1.1-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-platform-7.1.1-1.5.12-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "89007b7bf4043d57d96f5b59b07c0511b29bf2a5"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/ffmpeg-platform/7.1.1-1.5.12/ffmpeg-platform-7.1.1-1.5.12-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg-platform@7.1.1-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/ffmpeg-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "ffmpeg-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "7.1.1-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-platform-gpl-7.1.1-1.5.12",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5268a2b6ba03e87c4166cd99113492ddbde91365"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/ffmpeg-platform-gpl/7.1.1-1.5.12/ffmpeg-platform-gpl-7.1.1-1.5.12.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg-platform-gpl@7.1.1-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/ffmpeg-platform-gpl/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "ffmpeg-platform-gpl",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "7.1.1-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-platform-gpl-7.1.1-1.5.12-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg-platform-gpl@7.1.1-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/ffmpeg-platform-gpl/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "ffmpeg-platform-gpl",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "7.1.1-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-platform-gpl-7.1.1-1.5.12-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3a7fb4d290177639d5a798abe8e5b37d2a5cdb72"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/ffmpeg-platform-gpl/7.1.1-1.5.12/ffmpeg-platform-gpl-7.1.1-1.5.12-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg-platform-gpl@7.1.1-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/ffmpeg-platform-gpl/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "ffmpeg-platform-gpl",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "7.1.1-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-flycapture-2.13.3.31-1.5.9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0c653e61d46ebe5a5c0e71c17681f126320422f4"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/flycapture/2.13.3.31-1.5.9/flycapture-2.13.3.31-1.5.9.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/flycapture@2.13.3.31-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/flycapture/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "flycapture",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.13.3.31-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-flycapture-2.13.3.31-1.5.9-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/flycapture@2.13.3.31-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/flycapture/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "flycapture",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.13.3.31-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-flycapture-2.13.3.31-1.5.9-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a2481d8d1ffa45f5ede17467123a9171f40d4f54"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/flycapture/2.13.3.31-1.5.9/flycapture-2.13.3.31-1.5.9-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/flycapture@2.13.3.31-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/flycapture/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "flycapture",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.13.3.31-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-flycapture-platform-2.13.3.31-1.5.9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "18253937e77a52026bd87db432a1d4900e511763"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/flycapture-platform/2.13.3.31-1.5.9/flycapture-platform-2.13.3.31-1.5.9.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/flycapture-platform@2.13.3.31-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/flycapture-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "flycapture-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.13.3.31-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-flycapture-platform-2.13.3.31-1.5.9-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/flycapture-platform@2.13.3.31-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/flycapture-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "flycapture-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.13.3.31-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-flycapture-platform-2.13.3.31-1.5.9-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8604e5d4004e8a1384e8b1171c4006714c920560"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/flycapture-platform/2.13.3.31-1.5.9/flycapture-platform-2.13.3.31-1.5.9-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/flycapture-platform@2.13.3.31-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/flycapture-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "flycapture-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.13.3.31-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-javacpp-1.5.12",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d37e3e9c7f3e3a9e492c245e62fd358611889e04"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/javacpp/1.5.12/javacpp-1.5.12.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp@1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "javacpp",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-javacpp-1.5.12-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp@1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "javacpp",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-javacpp-1.5.12-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "114a20c3f37e23338f5fd9f39e52f02534e7f2e3"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/javacpp/1.5.12/javacpp-1.5.12-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp@1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "javacpp",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-javacpp-platform-1.5.12",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fdd546c8f0b5d4debc550a1e423419e1087d9c36"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/javacpp-platform/1.5.12/javacpp-platform-1.5.12.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp-platform@1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "javacpp-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-javacpp-platform-1.5.12-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp-platform@1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "javacpp-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-javacpp-platform-1.5.12-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a3dc44a3fbcb474cd30e6dc1db02a8013297fb30"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/javacpp-platform/1.5.12/javacpp-platform-1.5.12-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp-platform@1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "javacpp-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-leptonica-1.85.0-1.5.12",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "814d57e32a133e1286e395647d14f044972c3126"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/leptonica/1.85.0-1.5.12/leptonica-1.85.0-1.5.12.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/leptonica@1.85.0-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/leptonica/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "leptonica",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "1.85.0-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-leptonica-1.85.0-1.5.12-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/leptonica@1.85.0-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/leptonica/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "leptonica",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "1.85.0-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-leptonica-1.85.0-1.5.12-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "caabbed35b2af66f1485a954e30e29cfb2c143cc"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/leptonica/1.85.0-1.5.12/leptonica-1.85.0-1.5.12-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/leptonica@1.85.0-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/leptonica/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "leptonica",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "1.85.0-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-leptonica-platform-1.85.0-1.5.12",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f9ca6024a44d1b263fc023afb9fd745a1c1e91fb"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/leptonica-platform/1.85.0-1.5.12/leptonica-platform-1.85.0-1.5.12.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/leptonica-platform@1.85.0-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/leptonica-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "leptonica-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "1.85.0-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-leptonica-platform-1.85.0-1.5.12-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/leptonica-platform@1.85.0-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/leptonica-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "leptonica-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "1.85.0-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-leptonica-platform-1.85.0-1.5.12-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d93b74f3300d9ea8fed9e458717a054e6334b01e"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/leptonica-platform/1.85.0-1.5.12/leptonica-platform-1.85.0-1.5.12-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/leptonica-platform@1.85.0-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/leptonica-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "leptonica-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "1.85.0-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-libdc1394-2.2.6-1.5.9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fa32142e37d3be048b64fb52ca51deca6d5de667"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/libdc1394/2.2.6-1.5.9/libdc1394-2.2.6-1.5.9.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libdc1394@2.2.6-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/libdc1394/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "libdc1394",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.2.6-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-libdc1394-2.2.6-1.5.9-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libdc1394@2.2.6-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/libdc1394/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "libdc1394",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.2.6-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-libdc1394-2.2.6-1.5.9-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "be070cc835817261e6aaacd5f3c0b964ef710c0e"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/libdc1394/2.2.6-1.5.9/libdc1394-2.2.6-1.5.9-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libdc1394@2.2.6-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/libdc1394/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "libdc1394",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.2.6-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-libdc1394-platform-2.2.6-1.5.9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "72f5c0340514f89601bdac20304ce7ccf686b6c5"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/libdc1394-platform/2.2.6-1.5.9/libdc1394-platform-2.2.6-1.5.9.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libdc1394-platform@2.2.6-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/libdc1394-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "libdc1394-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.2.6-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-libdc1394-platform-2.2.6-1.5.9-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libdc1394-platform@2.2.6-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/libdc1394-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "libdc1394-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.2.6-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-libdc1394-platform-2.2.6-1.5.9-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5ce5e2fccae2bee8fd54698ed4bab4eda4d02ef7"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/libdc1394-platform/2.2.6-1.5.9/libdc1394-platform-2.2.6-1.5.9-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libdc1394-platform@2.2.6-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/libdc1394-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "libdc1394-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.2.6-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-libfreenect-0.5.7-1.5.9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "16c037cd4f9e9f35a8e88fea29979e96b711f6ff"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/libfreenect/0.5.7-1.5.9/libfreenect-0.5.7-1.5.9.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect@0.5.7-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/libfreenect/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "libfreenect",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.5.7-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-libfreenect-0.5.7-1.5.9-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect@0.5.7-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/libfreenect/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "libfreenect",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.5.7-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-libfreenect-0.5.7-1.5.9-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4ce8b82c645adc921520b366e11684683d75a191"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/libfreenect/0.5.7-1.5.9/libfreenect-0.5.7-1.5.9-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect@0.5.7-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/libfreenect/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "libfreenect",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.5.7-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-libfreenect-platform-0.5.7-1.5.9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c757108e09de1a87802637919e49b5500589630f"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/libfreenect-platform/0.5.7-1.5.9/libfreenect-platform-0.5.7-1.5.9.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect-platform@0.5.7-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/libfreenect-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "libfreenect-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.5.7-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-libfreenect-platform-0.5.7-1.5.9-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect-platform@0.5.7-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/libfreenect-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "libfreenect-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.5.7-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-libfreenect-platform-0.5.7-1.5.9-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "048d2faf1e70e67e9b458bf6708a62282282d4e6"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/libfreenect-platform/0.5.7-1.5.9/libfreenect-platform-0.5.7-1.5.9-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect-platform@0.5.7-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/libfreenect-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "libfreenect-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.5.7-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-libfreenect2-0.2.0-1.5.9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "02008343f5ea8bbbf1d516bf630a2656c91711a9"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/libfreenect2/0.2.0-1.5.9/libfreenect2-0.2.0-1.5.9.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect2@0.2.0-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/libfreenect2/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "libfreenect2",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.2.0-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-libfreenect2-0.2.0-1.5.9-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect2@0.2.0-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/libfreenect2/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "libfreenect2",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.2.0-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-libfreenect2-0.2.0-1.5.9-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6a6dc65297fcac35917b6ac78e7819b48f866802"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/libfreenect2/0.2.0-1.5.9/libfreenect2-0.2.0-1.5.9-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect2@0.2.0-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/libfreenect2/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "libfreenect2",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.2.0-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-libfreenect2-platform-0.2.0-1.5.9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7c30d421f2e679119120c835ad73a8a8a2913539"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/libfreenect2-platform/0.2.0-1.5.9/libfreenect2-platform-0.2.0-1.5.9.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect2-platform@0.2.0-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/libfreenect2-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "libfreenect2-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.2.0-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-libfreenect2-platform-0.2.0-1.5.9-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect2-platform@0.2.0-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/libfreenect2-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "libfreenect2-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.2.0-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-libfreenect2-platform-0.2.0-1.5.9-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "33ac7ed3e9e314067568c2c6a9f48c675c895966"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/libfreenect2-platform/0.2.0-1.5.9/libfreenect2-platform-0.2.0-1.5.9-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect2-platform@0.2.0-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/libfreenect2-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "libfreenect2-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.2.0-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-librealsense-1.12.4-1.5.9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "27fb41a9d834522fb6d3acd56defbe56ccfb45e1"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/librealsense/1.12.4-1.5.9/librealsense-1.12.4-1.5.9.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense@1.12.4-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/librealsense/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "librealsense",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "1.12.4-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-librealsense-1.12.4-1.5.9-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense@1.12.4-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/librealsense/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "librealsense",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "1.12.4-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-librealsense-1.12.4-1.5.9-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "694dc0e0b3d554309153e1ed4abf850eb3ad6ed5"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/librealsense/1.12.4-1.5.9/librealsense-1.12.4-1.5.9-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense@1.12.4-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/librealsense/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "librealsense",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "1.12.4-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-librealsense-platform-1.12.4-1.5.9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1596fc41fe524b00f9e825f8a0bf103469fe51f5"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/librealsense-platform/1.12.4-1.5.9/librealsense-platform-1.12.4-1.5.9.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense-platform@1.12.4-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/librealsense-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "librealsense-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "1.12.4-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-librealsense-platform-1.12.4-1.5.9-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense-platform@1.12.4-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/librealsense-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "librealsense-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "1.12.4-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-librealsense-platform-1.12.4-1.5.9-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "271cc0ae153257bfffc9712e227bb6d6f2c9c0e9"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/librealsense-platform/1.12.4-1.5.9/librealsense-platform-1.12.4-1.5.9-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense-platform@1.12.4-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/librealsense-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "librealsense-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "1.12.4-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-librealsense2-2.53.1-1.5.9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3123b090f70551bbf78bb973b2ee6d555c2efe5e"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/librealsense2/2.53.1-1.5.9/librealsense2-2.53.1-1.5.9.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense2@2.53.1-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/librealsense2/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "librealsense2",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.53.1-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-librealsense2-2.53.1-1.5.9-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense2@2.53.1-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/librealsense2/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "librealsense2",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.53.1-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-librealsense2-2.53.1-1.5.9-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8eec2102956f730769db34a143f84dd9324a4e4a"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/librealsense2/2.53.1-1.5.9/librealsense2-2.53.1-1.5.9-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense2@2.53.1-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/librealsense2/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "librealsense2",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.53.1-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-librealsense2-platform-2.53.1-1.5.9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8bd869a086ca856d787806f0927966195d328d9a"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/librealsense2-platform/2.53.1-1.5.9/librealsense2-platform-2.53.1-1.5.9.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense2-platform@2.53.1-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/librealsense2-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "librealsense2-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.53.1-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-librealsense2-platform-2.53.1-1.5.9-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense2-platform@2.53.1-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/librealsense2-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "librealsense2-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.53.1-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-librealsense2-platform-2.53.1-1.5.9-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c67c0830ef0915ea1352133c0b7c0f008b7e3b99"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/librealsense2-platform/2.53.1-1.5.9/librealsense2-platform-2.53.1-1.5.9-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense2-platform@2.53.1-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/librealsense2-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "librealsense2-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "2.53.1-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-openblas-0.3.30-1.5.12",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cabee9943770f1aabed0398a34dce3aef4a965f7"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/openblas/0.3.30-1.5.12/openblas-0.3.30-1.5.12.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/openblas@0.3.30-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/openblas/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "openblas",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.3.30-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-openblas-0.3.30-1.5.12-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/openblas@0.3.30-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/openblas/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "openblas",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.3.30-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-openblas-0.3.30-1.5.12-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cbbf647c1cd62829cc42b32feeefcad1682e9e88"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/openblas/0.3.30-1.5.12/openblas-0.3.30-1.5.12-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/openblas@0.3.30-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/openblas/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "openblas",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.3.30-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-openblas-platform-0.3.30-1.5.12",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9c8498f2187bffbf70d63d14264ff179560631fa"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/openblas-platform/0.3.30-1.5.12/openblas-platform-0.3.30-1.5.12.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/openblas-platform@0.3.30-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/openblas-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "openblas-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.3.30-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-openblas-platform-0.3.30-1.5.12-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/openblas-platform@0.3.30-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/openblas-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "openblas-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.3.30-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-openblas-platform-0.3.30-1.5.12-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7edc597cbbee69f30192ca26e68ac3722fbbd86f"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/openblas-platform/0.3.30-1.5.12/openblas-platform-0.3.30-1.5.12-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/openblas-platform@0.3.30-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/openblas-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "openblas-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.3.30-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-opencv-4.11.0-1.5.12",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fe15a0ad8f1bfb57d300ddcc6e6de612a4cae17e"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/opencv/4.11.0-1.5.12/opencv-4.11.0-1.5.12.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/opencv@4.11.0-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/opencv/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "opencv",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "4.11.0-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-opencv-4.11.0-1.5.12-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/opencv@4.11.0-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/opencv/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "opencv",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "4.11.0-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-opencv-4.11.0-1.5.12-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b6c1da05664caa210f58672dc9795a25c8d4b039"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/opencv/4.11.0-1.5.12/opencv-4.11.0-1.5.12-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/opencv@4.11.0-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/opencv/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "opencv",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "4.11.0-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-opencv-platform-4.11.0-1.5.12",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1770a1c12de8fbea460ceac1566f0ee5f73ced84"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/opencv-platform/4.11.0-1.5.12/opencv-platform-4.11.0-1.5.12.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/opencv-platform@4.11.0-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/opencv-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "opencv-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "4.11.0-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-opencv-platform-4.11.0-1.5.12-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/opencv-platform@4.11.0-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/opencv-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "opencv-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "4.11.0-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-opencv-platform-4.11.0-1.5.12-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dbeef36dd1135905e2a9a7a1ecbd1f2964e69434"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/opencv-platform/4.11.0-1.5.12/opencv-platform-4.11.0-1.5.12-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/opencv-platform@4.11.0-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/opencv-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "opencv-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "4.11.0-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-opencv-platform-gpu-4.11.0-1.5.12",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "100b4525f8d9a32bac477e8f2ed759e4cacd3cd2"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/opencv-platform-gpu/4.11.0-1.5.12/opencv-platform-gpu-4.11.0-1.5.12.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/opencv-platform-gpu@4.11.0-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/opencv-platform-gpu/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "opencv-platform-gpu",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "4.11.0-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-opencv-platform-gpu-4.11.0-1.5.12-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/opencv-platform-gpu@4.11.0-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/opencv-platform-gpu/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "opencv-platform-gpu",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "4.11.0-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-opencv-platform-gpu-4.11.0-1.5.12-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "20d3464fa90be5fd59ccbd2015b4b997c8286826"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/opencv-platform-gpu/4.11.0-1.5.12/opencv-platform-gpu-4.11.0-1.5.12-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/opencv-platform-gpu@4.11.0-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/opencv-platform-gpu/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "opencv-platform-gpu",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "4.11.0-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-tesseract-5.5.1-1.5.12",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0e0d5bff83c9dfd19a36528aa1fdabf8cdea4518"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/tesseract/5.5.1-1.5.12/tesseract-5.5.1-1.5.12.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/tesseract@5.5.1-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/tesseract/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "tesseract",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "5.5.1-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-tesseract-5.5.1-1.5.12-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/tesseract@5.5.1-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/tesseract/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "tesseract",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "5.5.1-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-tesseract-5.5.1-1.5.12-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2a6c5713900bb1834ce87854a1faaf8e450db67f"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/tesseract/5.5.1-1.5.12/tesseract-5.5.1-1.5.12-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/tesseract@5.5.1-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/tesseract/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "tesseract",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "5.5.1-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-tesseract-platform-5.5.1-1.5.12",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "105983a4e0faa092e476de4eacb88704d59dda6a"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/tesseract-platform/5.5.1-1.5.12/tesseract-platform-5.5.1-1.5.12.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/tesseract-platform@5.5.1-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/tesseract-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "tesseract-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "5.5.1-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-tesseract-platform-5.5.1-1.5.12-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/tesseract-platform@5.5.1-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/tesseract-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "tesseract-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "5.5.1-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-tesseract-platform-5.5.1-1.5.12-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d9377c904d415ad9ddff6d43d88b118d37f6af4b"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/tesseract-platform/5.5.1-1.5.12/tesseract-platform-5.5.1-1.5.12-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/tesseract-platform@5.5.1-1.5.12"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/tesseract-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "tesseract-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "5.5.1-1.5.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-videoinput-0.200-1.5.9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "296ef2dc4f171920b3c8dc50efb9db6e915a1bd2"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/videoinput/0.200-1.5.9/videoinput-0.200-1.5.9.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/videoinput@0.200-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/videoinput/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "videoinput",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.200-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-videoinput-0.200-1.5.9-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/videoinput@0.200-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/videoinput/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "videoinput",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.200-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-videoinput-0.200-1.5.9-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9bdf9fddaa88da340b9f597e700c4f337f28eb79"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/videoinput/0.200-1.5.9/videoinput-0.200-1.5.9-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/videoinput@0.200-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/videoinput/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "videoinput",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.200-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-videoinput-platform-0.200-1.5.9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cdd2794ec4b99530a95bbcce4d3d7244780234b9"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/videoinput-platform/0.200-1.5.9/videoinput-platform-0.200-1.5.9.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/videoinput-platform@0.200-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/videoinput-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "videoinput-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.200-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-videoinput-platform-0.200-1.5.9-vcs",
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp-presets.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/videoinput-platform@0.200-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/videoinput-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "videoinput-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.200-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.bytedeco-videoinput-platform-0.200-1.5.9-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "87118846534a2e2e09acbcb1d50e8d6396181797"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "The missing bridge between Java and native C++ libraries",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/bytedeco/videoinput-platform/0.200-1.5.9/videoinput-platform-0.200-1.5.9-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/videoinput-platform@0.200-1.5.9"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://bytedeco.org/javacpp-presets/videoinput-platform/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "videoinput-platform",
+      "originator": "Person: Samuel Audet",
+      "supplier": "Person: Samuel Audet",
+      "versionInfo": "0.200-1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.hamcrest-hamcrest-core-1.3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "42a25dc3219429f0e5d060061f71acb49bf010a0"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "This is the core API of hamcrest matcher framework to be used by third-party framework providers. This includes the a foundation set of matcher implementations for common operations.",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hamcrest/hamcrest-core@1.3"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/hamcrest/JavaHamcrest/hamcrest-core",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause",
+      "name": "hamcrest-core",
+      "originator": "Person: Tom Denley, Neil Dunn, Nat Pryce, Joe Walnes, Steve Freeman",
+      "supplier": "Person: Tom Denley, Neil Dunn, Nat Pryce, Joe Walnes, Steve Freeman",
+      "versionInfo": "1.3"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.hamcrest-hamcrest-core-1.3-vcs",
+      "copyrightText": "NONE",
+      "description": "This is the core API of hamcrest matcher framework to be used by third-party framework providers. This includes the a foundation set of matcher implementations for common operations.",
+      "downloadLocation": "git+ssh://github.com/hamcrest/JavaHamcrest.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hamcrest/hamcrest-core@1.3"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/hamcrest/JavaHamcrest/hamcrest-core",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause",
+      "name": "hamcrest-core",
+      "originator": "Person: Tom Denley, Neil Dunn, Nat Pryce, Joe Walnes, Steve Freeman",
+      "supplier": "Person: Tom Denley, Neil Dunn, Nat Pryce, Joe Walnes, Steve Freeman",
+      "versionInfo": "1.3"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.hamcrest-hamcrest-core-1.3-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "This is the core API of hamcrest matcher framework to be used by third-party framework providers. This includes the a foundation set of matcher implementations for common operations.",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hamcrest/hamcrest-core@1.3"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/hamcrest/JavaHamcrest/hamcrest-core",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause",
+      "name": "hamcrest-core",
+      "originator": "Person: Tom Denley, Neil Dunn, Nat Pryce, Joe Walnes, Steve Freeman",
+      "supplier": "Person: Tom Denley, Neil Dunn, Nat Pryce, Joe Walnes, Steve Freeman",
+      "versionInfo": "1.3"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.jogamp.gluegen-gluegen-rt-2.3.2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "edc35ccfc13d4a4ad02c50d580874c18bf48bbef"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "JNI binding generator (runtime)",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/jogamp/gluegen/gluegen-rt/2.3.2/gluegen-rt-2.3.2.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jogamp.gluegen/gluegen-rt@2.3.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://jogamp.org/gluegen/www/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "gluegen-rt",
+      "originator": "Person: Sven Gothel",
+      "supplier": "Person: Sven Gothel",
+      "versionInfo": "2.3.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.jogamp.gluegen-gluegen-rt-2.3.2-vcs",
+      "copyrightText": "NONE",
+      "description": "JNI binding generator (runtime)",
+      "downloadLocation": "git+http://jogamp.org/git/gluegen.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jogamp.gluegen/gluegen-rt@2.3.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://jogamp.org/gluegen/www/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "gluegen-rt",
+      "originator": "Person: Sven Gothel",
+      "supplier": "Person: Sven Gothel",
+      "versionInfo": "2.3.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.jogamp.gluegen-gluegen-rt-2.3.2-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1e6c7836f978e8c96734b12600f800dff20c628b"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "JNI binding generator (runtime)",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/jogamp/gluegen/gluegen-rt/2.3.2/gluegen-rt-2.3.2-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jogamp.gluegen/gluegen-rt@2.3.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://jogamp.org/gluegen/www/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "gluegen-rt",
+      "originator": "Person: Sven Gothel",
+      "supplier": "Person: Sven Gothel",
+      "versionInfo": "2.3.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.jogamp.gluegen-gluegen-rt-main-2.3.2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6a86a9ce357c085e3052efcf639447f9957b82b8"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "JNI binding generator (runtime)",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/jogamp/gluegen/gluegen-rt-main/2.3.2/gluegen-rt-main-2.3.2.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jogamp.gluegen/gluegen-rt-main@2.3.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://jogamp.org/gluegen/www/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "gluegen-rt-main",
+      "originator": "Person: Sven Gothel",
+      "supplier": "Person: Sven Gothel",
+      "versionInfo": "2.3.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.jogamp.gluegen-gluegen-rt-main-2.3.2-vcs",
+      "copyrightText": "NONE",
+      "description": "JNI binding generator (runtime)",
+      "downloadLocation": "git+http://jogamp.org/git/gluegen.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jogamp.gluegen/gluegen-rt-main@2.3.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://jogamp.org/gluegen/www/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "gluegen-rt-main",
+      "originator": "Person: Sven Gothel",
+      "supplier": "Person: Sven Gothel",
+      "versionInfo": "2.3.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.jogamp.gluegen-gluegen-rt-main-2.3.2-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6a86a9ce357c085e3052efcf639447f9957b82b8"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "JNI binding generator (runtime)",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/jogamp/gluegen/gluegen-rt-main/2.3.2/gluegen-rt-main-2.3.2-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jogamp.gluegen/gluegen-rt-main@2.3.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://jogamp.org/gluegen/www/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "name": "gluegen-rt-main",
+      "originator": "Person: Sven Gothel",
+      "supplier": "Person: Sven Gothel",
+      "versionInfo": "2.3.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.jogamp.jocl-jocl-2.3.2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "35b24de2b5a0b22601a59676f036b6c9429e68d1"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "Java™ Binding for the OpenCL® API",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/jogamp/jocl/jocl/2.3.2/jocl-2.3.2.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jogamp.jocl/jocl@2.3.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://jogamp.org/jocl/www/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "jocl",
+      "originator": "Person: Sven Gothel",
+      "supplier": "Person: Sven Gothel",
+      "versionInfo": "2.3.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.jogamp.jocl-jocl-2.3.2-vcs",
+      "copyrightText": "NONE",
+      "description": "Java™ Binding for the OpenCL® API",
+      "downloadLocation": "git+http://jogamp.org/git/jocl.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jogamp.jocl/jocl@2.3.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://jogamp.org/jocl/www/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "jocl",
+      "originator": "Person: Sven Gothel",
+      "supplier": "Person: Sven Gothel",
+      "versionInfo": "2.3.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.jogamp.jocl-jocl-2.3.2-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0ab7886e76a48d3b6291b8704c26c5c3d8f733a5"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "Java™ Binding for the OpenCL® API",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/jogamp/jocl/jocl/2.3.2/jocl-2.3.2-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jogamp.jocl/jocl@2.3.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://jogamp.org/jocl/www/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "jocl",
+      "originator": "Person: Sven Gothel",
+      "supplier": "Person: Sven Gothel",
+      "versionInfo": "2.3.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.jogamp.jocl-jocl-main-2.3.2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6a86a9ce357c085e3052efcf639447f9957b82b8"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "Java™ Binding for the OpenCL® API",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/jogamp/jocl/jocl-main/2.3.2/jocl-main-2.3.2.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jogamp.jocl/jocl-main@2.3.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://jogamp.org/jocl/www/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "jocl-main",
+      "originator": "Person: Sven Gothel",
+      "supplier": "Person: Sven Gothel",
+      "versionInfo": "2.3.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.jogamp.jocl-jocl-main-2.3.2-vcs",
+      "copyrightText": "NONE",
+      "description": "Java™ Binding for the OpenCL® API",
+      "downloadLocation": "git+http://jogamp.org/git/jocl.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jogamp.jocl/jocl-main@2.3.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://jogamp.org/jocl/www/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "jocl-main",
+      "originator": "Person: Sven Gothel",
+      "supplier": "Person: Sven Gothel",
+      "versionInfo": "2.3.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.jogamp.jocl-jocl-main-2.3.2-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6a86a9ce357c085e3052efcf639447f9957b82b8"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "Java™ Binding for the OpenCL® API",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/jogamp/jocl/jocl-main/2.3.2/jocl-main-2.3.2-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jogamp.jocl/jocl-main@2.3.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://jogamp.org/jocl/www/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "jocl-main",
+      "originator": "Person: Sven Gothel",
+      "supplier": "Person: Sven Gothel",
+      "versionInfo": "2.3.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.jogamp.jogl-jogl-all-2.3.2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "99e0f64bb8882f054825ae4a8a527a17b544a0b5"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "Java™ Binding for the OpenGL® API",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/jogamp/jogl/jogl-all/2.3.2/jogl-all-2.3.2.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jogamp.jogl/jogl-all@2.3.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://jogamp.org/jogl/www/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "jogl-all",
+      "originator": "Person: Sven Gothel",
+      "supplier": "Person: Sven Gothel",
+      "versionInfo": "2.3.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.jogamp.jogl-jogl-all-2.3.2-vcs",
+      "copyrightText": "NONE",
+      "description": "Java™ Binding for the OpenGL® API",
+      "downloadLocation": "git+http://jogamp.org/git/jogl.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jogamp.jogl/jogl-all@2.3.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://jogamp.org/jogl/www/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "jogl-all",
+      "originator": "Person: Sven Gothel",
+      "supplier": "Person: Sven Gothel",
+      "versionInfo": "2.3.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.jogamp.jogl-jogl-all-2.3.2-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "677f26584c8860b8ac2091a09b08b5facedc6d68"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "Java™ Binding for the OpenGL® API",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/jogamp/jogl/jogl-all/2.3.2/jogl-all-2.3.2-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jogamp.jogl/jogl-all@2.3.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://jogamp.org/jogl/www/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "jogl-all",
+      "originator": "Person: Sven Gothel",
+      "supplier": "Person: Sven Gothel",
+      "versionInfo": "2.3.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.jogamp.jogl-jogl-all-main-2.3.2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6a86a9ce357c085e3052efcf639447f9957b82b8"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "Java™ Binding for the OpenGL® API",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/jogamp/jogl/jogl-all-main/2.3.2/jogl-all-main-2.3.2.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jogamp.jogl/jogl-all-main@2.3.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://jogamp.org/jogl/www/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "jogl-all-main",
+      "originator": "Person: Sven Gothel",
+      "supplier": "Person: Sven Gothel",
+      "versionInfo": "2.3.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.jogamp.jogl-jogl-all-main-2.3.2-vcs",
+      "copyrightText": "NONE",
+      "description": "Java™ Binding for the OpenGL® API",
+      "downloadLocation": "git+http://jogamp.org/git/jogl.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jogamp.jogl/jogl-all-main@2.3.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://jogamp.org/jogl/www/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "jogl-all-main",
+      "originator": "Person: Sven Gothel",
+      "supplier": "Person: Sven Gothel",
+      "versionInfo": "2.3.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.jogamp.jogl-jogl-all-main-2.3.2-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6a86a9ce357c085e3052efcf639447f9957b82b8"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "Java™ Binding for the OpenGL® API",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/jogamp/jogl/jogl-all-main/2.3.2/jogl-all-main-2.3.2-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jogamp.jogl/jogl-all-main@2.3.2"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "http://jogamp.org/jogl/www/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "jogl-all-main",
+      "originator": "Person: Sven Gothel",
+      "supplier": "Person: Sven Gothel",
+      "versionInfo": "2.3.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.openjfx-javafx-base-21",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "be7576df67c204d6d3f9c6c5d4db4e268ff22ff2"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "OpenJFX JavaFX",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/21/javafx-base-21.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.openjfx/javafx-base@21"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://openjdk.java.net/projects/openjfx/javafx-base/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only WITH Classpath-exception-2.0",
+      "name": "javafx-base",
+      "originator": "Person: OpenJFX Mailing List",
+      "supplier": "Person: OpenJFX Mailing List",
+      "versionInfo": "21"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.openjfx-javafx-base-21-vcs",
+      "copyrightText": "NONE",
+      "description": "OpenJFX JavaFX",
+      "downloadLocation": "git+https://github.com/openjdk/jfx.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.openjfx/javafx-base@21"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://openjdk.java.net/projects/openjfx/javafx-base/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only WITH Classpath-exception-2.0",
+      "name": "javafx-base",
+      "originator": "Person: OpenJFX Mailing List",
+      "supplier": "Person: OpenJFX Mailing List",
+      "versionInfo": "21"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.openjfx-javafx-base-21-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "594c03146fee3f6d6dec492ab71e5858637be5ef"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "OpenJFX JavaFX",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/21/javafx-base-21-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.openjfx/javafx-base@21"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://openjdk.java.net/projects/openjfx/javafx-base/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only WITH Classpath-exception-2.0",
+      "name": "javafx-base",
+      "originator": "Person: OpenJFX Mailing List",
+      "supplier": "Person: OpenJFX Mailing List",
+      "versionInfo": "21"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.openjfx-javafx-graphics-21",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f8d0163c8bf9cffdcf2eac163446ea550b3051ca"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "OpenJFX JavaFX",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/openjfx/javafx-graphics/21/javafx-graphics-21.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.openjfx/javafx-graphics@21"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://openjdk.java.net/projects/openjfx/javafx-graphics/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only WITH Classpath-exception-2.0",
+      "name": "javafx-graphics",
+      "originator": "Person: OpenJFX Mailing List",
+      "supplier": "Person: OpenJFX Mailing List",
+      "versionInfo": "21"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.openjfx-javafx-graphics-21-vcs",
+      "copyrightText": "NONE",
+      "description": "OpenJFX JavaFX",
+      "downloadLocation": "git+https://github.com/openjdk/jfx.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.openjfx/javafx-graphics@21"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://openjdk.java.net/projects/openjfx/javafx-graphics/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only WITH Classpath-exception-2.0",
+      "name": "javafx-graphics",
+      "originator": "Person: OpenJFX Mailing List",
+      "supplier": "Person: OpenJFX Mailing List",
+      "versionInfo": "21"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Maven-org.openjfx-javafx-graphics-21-source-artifact",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "30e3c2c91eea517ce3e21c629d6cfa4cba217c95"
+        }
+      ],
+      "copyrightText": "NONE",
+      "description": "OpenJFX JavaFX",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/openjfx/javafx-graphics/21/javafx-graphics-21-sources.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.openjfx/javafx-graphics@21"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://openjdk.java.net/projects/openjfx/javafx-graphics/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only WITH Classpath-exception-2.0",
+      "name": "javafx-graphics",
+      "originator": "Person: OpenJFX Mailing List",
+      "supplier": "Person: OpenJFX Mailing List",
+      "versionInfo": "21"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-com.badlogicgames.gdx-gdx-1.13.1",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-com.badlogicgames.gdx-gdx-1.13.1-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-com.badlogicgames.gdx-gdx-1.13.1",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-com.badlogicgames.gdx-gdx-1.13.1-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-com.badlogicgames.gdx-gdx-1.13.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-com.badlogicgames.gdx-gdx-jnigen-loader-2.5.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-com.badlogicgames.gdx-gdx-jnigen-loader-2.5.2",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-com.badlogicgames.gdx-gdx-jnigen-loader-2.5.2-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-com.badlogicgames.gdx-gdx-jnigen-loader-2.5.2",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-com.badlogicgames.gdx-gdx-jnigen-loader-2.5.2-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-com.google.android-android-4.1.1.4",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-com.google.android-android-4.1.1.4-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-com.google.android-android-4.1.1.4",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-com.google.android-android-4.1.1.4-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-junit-junit-4.13.2",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-junit-junit-4.13.2-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-junit-junit-4.13.2",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-junit-junit-4.13.2-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-junit-junit-4.13.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.hamcrest-hamcrest-core-1.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-artoolkitplus-2.3.1-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-artoolkitplus-2.3.1-1.5.9-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-artoolkitplus-2.3.1-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-artoolkitplus-2.3.1-1.5.9-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-artoolkitplus-platform-2.3.1-1.5.9",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-artoolkitplus-2.3.1-1.5.9"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-artoolkitplus-platform-2.3.1-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-artoolkitplus-platform-2.3.1-1.5.9-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-artoolkitplus-platform-2.3.1-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-artoolkitplus-platform-2.3.1-1.5.9-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-7.1.1-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-7.1.1-1.5.12-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-7.1.1-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-7.1.1-1.5.12-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-platform-7.1.1-1.5.12",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-7.1.1-1.5.12"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-platform-7.1.1-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-platform-7.1.1-1.5.12-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-platform-7.1.1-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-platform-7.1.1-1.5.12-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-platform-gpl-7.1.1-1.5.12",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-7.1.1-1.5.12"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-platform-gpl-7.1.1-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-platform-gpl-7.1.1-1.5.12-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-platform-gpl-7.1.1-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-platform-gpl-7.1.1-1.5.12-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-flycapture-2.13.3.31-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-flycapture-2.13.3.31-1.5.9-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-flycapture-2.13.3.31-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-flycapture-2.13.3.31-1.5.9-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-flycapture-platform-2.13.3.31-1.5.9",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-flycapture-2.13.3.31-1.5.9"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-flycapture-platform-2.13.3.31-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-flycapture-platform-2.13.3.31-1.5.9-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-flycapture-platform-2.13.3.31-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-flycapture-platform-2.13.3.31-1.5.9-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-javacpp-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-javacpp-1.5.12-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-javacpp-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-javacpp-1.5.12-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-javacpp-platform-1.5.12",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-javacpp-1.5.12"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-javacpp-platform-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-javacpp-platform-1.5.12-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-javacpp-platform-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-javacpp-platform-1.5.12-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-leptonica-1.85.0-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-leptonica-1.85.0-1.5.12-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-leptonica-1.85.0-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-leptonica-1.85.0-1.5.12-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-leptonica-platform-1.85.0-1.5.12",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-leptonica-1.85.0-1.5.12"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-leptonica-platform-1.85.0-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-leptonica-platform-1.85.0-1.5.12-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-leptonica-platform-1.85.0-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-leptonica-platform-1.85.0-1.5.12-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-libdc1394-2.2.6-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-libdc1394-2.2.6-1.5.9-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-libdc1394-2.2.6-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-libdc1394-2.2.6-1.5.9-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-libdc1394-platform-2.2.6-1.5.9",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-libdc1394-2.2.6-1.5.9"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-libdc1394-platform-2.2.6-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-libdc1394-platform-2.2.6-1.5.9-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-libdc1394-platform-2.2.6-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-libdc1394-platform-2.2.6-1.5.9-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-libfreenect-0.5.7-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-libfreenect-0.5.7-1.5.9-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-libfreenect-0.5.7-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-libfreenect-0.5.7-1.5.9-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-libfreenect-platform-0.5.7-1.5.9",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-libfreenect-0.5.7-1.5.9"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-libfreenect-platform-0.5.7-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-libfreenect-platform-0.5.7-1.5.9-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-libfreenect-platform-0.5.7-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-libfreenect-platform-0.5.7-1.5.9-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-libfreenect2-0.2.0-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-libfreenect2-0.2.0-1.5.9-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-libfreenect2-0.2.0-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-libfreenect2-0.2.0-1.5.9-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-libfreenect2-platform-0.2.0-1.5.9",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-libfreenect2-0.2.0-1.5.9"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-libfreenect2-platform-0.2.0-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-libfreenect2-platform-0.2.0-1.5.9-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-libfreenect2-platform-0.2.0-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-libfreenect2-platform-0.2.0-1.5.9-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-librealsense-1.12.4-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-librealsense-1.12.4-1.5.9-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-librealsense-1.12.4-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-librealsense-1.12.4-1.5.9-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-librealsense-platform-1.12.4-1.5.9",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-librealsense-1.12.4-1.5.9"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-librealsense-platform-1.12.4-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-librealsense-platform-1.12.4-1.5.9-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-librealsense-platform-1.12.4-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-librealsense-platform-1.12.4-1.5.9-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-librealsense2-2.53.1-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-librealsense2-2.53.1-1.5.9-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-librealsense2-2.53.1-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-librealsense2-2.53.1-1.5.9-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-librealsense2-platform-2.53.1-1.5.9",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-librealsense2-2.53.1-1.5.9"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-librealsense2-platform-2.53.1-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-librealsense2-platform-2.53.1-1.5.9-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-librealsense2-platform-2.53.1-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-librealsense2-platform-2.53.1-1.5.9-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-openblas-0.3.30-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-openblas-0.3.30-1.5.12-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-openblas-0.3.30-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-openblas-0.3.30-1.5.12-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-openblas-platform-0.3.30-1.5.12",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-openblas-0.3.30-1.5.12"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-openblas-platform-0.3.30-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-openblas-platform-0.3.30-1.5.12-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-openblas-platform-0.3.30-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-openblas-platform-0.3.30-1.5.12-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-opencv-4.11.0-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-opencv-4.11.0-1.5.12-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-opencv-4.11.0-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-opencv-4.11.0-1.5.12-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-opencv-platform-4.11.0-1.5.12",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-opencv-4.11.0-1.5.12"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-opencv-platform-4.11.0-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-opencv-platform-4.11.0-1.5.12-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-opencv-platform-4.11.0-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-opencv-platform-4.11.0-1.5.12-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-opencv-platform-gpu-4.11.0-1.5.12",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-opencv-4.11.0-1.5.12"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-opencv-platform-gpu-4.11.0-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-opencv-platform-gpu-4.11.0-1.5.12-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-opencv-platform-gpu-4.11.0-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-opencv-platform-gpu-4.11.0-1.5.12-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-tesseract-5.5.1-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-tesseract-5.5.1-1.5.12-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-tesseract-5.5.1-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-tesseract-5.5.1-1.5.12-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-tesseract-platform-5.5.1-1.5.12",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-tesseract-5.5.1-1.5.12"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-tesseract-platform-5.5.1-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-tesseract-platform-5.5.1-1.5.12-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-tesseract-platform-5.5.1-1.5.12",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-tesseract-platform-5.5.1-1.5.12-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-videoinput-0.200-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-videoinput-0.200-1.5.9-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-videoinput-0.200-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-videoinput-0.200-1.5.9-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-videoinput-platform-0.200-1.5.9",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-videoinput-0.200-1.5.9"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-videoinput-platform-0.200-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-videoinput-platform-0.200-1.5.9-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.bytedeco-videoinput-platform-0.200-1.5.9",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-videoinput-platform-0.200-1.5.9-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.hamcrest-hamcrest-core-1.3",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.hamcrest-hamcrest-core-1.3-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.hamcrest-hamcrest-core-1.3",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.hamcrest-hamcrest-core-1.3-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.jogamp.gluegen-gluegen-rt-2.3.2",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.jogamp.gluegen-gluegen-rt-2.3.2-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.jogamp.gluegen-gluegen-rt-2.3.2",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.jogamp.gluegen-gluegen-rt-2.3.2-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.jogamp.gluegen-gluegen-rt-main-2.3.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.jogamp.gluegen-gluegen-rt-2.3.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.jogamp.gluegen-gluegen-rt-main-2.3.2",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.jogamp.gluegen-gluegen-rt-main-2.3.2-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.jogamp.gluegen-gluegen-rt-main-2.3.2",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.jogamp.gluegen-gluegen-rt-main-2.3.2-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.jogamp.jocl-jocl-2.3.2",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.jogamp.jocl-jocl-2.3.2-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.jogamp.jocl-jocl-2.3.2",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.jogamp.jocl-jocl-2.3.2-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.jogamp.jocl-jocl-main-2.3.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.jogamp.jocl-jocl-2.3.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.jogamp.jocl-jocl-main-2.3.2",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.jogamp.jocl-jocl-main-2.3.2-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.jogamp.jocl-jocl-main-2.3.2",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.jogamp.jocl-jocl-main-2.3.2-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.jogamp.jogl-jogl-all-2.3.2",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.jogamp.jogl-jogl-all-2.3.2-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.jogamp.jogl-jogl-all-2.3.2",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.jogamp.jogl-jogl-all-2.3.2-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.jogamp.jogl-jogl-all-main-2.3.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.jogamp.jogl-jogl-all-2.3.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.jogamp.jogl-jogl-all-main-2.3.2",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.jogamp.jogl-jogl-all-main-2.3.2-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.jogamp.jogl-jogl-all-main-2.3.2",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.jogamp.jogl-jogl-all-main-2.3.2-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.openjfx-javafx-base-21",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.openjfx-javafx-base-21"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.openjfx-javafx-base-21",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.openjfx-javafx-base-21-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.openjfx-javafx-base-21",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.openjfx-javafx-base-21-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.openjfx-javafx-graphics-21",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.openjfx-javafx-base-21"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.openjfx-javafx-graphics-21",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.openjfx-javafx-graphics-21"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.openjfx-javafx-graphics-21",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.openjfx-javafx-graphics-21-source-artifact"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-Maven-org.openjfx-javafx-graphics-21",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.openjfx-javafx-graphics-21-vcs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Project-Maven-org.bytedeco.javacv-demo-1.5.12",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-ffmpeg-platform-gpl-7.1.1-1.5.12"
+    },
+    {
+      "spdxElementId": "SPDXRef-Project-Maven-org.bytedeco.javacv-demo-1.5.12",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-javacv-platform-1.5.12"
+    },
+    {
+      "spdxElementId": "SPDXRef-Project-Maven-org.bytedeco.javacv-demo-1.5.12",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-Maven-org.bytedeco-opencv-platform-gpu-4.11.0-1.5.12"
+    }
+  ]
+}

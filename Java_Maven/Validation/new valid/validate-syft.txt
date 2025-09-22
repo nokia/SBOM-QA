@@ -1,0 +1,381 @@
+Validating normal.syft.json
++----+--------------+--------------+------------------------+---------------------------+
+| #  | Error type   | SPDX ID      | Package name           | Reason                    |
++----+--------------+--------------+------------------------+---------------------------+
+| 1  | NTIA         | SPDXRef-Docu | .                      | Package without a version |
+|    | validation   | mentRoot-    |                        |                           |
+|    | error        | Directory-.  |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 2  | NTIA         | SPDXRef-     | android                | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-andr |                        |                           |
+|    |              | oid-         |                        |                           |
+|    |              | 63077f6d4a56 |                        |                           |
+|    |              | 5ed5         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 3  | NTIA         | SPDXRef-     | artoolkitplus          | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-arto |                        |                           |
+|    |              | olkitplus-de |                        |                           |
+|    |              | 45a73f612143 |                        |                           |
+|    |              | 81           |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 4  | NTIA         | SPDXRef-     | artoolkitplus-platform | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-arto |                        |                           |
+|    |              | olkitplus-pl |                        |                           |
+|    |              | atform-      |                        |                           |
+|    |              | c80efdcdcb79 |                        |                           |
+|    |              | 3bcf         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 5  | NTIA         | SPDXRef-     | demo                   | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-demo |                        |                           |
+|    |              | -876fc1abf48 |                        |                           |
+|    |              | 530e3        |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 6  | NTIA         | SPDXRef-     | ffmpeg                 | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-ffmp |                        |                           |
+|    |              | eg-          |                        |                           |
+|    |              | d2164418f2d4 |                        |                           |
+|    |              | f2ae         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 7  | NTIA         | SPDXRef-     | ffmpeg-platform        | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-     |                        |                           |
+|    |              | ffmpeg-platf |                        |                           |
+|    |              | orm-         |                        |                           |
+|    |              | c344e0bd90d6 |                        |                           |
+|    |              | 4977         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 8  | NTIA         | SPDXRef-     | ffmpeg-platform-gpl    | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-     |                        |                           |
+|    |              | ffmpeg-      |                        |                           |
+|    |              | platform-gpl |                        |                           |
+|    |              | -0350ced3f12 |                        |                           |
+|    |              | 0f406        |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 9  | NTIA         | SPDXRef-     | flycapture             | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-flyc |                        |                           |
+|    |              | apture-      |                        |                           |
+|    |              | 284d1223bfaa |                        |                           |
+|    |              | 9e8b         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 10 | NTIA         | SPDXRef-     | flycapture-platform    | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-     |                        |                           |
+|    |              | flycapture-p |                        |                           |
+|    |              | latform-     |                        |                           |
+|    |              | 0c7e52e693aa |                        |                           |
+|    |              | b0fd         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 11 | NTIA         | SPDXRef-     | gdx                    | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-gdx- |                        |                           |
+|    |              | 144520703b30 |                        |                           |
+|    |              | a923         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 12 | NTIA         | SPDXRef-     | gluegen-rt-main        | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-     |                        |                           |
+|    |              | gluegen-rt-  |                        |                           |
+|    |              | main-fe8a464 |                        |                           |
+|    |              | 9491ebef6    |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 13 | NTIA         | SPDXRef-     | javacpp                | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-java |                        |                           |
+|    |              | cpp-         |                        |                           |
+|    |              | 088ccae01916 |                        |                           |
+|    |              | 52ef         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 14 | NTIA         | SPDXRef-     | javacpp-platform       | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-     |                        |                           |
+|    |              | javacpp-plat |                        |                           |
+|    |              | form-        |                        |                           |
+|    |              | a3016a4880e9 |                        |                           |
+|    |              | 5a84         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 15 | NTIA         | SPDXRef-     | javacv                 | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-java |                        |                           |
+|    |              | cv-          |                        |                           |
+|    |              | e8aac55dc022 |                        |                           |
+|    |              | b344         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 16 | NTIA         | SPDXRef-     | javacv-platform        | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-     |                        |                           |
+|    |              | javacv-platf |                        |                           |
+|    |              | orm-         |                        |                           |
+|    |              | a0db3fb7575d |                        |                           |
+|    |              | 1a6f         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 17 | NTIA         | SPDXRef-     | javafx-graphics        | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-     |                        |                           |
+|    |              | javafx-graph |                        |                           |
+|    |              | ics-         |                        |                           |
+|    |              | 8a733780e916 |                        |                           |
+|    |              | ee52         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 18 | NTIA         | SPDXRef-     | javafx-graphics        | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-     |                        |                           |
+|    |              | javafx-graph |                        |                           |
+|    |              | ics-         |                        |                           |
+|    |              | c831a6c9a49c |                        |                           |
+|    |              | 25d9         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 19 | NTIA         | SPDXRef-     | javafx-graphics        | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-     |                        |                           |
+|    |              | javafx-graph |                        |                           |
+|    |              | ics-         |                        |                           |
+|    |              | 8c121f78fbe0 |                        |                           |
+|    |              | f30f         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 20 | NTIA         | SPDXRef-     | jocl-main              | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-     |                        |                           |
+|    |              | jocl-main-   |                        |                           |
+|    |              | 757d623bb912 |                        |                           |
+|    |              | 8fd7         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 21 | NTIA         | SPDXRef-     | jogl-all-main          | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-     |                        |                           |
+|    |              | jogl-all-    |                        |                           |
+|    |              | main-cf69c36 |                        |                           |
+|    |              | c9a97a780    |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 22 | NTIA         | SPDXRef-     | junit                  | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-juni |                        |                           |
+|    |              | t-           |                        |                           |
+|    |              | 400af29f68d2 |                        |                           |
+|    |              | 73fb         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 23 | NTIA         | SPDXRef-     | leptonica              | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-lept |                        |                           |
+|    |              | onica-       |                        |                           |
+|    |              | 007ea37864c7 |                        |                           |
+|    |              | e5af         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 24 | NTIA         | SPDXRef-     | leptonica-platform     | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-     |                        |                           |
+|    |              | leptonica-pl |                        |                           |
+|    |              | atform-      |                        |                           |
+|    |              | e18e944508c7 |                        |                           |
+|    |              | e8a4         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 25 | NTIA         | SPDXRef-     | libdc1394              | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-libd |                        |                           |
+|    |              | c1394-       |                        |                           |
+|    |              | 2eaf4370f657 |                        |                           |
+|    |              | 43e5         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 26 | NTIA         | SPDXRef-     | libdc1394-platform     | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-libd |                        |                           |
+|    |              | c1394-       |                        |                           |
+|    |              | platform-    |                        |                           |
+|    |              | c53617a7331d |                        |                           |
+|    |              | f86f         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 27 | NTIA         | SPDXRef-     | libfreenect            | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-libf |                        |                           |
+|    |              | reenect-     |                        |                           |
+|    |              | 83ce962014c3 |                        |                           |
+|    |              | 3ca0         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 28 | NTIA         | SPDXRef-     | libfreenect-platform   | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-     |                        |                           |
+|    |              | libfreenect- |                        |                           |
+|    |              | platform-    |                        |                           |
+|    |              | 60fe1df61cc1 |                        |                           |
+|    |              | c5fe         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 29 | NTIA         | SPDXRef-     | libfreenect2           | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-libf |                        |                           |
+|    |              | reenect2-    |                        |                           |
+|    |              | c3257ca4d1bb |                        |                           |
+|    |              | cf39         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 30 | NTIA         | SPDXRef-     | libfreenect2-platform  | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-libf |                        |                           |
+|    |              | reenect2-    |                        |                           |
+|    |              | platform-    |                        |                           |
+|    |              | 1fc7bfa32ffd |                        |                           |
+|    |              | 0aad         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 31 | NTIA         | SPDXRef-     | librealsense           | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-libr |                        |                           |
+|    |              | ealsense-    |                        |                           |
+|    |              | 5c1be6adf8ba |                        |                           |
+|    |              | 493c         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 32 | NTIA         | SPDXRef-     | librealsense-platform  | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-libr |                        |                           |
+|    |              | ealsense-pla |                        |                           |
+|    |              | tform-       |                        |                           |
+|    |              | e7a781486f89 |                        |                           |
+|    |              | 516e         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 33 | NTIA         | SPDXRef-     | librealsense2          | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-libr |                        |                           |
+|    |              | ealsense2-   |                        |                           |
+|    |              | b0a144e9e3c7 |                        |                           |
+|    |              | a2f7         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 34 | NTIA         | SPDXRef-     | librealsense2-platform | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-libr |                        |                           |
+|    |              | ealsense2-   |                        |                           |
+|    |              | platform-    |                        |                           |
+|    |              | a5891453fc74 |                        |                           |
+|    |              | 2c2c         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 35 | NTIA         | SPDXRef-     | openblas               | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-     |                        |                           |
+|    |              | openblas-ac1 |                        |                           |
+|    |              | 1db2b3381e4a |                        |                           |
+|    |              | 3            |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 36 | NTIA         | SPDXRef-     | openblas-platform      | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-     |                        |                           |
+|    |              | openblas-pla |                        |                           |
+|    |              | tform-       |                        |                           |
+|    |              | 361ef63c98e1 |                        |                           |
+|    |              | 1a10         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 37 | NTIA         | SPDXRef-     | opencv                 | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-open |                        |                           |
+|    |              | cv-          |                        |                           |
+|    |              | b30bc7302134 |                        |                           |
+|    |              | 02b1         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 38 | NTIA         | SPDXRef-     | opencv-platform        | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-     |                        |                           |
+|    |              | opencv-platf |                        |                           |
+|    |              | orm-         |                        |                           |
+|    |              | 5e4922d578fc |                        |                           |
+|    |              | 0947         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 39 | NTIA         | SPDXRef-     | opencv-platform-gpu    | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-     |                        |                           |
+|    |              | opencv-      |                        |                           |
+|    |              | platform-gpu |                        |                           |
+|    |              | -a0d3ebafc64 |                        |                           |
+|    |              | 004a7        |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 40 | NTIA         | SPDXRef-     | openjfx-78-backport    | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-open |                        |                           |
+|    |              | jfx-78-      |                        |                           |
+|    |              | backport-    |                        |                           |
+|    |              | 9dc67348a671 |                        |                           |
+|    |              | c823         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 41 | NTIA         | SPDXRef-     | tesseract              | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-tess |                        |                           |
+|    |              | eract-       |                        |                           |
+|    |              | a046b29161b9 |                        |                           |
+|    |              | 94b6         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 42 | NTIA         | SPDXRef-     | tesseract-platform     | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-     |                        |                           |
+|    |              | tesseract-pl |                        |                           |
+|    |              | atform-      |                        |                           |
+|    |              | a68ba28f550a |                        |                           |
+|    |              | 2cad         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 43 | NTIA         | SPDXRef-     | videoinput             | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-vide |                        |                           |
+|    |              | oinput-      |                        |                           |
+|    |              | b5a4abb18f44 |                        |                           |
+|    |              | f650         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 44 | NTIA         | SPDXRef-     | videoinput-platform    | Package without a package |
+|    | validation   | Package-     |                        | supplier                  |
+|    | error        | java-        |                        |                           |
+|    |              | archive-     |                        |                           |
+|    |              | videoinput-p |                        |                           |
+|    |              | latform-     |                        |                           |
+|    |              | 1147eb92f716 |                        |                           |
+|    |              | 150b         |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 45 | NTIA         | SPDXRef-Docu | .                      | Package without a package |
+|    | validation   | mentRoot-    |                        | supplier                  |
+|    | error        | Directory-.  |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+| 46 | Missing      | General      | General                | CreatorComment is missing |
+|    | mandatory    |              |                        |                           |
+|    | field from   |              |                        |                           |
+|    | CreationInfo |              |                        |                           |
++----+--------------+--------------+------------------------+---------------------------+
+The SPDX file final.projects/java.maven/normal.syft.json is not compliant with the OpenChain Telco SBOM Guide version 1.1

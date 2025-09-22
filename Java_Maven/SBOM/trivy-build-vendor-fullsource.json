@@ -1,0 +1,5243 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": ".",
+  "documentNamespace": "http://trivy.dev/filesystem/.-db5c02d4-8f02-43f5-8d5d-0d8b442b6b8e",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.63.0"
+    ],
+    "created": "2025-08-01T09:34:56Z"
+  },
+  "packages": [
+    {
+      "name": "full-source/META-INF/maven/org.bytedeco/artoolkitplus/pom.xml",
+      "SPDXID": "SPDXRef-Application-48f207ae156699f2",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "full-source/META-INF/maven/org.bytedeco/ffmpeg/pom.xml",
+      "SPDXID": "SPDXRef-Application-827131c4f484d9d",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "full-source/META-INF/maven/org.bytedeco/flycapture/pom.xml",
+      "SPDXID": "SPDXRef-Application-6735c3d1c84ed40b",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "full-source/META-INF/maven/org.bytedeco/javacpp/pom.xml",
+      "SPDXID": "SPDXRef-Application-ddade61fe613b92",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "full-source/META-INF/maven/org.bytedeco/javacv/pom.xml",
+      "SPDXID": "SPDXRef-Application-8b06c0997f820c07",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "full-source/META-INF/maven/org.bytedeco/leptonica/pom.xml",
+      "SPDXID": "SPDXRef-Application-a58ffb2ceb22da22",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "full-source/META-INF/maven/org.bytedeco/libfreenect2/pom.xml",
+      "SPDXID": "SPDXRef-Application-26cf306185b06aa8",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "full-source/META-INF/maven/org.bytedeco/librealsense/pom.xml",
+      "SPDXID": "SPDXRef-Application-9fb6ec1eb3e7d112",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "full-source/META-INF/maven/org.bytedeco/librealsense2/pom.xml",
+      "SPDXID": "SPDXRef-Application-c15ff96a34e8e036",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "full-source/META-INF/maven/org.bytedeco/openblas/pom.xml",
+      "SPDXID": "SPDXRef-Application-1ca7ac7163d4bcee",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "full-source/META-INF/maven/org.bytedeco/opencv/pom.xml",
+      "SPDXID": "SPDXRef-Application-c73f47f286ae96b6",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "full-source/META-INF/maven/org.bytedeco/tesseract/pom.xml",
+      "SPDXID": "SPDXRef-Application-49c05b9913ce61ef",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "full-source/META-INF/maven/org.bytedeco/videoinput/pom.xml",
+      "SPDXID": "SPDXRef-Application-224cdb058ebd2d28",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "platform/pom.xml",
+      "SPDXID": "SPDXRef-Application-f6ba57c0a2713684",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "pom.xml",
+      "SPDXID": "SPDXRef-Application-f8f4c07e63afadde",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "samples/pom.xml",
+      "SPDXID": "SPDXRef-Application-6d22f9c9fdcfe773",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco.javacv:demo",
+      "SPDXID": "SPDXRef-Package-4d9193445db6d7a",
+      "versionInfo": "1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco.javacv/demo@1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco.javacv:demo:1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:artoolkitplus",
+      "SPDXID": "SPDXRef-Package-130da500fd28528f",
+      "versionInfo": "2.3.1-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/artoolkitplus@2.3.1-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:artoolkitplus:2.3.1-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:artoolkitplus",
+      "SPDXID": "SPDXRef-Package-172b82e746a37f04",
+      "versionInfo": "2.3.1-",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/artoolkitplus/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/artoolkitplus@2.3.1-"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:artoolkitplus:2.3.1-"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:artoolkitplus",
+      "SPDXID": "SPDXRef-Package-1d0cab341a1cb3d6",
+      "versionInfo": "2.3.1-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/artoolkitplus@2.3.1-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:artoolkitplus:2.3.1-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:artoolkitplus",
+      "SPDXID": "SPDXRef-Package-58a05420c25667e0",
+      "versionInfo": "2.3.1-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/artoolkitplus@2.3.1-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:artoolkitplus:2.3.1-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:artoolkitplus",
+      "SPDXID": "SPDXRef-Package-d361dc2ddfe6baf3",
+      "versionInfo": "2.3.1-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/javacv/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/artoolkitplus@2.3.1-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:artoolkitplus:2.3.1-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:artoolkitplus-platform",
+      "SPDXID": "SPDXRef-Package-e783239b593574d8",
+      "versionInfo": "2.3.1-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/artoolkitplus-platform@2.3.1-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:artoolkitplus-platform:2.3.1-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:artoolkitplus-platform",
+      "SPDXID": "SPDXRef-Package-fc5d5b11630a5492",
+      "versionInfo": "2.3.1-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/artoolkitplus-platform@2.3.1-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:artoolkitplus-platform:2.3.1-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:ffmpeg",
+      "SPDXID": "SPDXRef-Package-3c36ae24a76803a2",
+      "versionInfo": "7.1.1-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg@7.1.1-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:ffmpeg:7.1.1-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:ffmpeg",
+      "SPDXID": "SPDXRef-Package-6dd34a480ac61b72",
+      "versionInfo": "7.1.1-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg@7.1.1-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:ffmpeg:7.1.1-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:ffmpeg",
+      "SPDXID": "SPDXRef-Package-9a72bfa0098910a4",
+      "versionInfo": "7.1.1-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/javacv/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg@7.1.1-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:ffmpeg:7.1.1-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:ffmpeg",
+      "SPDXID": "SPDXRef-Package-ae71e8509b5dc482",
+      "versionInfo": "7.1.1-",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg@7.1.1-"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:ffmpeg:7.1.1-"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:ffmpeg",
+      "SPDXID": "SPDXRef-Package-d6055dc444e342c7",
+      "versionInfo": "7.1.1-",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/ffmpeg/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg@7.1.1-"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:ffmpeg:7.1.1-"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:ffmpeg-platform",
+      "SPDXID": "SPDXRef-Package-5f931abd4a4e09e8",
+      "versionInfo": "7.1.1-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg-platform@7.1.1-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:ffmpeg-platform:7.1.1-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:ffmpeg-platform",
+      "SPDXID": "SPDXRef-Package-cc1c322ec30452c8",
+      "versionInfo": "7.1.1-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg-platform@7.1.1-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:ffmpeg-platform:7.1.1-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:ffmpeg-platform-gpl",
+      "SPDXID": "SPDXRef-Package-38f94bdf5da12e77",
+      "versionInfo": "7.1.1-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg-platform-gpl@7.1.1-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:ffmpeg-platform-gpl:7.1.1-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:flycapture",
+      "SPDXID": "SPDXRef-Package-37a7b6dff6d5f0e",
+      "versionInfo": "2.13.3.31-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/flycapture@2.13.3.31-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:flycapture:2.13.3.31-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:flycapture",
+      "SPDXID": "SPDXRef-Package-7567ddc8aa37145b",
+      "versionInfo": "2.13.3.31-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/flycapture@2.13.3.31-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:flycapture:2.13.3.31-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:flycapture",
+      "SPDXID": "SPDXRef-Package-b3c42c43523a028d",
+      "versionInfo": "2.13.3.31-",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/flycapture/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/flycapture@2.13.3.31-"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:flycapture:2.13.3.31-"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:flycapture",
+      "SPDXID": "SPDXRef-Package-c7e24bc313162c7e",
+      "versionInfo": "2.13.3.31-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/flycapture@2.13.3.31-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:flycapture:2.13.3.31-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:flycapture",
+      "SPDXID": "SPDXRef-Package-ec1c55bf334b119c",
+      "versionInfo": "2.13.3.31-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/javacv/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/flycapture@2.13.3.31-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:flycapture:2.13.3.31-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:flycapture-platform",
+      "SPDXID": "SPDXRef-Package-7e83058dbf20806c",
+      "versionInfo": "2.13.3.31-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/flycapture-platform@2.13.3.31-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:flycapture-platform:2.13.3.31-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:flycapture-platform",
+      "SPDXID": "SPDXRef-Package-92f8a1bdc74243da",
+      "versionInfo": "2.13.3.31-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/flycapture-platform@2.13.3.31-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:flycapture-platform:2.13.3.31-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacpp",
+      "SPDXID": "SPDXRef-Package-17ae7707343f45e5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/tesseract/pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacpp"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacpp",
+      "SPDXID": "SPDXRef-Package-1bcc180660e566cd",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/libfreenect2/pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacpp"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacpp",
+      "SPDXID": "SPDXRef-Package-24573e01dc30319e",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/leptonica/pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacpp"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacpp",
+      "SPDXID": "SPDXRef-Package-34688c4a30f5bb42",
+      "versionInfo": "1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp@1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacpp:1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacpp",
+      "SPDXID": "SPDXRef-Package-46a146b4d2683a81",
+      "versionInfo": "1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp@1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacpp:1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacpp",
+      "SPDXID": "SPDXRef-Package-672b13846e7c4276",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/ffmpeg/pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacpp"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacpp",
+      "SPDXID": "SPDXRef-Package-6c439749c9fcb088",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/videoinput/pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacpp"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacpp",
+      "SPDXID": "SPDXRef-Package-6fbc64d90380110a",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/librealsense2/pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacpp"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacpp",
+      "SPDXID": "SPDXRef-Package-738843175d76a09",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/opencv/pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacpp"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacpp",
+      "SPDXID": "SPDXRef-Package-81d85629c35af435",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/artoolkitplus/pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacpp"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacpp",
+      "SPDXID": "SPDXRef-Package-a2bd930ea452e549",
+      "versionInfo": "1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/javacpp/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp@1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacpp:1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacpp",
+      "SPDXID": "SPDXRef-Package-d7aa686906964ac7",
+      "versionInfo": "1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/javacv/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp@1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacpp:1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacpp",
+      "SPDXID": "SPDXRef-Package-e5a81c2d3f342d34",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/librealsense/pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacpp"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacpp",
+      "SPDXID": "SPDXRef-Package-f3bef0cc3c0fa10f",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/flycapture/pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacpp"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacpp",
+      "SPDXID": "SPDXRef-Package-f9b8926d3f60dc3f",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/openblas/pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacpp"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacpp",
+      "SPDXID": "SPDXRef-Package-fe10fd8c393bdbe1",
+      "versionInfo": "1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp@1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacpp:1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacpp-platform",
+      "SPDXID": "SPDXRef-Package-64dc204e0e073210",
+      "versionInfo": "1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp-platform@1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacpp-platform:1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacpp-platform",
+      "SPDXID": "SPDXRef-Package-e0bcc98f9f779340",
+      "versionInfo": "1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp-platform@1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacpp-platform:1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacv",
+      "SPDXID": "SPDXRef-Package-1c96b9a81e94dce5",
+      "versionInfo": "1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacv@1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacv:1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacv",
+      "SPDXID": "SPDXRef-Package-30f08fdcc7bf7982",
+      "versionInfo": "1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacv@1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacv:1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacv",
+      "SPDXID": "SPDXRef-Package-5093e1bc07414e34",
+      "versionInfo": "1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/javacv/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacv@1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacv:1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacv",
+      "SPDXID": "SPDXRef-Package-bb56c84e1b429714",
+      "versionInfo": "1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacv@1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacv:1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacv-platform",
+      "SPDXID": "SPDXRef-Package-d60d56e9f21acae0",
+      "versionInfo": "1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacv-platform@1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacv-platform:1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacv-platform",
+      "SPDXID": "SPDXRef-Package-dbb34540ddf7c18c",
+      "versionInfo": "1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacv-platform@1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacv-platform:1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:leptonica",
+      "SPDXID": "SPDXRef-Package-6bc8079f77e7b06d",
+      "versionInfo": "1.85.0-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/leptonica@1.85.0-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:leptonica:1.85.0-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:leptonica",
+      "SPDXID": "SPDXRef-Package-7b76ff48d220377",
+      "versionInfo": "1.85.0-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/leptonica@1.85.0-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:leptonica:1.85.0-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:leptonica",
+      "SPDXID": "SPDXRef-Package-9cf4c76a914b04c2",
+      "versionInfo": "1.85.0-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/leptonica@1.85.0-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:leptonica:1.85.0-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:leptonica",
+      "SPDXID": "SPDXRef-Package-cb9bf5afc5bde71b",
+      "versionInfo": "1.85.0-",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/leptonica/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/leptonica@1.85.0-"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:leptonica:1.85.0-"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:leptonica",
+      "SPDXID": "SPDXRef-Package-e121451ce6b30f25",
+      "versionInfo": "1.85.0-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/javacv/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/leptonica@1.85.0-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:leptonica:1.85.0-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:leptonica",
+      "SPDXID": "SPDXRef-Package-f19de7c9589de192",
+      "versionInfo": "1.85.0-",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/tesseract/pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/leptonica@1.85.0-"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:leptonica:1.85.0-"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:leptonica-platform",
+      "SPDXID": "SPDXRef-Package-bf877f1aabc921b4",
+      "versionInfo": "1.85.0-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/leptonica-platform@1.85.0-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:leptonica-platform:1.85.0-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:leptonica-platform",
+      "SPDXID": "SPDXRef-Package-c919631c5b017160",
+      "versionInfo": "1.85.0-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/leptonica-platform@1.85.0-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:leptonica-platform:1.85.0-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:libdc1394",
+      "SPDXID": "SPDXRef-Package-2d9cae1037d53c84",
+      "versionInfo": "2.2.6-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/javacv/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libdc1394@2.2.6-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:libdc1394:2.2.6-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:libdc1394",
+      "SPDXID": "SPDXRef-Package-6f38343a6f5d84b9",
+      "versionInfo": "2.2.6-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libdc1394@2.2.6-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:libdc1394:2.2.6-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:libdc1394",
+      "SPDXID": "SPDXRef-Package-818c8cced3e2e88e",
+      "versionInfo": "2.2.6-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libdc1394@2.2.6-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:libdc1394:2.2.6-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:libdc1394",
+      "SPDXID": "SPDXRef-Package-a8960b46551688a4",
+      "versionInfo": "2.2.6-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libdc1394@2.2.6-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:libdc1394:2.2.6-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:libdc1394-platform",
+      "SPDXID": "SPDXRef-Package-bcab536ce3368669",
+      "versionInfo": "2.2.6-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libdc1394-platform@2.2.6-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:libdc1394-platform:2.2.6-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:libdc1394-platform",
+      "SPDXID": "SPDXRef-Package-e18c9d69776748a4",
+      "versionInfo": "2.2.6-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libdc1394-platform@2.2.6-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:libdc1394-platform:2.2.6-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:libfreenect",
+      "SPDXID": "SPDXRef-Package-532dae33733a93e1",
+      "versionInfo": "0.5.7-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/javacv/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect@0.5.7-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:libfreenect:0.5.7-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:libfreenect",
+      "SPDXID": "SPDXRef-Package-c1a12c60a52188bd",
+      "versionInfo": "0.5.7-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect@0.5.7-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:libfreenect:0.5.7-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:libfreenect",
+      "SPDXID": "SPDXRef-Package-e15778fbfb3f62d1",
+      "versionInfo": "0.5.7-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect@0.5.7-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:libfreenect:0.5.7-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:libfreenect",
+      "SPDXID": "SPDXRef-Package-e458102eaa949993",
+      "versionInfo": "0.5.7-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect@0.5.7-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:libfreenect:0.5.7-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:libfreenect-platform",
+      "SPDXID": "SPDXRef-Package-33d9f672fda6e0ed",
+      "versionInfo": "0.5.7-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect-platform@0.5.7-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:libfreenect-platform:0.5.7-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:libfreenect-platform",
+      "SPDXID": "SPDXRef-Package-7b037cc38cee0fd2",
+      "versionInfo": "0.5.7-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect-platform@0.5.7-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:libfreenect-platform:0.5.7-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:libfreenect2",
+      "SPDXID": "SPDXRef-Package-7b31ab25acd86b42",
+      "versionInfo": "0.2.0-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect2@0.2.0-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:libfreenect2:0.2.0-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:libfreenect2",
+      "SPDXID": "SPDXRef-Package-8e9dd93cc21c3a98",
+      "versionInfo": "0.2.0-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/javacv/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect2@0.2.0-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:libfreenect2:0.2.0-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:libfreenect2",
+      "SPDXID": "SPDXRef-Package-a3ba5af652bd4f3e",
+      "versionInfo": "0.2.0-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect2@0.2.0-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:libfreenect2:0.2.0-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:libfreenect2",
+      "SPDXID": "SPDXRef-Package-d4165d476847a4a3",
+      "versionInfo": "0.2.0-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect2@0.2.0-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:libfreenect2:0.2.0-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:libfreenect2",
+      "SPDXID": "SPDXRef-Package-df6846a18844d708",
+      "versionInfo": "0.2.0-",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/libfreenect2/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect2@0.2.0-"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:libfreenect2:0.2.0-"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:libfreenect2-platform",
+      "SPDXID": "SPDXRef-Package-7672656630bcb44",
+      "versionInfo": "0.2.0-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect2-platform@0.2.0-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:libfreenect2-platform:0.2.0-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:libfreenect2-platform",
+      "SPDXID": "SPDXRef-Package-f882747e425fabff",
+      "versionInfo": "0.2.0-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/libfreenect2-platform@0.2.0-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:libfreenect2-platform:0.2.0-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:librealsense",
+      "SPDXID": "SPDXRef-Package-acfb333d9819c2b",
+      "versionInfo": "1.12.4-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense@1.12.4-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:librealsense:1.12.4-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:librealsense",
+      "SPDXID": "SPDXRef-Package-b7cdcf834f12da1",
+      "versionInfo": "1.12.4-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense@1.12.4-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:librealsense:1.12.4-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:librealsense",
+      "SPDXID": "SPDXRef-Package-c892ea509467c5c",
+      "versionInfo": "1.12.4-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense@1.12.4-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:librealsense:1.12.4-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:librealsense",
+      "SPDXID": "SPDXRef-Package-cd1419abb8ea6fea",
+      "versionInfo": "1.12.4-",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/librealsense/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense@1.12.4-"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:librealsense:1.12.4-"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:librealsense",
+      "SPDXID": "SPDXRef-Package-dee820193a91aec9",
+      "versionInfo": "1.12.4-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/javacv/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense@1.12.4-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:librealsense:1.12.4-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:librealsense-platform",
+      "SPDXID": "SPDXRef-Package-25e72e12479e76ec",
+      "versionInfo": "1.12.4-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense-platform@1.12.4-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:librealsense-platform:1.12.4-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:librealsense-platform",
+      "SPDXID": "SPDXRef-Package-eb72a891dc0a1705",
+      "versionInfo": "1.12.4-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense-platform@1.12.4-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:librealsense-platform:1.12.4-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:librealsense2",
+      "SPDXID": "SPDXRef-Package-1660674d3daf7e56",
+      "versionInfo": "2.53.1-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense2@2.53.1-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:librealsense2:2.53.1-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:librealsense2",
+      "SPDXID": "SPDXRef-Package-906a9a99cff01a9d",
+      "versionInfo": "2.53.1-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense2@2.53.1-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:librealsense2:2.53.1-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:librealsense2",
+      "SPDXID": "SPDXRef-Package-a9c92a8fd910fa94",
+      "versionInfo": "2.53.1-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/javacv/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense2@2.53.1-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:librealsense2:2.53.1-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:librealsense2",
+      "SPDXID": "SPDXRef-Package-e961ad689efeac12",
+      "versionInfo": "2.53.1-",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/librealsense2/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense2@2.53.1-"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:librealsense2:2.53.1-"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:librealsense2",
+      "SPDXID": "SPDXRef-Package-f2ef63e752401250",
+      "versionInfo": "2.53.1-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense2@2.53.1-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:librealsense2:2.53.1-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:librealsense2-platform",
+      "SPDXID": "SPDXRef-Package-32911cb190809e3b",
+      "versionInfo": "2.53.1-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense2-platform@2.53.1-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:librealsense2-platform:2.53.1-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:librealsense2-platform",
+      "SPDXID": "SPDXRef-Package-f7553087b3bec503",
+      "versionInfo": "2.53.1-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/librealsense2-platform@2.53.1-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:librealsense2-platform:2.53.1-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:openblas",
+      "SPDXID": "SPDXRef-Package-272269deed67434",
+      "versionInfo": "0.3.30-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/openblas@0.3.30-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:openblas:0.3.30-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:openblas",
+      "SPDXID": "SPDXRef-Package-5608e88bd2ab9dff",
+      "versionInfo": "0.3.30-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/openblas@0.3.30-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:openblas:0.3.30-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:openblas",
+      "SPDXID": "SPDXRef-Package-60bce49b14014511",
+      "versionInfo": "0.3.30-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/javacv/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/openblas@0.3.30-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:openblas:0.3.30-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:openblas",
+      "SPDXID": "SPDXRef-Package-61c16fd220a606f5",
+      "versionInfo": "0.3.30-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/openblas@0.3.30-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:openblas:0.3.30-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:openblas",
+      "SPDXID": "SPDXRef-Package-e84f4f99c233ceb6",
+      "versionInfo": "0.3.30-",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/opencv/pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/openblas@0.3.30-"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:openblas:0.3.30-"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:openblas",
+      "SPDXID": "SPDXRef-Package-e98091925ef4665a",
+      "versionInfo": "0.3.30-",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/openblas/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/openblas@0.3.30-"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:openblas:0.3.30-"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:openblas-platform",
+      "SPDXID": "SPDXRef-Package-7d15b5bed6ab2d85",
+      "versionInfo": "0.3.30-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/openblas-platform@0.3.30-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:openblas-platform:0.3.30-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:openblas-platform",
+      "SPDXID": "SPDXRef-Package-9d0337eaa98bd60f",
+      "versionInfo": "0.3.30-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/openblas-platform@0.3.30-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:openblas-platform:0.3.30-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:opencv",
+      "SPDXID": "SPDXRef-Package-2483f2a8bca784ce",
+      "versionInfo": "4.11.0-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/javacv/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/opencv@4.11.0-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:opencv:4.11.0-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:opencv",
+      "SPDXID": "SPDXRef-Package-6a6255be1fe25f2",
+      "versionInfo": "4.11.0-",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/opencv@4.11.0-"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:opencv:4.11.0-"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:opencv",
+      "SPDXID": "SPDXRef-Package-73d86bc0207bf68c",
+      "versionInfo": "4.11.0-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/opencv@4.11.0-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:opencv:4.11.0-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:opencv",
+      "SPDXID": "SPDXRef-Package-a83867945894eb8a",
+      "versionInfo": "4.11.0-",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/opencv/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/opencv@4.11.0-"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:opencv:4.11.0-"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:opencv",
+      "SPDXID": "SPDXRef-Package-b17fab55cc139245",
+      "versionInfo": "4.11.0-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/opencv@4.11.0-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:opencv:4.11.0-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:opencv-platform",
+      "SPDXID": "SPDXRef-Package-82afe68033494dc9",
+      "versionInfo": "4.11.0-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/opencv-platform@4.11.0-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:opencv-platform:4.11.0-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:opencv-platform",
+      "SPDXID": "SPDXRef-Package-83f1357afa9d4dab",
+      "versionInfo": "4.11.0-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/opencv-platform@4.11.0-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:opencv-platform:4.11.0-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:opencv-platform-gpu",
+      "SPDXID": "SPDXRef-Package-56bddd323059242",
+      "versionInfo": "4.11.0-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/opencv-platform-gpu@4.11.0-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:opencv-platform-gpu:4.11.0-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:tesseract",
+      "SPDXID": "SPDXRef-Package-378bb0b19dfa5eb8",
+      "versionInfo": "5.5.1-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/tesseract@5.5.1-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:tesseract:5.5.1-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:tesseract",
+      "SPDXID": "SPDXRef-Package-4b745ab74d088266",
+      "versionInfo": "5.5.1-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/javacv/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/tesseract@5.5.1-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:tesseract:5.5.1-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:tesseract",
+      "SPDXID": "SPDXRef-Package-bed4466d6ef2ed04",
+      "versionInfo": "5.5.1-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/tesseract@5.5.1-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:tesseract:5.5.1-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:tesseract",
+      "SPDXID": "SPDXRef-Package-cf17a60a95ef8d1e",
+      "versionInfo": "5.5.1-",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/tesseract/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/tesseract@5.5.1-"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:tesseract:5.5.1-"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:tesseract",
+      "SPDXID": "SPDXRef-Package-cf60a74f6f9d8a9f",
+      "versionInfo": "5.5.1-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/tesseract@5.5.1-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:tesseract:5.5.1-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:tesseract-platform",
+      "SPDXID": "SPDXRef-Package-2205aaae95e34bb6",
+      "versionInfo": "5.5.1-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/tesseract-platform@5.5.1-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:tesseract-platform:5.5.1-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:tesseract-platform",
+      "SPDXID": "SPDXRef-Package-ea770fdcb4805be3",
+      "versionInfo": "5.5.1-1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/tesseract-platform@5.5.1-1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:tesseract-platform:5.5.1-1.5.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:videoinput",
+      "SPDXID": "SPDXRef-Package-4c14d0d7057ee75a",
+      "versionInfo": "0.200-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/videoinput@0.200-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:videoinput:0.200-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:videoinput",
+      "SPDXID": "SPDXRef-Package-7fc5447284f50955",
+      "versionInfo": "0.200-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/videoinput@0.200-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:videoinput:0.200-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:videoinput",
+      "SPDXID": "SPDXRef-Package-9cdbc57301db9914",
+      "versionInfo": "0.200-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/videoinput@0.200-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:videoinput:0.200-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:videoinput",
+      "SPDXID": "SPDXRef-Package-9dc1e611403554f9",
+      "versionInfo": "0.200-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/javacv/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/videoinput@0.200-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:videoinput:0.200-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:videoinput",
+      "SPDXID": "SPDXRef-Package-e58e3336eb312e97",
+      "versionInfo": "0.200-",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: full-source/META-INF/maven/org.bytedeco/videoinput/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/videoinput@0.200-"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:videoinput:0.200-"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:videoinput-platform",
+      "SPDXID": "SPDXRef-Package-24a3cf8b38834b9",
+      "versionInfo": "0.200-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/videoinput-platform@0.200-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:videoinput-platform:0.200-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:videoinput-platform",
+      "SPDXID": "SPDXRef-Package-40b2cb5b143e6259",
+      "versionInfo": "0.200-1.5.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: samples/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/videoinput-platform@0.200-1.5.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:videoinput-platform:0.200-1.5.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": ".",
+      "SPDXID": "SPDXRef-Filesystem-1465386cfbe4e9c7",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.63.0",
+          "annotationDate": "2025-08-01T09:34:56Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-1ca7ac7163d4bcee",
+      "relatedSpdxElement": "SPDXRef-Package-e98091925ef4665a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-224cdb058ebd2d28",
+      "relatedSpdxElement": "SPDXRef-Package-e58e3336eb312e97",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-26cf306185b06aa8",
+      "relatedSpdxElement": "SPDXRef-Package-df6846a18844d708",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-48f207ae156699f2",
+      "relatedSpdxElement": "SPDXRef-Package-172b82e746a37f04",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-49c05b9913ce61ef",
+      "relatedSpdxElement": "SPDXRef-Package-cf17a60a95ef8d1e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-6735c3d1c84ed40b",
+      "relatedSpdxElement": "SPDXRef-Package-b3c42c43523a028d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-6d22f9c9fdcfe773",
+      "relatedSpdxElement": "SPDXRef-Package-4d9193445db6d7a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-827131c4f484d9d",
+      "relatedSpdxElement": "SPDXRef-Package-d6055dc444e342c7",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-8b06c0997f820c07",
+      "relatedSpdxElement": "SPDXRef-Package-5093e1bc07414e34",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-9fb6ec1eb3e7d112",
+      "relatedSpdxElement": "SPDXRef-Package-cd1419abb8ea6fea",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-a58ffb2ceb22da22",
+      "relatedSpdxElement": "SPDXRef-Package-cb9bf5afc5bde71b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-c15ff96a34e8e036",
+      "relatedSpdxElement": "SPDXRef-Package-e961ad689efeac12",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-c73f47f286ae96b6",
+      "relatedSpdxElement": "SPDXRef-Package-a83867945894eb8a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-ddade61fe613b92",
+      "relatedSpdxElement": "SPDXRef-Package-a2bd930ea452e549",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-f6ba57c0a2713684",
+      "relatedSpdxElement": "SPDXRef-Package-d60d56e9f21acae0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-f8f4c07e63afadde",
+      "relatedSpdxElement": "SPDXRef-Package-1c96b9a81e94dce5",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Filesystem-1465386cfbe4e9c7",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-1465386cfbe4e9c7",
+      "relatedSpdxElement": "SPDXRef-Application-1ca7ac7163d4bcee",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-1465386cfbe4e9c7",
+      "relatedSpdxElement": "SPDXRef-Application-224cdb058ebd2d28",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-1465386cfbe4e9c7",
+      "relatedSpdxElement": "SPDXRef-Application-26cf306185b06aa8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-1465386cfbe4e9c7",
+      "relatedSpdxElement": "SPDXRef-Application-48f207ae156699f2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-1465386cfbe4e9c7",
+      "relatedSpdxElement": "SPDXRef-Application-49c05b9913ce61ef",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-1465386cfbe4e9c7",
+      "relatedSpdxElement": "SPDXRef-Application-6735c3d1c84ed40b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-1465386cfbe4e9c7",
+      "relatedSpdxElement": "SPDXRef-Application-6d22f9c9fdcfe773",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-1465386cfbe4e9c7",
+      "relatedSpdxElement": "SPDXRef-Application-827131c4f484d9d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-1465386cfbe4e9c7",
+      "relatedSpdxElement": "SPDXRef-Application-8b06c0997f820c07",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-1465386cfbe4e9c7",
+      "relatedSpdxElement": "SPDXRef-Application-9fb6ec1eb3e7d112",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-1465386cfbe4e9c7",
+      "relatedSpdxElement": "SPDXRef-Application-a58ffb2ceb22da22",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-1465386cfbe4e9c7",
+      "relatedSpdxElement": "SPDXRef-Application-c15ff96a34e8e036",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-1465386cfbe4e9c7",
+      "relatedSpdxElement": "SPDXRef-Application-c73f47f286ae96b6",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-1465386cfbe4e9c7",
+      "relatedSpdxElement": "SPDXRef-Application-ddade61fe613b92",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-1465386cfbe4e9c7",
+      "relatedSpdxElement": "SPDXRef-Application-f6ba57c0a2713684",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-1465386cfbe4e9c7",
+      "relatedSpdxElement": "SPDXRef-Application-f8f4c07e63afadde",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-130da500fd28528f",
+      "relatedSpdxElement": "SPDXRef-Package-34688c4a30f5bb42",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1660674d3daf7e56",
+      "relatedSpdxElement": "SPDXRef-Package-fe10fd8c393bdbe1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1c96b9a81e94dce5",
+      "relatedSpdxElement": "SPDXRef-Package-46a146b4d2683a81",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1c96b9a81e94dce5",
+      "relatedSpdxElement": "SPDXRef-Package-4c14d0d7057ee75a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1c96b9a81e94dce5",
+      "relatedSpdxElement": "SPDXRef-Package-58a05420c25667e0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1c96b9a81e94dce5",
+      "relatedSpdxElement": "SPDXRef-Package-61c16fd220a606f5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1c96b9a81e94dce5",
+      "relatedSpdxElement": "SPDXRef-Package-6bc8079f77e7b06d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1c96b9a81e94dce5",
+      "relatedSpdxElement": "SPDXRef-Package-6dd34a480ac61b72",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1c96b9a81e94dce5",
+      "relatedSpdxElement": "SPDXRef-Package-6f38343a6f5d84b9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1c96b9a81e94dce5",
+      "relatedSpdxElement": "SPDXRef-Package-7567ddc8aa37145b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1c96b9a81e94dce5",
+      "relatedSpdxElement": "SPDXRef-Package-a3ba5af652bd4f3e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1c96b9a81e94dce5",
+      "relatedSpdxElement": "SPDXRef-Package-b17fab55cc139245",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1c96b9a81e94dce5",
+      "relatedSpdxElement": "SPDXRef-Package-bed4466d6ef2ed04",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1c96b9a81e94dce5",
+      "relatedSpdxElement": "SPDXRef-Package-c892ea509467c5c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1c96b9a81e94dce5",
+      "relatedSpdxElement": "SPDXRef-Package-e15778fbfb3f62d1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1c96b9a81e94dce5",
+      "relatedSpdxElement": "SPDXRef-Package-f2ef63e752401250",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1d0cab341a1cb3d6",
+      "relatedSpdxElement": "SPDXRef-Package-fe10fd8c393bdbe1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2205aaae95e34bb6",
+      "relatedSpdxElement": "SPDXRef-Package-bf877f1aabc921b4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2205aaae95e34bb6",
+      "relatedSpdxElement": "SPDXRef-Package-cf60a74f6f9d8a9f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2483f2a8bca784ce",
+      "relatedSpdxElement": "SPDXRef-Package-60bce49b14014511",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2483f2a8bca784ce",
+      "relatedSpdxElement": "SPDXRef-Package-d7aa686906964ac7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-24a3cf8b38834b9",
+      "relatedSpdxElement": "SPDXRef-Package-9cdbc57301db9914",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-24a3cf8b38834b9",
+      "relatedSpdxElement": "SPDXRef-Package-e0bcc98f9f779340",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-25e72e12479e76ec",
+      "relatedSpdxElement": "SPDXRef-Package-acfb333d9819c2b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-25e72e12479e76ec",
+      "relatedSpdxElement": "SPDXRef-Package-e0bcc98f9f779340",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-272269deed67434",
+      "relatedSpdxElement": "SPDXRef-Package-fe10fd8c393bdbe1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2d9cae1037d53c84",
+      "relatedSpdxElement": "SPDXRef-Package-d7aa686906964ac7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-30f08fdcc7bf7982",
+      "relatedSpdxElement": "SPDXRef-Package-1660674d3daf7e56",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-30f08fdcc7bf7982",
+      "relatedSpdxElement": "SPDXRef-Package-1d0cab341a1cb3d6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-30f08fdcc7bf7982",
+      "relatedSpdxElement": "SPDXRef-Package-272269deed67434",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-30f08fdcc7bf7982",
+      "relatedSpdxElement": "SPDXRef-Package-378bb0b19dfa5eb8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-30f08fdcc7bf7982",
+      "relatedSpdxElement": "SPDXRef-Package-37a7b6dff6d5f0e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-30f08fdcc7bf7982",
+      "relatedSpdxElement": "SPDXRef-Package-6a6255be1fe25f2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-30f08fdcc7bf7982",
+      "relatedSpdxElement": "SPDXRef-Package-7fc5447284f50955",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-30f08fdcc7bf7982",
+      "relatedSpdxElement": "SPDXRef-Package-818c8cced3e2e88e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-30f08fdcc7bf7982",
+      "relatedSpdxElement": "SPDXRef-Package-9cf4c76a914b04c2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-30f08fdcc7bf7982",
+      "relatedSpdxElement": "SPDXRef-Package-ae71e8509b5dc482",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-30f08fdcc7bf7982",
+      "relatedSpdxElement": "SPDXRef-Package-b7cdcf834f12da1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-30f08fdcc7bf7982",
+      "relatedSpdxElement": "SPDXRef-Package-d4165d476847a4a3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-30f08fdcc7bf7982",
+      "relatedSpdxElement": "SPDXRef-Package-e458102eaa949993",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-30f08fdcc7bf7982",
+      "relatedSpdxElement": "SPDXRef-Package-fe10fd8c393bdbe1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-32911cb190809e3b",
+      "relatedSpdxElement": "SPDXRef-Package-1660674d3daf7e56",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-32911cb190809e3b",
+      "relatedSpdxElement": "SPDXRef-Package-64dc204e0e073210",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-33d9f672fda6e0ed",
+      "relatedSpdxElement": "SPDXRef-Package-64dc204e0e073210",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-33d9f672fda6e0ed",
+      "relatedSpdxElement": "SPDXRef-Package-e458102eaa949993",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-378bb0b19dfa5eb8",
+      "relatedSpdxElement": "SPDXRef-Package-9cf4c76a914b04c2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-378bb0b19dfa5eb8",
+      "relatedSpdxElement": "SPDXRef-Package-fe10fd8c393bdbe1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-37a7b6dff6d5f0e",
+      "relatedSpdxElement": "SPDXRef-Package-fe10fd8c393bdbe1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-38f94bdf5da12e77",
+      "relatedSpdxElement": "SPDXRef-Package-64dc204e0e073210",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-38f94bdf5da12e77",
+      "relatedSpdxElement": "SPDXRef-Package-ae71e8509b5dc482",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3c36ae24a76803a2",
+      "relatedSpdxElement": "SPDXRef-Package-34688c4a30f5bb42",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-40b2cb5b143e6259",
+      "relatedSpdxElement": "SPDXRef-Package-64dc204e0e073210",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-40b2cb5b143e6259",
+      "relatedSpdxElement": "SPDXRef-Package-7fc5447284f50955",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-4b745ab74d088266",
+      "relatedSpdxElement": "SPDXRef-Package-d7aa686906964ac7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-4b745ab74d088266",
+      "relatedSpdxElement": "SPDXRef-Package-e121451ce6b30f25",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-4c14d0d7057ee75a",
+      "relatedSpdxElement": "SPDXRef-Package-46a146b4d2683a81",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-4d9193445db6d7a",
+      "relatedSpdxElement": "SPDXRef-Package-38f94bdf5da12e77",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-4d9193445db6d7a",
+      "relatedSpdxElement": "SPDXRef-Package-56bddd323059242",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-4d9193445db6d7a",
+      "relatedSpdxElement": "SPDXRef-Package-dbb34540ddf7c18c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5093e1bc07414e34",
+      "relatedSpdxElement": "SPDXRef-Package-2483f2a8bca784ce",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5093e1bc07414e34",
+      "relatedSpdxElement": "SPDXRef-Package-2d9cae1037d53c84",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5093e1bc07414e34",
+      "relatedSpdxElement": "SPDXRef-Package-4b745ab74d088266",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5093e1bc07414e34",
+      "relatedSpdxElement": "SPDXRef-Package-532dae33733a93e1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5093e1bc07414e34",
+      "relatedSpdxElement": "SPDXRef-Package-60bce49b14014511",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5093e1bc07414e34",
+      "relatedSpdxElement": "SPDXRef-Package-8e9dd93cc21c3a98",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5093e1bc07414e34",
+      "relatedSpdxElement": "SPDXRef-Package-9a72bfa0098910a4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5093e1bc07414e34",
+      "relatedSpdxElement": "SPDXRef-Package-9dc1e611403554f9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5093e1bc07414e34",
+      "relatedSpdxElement": "SPDXRef-Package-a9c92a8fd910fa94",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5093e1bc07414e34",
+      "relatedSpdxElement": "SPDXRef-Package-d361dc2ddfe6baf3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5093e1bc07414e34",
+      "relatedSpdxElement": "SPDXRef-Package-d7aa686906964ac7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5093e1bc07414e34",
+      "relatedSpdxElement": "SPDXRef-Package-dee820193a91aec9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5093e1bc07414e34",
+      "relatedSpdxElement": "SPDXRef-Package-e121451ce6b30f25",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5093e1bc07414e34",
+      "relatedSpdxElement": "SPDXRef-Package-ec1c55bf334b119c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-532dae33733a93e1",
+      "relatedSpdxElement": "SPDXRef-Package-d7aa686906964ac7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5608e88bd2ab9dff",
+      "relatedSpdxElement": "SPDXRef-Package-34688c4a30f5bb42",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-56bddd323059242",
+      "relatedSpdxElement": "SPDXRef-Package-6a6255be1fe25f2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-56bddd323059242",
+      "relatedSpdxElement": "SPDXRef-Package-9d0337eaa98bd60f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-58a05420c25667e0",
+      "relatedSpdxElement": "SPDXRef-Package-46a146b4d2683a81",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5f931abd4a4e09e8",
+      "relatedSpdxElement": "SPDXRef-Package-64dc204e0e073210",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5f931abd4a4e09e8",
+      "relatedSpdxElement": "SPDXRef-Package-ae71e8509b5dc482",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-60bce49b14014511",
+      "relatedSpdxElement": "SPDXRef-Package-d7aa686906964ac7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-61c16fd220a606f5",
+      "relatedSpdxElement": "SPDXRef-Package-46a146b4d2683a81",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-64dc204e0e073210",
+      "relatedSpdxElement": "SPDXRef-Package-fe10fd8c393bdbe1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6bc8079f77e7b06d",
+      "relatedSpdxElement": "SPDXRef-Package-46a146b4d2683a81",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6dd34a480ac61b72",
+      "relatedSpdxElement": "SPDXRef-Package-46a146b4d2683a81",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6f38343a6f5d84b9",
+      "relatedSpdxElement": "SPDXRef-Package-46a146b4d2683a81",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-73d86bc0207bf68c",
+      "relatedSpdxElement": "SPDXRef-Package-34688c4a30f5bb42",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-73d86bc0207bf68c",
+      "relatedSpdxElement": "SPDXRef-Package-5608e88bd2ab9dff",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7567ddc8aa37145b",
+      "relatedSpdxElement": "SPDXRef-Package-46a146b4d2683a81",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7672656630bcb44",
+      "relatedSpdxElement": "SPDXRef-Package-64dc204e0e073210",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7672656630bcb44",
+      "relatedSpdxElement": "SPDXRef-Package-d4165d476847a4a3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7b037cc38cee0fd2",
+      "relatedSpdxElement": "SPDXRef-Package-c1a12c60a52188bd",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7b037cc38cee0fd2",
+      "relatedSpdxElement": "SPDXRef-Package-e0bcc98f9f779340",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7b31ab25acd86b42",
+      "relatedSpdxElement": "SPDXRef-Package-34688c4a30f5bb42",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7b76ff48d220377",
+      "relatedSpdxElement": "SPDXRef-Package-34688c4a30f5bb42",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7d15b5bed6ab2d85",
+      "relatedSpdxElement": "SPDXRef-Package-5608e88bd2ab9dff",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7d15b5bed6ab2d85",
+      "relatedSpdxElement": "SPDXRef-Package-e0bcc98f9f779340",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7e83058dbf20806c",
+      "relatedSpdxElement": "SPDXRef-Package-c7e24bc313162c7e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7e83058dbf20806c",
+      "relatedSpdxElement": "SPDXRef-Package-e0bcc98f9f779340",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7fc5447284f50955",
+      "relatedSpdxElement": "SPDXRef-Package-fe10fd8c393bdbe1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-818c8cced3e2e88e",
+      "relatedSpdxElement": "SPDXRef-Package-fe10fd8c393bdbe1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-82afe68033494dc9",
+      "relatedSpdxElement": "SPDXRef-Package-6a6255be1fe25f2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-82afe68033494dc9",
+      "relatedSpdxElement": "SPDXRef-Package-9d0337eaa98bd60f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-83f1357afa9d4dab",
+      "relatedSpdxElement": "SPDXRef-Package-73d86bc0207bf68c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-83f1357afa9d4dab",
+      "relatedSpdxElement": "SPDXRef-Package-7d15b5bed6ab2d85",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8e9dd93cc21c3a98",
+      "relatedSpdxElement": "SPDXRef-Package-d7aa686906964ac7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-906a9a99cff01a9d",
+      "relatedSpdxElement": "SPDXRef-Package-34688c4a30f5bb42",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-92f8a1bdc74243da",
+      "relatedSpdxElement": "SPDXRef-Package-37a7b6dff6d5f0e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-92f8a1bdc74243da",
+      "relatedSpdxElement": "SPDXRef-Package-64dc204e0e073210",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-9a72bfa0098910a4",
+      "relatedSpdxElement": "SPDXRef-Package-d7aa686906964ac7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-9cdbc57301db9914",
+      "relatedSpdxElement": "SPDXRef-Package-34688c4a30f5bb42",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-9cf4c76a914b04c2",
+      "relatedSpdxElement": "SPDXRef-Package-fe10fd8c393bdbe1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-9d0337eaa98bd60f",
+      "relatedSpdxElement": "SPDXRef-Package-272269deed67434",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-9d0337eaa98bd60f",
+      "relatedSpdxElement": "SPDXRef-Package-64dc204e0e073210",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-9dc1e611403554f9",
+      "relatedSpdxElement": "SPDXRef-Package-d7aa686906964ac7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a3ba5af652bd4f3e",
+      "relatedSpdxElement": "SPDXRef-Package-46a146b4d2683a81",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a83867945894eb8a",
+      "relatedSpdxElement": "SPDXRef-Package-e84f4f99c233ceb6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a8960b46551688a4",
+      "relatedSpdxElement": "SPDXRef-Package-34688c4a30f5bb42",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a9c92a8fd910fa94",
+      "relatedSpdxElement": "SPDXRef-Package-d7aa686906964ac7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-acfb333d9819c2b",
+      "relatedSpdxElement": "SPDXRef-Package-34688c4a30f5bb42",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b17fab55cc139245",
+      "relatedSpdxElement": "SPDXRef-Package-46a146b4d2683a81",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b17fab55cc139245",
+      "relatedSpdxElement": "SPDXRef-Package-61c16fd220a606f5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b7cdcf834f12da1",
+      "relatedSpdxElement": "SPDXRef-Package-fe10fd8c393bdbe1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bb56c84e1b429714",
+      "relatedSpdxElement": "SPDXRef-Package-130da500fd28528f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bb56c84e1b429714",
+      "relatedSpdxElement": "SPDXRef-Package-34688c4a30f5bb42",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bb56c84e1b429714",
+      "relatedSpdxElement": "SPDXRef-Package-3c36ae24a76803a2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bb56c84e1b429714",
+      "relatedSpdxElement": "SPDXRef-Package-5608e88bd2ab9dff",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bb56c84e1b429714",
+      "relatedSpdxElement": "SPDXRef-Package-73d86bc0207bf68c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bb56c84e1b429714",
+      "relatedSpdxElement": "SPDXRef-Package-7b31ab25acd86b42",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bb56c84e1b429714",
+      "relatedSpdxElement": "SPDXRef-Package-7b76ff48d220377",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bb56c84e1b429714",
+      "relatedSpdxElement": "SPDXRef-Package-906a9a99cff01a9d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bb56c84e1b429714",
+      "relatedSpdxElement": "SPDXRef-Package-9cdbc57301db9914",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bb56c84e1b429714",
+      "relatedSpdxElement": "SPDXRef-Package-a8960b46551688a4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bb56c84e1b429714",
+      "relatedSpdxElement": "SPDXRef-Package-acfb333d9819c2b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bb56c84e1b429714",
+      "relatedSpdxElement": "SPDXRef-Package-c1a12c60a52188bd",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bb56c84e1b429714",
+      "relatedSpdxElement": "SPDXRef-Package-c7e24bc313162c7e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bb56c84e1b429714",
+      "relatedSpdxElement": "SPDXRef-Package-cf60a74f6f9d8a9f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bcab536ce3368669",
+      "relatedSpdxElement": "SPDXRef-Package-a8960b46551688a4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bcab536ce3368669",
+      "relatedSpdxElement": "SPDXRef-Package-e0bcc98f9f779340",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bed4466d6ef2ed04",
+      "relatedSpdxElement": "SPDXRef-Package-46a146b4d2683a81",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bed4466d6ef2ed04",
+      "relatedSpdxElement": "SPDXRef-Package-6bc8079f77e7b06d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bf877f1aabc921b4",
+      "relatedSpdxElement": "SPDXRef-Package-7b76ff48d220377",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bf877f1aabc921b4",
+      "relatedSpdxElement": "SPDXRef-Package-e0bcc98f9f779340",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c1a12c60a52188bd",
+      "relatedSpdxElement": "SPDXRef-Package-34688c4a30f5bb42",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c7e24bc313162c7e",
+      "relatedSpdxElement": "SPDXRef-Package-34688c4a30f5bb42",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c892ea509467c5c",
+      "relatedSpdxElement": "SPDXRef-Package-46a146b4d2683a81",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c919631c5b017160",
+      "relatedSpdxElement": "SPDXRef-Package-64dc204e0e073210",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c919631c5b017160",
+      "relatedSpdxElement": "SPDXRef-Package-9cf4c76a914b04c2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cc1c322ec30452c8",
+      "relatedSpdxElement": "SPDXRef-Package-3c36ae24a76803a2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cc1c322ec30452c8",
+      "relatedSpdxElement": "SPDXRef-Package-e0bcc98f9f779340",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cf17a60a95ef8d1e",
+      "relatedSpdxElement": "SPDXRef-Package-f19de7c9589de192",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cf60a74f6f9d8a9f",
+      "relatedSpdxElement": "SPDXRef-Package-34688c4a30f5bb42",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cf60a74f6f9d8a9f",
+      "relatedSpdxElement": "SPDXRef-Package-7b76ff48d220377",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d361dc2ddfe6baf3",
+      "relatedSpdxElement": "SPDXRef-Package-d7aa686906964ac7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d4165d476847a4a3",
+      "relatedSpdxElement": "SPDXRef-Package-fe10fd8c393bdbe1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d60d56e9f21acae0",
+      "relatedSpdxElement": "SPDXRef-Package-2205aaae95e34bb6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d60d56e9f21acae0",
+      "relatedSpdxElement": "SPDXRef-Package-24a3cf8b38834b9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d60d56e9f21acae0",
+      "relatedSpdxElement": "SPDXRef-Package-25e72e12479e76ec",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d60d56e9f21acae0",
+      "relatedSpdxElement": "SPDXRef-Package-7b037cc38cee0fd2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d60d56e9f21acae0",
+      "relatedSpdxElement": "SPDXRef-Package-7d15b5bed6ab2d85",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d60d56e9f21acae0",
+      "relatedSpdxElement": "SPDXRef-Package-7e83058dbf20806c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d60d56e9f21acae0",
+      "relatedSpdxElement": "SPDXRef-Package-83f1357afa9d4dab",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d60d56e9f21acae0",
+      "relatedSpdxElement": "SPDXRef-Package-bb56c84e1b429714",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d60d56e9f21acae0",
+      "relatedSpdxElement": "SPDXRef-Package-bcab536ce3368669",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d60d56e9f21acae0",
+      "relatedSpdxElement": "SPDXRef-Package-bf877f1aabc921b4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d60d56e9f21acae0",
+      "relatedSpdxElement": "SPDXRef-Package-cc1c322ec30452c8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d60d56e9f21acae0",
+      "relatedSpdxElement": "SPDXRef-Package-e0bcc98f9f779340",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d60d56e9f21acae0",
+      "relatedSpdxElement": "SPDXRef-Package-f7553087b3bec503",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d60d56e9f21acae0",
+      "relatedSpdxElement": "SPDXRef-Package-f882747e425fabff",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d60d56e9f21acae0",
+      "relatedSpdxElement": "SPDXRef-Package-fc5d5b11630a5492",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dbb34540ddf7c18c",
+      "relatedSpdxElement": "SPDXRef-Package-30f08fdcc7bf7982",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dbb34540ddf7c18c",
+      "relatedSpdxElement": "SPDXRef-Package-32911cb190809e3b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dbb34540ddf7c18c",
+      "relatedSpdxElement": "SPDXRef-Package-33d9f672fda6e0ed",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dbb34540ddf7c18c",
+      "relatedSpdxElement": "SPDXRef-Package-40b2cb5b143e6259",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dbb34540ddf7c18c",
+      "relatedSpdxElement": "SPDXRef-Package-5f931abd4a4e09e8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dbb34540ddf7c18c",
+      "relatedSpdxElement": "SPDXRef-Package-64dc204e0e073210",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dbb34540ddf7c18c",
+      "relatedSpdxElement": "SPDXRef-Package-7672656630bcb44",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dbb34540ddf7c18c",
+      "relatedSpdxElement": "SPDXRef-Package-82afe68033494dc9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dbb34540ddf7c18c",
+      "relatedSpdxElement": "SPDXRef-Package-92f8a1bdc74243da",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dbb34540ddf7c18c",
+      "relatedSpdxElement": "SPDXRef-Package-9d0337eaa98bd60f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dbb34540ddf7c18c",
+      "relatedSpdxElement": "SPDXRef-Package-c919631c5b017160",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dbb34540ddf7c18c",
+      "relatedSpdxElement": "SPDXRef-Package-e18c9d69776748a4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dbb34540ddf7c18c",
+      "relatedSpdxElement": "SPDXRef-Package-e783239b593574d8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dbb34540ddf7c18c",
+      "relatedSpdxElement": "SPDXRef-Package-ea770fdcb4805be3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dbb34540ddf7c18c",
+      "relatedSpdxElement": "SPDXRef-Package-eb72a891dc0a1705",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dee820193a91aec9",
+      "relatedSpdxElement": "SPDXRef-Package-d7aa686906964ac7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e0bcc98f9f779340",
+      "relatedSpdxElement": "SPDXRef-Package-34688c4a30f5bb42",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e121451ce6b30f25",
+      "relatedSpdxElement": "SPDXRef-Package-d7aa686906964ac7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e15778fbfb3f62d1",
+      "relatedSpdxElement": "SPDXRef-Package-46a146b4d2683a81",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e18c9d69776748a4",
+      "relatedSpdxElement": "SPDXRef-Package-64dc204e0e073210",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e18c9d69776748a4",
+      "relatedSpdxElement": "SPDXRef-Package-818c8cced3e2e88e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e458102eaa949993",
+      "relatedSpdxElement": "SPDXRef-Package-fe10fd8c393bdbe1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e783239b593574d8",
+      "relatedSpdxElement": "SPDXRef-Package-1d0cab341a1cb3d6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e783239b593574d8",
+      "relatedSpdxElement": "SPDXRef-Package-64dc204e0e073210",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ea770fdcb4805be3",
+      "relatedSpdxElement": "SPDXRef-Package-378bb0b19dfa5eb8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ea770fdcb4805be3",
+      "relatedSpdxElement": "SPDXRef-Package-c919631c5b017160",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-eb72a891dc0a1705",
+      "relatedSpdxElement": "SPDXRef-Package-64dc204e0e073210",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-eb72a891dc0a1705",
+      "relatedSpdxElement": "SPDXRef-Package-b7cdcf834f12da1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ec1c55bf334b119c",
+      "relatedSpdxElement": "SPDXRef-Package-d7aa686906964ac7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f2ef63e752401250",
+      "relatedSpdxElement": "SPDXRef-Package-46a146b4d2683a81",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f7553087b3bec503",
+      "relatedSpdxElement": "SPDXRef-Package-906a9a99cff01a9d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f7553087b3bec503",
+      "relatedSpdxElement": "SPDXRef-Package-e0bcc98f9f779340",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f882747e425fabff",
+      "relatedSpdxElement": "SPDXRef-Package-7b31ab25acd86b42",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f882747e425fabff",
+      "relatedSpdxElement": "SPDXRef-Package-e0bcc98f9f779340",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-fc5d5b11630a5492",
+      "relatedSpdxElement": "SPDXRef-Package-130da500fd28528f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-fc5d5b11630a5492",
+      "relatedSpdxElement": "SPDXRef-Package-e0bcc98f9f779340",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

@@ -1,0 +1,773 @@
+{
+  "tool": {
+    "name": "sbomdiff",
+    "version": "0.5.6"
+  },
+  "file_1": "SBOM-QA/java_maven/bytedeco_javacv_79ca6b.json",
+  "file_2": "clone/java_maven/normal.syft.json",
+  "differences": [
+    {
+      "package": "org.bytedeco:javacv-platform",
+      "status": "remove",
+      "version": {
+        "from": "1.5.12"
+      }
+    },
+    {
+      "package": "org.bytedeco:opencv-platform-gpu",
+      "status": "remove",
+      "version": {
+        "from": "4.11.0-1.5.12"
+      }
+    },
+    {
+      "package": "org.bytedeco:ffmpeg-platform-gpl",
+      "status": "remove",
+      "version": {
+        "from": "7.1.1-1.5.12"
+      }
+    },
+    {
+      "package": "bytedeco/javacpp-presets/.github/actions/deploy-ubuntu",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mxschmitt/action-tmate",
+      "status": "change",
+      "version": {
+        "from": "3.5.*",
+        "to": "V3.5"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "bytedeco/javacpp-presets/.github/actions/deploy-macosx",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "bytedeco/javacpp-presets/.github/actions/deploy-windows",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "org.jogamp.gluegen:gluegen-rt-main",
+      "status": "remove",
+      "version": {
+        "from": "2.3.2"
+      }
+    },
+    {
+      "package": "org.jogamp.jogl:jogl-all-main",
+      "status": "remove",
+      "version": {
+        "from": "2.3.2"
+      }
+    },
+    {
+      "package": "org.bytedeco:opencv",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "org.bytedeco:tesseract",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "org.bytedeco:libfreenect",
+      "status": "remove",
+      "version": {
+        "from": "0.5.7-1.5.9"
+      }
+    },
+    {
+      "package": "org.bytedeco:librealsense2",
+      "status": "remove",
+      "version": {
+        "from": "2.53.1-1.5.9"
+      }
+    },
+    {
+      "package": "com.badlogicgames.gdx:gdx",
+      "status": "remove",
+      "version": {
+        "from": "1.13.1"
+      }
+    },
+    {
+      "package": "org.moditect:moditect-maven-plugin",
+      "status": "remove",
+      "version": {
+        "from": "1.1.0"
+      }
+    },
+    {
+      "package": "org.jogamp.jocl:jocl-main",
+      "status": "remove",
+      "version": {
+        "from": "2.3.2"
+      }
+    },
+    {
+      "package": "org.bytedeco:ffmpeg",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "org.bytedeco:artoolkitplus",
+      "status": "remove",
+      "version": {
+        "from": "2.3.1-1.5.9"
+      }
+    },
+    {
+      "package": "org.bytedeco:libdc1394",
+      "status": "remove",
+      "version": {
+        "from": "2.2.6-1.5.9"
+      }
+    },
+    {
+      "package": "org.bytedeco:libfreenect2",
+      "status": "remove",
+      "version": {
+        "from": "0.2.0-1.5.9"
+      }
+    },
+    {
+      "package": "org.bytedeco:librealsense",
+      "status": "remove",
+      "version": {
+        "from": "1.12.4-1.5.9"
+      }
+    },
+    {
+      "package": "org.bytedeco:videoinput",
+      "status": "remove",
+      "version": {
+        "from": "0.200-1.5.9"
+      }
+    },
+    {
+      "package": "org.openjfx:javafx-graphics",
+      "status": "remove",
+      "version": {
+        "from": "11"
+      }
+    },
+    {
+      "package": "org.bytedeco:javacpp",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "org.bytedeco:openblas",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "com.google.android:android",
+      "status": "remove",
+      "version": {
+        "from": "4.1.1.4"
+      }
+    },
+    {
+      "package": "net.java.openjfx.backport:openjfx-78-backport",
+      "status": "remove",
+      "version": {
+        "from": "1.8.0-EA-B96.1"
+      }
+    },
+    {
+      "package": "org.bytedeco:leptonica",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "org.bytedeco:flycapture",
+      "status": "remove",
+      "version": {
+        "from": "2.13.3.31-1.5.9"
+      }
+    },
+    {
+      "package": "org.sonatype.central:central-publishing-maven-plugin",
+      "status": "remove",
+      "version": {
+        "from": "0.8.0"
+      }
+    },
+    {
+      "package": "org.bytedeco:flycapture-platform",
+      "status": "remove",
+      "version": {
+        "from": "2.13.3.31-1.5.9"
+      }
+    },
+    {
+      "package": "org.bytedeco:libdc1394-platform",
+      "status": "remove",
+      "version": {
+        "from": "2.2.6-1.5.9"
+      }
+    },
+    {
+      "package": "org.bytedeco:librealsense-platform",
+      "status": "remove",
+      "version": {
+        "from": "1.12.4-1.5.9"
+      }
+    },
+    {
+      "package": "org.bytedeco:openblas-platform",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "org.bytedeco:leptonica-platform",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "org.bytedeco:tesseract-platform",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "org.bytedeco:javacpp-platform",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "org.bytedeco:libfreenect-platform",
+      "status": "remove",
+      "version": {
+        "from": "0.5.7-1.5.9"
+      }
+    },
+    {
+      "package": "junit:junit",
+      "status": "remove",
+      "version": {
+        "from": "4.13.2"
+      }
+    },
+    {
+      "package": "org.bytedeco:artoolkitplus-platform",
+      "status": "remove",
+      "version": {
+        "from": "2.3.1-1.5.9"
+      }
+    },
+    {
+      "package": "org.bytedeco:libfreenect2-platform",
+      "status": "remove",
+      "version": {
+        "from": "0.2.0-1.5.9"
+      }
+    },
+    {
+      "package": "org.bytedeco:videoinput-platform",
+      "status": "remove",
+      "version": {
+        "from": "0.200-1.5.9"
+      }
+    },
+    {
+      "package": "org.bytedeco:opencv-platform",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "org.bytedeco:ffmpeg-platform",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "org.bytedeco:librealsense2-platform",
+      "status": "remove",
+      "version": {
+        "from": "2.53.1-1.5.9"
+      }
+    },
+    {
+      "package": "org.bytedeco:javacv",
+      "status": "remove",
+      "version": {
+        "from": "1.5.13-SNAPSHOT"
+      }
+    },
+    {
+      "package": "com.github.bytedeco/javacv",
+      "status": "remove",
+      "version": {
+        "from": "MASTER"
+      }
+    },
+    {
+      "package": "android",
+      "status": "add",
+      "version": {
+        "from": "4.1.1.4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "artoolkitplus",
+      "status": "add",
+      "version": {
+        "from": "2.3.1-1.5.9"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "artoolkitplus-platform",
+      "status": "add",
+      "version": {
+        "from": "2.3.1-1.5.9"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "demo",
+      "status": "add",
+      "version": {
+        "from": "1.5.12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ffmpeg",
+      "status": "add",
+      "version": {
+        "from": "7.1.1-1.5.12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ffmpeg-platform",
+      "status": "add",
+      "version": {
+        "from": "7.1.1-1.5.12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ffmpeg-platform-gpl",
+      "status": "add",
+      "version": {
+        "from": "7.1.1-1.5.12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "flycapture",
+      "status": "add",
+      "version": {
+        "from": "2.13.3.31-1.5.9"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "flycapture-platform",
+      "status": "add",
+      "version": {
+        "from": "2.13.3.31-1.5.9"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gdx",
+      "status": "add",
+      "version": {
+        "from": "1.13.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gluegen-rt-main",
+      "status": "add",
+      "version": {
+        "from": "2.3.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "javacpp",
+      "status": "add",
+      "version": {
+        "from": "1.5.12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "javacpp-platform",
+      "status": "add",
+      "version": {
+        "from": "1.5.12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "javacv",
+      "status": "add",
+      "version": {
+        "from": "1.5.12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "javacv-platform",
+      "status": "add",
+      "version": {
+        "from": "1.5.12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "javafx-graphics",
+      "status": "add",
+      "version": {
+        "from": "11"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jocl-main",
+      "status": "add",
+      "version": {
+        "from": "2.3.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jogl-all-main",
+      "status": "add",
+      "version": {
+        "from": "2.3.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "junit",
+      "status": "add",
+      "version": {
+        "from": "4.13.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "leptonica",
+      "status": "add",
+      "version": {
+        "from": "1.85.0-1.5.12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "leptonica-platform",
+      "status": "add",
+      "version": {
+        "from": "1.85.0-1.5.12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libdc1394",
+      "status": "add",
+      "version": {
+        "from": "2.2.6-1.5.9"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libdc1394-platform",
+      "status": "add",
+      "version": {
+        "from": "2.2.6-1.5.9"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libfreenect",
+      "status": "add",
+      "version": {
+        "from": "0.5.7-1.5.9"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libfreenect-platform",
+      "status": "add",
+      "version": {
+        "from": "0.5.7-1.5.9"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libfreenect2",
+      "status": "add",
+      "version": {
+        "from": "0.2.0-1.5.9"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libfreenect2-platform",
+      "status": "add",
+      "version": {
+        "from": "0.2.0-1.5.9"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "librealsense",
+      "status": "add",
+      "version": {
+        "from": "1.12.4-1.5.9"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "librealsense-platform",
+      "status": "add",
+      "version": {
+        "from": "1.12.4-1.5.9"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "librealsense2",
+      "status": "add",
+      "version": {
+        "from": "2.53.1-1.5.9"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "librealsense2-platform",
+      "status": "add",
+      "version": {
+        "from": "2.53.1-1.5.9"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "openblas",
+      "status": "add",
+      "version": {
+        "from": "0.3.30-1.5.12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "openblas-platform",
+      "status": "add",
+      "version": {
+        "from": "0.3.30-1.5.12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "opencv",
+      "status": "add",
+      "version": {
+        "from": "4.11.0-1.5.12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "opencv-platform",
+      "status": "add",
+      "version": {
+        "from": "4.11.0-1.5.12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "opencv-platform-gpu",
+      "status": "add",
+      "version": {
+        "from": "4.11.0-1.5.12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "openjfx-78-backport",
+      "status": "add",
+      "version": {
+        "from": "1.8.0-EA-B96.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "tesseract",
+      "status": "add",
+      "version": {
+        "from": "5.5.1-1.5.12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "tesseract-platform",
+      "status": "add",
+      "version": {
+        "from": "5.5.1-1.5.12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "videoinput",
+      "status": "add",
+      "version": {
+        "from": "0.200-1.5.9"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "videoinput-platform",
+      "status": "add",
+      "version": {
+        "from": "0.200-1.5.9"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": ".",
+      "status": "add",
+      "version": {
+        "from": "UNKNOWN"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    }
+  ],
+  "summary": {
+    "version_changes": 1,
+    "new_packages": 42,
+    "removed_packages": 43,
+    "license_changes": 4
+  }
+}

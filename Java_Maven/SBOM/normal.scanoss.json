@@ -1,0 +1,125 @@
+{
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SCANOSS-SBOM",
+  "creationInfo": {
+    "created": "2025-07-31T12:09:04Z",
+    "creators": [
+      "Tool: SCANOSS-PY: 1.26.2",
+      "Person: mehdi",
+      "Organization: SCANOSS"
+    ],
+    "comment": "SBOM Build information - SBOM Type: Build"
+  },
+  "documentNamespace": "https://spdx.org/spdxdocs/scanoss-py-1.26.2-168c06ffe0f6eaa6c7618c85b29e068d",
+  "documentDescribes": [
+    "SPDXRef-78fc893edbda94c8db4fb18ffce9a832",
+    "SPDXRef-ab98829138046bccdb20b948527ccf01",
+    "SPDXRef-c2729ea205b5ccdeec113851d7d41811",
+    "SPDXRef-9576f0052ec0a599934f96e48089ec3a"
+  ],
+  "hasExtractedLicensingInfos": [],
+  "packages": [
+    {
+      "name": "javacv",
+      "SPDXID": "SPDXRef-78fc893edbda94c8db4fb18ffce9a832",
+      "versionInfo": "1.5.5",
+      "downloadLocation": "https://github.com/bytedeco/javacv",
+      "homepage": "https://github.com/bytedeco/javacv",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: bytedeco",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/bytedeco/javacv@1.5.5",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0413af97d2a591aca03f599012e33470"
+        }
+      ]
+    },
+    {
+      "name": "javacv",
+      "SPDXID": "SPDXRef-ab98829138046bccdb20b948527ccf01",
+      "versionInfo": "e23dce1",
+      "downloadLocation": "https://github.com/boybeak/javacv",
+      "homepage": "https://github.com/boybeak/javacv",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: boybeak",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/boybeak/javacv@e23dce1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "7c4851a44892bfc398123ee54fc6ab68"
+        }
+      ]
+    },
+    {
+      "name": "javacv",
+      "SPDXID": "SPDXRef-c2729ea205b5ccdeec113851d7d41811",
+      "versionInfo": "ca0fd69",
+      "downloadLocation": "https://gitee.com/hjljy/javacv",
+      "homepage": "https://gitee.com/hjljy/javacv",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: hjljy",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:gitee/hjljy/javacv@ca0fd69",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "5be29aeaf500958093fa8b36e194dc7d"
+        }
+      ]
+    },
+    {
+      "name": "javacv",
+      "SPDXID": "SPDXRef-9576f0052ec0a599934f96e48089ec3a",
+      "versionInfo": "1.5.5",
+      "downloadLocation": "https://mvnrepository.com/artifact/org.bytedeco/javacv",
+      "homepage": "https://mvnrepository.com/artifact/org.bytedeco/javacv",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: org.bytedeco",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacv@1.5.5",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "6786a37c31c38e80575ac0fb623561c9"
+        }
+      ]
+    }
+  ]
+}
