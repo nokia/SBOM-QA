@@ -1,0 +1,2 @@
+Validating scanoss.json
+The SPDX file final.projects/conan/scanoss.json is compliant with the OpenChain Telco SBOM Guide version 1.1

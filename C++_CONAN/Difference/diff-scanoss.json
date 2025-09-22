@@ -1,0 +1,204 @@
+{
+  "tool": {
+    "name": "sbomdiff",
+    "version": "0.5.6"
+  },
+  "file_1": "SBOM-QA/new.conan/catchorg_Catch2_5642fc.json",
+  "file_2": "final.projects/conan/scanoss.json",
+  "differences": [
+    {
+      "package": "actions/checkout",
+      "status": "remove",
+      "version": {
+        "from": "4.*.*"
+      }
+    },
+    {
+      "package": "actions/cache",
+      "status": "remove",
+      "version": {
+        "from": "3.*.*"
+      }
+    },
+    {
+      "package": "actions/setup-python",
+      "status": "remove",
+      "version": {
+        "from": "2.*.*"
+      }
+    },
+    {
+      "package": "com.github.catchorg/Catch2",
+      "status": "remove",
+      "version": {
+        "from": "DEVEL"
+      }
+    },
+    {
+      "package": "mpc-catch2",
+      "status": "add",
+      "version": {
+        "from": "3.1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "catch2",
+      "status": "add",
+      "version": {
+        "from": "2.1.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "uppm-package-repository-macos-12.0-arm64",
+      "status": "add",
+      "version": {
+        "from": "2024.06.15"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cache-management",
+      "status": "add",
+      "version": {
+        "from": "0.8.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "teqp",
+      "status": "add",
+      "version": {
+        "from": "0.17.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "reeber",
+      "status": "add",
+      "version": {
+        "from": "BEE3FAD"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "hybrid-example",
+      "status": "add",
+      "version": {
+        "from": "0.1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "Catch2",
+      "status": "add",
+      "version": {
+        "from": "3.0.0-PREVIEW3-MIGRATION-ALPHA"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "Slackbuild",
+      "status": "add",
+      "version": {
+        "from": "SOURCE"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "deps",
+      "status": "add",
+      "version": {
+        "from": "2023-08-09"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cosc345",
+      "status": "add",
+      "version": {
+        "from": "4F11ABA"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "MIDI",
+      "status": "add",
+      "version": {
+        "from": "DEV-PREVIEW-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "set-covering-problem",
+      "status": "add",
+      "version": {
+        "from": "FE99D7A"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "Streamable",
+      "status": "add",
+      "version": {
+        "from": "1.5.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sme_deps_common",
+      "status": "add",
+      "version": {
+        "from": "2022.04.27"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "suanpan",
+      "status": "add",
+      "version": {
+        "from": "D18E626"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    }
+  ],
+  "summary": {
+    "version_changes": 0,
+    "new_packages": 16,
+    "removed_packages": 4,
+    "license_changes": 0
+  }
+}
