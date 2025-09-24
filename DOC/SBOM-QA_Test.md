@@ -130,19 +130,24 @@ Logical consistency (e.g., relationships, identifiers)
 
 ## Observation & Result
 
-## Tools Used
-### [Syft](https://github.com/anchore/syft)
+### Tools Used
+#### 1. [Syft](https://github.com/anchore/syft)
 **Command:**  
 For generating SBOMs for all test targets this command is used:
 ```
 syft -o spdx-json=syft-sbom.json --enrich all --verbose .
 ```
 
-**Ecosystem:** [Node.js](https://github.com/nokia/SBOM-QA/tree/main/Node.js)
+**Ecosystem:** 
+[Node.js](https://github.com/nokia/SBOM-QA/tree/main/Node.js)
 
-- **Default SBOM:** Generated directly from the project source without performing any compilation step. [syft-default.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/syft-default.json)
+- **Default SBOM:**
+[syft-default.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/syft-default.json)
+
+Generated directly from the project source without performing any compilation step. 
 
 - **Compilation Step:**
+
 The project did not originally include a package-lock.json file, which is required to resolve and capture the full dependency tree. To generate it, the following command was executed in test target root:
 ```
 npm install --package-lock
@@ -151,13 +156,104 @@ npm install --package-lock
 - ***package-lock.json*** , ***node_modules***
 
 **Enriched SBOMs:**
-  [syft-lock.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/syft-lock.json)
+[syft-lock.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/syft-lock.json)
+
+**Ecosystem:** 
+[Go](https://github.com/gohugoio/hugo)
+
+- **Default SBOM:**
+
+**Ecosystem:**
+[Python (FastAPI)](https://github.com/fastapi/fastapi)
+
+- **Default SBOM:** 
+
+- **Compilation Step:**
+
+The project did not include a pdm.lock file. To generate it and pin all dependencies, the following command was executed:
+
+```
+pdm lock
+```
+Dependencies must be installed for the environment using:
+
+```
+pdm install
+```
+
+**Enriched SBOMs:**
+...
+
+**Ecosystem:** 
+[Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
+
+- **Default SBOM:**
+
+- **Compilation Step:**
+
+The project included both pyproject.toml and poetry.lock. To install only the production dependencies (excluding development packages), the following command was executed: 
+
+```
+poetry install --no-dev
+```
+
+**Enriched SBOMs:**
+...
+
+**Ecosystem:** 
+[C++ (Conan)](https://github.com/catchorg/Catch2)
 
 
-### [Scanoss](https://github.com/scanoss) 
+- **Default SBOM:** 
+
+**Ecosystem:** 
+[C (No package manager)](https://github.com/besser82/libxcrypt)
+
+- **Default SBOM:** 
+
+**Ecosystem:** 
+[C++ (No package manager)](https://github.com/zeux/meshoptimizer)
+
+- **Default SBOM:** 
+
+**Ecosystem:**
+[Java (Maven-managed)](https://github.com/bytedeco/javacv) 
+
+- **Default SBOM:**
+
+- **Compilation Step:** Build
+
+The project was compiled to ensure that all direct and transitive dependencies were resolved and    packaged into build artifacts (target/*.jar). following command was executed in tese target root: 
+
+```
+mvn clean package -DskipTests
+```
+
+**Generated Files:**
+- ***target/*.jar***
+
+**Result:**
+
+Ensures a richer and more accurate SBOM including both direct and transitive dependencies.
+
+**Enriched SBOMs:**
+...
+
+
+
+
+
+
+
+
+
+
+
+
+#### 2. [Scanoss](https://github.com/scanoss) 
 **Command:**  
 
-### [ORT](https://github.com/oss-review-toolkit/ort)  
+#### 3. [ORT](https://github.com/oss-review-toolkit/ort)  
 **Command:**
 
 For generating SBOMs for all test targets this command is used:
@@ -320,12 +416,28 @@ The SBOM was successfully generated without any errors.
 [ORT-python.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/ort.json)
 
  
-
-
-
-
-### [Trivy](https://github.com/aquasecurity/trivy)  
+#### 4.
+[Trivy](https://github.com/aquasecurity/trivy)  
 **Command:** 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
