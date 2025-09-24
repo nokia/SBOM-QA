@@ -209,7 +209,7 @@ Indicating the use of two different **Package Managers**:
 >***Note:*** The **SBOM** was successfully generated without any errors and without the need for any modifications or special configurations. 
 
 **Generated SBOM:**
-...
+[ORT-GO.json](https://github.com/nokia/SBOM-QA/blob/main/Go/SBOM/ort.json)
 
 **Ecosystem:** 
 [C (No package manager)](https://github.com/besser82/libxcrypt)
@@ -217,7 +217,7 @@ Indicating the use of two different **Package Managers**:
 Given that ORT relies on a package manager for SBOM generation, and no package manager was present in this project, the generated SBOM only included the project name as a package.
 
 **Generated SBOM:**
-...
+[ORT-C-NP.json](https://github.com/nokia/SBOM-QA/blob/main/C-NP/SBOM/ort%20.json)
 
 **Ecosystem:** 
 [C++ (No package manager)](https://github.com/zeux/meshoptimizer)
@@ -227,7 +227,7 @@ In this project, no package manager associated with C++ was identified; However,
 - ***gltf/package.json*** , ***js/package.json***
 
 **Generated SBOM:**
-...
+[ORT-C++-NP.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/SBOM/ortC%2B%2BMeShop.json)
 
 
 **Ecosystem:** 
@@ -244,8 +244,9 @@ indicating the use of a package manager:
 >***Note:*** The **SBOM** was successfully generated without any errors and without the need for any modifications or special configurations.
 
 **Generated SBOM:**
-  ...
-  
+[ORT-Node-js.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/node.js.ORT.ScanSbom.json)
+
+
 **Ecosystem:**
 [Java (Maven-managed)](https://github.com/bytedeco/javacv) 
 
@@ -272,7 +273,7 @@ Indicating that the project relied on a single package manager:
 After the version was corrected, **ORT** was ultimately able to generate the **SBOM** successfully without errors.
 
 **Generated SBOM:**
-  ...
+[ORT-Java-Maven.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/SBOM/normal.ort.json)
 
 **Ecosystem:** 
 [C++ (Conan)](https://github.com/catchorg/Catch2)
@@ -293,9 +294,8 @@ and in total, two package managers were detected:
 
 - ***Bazel & Conan***
 
-
 **Generated SBOM:**
-...
+[ORT-C++-CONAN.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B_CONAN/SBOM/ort.json)
 
 **Ecosystem:**
 [Python (FastAPI)](https://github.com/fastapi/fastapi)
@@ -316,9 +316,8 @@ In this project, the following two files were identified:
 
 The SBOM was successfully generated without any errors. 
 
-
 **Generated SBOM:**
-...
+[ORT-python.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/ort.json)
 
  
 
