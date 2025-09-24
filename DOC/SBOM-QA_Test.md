@@ -214,14 +214,21 @@ Indicating the use of two different **Package Managers**:
 **Ecosystem:** 
 [C (No package manager)](https://github.com/besser82/libxcrypt)
 
-Given that **ORT** relies on a package manager for SBOM generation, and no package manager was present in this project, no SBOM was produced.
+Given that ORT relies on a package manager for SBOM generation, and no package manager was present in this project, the generated SBOM only included the project name as a package.
+
+**Generated SBOM:**
+...
 
 **Ecosystem:** 
 [C++ (No package manager)](https://github.com/zeux/meshoptimizer)
 
 In this project, no package manager associated with C++ was identified; However, in the two files listed below, **NPM-related Packages** were detected. 
 
-- ***gltf/package.json*** , ***js/package.json*** 
+- ***gltf/package.json*** , ***js/package.json***
+
+**Generated SBOM:**
+...
+
 
 **Ecosystem:** 
 [Node.js](https://github.com/expressjs/express)  
@@ -240,7 +247,6 @@ indicating the use of a package manager:
   ...
   
 **Ecosystem:**
-
 [Java (Maven-managed)](https://github.com/bytedeco/javacv) 
 
 During the process, an error related to the Maven compiler was encountered, which necessitated modifications in the ***pom.xml*** file as described below: 
@@ -268,15 +274,53 @@ After the version was corrected, **ORT** was ultimately able to generate the **S
 **Generated SBOM:**
   ...
 
+**Ecosystem:** 
+[C++ (Conan)](https://github.com/catchorg/Catch2)
 
+In this section, several points should be highlighted.  
+
+- First, since ORT encountered errors with Conan versions 2.x, it was necessary to downgrade Conan to version 1.66.0.  
+
+- Second, because a Linux-based operating system was used, one of the viable approaches for installing Conan involved the creation of a conan-venv, which was adopted in this case.  
+
+It should also be noted that the project included Bazel; therefore, ***Bazel(version:8.3.1)*** and ***Buildizer(version:1.5.0)*** were installed, as **ORT** would otherwise have failed with errors.  
+
+- Finally, the following files were identified: 
+
+- ***MODULE.bazel*** , ***.conan/test_package/conanfile.py*** , ***Conanfile.py*** 
+
+and in total, two package managers were detected: 
+
+- ***Bazel & Conan***
+
+
+**Generated SBOM:**
+...
+
+**Ecosystem:**
+[Python (FastAPI)](https://github.com/fastapi/fastapi)
+
+Since the project utilized the PDM package manager, which was not included in the list of package managers supported by ORT, no SBOM was generated as a result. 
+
+
+**Ecosystem:**
+[Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
+
+In this project, the following two files were identified: 
+
+- ***projects/example-improve/requirements.txt*** , ***poetry.lock*** 
+
+ Ultimately two package managers were utilized: 
+
+- ***PIP & Poetry*** 
+
+The SBOM was successfully generated without any errors. 
+
+
+**Generated SBOM:**
+...
 
  
-
-
-
-
-
-
 
 
 
