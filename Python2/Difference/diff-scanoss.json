@@ -1,0 +1,1429 @@
+{
+  "tool": {
+    "name": "sbomdiff",
+    "version": "0.5.6"
+  },
+  "file_1": "SBOM-QA/python-gpteng/AntonOsika_gpt-engineer_448e9b.json",
+  "file_2": "final.projects/python/scanoss.json",
+  "differences": [
+    {
+      "package": "keyboard",
+      "status": "remove",
+      "version": {
+        "from": "0.13.5"
+      }
+    },
+    {
+      "package": "huggingface-hub",
+      "status": "remove",
+      "version": {
+        "from": "0.22.2"
+      }
+    },
+    {
+      "package": "parso",
+      "status": "remove",
+      "version": {
+        "from": "0.8.4"
+      }
+    },
+    {
+      "package": "ipykernel",
+      "status": "remove",
+      "version": {
+        "from": "6.29.4"
+      }
+    },
+    {
+      "package": "sphinx-autobuild",
+      "status": "remove",
+      "version": {
+        "from": "2024.4.16"
+      }
+    },
+    {
+      "package": "pydantic-core",
+      "status": "remove",
+      "version": {
+        "from": "2.18.2"
+      }
+    },
+    {
+      "package": "sphinxcontrib-applehelp",
+      "status": "remove",
+      "version": {
+        "from": "1.0.8"
+      }
+    },
+    {
+      "package": "h11",
+      "status": "remove",
+      "version": {
+        "from": "0.14.0"
+      }
+    },
+    {
+      "package": "sphinx-typlog-theme",
+      "status": "remove",
+      "version": {
+        "from": "0.8.0"
+      }
+    },
+    {
+      "package": "sphinxcontrib-jquery",
+      "status": "remove",
+      "version": {
+        "from": "4.1"
+      }
+    },
+    {
+      "package": "frozenlist",
+      "status": "remove",
+      "version": {
+        "from": "1.4.1"
+      }
+    },
+    {
+      "package": "sphinxcontrib-serializinghtml",
+      "status": "remove",
+      "version": {
+        "from": "1.1.10"
+      }
+    },
+    {
+      "package": "six",
+      "status": "remove",
+      "version": {
+        "from": "1.16.0"
+      }
+    },
+    {
+      "package": "sphinx-rtd-theme",
+      "status": "remove",
+      "version": {
+        "from": "2.0.0"
+      }
+    },
+    {
+      "package": "multidict",
+      "status": "remove",
+      "version": {
+        "from": "6.0.5"
+      }
+    },
+    {
+      "package": "click",
+      "status": "remove",
+      "version": {
+        "from": "8.1.7"
+      }
+    },
+    {
+      "package": "xxhash",
+      "status": "remove",
+      "version": {
+        "from": "3.4.1"
+      }
+    },
+    {
+      "package": "pyperclip",
+      "status": "remove",
+      "version": {
+        "from": "1.8.2"
+      }
+    },
+    {
+      "package": "beautifulsoup4",
+      "status": "remove",
+      "version": {
+        "from": "4.12.3"
+      }
+    },
+    {
+      "package": "sphinx-book-theme",
+      "status": "remove",
+      "version": {
+        "from": "1.1.2"
+      }
+    },
+    {
+      "package": "jupyter-core",
+      "status": "remove",
+      "version": {
+        "from": "5.7.2"
+      }
+    },
+    {
+      "package": "langchain-text-splitters",
+      "status": "remove",
+      "version": {
+        "from": "0.2.0"
+      }
+    },
+    {
+      "package": "iniconfig",
+      "status": "remove",
+      "version": {
+        "from": "2.0.0"
+      }
+    },
+    {
+      "package": "stack-data",
+      "status": "remove",
+      "version": {
+        "from": "0.6.3"
+      }
+    },
+    {
+      "package": "pathspec",
+      "status": "remove",
+      "version": {
+        "from": "0.12.1"
+      }
+    },
+    {
+      "package": "sphinxcontrib-htmlhelp",
+      "status": "remove",
+      "version": {
+        "from": "2.0.5"
+      }
+    },
+    {
+      "package": "psutil",
+      "status": "remove",
+      "version": {
+        "from": "5.9.8"
+      }
+    },
+    {
+      "package": "langsmith",
+      "status": "remove",
+      "version": {
+        "from": "0.1.51"
+      }
+    },
+    {
+      "package": "alabaster",
+      "status": "remove",
+      "version": {
+        "from": "0.7.16"
+      }
+    },
+    {
+      "package": "numpy",
+      "status": "remove",
+      "version": {
+        "from": "1.26.4"
+      }
+    },
+    {
+      "package": "pytz",
+      "status": "remove",
+      "version": {
+        "from": "2024.1"
+      }
+    },
+    {
+      "package": "urllib3",
+      "status": "remove",
+      "version": {
+        "from": "2.2.1"
+      }
+    },
+    {
+      "package": "importlib-metadata",
+      "status": "remove",
+      "version": {
+        "from": "7.1.0"
+      }
+    },
+    {
+      "package": "uvicorn",
+      "status": "remove",
+      "version": {
+        "from": "0.29.0"
+      }
+    },
+    {
+      "package": "ipython",
+      "status": "remove",
+      "version": {
+        "from": "8.24.0"
+      }
+    },
+    {
+      "package": "colorama",
+      "status": "remove",
+      "version": {
+        "from": "0.4.6"
+      }
+    },
+    {
+      "package": "shellingham",
+      "status": "remove",
+      "version": {
+        "from": "1.5.4"
+      }
+    },
+    {
+      "package": "rich",
+      "status": "remove",
+      "version": {
+        "from": "13.7.1"
+      }
+    },
+    {
+      "package": "pyzmq",
+      "status": "remove",
+      "version": {
+        "from": "26.0.2"
+      }
+    },
+    {
+      "package": "pandocfilters",
+      "status": "remove",
+      "version": {
+        "from": "1.5.1"
+      }
+    },
+    {
+      "package": "pillow",
+      "status": "remove",
+      "version": {
+        "from": "10.3.0"
+      }
+    },
+    {
+      "package": "idna",
+      "status": "remove",
+      "version": {
+        "from": "3.7"
+      }
+    },
+    {
+      "package": "websockets",
+      "status": "remove",
+      "version": {
+        "from": "12.0"
+      }
+    },
+    {
+      "package": "jedi",
+      "status": "remove",
+      "version": {
+        "from": "0.19.1"
+      }
+    },
+    {
+      "package": "pre-commit",
+      "status": "remove",
+      "version": {
+        "from": "3.3.3"
+      }
+    },
+    {
+      "package": "executing",
+      "status": "remove",
+      "version": {
+        "from": "2.0.1"
+      }
+    },
+    {
+      "package": "jupyter-cache",
+      "status": "remove",
+      "version": {
+        "from": "1.0.0"
+      }
+    },
+    {
+      "package": "pycparser",
+      "status": "remove",
+      "version": {
+        "from": "2.22"
+      }
+    },
+    {
+      "package": "tox",
+      "status": "remove",
+      "version": {
+        "from": "4.15.0"
+      }
+    },
+    {
+      "package": "marshmallow",
+      "status": "remove",
+      "version": {
+        "from": "3.21.1"
+      }
+    },
+    {
+      "package": "cachetools",
+      "status": "remove",
+      "version": {
+        "from": "5.3.3"
+      }
+    },
+    {
+      "package": "rudder-sdk-python",
+      "status": "remove",
+      "version": {
+        "from": "2.1.0"
+      }
+    },
+    {
+      "package": "orjson",
+      "status": "remove",
+      "version": {
+        "from": "3.10.1"
+      }
+    },
+    {
+      "package": "marshmallow-enum",
+      "status": "remove",
+      "version": {
+        "from": "1.5.1"
+      }
+    },
+    {
+      "package": "black",
+      "status": "remove",
+      "version": {
+        "from": "23.3.0"
+      }
+    },
+    {
+      "package": "yarl",
+      "status": "remove",
+      "version": {
+        "from": "1.9.4"
+      }
+    },
+    {
+      "package": "prompt-toolkit",
+      "status": "remove",
+      "version": {
+        "from": "3.0.43"
+      }
+    },
+    {
+      "package": "tornado",
+      "status": "remove",
+      "version": {
+        "from": "6.4"
+      }
+    },
+    {
+      "package": "myst-nb",
+      "status": "remove",
+      "version": {
+        "from": "1.1.0"
+      }
+    },
+    {
+      "package": "jinja2",
+      "status": "remove",
+      "version": {
+        "from": "3.1.3"
+      }
+    },
+    {
+      "package": "appnope",
+      "status": "remove",
+      "version": {
+        "from": "0.1.4"
+      }
+    },
+    {
+      "package": "asttokens",
+      "status": "remove",
+      "version": {
+        "from": "2.4.1"
+      }
+    },
+    {
+      "package": "imagesize",
+      "status": "remove",
+      "version": {
+        "from": "1.4.1"
+      }
+    },
+    {
+      "package": "sphinx-copybutton",
+      "status": "remove",
+      "version": {
+        "from": "0.5.2"
+      }
+    },
+    {
+      "package": "sphinxcontrib-qthelp",
+      "status": "remove",
+      "version": {
+        "from": "1.0.7"
+      }
+    },
+    {
+      "package": "sniffio",
+      "status": "remove",
+      "version": {
+        "from": "1.3.1"
+      }
+    },
+    {
+      "package": "exceptiongroup",
+      "status": "remove",
+      "version": {
+        "from": "1.2.1"
+      }
+    },
+    {
+      "package": "identify",
+      "status": "remove",
+      "version": {
+        "from": "2.5.36"
+      }
+    },
+    {
+      "package": "coverage",
+      "status": "remove",
+      "version": {
+        "from": "7.5.0"
+      }
+    },
+    {
+      "package": "decorator",
+      "status": "remove",
+      "version": {
+        "from": "5.1.1"
+      }
+    },
+    {
+      "package": "distro",
+      "status": "remove",
+      "version": {
+        "from": "1.9.0"
+      }
+    },
+    {
+      "package": "distlib",
+      "status": "remove",
+      "version": {
+        "from": "0.3.8"
+      }
+    },
+    {
+      "package": "nest-asyncio",
+      "status": "remove",
+      "version": {
+        "from": "1.6.0"
+      }
+    },
+    {
+      "package": "pandas",
+      "status": "remove",
+      "version": {
+        "from": "2.2.2"
+      }
+    },
+    {
+      "package": "zipp",
+      "status": "remove",
+      "version": {
+        "from": "3.18.1"
+      }
+    },
+    {
+      "package": "referencing",
+      "status": "remove",
+      "version": {
+        "from": "0.35.0"
+      }
+    },
+    {
+      "package": "pytest",
+      "status": "remove",
+      "version": {
+        "from": "8.1.2"
+      }
+    },
+    {
+      "package": "nbsphinx",
+      "status": "remove",
+      "version": {
+        "from": "0.9.3"
+      }
+    },
+    {
+      "package": "markdown",
+      "status": "remove",
+      "version": {
+        "from": "3.6"
+      }
+    },
+    {
+      "package": "datasets",
+      "status": "remove",
+      "version": {
+        "from": "2.19.0"
+      }
+    },
+    {
+      "package": "setuptools",
+      "status": "remove",
+      "version": {
+        "from": "70.0.0"
+      }
+    },
+    {
+      "package": "soupsieve",
+      "status": "remove",
+      "version": {
+        "from": "2.5"
+      }
+    },
+    {
+      "package": "tiktoken",
+      "status": "remove",
+      "version": {
+        "from": "0.7.0"
+      }
+    },
+    {
+      "package": "typer",
+      "status": "remove",
+      "version": {
+        "from": "0.12.3"
+      }
+    },
+    {
+      "package": "nbformat",
+      "status": "remove",
+      "version": {
+        "from": "5.10.4"
+      }
+    },
+    {
+      "package": "langchain-community",
+      "status": "remove",
+      "version": {
+        "from": "0.2.1"
+      }
+    },
+    {
+      "package": "myst-parser",
+      "status": "remove",
+      "version": {
+        "from": "3.0.0"
+      }
+    },
+    {
+      "package": "packaging",
+      "status": "remove",
+      "version": {
+        "from": "23.2"
+      }
+    },
+    {
+      "package": "sphinxcontrib-jsmath",
+      "status": "remove",
+      "version": {
+        "from": "1.0.1"
+      }
+    },
+    {
+      "package": "snowballstemmer",
+      "status": "remove",
+      "version": {
+        "from": "2.2.0"
+      }
+    },
+    {
+      "package": "multiprocess",
+      "status": "remove",
+      "version": {
+        "from": "0.70.16"
+      }
+    },
+    {
+      "package": "nbclient",
+      "status": "remove",
+      "version": {
+        "from": "0.10.0"
+      }
+    },
+    {
+      "package": "certifi",
+      "status": "remove",
+      "version": {
+        "from": "2024.7.4"
+      }
+    },
+    {
+      "package": "termcolor",
+      "status": "remove",
+      "version": {
+        "from": "2.3.0"
+      }
+    },
+    {
+      "package": "dataclasses-json",
+      "status": "remove",
+      "version": {
+        "from": "0.5.7"
+      }
+    },
+    {
+      "package": "bleach",
+      "status": "remove",
+      "version": {
+        "from": "6.1.0"
+      }
+    },
+    {
+      "package": "deprecation",
+      "status": "remove",
+      "version": {
+        "from": "2.1.0"
+      }
+    },
+    {
+      "package": "langchain-openai",
+      "status": "remove",
+      "version": {
+        "from": "0.1.7"
+      }
+    },
+    {
+      "package": "tomli",
+      "status": "remove",
+      "version": {
+        "from": "2.0.1"
+      }
+    },
+    {
+      "package": "backoff",
+      "status": "remove",
+      "version": {
+        "from": "2.2.1"
+      }
+    },
+    {
+      "package": "pyproject-api",
+      "status": "remove",
+      "version": {
+        "from": "1.6.1"
+      }
+    },
+    {
+      "package": "wcwidth",
+      "status": "remove",
+      "version": {
+        "from": "0.2.13"
+      }
+    },
+    {
+      "package": "jupyter-client",
+      "status": "remove",
+      "version": {
+        "from": "8.6.1"
+      }
+    },
+    {
+      "package": "platformdirs",
+      "status": "remove",
+      "version": {
+        "from": "4.2.1"
+      }
+    },
+    {
+      "package": "anthropic",
+      "status": "remove",
+      "version": {
+        "from": "0.26.1"
+      }
+    },
+    {
+      "package": "charset-normalizer",
+      "status": "remove",
+      "version": {
+        "from": "3.3.2"
+      }
+    },
+    {
+      "package": "jsonpointer",
+      "status": "remove",
+      "version": {
+        "from": "2.4"
+      }
+    },
+    {
+      "package": "tqdm",
+      "status": "remove",
+      "version": {
+        "from": "4.66.2"
+      }
+    },
+    {
+      "package": "babel",
+      "status": "remove",
+      "version": {
+        "from": "2.14.0"
+      }
+    },
+    {
+      "package": "greenlet",
+      "status": "remove",
+      "version": {
+        "from": "3.0.3"
+      }
+    },
+    {
+      "package": "rpds-py",
+      "status": "remove",
+      "version": {
+        "from": "0.18.0"
+      }
+    },
+    {
+      "package": "openai",
+      "status": "remove",
+      "version": {
+        "from": "1.30.1"
+      }
+    },
+    {
+      "package": "monotonic",
+      "status": "remove",
+      "version": {
+        "from": "1.6"
+      }
+    },
+    {
+      "package": "pyarrow-hotfix",
+      "status": "remove",
+      "version": {
+        "from": "0.6"
+      }
+    },
+    {
+      "package": "anyio",
+      "status": "remove",
+      "version": {
+        "from": "4.3.0"
+      }
+    },
+    {
+      "package": "traitlets",
+      "status": "remove",
+      "version": {
+        "from": "5.14.3"
+      }
+    },
+    {
+      "package": "pluggy",
+      "status": "remove",
+      "version": {
+        "from": "1.5.0"
+      }
+    },
+    {
+      "package": "ruff",
+      "status": "remove",
+      "version": {
+        "from": "0.4.2"
+      }
+    },
+    {
+      "package": "requests",
+      "status": "remove",
+      "version": {
+        "from": "2.31.0"
+      }
+    },
+    {
+      "package": "pyyaml",
+      "status": "remove",
+      "version": {
+        "from": "6.0.1"
+      }
+    },
+    {
+      "package": "pure-eval",
+      "status": "remove",
+      "version": {
+        "from": "0.2.2"
+      }
+    },
+    {
+      "package": "webencodings",
+      "status": "remove",
+      "version": {
+        "from": "0.5.1"
+      }
+    },
+    {
+      "package": "annotated-types",
+      "status": "remove",
+      "version": {
+        "from": "0.6.0"
+      }
+    },
+    {
+      "package": "python-dateutil",
+      "status": "remove",
+      "version": {
+        "from": "2.9.0.POST0"
+      }
+    },
+    {
+      "package": "pytest-cov",
+      "status": "remove",
+      "version": {
+        "from": "4.1.0"
+      }
+    },
+    {
+      "package": "accessible-pygments",
+      "status": "remove",
+      "version": {
+        "from": "0.0.4"
+      }
+    },
+    {
+      "package": "sphinxcontrib-devhelp",
+      "status": "remove",
+      "version": {
+        "from": "1.0.6"
+      }
+    },
+    {
+      "package": "jiter",
+      "status": "remove",
+      "version": {
+        "from": "0.4.0"
+      }
+    },
+    {
+      "package": "watchfiles",
+      "status": "remove",
+      "version": {
+        "from": "0.21.0"
+      }
+    },
+    {
+      "package": "mistune",
+      "status": "remove",
+      "version": {
+        "from": "3.0.2"
+      }
+    },
+    {
+      "package": "linkchecker",
+      "status": "remove",
+      "version": {
+        "from": "10.4.0"
+      }
+    },
+    {
+      "package": "markupsafe",
+      "status": "remove",
+      "version": {
+        "from": "2.1.5"
+      }
+    },
+    {
+      "package": "dnspython",
+      "status": "remove",
+      "version": {
+        "from": "2.6.1"
+      }
+    },
+    {
+      "package": "httpx",
+      "status": "remove",
+      "version": {
+        "from": "0.27.0"
+      }
+    },
+    {
+      "package": "tomlkit",
+      "status": "remove",
+      "version": {
+        "from": "0.12.4"
+      }
+    },
+    {
+      "package": "comm",
+      "status": "remove",
+      "version": {
+        "from": "0.2.2"
+      }
+    },
+    {
+      "package": "tenacity",
+      "status": "remove",
+      "version": {
+        "from": "8.2.3"
+      }
+    },
+    {
+      "package": "python-dotenv",
+      "status": "remove",
+      "version": {
+        "from": "0.21.1"
+      }
+    },
+    {
+      "package": "fastjsonschema",
+      "status": "remove",
+      "version": {
+        "from": "2.19.1"
+      }
+    },
+    {
+      "package": "jupyterlab-pygments",
+      "status": "remove",
+      "version": {
+        "from": "0.3.0"
+      }
+    },
+    {
+      "package": "langchain-anthropic",
+      "status": "remove",
+      "version": {
+        "from": "0.1.13"
+      }
+    },
+    {
+      "package": "typing-inspect",
+      "status": "remove",
+      "version": {
+        "from": "0.9.0"
+      }
+    },
+    {
+      "package": "async-timeout",
+      "status": "remove",
+      "version": {
+        "from": "4.0.3"
+      }
+    },
+    {
+      "package": "nodeenv",
+      "status": "remove",
+      "version": {
+        "from": "1.8.0"
+      }
+    },
+    {
+      "package": "attrs",
+      "status": "remove",
+      "version": {
+        "from": "23.2.0"
+      }
+    },
+    {
+      "package": "pygments",
+      "status": "remove",
+      "version": {
+        "from": "2.17.2"
+      }
+    },
+    {
+      "package": "jsonschema-specifications",
+      "status": "remove",
+      "version": {
+        "from": "2023.12.1"
+      }
+    },
+    {
+      "package": "jsonschema",
+      "status": "remove",
+      "version": {
+        "from": "4.21.1"
+      }
+    },
+    {
+      "package": "virtualenv",
+      "status": "remove",
+      "version": {
+        "from": "20.26.0"
+      }
+    },
+    {
+      "package": "cfgv",
+      "status": "remove",
+      "version": {
+        "from": "3.4.0"
+      }
+    },
+    {
+      "package": "markdown-include",
+      "status": "remove",
+      "version": {
+        "from": "0.8.1"
+      }
+    },
+    {
+      "package": "pydata-sphinx-theme",
+      "status": "remove",
+      "version": {
+        "from": "0.15.2"
+      }
+    },
+    {
+      "package": "httpcore",
+      "status": "remove",
+      "version": {
+        "from": "1.0.5"
+      }
+    },
+    {
+      "package": "cffi",
+      "status": "remove",
+      "version": {
+        "from": "1.16.0"
+      }
+    },
+    {
+      "package": "chardet",
+      "status": "remove",
+      "version": {
+        "from": "5.2.0"
+      }
+    },
+    {
+      "package": "markdown-it-py",
+      "status": "remove",
+      "version": {
+        "from": "3.0.0"
+      }
+    },
+    {
+      "package": "tzdata",
+      "status": "remove",
+      "version": {
+        "from": "2024.1"
+      }
+    },
+    {
+      "package": "starlette",
+      "status": "remove",
+      "version": {
+        "from": "0.37.2"
+      }
+    },
+    {
+      "package": "tinycss2",
+      "status": "remove",
+      "version": {
+        "from": "1.3.0"
+      }
+    },
+    {
+      "package": "aiosignal",
+      "status": "remove",
+      "version": {
+        "from": "1.3.1"
+      }
+    },
+    {
+      "package": "tabulate",
+      "status": "remove",
+      "version": {
+        "from": "0.9.0"
+      }
+    },
+    {
+      "package": "pydantic-settings",
+      "status": "remove",
+      "version": {
+        "from": "2.2.1"
+      }
+    },
+    {
+      "package": "filelock",
+      "status": "remove",
+      "version": {
+        "from": "3.13.4"
+      }
+    },
+    {
+      "package": "tokenizers",
+      "status": "remove",
+      "version": {
+        "from": "0.19.1"
+      }
+    },
+    {
+      "package": "defusedxml",
+      "status": "remove",
+      "version": {
+        "from": "0.7.1"
+      }
+    },
+    {
+      "package": "mdurl",
+      "status": "remove",
+      "version": {
+        "from": "0.1.2"
+      }
+    },
+    {
+      "package": "mdit-py-plugins",
+      "status": "remove",
+      "version": {
+        "from": "0.4.0"
+      }
+    },
+    {
+      "package": "pexpect",
+      "status": "remove",
+      "version": {
+        "from": "4.9.0"
+      }
+    },
+    {
+      "package": "fsspec",
+      "status": "remove",
+      "version": {
+        "from": "2024.3.1"
+      }
+    },
+    {
+      "package": "nbconvert",
+      "status": "remove",
+      "version": {
+        "from": "7.16.3"
+      }
+    },
+    {
+      "package": "pyarrow",
+      "status": "remove",
+      "version": {
+        "from": "16.0.0"
+      }
+    },
+    {
+      "package": "langchain-core",
+      "status": "remove",
+      "version": {
+        "from": "0.2.1"
+      }
+    },
+    {
+      "package": "mypy-extensions",
+      "status": "remove",
+      "version": {
+        "from": "1.0.0"
+      }
+    },
+    {
+      "package": "ptyprocess",
+      "status": "remove",
+      "version": {
+        "from": "0.7.0"
+      }
+    },
+    {
+      "package": "jsonpatch",
+      "status": "remove",
+      "version": {
+        "from": "1.33"
+      }
+    },
+    {
+      "package": "docutils",
+      "status": "remove",
+      "version": {
+        "from": "0.20.1"
+      }
+    },
+    {
+      "package": "regex",
+      "status": "remove",
+      "version": {
+        "from": "2023.12.25"
+      }
+    },
+    {
+      "package": "dill",
+      "status": "remove",
+      "version": {
+        "from": "0.3.8"
+      }
+    },
+    {
+      "package": "aiohttp",
+      "status": "remove",
+      "version": {
+        "from": "3.9.5"
+      }
+    },
+    {
+      "package": "sphinx",
+      "status": "remove",
+      "version": {
+        "from": "7.3.7"
+      }
+    },
+    {
+      "package": "langchain",
+      "status": "remove",
+      "version": {
+        "from": "0.2.1"
+      }
+    },
+    {
+      "package": "matplotlib-inline",
+      "status": "remove",
+      "version": {
+        "from": "0.1.7"
+      }
+    },
+    {
+      "package": "pydantic",
+      "status": "remove",
+      "version": {
+        "from": "2.7.1"
+      }
+    },
+    {
+      "package": "debugpy",
+      "status": "remove",
+      "version": {
+        "from": "1.8.1"
+      }
+    },
+    {
+      "package": "typing-extensions",
+      "status": "remove",
+      "version": {
+        "from": "4.11.0"
+      }
+    },
+    {
+      "package": "sqlalchemy",
+      "status": "remove",
+      "version": {
+        "from": "2.0.29"
+      }
+    },
+    {
+      "package": "autodoc-pydantic",
+      "status": "remove",
+      "version": {
+        "from": "2.2.0"
+      }
+    },
+    {
+      "package": "pywin32",
+      "status": "remove",
+      "version": {
+        "from": "306"
+      }
+    },
+    {
+      "package": "toml",
+      "status": "remove",
+      "version": {
+        "from": "0.10.2"
+      }
+    },
+    {
+      "package": "mypy",
+      "status": "remove",
+      "version": {
+        "from": "1.3.0"
+      }
+    },
+    {
+      "package": "actions/stale",
+      "status": "remove",
+      "version": {
+        "from": "4"
+      }
+    },
+    {
+      "package": "actions/checkout",
+      "status": "remove",
+      "version": {
+        "from": "3.*.*"
+      }
+    },
+    {
+      "package": "actions/setup-python",
+      "status": "remove",
+      "version": {
+        "from": "4.*.*"
+      }
+    },
+    {
+      "package": "pre-commit/action",
+      "status": "remove",
+      "version": {
+        "from": "3.0.0"
+      }
+    },
+    {
+      "package": "pypa/gh-action-pypi-publish",
+      "status": "remove",
+      "version": {
+        "from": "RELEASE/V1"
+      }
+    },
+    {
+      "package": "actions/upload-artifact",
+      "status": "remove",
+      "version": {
+        "from": "3"
+      }
+    },
+    {
+      "package": "actions/cache",
+      "status": "remove",
+      "version": {
+        "from": "3"
+      }
+    },
+    {
+      "package": "actions/download-artifact",
+      "status": "remove",
+      "version": {
+        "from": "3"
+      }
+    },
+    {
+      "package": "com.github.AntonOsika/gpt-engineer",
+      "status": "remove",
+      "version": {
+        "from": "MAIN"
+      }
+    },
+    {
+      "package": "gpt-engineer",
+      "status": "add",
+      "version": {
+        "from": "0.2.7"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "free-gpt-engineer",
+      "status": "add",
+      "version": {
+        "from": "V0.0.8"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    }
+  ],
+  "summary": {
+    "version_changes": 0,
+    "new_packages": 2,
+    "removed_packages": 199,
+    "license_changes": 0
+  }
+}

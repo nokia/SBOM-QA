@@ -1,0 +1,151 @@
+{
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SCANOSS-SBOM",
+  "creationInfo": {
+    "created": "2025-08-05T10:59:13Z",
+    "creators": [
+      "Tool: SCANOSS-PY: 1.26.2",
+      "Person: mehdi",
+      "Organization: SCANOSS"
+    ],
+    "comment": "SBOM Build information - SBOM Type: Build"
+  },
+  "documentNamespace": "https://spdx.org/spdxdocs/scanoss-py-1.26.2-c94231a1d50772f3e5863d2c56c2c36f",
+  "documentDescribes": [
+    "SPDXRef-aa644c546bd4c3af2b4b9105b6914391",
+    "SPDXRef-815dfbcf068473b90a4b4984855a020b",
+    "SPDXRef-a2c76197f8a479cae55801d477dfb643",
+    "SPDXRef-fe1b17af9996eea16fda439101b379a0",
+    "SPDXRef-9575d30a6e8fb4d6c017f4e41512b9f6"
+  ],
+  "hasExtractedLicensingInfos": [],
+  "packages": [
+    {
+      "name": "gpt-engineer",
+      "SPDXID": "SPDXRef-aa644c546bd4c3af2b4b9105b6914391",
+      "versionInfo": "0.2.7",
+      "downloadLocation": "https://github.com/antonosika/gpt-engineer",
+      "homepage": "https://github.com/antonosika/gpt-engineer",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: antonosika",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/antonosika/gpt-engineer@0.2.7",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "9bcd8c0365820072aef578a464a1de04"
+        }
+      ]
+    },
+    {
+      "name": "gpt-engineer",
+      "SPDXID": "SPDXRef-815dfbcf068473b90a4b4984855a020b",
+      "versionInfo": "0.3.1",
+      "downloadLocation": "https://github.com/gpt-engineer-org/gpt-engineer",
+      "homepage": "https://github.com/gpt-engineer-org/gpt-engineer",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: gpt-engineer-org",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/gpt-engineer-org/gpt-engineer@0.3.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "9ab049cb0660aabec89059816e76cdbf"
+        }
+      ]
+    },
+    {
+      "name": "gpt-engineer",
+      "SPDXID": "SPDXRef-a2c76197f8a479cae55801d477dfb643",
+      "versionInfo": "0.2.9",
+      "downloadLocation": "https://pypi.org/project/gpt-engineer",
+      "homepage": "https://pypi.org/project/gpt-engineer",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Anton Osika",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/gpt-engineer@0.2.9",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "710efd8d41ee2f4242033d268d2ed99c"
+        }
+      ]
+    },
+    {
+      "name": "gpt-engineer",
+      "SPDXID": "SPDXRef-fe1b17af9996eea16fda439101b379a0",
+      "versionInfo": "1.0",
+      "downloadLocation": "https://github.com/alinconcert/gpt-engineer",
+      "homepage": "https://github.com/alinconcert/gpt-engineer",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: alinconcert",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/alinconcert/gpt-engineer@1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "7748a7fa9bff289320146ae6242e2388"
+        }
+      ]
+    },
+    {
+      "name": "free-gpt-engineer",
+      "SPDXID": "SPDXRef-9575d30a6e8fb4d6c017f4e41512b9f6",
+      "versionInfo": "V0.0.8",
+      "downloadLocation": "https://github.com/Metim0l/free-gpt-engineer",
+      "homepage": "https://github.com/Metim0l/free-gpt-engineer",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Metim0l",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/metim0l/free-gpt-engineer@V0.0.8",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "50bfa4e9e8c9253cc33ed4ec200d34cb"
+        }
+      ]
+    }
+  ]
+}

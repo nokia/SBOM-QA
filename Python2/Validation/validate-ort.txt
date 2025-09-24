@@ -1,0 +1,454 @@
+Validating ort.json
++----+--------------+--------------+--------------------------+---------------------------+
+| #  | Error type   | SPDX ID      | Package name             | Reason                    |
++----+--------------+--------------+--------------------------+---------------------------+
+| 1  | SPDX         | General      | General                  | did not find the          |
+|    | validation   |              |                          | referenced spdx_id        |
+|    | error        |              |                          | "SPDXRef-Package-PyPI-    |
+|    |              |              |                          | fsspec.http.2024.6.1" in  |
+|    |              |              |                          | the SPDX document         |
++----+--------------+--------------+--------------------------+---------------------------+
+| 2  | SPDX         | General      | General                  | did not find the          |
+|    | validation   |              |                          | referenced spdx_id        |
+|    | error        |              |                          | "SPDXRef-Package-PyPI-    |
+|    |              |              |                          | bleach.css.6.2.0" in the  |
+|    |              |              |                          | SPDX document             |
++----+--------------+--------------+--------------------------+---------------------------+
+| 3  | SPDX         | General      | General                  | did not find the          |
+|    | validation   |              |                          | referenced spdx_id        |
+|    | error        |              |                          | "SPDXRef-Package-PyPI-    |
+|    |              |              |                          | coverage.toml.7.10.2" in  |
+|    |              |              |                          | the SPDX document         |
++----+--------------+--------------+--------------------------+---------------------------+
+| 4  | NTIA         | SPDXRef-     | example-improve          | Package without a package |
+|    | validation   | Project-PIP- |                          | supplier                  |
+|    | error        | example-impr |                          |                           |
+|    |              | ove-         |                          |                           |
+|    |              | 3e589bf13560 |                          |                           |
+|    |              | 24fb471a9d17 |                          |                           |
+|    |              | 738e4626f21a |                          |                           |
+|    |              | 953b         |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 5  | NTIA         | SPDXRef-     | poetry.lock              | Package without a package |
+|    | validation   | Project-     |                          | supplier                  |
+|    | error        | Poetry-poetr |                          |                           |
+|    |              | y.lock-      |                          |                           |
+|    |              | 3e589bf13560 |                          |                           |
+|    |              | 24fb471a9d17 |                          |                           |
+|    |              | 738e4626f21a |                          |                           |
+|    |              | 953b         |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 6  | NTIA         | SPDXRef-     | aiohttp                  | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-aiohttp |                          |                           |
+|    |              | -3.12.15     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 7  | NTIA         | SPDXRef-     | aiohttp                  | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-aiohttp |                          |                           |
+|    |              | -3.12.15-vcs |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 8  | NTIA         | SPDXRef-     | aiohttp                  | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-aiohttp |                          |                           |
+|    |              | -3.12.15-    |                          |                           |
+|    |              | source-      |                          |                           |
+|    |              | artifact     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 9  | NTIA         | SPDXRef-     | aiosignal                | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-aiosign |                          |                           |
+|    |              | al-1.4.0     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 10 | NTIA         | SPDXRef-     | aiosignal                | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-aiosign |                          |                           |
+|    |              | al-1.4.0-vcs |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 11 | NTIA         | SPDXRef-     | aiosignal                | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-aiosign |                          |                           |
+|    |              | al-1.4.0-    |                          |                           |
+|    |              | source-      |                          |                           |
+|    |              | artifact     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 12 | NTIA         | SPDXRef-     | alabaster                | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-alabast |                          |                           |
+|    |              | er-1.0.0     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 13 | NTIA         | SPDXRef-     | alabaster                | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-alabast |                          |                           |
+|    |              | er-1.0.0-vcs |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 14 | NTIA         | SPDXRef-     | alabaster                | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-alabast |                          |                           |
+|    |              | er-1.0.0-    |                          |                           |
+|    |              | source-      |                          |                           |
+|    |              | artifact     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 15 | NTIA         | SPDXRef-     | bleach                   | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-        |                          |                           |
+|    |              | bleach-6.2.0 |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 16 | NTIA         | SPDXRef-     | bleach                   | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-bleach- |                          |                           |
+|    |              | 6.2.0-vcs    |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 17 | NTIA         | SPDXRef-     | bleach                   | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-bleach- |                          |                           |
+|    |              | 6.2.0-       |                          |                           |
+|    |              | source-      |                          |                           |
+|    |              | artifact     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 18 | NTIA         | SPDXRef-     | click                    | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-        |                          |                           |
+|    |              | click-8.2.1  |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 19 | NTIA         | SPDXRef-     | click                    | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-click-  |                          |                           |
+|    |              | 8.2.1-vcs    |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 20 | NTIA         | SPDXRef-     | click                    | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-click-  |                          |                           |
+|    |              | 8.2.1-       |                          |                           |
+|    |              | source-      |                          |                           |
+|    |              | artifact     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 21 | NTIA         | SPDXRef-     | filelock                 | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-fileloc |                          |                           |
+|    |              | k-3.18.0     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 22 | NTIA         | SPDXRef-     | filelock                 | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-fileloc |                          |                           |
+|    |              | k-3.18.0-vcs |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 23 | NTIA         | SPDXRef-     | filelock                 | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-fileloc |                          |                           |
+|    |              | k-3.18.0-    |                          |                           |
+|    |              | source-      |                          |                           |
+|    |              | artifact     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 24 | NTIA         | SPDXRef-     | frozenlist               | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-frozenl |                          |                           |
+|    |              | ist-1.7.0    |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 25 | NTIA         | SPDXRef-     | frozenlist               | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-frozenl |                          |                           |
+|    |              | ist-1.7.0-   |                          |                           |
+|    |              | vcs          |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 26 | NTIA         | SPDXRef-     | frozenlist               | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-frozenl |                          |                           |
+|    |              | ist-1.7.0-   |                          |                           |
+|    |              | source-      |                          |                           |
+|    |              | artifact     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 27 | NTIA         | SPDXRef-     | fsspec                   | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-fsspec- |                          |                           |
+|    |              | 2024.6.1     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 28 | NTIA         | SPDXRef-     | fsspec                   | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-fsspec- |                          |                           |
+|    |              | 2024.6.1-    |                          |                           |
+|    |              | source-      |                          |                           |
+|    |              | artifact     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 29 | NTIA         | SPDXRef-     | hf-xet                   | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-hf-     |                          |                           |
+|    |              | xet-1.1.7    |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 30 | NTIA         | SPDXRef-     | hf-xet                   | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-hf-xet- |                          |                           |
+|    |              | 1.1.7-       |                          |                           |
+|    |              | source-      |                          |                           |
+|    |              | artifact     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 31 | NTIA         | SPDXRef-     | jinja2                   | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-        |                          |                           |
+|    |              | jinja2-3.1.6 |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 32 | NTIA         | SPDXRef-     | jinja2                   | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-jinja2- |                          |                           |
+|    |              | 3.1.6-vcs    |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 33 | NTIA         | SPDXRef-     | jinja2                   | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-jinja2- |                          |                           |
+|    |              | 3.1.6-       |                          |                           |
+|    |              | source-      |                          |                           |
+|    |              | artifact     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 34 | NTIA         | SPDXRef-     | langchain                | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-langcha |                          |                           |
+|    |              | in-0.2.17    |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 35 | NTIA         | SPDXRef-     | langchain                | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-langcha |                          |                           |
+|    |              | in-0.2.17-   |                          |                           |
+|    |              | vcs          |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 36 | NTIA         | SPDXRef-     | langchain                | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-langcha |                          |                           |
+|    |              | in-0.2.17-   |                          |                           |
+|    |              | source-      |                          |                           |
+|    |              | artifact     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 37 | NTIA         | SPDXRef-     | langchain-anthropic      | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-        |                          |                           |
+|    |              | langchain-an |                          |                           |
+|    |              | thropic-     |                          |                           |
+|    |              | 0.1.23       |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 38 | NTIA         | SPDXRef-     | langchain-anthropic      | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-        |                          |                           |
+|    |              | langchain-an |                          |                           |
+|    |              | thropic-     |                          |                           |
+|    |              | 0.1.23-vcs   |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 39 | NTIA         | SPDXRef-     | langchain-anthropic      | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-        |                          |                           |
+|    |              | langchain-an |                          |                           |
+|    |              | thropic-     |                          |                           |
+|    |              | 0.1.23-      |                          |                           |
+|    |              | source-      |                          |                           |
+|    |              | artifact     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 40 | NTIA         | SPDXRef-     | langchain-community      | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-        |                          |                           |
+|    |              | langchain-co |                          |                           |
+|    |              | mmunity-     |                          |                           |
+|    |              | 0.2.19       |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 41 | NTIA         | SPDXRef-     | langchain-community      | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-        |                          |                           |
+|    |              | langchain-co |                          |                           |
+|    |              | mmunity-     |                          |                           |
+|    |              | 0.2.19-vcs   |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 42 | NTIA         | SPDXRef-     | langchain-community      | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-        |                          |                           |
+|    |              | langchain-co |                          |                           |
+|    |              | mmunity-     |                          |                           |
+|    |              | 0.2.19-      |                          |                           |
+|    |              | source-      |                          |                           |
+|    |              | artifact     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 43 | NTIA         | SPDXRef-     | langchain-core           | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-        |                          |                           |
+|    |              | langchain-   |                          |                           |
+|    |              | core-0.2.43  |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 44 | NTIA         | SPDXRef-     | langchain-core           | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-        |                          |                           |
+|    |              | langchain-co |                          |                           |
+|    |              | re-0.2.43-   |                          |                           |
+|    |              | vcs          |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 45 | NTIA         | SPDXRef-     | langchain-core           | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-        |                          |                           |
+|    |              | langchain-co |                          |                           |
+|    |              | re-0.2.43-   |                          |                           |
+|    |              | source-      |                          |                           |
+|    |              | artifact     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 46 | NTIA         | SPDXRef-     | langchain-openai         | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-        |                          |                           |
+|    |              | langchain-op |                          |                           |
+|    |              | enai-0.1.25  |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 47 | NTIA         | SPDXRef-     | langchain-openai         | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-        |                          |                           |
+|    |              | langchain-op |                          |                           |
+|    |              | enai-0.1.25- |                          |                           |
+|    |              | vcs          |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 48 | NTIA         | SPDXRef-     | langchain-openai         | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-        |                          |                           |
+|    |              | langchain-op |                          |                           |
+|    |              | enai-0.1.25- |                          |                           |
+|    |              | source-      |                          |                           |
+|    |              | artifact     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 49 | NTIA         | SPDXRef-     | langchain-text-splitters | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-        |                          |                           |
+|    |              | langchain-   |                          |                           |
+|    |              | text-splitte |                          |                           |
+|    |              | rs-0.2.4     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 50 | NTIA         | SPDXRef-     | langchain-text-splitters | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-        |                          |                           |
+|    |              | langchain-   |                          |                           |
+|    |              | text-splitte |                          |                           |
+|    |              | rs-0.2.4-vcs |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 51 | NTIA         | SPDXRef-     | langchain-text-splitters | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-        |                          |                           |
+|    |              | langchain-   |                          |                           |
+|    |              | text-splitte |                          |                           |
+|    |              | rs-0.2.4-    |                          |                           |
+|    |              | source-      |                          |                           |
+|    |              | artifact     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 52 | NTIA         | SPDXRef-     | markupsafe               | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-markups |                          |                           |
+|    |              | afe-3.0.2    |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 53 | NTIA         | SPDXRef-     | markupsafe               | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-markups |                          |                           |
+|    |              | afe-3.0.2-   |                          |                           |
+|    |              | vcs          |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 54 | NTIA         | SPDXRef-     | markupsafe               | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-markups |                          |                           |
+|    |              | afe-3.0.2-   |                          |                           |
+|    |              | source-      |                          |                           |
+|    |              | artifact     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 55 | NTIA         | SPDXRef-     | platformdirs             | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-platfor |                          |                           |
+|    |              | mdirs-4.3.8  |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 56 | NTIA         | SPDXRef-     | platformdirs             | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-platfor |                          |                           |
+|    |              | mdirs-4.3.8- |                          |                           |
+|    |              | vcs          |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 57 | NTIA         | SPDXRef-     | platformdirs             | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-platfor |                          |                           |
+|    |              | mdirs-4.3.8- |                          |                           |
+|    |              | source-      |                          |                           |
+|    |              | artifact     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 58 | NTIA         | SPDXRef-     | pyarrow                  | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-pyarrow |                          |                           |
+|    |              | -21.0.0      |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 59 | NTIA         | SPDXRef-     | pyarrow                  | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-pyarrow |                          |                           |
+|    |              | -21.0.0-     |                          |                           |
+|    |              | source-      |                          |                           |
+|    |              | artifact     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 60 | NTIA         | SPDXRef-     | pydata-sphinx-theme      | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-pydata- |                          |                           |
+|    |              | sphinx-      |                          |                           |
+|    |              | theme-0.15.4 |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 61 | NTIA         | SPDXRef-     | pydata-sphinx-theme      | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-pydata- |                          |                           |
+|    |              | sphinx-theme |                          |                           |
+|    |              | -0.15.4-vcs  |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 62 | NTIA         | SPDXRef-     | pydata-sphinx-theme      | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-pydata- |                          |                           |
+|    |              | sphinx-theme |                          |                           |
+|    |              | -0.15.4-     |                          |                           |
+|    |              | source-      |                          |                           |
+|    |              | artifact     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 63 | NTIA         | SPDXRef-     | sphinx-book-theme        | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-sphinx- |                          |                           |
+|    |              | book-        |                          |                           |
+|    |              | theme-1.1.4  |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 64 | NTIA         | SPDXRef-     | sphinx-book-theme        | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-sphinx- |                          |                           |
+|    |              | book-theme-  |                          |                           |
+|    |              | 1.1.4-       |                          |                           |
+|    |              | source-      |                          |                           |
+|    |              | artifact     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 65 | NTIA         | SPDXRef-     | tqdm                     | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-        |                          |                           |
+|    |              | tqdm-4.67.1  |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 66 | NTIA         | SPDXRef-     | tqdm                     | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-tqdm-   |                          |                           |
+|    |              | 4.67.1-      |                          |                           |
+|    |              | source-      |                          |                           |
+|    |              | artifact     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 67 | NTIA         | SPDXRef-     | virtualenv               | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-virtual |                          |                           |
+|    |              | env-20.33.1  |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 68 | NTIA         | SPDXRef-     | virtualenv               | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-virtual |                          |                           |
+|    |              | env-20.33.1- |                          |                           |
+|    |              | vcs          |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 69 | NTIA         | SPDXRef-     | virtualenv               | Package without a package |
+|    | validation   | Package-     |                          | supplier                  |
+|    | error        | PyPI-virtual |                          |                           |
+|    |              | env-20.33.1- |                          |                           |
+|    |              | source-      |                          |                           |
+|    |              | artifact     |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 70 | Missing      | General      | General                  | CreatorComment is missing |
+|    | mandatory    |              |                          |                           |
+|    | field from   |              |                          |                           |
+|    | CreationInfo |              |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+| 71 | Missing or   | General      | General                  | There is no Creator field |
+|    | invalid      |              |                          | with Organization keyword |
+|    | field in Cre |              |                          | in it                     |
+|    | ationInfo::C |              |                          |                           |
+|    | reator       |              |                          |                           |
++----+--------------+--------------+--------------------------+---------------------------+
+The SPDX file final.projects/python/ort.json is not compliant with the OpenChain Telco SBOM Guide version 1.1

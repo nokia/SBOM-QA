@@ -1,0 +1,2183 @@
+{
+  "tool": {
+    "name": "sbomdiff",
+    "version": "0.5.6"
+  },
+  "file_1": "SBOM-QA/python-gpteng/AntonOsika_gpt-engineer_448e9b.json",
+  "file_2": "final.projects/python/ort.json",
+  "differences": [
+    {
+      "package": "keyboard",
+      "status": "change",
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "huggingface-hub",
+      "status": "change",
+      "version": {
+        "from": "0.22.2",
+        "to": "0.34.3"
+      },
+      "license": {
+        "from": "Apache-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "parso",
+      "status": "change",
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ipykernel",
+      "status": "change",
+      "version": {
+        "from": "6.29.4",
+        "to": "6.30.1"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sphinx-autobuild",
+      "status": "change",
+      "version": {
+        "from": "2024.4.16",
+        "to": "2024.10.3"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pydantic-core",
+      "status": "change",
+      "version": {
+        "from": "2.18.2",
+        "to": "2.33.2"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sphinxcontrib-applehelp",
+      "status": "change",
+      "version": {
+        "from": "1.0.8",
+        "to": "2.0.0"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "h11",
+      "status": "change",
+      "version": {
+        "from": "0.14.0",
+        "to": "0.16.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sphinx-typlog-theme",
+      "status": "change",
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sphinxcontrib-jquery",
+      "status": "change",
+      "license": {
+        "from": "0BSD AND BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "frozenlist",
+      "status": "change",
+      "version": {
+        "from": "1.4.1",
+        "to": "1.7.0"
+      },
+      "license": {
+        "from": "Apache-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sphinxcontrib-serializinghtml",
+      "status": "change",
+      "version": {
+        "from": "1.1.10",
+        "to": "2.0.0"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "six",
+      "status": "change",
+      "version": {
+        "from": "1.16.0",
+        "to": "1.17.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sphinx-rtd-theme",
+      "status": "change",
+      "version": {
+        "from": "2.0.0",
+        "to": "3.0.2"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "multidict",
+      "status": "change",
+      "version": {
+        "from": "6.0.5",
+        "to": "6.6.3"
+      },
+      "license": {
+        "from": "Apache-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "click",
+      "status": "change",
+      "version": {
+        "from": "8.1.7",
+        "to": "8.2.1"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "xxhash",
+      "status": "change",
+      "version": {
+        "from": "3.4.1",
+        "to": "3.5.0"
+      },
+      "license": {
+        "from": "BSD-2-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pyperclip",
+      "status": "change",
+      "version": {
+        "from": "1.8.2",
+        "to": "1.9.0"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "beautifulsoup4",
+      "status": "change",
+      "version": {
+        "from": "4.12.3",
+        "to": "4.13.4"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sphinx-book-theme",
+      "status": "change",
+      "version": {
+        "from": "1.1.2",
+        "to": "1.1.4"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jupyter-core",
+      "status": "change",
+      "version": {
+        "from": "5.7.2",
+        "to": "5.8.1"
+      },
+      "license": {
+        "from": "BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "langchain-text-splitters",
+      "status": "change",
+      "version": {
+        "from": "0.2.0",
+        "to": "0.2.4"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "iniconfig",
+      "status": "change",
+      "version": {
+        "from": "2.0.0",
+        "to": "2.1.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "stack-data",
+      "status": "change",
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pathspec",
+      "status": "change",
+      "license": {
+        "from": "MPL-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sphinxcontrib-htmlhelp",
+      "status": "change",
+      "version": {
+        "from": "2.0.5",
+        "to": "2.1.0"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "psutil",
+      "status": "change",
+      "version": {
+        "from": "5.9.8",
+        "to": "7.0.0"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "langsmith",
+      "status": "change",
+      "version": {
+        "from": "0.1.51",
+        "to": "0.1.147"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "alabaster",
+      "status": "change",
+      "version": {
+        "from": "0.7.16",
+        "to": "1.0.0"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "numpy",
+      "status": "change",
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pytz",
+      "status": "change",
+      "version": {
+        "from": "2024.1",
+        "to": "2025.2"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "urllib3",
+      "status": "change",
+      "version": {
+        "from": "2.2.1",
+        "to": "2.5.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "importlib-metadata",
+      "status": "change",
+      "version": {
+        "from": "7.1.0",
+        "to": "8.7.0"
+      },
+      "license": {
+        "from": "Apache-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "uvicorn",
+      "status": "change",
+      "version": {
+        "from": "0.29.0",
+        "to": "0.35.0"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ipython",
+      "status": "change",
+      "version": {
+        "from": "8.24.0",
+        "to": "8.37.0"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "colorama",
+      "status": "change",
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "shellingham",
+      "status": "change",
+      "license": {
+        "from": "ISC",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "rich",
+      "status": "change",
+      "version": {
+        "from": "13.7.1",
+        "to": "14.1.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pyzmq",
+      "status": "change",
+      "version": {
+        "from": "26.0.2",
+        "to": "27.0.1"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pandocfilters",
+      "status": "change",
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pillow",
+      "status": "change",
+      "version": {
+        "from": "10.3.0",
+        "to": "10.4.0"
+      },
+      "license": {
+        "from": "MIT-CMU",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "idna",
+      "status": "change",
+      "version": {
+        "from": "3.7",
+        "to": "3.10"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "websockets",
+      "status": "change",
+      "version": {
+        "from": "12.0",
+        "to": "15.0.1"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jedi",
+      "status": "change",
+      "version": {
+        "from": "0.19.1",
+        "to": "0.19.2"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pre-commit",
+      "status": "change",
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "executing",
+      "status": "change",
+      "version": {
+        "from": "2.0.1",
+        "to": "2.2.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jupyter-cache",
+      "status": "change",
+      "version": {
+        "from": "1.0.0",
+        "to": "1.0.1"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pycparser",
+      "status": "remove",
+      "version": {
+        "from": "2.22"
+      }
+    },
+    {
+      "package": "tox",
+      "status": "change",
+      "version": {
+        "from": "4.15.0",
+        "to": "4.27.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "marshmallow",
+      "status": "change",
+      "version": {
+        "from": "3.21.1",
+        "to": "3.26.1"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cachetools",
+      "status": "change",
+      "version": {
+        "from": "5.3.3",
+        "to": "6.1.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "rudder-sdk-python",
+      "status": "change",
+      "version": {
+        "from": "2.1.0",
+        "to": "2.1.4"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "orjson",
+      "status": "change",
+      "version": {
+        "from": "3.10.1",
+        "to": "3.11.1"
+      },
+      "license": {
+        "from": "Apache-2.0 AND MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "marshmallow-enum",
+      "status": "change",
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "black",
+      "status": "change",
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "yarl",
+      "status": "change",
+      "version": {
+        "from": "1.9.4",
+        "to": "1.20.1"
+      },
+      "license": {
+        "from": "Apache-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "prompt-toolkit",
+      "status": "change",
+      "version": {
+        "from": "3.0.43",
+        "to": "3.0.51"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "tornado",
+      "status": "change",
+      "version": {
+        "from": "6.4",
+        "to": "6.5.1"
+      },
+      "license": {
+        "from": "Apache-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "myst-nb",
+      "status": "change",
+      "version": {
+        "from": "1.1.0",
+        "to": "1.3.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jinja2",
+      "status": "change",
+      "version": {
+        "from": "3.1.3",
+        "to": "3.1.6"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "appnope",
+      "status": "remove",
+      "version": {
+        "from": "0.1.4"
+      }
+    },
+    {
+      "package": "asttokens",
+      "status": "change",
+      "version": {
+        "from": "2.4.1",
+        "to": "3.0.0"
+      },
+      "license": {
+        "from": "Apache-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "imagesize",
+      "status": "change",
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sphinx-copybutton",
+      "status": "change",
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sphinxcontrib-qthelp",
+      "status": "change",
+      "version": {
+        "from": "1.0.7",
+        "to": "2.0.0"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sniffio",
+      "status": "change",
+      "license": {
+        "from": "Apache-2.0 OR (Apache-2.0 AND MIT)",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "exceptiongroup",
+      "status": "remove",
+      "version": {
+        "from": "1.2.1"
+      }
+    },
+    {
+      "package": "identify",
+      "status": "change",
+      "version": {
+        "from": "2.5.36",
+        "to": "2.6.12"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "coverage",
+      "status": "change",
+      "version": {
+        "from": "7.5.0",
+        "to": "7.10.2"
+      },
+      "license": {
+        "from": "Apache-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "decorator",
+      "status": "change",
+      "version": {
+        "from": "5.1.1",
+        "to": "5.2.1"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "distro",
+      "status": "change",
+      "license": {
+        "from": "Apache-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "distlib",
+      "status": "change",
+      "version": {
+        "from": "0.3.8",
+        "to": "0.4.0"
+      },
+      "license": {
+        "from": "Python-2.0.1",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "nest-asyncio",
+      "status": "change",
+      "license": {
+        "from": "BSD-2-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pandas",
+      "status": "change",
+      "version": {
+        "from": "2.2.2",
+        "to": "2.3.1"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "zipp",
+      "status": "change",
+      "version": {
+        "from": "3.18.1",
+        "to": "3.23.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "referencing",
+      "status": "change",
+      "version": {
+        "from": "0.35.0",
+        "to": "0.36.2"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pytest",
+      "status": "change",
+      "version": {
+        "from": "8.1.2",
+        "to": "8.4.1"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "nbsphinx",
+      "status": "change",
+      "version": {
+        "from": "0.9.3",
+        "to": "0.9.7"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "markdown",
+      "status": "change",
+      "version": {
+        "from": "3.6",
+        "to": "3.8.2"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "datasets",
+      "status": "change",
+      "version": {
+        "from": "2.19.0",
+        "to": "2.21.0"
+      },
+      "license": {
+        "from": "Apache-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "setuptools",
+      "status": "remove",
+      "version": {
+        "from": "70.0.0"
+      }
+    },
+    {
+      "package": "soupsieve",
+      "status": "change",
+      "version": {
+        "from": "2.5",
+        "to": "2.7"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "tiktoken",
+      "status": "change",
+      "version": {
+        "from": "0.7.0",
+        "to": "0.10.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "typer",
+      "status": "change",
+      "version": {
+        "from": "0.12.3",
+        "to": "0.16.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "nbformat",
+      "status": "change",
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "langchain-community",
+      "status": "change",
+      "version": {
+        "from": "0.2.1",
+        "to": "0.2.19"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "myst-parser",
+      "status": "change",
+      "version": {
+        "from": "3.0.0",
+        "to": "4.0.1"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "packaging",
+      "status": "change",
+      "version": {
+        "from": "23.2",
+        "to": "24.2"
+      },
+      "license": {
+        "from": "Apache-2.0 AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sphinxcontrib-jsmath",
+      "status": "change",
+      "license": {
+        "from": "BSD-2-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "snowballstemmer",
+      "status": "change",
+      "version": {
+        "from": "2.2.0",
+        "to": "3.0.1"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "multiprocess",
+      "status": "change",
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "nbclient",
+      "status": "change",
+      "version": {
+        "from": "0.10.0",
+        "to": "0.10.2"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "certifi",
+      "status": "change",
+      "version": {
+        "from": "2024.7.4",
+        "to": "2025.8.3"
+      },
+      "license": {
+        "from": "MPL-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "termcolor",
+      "status": "change",
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "dataclasses-json",
+      "status": "change",
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "bleach",
+      "status": "change",
+      "version": {
+        "from": "6.1.0",
+        "to": "6.2.0"
+      },
+      "license": {
+        "from": "Apache-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "deprecation",
+      "status": "change",
+      "license": {
+        "from": "Apache-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "langchain-openai",
+      "status": "change",
+      "version": {
+        "from": "0.1.7",
+        "to": "0.1.25"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "tomli",
+      "status": "remove",
+      "version": {
+        "from": "2.0.1"
+      }
+    },
+    {
+      "package": "backoff",
+      "status": "change",
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pyproject-api",
+      "status": "change",
+      "version": {
+        "from": "1.6.1",
+        "to": "1.9.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "wcwidth",
+      "status": "change",
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jupyter-client",
+      "status": "change",
+      "version": {
+        "from": "8.6.1",
+        "to": "8.6.3"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "platformdirs",
+      "status": "change",
+      "version": {
+        "from": "4.2.1",
+        "to": "4.3.8"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "anthropic",
+      "status": "change",
+      "version": {
+        "from": "0.26.1",
+        "to": "0.61.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "charset-normalizer",
+      "status": "change",
+      "version": {
+        "from": "3.3.2",
+        "to": "3.4.2"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jsonpointer",
+      "status": "change",
+      "version": {
+        "from": "2.4",
+        "to": "3.0.0"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "tqdm",
+      "status": "change",
+      "version": {
+        "from": "4.66.2",
+        "to": "4.67.1"
+      },
+      "license": {
+        "from": "MIT AND MPL-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "babel",
+      "status": "change",
+      "version": {
+        "from": "2.14.0",
+        "to": "2.17.0"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "greenlet",
+      "status": "change",
+      "version": {
+        "from": "3.0.3",
+        "to": "3.2.3"
+      },
+      "license": {
+        "from": "MIT AND PSF-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "rpds-py",
+      "status": "change",
+      "version": {
+        "from": "0.18.0",
+        "to": "0.26.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "openai",
+      "status": "change",
+      "version": {
+        "from": "1.30.1",
+        "to": "1.99.1"
+      },
+      "license": {
+        "from": "Apache-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "monotonic",
+      "status": "change",
+      "license": {
+        "from": "Apache-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pyarrow-hotfix",
+      "status": "remove",
+      "version": {
+        "from": "0.6"
+      }
+    },
+    {
+      "package": "anyio",
+      "status": "change",
+      "version": {
+        "from": "4.3.0",
+        "to": "4.10.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "traitlets",
+      "status": "change",
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pluggy",
+      "status": "change",
+      "version": {
+        "from": "1.5.0",
+        "to": "1.6.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ruff",
+      "status": "change",
+      "version": {
+        "from": "0.4.2",
+        "to": "0.12.7"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "requests",
+      "status": "change",
+      "version": {
+        "from": "2.31.0",
+        "to": "2.32.4"
+      },
+      "license": {
+        "from": "Apache-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pyyaml",
+      "status": "change",
+      "version": {
+        "from": "6.0.1",
+        "to": "6.0.2"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pure-eval",
+      "status": "change",
+      "version": {
+        "from": "0.2.2",
+        "to": "0.2.3"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "webencodings",
+      "status": "change",
+      "license": {
+        "from": "BSD-2-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "annotated-types",
+      "status": "change",
+      "version": {
+        "from": "0.6.0",
+        "to": "0.7.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "python-dateutil",
+      "status": "change",
+      "license": {
+        "from": "Apache-2.0 AND BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pytest-cov",
+      "status": "change",
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "accessible-pygments",
+      "status": "change",
+      "version": {
+        "from": "0.0.4",
+        "to": "0.0.5"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sphinxcontrib-devhelp",
+      "status": "change",
+      "version": {
+        "from": "1.0.6",
+        "to": "2.0.0"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jiter",
+      "status": "change",
+      "version": {
+        "from": "0.4.0",
+        "to": "0.10.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "watchfiles",
+      "status": "change",
+      "version": {
+        "from": "0.21.0",
+        "to": "1.1.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mistune",
+      "status": "change",
+      "version": {
+        "from": "3.0.2",
+        "to": "3.1.3"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "linkchecker",
+      "status": "change",
+      "version": {
+        "from": "10.4.0",
+        "to": "10.6.0"
+      },
+      "license": {
+        "from": "GPL-2.0 AND GPL-2.0-only AND GPL-2.0-or-later",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "markupsafe",
+      "status": "change",
+      "version": {
+        "from": "2.1.5",
+        "to": "3.0.2"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "dnspython",
+      "status": "change",
+      "version": {
+        "from": "2.6.1",
+        "to": "2.7.0"
+      },
+      "license": {
+        "from": "ISC",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "httpx",
+      "status": "change",
+      "version": {
+        "from": "0.27.0",
+        "to": "0.28.1"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "tomlkit",
+      "status": "change",
+      "version": {
+        "from": "0.12.4",
+        "to": "0.12.5"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "comm",
+      "status": "change",
+      "version": {
+        "from": "0.2.2",
+        "to": "0.2.3"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "tenacity",
+      "status": "change",
+      "version": {
+        "from": "8.2.3",
+        "to": "8.5.0"
+      },
+      "license": {
+        "from": "Apache-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "python-dotenv",
+      "status": "change",
+      "version": {
+        "from": "0.21.1",
+        "to": "1.1.1"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "fastjsonschema",
+      "status": "change",
+      "version": {
+        "from": "2.19.1",
+        "to": "2.21.1"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jupyterlab-pygments",
+      "status": "change",
+      "license": {
+        "from": "BSD-3-Clause AND MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "langchain-anthropic",
+      "status": "change",
+      "version": {
+        "from": "0.1.13",
+        "to": "0.1.23"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "typing-inspect",
+      "status": "change",
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "async-timeout",
+      "status": "remove",
+      "version": {
+        "from": "4.0.3"
+      }
+    },
+    {
+      "package": "nodeenv",
+      "status": "change",
+      "version": {
+        "from": "1.8.0",
+        "to": "1.9.1"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "attrs",
+      "status": "change",
+      "version": {
+        "from": "23.2.0",
+        "to": "25.3.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pygments",
+      "status": "change",
+      "version": {
+        "from": "2.17.2",
+        "to": "2.19.2"
+      },
+      "license": {
+        "from": "BSD-2-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jsonschema-specifications",
+      "status": "change",
+      "version": {
+        "from": "2023.12.1",
+        "to": "2025.4.1"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jsonschema",
+      "status": "change",
+      "version": {
+        "from": "4.21.1",
+        "to": "4.25.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "virtualenv",
+      "status": "change",
+      "version": {
+        "from": "20.26.0",
+        "to": "20.33.1"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cfgv",
+      "status": "change",
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "markdown-include",
+      "status": "change",
+      "license": {
+        "from": "GPL-3.0-only",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pydata-sphinx-theme",
+      "status": "change",
+      "version": {
+        "from": "0.15.2",
+        "to": "0.15.4"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "httpcore",
+      "status": "change",
+      "version": {
+        "from": "1.0.5",
+        "to": "1.0.9"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cffi",
+      "status": "remove",
+      "version": {
+        "from": "1.16.0"
+      }
+    },
+    {
+      "package": "chardet",
+      "status": "change",
+      "license": {
+        "from": "LGPL-2.1-or-later",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "markdown-it-py",
+      "status": "change",
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "tzdata",
+      "status": "change",
+      "version": {
+        "from": "2024.1",
+        "to": "2025.2"
+      },
+      "license": {
+        "from": "Apache-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "starlette",
+      "status": "change",
+      "version": {
+        "from": "0.37.2",
+        "to": "0.47.2"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "tinycss2",
+      "status": "change",
+      "version": {
+        "from": "1.3.0",
+        "to": "1.4.0"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "aiosignal",
+      "status": "change",
+      "version": {
+        "from": "1.3.1",
+        "to": "1.4.0"
+      },
+      "license": {
+        "from": "Apache-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "tabulate",
+      "status": "change",
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pydantic-settings",
+      "status": "change",
+      "version": {
+        "from": "2.2.1",
+        "to": "2.10.1"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "filelock",
+      "status": "change",
+      "version": {
+        "from": "3.13.4",
+        "to": "3.18.0"
+      },
+      "license": {
+        "from": "Unlicense",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "tokenizers",
+      "status": "remove",
+      "version": {
+        "from": "0.19.1"
+      }
+    },
+    {
+      "package": "defusedxml",
+      "status": "change",
+      "license": {
+        "from": "PSF-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mdurl",
+      "status": "change",
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mdit-py-plugins",
+      "status": "change",
+      "version": {
+        "from": "0.4.0",
+        "to": "0.4.2"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pexpect",
+      "status": "change",
+      "license": {
+        "from": "ISC",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "fsspec",
+      "status": "change",
+      "version": {
+        "from": "2024.3.1",
+        "to": "2024.6.1"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "nbconvert",
+      "status": "change",
+      "version": {
+        "from": "7.16.3",
+        "to": "7.16.6"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pyarrow",
+      "status": "change",
+      "version": {
+        "from": "16.0.0",
+        "to": "21.0.0"
+      },
+      "license": {
+        "from": "Apache-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "langchain-core",
+      "status": "change",
+      "version": {
+        "from": "0.2.1",
+        "to": "0.2.43"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mypy-extensions",
+      "status": "change",
+      "version": {
+        "from": "1.0.0",
+        "to": "1.1.0"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ptyprocess",
+      "status": "change",
+      "license": {
+        "from": "ISC",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "jsonpatch",
+      "status": "change",
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "docutils",
+      "status": "change",
+      "version": {
+        "from": "0.20.1",
+        "to": "0.21.2"
+      },
+      "license": {
+        "from": "BSD-2-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "regex",
+      "status": "change",
+      "license": {
+        "from": "Apache-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "dill",
+      "status": "change",
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "aiohttp",
+      "status": "change",
+      "version": {
+        "from": "3.9.5",
+        "to": "3.12.15"
+      },
+      "license": {
+        "from": "Apache-2.0",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sphinx",
+      "status": "change",
+      "version": {
+        "from": "7.3.7",
+        "to": "8.1.3"
+      },
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "langchain",
+      "status": "change",
+      "version": {
+        "from": "0.2.1",
+        "to": "0.2.17"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "matplotlib-inline",
+      "status": "change",
+      "license": {
+        "from": "BSD-2-Clause AND BSD-3-Clause",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pydantic",
+      "status": "change",
+      "version": {
+        "from": "2.7.1",
+        "to": "2.11.7"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "debugpy",
+      "status": "change",
+      "version": {
+        "from": "1.8.1",
+        "to": "1.8.15"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "typing-extensions",
+      "status": "change",
+      "version": {
+        "from": "4.11.0",
+        "to": "4.14.1"
+      },
+      "license": {
+        "from": "Python-2.0.1",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sqlalchemy",
+      "status": "change",
+      "version": {
+        "from": "2.0.29",
+        "to": "2.0.42"
+      },
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "autodoc-pydantic",
+      "status": "change",
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pywin32",
+      "status": "remove",
+      "version": {
+        "from": "306"
+      }
+    },
+    {
+      "package": "toml",
+      "status": "change",
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "mypy",
+      "status": "change",
+      "license": {
+        "from": "MIT",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "actions/stale",
+      "status": "remove",
+      "version": {
+        "from": "4"
+      }
+    },
+    {
+      "package": "actions/checkout",
+      "status": "remove",
+      "version": {
+        "from": "3.*.*"
+      }
+    },
+    {
+      "package": "actions/setup-python",
+      "status": "remove",
+      "version": {
+        "from": "4.*.*"
+      }
+    },
+    {
+      "package": "pre-commit/action",
+      "status": "remove",
+      "version": {
+        "from": "3.0.0"
+      }
+    },
+    {
+      "package": "pypa/gh-action-pypi-publish",
+      "status": "remove",
+      "version": {
+        "from": "RELEASE/V1"
+      }
+    },
+    {
+      "package": "actions/upload-artifact",
+      "status": "remove",
+      "version": {
+        "from": "3"
+      }
+    },
+    {
+      "package": "actions/cache",
+      "status": "remove",
+      "version": {
+        "from": "3"
+      }
+    },
+    {
+      "package": "actions/download-artifact",
+      "status": "remove",
+      "version": {
+        "from": "3"
+      }
+    },
+    {
+      "package": "com.github.AntonOsika/gpt-engineer",
+      "status": "remove",
+      "version": {
+        "from": "MAIN"
+      }
+    },
+    {
+      "package": "example-improve",
+      "status": "add",
+      "version": {
+        "from": "3E589BF1356024FB471A9D17738E4626F21A953B"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "poetry.lock",
+      "status": "add",
+      "version": {
+        "from": "3E589BF1356024FB471A9D17738E4626F21A953B"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "aiohappyeyeballs",
+      "status": "add",
+      "version": {
+        "from": "2.6.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "hf-xet",
+      "status": "add",
+      "version": {
+        "from": "1.1.7"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "propcache",
+      "status": "add",
+      "version": {
+        "from": "0.3.2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "requests-toolbelt",
+      "status": "add",
+      "version": {
+        "from": "1.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "typing-inspection",
+      "status": "add",
+      "version": {
+        "from": "0.4.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    }
+  ],
+  "summary": {
+    "version_changes": 131,
+    "new_packages": 7,
+    "removed_packages": 19,
+    "license_changes": 180
+  }
+}
