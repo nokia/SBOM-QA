@@ -128,7 +128,7 @@ Logical consistency (e.g., relationships, identifiers)
 
 ---
 
-## Observation & Result
+## 4. Observation & Result
 
 ### Tools Used
 #### 1. [Syft](https://github.com/anchore/syft)
@@ -554,9 +554,9 @@ For more information and to track the progress of this feature, refer to the fol
 
 ---
 
-## Conclusion
+## 5. Conclusion
 
-### 1. Ecosystem Point of View
+### 5.1. Ecosystem Point of View
 Insights about ecosystem (e.g., package management).
 
 | Aspect              | Observation                                  |
@@ -566,7 +566,7 @@ Insights about ecosystem (e.g., package management).
 
 ---
 
-### 2. Tools Point of View
+### 5.2. Tools Point of View
 Strengths and weaknesses of tools used.
 
 | Tool       | Strengths                          | Weaknesses                          |
@@ -576,16 +576,16 @@ Strengths and weaknesses of tools used.
 
 ---
 
-### 3. Quality Point of View
+### 5.3. Quality Point of View
 Validation results and differences
 
-#### 3.1. Validation Results
+#### 5.3.1. Validation Results
 | File/Module   | Status     | Notes                     |
 |---------------|-----------|----------------------------|
 | File1.json    | ✅ Passed | All checks OK              |
 | File2.json    | ❌ Failed | Missing field `version`    |
 
-#### 3.2. Diffs / Comparisons
+#### 5.3.2. Diffs / Comparisons
 
 | Compared Files        | Differences Found | Notes                       |
 |-----------------------|------------------|-----------------------------|
