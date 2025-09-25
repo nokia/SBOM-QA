@@ -416,20 +416,117 @@ The SBOM was successfully generated without any errors.
 [ORT-python.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/ort.json)
 
  
-#### 4.
-[Trivy](https://github.com/aquasecurity/trivy)  
-**Command:** 
+#### 4. [Trivy](https://github.com/aquasecurity/trivy)  
+**Command:** (In test target root):
 
+```
+trivy fs --format spdx-json --scanners vuln,license,secret,misconfig --output trivy-sbom.spdx.json .
+```
 
+**Ecosystem:** 
+[Node.js](https://github.com/expressjs/express)  
 
+**Generated SBOM:**
+...
 
+- **Compilation Step:**
 
+The project did not originally include a package-lock.json file, which is required to resolve and capture the full dependency tree without actually installing dependencies, the following command was executed in test target root: 
 
+```
+npm install --package-lock-only 
+```
 
+**Created Files:**
 
+- ***package-lock.json***
 
+To create a clean environment with only production dependencies installed (excluding devDependencies), the following command was executed: 
 
+```
+npm ci --only=production
+```
+**Enriched SBOMs:**
+...
 
+**Ecosystem:** 
+[C++ (Conan)](https://github.com/catchorg/Catch2)
+
+**Generated SBOM:**
+...
+
+**Ecosystem:** 
+[Go](https://github.com/gohugoio/hugo)
+
+**Generated SBOM:**
+...
+
+- **Compilation Step:**
+
+To ensure all required dependencies are included and the module files are consistent, the following command was executed in the project root: 
+
+```
+go mod tidy
+```
+
+**Updated Files:**
+
+- ***go.mod*** , ***go.sum***
+
+**Enriched SBOMs:**
+...
+
+**Ecosystem:** 
+[C++ (No package manager)](https://github.com/zeux/meshoptimizer)
+
+**Generated SBOM:**
+...
+
+**Ecosystem:**
+[Python (FastAPI)](https://github.com/fastapi/fastapi)
+
+**Generated SBOM:**
+...
+
+- **Compilation Step:**
+
+The project did not include a pdm.lock file. To generate it and pin all dependencies, the following command was executed:
+
+```
+pdm lock
+```
+
+Dependencies must be installed for the environment using:
+
+```
+pdm install
+```
+
+**Enriched SBOMs:**
+...
+
+> **Note:** As of now, Trivy does not support scanning Python projects managed with PDM. Specifically, Trivy does not parse the pdm.lock file, which means it cannot fully resolve and capture the project's dependency tree. This limitation affects the accuracy and completeness of Software Bill of Materials (SBOM) generation for PDM-managed Python projects. 
+
+For more information and to track the progress of this feature, refer to the following GitHub issue: 
+[Trivy GitHub Issue: Add support for PDM lockfile parsing](https://github.com/aquasecurity/trivy/issues/9410?utm_source=chatgpt.com)
+
+**Ecosystem:**
+[Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
+
+**Generated SBOM:**
+...
+
+**Ecosystem:** 
+[C (No package manager)](https://github.com/besser82/libxcrypt)
+
+**Generated SBOM:**
+...
+
+**Ecosystem:**
+[Java (Maven-managed)](https://github.com/bytedeco/javacv) 
+
+**Generated SBOM:**
+...
 
 
 
