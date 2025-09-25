@@ -559,20 +559,25 @@ For more information and to track the progress of this feature, refer to the fol
 ### 5.1. Ecosystem Point of View
 Insights about ecosystem (e.g., package management).
 
-| Aspect              | Observation                                  |
-|---------------------|----------------------------------------------|
-| Package Management  | Handles dependencies well, but sometimes heavy. |
-| Compatibility       | Works across multiple platforms.             |
+| Aspect              | Observation                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| Package Management  | Ecosystems with package managers (npm, Maven, Poetry) produced richer SBOMs. |
+| Compatibility       | C/C++ projects without package managers had weak coverage.                  |
+| Accuracy            | Lockfiles (npm, poetry.lock) improved accuracy of transitive dependencies.  |
+| Completeness        | Java builds included additional artifacts (JARs), enriching SBOMs.          |
 
 ---
 
 ### 5.2. Tools Point of View
 Strengths and weaknesses of tools used.
 
-| Tool       | Strengths                          | Weaknesses                          |
-|------------|-----------------------------------|-------------------------------------|
-| Tool A     | Easy to use, good docs             | Limited scalability                  |
-| Tool B     | Fast performance                   | Poor error messages                  |
+| Tool     | Strengths                                                                 | Weaknesses                                  |
+|----------|---------------------------------------------------------------------------|---------------------------------------------|
+| Syft     | Easy to use, fast, supports many ecosystems, SPDX JSON output             | Limited accuracy without lock/build files    |
+| Trivy    | Rich scanning (vulns, misconfigs, licenses, secrets), SBOM support        | Weak PDM (Python) support, some ecosystems partial |
+| ORT      | Comprehensive analysis, policy as code, SPDX compliant                    | Heavy setup, requires package managers, slower |
+| Scanoss  | Strong license compliance checks, lightweight                             | Limited ecosystem coverage, weaker metadata  |
+
 
 ---
 
@@ -580,16 +585,109 @@ Strengths and weaknesses of tools used.
 Validation results and differences
 
 #### 5.3.1. Validation Results
-| File/Module   | Status     | Notes                     |
-|---------------|-----------|----------------------------|
-| File1.json    | ✅ Passed | All checks OK              |
-| File2.json    | ❌ Failed | Missing field `version`    |
 
-#### 5.3.2. Diffs / Comparisons
+##### 1. [Syft](https://github.com/anchore/syft)
 
-| Compared Files        | Differences Found | Notes                       |
-|-----------------------|------------------|-----------------------------|
-| file1.json vs file2.json | Yes              | Field mismatch on `author`  |
-| file3.json vs file4.json | No               | Identical                   |
+| Ecosystem   | Compliant | Error Types                        | Notes                                    |
+|-------------|-----------|------------------------------------|------------------------------------------|
+| Go          | ❌ Failed | Missing version, Missing supplier  | 10 validation errors in tidy-vendor.json |
+| Python      | ✅ Passed | -                                  | All checks OK                            |
+| Node.js     |         | -                                  | SBOM valid                               |
+| Java        |         | Missing license info               | Needs enrichment from build artifacts    |
+| C           |      | Missing version                    | Package without version metadata         |
+| C++ (Conan) |      | -                                  | All mandatory SPDX fields included       |
+| C++  |                |                                     |           |          |          |            |           |
+| Python2  |                |                                     |           |          |          |            |           |
 
+##### 2. [Trivy](https://github.com/aquasecurity/trivy)
 
+| Ecosystem   | Compliant | Error Types                        | Notes                                    |
+|-------------|-----------|------------------------------------|------------------------------------------|
+| Go          |     | Missing version, Missing supplier  | 10 validation errors in tidy-vendor.json |
+| Python      |     | -                                  | All checks OK                            |
+| Node.js     |         | -                                  | SBOM valid                               |
+| Java        |      | Missing license info               | Needs enrichment from build artifacts    |
+| C           |       | Missing version                    | Package without version metadata         |
+| C++ (Conan) |       | -                                  | All mandatory SPDX fields included       |
+| C++  |                |                                     |           |          |          |            |           |
+| Python2  |                |                                     |           |          |          |            |           |
+
+##### 3. [ORT](https://github.com/oss-review-toolkit/ort)
+
+| Ecosystem   | Compliant | Error Types                        | Notes                                    |
+|-------------|-----------|------------------------------------|------------------------------------------|
+| Go          | ❌ Failed | Missing version, Missing supplier  | 10 validation errors in tidy-vendor.json |
+| Python      | ✅ Passed | -                                  | All checks OK                            |
+| Node.js     |       | -                                  | SBOM valid                               |
+| Java        |     | Missing license info               | Needs enrichment from build artifacts    |
+| C           |     | Missing version                    | Package without version metadata         |
+| C++ (Conan) |     | -                                  | All mandatory SPDX fields included       |
+| C++  |                |                                     |           |          |          |            |           |
+| Python2  |                |                                     |           |          |          |            |           |
+
+##### 4. [SCANOSS](https://github.com/scanoss/scanoss.py)
+
+| Ecosystem   | Compliant | Error Types                        | Notes                                    |
+|-------------|-----------|------------------------------------|------------------------------------------|
+| Go          |     | Missing version, Missing supplier  | 10 validation errors in tidy-vendor.json |
+| Python      |     | -                                  | All checks OK                            |
+| Node.js     |     | -                                  | SBOM valid                               |
+| Java        |      | Missing license info               | Needs enrichment from build artifacts    |
+| C           |     | Missing version                    | Package without version metadata         |
+| C++ (Conan) |      | -                                  | All mandatory SPDX fields included       |
+| C++  |                |                                     |           |          |          |            |           |
+| Python2  |                |                                     |           |          |          |            |           |
+
+#### 5.3.2. Diffs / Comparisons  
+
+##### 1. [Syft](https://github.com/anchore/syft)
+
+| Ecosystem   | Compared Files                   | Differences Found | Version Changes | New Packages | Removed Packages | License Changes  | Notes                          |
+|-------------|----------------------------------|------------------|----------------|--------------|------------------|-----------------|--------------------------------|
+| C           | ref.json vs  |             |     |       |               |           |        |
+| C++ (Conan) | ref.json vs              |             |      |           |              |      |         |
+| Python      | ref.json vs            |             |        |        |             |            |                   |
+| Node.js     | ref.json vs       |             |     |         |             |            |          |
+| Java        | ref.json vs             |            |      |       |         |          |         |
+| Go          | ref.json vs             |            |           |         |           |             |                |
+| C++         | ref.json vs                |                                     |           |          |          |            |           |
+| Python2     | ref.json vs                |                                     |           |          |          |            |           |
+
+##### 2. [Trivy](https://github.com/aquasecurity/trivy)
+
+| Ecosystem   | Compared Files                   | Differences Found | Version Changes | New Packages | Removed Packages | License Changes  | Notes                          |
+|-------------|----------------------------------|------------------|----------------|--------------|------------------|-----------------|--------------------------------|
+| C           | ref.json vs   |             |     |       |               |           |        |
+| C++ (Conan) | ref.json vs              |             |      |           |              |      |         |
+| Python      | ref.json vs            |             |        |        |             |            |                   |
+| Node.js     | ref.json vs        |             |     |         |             |            |          |
+| Java        | ref.json vs             |            |      |       |         |          |         |
+| Go          | ref.json vs            |            |           |         |           |             |                |
+| C++         | ref.json vs              |                                     |           |          |          |            |           |
+| Python2     | ref.json vs               |                                     |           |          |          |            |           |
+
+##### 3. [ORT](https://github.com/oss-review-toolkit/ort)
+
+| Ecosystem   | Compared Files                   | Differences Found | Version Changes | New Packages | Removed Packages | License Changes  | Notes                          |
+|-------------|----------------------------------|------------------|----------------|--------------|------------------|-----------------|--------------------------------|
+| C           | ref.json vs   |             |     |       |               |           |        |
+| C++ (Conan) | ref.json vs             |             |      |           |              |      |         |
+| Python      | ref.json vs           |             |        |        |             |            |                   |
+| Node.js     | ref.json vs        |             |     |         |             |            |          |
+| Java        | ref.json vs            |            |      |       |         |          |         |
+| Go          | ref.json             |            |           |         |           |             |                |
+| C++         | ref.json vs        |                                     |           |          |          |            |           |
+| Python2     | ref.json vs           |                                     |           |          |          |            |           |
+
+##### 4. [SCANOSS](https://github.com/scanoss/scanoss.py)
+
+| Ecosystem   | Compared Files                   | Differences Found | Version Changes | New Packages | Removed Packages | License Changes  | Notes                          |
+|-------------|----------------------------------|------------------|----------------|--------------|------------------|-----------------|--------------------------------|
+| C           | ref.json vs   |             |     |       |               |           |        |
+| C++ (Conan) | ref.json vs            |             |      |           |              |      |         |
+| Python      | ref.json vs           |             |        |        |             |            |                   |
+| Node.js     | ref.json vs       |             |     |         |             |            |          |
+| Java        | ref.json vs             |            |      |       |         |          |         |
+| Go          | ref.json vs          |            |           |         |           |             |                |
+| C++         | ref.json vs             |                                     |           |          |          |            |           |
+| Python2     | ref.json vs             |                                     |           |          |          |            |           |
