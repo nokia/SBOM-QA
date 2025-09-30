@@ -606,16 +606,36 @@ Tern can be pointed to a container image (local or remote) to generate an SBOM w
 tern report -i <image:tag> > sbom_image.json   
 ```
 
-> **Note:**
-> In this project, the first two approaches were applied: 
-> - Exporting and analyzing the root filesystem. 
-> - Generating reports from the Dockerfile.
->    
-> The third approach (directly analyzing the image) is also supported by Tern, but it was not used in this case. 
-
 ### 3. Syft
-- Command:   
-- Notes / Observations:
+In this project, two approaches were applied to generate SBOM using Syft: 
+
+**1.	Image-based SBOM generation:** 
+- A Docker image was built locally from the project’s Dockerfile. 
+-	Syft was then executed against the built image (pggb:latest) to produce an SBOM that reflects all installed packages and dependencies inside the container environment.
+
+**Commands:** 
+```
+docker build -t <image:tag> .   
+```
+
+```
+docker run --rm -it <image:tag> bash  
+```
+
+```
+syft <image:tag>  -o spdx-json > <out put name.json> 
+``` 
+
+**2.	Source-based SBOM generation:**
+- Instead of analyzing the image, Syft was run directly on the project’s source code directory (./). 
+- This method inspects the manifests and dependency files present in the source to generate the SBOM. 
+
+**Commands:** 
+```
+syft dir:./ -o spdx-json > <out put name.json> 
+```
+
+**Generated SBOM:**
 
 ---
 
