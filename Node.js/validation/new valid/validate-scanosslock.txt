@@ -1,2 +1,0 @@
-Validating scanoss-lock.json
-The SPDX file final.projects/node.js/scanoss-lock.json is compliant with the OpenChain Telco SBOM Guide version 1.1
