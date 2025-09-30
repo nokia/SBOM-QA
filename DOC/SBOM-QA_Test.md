@@ -7,7 +7,7 @@ Specifically, the project covers:
 - Open-source software repositories as test targets, spanning multiple programming languages and ecosystems.  
 - Generation and analysis of SBOMs in the [SPDX](https://spdx.dev/) format.  
 - Use of reference SBOMs exported from original repository dependency graphs to serve as a consistent baseline.  
-- Alignment with the [OpenChain Telco SBOM Guide](https://github.com/OpenChain-Project/Specification-Discussion/blob/master/Reference-Material/Telco-SBOM-Guide.md) to ensure standardized practices for SBOM structure, content, and validation.  
+- Alignment with the [OpenChain Telco SBOM Guide](https://github.com/OpenChain-Project/Telco-WG/blob/main/OpenChain-Telco-SBOM-Guide_1.0_EN.md) to ensure standardized practices for SBOM structure, content, and validation.  
 - Evaluation of tool performance, accuracy, and coverage to deliver reliable and actionable benchmarking results.  
 
 This project is licensed under the [BSD 3-Clause License](https://github.com/nokia/SBOM-QA/blob/main/LICENSE).  
