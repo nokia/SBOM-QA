@@ -538,17 +538,82 @@ For more information and to track the progress of this feature, refer to the fol
 
 ---
 
-## Container-Based Tools
+## Container-Based Tools  
 
-### Syft
-- Command:  
-- Notes / Observations:  
+In the selected project, the container image was based on a Linux distribution. Therefore, in order to properly execute the image and generate its corresponding SBOM, all tasks were carried out within a Linux operating system environment. 
 
-### Tern
-- Command:   
-- Notes / Observations:  
+### 1. Distro2sbom 
 
-### Distro2sbom 
+**Observations:** 
+
+In order to generate an SBOM  using distro2sbom, direct access to the root filesystem is required. Since running the tool against the live system root may not always be feasible or safe, the system root was first exported into a separate directory. This exported filesystem served as an isolated input for the SBOM generation process. 
+
+By performing the export step, distro2sbom was able to analyze the complete set of installed packages and system files, ensuring that the resulting SBOM accurately represents the environment. After the export was completed, the tool was executed against the target directory, successfully producing the SBOM.
+
+**Command:**
+
+- ***Extract image:***
+```
+docker create --name tmp <image name> 
+```
+- ***Export container filesystem:***
+```
+docker export tmp -o <fileName.tar> 
+``` 
+- ***Extract the tar file into root filesystem:***
+```
+tar -C <directoryName>  -xf <fileName.tar> 
+``` 
+- ***Remove the temporary container:***
+```
+docker rm tmp 
+``` 
+- ***For Generating SBOM:***
+```
+distro2sbom --root <path-to-rootFileSystem> -s --sbom <spdx|cyclonedx> --format <json|xml|yaml> -o <path-to-output-file>  
+```
+**Generated SBOM:**
+
+> **Note:**
+Since a Linux environment was used, a dedicated Python virtual environment was created to ensure isolation and reproducibility. In this environment, the distro2sbom tool was installed as the main tool for generating SBOM. 
+
+
+### 2. Tern
+There are three main approaches to generating an SBOM with Tern: 
+
+**1.	Analyzing an exported root filesystem:** 
+In this method, the system’s root filesystem is exported into a dedicated directory.   
+Tern is then executed against that directory to analyze all installed packages and generate the SBOM.  
+**Commands:**
+```
+docker export $(docker create <image name>) | tar -C  </path/to/directory> -xvf –  
+```
+
+```
+tern report -l </path/to/directory>  -f spdxjson -o <path/to/output/name.spdx.json>   
+```
+**2.⁠ ⁠Parsing a Dockerfile:**
+Tern can process a Dockerfile directly to infer the layers and dependencies defined in the build instructions.
+**Commands:**
+```
+tern report -d Dockerfile -o <path/to/output/name.spdx.json> -f json   
+```
+**3.⁠ ⁠Directly analyzing a container image: (not used in this project)**
+Tern can be pointed to a container image (local or remote) to generate an SBOM without needing the Dockerfile or exported filesystem. 
+
+**Commands:**
+```
+tern report -i <image:tag> > sbom_image.json   
+```
+
+> **Note:**
+> In this project, the first two approaches were applied: 
+> - Exporting and analyzing the root filesystem. 
+> - Generating reports from the Dockerfile.
+>    
+> The third approach (directly analyzing the image) is also supported by Tern, but it was not used in this case. 
+
+### 3. Syft
 - Command:   
 - Notes / Observations:
 
