@@ -1,0 +1,151 @@
+{
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SCANOSS-SBOM",
+  "creationInfo": {
+    "created": "2025-07-08T10:01:41Z",
+    "creators": [
+      "Tool: SCANOSS-PY: 1.26.2",
+      "Person: mehdi",
+      "Organization: SCANOSS"
+    ],
+    "comment": "SBOM Build information - SBOM Type: Build"
+  },
+  "documentNamespace": "https://spdx.org/spdxdocs/scanoss-py-1.26.2-22c76688363c98d1712b87884297a8a7",
+  "documentDescribes": [
+    "SPDXRef-4705b763e4557d6739c5d9ee5efe8ff0",
+    "SPDXRef-d6722f1b7020e7dc640cc4d48e8b97c9",
+    "SPDXRef-c320b8f6172340799e925674c274001f",
+    "SPDXRef-ac060b9fed858664e20503694d225727",
+    "SPDXRef-e44710b08ceb0760b159d25b9c304618"
+  ],
+  "hasExtractedLicensingInfos": [],
+  "packages": [
+    {
+      "name": "fastapi",
+      "SPDXID": "SPDXRef-4705b763e4557d6739c5d9ee5efe8ff0",
+      "versionInfo": "0.112.0",
+      "downloadLocation": "https://github.com/tiangolo/fastapi",
+      "homepage": "https://github.com/tiangolo/fastapi",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: tiangolo",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/tiangolo/fastapi@0.112.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "85eaf5415862f738791950ffe9cd461b"
+        }
+      ]
+    },
+    {
+      "name": "fastapi",
+      "SPDXID": "SPDXRef-d6722f1b7020e7dc640cc4d48e8b97c9",
+      "versionInfo": "0.78.0",
+      "downloadLocation": "https://pypi.org/project/fastapi",
+      "homepage": "https://pypi.org/project/fastapi",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: Sebasti\u00e1n Ram\u00edrez",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/fastapi@0.78.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "b4d943e21cc35a06adda7ddda19eb704"
+        }
+      ]
+    },
+    {
+      "name": "fastapi",
+      "SPDXID": "SPDXRef-c320b8f6172340799e925674c274001f",
+      "versionInfo": "0.62.0",
+      "downloadLocation": "https://github.com/fastapi/fastapi",
+      "homepage": "https://github.com/fastapi/fastapi",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: fastapi",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/fastapi/fastapi@0.62.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "62007795b4b2a8137ab5fb91d5285aff"
+        }
+      ]
+    },
+    {
+      "name": "fastapi-slim",
+      "SPDXID": "SPDXRef-ac060b9fed858664e20503694d225727",
+      "versionInfo": "0.115.4",
+      "downloadLocation": "https://pypi.org/project/fastapi-slim",
+      "homepage": "https://pypi.org/project/fastapi-slim",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: pypi",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/fastapi-slim@0.115.4",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "5cdc3d13b157a57906cf74b3a61f5ed6"
+        }
+      ]
+    },
+    {
+      "name": "audapolis",
+      "SPDXID": "SPDXRef-e44710b08ceb0760b159d25b9c304618",
+      "versionInfo": "0.2.2-pre3",
+      "downloadLocation": "https://github.com/bugbakery/audapolis",
+      "homepage": "https://github.com/bugbakery/audapolis",
+      "licenseDeclared": "AGPL-3.0-only",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: bugbakery",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/bugbakery/audapolis@0.2.2-pre3",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "ec0e8c96da9578872cd769fa0814b877"
+        }
+      ]
+    }
+  ]
+}
