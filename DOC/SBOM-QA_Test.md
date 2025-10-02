@@ -573,6 +573,7 @@ docker rm tmp
 distro2sbom --root <path-to-rootFileSystem> -s --sbom <spdx|cyclonedx> --format <json|xml|yaml> -o <path-to-output-file>  
 ```
 **Generated SBOM:**
+[distro2sbom.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/SBOM/distro.json)
 
 > **Note:**
 Since a Linux environment was used, a dedicated Python virtual environment was created to ensure isolation and reproducibility. In this environment, the distro2sbom tool was installed as the main tool for generating SBOM. 
@@ -592,12 +593,18 @@ docker export $(docker create <image name>) | tar -C  </path/to/directory> -xvf 
 ```
 tern report -l </path/to/directory>  -f spdxjson -o <path/to/output/name.spdx.json>   
 ```
+**Generated SBOM:**
+[tern.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/SBOM/tern.json)
+
 **2.⁠ ⁠Parsing a Dockerfile:**
 Tern can process a Dockerfile directly to infer the layers and dependencies defined in the build instructions.
 **Commands:**
 ```
 tern report -d Dockerfile -o <path/to/output/name.spdx.json> -f json   
 ```
+**Generated SBOM:**
+[tern-docker.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/SBOM/tern-docer.json)
+
 **3.⁠ ⁠Directly analyzing a container image: (not used in this project)**
 Tern can be pointed to a container image (local or remote) to generate an SBOM without needing the Dockerfile or exported filesystem. 
 
@@ -625,6 +632,8 @@ docker run --rm -it <image:tag> bash
 ```
 syft <image:tag>  -o spdx-json > <out put name.json> 
 ``` 
+**Generated SBOM:**
+[syft.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/SBOM/syft.json)
 
 **2.	Source-based SBOM generation:**
 - Instead of analyzing the image, Syft was run directly on the project’s source code directory (./). 
@@ -636,6 +645,7 @@ syft dir:./ -o spdx-json > <out put name.json>
 ```
 
 **Generated SBOM:**
+[syft-source.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/SBOM/Syft-source.json)
 
 ---
 
