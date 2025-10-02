@@ -1,0 +1,340 @@
+{
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SCANOSS-SBOM",
+  "creationInfo": {
+    "created": "2025-09-11T09:18:04Z",
+    "creators": [
+      "Tool: SCANOSS-PY: 1.26.2",
+      "Person: mehdi",
+      "Organization: SCANOSS"
+    ],
+    "comment": "SBOM Build information - SBOM Type: Build"
+  },
+  "documentNamespace": "https://spdx.org/spdxdocs/scanoss-py-1.26.2-1015f452f437a4b2643434b0cadda10d",
+  "documentDescribes": [
+    "SPDXRef-78fc893edbda94c8db4fb18ffce9a832",
+    "SPDXRef-ab98829138046bccdb20b948527ccf01",
+    "SPDXRef-c2729ea205b5ccdeec113851d7d41811",
+    "SPDXRef-9576f0052ec0a599934f96e48089ec3a",
+    "SPDXRef-a40fa3169fbaec0edbb6065a6cf8ed78",
+    "SPDXRef-421a983220acbcaf01cfc92ec3d17ca5",
+    "SPDXRef-a0639ba03d8a7653d8420b06865247be",
+    "SPDXRef-d3264de2937610b7230dd3c2ce162bdd",
+    "SPDXRef-097e276fd3159ce14cc17feb9b4f2cef",
+    "SPDXRef-e8477bc9c289c38d9849d1ccfe3897b6",
+    "SPDXRef-6e837a13232cf22779fd16dd270d0170",
+    "SPDXRef-da7d77d55bd1bbfb725c8bbe2ee52cf9"
+  ],
+  "hasExtractedLicensingInfos": [
+    {
+      "licenseId": "LicenseRef-Unicode-3.0",
+      "name": "Unicode 3.0",
+      "extractedText": "Detected license, please review component source code.",
+      "comment": "Detected license."
+    }
+  ],
+  "packages": [
+    {
+      "name": "javacv",
+      "SPDXID": "SPDXRef-78fc893edbda94c8db4fb18ffce9a832",
+      "versionInfo": "1.5.5",
+      "downloadLocation": "https://github.com/bytedeco/javacv",
+      "homepage": "https://github.com/bytedeco/javacv",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: bytedeco",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/bytedeco/javacv@1.5.5",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0413af97d2a591aca03f599012e33470"
+        }
+      ]
+    },
+    {
+      "name": "javacv",
+      "SPDXID": "SPDXRef-ab98829138046bccdb20b948527ccf01",
+      "versionInfo": "e23dce1",
+      "downloadLocation": "https://github.com/boybeak/javacv",
+      "homepage": "https://github.com/boybeak/javacv",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: boybeak",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/boybeak/javacv@e23dce1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "7c4851a44892bfc398123ee54fc6ab68"
+        }
+      ]
+    },
+    {
+      "name": "javacv",
+      "SPDXID": "SPDXRef-c2729ea205b5ccdeec113851d7d41811",
+      "versionInfo": "ca0fd69",
+      "downloadLocation": "https://gitee.com/hjljy/javacv",
+      "homepage": "https://gitee.com/hjljy/javacv",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: hjljy",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:gitee/hjljy/javacv@ca0fd69",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "5be29aeaf500958093fa8b36e194dc7d"
+        }
+      ]
+    },
+    {
+      "name": "javacv",
+      "SPDXID": "SPDXRef-9576f0052ec0a599934f96e48089ec3a",
+      "versionInfo": "1.5.5",
+      "downloadLocation": "https://mvnrepository.com/artifact/org.bytedeco/javacv",
+      "homepage": "https://mvnrepository.com/artifact/org.bytedeco/javacv",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: org.bytedeco",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacv@1.5.5",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "6786a37c31c38e80575ac0fb623561c9"
+        }
+      ]
+    },
+    {
+      "name": "javelin",
+      "SPDXID": "SPDXRef-a40fa3169fbaec0edbb6065a6cf8ed78",
+      "versionInfo": "1.7b17",
+      "downloadLocation": "https://github.com/tukkek/javelin",
+      "homepage": "https://github.com/tukkek/javelin",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: tukkek",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/tukkek/javelin@1.7b17",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0827226a9daa65ad7d6135ea855072a1"
+        }
+      ]
+    },
+    {
+      "name": "platform/external/jetbrains/JetBrainsRuntime",
+      "SPDXID": "SPDXRef-421a983220acbcaf01cfc92ec3d17ca5",
+      "versionInfo": "jbr-release-21.0.2b375.1",
+      "downloadLocation": "https://android.googlesource.com/platform/external/jetbrains/JetBrainsRuntime/+archive/jbr-release-21.0.2b375.1.tar.gz",
+      "homepage": "https://android.googlesource.com/platform/external/jetbrains/JetBrainsRuntime/+archive/jbr-release-21.0.2b375.1.tar.gz",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: android",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:googlesource/android/platform/external/jetbrains/jetbrainsruntime@jbr-release-21.0.2b375.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "a3470c34038de8293ff832a809c88c99"
+        }
+      ]
+    },
+    {
+      "name": "ldapchai",
+      "SPDXID": "SPDXRef-a0639ba03d8a7653d8420b06865247be",
+      "versionInfo": "0.8.0",
+      "downloadLocation": "https://github.com/ldapchai/ldapchai",
+      "homepage": "https://github.com/ldapchai/ldapchai",
+      "licenseDeclared": "LGPL-2.1-only",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: ldapchai",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/ldapchai/ldapchai@0.8.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "ce876c246c95ad1bbbbf83fc2f8ae8a6"
+        }
+      ]
+    },
+    {
+      "name": "vips-ffm",
+      "SPDXID": "SPDXRef-d3264de2937610b7230dd3c2ce162bdd",
+      "versionInfo": "0.5.14",
+      "downloadLocation": "https://github.com/lopcode/vips-ffm",
+      "homepage": "https://github.com/lopcode/vips-ffm",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: lopcode",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/lopcode/vips-ffm@0.5.14",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "5a26cb0dc72501a215f57309969e1522"
+        }
+      ]
+    },
+    {
+      "name": "jdk",
+      "SPDXID": "SPDXRef-097e276fd3159ce14cc17feb9b4f2cef",
+      "versionInfo": "23+12",
+      "downloadLocation": "https://github.com/openjdk/jdk",
+      "homepage": "https://github.com/openjdk/jdk",
+      "licenseDeclared": "(GPL-2.0-only AND LicenseRef-Unicode-3.0 AND BSL-1.0 AND BSD-2-Clause AND MIT)",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: openjdk",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/openjdk/jdk@23%2B12",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "198566a99cdba3c76c745eacaca868a0"
+        }
+      ]
+    },
+    {
+      "name": "kafka-connect-client",
+      "SPDXID": "SPDXRef-e8477bc9c289c38d9849d1ccfe3897b6",
+      "versionInfo": "4.0.5",
+      "downloadLocation": "https://github.com/SourceLabOrg/kafka-connect-client",
+      "homepage": "https://github.com/SourceLabOrg/kafka-connect-client",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: SourceLabOrg",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/sourcelaborg/kafka-connect-client@4.0.5",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "cf3640be6d3fe7b57a993c1688d95382"
+        }
+      ]
+    },
+    {
+      "name": "purejin",
+      "SPDXID": "SPDXRef-6e837a13232cf22779fd16dd270d0170",
+      "versionInfo": "8.1",
+      "downloadLocation": "https://github.com/jbee/purejin",
+      "homepage": "https://github.com/jbee/purejin",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: jbee",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/jbee/purejin@8.1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "56d3d6e77d7753183f55c13b973a53fe"
+        }
+      ]
+    },
+    {
+      "name": "openjdk-8",
+      "SPDXID": "SPDXRef-da7d77d55bd1bbfb725c8bbe2ee52cf9",
+      "versionInfo": "8u20~b26-1",
+      "downloadLocation": "https://snapshot.debian.org/archive/debian/20140801T165206Z/pool/main/o/openjdk-8/openjdk-8-doc_8u20~b26-1_all.deb",
+      "homepage": "https://snapshot.debian.org/archive/debian/20140801T165206Z/pool/main/o/openjdk-8/openjdk-8-doc_8u20~b26-1_all.deb",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "supplier": "Organization: openjdk-8",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:deb/debian/openjdk-8@8u20~b26-1",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "17462366d01907ca0ab879b8e5f5d93e"
+        }
+      ]
+    }
+  ]
+}
