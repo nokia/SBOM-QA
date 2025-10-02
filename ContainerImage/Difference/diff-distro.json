@@ -1,0 +1,3695 @@
+{
+  "tool": {
+    "name": "sbomdiff",
+    "version": "0.5.6"
+  },
+  "file_1": "SBOM-QA/ContainerImage/pangenome_pggb_4e1835.json",
+  "file_2": "Downloads/distro.json",
+  "differences": [
+    {
+      "package": "actions/checkout",
+      "status": "remove",
+      "version": {
+        "from": "2"
+      }
+    },
+    {
+      "package": "sphinx-rtd-theme",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "breathe",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "m2r2",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "asciidoc",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "elgohr/Publish-Docker-Github-Action",
+      "status": "remove",
+      "version": {
+        "from": "4.*.*"
+      }
+    },
+    {
+      "package": "com.github.pangenome/pggb",
+      "status": "remove",
+      "version": {
+        "from": "MASTER"
+      }
+    },
+    {
+      "package": "ubuntu",
+      "status": "add",
+      "version": {
+        "from": "24.04"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "adduser",
+      "status": "add",
+      "version": {
+        "from": "3.134"
+      },
+      "license": {
+        "to": "GPL-2.0-or-later"
+      }
+    },
+    {
+      "package": "passwd",
+      "status": "add",
+      "version": {
+        "from": "1:4.13+DFSG1-1+DEB12U1"
+      },
+      "license": {
+        "to": "BSD-3-Clause"
+      }
+    },
+    {
+      "package": "libaudit1",
+      "status": "add",
+      "version": {
+        "from": "1:3.0.9-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libaudit-common",
+      "status": "add",
+      "version": {
+        "from": "1:3.0.9-1"
+      },
+      "license": {
+        "to": "GPL-2.0-only"
+      }
+    },
+    {
+      "package": "libc6",
+      "status": "add",
+      "version": {
+        "from": "2.36-9+DEB12U10"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libgcc-s1",
+      "status": "add",
+      "version": {
+        "from": "12.2.0-14+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gcc-12-base",
+      "status": "add",
+      "version": {
+        "from": "12.2.0-14+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libcap-ng0",
+      "status": "add",
+      "version": {
+        "from": "0.8.3-1+B3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libcrypt1",
+      "status": "add",
+      "version": {
+        "from": "1:4.4.33-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libpam0g",
+      "status": "add",
+      "version": {
+        "from": "1.5.2-6+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "debconf",
+      "status": "add",
+      "version": {
+        "from": "1.5.82"
+      },
+      "license": {
+        "to": "BSD-2-Clause"
+      }
+    },
+    {
+      "package": "libselinux1",
+      "status": "add",
+      "version": {
+        "from": "3.4-1+B6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libpcre2-8-0",
+      "status": "add",
+      "version": {
+        "from": "10.42-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libsemanage2",
+      "status": "add",
+      "version": {
+        "from": "3.4-1+B5"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libsemanage-common",
+      "status": "add",
+      "version": {
+        "from": "3.4-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libbz2-1.0",
+      "status": "add",
+      "version": {
+        "from": "1.0.8-5+B1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libsepol2",
+      "status": "add",
+      "version": {
+        "from": "3.4-2.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libpam-modules",
+      "status": "add",
+      "version": {
+        "from": "1.5.2-6+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "apt",
+      "status": "add",
+      "version": {
+        "from": "2.6.1"
+      },
+      "license": {
+        "to": "GPL-2.0-or-later"
+      }
+    },
+    {
+      "package": "gpgv",
+      "status": "add",
+      "version": {
+        "from": "2.2.40-1.1"
+      },
+      "license": {
+        "to": "GPL-3.0-or-later"
+      }
+    },
+    {
+      "package": "libgcrypt20",
+      "status": "add",
+      "version": {
+        "from": "1.10.1-3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libgpg-error0",
+      "status": "add",
+      "version": {
+        "from": "1.46-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "zlib1g",
+      "status": "add",
+      "version": {
+        "from": "1:1.2.13.DFSG-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libapt-pkg6.0",
+      "status": "add",
+      "version": {
+        "from": "2.6.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "liblz4-1",
+      "status": "add",
+      "version": {
+        "from": "1.9.4-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "liblzma5",
+      "status": "add",
+      "version": {
+        "from": "5.4.1-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libstdc++6",
+      "status": "add",
+      "version": {
+        "from": "12.2.0-14+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libsystemd0",
+      "status": "add",
+      "version": {
+        "from": "252.38-1~DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libcap2",
+      "status": "add",
+      "version": {
+        "from": "1:2.66-4+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libzstd1",
+      "status": "add",
+      "version": {
+        "from": "1.5.4+DFSG2-5"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libudev1",
+      "status": "add",
+      "version": {
+        "from": "252.38-1~DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libxxhash0",
+      "status": "add",
+      "version": {
+        "from": "0.8.1-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "debian-archive-keyring",
+      "status": "add",
+      "version": {
+        "from": "2023.3+DEB12U2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libgnutls30",
+      "status": "add",
+      "version": {
+        "from": "3.7.9-2+DEB12U4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libgmp10",
+      "status": "add",
+      "version": {
+        "from": "2:6.2.1+DFSG1-1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libhogweed6",
+      "status": "add",
+      "version": {
+        "from": "3.8.1-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libnettle8",
+      "status": "add",
+      "version": {
+        "from": "3.8.1-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libidn2-0",
+      "status": "add",
+      "version": {
+        "from": "2.3.3-1+B1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libunistring2",
+      "status": "add",
+      "version": {
+        "from": "1.0-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libp11-kit0",
+      "status": "add",
+      "version": {
+        "from": "0.24.1-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libffi8",
+      "status": "add",
+      "version": {
+        "from": "3.4.4-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libtasn1-6",
+      "status": "add",
+      "version": {
+        "from": "4.19.0-2+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libseccomp2",
+      "status": "add",
+      "version": {
+        "from": "2.5.4-1+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "autoconf",
+      "status": "add",
+      "version": {
+        "from": "2.71-3"
+      },
+      "license": {
+        "to": "GPL-3.0-or-later"
+      }
+    },
+    {
+      "package": "perl",
+      "status": "add",
+      "version": {
+        "from": "5.36.0-7+DEB12U2"
+      },
+      "license": {
+        "to": "GPL-1.0-or-later OR Artistic-1.0-Perl"
+      }
+    },
+    {
+      "package": "perl-base",
+      "status": "add",
+      "version": {
+        "from": "5.36.0-7+DEB12U2"
+      },
+      "license": {
+        "to": "GPL-1.0-or-later OR Artistic-1.0-Perl"
+      }
+    },
+    {
+      "package": "perl-modules-5.36",
+      "status": "add",
+      "version": {
+        "from": "5.36.0-7+DEB12U2"
+      },
+      "license": {
+        "to": "GPL-1.0-or-later OR Artistic-1.0-Perl"
+      }
+    },
+    {
+      "package": "libperl5.36",
+      "status": "add",
+      "version": {
+        "from": "5.36.0-7+DEB12U2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libdb5.3",
+      "status": "add",
+      "version": {
+        "from": "5.3.28+DFSG2-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libgdbm-compat4",
+      "status": "add",
+      "version": {
+        "from": "1.23-3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libgdbm6",
+      "status": "add",
+      "version": {
+        "from": "1.23-3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "m4",
+      "status": "add",
+      "version": {
+        "from": "1.4.19-3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "debianutils",
+      "status": "add",
+      "version": {
+        "from": "5.7-0.5~DEB12U1"
+      },
+      "license": {
+        "to": "GPL-2.0-or-later"
+      }
+    },
+    {
+      "package": "base-files",
+      "status": "add",
+      "version": {
+        "from": "12.4+DEB12U11"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "base-passwd",
+      "status": "add",
+      "version": {
+        "from": "3.6.1"
+      },
+      "license": {
+        "to": "GPL-2.0-only"
+      }
+    },
+    {
+      "package": "libdebconfclient0",
+      "status": "add",
+      "version": {
+        "from": "0.270"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "bash",
+      "status": "add",
+      "version": {
+        "from": "5.2.15-2+B8"
+      },
+      "license": {
+        "to": "GPL-3.0-or-later"
+      }
+    },
+    {
+      "package": "bc",
+      "status": "add",
+      "version": {
+        "from": "1.07.1-3+B1"
+      },
+      "license": {
+        "to": "GPL-2.0-or-later"
+      }
+    },
+    {
+      "package": "libreadline8",
+      "status": "add",
+      "version": {
+        "from": "8.2-1.3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "readline-common",
+      "status": "add",
+      "version": {
+        "from": "8.2-1.3"
+      },
+      "license": {
+        "to": "GPL-3.0-or-later"
+      }
+    },
+    {
+      "package": "dpkg",
+      "status": "add",
+      "version": {
+        "from": "1.21.22"
+      },
+      "license": {
+        "to": "GPL-2.0-or-later"
+      }
+    },
+    {
+      "package": "tar",
+      "status": "add",
+      "version": {
+        "from": "1.34+DFSG-1.2+DEB12U1"
+      },
+      "license": {
+        "to": "GPL-3.0-or-later"
+      }
+    },
+    {
+      "package": "libtinfo6",
+      "status": "add",
+      "version": {
+        "from": "6.4-4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "binutils",
+      "status": "add",
+      "version": {
+        "from": "2.40-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "binutils-common",
+      "status": "add",
+      "version": {
+        "from": "2.40-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libbinutils",
+      "status": "add",
+      "version": {
+        "from": "2.40-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "binutils-x86-64-linux-gnu",
+      "status": "add",
+      "version": {
+        "from": "2.40-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libctf-nobfd0",
+      "status": "add",
+      "version": {
+        "from": "2.40-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libctf0",
+      "status": "add",
+      "version": {
+        "from": "2.40-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libgprofng0",
+      "status": "add",
+      "version": {
+        "from": "2.40-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libjansson4",
+      "status": "add",
+      "version": {
+        "from": "2.14-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "bsdutils",
+      "status": "add",
+      "version": {
+        "from": "1:2.38.1-5+DEB12U3"
+      },
+      "license": {
+        "to": "GPL-2.0-or-later"
+      }
+    },
+    {
+      "package": "build-essential",
+      "status": "add",
+      "version": {
+        "from": "12.9"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libc6-dev",
+      "status": "add",
+      "version": {
+        "from": "2.36-9+DEB12U10"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libc-dev-bin",
+      "status": "add",
+      "version": {
+        "from": "2.36-9+DEB12U10"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "linux-libc-dev",
+      "status": "add",
+      "version": {
+        "from": "6.1.140-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libcrypt-dev",
+      "status": "add",
+      "version": {
+        "from": "1:4.4.33-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libnsl-dev",
+      "status": "add",
+      "version": {
+        "from": "1.3.0-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libnsl2",
+      "status": "add",
+      "version": {
+        "from": "1.3.0-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libtirpc3",
+      "status": "add",
+      "version": {
+        "from": "1.3.3+DS-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libgssapi-krb5-2",
+      "status": "add",
+      "version": {
+        "from": "1.20.1-2+DEB12U3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libcom-err2",
+      "status": "add",
+      "version": {
+        "from": "1.47.0-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libk5crypto3",
+      "status": "add",
+      "version": {
+        "from": "1.20.1-2+DEB12U3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libkrb5support0",
+      "status": "add",
+      "version": {
+        "from": "1.20.1-2+DEB12U3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libkrb5-3",
+      "status": "add",
+      "version": {
+        "from": "1.20.1-2+DEB12U3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libkeyutils1",
+      "status": "add",
+      "version": {
+        "from": "1.6.3-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libssl3",
+      "status": "add",
+      "version": {
+        "from": "3.0.16-1~DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libtirpc-common",
+      "status": "add",
+      "version": {
+        "from": "1.3.3+DS-1"
+      },
+      "license": {
+        "to": "BSD-3-Clause"
+      }
+    },
+    {
+      "package": "libtirpc-dev",
+      "status": "add",
+      "version": {
+        "from": "1.3.3+DS-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "rpcsvc-proto",
+      "status": "add",
+      "version": {
+        "from": "1.4.3-1"
+      },
+      "license": {
+        "to": "BSD-3-Clause"
+      }
+    },
+    {
+      "package": "gcc",
+      "status": "add",
+      "version": {
+        "from": "4:12.2.0-3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cpp",
+      "status": "add",
+      "version": {
+        "from": "4:12.2.0-3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cpp-12",
+      "status": "add",
+      "version": {
+        "from": "12.2.0-14+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libisl23",
+      "status": "add",
+      "version": {
+        "from": "0.25-1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libmpc3",
+      "status": "add",
+      "version": {
+        "from": "1.3.1-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libmpfr6",
+      "status": "add",
+      "version": {
+        "from": "4.2.0-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gcc-12",
+      "status": "add",
+      "version": {
+        "from": "12.2.0-14+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libcc1-0",
+      "status": "add",
+      "version": {
+        "from": "12.2.0-14+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libgcc-12-dev",
+      "status": "add",
+      "version": {
+        "from": "12.2.0-14+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libgomp1",
+      "status": "add",
+      "version": {
+        "from": "12.2.0-14+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libitm1",
+      "status": "add",
+      "version": {
+        "from": "12.2.0-14+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libatomic1",
+      "status": "add",
+      "version": {
+        "from": "12.2.0-14+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libasan8",
+      "status": "add",
+      "version": {
+        "from": "12.2.0-14+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "liblsan0",
+      "status": "add",
+      "version": {
+        "from": "12.2.0-14+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libtsan2",
+      "status": "add",
+      "version": {
+        "from": "12.2.0-14+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libubsan1",
+      "status": "add",
+      "version": {
+        "from": "12.2.0-14+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libquadmath0",
+      "status": "add",
+      "version": {
+        "from": "12.2.0-14+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "g++",
+      "status": "add",
+      "version": {
+        "from": "4:12.2.0-3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "g++-12",
+      "status": "add",
+      "version": {
+        "from": "12.2.0-14+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libstdc++-12-dev",
+      "status": "add",
+      "version": {
+        "from": "12.2.0-14+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "make",
+      "status": "add",
+      "version": {
+        "from": "4.3-4.1"
+      },
+      "license": {
+        "to": "GPL-3.0-or-later"
+      }
+    },
+    {
+      "package": "dpkg-dev",
+      "status": "add",
+      "version": {
+        "from": "1.21.22"
+      },
+      "license": {
+        "to": "GPL-2.0-or-later"
+      }
+    },
+    {
+      "package": "libdpkg-perl",
+      "status": "add",
+      "version": {
+        "from": "1.21.22"
+      },
+      "license": {
+        "to": "GPL-2.0-or-later"
+      }
+    },
+    {
+      "package": "bzip2",
+      "status": "add",
+      "version": {
+        "from": "1.0.8-5+B1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "xz-utils",
+      "status": "add",
+      "version": {
+        "from": "5.4.1-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "patch",
+      "status": "add",
+      "version": {
+        "from": "2.7.6-7"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ca-certificates",
+      "status": "add",
+      "version": {
+        "from": "20230311+DEB12U1"
+      },
+      "license": {
+        "to": "GPL-2.0-or-later"
+      }
+    },
+    {
+      "package": "openssl",
+      "status": "add",
+      "version": {
+        "from": "3.0.16-1~DEB12U1"
+      },
+      "license": {
+        "to": "Apache-2.0"
+      }
+    },
+    {
+      "package": "cmake",
+      "status": "add",
+      "version": {
+        "from": "3.25.1-1"
+      },
+      "license": {
+        "to": "BSD-3-Clause"
+      }
+    },
+    {
+      "package": "libarchive13",
+      "status": "add",
+      "version": {
+        "from": "3.6.2-1+DEB12U2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libacl1",
+      "status": "add",
+      "version": {
+        "from": "2.3.1-3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libxml2",
+      "status": "add",
+      "version": {
+        "from": "2.9.14+DFSG-1.3~DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libicu72",
+      "status": "add",
+      "version": {
+        "from": "72.1-3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libcurl4",
+      "status": "add",
+      "version": {
+        "from": "7.88.1-10+DEB12U12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libbrotli1",
+      "status": "add",
+      "version": {
+        "from": "1.0.9-2+B6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libldap-2.5-0",
+      "status": "add",
+      "version": {
+        "from": "2.5.13+DFSG-5"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libsasl2-2",
+      "status": "add",
+      "version": {
+        "from": "2.1.28+DFSG-10"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libsasl2-modules-db",
+      "status": "add",
+      "version": {
+        "from": "2.1.28+DFSG-10"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libnghttp2-14",
+      "status": "add",
+      "version": {
+        "from": "1.52.0-1+DEB12U2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libpsl5",
+      "status": "add",
+      "version": {
+        "from": "0.21.2-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "librtmp1",
+      "status": "add",
+      "version": {
+        "from": "2.4+20151223.GITFA8646D.1-2+B2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libssh2-1",
+      "status": "add",
+      "version": {
+        "from": "1.10.0-3+B1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libexpat1",
+      "status": "add",
+      "version": {
+        "from": "2.5.0-1+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libjsoncpp25",
+      "status": "add",
+      "version": {
+        "from": "1.9.5-4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "librhash0",
+      "status": "add",
+      "version": {
+        "from": "1.4.3-3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libuv1",
+      "status": "add",
+      "version": {
+        "from": "1.44.2-1+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "cmake-data",
+      "status": "add",
+      "version": {
+        "from": "3.25.1-1"
+      },
+      "license": {
+        "to": "BSD-3-Clause"
+      }
+    },
+    {
+      "package": "procps",
+      "status": "add",
+      "version": {
+        "from": "2:4.0.2-3"
+      },
+      "license": {
+        "to": "LGPL-2.1-or-later"
+      }
+    },
+    {
+      "package": "libncursesw6",
+      "status": "add",
+      "version": {
+        "from": "6.4-4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libproc2-0",
+      "status": "add",
+      "version": {
+        "from": "2:4.0.2-3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "init-system-helpers",
+      "status": "add",
+      "version": {
+        "from": "1.65.2"
+      },
+      "license": {
+        "to": "BSD-3-Clause"
+      }
+    },
+    {
+      "package": "coreutils",
+      "status": "add",
+      "version": {
+        "from": "9.1-1"
+      },
+      "license": {
+        "to": "GPL-3.0-or-later"
+      }
+    },
+    {
+      "package": "cpp-11",
+      "status": "add",
+      "version": {
+        "from": "11.3.0-12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gcc-11-base",
+      "status": "add",
+      "version": {
+        "from": "11.3.0-12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "curl",
+      "status": "add",
+      "version": {
+        "from": "7.88.1-10+DEB12U12"
+      },
+      "license": {
+        "to": "curl"
+      }
+    },
+    {
+      "package": "dash",
+      "status": "add",
+      "version": {
+        "from": "0.5.12-2"
+      },
+      "license": {
+        "to": "BSD-3-Clause"
+      }
+    },
+    {
+      "package": "diffutils",
+      "status": "add",
+      "version": {
+        "from": "1:3.8-4"
+      },
+      "license": {
+        "to": "GPL-3.0-or-later"
+      }
+    },
+    {
+      "package": "e2fsprogs",
+      "status": "add",
+      "version": {
+        "from": "1.47.0-2"
+      },
+      "license": {
+        "to": "GPL-2.0-only"
+      }
+    },
+    {
+      "package": "logsave",
+      "status": "add",
+      "version": {
+        "from": "1.47.0-2"
+      },
+      "license": {
+        "to": "GPL-2.0-only"
+      }
+    },
+    {
+      "package": "findutils",
+      "status": "add",
+      "version": {
+        "from": "4.9.0-4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "fontconfig",
+      "status": "add",
+      "version": {
+        "from": "2.14.1-4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libfontconfig1",
+      "status": "add",
+      "version": {
+        "from": "2.14.1-4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libfreetype6",
+      "status": "add",
+      "version": {
+        "from": "2.12.1+DFSG-5+DEB12U4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libpng16-16",
+      "status": "add",
+      "version": {
+        "from": "1.6.39-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "fontconfig-config",
+      "status": "add",
+      "version": {
+        "from": "2.14.1-4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "fonts-dejavu-core",
+      "status": "add",
+      "version": {
+        "from": "2.37-6"
+      },
+      "license": {
+        "to": "Bitstream-Vera"
+      }
+    },
+    {
+      "package": "g++-11",
+      "status": "add",
+      "version": {
+        "from": "11.3.0-12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "gcc-11",
+      "status": "add",
+      "version": {
+        "from": "11.3.0-12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libgcc-11-dev",
+      "status": "add",
+      "version": {
+        "from": "11.3.0-12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libasan6",
+      "status": "add",
+      "version": {
+        "from": "11.3.0-12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libtsan0",
+      "status": "add",
+      "version": {
+        "from": "11.3.0-12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libstdc++-11-dev",
+      "status": "add",
+      "version": {
+        "from": "11.3.0-12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "git",
+      "status": "add",
+      "version": {
+        "from": "1:2.39.5-0+DEB12U2"
+      },
+      "license": {
+        "to": "GPL-2.0-only"
+      }
+    },
+    {
+      "package": "libcurl3-gnutls",
+      "status": "add",
+      "version": {
+        "from": "7.88.1-10+DEB12U12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "liberror-perl",
+      "status": "add",
+      "version": {
+        "from": "0.17029-2"
+      },
+      "license": {
+        "to": "Artistic-1.0-Perl OR GPL-1.0-or-later"
+      }
+    },
+    {
+      "package": "git-man",
+      "status": "add",
+      "version": {
+        "from": "1:2.39.5-0+DEB12U2"
+      },
+      "license": {
+        "to": "GPL-2.0-only"
+      }
+    },
+    {
+      "package": "grep",
+      "status": "add",
+      "version": {
+        "from": "3.8-5"
+      },
+      "license": {
+        "to": "GPL-3.0-or-later"
+      }
+    },
+    {
+      "package": "gzip",
+      "status": "add",
+      "version": {
+        "from": "1.12-1"
+      },
+      "license": {
+        "to": "GPL-3.0-or-later"
+      }
+    },
+    {
+      "package": "hostname",
+      "status": "add",
+      "version": {
+        "from": "3.23+NMU1"
+      },
+      "license": {
+        "to": "GPL-2.0-only"
+      }
+    },
+    {
+      "package": "libatomic-ops-dev",
+      "status": "add",
+      "version": {
+        "from": "7.6.14-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libattr1",
+      "status": "add",
+      "version": {
+        "from": "1:2.5.1-4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libblas3",
+      "status": "add",
+      "version": {
+        "from": "3.11.0-2"
+      },
+      "license": {
+        "to": "BSD-3-Clause"
+      }
+    },
+    {
+      "package": "libblkid-dev",
+      "status": "add",
+      "version": {
+        "from": "2.38.1-5+DEB12U3"
+      },
+      "license": {
+        "to": "GPL-2.0-or-later"
+      }
+    },
+    {
+      "package": "libblkid1",
+      "status": "add",
+      "version": {
+        "from": "2.38.1-5+DEB12U3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "uuid-dev",
+      "status": "add",
+      "version": {
+        "from": "2.38.1-5+DEB12U3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libuuid1",
+      "status": "add",
+      "version": {
+        "from": "2.38.1-5+DEB12U3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libbrotli-dev",
+      "status": "add",
+      "version": {
+        "from": "1.0.9-2+B6"
+      },
+      "license": {
+        "to": "MIT"
+      }
+    },
+    {
+      "package": "libbsd0",
+      "status": "add",
+      "version": {
+        "from": "0.11.7-2"
+      },
+      "license": {
+        "to": "BSD-3-Clause"
+      }
+    },
+    {
+      "package": "libmd0",
+      "status": "add",
+      "version": {
+        "from": "1.0.4-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libbz2-dev",
+      "status": "add",
+      "version": {
+        "from": "1.0.8-5+B1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libc-bin",
+      "status": "add",
+      "version": {
+        "from": "2.36-9+DEB12U10"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libcairo-gobject2",
+      "status": "add",
+      "version": {
+        "from": "1.16.0-7"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libcairo2",
+      "status": "add",
+      "version": {
+        "from": "1.16.0-7"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libpixman-1-0",
+      "status": "add",
+      "version": {
+        "from": "0.42.2-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libx11-6",
+      "status": "add",
+      "version": {
+        "from": "2:1.8.4-2+DEB12U2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libxcb1",
+      "status": "add",
+      "version": {
+        "from": "1.15-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libxau6",
+      "status": "add",
+      "version": {
+        "from": "1:1.0.9-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libxdmcp6",
+      "status": "add",
+      "version": {
+        "from": "1:1.1.2-3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libx11-data",
+      "status": "add",
+      "version": {
+        "from": "2:1.8.4-2+DEB12U2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libxcb-render0",
+      "status": "add",
+      "version": {
+        "from": "1.15-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libxcb-shm0",
+      "status": "add",
+      "version": {
+        "from": "1.15-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libxext6",
+      "status": "add",
+      "version": {
+        "from": "2:1.3.4-1+B1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libxrender1",
+      "status": "add",
+      "version": {
+        "from": "1:0.9.10-1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libglib2.0-0",
+      "status": "add",
+      "version": {
+        "from": "2.74.6-2+DEB12U6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libmount1",
+      "status": "add",
+      "version": {
+        "from": "2.38.1-5+DEB12U3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libcairo-script-interpreter2",
+      "status": "add",
+      "version": {
+        "from": "1.16.0-7"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "liblzo2-2",
+      "status": "add",
+      "version": {
+        "from": "2.10-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libcairo2-dev",
+      "status": "add",
+      "version": {
+        "from": "1.16.0-7"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libfontconfig-dev",
+      "status": "add",
+      "version": {
+        "from": "2.14.1-4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libexpat1-dev",
+      "status": "add",
+      "version": {
+        "from": "2.5.0-1+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libfreetype-dev",
+      "status": "add",
+      "version": {
+        "from": "2.12.1+DFSG-5+DEB12U4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libpng-dev",
+      "status": "add",
+      "version": {
+        "from": "1.6.39-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "zlib1g-dev",
+      "status": "add",
+      "version": {
+        "from": "1:1.2.13.DFSG-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pkg-config",
+      "status": "add",
+      "version": {
+        "from": "1.8.1-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pkgconf",
+      "status": "add",
+      "version": {
+        "from": "1.8.1-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pkgconf-bin",
+      "status": "add",
+      "version": {
+        "from": "1.8.1-1"
+      },
+      "license": {
+        "to": "ISC"
+      }
+    },
+    {
+      "package": "libpkgconf3",
+      "status": "add",
+      "version": {
+        "from": "1.8.1-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libglib2.0-dev",
+      "status": "add",
+      "version": {
+        "from": "2.74.6-2+DEB12U6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libffi-dev",
+      "status": "add",
+      "version": {
+        "from": "3.4.4-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libglib2.0-bin",
+      "status": "add",
+      "version": {
+        "from": "2.74.6-2+DEB12U6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libglib2.0-data",
+      "status": "add",
+      "version": {
+        "from": "2.74.6-2+DEB12U6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libelf1",
+      "status": "add",
+      "version": {
+        "from": "0.188-2.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libglib2.0-dev-bin",
+      "status": "add",
+      "version": {
+        "from": "2.74.6-2+DEB12U6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "python3-distutils",
+      "status": "add",
+      "version": {
+        "from": "3.11.2-3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "python3",
+      "status": "add",
+      "version": {
+        "from": "3.11.2-1+B1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "python3.11",
+      "status": "add",
+      "version": {
+        "from": "3.11.2-6+DEB12U6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "python3.11-minimal",
+      "status": "add",
+      "version": {
+        "from": "3.11.2-6+DEB12U6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libpython3.11-minimal",
+      "status": "add",
+      "version": {
+        "from": "3.11.2-6+DEB12U6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libpython3.11-stdlib",
+      "status": "add",
+      "version": {
+        "from": "3.11.2-6+DEB12U6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "media-types",
+      "status": "add",
+      "version": {
+        "from": "10.0.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libsqlite3-0",
+      "status": "add",
+      "version": {
+        "from": "3.40.1-2+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libpython3-stdlib",
+      "status": "add",
+      "version": {
+        "from": "3.11.2-1+B1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "python3-lib2to3",
+      "status": "add",
+      "version": {
+        "from": "3.11.2-3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libmount-dev",
+      "status": "add",
+      "version": {
+        "from": "2.38.1-5+DEB12U3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libselinux1-dev",
+      "status": "add",
+      "version": {
+        "from": "3.4-1+B6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libsepol-dev",
+      "status": "add",
+      "version": {
+        "from": "3.4-2.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libpcre2-dev",
+      "status": "add",
+      "version": {
+        "from": "10.42-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libpcre2-16-0",
+      "status": "add",
+      "version": {
+        "from": "10.42-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libpcre2-32-0",
+      "status": "add",
+      "version": {
+        "from": "10.42-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libpcre2-posix3",
+      "status": "add",
+      "version": {
+        "from": "10.42-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libpixman-1-dev",
+      "status": "add",
+      "version": {
+        "from": "0.42.2-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libsm-dev",
+      "status": "add",
+      "version": {
+        "from": "2:1.2.3-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libsm6",
+      "status": "add",
+      "version": {
+        "from": "2:1.2.3-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libice6",
+      "status": "add",
+      "version": {
+        "from": "2:1.0.10-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "x11-common",
+      "status": "add",
+      "version": {
+        "from": "1:7.7+23"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "x11proto-core-dev",
+      "status": "add",
+      "version": {
+        "from": "2022.1-1"
+      },
+      "license": {
+        "to": "MIT"
+      }
+    },
+    {
+      "package": "x11proto-dev",
+      "status": "add",
+      "version": {
+        "from": "2022.1-1"
+      },
+      "license": {
+        "to": "MIT"
+      }
+    },
+    {
+      "package": "xorg-sgml-doctools",
+      "status": "add",
+      "version": {
+        "from": "1:1.11-1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libice-dev",
+      "status": "add",
+      "version": {
+        "from": "2:1.0.10-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libx11-dev",
+      "status": "add",
+      "version": {
+        "from": "2:1.8.4-2+DEB12U2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libxau-dev",
+      "status": "add",
+      "version": {
+        "from": "1:1.0.9-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libxdmcp-dev",
+      "status": "add",
+      "version": {
+        "from": "1:1.1.2-3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "xtrans-dev",
+      "status": "add",
+      "version": {
+        "from": "1.4.0-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libxcb1-dev",
+      "status": "add",
+      "version": {
+        "from": "1.15-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libpthread-stubs0-dev",
+      "status": "add",
+      "version": {
+        "from": "0.4-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libxcb-render0-dev",
+      "status": "add",
+      "version": {
+        "from": "1.15-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libxcb-shm0-dev",
+      "status": "add",
+      "version": {
+        "from": "1.15-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libxext-dev",
+      "status": "add",
+      "version": {
+        "from": "2:1.3.4-1+B1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libxrender-dev",
+      "status": "add",
+      "version": {
+        "from": "1:0.9.10-1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libclang-14-dev",
+      "status": "add",
+      "version": {
+        "from": "1:14.0.6-12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libobjc-12-dev",
+      "status": "add",
+      "version": {
+        "from": "12.2.0-14+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libobjc4",
+      "status": "add",
+      "version": {
+        "from": "12.2.0-14+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libgc1",
+      "status": "add",
+      "version": {
+        "from": "1:8.2.2-3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libclang1-14",
+      "status": "add",
+      "version": {
+        "from": "1:14.0.6-12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libllvm14",
+      "status": "add",
+      "version": {
+        "from": "1:14.0.6-12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libedit2",
+      "status": "add",
+      "version": {
+        "from": "3.1-20221030-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libz3-4",
+      "status": "add",
+      "version": {
+        "from": "4.8.12-3.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libclang-common-14-dev",
+      "status": "add",
+      "version": {
+        "from": "1:14.0.6-12"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libclang-dev",
+      "status": "add",
+      "version": {
+        "from": "1:14.0-55.7~DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libcurl4-gnutls-dev",
+      "status": "add",
+      "version": {
+        "from": "7.88.1-10+DEB12U12"
+      },
+      "license": {
+        "to": "curl"
+      }
+    },
+    {
+      "package": "libdatrie1",
+      "status": "add",
+      "version": {
+        "from": "0.2.13-2+B1"
+      },
+      "license": {
+        "to": "LGPL-2.1-or-later"
+      }
+    },
+    {
+      "package": "libdeflate-dev",
+      "status": "add",
+      "version": {
+        "from": "1.14-1"
+      },
+      "license": {
+        "to": "MIT"
+      }
+    },
+    {
+      "package": "libdeflate0",
+      "status": "add",
+      "version": {
+        "from": "1.14-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libext2fs2",
+      "status": "add",
+      "version": {
+        "from": "1.47.0-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libfribidi0",
+      "status": "add",
+      "version": {
+        "from": "1.0.8-2.1"
+      },
+      "license": {
+        "to": "LGPL-2.1-or-later"
+      }
+    },
+    {
+      "package": "libgfortran5",
+      "status": "add",
+      "version": {
+        "from": "12.2.0-14+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libgraphite2-3",
+      "status": "add",
+      "version": {
+        "from": "1.3.14-1"
+      },
+      "license": {
+        "to": "LGPL-2.1-or-later OR MPL-1.1 OR GPL-2.0-or-later"
+      }
+    },
+    {
+      "package": "libgsl-dev",
+      "status": "add",
+      "version": {
+        "from": "2.7.1+DFSG-5+DEB12U1"
+      },
+      "license": {
+        "to": "GPL-2.0-only"
+      }
+    },
+    {
+      "package": "libgsl27",
+      "status": "add",
+      "version": {
+        "from": "2.7.1+DFSG-5+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libgslcblas0",
+      "status": "add",
+      "version": {
+        "from": "2.7.1+DFSG-5+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libharfbuzz0b",
+      "status": "add",
+      "version": {
+        "from": "6.0.0+DFSG-3"
+      },
+      "license": {
+        "to": "MIT"
+      }
+    },
+    {
+      "package": "libhts-dev",
+      "status": "add",
+      "version": {
+        "from": "1.16+DS-3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libhts3",
+      "status": "add",
+      "version": {
+        "from": "1.16+DS-3"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libhtscodecs2",
+      "status": "add",
+      "version": {
+        "from": "1.3.0-4"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "liblzma-dev",
+      "status": "add",
+      "version": {
+        "from": "5.4.1-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libjbig0",
+      "status": "add",
+      "version": {
+        "from": "2.1-6.1"
+      },
+      "license": {
+        "to": "GPL-2.0-or-later"
+      }
+    },
+    {
+      "package": "libjemalloc-dev",
+      "status": "add",
+      "version": {
+        "from": "5.3.0-1"
+      },
+      "license": {
+        "to": "BSD-2-Clause"
+      }
+    },
+    {
+      "package": "libjemalloc2",
+      "status": "add",
+      "version": {
+        "from": "5.3.0-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libjpeg62-turbo",
+      "status": "add",
+      "version": {
+        "from": "1:2.1.5-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libjs-jquery",
+      "status": "add",
+      "version": {
+        "from": "3.6.1+DFSG+~3.5.14-1"
+      },
+      "license": {
+        "to": "MIT"
+      }
+    },
+    {
+      "package": "libjs-sphinxdoc",
+      "status": "add",
+      "version": {
+        "from": "5.3.0-4"
+      },
+      "license": {
+        "to": "BSD-2-Clause"
+      }
+    },
+    {
+      "package": "libjs-underscore",
+      "status": "add",
+      "version": {
+        "from": "1.13.4~DFSG+~1.11.4-3"
+      },
+      "license": {
+        "to": "MIT"
+      }
+    },
+    {
+      "package": "liblapack3",
+      "status": "add",
+      "version": {
+        "from": "3.11.0-2"
+      },
+      "license": {
+        "to": "BSD-3-Clause"
+      }
+    },
+    {
+      "package": "liblerc4",
+      "status": "add",
+      "version": {
+        "from": "4.0.0+DS-2"
+      },
+      "license": {
+        "to": "Apache-2.0"
+      }
+    },
+    {
+      "package": "libncurses6",
+      "status": "add",
+      "version": {
+        "from": "6.4-4"
+      },
+      "license": {
+        "to": "X11"
+      }
+    },
+    {
+      "package": "libpam-modules-bin",
+      "status": "add",
+      "version": {
+        "from": "1.5.2-6+DEB12U1"
+      },
+      "license": {
+        "to": "BSD-3-Clause OR GPL-2.0-only"
+      }
+    },
+    {
+      "package": "libpam-runtime",
+      "status": "add",
+      "version": {
+        "from": "1.5.2-6+DEB12U1"
+      },
+      "license": {
+        "to": "BSD-3-Clause OR GPL-2.0-only"
+      }
+    },
+    {
+      "package": "libpango-1.0-0",
+      "status": "add",
+      "version": {
+        "from": "1.50.12+DS-1"
+      },
+      "license": {
+        "to": "LGPL-2.0-or-later AND LGPL-2.1-or-later"
+      }
+    },
+    {
+      "package": "libthai0",
+      "status": "add",
+      "version": {
+        "from": "0.1.29-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libthai-data",
+      "status": "add",
+      "version": {
+        "from": "0.1.29-1"
+      },
+      "license": {
+        "to": "LGPL-2.1-or-later"
+      }
+    },
+    {
+      "package": "libpangocairo-1.0-0",
+      "status": "add",
+      "version": {
+        "from": "1.50.12+DS-1"
+      },
+      "license": {
+        "to": "LGPL-2.0-or-later AND LGPL-2.1-or-later"
+      }
+    },
+    {
+      "package": "libpangoft2-1.0-0",
+      "status": "add",
+      "version": {
+        "from": "1.50.12+DS-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libpaper-utils",
+      "status": "add",
+      "version": {
+        "from": "1.1.29"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libpaper1",
+      "status": "add",
+      "version": {
+        "from": "1.1.29"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "ucf",
+      "status": "add",
+      "version": {
+        "from": "3.0043+NMU1+DEB12U1"
+      },
+      "license": {
+        "to": "GPL-2.0-only"
+      }
+    },
+    {
+      "package": "sensible-utils",
+      "status": "add",
+      "version": {
+        "from": "0.0.17+NMU1"
+      },
+      "license": {
+        "to": "GPL-2.0-or-later"
+      }
+    },
+    {
+      "package": "libpython3-dev",
+      "status": "add",
+      "version": {
+        "from": "3.11.2-1+B1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libpython3.11-dev",
+      "status": "add",
+      "version": {
+        "from": "3.11.2-6+DEB12U6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libpython3.11",
+      "status": "add",
+      "version": {
+        "from": "3.11.2-6+DEB12U6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libsensors-config",
+      "status": "add",
+      "version": {
+        "from": "1:3.6.0-7.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libsensors5",
+      "status": "add",
+      "version": {
+        "from": "1:3.6.0-7.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libsmartcols1",
+      "status": "add",
+      "version": {
+        "from": "2.38.1-5+DEB12U3"
+      },
+      "license": {
+        "to": "GPL-2.0-or-later"
+      }
+    },
+    {
+      "package": "libss2",
+      "status": "add",
+      "version": {
+        "from": "1.47.0-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libtcl8.6",
+      "status": "add",
+      "version": {
+        "from": "8.6.13+DFSG-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "tzdata",
+      "status": "add",
+      "version": {
+        "from": "2025B-0+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libtiff6",
+      "status": "add",
+      "version": {
+        "from": "4.5.0-6+DEB12U2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libwebp7",
+      "status": "add",
+      "version": {
+        "from": "1.2.4-0.2+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libtk8.6",
+      "status": "add",
+      "version": {
+        "from": "8.6.13-2"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libxft2",
+      "status": "add",
+      "version": {
+        "from": "2.3.6-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libxss1",
+      "status": "add",
+      "version": {
+        "from": "1:1.2.3-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libxt6",
+      "status": "add",
+      "version": {
+        "from": "1:1.2.1-1.1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "libzstd-dev",
+      "status": "add",
+      "version": {
+        "from": "1.5.4+DFSG2-5"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "login",
+      "status": "add",
+      "version": {
+        "from": "1:4.13+DFSG1-1+DEB12U1"
+      },
+      "license": {
+        "to": "BSD-3-Clause"
+      }
+    },
+    {
+      "package": "mawk",
+      "status": "add",
+      "version": {
+        "from": "1.3.4.20200120-3.1"
+      },
+      "license": {
+        "to": "GPL-2.0-only"
+      }
+    },
+    {
+      "package": "mount",
+      "status": "add",
+      "version": {
+        "from": "2.38.1-5+DEB12U3"
+      },
+      "license": {
+        "to": "GPL-2.0-or-later"
+      }
+    },
+    {
+      "package": "ncurses-base",
+      "status": "add",
+      "version": {
+        "from": "6.4-4"
+      },
+      "license": {
+        "to": "X11"
+      }
+    },
+    {
+      "package": "ncurses-bin",
+      "status": "add",
+      "version": {
+        "from": "6.4-4"
+      },
+      "license": {
+        "to": "X11"
+      }
+    },
+    {
+      "package": "parallel",
+      "status": "add",
+      "version": {
+        "from": "20221122+DS-2"
+      },
+      "license": {
+        "to": "GPL-3.0-or-later"
+      }
+    },
+    {
+      "package": "sysstat",
+      "status": "add",
+      "version": {
+        "from": "12.6.1-1"
+      },
+      "license": {
+        "to": "GPL-2.0-or-later"
+      }
+    },
+    {
+      "package": "pigz",
+      "status": "add",
+      "version": {
+        "from": "2.6-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "pybind11-dev",
+      "status": "add",
+      "version": {
+        "from": "2.10.3-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "python3-dev",
+      "status": "add",
+      "version": {
+        "from": "3.11.2-1+B1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "python3.11-dev",
+      "status": "add",
+      "version": {
+        "from": "3.11.2-6+DEB12U6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "python3-minimal",
+      "status": "add",
+      "version": {
+        "from": "3.11.2-1+B1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "python3-pip",
+      "status": "add",
+      "version": {
+        "from": "23.0.1+DFSG-1"
+      },
+      "license": {
+        "to": "MIT"
+      }
+    },
+    {
+      "package": "python3-setuptools",
+      "status": "add",
+      "version": {
+        "from": "66.1.1-1+DEB12U1"
+      },
+      "license": {
+        "to": "Apache-2.0"
+      }
+    },
+    {
+      "package": "python3-pkg-resources",
+      "status": "add",
+      "version": {
+        "from": "66.1.1-1+DEB12U1"
+      },
+      "license": {
+        "to": "Apache-2.0"
+      }
+    },
+    {
+      "package": "python3-wheel",
+      "status": "add",
+      "version": {
+        "from": "0.38.4-2"
+      },
+      "license": {
+        "to": "MIT"
+      }
+    },
+    {
+      "package": "python3-pip-whl",
+      "status": "add",
+      "version": {
+        "from": "23.0.1+DFSG-1"
+      },
+      "license": {
+        "to": "MIT"
+      }
+    },
+    {
+      "package": "python3-setuptools-whl",
+      "status": "add",
+      "version": {
+        "from": "66.1.1-1+DEB12U1"
+      },
+      "license": {
+        "to": "Apache-2.0"
+      }
+    },
+    {
+      "package": "python3-venv",
+      "status": "add",
+      "version": {
+        "from": "3.11.2-1+B1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "python3.11-venv",
+      "status": "add",
+      "version": {
+        "from": "3.11.2-6+DEB12U6"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "r-base",
+      "status": "add",
+      "version": {
+        "from": "4.2.2.20221110-2"
+      },
+      "license": {
+        "to": "GPL-2.0-only"
+      }
+    },
+    {
+      "package": "r-base-core",
+      "status": "add",
+      "version": {
+        "from": "4.2.2.20221110-2"
+      },
+      "license": {
+        "to": "GPL-2.0-only"
+      }
+    },
+    {
+      "package": "zip",
+      "status": "add",
+      "version": {
+        "from": "3.0-13"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "unzip",
+      "status": "add",
+      "version": {
+        "from": "6.0-28"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "xdg-utils",
+      "status": "add",
+      "version": {
+        "from": "1.1.3-4.1"
+      },
+      "license": {
+        "to": "MIT"
+      }
+    },
+    {
+      "package": "r-recommended",
+      "status": "add",
+      "version": {
+        "from": "4.2.2.20221110-2"
+      },
+      "license": {
+        "to": "GPL-2.0-only"
+      }
+    },
+    {
+      "package": "r-cran-boot",
+      "status": "add",
+      "version": {
+        "from": "1.3-28.1-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "r-cran-cluster",
+      "status": "add",
+      "version": {
+        "from": "2.1.4-1"
+      },
+      "license": {
+        "to": "GPL-2.0-or-later"
+      }
+    },
+    {
+      "package": "r-cran-foreign",
+      "status": "add",
+      "version": {
+        "from": "0.8.84-1"
+      },
+      "license": {
+        "to": "GPL-2.0-only"
+      }
+    },
+    {
+      "package": "r-cran-kernsmooth",
+      "status": "add",
+      "version": {
+        "from": "2.23-20-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "r-cran-mass",
+      "status": "add",
+      "version": {
+        "from": "7.3-58.2-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "r-cran-lattice",
+      "status": "add",
+      "version": {
+        "from": "0.20-45-3"
+      },
+      "license": {
+        "to": "GPL-2.0-only"
+      }
+    },
+    {
+      "package": "r-cran-mgcv",
+      "status": "add",
+      "version": {
+        "from": "1.8-41-1"
+      },
+      "license": {
+        "to": "GPL-2.0-only"
+      }
+    },
+    {
+      "package": "r-cran-nlme",
+      "status": "add",
+      "version": {
+        "from": "3.1.162-1"
+      },
+      "license": {
+        "to": "GPL-2.0-only"
+      }
+    },
+    {
+      "package": "r-cran-matrix",
+      "status": "add",
+      "version": {
+        "from": "1.5-3-1"
+      },
+      "license": {
+        "to": "GPL-2.0-or-later"
+      }
+    },
+    {
+      "package": "r-cran-rpart",
+      "status": "add",
+      "version": {
+        "from": "4.1.19-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "r-cran-survival",
+      "status": "add",
+      "version": {
+        "from": "3.5-3-1"
+      },
+      "license": {
+        "to": "GPL-2.0-only"
+      }
+    },
+    {
+      "package": "r-cran-class",
+      "status": "add",
+      "version": {
+        "from": "7.3-21-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "r-cran-nnet",
+      "status": "add",
+      "version": {
+        "from": "7.3-18-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "r-cran-spatial",
+      "status": "add",
+      "version": {
+        "from": "7.3-16-1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "r-cran-codetools",
+      "status": "add",
+      "version": {
+        "from": "0.2-19-1"
+      },
+      "license": {
+        "to": "GPL-2.0-only"
+      }
+    },
+    {
+      "package": "samtools",
+      "status": "add",
+      "version": {
+        "from": "1.16.1-1"
+      },
+      "license": {
+        "to": "MIT"
+      }
+    },
+    {
+      "package": "sed",
+      "status": "add",
+      "version": {
+        "from": "4.9-1"
+      },
+      "license": {
+        "to": "GPL-3.0-or-later"
+      }
+    },
+    {
+      "package": "sysvinit-utils",
+      "status": "add",
+      "version": {
+        "from": "3.06-4"
+      },
+      "license": {
+        "to": "GPL-2.0-or-later"
+      }
+    },
+    {
+      "package": "tabix",
+      "status": "add",
+      "version": {
+        "from": "1.16+DS-3"
+      },
+      "license": {
+        "to": "MIT"
+      }
+    },
+    {
+      "package": "time",
+      "status": "add",
+      "version": {
+        "from": "1.9-0.2"
+      },
+      "license": {
+        "to": "GPL-3.0-or-later"
+      }
+    },
+    {
+      "package": "usr-is-merged",
+      "status": "add",
+      "version": {
+        "from": "37~DEB12U1"
+      },
+      "license": {
+        "to": "GPL-2.0-or-later"
+      }
+    },
+    {
+      "package": "util-linux",
+      "status": "add",
+      "version": {
+        "from": "2.38.1-5+DEB12U3"
+      },
+      "license": {
+        "to": "GPL-2.0-or-later"
+      }
+    },
+    {
+      "package": "util-linux-extra",
+      "status": "add",
+      "version": {
+        "from": "2.38.1-5+DEB12U3"
+      },
+      "license": {
+        "to": "GPL-2.0-or-later"
+      }
+    },
+    {
+      "package": "wget",
+      "status": "add",
+      "version": {
+        "from": "1.21.3-1+DEB12U1"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    }
+  ],
+  "summary": {
+    "version_changes": 0,
+    "new_packages": 363,
+    "removed_packages": 7,
+    "license_changes": 0
+  }
+}

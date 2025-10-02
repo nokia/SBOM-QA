@@ -1,0 +1,7 @@
++---+------------+---------+--------------+---------------------------+
+| # | Error type | SPDX ID | Package name | Reason                    |
++---+------------+---------+--------------+---------------------------+
+| 1 | File error | General | General      | File does not exist (Down |
+|   |            |         |              | loads/container/tern)     |
++---+------------+---------+--------------+---------------------------+
+The SPDX file Downloads/container/tern is not compliant with the OpenChain Telco SBOM Guide version 1.1

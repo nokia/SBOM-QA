@@ -1,0 +1,85 @@
+{
+  "tool": {
+    "name": "sbomdiff",
+    "version": "0.5.6"
+  },
+  "file_1": "SBOM-QA/ContainerImage/pangenome_pggb_4e1835.json",
+  "file_2": "Downloads/container/Syft-source.json",
+  "differences": [
+    {
+      "package": "actions/checkout",
+      "status": "change",
+      "version": {
+        "from": "2",
+        "to": "MASTER"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "sphinx-rtd-theme",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "breathe",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "m2r2",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "asciidoc",
+      "status": "remove",
+      "version": {
+        "from": "UNKNOWN"
+      }
+    },
+    {
+      "package": "elgohr/Publish-Docker-Github-Action",
+      "status": "change",
+      "version": {
+        "from": "4.*.*",
+        "to": "V4"
+      },
+      "license": {
+        "from": "NOT FOUND",
+        "to": "NOASSERTION"
+      }
+    },
+    {
+      "package": "com.github.pangenome/pggb",
+      "status": "remove",
+      "version": {
+        "from": "MASTER"
+      }
+    },
+    {
+      "package": ".",
+      "status": "add",
+      "version": {
+        "from": "UNKNOWN"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    }
+  ],
+  "summary": {
+    "version_changes": 2,
+    "new_packages": 1,
+    "removed_packages": 5,
+    "license_changes": 2
+  }
+}

@@ -1,0 +1,1899 @@
+Validating syft.json
++-----+--------------+--------------+---------------------------+---------------------------+
+| #   | Error type   | SPDX ID      | Package name              | Reason                    |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 1   | NTIA         | SPDXRef-     | KernSmooth                | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-Kern |                           |                           |
+|     |              | Smooth-      |                           |                           |
+|     |              | 26f973ead613 |                           |                           |
+|     |              | 1382         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 2   | NTIA         | SPDXRef-     | MASS                      | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-MASS |                           |                           |
+|     |              | -a81c72f74ae |                           |                           |
+|     |              | 950bd        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 3   | NTIA         | SPDXRef-     | US_export_policy          | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-US-  |                           |                           |
+|     |              | export-polic |                           |                           |
+|     |              | y-           |                           |                           |
+|     |              | 310178a66b1d |                           |                           |
+|     |              | 9073         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 4   | NTIA         | SPDXRef-     | US_export_policy          | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-US-  |                           |                           |
+|     |              | export-polic |                           |                           |
+|     |              | y-           |                           |                           |
+|     |              | 276b0f8f76c2 |                           |                           |
+|     |              | 8dca         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 5   | NTIA         | SPDXRef-     | US_export_policy          | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-US-  |                           |                           |
+|     |              | export-polic |                           |                           |
+|     |              | y-           |                           |                           |
+|     |              | 615709cab4c2 |                           |                           |
+|     |              | f1a4         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 6   | NTIA         | SPDXRef-     | US_export_policy          | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-US-  |                           |                           |
+|     |              | export-polic |                           |                           |
+|     |              | y-           |                           |                           |
+|     |              | d914565d47b6 |                           |                           |
+|     |              | 2a80         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 7   | NTIA         | SPDXRef-     | adduser                   | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | adduser-     |                           |                           |
+|     |              | c02171bf9306 |                           |                           |
+|     |              | 43dd         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 8   | NTIA         | SPDXRef-     | annotated-types           | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | python-      |                           |                           |
+|     |              | annotated-ty |                           |                           |
+|     |              | pes-         |                           |                           |
+|     |              | 23f1e9dc4a9b |                           |                           |
+|     |              | 9095         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 9   | NTIA         | SPDXRef-     | apt                       | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | apt-cd0a6d87 |                           |                           |
+|     |              | e2b9c130     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 10  | NTIA         | SPDXRef-     | autoconf                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | autoconf-    |                           |                           |
+|     |              | 73871dde77a6 |                           |                           |
+|     |              | 4d26         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 11  | NTIA         | SPDXRef-     | base                      | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-base |                           |                           |
+|     |              | -3d134443413 |                           |                           |
+|     |              | 3ea33        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 12  | NTIA         | SPDXRef-     | boot                      | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-boot |                           |                           |
+|     |              | -45470330b78 |                           |                           |
+|     |              | d6377        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 13  | NTIA         | SPDXRef-     | bsdutils                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | bsdutils-    |                           |                           |
+|     |              | f131145b816a |                           |                           |
+|     |              | 43ee         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 14  | NTIA         | SPDXRef-     | charsets                  | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-char |                           |                           |
+|     |              | sets-        |                           |                           |
+|     |              | 168c771f7756 |                           |                           |
+|     |              | d9d1         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 15  | NTIA         | SPDXRef-     | charsets                  | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-char |                           |                           |
+|     |              | sets-        |                           |                           |
+|     |              | 7a9353329e28 |                           |                           |
+|     |              | d74a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 16  | NTIA         | SPDXRef-     | choreographer             | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | python-chore |                           |                           |
+|     |              | ographer-    |                           |                           |
+|     |              | 12df3279d855 |                           |                           |
+|     |              | d210         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 17  | NTIA         | SPDXRef-     | class                     | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-     |                           |                           |
+|     |              | class-fafed7 |                           |                           |
+|     |              | 2af9b771f2   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 18  | NTIA         | SPDXRef-     | cldrdata                  | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-cldr |                           |                           |
+|     |              | data-        |                           |                           |
+|     |              | 50419a5813c5 |                           |                           |
+|     |              | 6833         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 19  | NTIA         | SPDXRef-     | cldrdata                  | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-cldr |                           |                           |
+|     |              | data-        |                           |                           |
+|     |              | 44c05e0c2884 |                           |                           |
+|     |              | b13a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 20  | NTIA         | SPDXRef-     | cli                       | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | binary-cli-  |                           |                           |
+|     |              | 957f00d74bab |                           |                           |
+|     |              | da43         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 21  | NTIA         | SPDXRef-     | cli-32                    | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | binary-cli-  |                           |                           |
+|     |              | 32-          |                           |                           |
+|     |              | 34d8ba803db8 |                           |                           |
+|     |              | d0b8         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 22  | NTIA         | SPDXRef-     | cli-64                    | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | binary-cli-  |                           |                           |
+|     |              | 64-          |                           |                           |
+|     |              | f817e138cc08 |                           |                           |
+|     |              | 5472         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 23  | NTIA         | SPDXRef-     | cli-arm64                 | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | binary-cli-a |                           |                           |
+|     |              | rm64-        |                           |                           |
+|     |              | 335360a835fe |                           |                           |
+|     |              | 1a72         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 24  | NTIA         | SPDXRef-     | click                     | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | python-click |                           |                           |
+|     |              | -56c66e1f05f |                           |                           |
+|     |              | 7ecde        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 25  | NTIA         | SPDXRef-     | cluster                   | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-clus |                           |                           |
+|     |              | ter-         |                           |                           |
+|     |              | 696e1a5bb6c1 |                           |                           |
+|     |              | 0f67         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 26  | NTIA         | SPDXRef-     | cmake                     | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | cmake-       |                           |                           |
+|     |              | 7e2989a25f80 |                           |                           |
+|     |              | de5f         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 27  | NTIA         | SPDXRef-     | cmake-data                | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | cmake-data-  |                           |                           |
+|     |              | c6463ffa305a |                           |                           |
+|     |              | dca2         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 28  | NTIA         | SPDXRef-     | compiler                  | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-comp |                           |                           |
+|     |              | iler-        |                           |                           |
+|     |              | 2165066fa6ea |                           |                           |
+|     |              | dae3         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 29  | NTIA         | SPDXRef-     | cpp                       | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | cpp-         |                           |                           |
+|     |              | 90ff192e9665 |                           |                           |
+|     |              | aff6         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 30  | NTIA         | SPDXRef-     | cpp-11                    | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | cpp-11-      |                           |                           |
+|     |              | 231e7728fce0 |                           |                           |
+|     |              | 867b         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 31  | NTIA         | SPDXRef-     | cpp-12                    | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | cpp-12-      |                           |                           |
+|     |              | 411b8392b99d |                           |                           |
+|     |              | 579e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 32  | NTIA         | SPDXRef-     | crs-agent                 | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-crs- |                           |                           |
+|     |              | agent-       |                           |                           |
+|     |              | 00a429dfddfe |                           |                           |
+|     |              | b800         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 33  | NTIA         | SPDXRef-     | crs-agent                 | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-crs- |                           |                           |
+|     |              | agent-       |                           |                           |
+|     |              | 9d5d904ef04c |                           |                           |
+|     |              | d35d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 34  | NTIA         | SPDXRef-     | crs-client                | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-crs- |                           |                           |
+|     |              | client-      |                           |                           |
+|     |              | 8d8a66dd71b6 |                           |                           |
+|     |              | 4f71         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 35  | NTIA         | SPDXRef-     | crs-client                | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-crs- |                           |                           |
+|     |              | client-      |                           |                           |
+|     |              | f432cb42a7a5 |                           |                           |
+|     |              | 276b         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 36  | NTIA         | SPDXRef-     | crs-log                   | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-crs- |                           |                           |
+|     |              | log-         |                           |                           |
+|     |              | 54d38e0891ed |                           |                           |
+|     |              | 6d70         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 37  | NTIA         | SPDXRef-     | crs-log                   | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-crs- |                           |                           |
+|     |              | log-         |                           |                           |
+|     |              | 887c1614fdd7 |                           |                           |
+|     |              | e1e9         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 38  | NTIA         | SPDXRef-     | crs-shared                | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-crs- |                           |                           |
+|     |              | shared-      |                           |                           |
+|     |              | 072a365e0485 |                           |                           |
+|     |              | 01c0         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 39  | NTIA         | SPDXRef-     | crs-shared                | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-crs- |                           |                           |
+|     |              | shared-      |                           |                           |
+|     |              | 93ed6043993f |                           |                           |
+|     |              | 7ab3         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 40  | NTIA         | SPDXRef-     | crs-z-agent               | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-crs- |                           |                           |
+|     |              | z-agent-     |                           |                           |
+|     |              | 8f4652002171 |                           |                           |
+|     |              | 0ea0         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 41  | NTIA         | SPDXRef-     | crs-z-agent               | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-crs- |                           |                           |
+|     |              | z-agent-     |                           |                           |
+|     |              | f31355897706 |                           |                           |
+|     |              | d680         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 42  | NTIA         | SPDXRef-     | datasets                  | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-data |                           |                           |
+|     |              | sets-        |                           |                           |
+|     |              | 726ffa4534a0 |                           |                           |
+|     |              | ebae         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 43  | NTIA         | SPDXRef-     | debconf                   | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | debconf-     |                           |                           |
+|     |              | 242708e27fd2 |                           |                           |
+|     |              | 4140         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 44  | NTIA         | SPDXRef-     | debian-archive-keyring    | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | debian-      |                           |                           |
+|     |              | archive-keyr |                           |                           |
+|     |              | ing-         |                           |                           |
+|     |              | 7fa8d8929a81 |                           |                           |
+|     |              | f2c3         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 45  | NTIA         | SPDXRef-     | dnsns                     | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-dnsn |                           |                           |
+|     |              | s-           |                           |                           |
+|     |              | 8ef497115e00 |                           |                           |
+|     |              | efa0         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 46  | NTIA         | SPDXRef-     | dnsns                     | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-dnsn |                           |                           |
+|     |              | s-           |                           |                           |
+|     |              | 3ca10695afc8 |                           |                           |
+|     |              | 9d88         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 47  | NTIA         | SPDXRef-     | dpkg                      | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | dpkg-        |                           |                           |
+|     |              | 2818345ae43e |                           |                           |
+|     |              | d06c         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 48  | NTIA         | SPDXRef-     | dpkg-dev                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | dpkg-dev-    |                           |                           |
+|     |              | 6ae56e006028 |                           |                           |
+|     |              | 2575         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 49  | NTIA         | SPDXRef-     | fontconfig                | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | fontconfig-  |                           |                           |
+|     |              | f4ec06dc0286 |                           |                           |
+|     |              | c7aa         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 50  | NTIA         | SPDXRef-     | fontconfig-config         | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | fontconfig-c |                           |                           |
+|     |              | onfig-       |                           |                           |
+|     |              | 516587f85a7d |                           |                           |
+|     |              | b582         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 51  | NTIA         | SPDXRef-     | fonts-dejavu-core         | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | fonts-       |                           |                           |
+|     |              | dejavu-core- |                           |                           |
+|     |              | 9132035ca02d |                           |                           |
+|     |              | 7c9f         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 52  | NTIA         | SPDXRef-     | foreign                   | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-fore |                           |                           |
+|     |              | ign-         |                           |                           |
+|     |              | 14ef2333d249 |                           |                           |
+|     |              | 319e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 53  | NTIA         | SPDXRef-     | g++                       | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | deb-g---72b5 |                           |                           |
+|     |              | b66e55f88b3b |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 54  | NTIA         | SPDXRef-     | g++-11                    | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | deb-g---11-  |                           |                           |
+|     |              | cbb57f5090a7 |                           |                           |
+|     |              | c7e5         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 55  | NTIA         | SPDXRef-     | g++-12                    | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | deb-g---12-  |                           |                           |
+|     |              | d4746f84a0e9 |                           |                           |
+|     |              | d007         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 56  | NTIA         | SPDXRef-     | gcc                       | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | gcc-         |                           |                           |
+|     |              | 3e4578308403 |                           |                           |
+|     |              | 1c65         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 57  | NTIA         | SPDXRef-     | gcc-11                    | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | gcc-11-      |                           |                           |
+|     |              | 7c53684ff314 |                           |                           |
+|     |              | ec7c         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 58  | NTIA         | SPDXRef-     | gcc-11-base               | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | gcc-11-base- |                           |                           |
+|     |              | 27eb44611ca4 |                           |                           |
+|     |              | 39c2         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 59  | NTIA         | SPDXRef-     | gcc-12                    | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | gcc-12-      |                           |                           |
+|     |              | b84cfde350fe |                           |                           |
+|     |              | 897d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 60  | NTIA         | SPDXRef-     | gcc-12-base               | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | gcc-12-base- |                           |                           |
+|     |              | 5dd3e15c0db9 |                           |                           |
+|     |              | 4758         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 61  | NTIA         | SPDXRef-     | gpgv                      | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | gpgv-bbd0ff0 |                           |                           |
+|     |              | 5d4cd008c    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 62  | NTIA         | SPDXRef-     | grDevices                 | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-     |                           |                           |
+|     |              | grDevices-aa |                           |                           |
+|     |              | 81201c462013 |                           |                           |
+|     |              | b1           |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 63  | NTIA         | SPDXRef-     | graphics                  | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-grap |                           |                           |
+|     |              | hics-        |                           |                           |
+|     |              | 6ffea9db582f |                           |                           |
+|     |              | d8fd         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 64  | NTIA         | SPDXRef-     | grid                      | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-grid |                           |                           |
+|     |              | -2636bd5136d |                           |                           |
+|     |              | cf09e        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 65  | NTIA         | SPDXRef-     | gui                       | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | binary-gui-  |                           |                           |
+|     |              | d4f227c7cffd |                           |                           |
+|     |              | e22f         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 66  | NTIA         | SPDXRef-     | gui-32                    | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | binary-gui-  |                           |                           |
+|     |              | 32-          |                           |                           |
+|     |              | ce118ef558e4 |                           |                           |
+|     |              | c060         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 67  | NTIA         | SPDXRef-     | gui-64                    | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | binary-gui-  |                           |                           |
+|     |              | 64-          |                           |                           |
+|     |              | 704dc1f1fdef |                           |                           |
+|     |              | 99e2         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 68  | NTIA         | SPDXRef-     | gui-arm64                 | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | binary-gui-a |                           |                           |
+|     |              | rm64-        |                           |                           |
+|     |              | 4d49f9db9a05 |                           |                           |
+|     |              | dab4         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 69  | NTIA         | SPDXRef-     | gzipfix                   | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-     |                           |                           |
+|     |              | gzipfix-ba90 |                           |                           |
+|     |              | dcd0ab12de3d |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 70  | NTIA         | SPDXRef-     | gzipfix                   | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-gzip |                           |                           |
+|     |              | fix-         |                           |                           |
+|     |              | 1805d800c2b2 |                           |                           |
+|     |              | d3a2         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 71  | NTIA         | SPDXRef-     | init-system-helpers       | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | init-system- |                           |                           |
+|     |              | helpers-     |                           |                           |
+|     |              | 56428858868e |                           |                           |
+|     |              | 818a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 72  | NTIA         | SPDXRef-     | jaccess                   | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-jacc |                           |                           |
+|     |              | ess-         |                           |                           |
+|     |              | 41558c4622b5 |                           |                           |
+|     |              | 6563         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 73  | NTIA         | SPDXRef-     | jaccess                   | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-jacc |                           |                           |
+|     |              | ess-         |                           |                           |
+|     |              | e390abb1141c |                           |                           |
+|     |              | 4b6f         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 74  | NTIA         | SPDXRef-     | jackson-annotations       | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-     |                           |                           |
+|     |              | jackson-anno |                           |                           |
+|     |              | tations-     |                           |                           |
+|     |              | 6a38a70206ac |                           |                           |
+|     |              | 3bec         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 75  | NTIA         | SPDXRef-     | jackson-annotations       | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-     |                           |                           |
+|     |              | jackson-anno |                           |                           |
+|     |              | tations-     |                           |                           |
+|     |              | 956eeb3552a2 |                           |                           |
+|     |              | 4b66         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 76  | NTIA         | SPDXRef-     | jackson-core              | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-     |                           |                           |
+|     |              | jackson-     |                           |                           |
+|     |              | core-bc7ba3a |                           |                           |
+|     |              | c4ba26d44    |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 77  | NTIA         | SPDXRef-     | jackson-core              | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-     |                           |                           |
+|     |              | jackson-core |                           |                           |
+|     |              | -746db9017bb |                           |                           |
+|     |              | f42d4        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 78  | NTIA         | SPDXRef-     | jackson-databind          | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-     |                           |                           |
+|     |              | jackson-data |                           |                           |
+|     |              | bind-        |                           |                           |
+|     |              | 22c227c0d78e |                           |                           |
+|     |              | 7b3f         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 79  | NTIA         | SPDXRef-     | jackson-databind          | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-     |                           |                           |
+|     |              | jackson-data |                           |                           |
+|     |              | bind-        |                           |                           |
+|     |              | 40f0a9759079 |                           |                           |
+|     |              | 12ce         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 80  | NTIA         | SPDXRef-     | jinja2                    | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | python-jinja |                           |                           |
+|     |              | 2-           |                           |                           |
+|     |              | 31a0a7830c8f |                           |                           |
+|     |              | 7bfa         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 81  | NTIA         | SPDXRef-     | kaleido                   | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | python-kalei |                           |                           |
+|     |              | do-          |                           |                           |
+|     |              | 3637edf76246 |                           |                           |
+|     |              | 7817         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 82  | NTIA         | SPDXRef-     | lattice                   | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-     |                           |                           |
+|     |              | lattice-fd94 |                           |                           |
+|     |              | df3b0444d0d7 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 83  | NTIA         | SPDXRef-     | legacy8ujsse              | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-lega |                           |                           |
+|     |              | cy8ujsse-    |                           |                           |
+|     |              | 86fc2599980a |                           |                           |
+|     |              | 8631         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 84  | NTIA         | SPDXRef-     | legacy8ujsse              | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-lega |                           |                           |
+|     |              | cy8ujsse-cd0 |                           |                           |
+|     |              | 7ef9e20147fe |                           |                           |
+|     |              | 3            |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 85  | NTIA         | SPDXRef-     | libapt-pkg6.0             | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libapt-pkg6. |                           |                           |
+|     |              | 0-           |                           |                           |
+|     |              | 91b1396a4c2e |                           |                           |
+|     |              | 715d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 86  | NTIA         | SPDXRef-     | libasan6                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libasan6-    |                           |                           |
+|     |              | e3ca18c3b848 |                           |                           |
+|     |              | 49f6         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 87  | NTIA         | SPDXRef-     | libasan8                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libasan8-    |                           |                           |
+|     |              | 588f1d72fd42 |                           |                           |
+|     |              | e121         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 88  | NTIA         | SPDXRef-     | libatomic1                | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libatomic1-  |                           |                           |
+|     |              | 8ae9365ce7a2 |                           |                           |
+|     |              | 6f63         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 89  | NTIA         | SPDXRef-     | libblas3                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libblas3-    |                           |                           |
+|     |              | 9c8779823185 |                           |                           |
+|     |              | d80e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 90  | NTIA         | SPDXRef-     | libblkid-dev              | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libblkid-dev |                           |                           |
+|     |              | -505a5613c52 |                           |                           |
+|     |              | a45e2        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 91  | NTIA         | SPDXRef-     | libblkid1                 | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libblkid1-   |                           |                           |
+|     |              | af35543f081d |                           |                           |
+|     |              | 70bf         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 92  | NTIA         | SPDXRef-     | libc-bin                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libc-bin-    |                           |                           |
+|     |              | 4d3e3a82fb09 |                           |                           |
+|     |              | cf46         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 93  | NTIA         | SPDXRef-     | libc-dev-bin              | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libc-dev-    |                           |                           |
+|     |              | bin-ddff6b3c |                           |                           |
+|     |              | 867959d2     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 94  | NTIA         | SPDXRef-     | libc6                     | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libc6-       |                           |                           |
+|     |              | 81caa9f53a8a |                           |                           |
+|     |              | fb75         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 95  | NTIA         | SPDXRef-     | libc6-dev                 | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libc6-dev-   |                           |                           |
+|     |              | b3e3ae07f297 |                           |                           |
+|     |              | 012c         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 96  | NTIA         | SPDXRef-     | libcairo-gobject2         | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libcairo-gob |                           |                           |
+|     |              | ject2-       |                           |                           |
+|     |              | 685b0e6c2f6f |                           |                           |
+|     |              | 1f65         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 97  | NTIA         | SPDXRef-     | libcairo-script-          | Package without a package |
+|     | validation   | Package-deb- | interpreter2              | supplier                  |
+|     | error        | libcairo-    |                           |                           |
+|     |              | script-inter |                           |                           |
+|     |              | preter2-     |                           |                           |
+|     |              | a8a24057d641 |                           |                           |
+|     |              | 3acd         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 98  | NTIA         | SPDXRef-     | libcairo2                 | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libcairo2-   |                           |                           |
+|     |              | d3dd980abb8c |                           |                           |
+|     |              | 1a1a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 99  | NTIA         | SPDXRef-     | libcairo2-dev             | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libcairo2-   |                           |                           |
+|     |              | dev-         |                           |                           |
+|     |              | e0f284a7333d |                           |                           |
+|     |              | 2f2c         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 100 | NTIA         | SPDXRef-     | libcc1-0                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libcc1-0-    |                           |                           |
+|     |              | e030001af4af |                           |                           |
+|     |              | 8a54         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 101 | NTIA         | SPDXRef-     | libclang-14-dev           | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libclang-14- |                           |                           |
+|     |              | dev-         |                           |                           |
+|     |              | 0d7a5dd702d4 |                           |                           |
+|     |              | 7af7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 102 | NTIA         | SPDXRef-     | libclang-common-14-dev    | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libclang-com |                           |                           |
+|     |              | mon-14-dev-  |                           |                           |
+|     |              | 5098da0d199b |                           |                           |
+|     |              | 67dd         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 103 | NTIA         | SPDXRef-     | libclang-dev              | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libclang-dev |                           |                           |
+|     |              | -f6b17277940 |                           |                           |
+|     |              | fa1f0        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 104 | NTIA         | SPDXRef-     | libclang1-14              | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libclang1-   |                           |                           |
+|     |              | 14-          |                           |                           |
+|     |              | c9eb4e2fd4c0 |                           |                           |
+|     |              | 0abb         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 105 | NTIA         | SPDXRef-     | libdebconfclient0         | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libdebconfcl |                           |                           |
+|     |              | ient0-       |                           |                           |
+|     |              | 2690aae2bbaa |                           |                           |
+|     |              | 51bf         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 106 | NTIA         | SPDXRef-     | libdeflate-dev            | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libdeflate-d |                           |                           |
+|     |              | ev-          |                           |                           |
+|     |              | 952fef15b32f |                           |                           |
+|     |              | e41f         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 107 | NTIA         | SPDXRef-     | libdeflate0               | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libdeflate0- |                           |                           |
+|     |              | 05eb2b8cad64 |                           |                           |
+|     |              | f512         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 108 | NTIA         | SPDXRef-     | libdpkg-perl              | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libdpkg-perl |                           |                           |
+|     |              | -c9397519589 |                           |                           |
+|     |              | 4fded        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 109 | NTIA         | SPDXRef-     | libedit2                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libedit2-    |                           |                           |
+|     |              | 8f19d012fa95 |                           |                           |
+|     |              | 0b7b         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 110 | NTIA         | SPDXRef-     | libelf1                   | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libelf1-     |                           |                           |
+|     |              | 00b653c92ba9 |                           |                           |
+|     |              | a809         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 111 | NTIA         | SPDXRef-     | liberror-perl             | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | liberror-per |                           |                           |
+|     |              | l-           |                           |                           |
+|     |              | 8e47a7bda9a3 |                           |                           |
+|     |              | eeed         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 112 | NTIA         | SPDXRef-     | libexpat1                 | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libexpat1-   |                           |                           |
+|     |              | 63f1778773c6 |                           |                           |
+|     |              | 4893         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 113 | NTIA         | SPDXRef-     | libexpat1-dev             | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libexpat1-   |                           |                           |
+|     |              | dev-eac3826f |                           |                           |
+|     |              | c9e9d6a7     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 114 | NTIA         | SPDXRef-     | libffi-dev                | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libffi-dev-  |                           |                           |
+|     |              | 79397678e841 |                           |                           |
+|     |              | 3243         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 115 | NTIA         | SPDXRef-     | libffi8                   | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libffi8-     |                           |                           |
+|     |              | 3d64cbaa7608 |                           |                           |
+|     |              | 4dc4         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 116 | NTIA         | SPDXRef-     | libfontconfig-dev         | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libfontconfi |                           |                           |
+|     |              | g-dev-       |                           |                           |
+|     |              | 17466cd03a01 |                           |                           |
+|     |              | 1994         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 117 | NTIA         | SPDXRef-     | libfontconfig1            | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libfontconfi |                           |                           |
+|     |              | g1-          |                           |                           |
+|     |              | d9a5f51f8766 |                           |                           |
+|     |              | 4282         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 118 | NTIA         | SPDXRef-     | libfribidi0               | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libfribidi0- |                           |                           |
+|     |              | 00585fa48d8c |                           |                           |
+|     |              | 40b3         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 119 | NTIA         | SPDXRef-     | libgcc-11-dev             | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libgcc-11-   |                           |                           |
+|     |              | dev-         |                           |                           |
+|     |              | d62f6e2bab9f |                           |                           |
+|     |              | 1407         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 120 | NTIA         | SPDXRef-     | libgcc-12-dev             | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libgcc-12-   |                           |                           |
+|     |              | dev-         |                           |                           |
+|     |              | 46c715b2383b |                           |                           |
+|     |              | 94a6         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 121 | NTIA         | SPDXRef-     | libgcc-s1                 | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libgcc-s1-   |                           |                           |
+|     |              | f34a6c9eeba9 |                           |                           |
+|     |              | 2c05         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 122 | NTIA         | SPDXRef-     | libgcrypt20               | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libgcrypt20- |                           |                           |
+|     |              | d386f651d922 |                           |                           |
+|     |              | 0c9e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 123 | NTIA         | SPDXRef-     | libgfortran5              | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libgfortran5 |                           |                           |
+|     |              | -30c2468805c |                           |                           |
+|     |              | 21d96        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 124 | NTIA         | SPDXRef-     | libglib2.0-0              | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libglib2.0-  |                           |                           |
+|     |              | 0-           |                           |                           |
+|     |              | 4205e90bb5fe |                           |                           |
+|     |              | 20fb         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 125 | NTIA         | SPDXRef-     | libglib2.0-bin            | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libglib2.0-  |                           |                           |
+|     |              | bin-         |                           |                           |
+|     |              | c5bddc07b2e9 |                           |                           |
+|     |              | 21fa         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 126 | NTIA         | SPDXRef-     | libglib2.0-data           | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libglib2.0-  |                           |                           |
+|     |              | data-        |                           |                           |
+|     |              | c6fab3560c6c |                           |                           |
+|     |              | 4ee2         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 127 | NTIA         | SPDXRef-     | libglib2.0-dev            | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libglib2.0-  |                           |                           |
+|     |              | dev-edb98c1f |                           |                           |
+|     |              | 944ee222     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 128 | NTIA         | SPDXRef-     | libglib2.0-dev-bin        | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libglib2.0-  |                           |                           |
+|     |              | dev-bin-     |                           |                           |
+|     |              | 978cc3a9cb10 |                           |                           |
+|     |              | f4d9         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 129 | NTIA         | SPDXRef-     | libgmp10                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libgmp10-    |                           |                           |
+|     |              | 4a42a38761bb |                           |                           |
+|     |              | 84e0         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 130 | NTIA         | SPDXRef-     | libgnutls30               | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libgnutls30- |                           |                           |
+|     |              | 423f04e3abe0 |                           |                           |
+|     |              | a6ea         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 131 | NTIA         | SPDXRef-     | libgomp1                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libgomp1-    |                           |                           |
+|     |              | 04ffb91a5947 |                           |                           |
+|     |              | 18a3         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 132 | NTIA         | SPDXRef-     | libgpg-error0             | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libgpg-error |                           |                           |
+|     |              | 0-           |                           |                           |
+|     |              | bbf12da68012 |                           |                           |
+|     |              | 44e7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 133 | NTIA         | SPDXRef-     | libgraphite2-3            | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libgraphite2 |                           |                           |
+|     |              | -3-          |                           |                           |
+|     |              | 42588a62ac89 |                           |                           |
+|     |              | ecec         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 134 | NTIA         | SPDXRef-     | libharfbuzz0b             | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libharfbuzz0 |                           |                           |
+|     |              | b-           |                           |                           |
+|     |              | e593bea3ea25 |                           |                           |
+|     |              | c1a5         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 135 | NTIA         | SPDXRef-     | libhts-dev                | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libhts-dev-  |                           |                           |
+|     |              | 7c9595ff144e |                           |                           |
+|     |              | 7480         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 136 | NTIA         | SPDXRef-     | libhts3                   | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libhts3-     |                           |                           |
+|     |              | 7af65de3cb37 |                           |                           |
+|     |              | 8f0d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 137 | NTIA         | SPDXRef-     | libhtscodecs2             | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libhtscodecs |                           |                           |
+|     |              | 2-           |                           |                           |
+|     |              | 61d13bc162ec |                           |                           |
+|     |              | 6c75         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 138 | NTIA         | SPDXRef-     | libice-dev                | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libice-dev-  |                           |                           |
+|     |              | d61fc7b50036 |                           |                           |
+|     |              | 7cca         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 139 | NTIA         | SPDXRef-     | libice6                   | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libice6-     |                           |                           |
+|     |              | 68e565012bd2 |                           |                           |
+|     |              | 2c89         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 140 | NTIA         | SPDXRef-     | libicu72                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libicu72-    |                           |                           |
+|     |              | 8094c1d23a69 |                           |                           |
+|     |              | 5aeb         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 141 | NTIA         | SPDXRef-     | libisl23                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libisl23-    |                           |                           |
+|     |              | 25e6f397cb09 |                           |                           |
+|     |              | 5228         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 142 | NTIA         | SPDXRef-     | libitm1                   | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libitm1-     |                           |                           |
+|     |              | 9579721d3073 |                           |                           |
+|     |              | dea4         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 143 | NTIA         | SPDXRef-     | libjs-jquery              | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libjs-jquery |                           |                           |
+|     |              | -25fe080128c |                           |                           |
+|     |              | 9aa14        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 144 | NTIA         | SPDXRef-     | libjs-sphinxdoc           | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libjs-sphinx |                           |                           |
+|     |              | doc-         |                           |                           |
+|     |              | 01dc09e439a7 |                           |                           |
+|     |              | 5f33         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 145 | NTIA         | SPDXRef-     | libjs-underscore          | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libjs-unders |                           |                           |
+|     |              | core-        |                           |                           |
+|     |              | 16597d15e0c4 |                           |                           |
+|     |              | 6e47         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 146 | NTIA         | SPDXRef-     | liblapack3                | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | liblapack3-  |                           |                           |
+|     |              | 5498a910e75d |                           |                           |
+|     |              | ce0f         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 147 | NTIA         | SPDXRef-     | libldap-2.5-0             | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libldap-2.5- |                           |                           |
+|     |              | 0-           |                           |                           |
+|     |              | 692b9197d4b2 |                           |                           |
+|     |              | 1a92         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 148 | NTIA         | SPDXRef-     | liblerc4                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | liblerc4-    |                           |                           |
+|     |              | 63f594cc52fa |                           |                           |
+|     |              | 7de8         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 149 | NTIA         | SPDXRef-     | libllvm14                 | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libllvm14-   |                           |                           |
+|     |              | 9db7eb752866 |                           |                           |
+|     |              | d5fe         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 150 | NTIA         | SPDXRef-     | liblsan0                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | liblsan0-    |                           |                           |
+|     |              | 2717998825e5 |                           |                           |
+|     |              | d420         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 151 | NTIA         | SPDXRef-     | libmount-dev              | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libmount-dev |                           |                           |
+|     |              | -01ade8e049a |                           |                           |
+|     |              | c13ed        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 152 | NTIA         | SPDXRef-     | libmount1                 | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libmount1-   |                           |                           |
+|     |              | 3578a81ebb65 |                           |                           |
+|     |              | 1f3d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 153 | NTIA         | SPDXRef-     | libmpc3                   | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libmpc3-     |                           |                           |
+|     |              | 6f6789d78cd0 |                           |                           |
+|     |              | 5664         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 154 | NTIA         | SPDXRef-     | libmpfr6                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libmpfr6-    |                           |                           |
+|     |              | cfb6b762d0b7 |                           |                           |
+|     |              | 5d4c         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 155 | NTIA         | SPDXRef-     | libnsl-dev                | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libnsl-dev-  |                           |                           |
+|     |              | 6ec8ddde6468 |                           |                           |
+|     |              | d811         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 156 | NTIA         | SPDXRef-     | libnsl2                   | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libnsl2-     |                           |                           |
+|     |              | 2c4166f70097 |                           |                           |
+|     |              | c6d7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 157 | NTIA         | SPDXRef-     | libobjc-12-dev            | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libobjc-12-  |                           |                           |
+|     |              | dev-         |                           |                           |
+|     |              | 212e5d3af6ca |                           |                           |
+|     |              | c3ce         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 158 | NTIA         | SPDXRef-     | libobjc4                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libobjc4-    |                           |                           |
+|     |              | 5eab060bc8dd |                           |                           |
+|     |              | d08d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 159 | NTIA         | SPDXRef-     | libp11-kit0               | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libp11-kit0- |                           |                           |
+|     |              | 0027543880aa |                           |                           |
+|     |              | ec84         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 160 | NTIA         | SPDXRef-     | libpango-1.0-0            | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libpango-    |                           |                           |
+|     |              | 1.0-0-       |                           |                           |
+|     |              | e4e0b393b306 |                           |                           |
+|     |              | faa8         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 161 | NTIA         | SPDXRef-     | libpangocairo-1.0-0       | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libpangocair |                           |                           |
+|     |              | o-1.0-0-     |                           |                           |
+|     |              | a46d5a098e13 |                           |                           |
+|     |              | c5ca         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 162 | NTIA         | SPDXRef-     | libpangoft2-1.0-0         | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libpangoft2- |                           |                           |
+|     |              | 1.0-0-       |                           |                           |
+|     |              | 57163324c92e |                           |                           |
+|     |              | f051         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 163 | NTIA         | SPDXRef-     | libpixman-1-0             | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libpixman-1- |                           |                           |
+|     |              | 0-           |                           |                           |
+|     |              | e44f0bb190fc |                           |                           |
+|     |              | 5866         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 164 | NTIA         | SPDXRef-     | libpixman-1-dev           | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libpixman-1- |                           |                           |
+|     |              | dev-         |                           |                           |
+|     |              | 13cea66fd97c |                           |                           |
+|     |              | ac39         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 165 | NTIA         | SPDXRef-     | libpng-dev                | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libpng-dev-  |                           |                           |
+|     |              | 11736941b11a |                           |                           |
+|     |              | 9752         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 166 | NTIA         | SPDXRef-     | libpng16-16               | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libpng16-16- |                           |                           |
+|     |              | 309858506bb9 |                           |                           |
+|     |              | f77e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 167 | NTIA         | SPDXRef-     | libpthread-stubs0-dev     | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libpthread-s |                           |                           |
+|     |              | tubs0-dev-   |                           |                           |
+|     |              | 1d4b9505dcb8 |                           |                           |
+|     |              | a072         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 168 | NTIA         | SPDXRef-     | libquadmath0              | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libquadmath0 |                           |                           |
+|     |              | -0386de411df |                           |                           |
+|     |              | 4c929        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 169 | NTIA         | SPDXRef-     | librhash0                 | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | librhash0-   |                           |                           |
+|     |              | 4ffc65e09c0c |                           |                           |
+|     |              | 57e1         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 170 | NTIA         | SPDXRef-     | librtmp1                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | librtmp1-    |                           |                           |
+|     |              | 0ec1846cde47 |                           |                           |
+|     |              | 89c6         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 171 | NTIA         | SPDXRef-     | libsasl2-2                | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libsasl2-2-  |                           |                           |
+|     |              | 25efd5aa65ab |                           |                           |
+|     |              | 55cb         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 172 | NTIA         | SPDXRef-     | libsasl2-modules-db       | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libsasl2-    |                           |                           |
+|     |              | modules-db-  |                           |                           |
+|     |              | 4f1c60756841 |                           |                           |
+|     |              | 024e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 173 | NTIA         | SPDXRef-     | libselinux1               | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libselinux1- |                           |                           |
+|     |              | b07e9d426f47 |                           |                           |
+|     |              | 7f60         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 174 | NTIA         | SPDXRef-     | libselinux1-dev           | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libselinux1- |                           |                           |
+|     |              | dev-         |                           |                           |
+|     |              | 59ad44dae9b0 |                           |                           |
+|     |              | 8d66         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 175 | NTIA         | SPDXRef-     | libsemanage-common        | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libsemanage- |                           |                           |
+|     |              | common-      |                           |                           |
+|     |              | 8118fc40b739 |                           |                           |
+|     |              | 539a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 176 | NTIA         | SPDXRef-     | libsemanage2              | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libsemanage2 |                           |                           |
+|     |              | -a960a8aaee1 |                           |                           |
+|     |              | ee769        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 177 | NTIA         | SPDXRef-     | libsepol-dev              | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libsepol-dev |                           |                           |
+|     |              | -2acb9d9a939 |                           |                           |
+|     |              | 1efef        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 178 | NTIA         | SPDXRef-     | libsepol2                 | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libsepol2-   |                           |                           |
+|     |              | ef742c3346e7 |                           |                           |
+|     |              | 4452         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 179 | NTIA         | SPDXRef-     | libsm-dev                 | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libsm-dev-   |                           |                           |
+|     |              | 3b0c1f23d26a |                           |                           |
+|     |              | 8b8e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 180 | NTIA         | SPDXRef-     | libsm6                    | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libsm6-      |                           |                           |
+|     |              | 721e8998f0db |                           |                           |
+|     |              | a292         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 181 | NTIA         | SPDXRef-     | libsmartcols1             | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libsmartcols |                           |                           |
+|     |              | 1-           |                           |                           |
+|     |              | ecee94562f1c |                           |                           |
+|     |              | e06f         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 182 | NTIA         | SPDXRef-     | libsqlite3-0              | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libsqlite3-  |                           |                           |
+|     |              | 0-           |                           |                           |
+|     |              | 07397342b2c3 |                           |                           |
+|     |              | b2c6         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 183 | NTIA         | SPDXRef-     | libssl3                   | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libssl3-     |                           |                           |
+|     |              | 770ec211845f |                           |                           |
+|     |              | 4994         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 184 | NTIA         | SPDXRef-     | libstdc++-11-dev          | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libstdc---11 |                           |                           |
+|     |              | -dev-        |                           |                           |
+|     |              | 5ce7e885c195 |                           |                           |
+|     |              | bb13         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 185 | NTIA         | SPDXRef-     | libstdc++-12-dev          | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libstdc---   |                           |                           |
+|     |              | 12-dev-eefe5 |                           |                           |
+|     |              | f807560527f  |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 186 | NTIA         | SPDXRef-     | libstdc++6                | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libstdc--6-  |                           |                           |
+|     |              | 6c755f621b3d |                           |                           |
+|     |              | 6c49         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 187 | NTIA         | SPDXRef-     | libsystemd0               | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libsystemd0- |                           |                           |
+|     |              | 28695d1769e9 |                           |                           |
+|     |              | 3864         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 188 | NTIA         | SPDXRef-     | libtasn1-6                | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libtasn1-6-  |                           |                           |
+|     |              | 43e8c6e1dbd4 |                           |                           |
+|     |              | 1a5d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 189 | NTIA         | SPDXRef-     | libtcl8.6                 | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libtcl8.6-   |                           |                           |
+|     |              | 033488132d11 |                           |                           |
+|     |              | e065         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 190 | NTIA         | SPDXRef-     | libtiff6                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libtiff6-    |                           |                           |
+|     |              | ca356850bce8 |                           |                           |
+|     |              | 3fee         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 191 | NTIA         | SPDXRef-     | libtk8.6                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libtk8.6-    |                           |                           |
+|     |              | 9d294bfdeb07 |                           |                           |
+|     |              | 19f0         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 192 | NTIA         | SPDXRef-     | libtsan0                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libtsan0-    |                           |                           |
+|     |              | 06a62e3b21c4 |                           |                           |
+|     |              | 0b5d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 193 | NTIA         | SPDXRef-     | libtsan2                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libtsan2-    |                           |                           |
+|     |              | b0763711c230 |                           |                           |
+|     |              | 26f8         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 194 | NTIA         | SPDXRef-     | libubsan1                 | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libubsan1-   |                           |                           |
+|     |              | c9bf42e78c16 |                           |                           |
+|     |              | b99e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 195 | NTIA         | SPDXRef-     | libudev1                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libudev1-    |                           |                           |
+|     |              | 57539c8e8616 |                           |                           |
+|     |              | c2b7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 196 | NTIA         | SPDXRef-     | libuuid1                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libuuid1-    |                           |                           |
+|     |              | 2049f4c13963 |                           |                           |
+|     |              | 925a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 197 | NTIA         | SPDXRef-     | libx11-6                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libx11-6-    |                           |                           |
+|     |              | 34a64022d390 |                           |                           |
+|     |              | bd72         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 198 | NTIA         | SPDXRef-     | libx11-data               | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libx11-data- |                           |                           |
+|     |              | 84c243396fc7 |                           |                           |
+|     |              | f065         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 199 | NTIA         | SPDXRef-     | libx11-dev                | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libx11-dev-  |                           |                           |
+|     |              | 8ef1a16f7f40 |                           |                           |
+|     |              | a71a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 200 | NTIA         | SPDXRef-     | libxau-dev                | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libxau-dev-  |                           |                           |
+|     |              | 4d0ff77be1f0 |                           |                           |
+|     |              | 76fa         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 201 | NTIA         | SPDXRef-     | libxau6                   | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libxau6-     |                           |                           |
+|     |              | 872ab899721f |                           |                           |
+|     |              | b21d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 202 | NTIA         | SPDXRef-     | libxcb-render0            | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libxcb-rende |                           |                           |
+|     |              | r0-          |                           |                           |
+|     |              | 47e2cbf479f1 |                           |                           |
+|     |              | 80bd         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 203 | NTIA         | SPDXRef-     | libxcb-render0-dev        | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libxcb-rende |                           |                           |
+|     |              | r0-dev-      |                           |                           |
+|     |              | f2cd0085eb27 |                           |                           |
+|     |              | 1eba         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 204 | NTIA         | SPDXRef-     | libxcb-shm0               | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libxcb-shm0- |                           |                           |
+|     |              | 0d6a99795446 |                           |                           |
+|     |              | 1071         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 205 | NTIA         | SPDXRef-     | libxcb-shm0-dev           | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libxcb-shm0- |                           |                           |
+|     |              | dev-         |                           |                           |
+|     |              | d884c5db7e4f |                           |                           |
+|     |              | fcc7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 206 | NTIA         | SPDXRef-     | libxcb1                   | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libxcb1-     |                           |                           |
+|     |              | fcf65efa31b4 |                           |                           |
+|     |              | 82cf         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 207 | NTIA         | SPDXRef-     | libxcb1-dev               | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libxcb1-dev- |                           |                           |
+|     |              | 78efd1c068c0 |                           |                           |
+|     |              | 0998         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 208 | NTIA         | SPDXRef-     | libxdmcp-dev              | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libxdmcp-dev |                           |                           |
+|     |              | -41fe32f7166 |                           |                           |
+|     |              | a3164        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 209 | NTIA         | SPDXRef-     | libxdmcp6                 | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libxdmcp6-   |                           |                           |
+|     |              | 41ba9697e822 |                           |                           |
+|     |              | 8d4b         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 210 | NTIA         | SPDXRef-     | libxext-dev               | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libxext-dev- |                           |                           |
+|     |              | ec3b759b8307 |                           |                           |
+|     |              | 2b99         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 211 | NTIA         | SPDXRef-     | libxext6                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libxext6-    |                           |                           |
+|     |              | 778bf8027f7e |                           |                           |
+|     |              | 80d4         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 212 | NTIA         | SPDXRef-     | libxft2                   | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libxft2-     |                           |                           |
+|     |              | cf3fcdadaa15 |                           |                           |
+|     |              | a055         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 213 | NTIA         | SPDXRef-     | libxml2                   | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libxml2-     |                           |                           |
+|     |              | 56d606d92758 |                           |                           |
+|     |              | 7ff2         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 214 | NTIA         | SPDXRef-     | libxrender-dev            | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libxrender-d |                           |                           |
+|     |              | ev-          |                           |                           |
+|     |              | 221a4697d799 |                           |                           |
+|     |              | 32c2         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 215 | NTIA         | SPDXRef-     | libxrender1               | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libxrender1- |                           |                           |
+|     |              | a282f482354e |                           |                           |
+|     |              | 4ef3         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 216 | NTIA         | SPDXRef-     | libxss1                   | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libxss1-     |                           |                           |
+|     |              | 9b1362379370 |                           |                           |
+|     |              | fbe8         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 217 | NTIA         | SPDXRef-     | libxt6                    | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libxt6-      |                           |                           |
+|     |              | ad5db75e600d |                           |                           |
+|     |              | c63d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 218 | NTIA         | SPDXRef-     | libz3-4                   | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libz3-4-     |                           |                           |
+|     |              | ba82941c0ab7 |                           |                           |
+|     |              | efb7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 219 | NTIA         | SPDXRef-     | libzstd-dev               | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libzstd-dev- |                           |                           |
+|     |              | e064d0598bf0 |                           |                           |
+|     |              | cc66         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 220 | NTIA         | SPDXRef-     | libzstd1                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | libzstd1-    |                           |                           |
+|     |              | 7cc55da81007 |                           |                           |
+|     |              | 017d         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 221 | NTIA         | SPDXRef-     | linux-libc-dev            | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | linux-libc-d |                           |                           |
+|     |              | ev-          |                           |                           |
+|     |              | 606ad2d4039b |                           |                           |
+|     |              | dc88         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 222 | NTIA         | SPDXRef-     | local_policy              | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-     |                           |                           |
+|     |              | local-policy |                           |                           |
+|     |              | -1ff6ebbf808 |                           |                           |
+|     |              | 10127        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 223 | NTIA         | SPDXRef-     | local_policy              | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-     |                           |                           |
+|     |              | local-policy |                           |                           |
+|     |              | -25915c31f7f |                           |                           |
+|     |              | 9ee48        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 224 | NTIA         | SPDXRef-     | local_policy              | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-     |                           |                           |
+|     |              | local-       |                           |                           |
+|     |              | policy-ee768 |                           |                           |
+|     |              | 9d869a3c80f  |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 225 | NTIA         | SPDXRef-     | local_policy              | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-     |                           |                           |
+|     |              | local-policy |                           |                           |
+|     |              | -234049e6a85 |                           |                           |
+|     |              | a2c14        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 226 | NTIA         | SPDXRef-     | localedata                | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-loca |                           |                           |
+|     |              | ledata-      |                           |                           |
+|     |              | 7fd9268b2d0d |                           |                           |
+|     |              | fc38         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 227 | NTIA         | SPDXRef-     | localedata                | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-loca |                           |                           |
+|     |              | ledata-      |                           |                           |
+|     |              | d182f536f09f |                           |                           |
+|     |              | cd60         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 228 | NTIA         | SPDXRef-     | login                     | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | login-aec305 |                           |                           |
+|     |              | 335647f931   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 229 | NTIA         | SPDXRef-     | logistro                  | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | python-logis |                           |                           |
+|     |              | tro-         |                           |                           |
+|     |              | a4944c292d9b |                           |                           |
+|     |              | b7a4         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 230 | NTIA         | SPDXRef-     | management-agent          | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-     |                           |                           |
+|     |              | management-a |                           |                           |
+|     |              | gent-        |                           |                           |
+|     |              | c472c5f9ed6f |                           |                           |
+|     |              | 1e54         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 231 | NTIA         | SPDXRef-     | management-agent          | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-     |                           |                           |
+|     |              | management-a |                           |                           |
+|     |              | gent-        |                           |                           |
+|     |              | f7b41215c12b |                           |                           |
+|     |              | 87d6         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 232 | NTIA         | SPDXRef-     | markupsafe                | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | python-marku |                           |                           |
+|     |              | psafe-       |                           |                           |
+|     |              | 59810630bd6e |                           |                           |
+|     |              | e9a6         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 233 | NTIA         | SPDXRef-     | mdurl                     | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | python-      |                           |                           |
+|     |              | mdurl-cc05ba |                           |                           |
+|     |              | 58f5d07016   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 234 | NTIA         | SPDXRef-     | media-types               | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | media-types- |                           |                           |
+|     |              | d3b1243bf2e1 |                           |                           |
+|     |              | d1fe         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 235 | NTIA         | SPDXRef-     | methods                   | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-meth |                           |                           |
+|     |              | ods-         |                           |                           |
+|     |              | 937e4c109a2e |                           |                           |
+|     |              | 55ed         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 236 | NTIA         | SPDXRef-     | mgcv                      | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-mgcv |                           |                           |
+|     |              | -666ed7112a9 |                           |                           |
+|     |              | c1f5a        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 237 | NTIA         | SPDXRef-     | mount                     | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | mount-       |                           |                           |
+|     |              | e75e0a2b6968 |                           |                           |
+|     |              | d414         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 238 | NTIA         | SPDXRef-     | multiqc                   | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | python-multi |                           |                           |
+|     |              | qc-          |                           |                           |
+|     |              | 012f2ae4f37f |                           |                           |
+|     |              | 2ded         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 239 | NTIA         | SPDXRef-     | nagisa32                  | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | binary-nagis |                           |                           |
+|     |              | a32-         |                           |                           |
+|     |              | 45b61caa00bb |                           |                           |
+|     |              | 8e2a         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 240 | NTIA         | SPDXRef-     | nagisa64                  | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | binary-nagis |                           |                           |
+|     |              | a64-         |                           |                           |
+|     |              | 18758d4beaa4 |                           |                           |
+|     |              | dfa0         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 241 | NTIA         | SPDXRef-     | nashorn                   | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-nash |                           |                           |
+|     |              | orn-         |                           |                           |
+|     |              | 5e60c2951a4d |                           |                           |
+|     |              | 34c8         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 242 | NTIA         | SPDXRef-     | nashorn                   | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-nash |                           |                           |
+|     |              | orn-         |                           |                           |
+|     |              | 9f9a634976f6 |                           |                           |
+|     |              | 40f1         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 243 | NTIA         | SPDXRef-     | nlme                      | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-nlme |                           |                           |
+|     |              | -d7b2479d565 |                           |                           |
+|     |              | 677e4        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 244 | NTIA         | SPDXRef-     | nnet                      | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-nnet |                           |                           |
+|     |              | -d6c735a6b71 |                           |                           |
+|     |              | 251c7        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 245 | NTIA         | SPDXRef-     | openjdk                   | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | binary-openj |                           |                           |
+|     |              | dk-          |                           |                           |
+|     |              | d585f026bd03 |                           |                           |
+|     |              | 4206         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 246 | NTIA         | SPDXRef-     | openjsse                  | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-     |                           |                           |
+|     |              | openjsse-fd8 |                           |                           |
+|     |              | 3002de6acdae |                           |                           |
+|     |              | 0            |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 247 | NTIA         | SPDXRef-     | openjsse                  | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | java-        |                           |                           |
+|     |              | archive-open |                           |                           |
+|     |              | jsse-        |                           |                           |
+|     |              | 5d05b0fe7b3b |                           |                           |
+|     |              | d086         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 248 | NTIA         | SPDXRef-     | openssl                   | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | openssl-da25 |                           |                           |
+|     |              | 65cbbc1dcd67 |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 249 | NTIA         | SPDXRef-     | parallel                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | parallel-    |                           |                           |
+|     |              | 290468c1f6c1 |                           |                           |
+|     |              | 1b1b         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 250 | NTIA         | SPDXRef-     | parallel                  | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-para |                           |                           |
+|     |              | llel-        |                           |                           |
+|     |              | 1657b340f0fa |                           |                           |
+|     |              | 9c5c         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 251 | NTIA         | SPDXRef-     | passwd                    | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | passwd-efdb8 |                           |                           |
+|     |              | 5615158b574  |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 252 | NTIA         | SPDXRef-     | patch                     | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | patch-       |                           |                           |
+|     |              | 48cd38cc6d85 |                           |                           |
+|     |              | 168e         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 253 | NTIA         | SPDXRef-     | pybind11-dev              | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | pybind11-    |                           |                           |
+|     |              | dev-dbd673a8 |                           |                           |
+|     |              | da81fb69     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 254 | NTIA         | SPDXRef-     | pycairo                   | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | python-pycai |                           |                           |
+|     |              | ro-          |                           |                           |
+|     |              | 536da8b3fe2d |                           |                           |
+|     |              | 32cb         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 255 | NTIA         | SPDXRef-     | pydantic                  | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | python-pydan |                           |                           |
+|     |              | tic-         |                           |                           |
+|     |              | 0b6c5d574b32 |                           |                           |
+|     |              | b8ae         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 256 | NTIA         | SPDXRef-     | pydantic-core             | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | python-      |                           |                           |
+|     |              | pydantic-cor |                           |                           |
+|     |              | e-           |                           |                           |
+|     |              | 5a514750ec82 |                           |                           |
+|     |              | e0c7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 257 | NTIA         | SPDXRef-     | python3-pip               | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | python3-pip- |                           |                           |
+|     |              | 5929913cf46d |                           |                           |
+|     |              | 2db3         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 258 | NTIA         | SPDXRef-     | python3-pip-whl           | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | python3-pip- |                           |                           |
+|     |              | whl-beb92421 |                           |                           |
+|     |              | 32e5641c     |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 259 | NTIA         | SPDXRef-     | python3-wheel             | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | python3-     |                           |                           |
+|     |              | wheel-       |                           |                           |
+|     |              | 053ca1e3ab28 |                           |                           |
+|     |              | d41b         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 260 | NTIA         | SPDXRef-     | rich-click                | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | python-rich- |                           |                           |
+|     |              | click-       |                           |                           |
+|     |              | 9d424977b249 |                           |                           |
+|     |              | de8c         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 261 | NTIA         | SPDXRef-     | rpcsvc-proto              | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | rpcsvc-proto |                           |                           |
+|     |              | -37c509db60e |                           |                           |
+|     |              | 362bb        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 262 | NTIA         | SPDXRef-     | rust                      | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | binary-rust- |                           |                           |
+|     |              | 3be6d4f45a87 |                           |                           |
+|     |              | 35a6         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 263 | NTIA         | SPDXRef-     | samtools                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | samtools-    |                           |                           |
+|     |              | 541884adb4c9 |                           |                           |
+|     |              | b647         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 264 | NTIA         | SPDXRef-     | spatial                   | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-spat |                           |                           |
+|     |              | ial-         |                           |                           |
+|     |              | 1f03a6ea96a0 |                           |                           |
+|     |              | 79eb         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 265 | NTIA         | SPDXRef-     | splines                   | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-spli |                           |                           |
+|     |              | nes-         |                           |                           |
+|     |              | 06b53874c2ad |                           |                           |
+|     |              | a9b7         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 266 | NTIA         | SPDXRef-     | stats                     | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-stat |                           |                           |
+|     |              | s-           |                           |                           |
+|     |              | 4a1c37a8a2fc |                           |                           |
+|     |              | 11ee         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 267 | NTIA         | SPDXRef-     | stats4                    | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-stat |                           |                           |
+|     |              | s4-          |                           |                           |
+|     |              | b0cc6a15c79b |                           |                           |
+|     |              | c32f         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 268 | NTIA         | SPDXRef-     | sysvinit-utils            | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | sysvinit-    |                           |                           |
+|     |              | utils-ad6415 |                           |                           |
+|     |              | 822991d492   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 269 | NTIA         | SPDXRef-     | tabix                     | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | tabix-       |                           |                           |
+|     |              | b3e8ad96c19d |                           |                           |
+|     |              | 5ee4         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 270 | NTIA         | SPDXRef-     | tcltk                     | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-tclt |                           |                           |
+|     |              | k-           |                           |                           |
+|     |              | 85f45cee31a8 |                           |                           |
+|     |              | fac1         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 271 | NTIA         | SPDXRef-     | tools                     | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-     |                           |                           |
+|     |              | tools-ad8b0c |                           |                           |
+|     |              | 1daf921039   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 272 | NTIA         | SPDXRef-     | tqdm                      | Package without a package |
+|     | validation   | Package-     |                           | supplier                  |
+|     | error        | python-tqdm- |                           |                           |
+|     |              | 22bcea534dcc |                           |                           |
+|     |              | b1b4         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 273 | NTIA         | SPDXRef-     | translations              | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-tran |                           |                           |
+|     |              | slations-ac7 |                           |                           |
+|     |              | b8623c518b53 |                           |                           |
+|     |              | 0            |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 274 | NTIA         | SPDXRef-     | tzdata                    | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | tzdata-      |                           |                           |
+|     |              | f215578db688 |                           |                           |
+|     |              | 8ae3         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 275 | NTIA         | SPDXRef-     | util-linux                | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | util-linux-  |                           |                           |
+|     |              | b11f4a313957 |                           |                           |
+|     |              | 922c         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 276 | NTIA         | SPDXRef-     | util-linux-extra          | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | util-linux-  |                           |                           |
+|     |              | extra-fc9180 |                           |                           |
+|     |              | bcad1f4d49   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 277 | NTIA         | SPDXRef-     | utils                     | Package without a package |
+|     | validation   | Package-R-   |                           | supplier                  |
+|     | error        | package-util |                           |                           |
+|     |              | s-           |                           |                           |
+|     |              | e1a3ec3d0819 |                           |                           |
+|     |              | 0a67         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 278 | NTIA         | SPDXRef-     | uuid-dev                  | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | uuid-dev-    |                           |                           |
+|     |              | 05a15b9bad44 |                           |                           |
+|     |              | 1604         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 279 | NTIA         | SPDXRef-     | x11-common                | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | x11-common-  |                           |                           |
+|     |              | 341dc3a176b2 |                           |                           |
+|     |              | bcec         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 280 | NTIA         | SPDXRef-     | x11proto-core-dev         | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | x11proto-    |                           |                           |
+|     |              | core-dev-    |                           |                           |
+|     |              | 51720d3cfff5 |                           |                           |
+|     |              | f94b         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 281 | NTIA         | SPDXRef-     | x11proto-dev              | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | x11proto-dev |                           |                           |
+|     |              | -88468608b72 |                           |                           |
+|     |              | 08a92        |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 282 | NTIA         | SPDXRef-     | xdg-utils                 | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | xdg-utils-   |                           |                           |
+|     |              | 46453aa06efa |                           |                           |
+|     |              | 4f77         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 283 | NTIA         | SPDXRef-     | xorg-sgml-doctools        | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | xorg-sgml-do |                           |                           |
+|     |              | ctools-      |                           |                           |
+|     |              | 9a1de6cbb99e |                           |                           |
+|     |              | 42b5         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 284 | NTIA         | SPDXRef-     | xtrans-dev                | Package without a package |
+|     | validation   | Package-deb- |                           | supplier                  |
+|     | error        | xtrans-dev-  |                           |                           |
+|     |              | 8d1e2a44dbc1 |                           |                           |
+|     |              | f971         |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 285 | NTIA         | SPDXRef-Docu | pggb                      | Package without a package |
+|     | validation   | mentRoot-    |                           | supplier                  |
+|     | error        | Image-pggb   |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+| 286 | Missing      | General      | General                   | CreatorComment is missing |
+|     | mandatory    |              |                           |                           |
+|     | field from   |              |                           |                           |
+|     | CreationInfo |              |                           |                           |
++-----+--------------+--------------+---------------------------+---------------------------+
+The SPDX file Downloads/syft.json is not compliant with the OpenChain Telco SBOM Guide version 1.1

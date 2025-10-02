@@ -1,0 +1,11 @@
+Validating distro.json
++---+--------------+---------+--------------+---------------------------+
+| # | Error type   | SPDX ID | Package name | Reason                    |
++---+--------------+---------+--------------+---------------------------+
+| 1 | Missing or   | General | General      | There is no Creator field |
+|   | invalid      |         |              | with Organization keyword |
+|   | field in Cre |         |              | in it                     |
+|   | ationInfo::C |         |              |                           |
+|   | reator       |         |              |                           |
++---+--------------+---------+--------------+---------------------------+
+The SPDX file Downloads/distro.json is not compliant with the OpenChain Telco SBOM Guide version 1.1

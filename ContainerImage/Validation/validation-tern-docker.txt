@@ -1,0 +1,293 @@
+Validating tern-docer.json
++----+--------------+--------------+---------------------------+---------------------------+
+| #  | Error type   | SPDX ID      | Package name              | Reason                    |
++----+--------------+--------------+---------------------------+---------------------------+
+| 1  | NTIA         | SPDXRef-     | debian                    | Package without a package |
+|    | validation   | debian-      |                           | supplier                  |
+|    | error        | bookworm-    |                           |                           |
+|    |              | slim         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 2  | NTIA         | SPDXRef-     | eb5f13bce9936c760b9fa73ae | Package without a package |
+|    | validation   | eb5f13bce9   | b1b608787daa36106cc888104 | supplier                  |
+|    | error        |              | 132e353ed37252            |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 3  | NTIA         | SPDXRef-addu | adduser                   | Package without a package |
+|    | validation   | ser-3.134-   |                           | supplier                  |
+|    | error        | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 4  | NTIA         | SPDXRef-apt- | apt                       | Package without a package |
+|    | validation   | 2.6.1-src    |                           | supplier                  |
+|    | error        |              |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 5  | NTIA         | SPDXRef-     | base-files                | Package without a package |
+|    | validation   | base-files-  |                           | supplier                  |
+|    | error        | 12.4-        |                           |                           |
+|    |              | deb12u11-src |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 6  | NTIA         | SPDXRef-     | base-passwd               | Package without a package |
+|    | validation   | base-passwd- |                           | supplier                  |
+|    | error        | 3.6.1-src    |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 7  | NTIA         | SPDXRef-bash | bash                      | Package without a package |
+|    | validation   | -5.2.15-2-   |                           | supplier                  |
+|    | error        | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 8  | NTIA         | SPDXRef-     | util-linux                | Package without a package |
+|    | validation   | util-linux-  |                           | supplier                  |
+|    | error        | 2.38.1-5-    |                           |                           |
+|    |              | deb12u3-src  |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 9  | NTIA         | SPDXRef-core | coreutils                 | Package without a package |
+|    | validation   | utils-9.1-1- |                           | supplier                  |
+|    | error        | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 10 | NTIA         | SPDXRef-dash | dash                      | Package without a package |
+|    | validation   | -0.5.12-2-   |                           | supplier                  |
+|    | error        | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 11 | NTIA         | SPDXRef-debc | debconf                   | Package without a package |
+|    | validation   | onf-1.5.82-  |                           | supplier                  |
+|    | error        | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 12 | NTIA         | SPDXRef-     | debian-archive-keyring    | Package without a package |
+|    | validation   | debian-      |                           | supplier                  |
+|    | error        | archive-keyr |                           |                           |
+|    |              | ing-2023.3-  |                           |                           |
+|    |              | deb12u2-src  |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 13 | NTIA         | SPDXRef-debi | debianutils               | Package without a package |
+|    | validation   | anutils-5.7- |                           | supplier                  |
+|    | error        | 0.5-deb12u1- |                           |                           |
+|    |              | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 14 | NTIA         | SPDXRef-diff | diffutils                 | Package without a package |
+|    | validation   | utils-1-3.8- |                           | supplier                  |
+|    | error        | 4-src        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 15 | NTIA         | SPDXRef-dpkg | dpkg                      | Package without a package |
+|    | validation   | -1.21.22-src |                           | supplier                  |
+|    | error        |              |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 16 | NTIA         | SPDXRef-     | e2fsprogs                 | Package without a package |
+|    | validation   | e2fsprogs-   |                           | supplier                  |
+|    | error        | 1.47.0-2-src |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 17 | NTIA         | SPDXRef-find | findutils                 | Package without a package |
+|    | validation   | utils-4.9.0- |                           | supplier                  |
+|    | error        | 4-src        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 18 | NTIA         | SPDXRef-gcc- | gcc-12                    | Package without a package |
+|    | validation   | 12-12.2.0-   |                           | supplier                  |
+|    | error        | 14-deb12u1-  |                           |                           |
+|    |              | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 19 | NTIA         | SPDXRef-gnup | gnupg2                    | Package without a package |
+|    | validation   | g2-2.2.40-   |                           | supplier                  |
+|    | error        | 1.1-src      |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 20 | NTIA         | SPDXRef-grep | grep                      | Package without a package |
+|    | validation   | -3.8-5-src   |                           | supplier                  |
+|    | error        |              |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 21 | NTIA         | SPDXRef-gzip | gzip                      | Package without a package |
+|    | validation   | -1.12-1-src  |                           | supplier                  |
+|    | error        |              |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 22 | NTIA         | SPDXRef-host | hostname                  | Package without a package |
+|    | validation   | name-3.23-   |                           | supplier                  |
+|    | error        | nmu1-src     |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 23 | NTIA         | SPDXRef-     | init-system-helpers       | Package without a package |
+|    | validation   | init-system- |                           | supplier                  |
+|    | error        | helpers-     |                           |                           |
+|    |              | 1.65.2-src   |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 24 | NTIA         | SPDXRef-acl- | acl                       | Package without a package |
+|    | validation   | 2.3.1-3-src  |                           | supplier                  |
+|    | error        |              |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 25 | NTIA         | SPDXRef-attr | attr                      | Package without a package |
+|    | validation   | -1-2.5.1-4-  |                           | supplier                  |
+|    | error        | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 26 | NTIA         | SPDXRef-audi | audit                     | Package without a package |
+|    | validation   | t-1-3.0.9-1- |                           | supplier                  |
+|    | error        | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 27 | NTIA         | SPDXRef-bzip | bzip2                     | Package without a package |
+|    | validation   | 2-1.0.8-5-   |                           | supplier                  |
+|    | error        | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 28 | NTIA         | SPDXRef-glib | glibc                     | Package without a package |
+|    | validation   | c-2.36-9-    |                           | supplier                  |
+|    | error        | deb12u10-src |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 29 | NTIA         | SPDXRef-     | libcap-ng                 | Package without a package |
+|    | validation   | libcap-ng-   |                           | supplier                  |
+|    | error        | 0.8.3-1-src  |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 30 | NTIA         | SPDXRef-libc | libcap2                   | Package without a package |
+|    | validation   | ap2-1-2.66-  |                           | supplier                  |
+|    | error        | 4-deb12u1-   |                           |                           |
+|    |              | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 31 | NTIA         | SPDXRef-libx | libxcrypt                 | Package without a package |
+|    | validation   | crypt-1-     |                           | supplier                  |
+|    | error        | 4.4.33-2-src |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 32 | NTIA         | SPDXRef-db5. | db5.3                     | Package without a package |
+|    | validation   | 3-5.3.28-    |                           | supplier                  |
+|    | error        | dfsg2-1-src  |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 33 | NTIA         | SPDXRef-cdeb | cdebconf                  | Package without a package |
+|    | validation   | conf-0.270-  |                           | supplier                  |
+|    | error        | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 34 | NTIA         | SPDXRef-libf | libffi                    | Package without a package |
+|    | validation   | fi-3.4.4-1-  |                           | supplier                  |
+|    | error        | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 35 | NTIA         | SPDXRef-libg | libgcrypt20               | Package without a package |
+|    | validation   | crypt20-     |                           | supplier                  |
+|    | error        | 1.10.1-3-src |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 36 | NTIA         | SPDXRef-gmp- | gmp                       | Package without a package |
+|    | validation   | 2-6.2.1-     |                           | supplier                  |
+|    | error        | dfsg1-1.1-   |                           |                           |
+|    |              | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 37 | NTIA         | SPDXRef-gnut | gnutls28                  | Package without a package |
+|    | validation   | ls28-3.7.9-  |                           | supplier                  |
+|    | error        | 2-deb12u5-   |                           |                           |
+|    |              | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 38 | NTIA         | SPDXRef-     | libgpg-error              | Package without a package |
+|    | validation   | libgpg-error |                           | supplier                  |
+|    | error        | -1.46-1-src  |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 39 | NTIA         | SPDXRef-nett | nettle                    | Package without a package |
+|    | validation   | le-3.8.1-2-  |                           | supplier                  |
+|    | error        | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 40 | NTIA         | SPDXRef-libi | libidn2                   | Package without a package |
+|    | validation   | dn2-2.3.3-1- |                           | supplier                  |
+|    | error        | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 41 | NTIA         | SPDXRef-lz4- | lz4                       | Package without a package |
+|    | validation   | 1.9.4-1-src  |                           | supplier                  |
+|    | error        |              |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 42 | NTIA         | SPDXRef-xz-u | xz-utils                  | Package without a package |
+|    | validation   | tils-5.4.1-  |                           | supplier                  |
+|    | error        | 1-src        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 43 | NTIA         | SPDXRef-libm | libmd                     | Package without a package |
+|    | validation   | d-1.0.4-2-   |                           | supplier                  |
+|    | error        | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 44 | NTIA         | SPDXRef-p11- | p11-kit                   | Package without a package |
+|    | validation   | kit-0.24.1-  |                           | supplier                  |
+|    | error        | 2-src        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 45 | NTIA         | SPDXRef-pam- | pam                       | Package without a package |
+|    | validation   | 1.5.2-6-     |                           | supplier                  |
+|    | error        | deb12u1-src  |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 46 | NTIA         | SPDXRef-pcre | pcre2                     | Package without a package |
+|    | validation   | 2-10.42-1-   |                           | supplier                  |
+|    | error        | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 47 | NTIA         | SPDXRef-libs | libseccomp                | Package without a package |
+|    | validation   | eccomp-      |                           | supplier                  |
+|    | error        | 2.5.4-1-     |                           |                           |
+|    |              | deb12u1-src  |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 48 | NTIA         | SPDXRef-libs | libselinux                | Package without a package |
+|    | validation   | elinux-3.4-  |                           | supplier                  |
+|    | error        | 1-src        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 49 | NTIA         | SPDXRef-libs | libsemanage               | Package without a package |
+|    | validation   | emanage-3.4- |                           | supplier                  |
+|    | error        | 1-src        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 50 | NTIA         | SPDXRef-libs | libsepol                  | Package without a package |
+|    | validation   | epol-3.4-    |                           | supplier                  |
+|    | error        | 2.1-src      |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 51 | NTIA         | SPDXRef-syst | systemd                   | Package without a package |
+|    | validation   | emd-252.38-  |                           | supplier                  |
+|    | error        | 1-deb12u1-   |                           |                           |
+|    |              | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 52 | NTIA         | SPDXRef-libt | libtasn1-6                | Package without a package |
+|    | validation   | asn1-6-      |                           | supplier                  |
+|    | error        | 4.19.0-2-    |                           |                           |
+|    |              | deb12u1-src  |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 53 | NTIA         | SPDXRef-ncur | ncurses                   | Package without a package |
+|    | validation   | ses-6.4-4-   |                           | supplier                  |
+|    | error        | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 54 | NTIA         | SPDXRef-libu | libunistring              | Package without a package |
+|    | validation   | nistring-    |                           | supplier                  |
+|    | error        | 1.0-2-src    |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 55 | NTIA         | SPDXRef-xxha | xxhash                    | Package without a package |
+|    | validation   | sh-0.8.1-1-  |                           | supplier                  |
+|    | error        | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 56 | NTIA         | SPDXRef-libz | libzstd                   | Package without a package |
+|    | validation   | std-1.5.4-   |                           | supplier                  |
+|    | error        | dfsg2-5-src  |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 57 | NTIA         | SPDXRef-shad | shadow                    | Package without a package |
+|    | validation   | ow-1-4.13-   |                           | supplier                  |
+|    | error        | dfsg1-1-     |                           |                           |
+|    |              | deb12u1-src  |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 58 | NTIA         | SPDXRef-mawk | mawk                      | Package without a package |
+|    | validation   | -1.3.4.20200 |                           | supplier                  |
+|    | error        | 120-3.1-src  |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 59 | NTIA         | SPDXRef-perl | perl                      | Package without a package |
+|    | validation   | -5.36.0-7-   |                           | supplier                  |
+|    | error        | deb12u2-src  |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 60 | NTIA         | SPDXRef-sed- | sed                       | Package without a package |
+|    | validation   | 4.9-1-src    |                           | supplier                  |
+|    | error        |              |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 61 | NTIA         | SPDXRef-sysv | sysvinit                  | Package without a package |
+|    | validation   | init-3.06-4- |                           | supplier                  |
+|    | error        | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 62 | NTIA         | SPDXRef-tar- | tar                       | Package without a package |
+|    | validation   | 1.34-dfsg-   |                           | supplier                  |
+|    | error        | 1.2-deb12u1- |                           |                           |
+|    |              | src          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 63 | NTIA         | SPDXRef-tzda | tzdata                    | Package without a package |
+|    | validation   | ta-2025b-0-  |                           | supplier                  |
+|    | error        | deb12u1-src  |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 64 | NTIA         | SPDXRef-usrm | usrmerge                  | Package without a package |
+|    | validation   | erge-37-     |                           | supplier                  |
+|    | error        | deb12u1-src  |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 65 | NTIA         | SPDXRef-zlib | zlib                      | Package without a package |
+|    | validation   | -1-          |                           | supplier                  |
+|    | error        | 1.2.13.dfsg- |                           |                           |
+|    |              | 1-src        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 66 | Missing      | General      | General                   | CreatorComment is missing |
+|    | mandatory    |              |                           |                           |
+|    | field from   |              |                           |                           |
+|    | CreationInfo |              |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 67 | Missing or   | General      | General                   | There is no Creator field |
+|    | invalid      |              |                           | with Organization keyword |
+|    | field in Cre |              |                           | in it                     |
+|    | ationInfo::C |              |                           |                           |
+|    | reator       |              |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+The SPDX file Downloads/container/tern-docer.json is not compliant with the OpenChain Telco SBOM Guide version 1.1
