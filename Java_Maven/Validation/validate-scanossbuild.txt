@@ -1,2 +1,0 @@
-Validating scanoss-build-vendor.json
-The SPDX file final.projects/java.maven/scanoss-build-vendor.json is compliant with the OpenChain Telco SBOM Guide version 1.1
