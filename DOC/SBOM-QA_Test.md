@@ -7,7 +7,7 @@ Specifically, the project covers:
 - Open-source software repositories as test targets, spanning multiple programming languages and ecosystems.  
 - Generation and analysis of SBOMs in the [SPDX](https://spdx.dev/) format.  
 - Use of reference SBOMs exported from original repository dependency graphs to serve as a consistent baseline.  
-- Alignment with the [OpenChain Telco SBOM Guide](https://github.com/OpenChain-Project/Specification-Discussion/blob/master/Reference-Material/Telco-SBOM-Guide.md) to ensure standardized practices for SBOM structure, content, and validation.  
+- Alignment with the [OpenChain Telco SBOM Guide](https://github.com/OpenChain-Project/Telco-WG/blob/main/OpenChain-Telco-SBOM-Guide_1.0_EN.md) to ensure standardized practices for SBOM structure, content, and validation.  
 - Evaluation of tool performance, accuracy, and coverage to deliver reliable and actionable benchmarking results.  
 
 This project is licensed under the [BSD 3-Clause License](https://github.com/nokia/SBOM-QA/blob/main/LICENSE).  
@@ -19,7 +19,7 @@ A Software Bill of Materials (SBOM) is a structured inventory of all software co
 ### SBOM Types
 SBOMs can exist at different stages of the software lifecycle, including *Design, Source, Build, Analyzed, Deployed,* and *Runtime*, as defined in the [CISA guidelines](https://www.cisa.gov/sbom).
 ### Data Format
-Data Format refers to the structure in which SBOM information is represented. Common formats include [SPDX](https://spdx.dev/), [CycloneDX](https://cyclonedx.org/), [SWID](https://www.iso.org/standard/65871.html), or other proprietary formats. For the purposes of this case study, the SBOM is represented using the **SPDX** format.
+Data Format refers to the structure in which SBOM information is represented. Common formats include [SPDX](https://spdx.dev/), [CycloneDX](https://cyclonedx.org/), or other proprietary formats. For the purposes of this case study, the SBOM is represented using the **SPDX** format.
 ### Package 
 A package is a reusable software unit, such as a library or module, distributed via package managers and accompanied by metadata including version, license, and authorship.
 ### Package Manager 
@@ -42,16 +42,16 @@ Exceptional for SBOM creation and integrates well with vulnerability scanners li
 A comprehensive security tool for SBOM generation, vulnerability detection, license analysis, misconfiguration scanning, and secret discovery across container images, filesystems, repositories, VMs, and Kubernetes environments.  
 #### 3. [OSS Review Toolkit (ORT)](https://github.com/oss-review-toolkit/ort) | [Docs](https://oss-review-toolkit.org/) | [62.2.0](https://github.com/oss-review-toolkit/ort/releases/tag/62.2.0)
 A policy automation and orchestration toolkit for SBOM generation, license compliance, vulnerability detection, and open-source risk management. ORT supports CycloneDX, SPDX, and custom attribution documents, while enabling policy-as-code checks, dependency analysis, and automated reporting across software projects.  
-#### 4. [SCANOSS](https://github.com/scanoss/scanoss.py) | [Docs](https://osskb.org/docs) | [v1.26.2](https://github.com/scanoss/scanoss.py/releases/tag/v1.26.2)
+#### 4. [SCANOSS](https://github.com/scanoss/scanoss.py) | [Docs](https://scanoss.readthedocs.io/en/latest/) | [v1.26.2](https://github.com/scanoss/scanoss.py/releases/tag/v1.26.2)
 The SCANOSS Python package provides a simple library for interacting with SCANOSS APIs and engine, enabling SBOM generation, license compliance, and open-source component identification.  
 
 **Container-based Tools:**
 #### 1. [Syft](https://github.com/anchore/syft) | [Docs](https://anchore.com/opensource/syft/) | [v1.30.0](https://github.com/anchore/syft/releases/tag/v1.30.0)
 A CLI tool and Go library for generating SBOMs from **container images**.  
 It identifies installed packages and their metadata across multiple ecosystems, supporting images from registries, local Docker/OCI images, and tar archives.
-#### 2. [Tern](https://github.com/tern-tools/tern) | [Docs](https://tern-tools.github.io/tern/) | [v2.12.1](https://github.com/tern-tools/tern/releases/tag/v2.12.1)
+#### 2. [Tern](https://github.com/tern-tools/tern) | [v2.12.1](https://github.com/tern-tools/tern/releases/tag/v2.12.1)
 An inspection tool to collect metadata of packages installed in a container image. It analyzes each layer of the image, executes scripts in a chroot environment to gather package information, and generates a detailed report showing packages and their metadata, with optional mapping to Dockerfile instructions.
-#### 3. [DISTRO2SBOM](https://github.com/anthonyharrison/distro2SBOM) | [Docs](https://github.com/anthonyharrison/distro2SBOM) | [0.6.0](https://github.com/anthonyharrison/distro2SBOM/releases/tag/v0.6.0)
+#### 3. [DISTRO2SBOM](https://github.com/anthonyharrison/distro2SBOM) | [0.6.0](https://github.com/anthonyharrison/distro2SBOM/releases/tag/v0.6.0)
 Generates an SBOM for either an installed application or a complete system installation in formats like SPDX and CycloneDX. It identifies all dependent components of a package and is intended for use in continuous integration systems to maintain accurate SBOM records and support audit requirements.
 
 
@@ -71,7 +71,7 @@ Generates an SBOM for either an installed application or a complete system insta
 The test targets linked in this part are the original, publicly available repositories of the respective projects. 
 
 ### 1. [C (No package manager)](https://github.com/besser82/libxcrypt)  
-[libxcrypt](https://github.com/besser82/libxcrypt) | [tag-v3.9.0](https://github.com/besser82/libxcrypt/releases/tag/v4.4.38) is a modern library for one-way hashing of passwords, supporting various algorithms like bcrypt, md5crypt, and yescrypt. It provides traditional Unix `crypt` interfaces and extended functions for secure password handling. The project does not utilize a package manager, making it suitable for manual integration and analysis.
+[libxcrypt](https://github.com/besser82/libxcrypt) | [tag-v4.4.38](https://github.com/besser82/libxcrypt/releases/tag/v4.4.38) is a modern library for one-way hashing of passwords, supporting various algorithms like bcrypt, md5crypt, and yescrypt. It provides traditional Unix `crypt` interfaces and extended functions for secure password handling. The project does not utilize a package manager, making it suitable for manual integration and analysis.
 
 ### 2. [C++ (No package manager)](https://github.com/zeux/meshoptimizer)  
 [MeshOptimizer](https://github.com/zeux/meshoptimizer) | [tag-v0.24](https://github.com/zeux/meshoptimizer/releases/tag/v0.24) is an open-source C++ library developed by Arseny Kapoulkine, providing algorithms to optimize meshes for modern GPU vertex and index processing pipelines. It can reindex an existing index buffer or generate an entirely new set of indices from an unindexed vertex buffer. The project does not utilize a package manager, making it suitable for manual integration and analysis.
@@ -128,21 +128,26 @@ Logical consistency (e.g., relationships, identifiers)
 
 ---
 
-## Observation & Result
+## 4. Observation & Result
 
-## Tools Used
-### [Syft](https://github.com/anchore/syft)
+### Tools Used
+#### 1. [Syft](https://github.com/anchore/syft)
 **Command:**  
 For generating SBOMs for all test targets this command is used:
 ```
 syft -o spdx-json=syft-sbom.json --enrich all --verbose .
 ```
 
-**Ecosystem:** [Node.js](https://github.com/nokia/SBOM-QA/tree/main/Node.js)
+**Ecosystem:** 
+[Node.js](https://github.com/nokia/SBOM-QA/tree/main/Node.js)
 
-- **Default SBOM:** Generated directly from the project source without performing any compilation step. [syft-default.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/syft-default.json)
+- **Default SBOM:**
+[syft-default.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/syft-default.json)
+
+Generated directly from the project source without performing any compilation step. 
 
 - **Compilation Step:**
+
 The project did not originally include a package-lock.json file, which is required to resolve and capture the full dependency tree. To generate it, the following command was executed in test target root:
 ```
 npm install --package-lock
@@ -151,13 +156,104 @@ npm install --package-lock
 - ***package-lock.json*** , ***node_modules***
 
 **Enriched SBOMs:**
-  [syft-lock.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/syft-lock.json)
+[syft-lock.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/syft-lock.json)
+
+**Ecosystem:** 
+[Go](https://github.com/gohugoio/hugo)
+
+- **Default SBOM:**
+
+**Ecosystem:**
+[Python (FastAPI)](https://github.com/fastapi/fastapi)
+
+- **Default SBOM:** 
+
+- **Compilation Step:**
+
+The project did not include a pdm.lock file. To generate it and pin all dependencies, the following command was executed:
+
+```
+pdm lock
+```
+Dependencies must be installed for the environment using:
+
+```
+pdm install
+```
+
+**Enriched SBOMs:**
+...
+
+**Ecosystem:** 
+[Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
+
+- **Default SBOM:**
+
+- **Compilation Step:**
+
+The project included both pyproject.toml and poetry.lock. To install only the production dependencies (excluding development packages), the following command was executed: 
+
+```
+poetry install --no-dev
+```
+
+**Enriched SBOMs:**
+...
+
+**Ecosystem:** 
+[C++ (Conan)](https://github.com/catchorg/Catch2)
 
 
-### [Scanoss](https://github.com/scanoss) 
+- **Default SBOM:** 
+
+**Ecosystem:** 
+[C (No package manager)](https://github.com/besser82/libxcrypt)
+
+- **Default SBOM:** 
+
+**Ecosystem:** 
+[C++ (No package manager)](https://github.com/zeux/meshoptimizer)
+
+- **Default SBOM:** 
+
+**Ecosystem:**
+[Java (Maven-managed)](https://github.com/bytedeco/javacv) 
+
+- **Default SBOM:**
+
+- **Compilation Step:** Build
+
+The project was compiled to ensure that all direct and transitive dependencies were resolved and    packaged into build artifacts (target/*.jar). following command was executed in tese target root: 
+
+```
+mvn clean package -DskipTests
+```
+
+**Generated Files:**
+- ***target/*.jar***
+
+**Result:**
+
+Ensures a richer and more accurate SBOM including both direct and transitive dependencies.
+
+**Enriched SBOMs:**
+...
+
+
+
+
+
+
+
+
+
+
+
+
+#### 2. [Scanoss](https://github.com/scanoss) 
 **Command:**  
 
-### [ORT](https://github.com/oss-review-toolkit/ort)  
+#### 3. [ORT](https://github.com/oss-review-toolkit/ort)  
 **Command:**
 
 For generating SBOMs for all test targets this command is used:
@@ -209,7 +305,7 @@ Indicating the use of two different **Package Managers**:
 >***Note:*** The **SBOM** was successfully generated without any errors and without the need for any modifications or special configurations. 
 
 **Generated SBOM:**
-...
+[ORT-GO.json](https://github.com/nokia/SBOM-QA/blob/main/Go/SBOM/ort.json)
 
 **Ecosystem:** 
 [C (No package manager)](https://github.com/besser82/libxcrypt)
@@ -217,7 +313,7 @@ Indicating the use of two different **Package Managers**:
 Given that ORT relies on a package manager for SBOM generation, and no package manager was present in this project, the generated SBOM only included the project name as a package.
 
 **Generated SBOM:**
-...
+[ORT-C-NP.json](https://github.com/nokia/SBOM-QA/blob/main/C-NP/SBOM/ort%20.json)
 
 **Ecosystem:** 
 [C++ (No package manager)](https://github.com/zeux/meshoptimizer)
@@ -227,7 +323,7 @@ In this project, no package manager associated with C++ was identified; However,
 - ***gltf/package.json*** , ***js/package.json***
 
 **Generated SBOM:**
-...
+[ORT-C++-NP.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/SBOM/ortC%2B%2BMeShop.json)
 
 
 **Ecosystem:** 
@@ -244,8 +340,9 @@ indicating the use of a package manager:
 >***Note:*** The **SBOM** was successfully generated without any errors and without the need for any modifications or special configurations.
 
 **Generated SBOM:**
-  ...
-  
+[ORT-Node-js.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/node.js.ORT.ScanSbom.json)
+
+
 **Ecosystem:**
 [Java (Maven-managed)](https://github.com/bytedeco/javacv) 
 
@@ -272,7 +369,7 @@ Indicating that the project relied on a single package manager:
 After the version was corrected, **ORT** was ultimately able to generate the **SBOM** successfully without errors.
 
 **Generated SBOM:**
-  ...
+[ORT-Java-Maven.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/SBOM/normal.ort.json)
 
 **Ecosystem:** 
 [C++ (Conan)](https://github.com/catchorg/Catch2)
@@ -293,9 +390,8 @@ and in total, two package managers were detected:
 
 - ***Bazel & Conan***
 
-
 **Generated SBOM:**
-...
+[ORT-C++-CONAN.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B_CONAN/SBOM/ort.json)
 
 **Ecosystem:**
 [Python (FastAPI)](https://github.com/fastapi/fastapi)
@@ -316,72 +412,367 @@ In this project, the following two files were identified:
 
 The SBOM was successfully generated without any errors. 
 
+**Generated SBOM:**
+[ORT-python.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/ort.json)
+
+ 
+#### 4. [Trivy](https://github.com/aquasecurity/trivy)  
+**Command:** (In test target root):
+
+```
+trivy fs --format spdx-json --scanners vuln,license,secret,misconfig --output trivy-sbom.spdx.json .
+```
+
+**Ecosystem:** 
+[Node.js](https://github.com/expressjs/express)  
 
 **Generated SBOM:**
 ...
 
- 
+- **Compilation Step:**
+
+The project did not originally include a package-lock.json file, which is required to resolve and capture the full dependency tree without actually installing dependencies, the following command was executed in test target root: 
+
+```
+npm install --package-lock-only 
+```
+
+**Created Files:**
+
+- ***package-lock.json***
+
+To create a clean environment with only production dependencies installed (excluding devDependencies), the following command was executed: 
+
+```
+npm ci --only=production
+```
+**Enriched SBOMs:**
+...
+
+**Ecosystem:** 
+[C++ (Conan)](https://github.com/catchorg/Catch2)
+
+**Generated SBOM:**
+...
+
+**Ecosystem:** 
+[Go](https://github.com/gohugoio/hugo)
+
+**Generated SBOM:**
+...
+
+- **Compilation Step:**
+
+To ensure all required dependencies are included and the module files are consistent, the following command was executed in the project root: 
+
+```
+go mod tidy
+```
+
+**Updated Files:**
+
+- ***go.mod*** , ***go.sum***
+
+**Enriched SBOMs:**
+...
+
+**Ecosystem:** 
+[C++ (No package manager)](https://github.com/zeux/meshoptimizer)
+
+**Generated SBOM:**
+...
+
+**Ecosystem:**
+[Python (FastAPI)](https://github.com/fastapi/fastapi)
+
+**Generated SBOM:**
+...
+
+- **Compilation Step:**
+
+The project did not include a pdm.lock file. To generate it and pin all dependencies, the following command was executed:
+
+```
+pdm lock
+```
+
+Dependencies must be installed for the environment using:
+
+```
+pdm install
+```
+
+**Enriched SBOMs:**
+...
+
+> **Note:** As of now, Trivy does not support scanning Python projects managed with PDM. Specifically, Trivy does not parse the pdm.lock file, which means it cannot fully resolve and capture the project's dependency tree. This limitation affects the accuracy and completeness of Software Bill of Materials (SBOM) generation for PDM-managed Python projects. 
+
+For more information and to track the progress of this feature, refer to the following GitHub issue: 
+[Trivy GitHub Issue: Add support for PDM lockfile parsing](https://github.com/aquasecurity/trivy/issues/9410?utm_source=chatgpt.com)
+
+**Ecosystem:**
+[Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
+
+**Generated SBOM:**
+...
+
+**Ecosystem:** 
+[C (No package manager)](https://github.com/besser82/libxcrypt)
+
+**Generated SBOM:**
+...
+
+**Ecosystem:**
+[Java (Maven-managed)](https://github.com/bytedeco/javacv) 
+
+**Generated SBOM:**
+...
 
 
 
 
-### [Trivy](https://github.com/aquasecurity/trivy)  
-**Command:** 
+
+
+
+
 
 ---
 
-## Container-Based Tools
+## Container-Based Tools  
 
-### Syft
-- Command:  
-- Notes / Observations:  
+In the selected project, the container image was based on a Linux distribution. Therefore, in order to properly execute the image and generate its corresponding SBOM, all tasks were carried out within a Linux operating system environment. 
 
-### Tern
-- Command:   
-- Notes / Observations:  
+### 1. Distro2sbom 
 
-### Distro2sbom 
-- Command:   
-- Notes / Observations:
+**Observations:** 
+
+In order to generate an SBOM  using distro2sbom, direct access to the root filesystem is required. Since running the tool against the live system root may not always be feasible or safe, the system root was first exported into a separate directory. This exported filesystem served as an isolated input for the SBOM generation process. 
+
+By performing the export step, distro2sbom was able to analyze the complete set of installed packages and system files, ensuring that the resulting SBOM accurately represents the environment. After the export was completed, the tool was executed against the target directory, successfully producing the SBOM.
+
+**Command:**
+
+- ***Extract image:***
+```
+docker create --name tmp <image name> 
+```
+- ***Export container filesystem:***
+```
+docker export tmp -o <fileName.tar> 
+``` 
+- ***Extract the tar file into root filesystem:***
+```
+tar -C <directoryName>  -xf <fileName.tar> 
+``` 
+- ***Remove the temporary container:***
+```
+docker rm tmp 
+``` 
+- ***For Generating SBOM:***
+```
+distro2sbom --root <path-to-rootFileSystem> -s --sbom <spdx|cyclonedx> --format <json|xml|yaml> -o <path-to-output-file>  
+```
+**Generated SBOM:**
+
+> **Note:**
+Since a Linux environment was used, a dedicated Python virtual environment was created to ensure isolation and reproducibility. In this environment, the distro2sbom tool was installed as the main tool for generating SBOM. 
+
+
+### 2. Tern
+There are three main approaches to generating an SBOM with Tern: 
+
+**1.	Analyzing an exported root filesystem:** 
+In this method, the system’s root filesystem is exported into a dedicated directory.   
+Tern is then executed against that directory to analyze all installed packages and generate the SBOM.  
+**Commands:**
+```
+docker export $(docker create <image name>) | tar -C  </path/to/directory> -xvf –  
+```
+
+```
+tern report -l </path/to/directory>  -f spdxjson -o <path/to/output/name.spdx.json>   
+```
+**2.⁠ ⁠Parsing a Dockerfile:**
+Tern can process a Dockerfile directly to infer the layers and dependencies defined in the build instructions.
+**Commands:**
+```
+tern report -d Dockerfile -o <path/to/output/name.spdx.json> -f json   
+```
+**3.⁠ ⁠Directly analyzing a container image: (not used in this project)**
+Tern can be pointed to a container image (local or remote) to generate an SBOM without needing the Dockerfile or exported filesystem. 
+
+**Commands:**
+```
+tern report -i <image:tag> > sbom_image.json   
+```
+
+### 3. Syft
+In this project, two approaches were applied to generate SBOM using Syft: 
+
+**1.	Image-based SBOM generation:** 
+- A Docker image was built locally from the project’s Dockerfile. 
+-	Syft was then executed against the built image (pggb:latest) to produce an SBOM that reflects all installed packages and dependencies inside the container environment.
+
+**Commands:** 
+```
+docker build -t <image:tag> .   
+```
+
+```
+docker run --rm -it <image:tag> bash  
+```
+
+```
+syft <image:tag>  -o spdx-json > <out put name.json> 
+``` 
+
+**2.	Source-based SBOM generation:**
+- Instead of analyzing the image, Syft was run directly on the project’s source code directory (./). 
+- This method inspects the manifests and dependency files present in the source to generate the SBOM. 
+
+**Commands:** 
+```
+syft dir:./ -o spdx-json > <out put name.json> 
+```
+
+**Generated SBOM:**
 
 ---
 
-## Conclusion
+## 5. Conclusion
 
-### 1. Ecosystem Point of View
+### 5.1. Ecosystem Point of View
 Insights about ecosystem (e.g., package management).
 
-| Aspect              | Observation                                  |
-|---------------------|----------------------------------------------|
-| Package Management  | Handles dependencies well, but sometimes heavy. |
-| Compatibility       | Works across multiple platforms.             |
+| Aspect              | Observation                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| Package Management  | Ecosystems with package managers (npm, Maven, Poetry) produced richer SBOMs. |
+| Compatibility       | C/C++ projects without package managers had weak coverage.                  |
+| Accuracy            | Lockfiles (npm, poetry.lock) improved accuracy of transitive dependencies.  |
+| Completeness        | Java builds included additional artifacts (JARs), enriching SBOMs.          |
 
 ---
 
-### 2. Tools Point of View
+### 5.2. Tools Point of View
 Strengths and weaknesses of tools used.
 
-| Tool       | Strengths                          | Weaknesses                          |
-|------------|-----------------------------------|-------------------------------------|
-| Tool A     | Easy to use, good docs             | Limited scalability                  |
-| Tool B     | Fast performance                   | Poor error messages                  |
+| Tool     | Strengths                                                                 | Weaknesses                                  |
+|----------|---------------------------------------------------------------------------|---------------------------------------------|
+| Syft     | Easy to use, fast, supports many ecosystems, SPDX JSON output             | Limited accuracy without lock/build files    |
+| Trivy    | Rich scanning (vulns, misconfigs, licenses, secrets), SBOM support        | Weak PDM (Python) support, some ecosystems partial |
+| ORT      | Comprehensive analysis, policy as code, SPDX compliant                    | Heavy setup, requires package managers, slower |
+| Scanoss  | Strong license compliance checks, lightweight                             | Limited ecosystem coverage, weaker metadata  |
+
 
 ---
 
-### 3. Quality Point of View
+### 5.3. Quality Point of View
 Validation results and differences
 
-#### 3.1. Validation Results
-| File/Module   | Status     | Notes                     |
-|---------------|-----------|----------------------------|
-| File1.json    | ✅ Passed | All checks OK              |
-| File2.json    | ❌ Failed | Missing field `version`    |
+#### 5.3.1. Validation Results
 
-#### 3.2. Diffs / Comparisons
+##### 1. [Syft](https://github.com/anchore/syft)
 
-| Compared Files        | Differences Found | Notes                       |
-|-----------------------|------------------|-----------------------------|
-| file1.json vs file2.json | Yes              | Field mismatch on `author`  |
-| file3.json vs file4.json | No               | Identical                   |
+| Ecosystem   | Compliant | Error Types                        | Notes                                    |
+|-------------|-----------|------------------------------------|------------------------------------------|
+| Go          | ❌ Failed | Missing version, Missing supplier  | 10 validation errors in tidy-vendor.json |
+| Python      | ✅ Passed | -                                  | All checks OK                            |
+| Node.js     |         | -                                  | SBOM valid                               |
+| Java        |         | Missing license info               | Needs enrichment from build artifacts    |
+| C           |      | Missing version                    | Package without version metadata         |
+| C++ (Conan) |      | -                                  | All mandatory SPDX fields included       |
+| C++  |                |                                     |           |          |          |            |           |
+| Python2  |                |                                     |           |          |          |            |           |
 
+##### 2. [Trivy](https://github.com/aquasecurity/trivy)
 
+| Ecosystem   | Compliant | Error Types                        | Notes                                    |
+|-------------|-----------|------------------------------------|------------------------------------------|
+| Go          |     | Missing version, Missing supplier  | 10 validation errors in tidy-vendor.json |
+| Python      |     | -                                  | All checks OK                            |
+| Node.js     |         | -                                  | SBOM valid                               |
+| Java        |      | Missing license info               | Needs enrichment from build artifacts    |
+| C           |       | Missing version                    | Package without version metadata         |
+| C++ (Conan) |       | -                                  | All mandatory SPDX fields included       |
+| C++  |                |                                     |           |          |          |            |           |
+| Python2  |                |                                     |           |          |          |            |           |
+
+##### 3. [ORT](https://github.com/oss-review-toolkit/ort)
+
+| Ecosystem   | Compliant | Error Types                        | Notes                                    |
+|-------------|-----------|------------------------------------|------------------------------------------|
+| Go          | ❌ Failed | Missing version, Missing supplier  | 10 validation errors in tidy-vendor.json |
+| Python      | ✅ Passed | -                                  | All checks OK                            |
+| Node.js     |       | -                                  | SBOM valid                               |
+| Java        |     | Missing license info               | Needs enrichment from build artifacts    |
+| C           |     | Missing version                    | Package without version metadata         |
+| C++ (Conan) |     | -                                  | All mandatory SPDX fields included       |
+| C++  |                |                                     |           |          |          |            |           |
+| Python2  |                |                                     |           |          |          |            |           |
+
+##### 4. [SCANOSS](https://github.com/scanoss/scanoss.py)
+
+| Ecosystem   | Compliant | Error Types                        | Notes                                    |
+|-------------|-----------|------------------------------------|------------------------------------------|
+| Go          |     | Missing version, Missing supplier  | 10 validation errors in tidy-vendor.json |
+| Python      |     | -                                  | All checks OK                            |
+| Node.js     |     | -                                  | SBOM valid                               |
+| Java        |      | Missing license info               | Needs enrichment from build artifacts    |
+| C           |     | Missing version                    | Package without version metadata         |
+| C++ (Conan) |      | -                                  | All mandatory SPDX fields included       |
+| C++  |                |                                     |           |          |          |            |           |
+| Python2  |                |                                     |           |          |          |            |           |
+
+#### 5.3.2. Diffs / Comparisons  
+
+##### 1. [Syft](https://github.com/anchore/syft)
+
+| Ecosystem   | Compared Files                   | Differences Found | Version Changes | New Packages | Removed Packages | License Changes  | Notes                          |
+|-------------|----------------------------------|------------------|----------------|--------------|------------------|-----------------|--------------------------------|
+| C           | ref.json vs  |             |     |       |               |           |        |
+| C++ (Conan) | ref.json vs              |             |      |           |              |      |         |
+| Python      | ref.json vs            |             |        |        |             |            |                   |
+| Node.js     | ref.json vs       |             |     |         |             |            |          |
+| Java        | ref.json vs             |            |      |       |         |          |         |
+| Go          | ref.json vs             |            |           |         |           |             |                |
+| C++         | ref.json vs                |                                     |           |          |          |            |           |
+| Python2     | ref.json vs                |                                     |           |          |          |            |           |
+
+##### 2. [Trivy](https://github.com/aquasecurity/trivy)
+
+| Ecosystem   | Compared Files                   | Differences Found | Version Changes | New Packages | Removed Packages | License Changes  | Notes                          |
+|-------------|----------------------------------|------------------|----------------|--------------|------------------|-----------------|--------------------------------|
+| C           | ref.json vs   |             |     |       |               |           |        |
+| C++ (Conan) | ref.json vs              |             |      |           |              |      |         |
+| Python      | ref.json vs            |             |        |        |             |            |                   |
+| Node.js     | ref.json vs        |             |     |         |             |            |          |
+| Java        | ref.json vs             |            |      |       |         |          |         |
+| Go          | ref.json vs            |            |           |         |           |             |                |
+| C++         | ref.json vs              |                                     |           |          |          |            |           |
+| Python2     | ref.json vs               |                                     |           |          |          |            |           |
+
+##### 3. [ORT](https://github.com/oss-review-toolkit/ort)
+
+| Ecosystem   | Compared Files                   | Differences Found | Version Changes | New Packages | Removed Packages | License Changes  | Notes                          |
+|-------------|----------------------------------|------------------|----------------|--------------|------------------|-----------------|--------------------------------|
+| C           | ref.json vs   |             |     |       |               |           |        |
+| C++ (Conan) | ref.json vs             |             |      |           |              |      |         |
+| Python      | ref.json vs           |             |        |        |             |            |                   |
+| Node.js     | ref.json vs        |             |     |         |             |            |          |
+| Java        | ref.json vs            |            |      |       |         |          |         |
+| Go          | ref.json             |            |           |         |           |             |                |
+| C++         | ref.json vs        |                                     |           |          |          |            |           |
+| Python2     | ref.json vs           |                                     |           |          |          |            |           |
+
+##### 4. [SCANOSS](https://github.com/scanoss/scanoss.py)
+
+| Ecosystem   | Compared Files                   | Differences Found | Version Changes | New Packages | Removed Packages | License Changes  | Notes                          |
+|-------------|----------------------------------|------------------|----------------|--------------|------------------|-----------------|--------------------------------|
+| C           | ref.json vs   |             |     |       |               |           |        |
+| C++ (Conan) | ref.json vs            |             |      |           |              |      |         |
+| Python      | ref.json vs           |             |        |        |             |            |                   |
+| Node.js     | ref.json vs       |             |     |         |             |            |          |
+| Java        | ref.json vs             |            |      |       |         |          |         |
+| Go          | ref.json vs          |            |           |         |           |             |                |
+| C++         | ref.json vs             |                                     |           |          |          |            |           |
+| Python2     | ref.json vs             |                                     |           |          |          |            |           |

@@ -4,7 +4,7 @@
     "version": "0.5.6"
   },
   "file_1": "SBOM-QA/Go/gohugoio_hugo_b0888a.json",
-  "file_2": "clone/Go/mehdi-new/trivy-tidy.json",
+  "file_2": "clone/Go/mehdi-new/trivy-tidy-vendor.json",
   "differences": [
     {
       "package": "@tailwindcss/typography",
@@ -2187,6 +2187,26 @@
       }
     },
     {
+      "package": "vendor/go.opentelemetry.io/otel/requirements.txt",
+      "status": "add",
+      "version": {
+        "from": "UNKNOWN"
+      },
+      "license": {
+        "to": "NOT FOUND"
+      }
+    },
+    {
+      "package": "codespell",
+      "status": "add",
+      "version": {
+        "from": "2.3.0"
+      },
+      "license": {
+        "to": "NOASSERTION"
+      }
+    },
+    {
       "package": "github.com/gohugoio/hugo",
       "status": "add",
       "version": {
@@ -2219,7 +2239,7 @@
   ],
   "summary": {
     "version_changes": 166,
-    "new_packages": 5,
+    "new_packages": 7,
     "removed_packages": 24,
     "license_changes": 166
   }
