@@ -1,0 +1,2 @@
+Validating scanoss-default.json
+The SPDX file Downloads/fastapi/scanoss-default.json is compliant with the OpenChain Telco SBOM Guide version 1.1
