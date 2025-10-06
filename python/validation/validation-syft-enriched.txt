@@ -1,0 +1,495 @@
+Validating syft.pdm.python.json
++----+--------------+--------------+---------------------------+---------------------------+
+| #  | Error type   | SPDX ID      | Package name              | Reason                    |
++----+--------------+--------------+---------------------------+---------------------------+
+| 1  | NTIA         | SPDXRef-Docu | .                         | Package without a version |
+|    | validation   | mentRoot-    |                           |                           |
+|    | error        | Directory-.  |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 2  | NTIA         | SPDXRef-     | annotated-types           | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | annotated-ty |                           |                           |
+|    |              | pes-         |                           |                           |
+|    |              | a6b5d180efe6 |                           |                           |
+|    |              | 1a19         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 3  | NTIA         | SPDXRef-     | annotated-types           | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | annotated-   |                           |                           |
+|    |              | types-bae972 |                           |                           |
+|    |              | f82ed4f3cf   |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 4  | NTIA         | SPDXRef-     | anyio                     | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | anyio-ca1387 |                           |                           |
+|    |              | 73f249a81d   |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 5  | NTIA         | SPDXRef-     | black                     | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-black |                           |                           |
+|    |              | -2dcd3b4e9f0 |                           |                           |
+|    |              | f2bea        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 6  | NTIA         | SPDXRef-     | cairosvg                  | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-cairo |                           |                           |
+|    |              | svg-         |                           |                           |
+|    |              | c4f91fece259 |                           |                           |
+|    |              | bc72         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 7  | NTIA         | SPDXRef-     | click                     | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-click |                           |                           |
+|    |              | -228517edd3e |                           |                           |
+|    |              | 083c7        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 8  | NTIA         | SPDXRef-     | cohere                    | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-coher |                           |                           |
+|    |              | e-           |                           |                           |
+|    |              | f3df71805a43 |                           |                           |
+|    |              | d451         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 9  | NTIA         | SPDXRef-     | dirty-equals              | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | dirty-equals |                           |                           |
+|    |              | -c467aa05237 |                           |                           |
+|    |              | a5ce6        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 10 | NTIA         | SPDXRef-     | exceptiongroup            | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-excep |                           |                           |
+|    |              | tiongroup-   |                           |                           |
+|    |              | 138de1b836e8 |                           |                           |
+|    |              | 10d9         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 11 | NTIA         | SPDXRef-     | filelock                  | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | filelock-dc0 |                           |                           |
+|    |              | 10ea81090ef2 |                           |                           |
+|    |              | b            |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 12 | NTIA         | SPDXRef-     | flask                     | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-flask |                           |                           |
+|    |              | -b125f5bf5d6 |                           |                           |
+|    |              | d9636        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 13 | NTIA         | SPDXRef-     | fsspec                    | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-fsspe |                           |                           |
+|    |              | c-           |                           |                           |
+|    |              | 5b68d9a5dbbc |                           |                           |
+|    |              | f43b         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 14 | NTIA         | SPDXRef-     | griffe-typingdoc          | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | griffe-typin |                           |                           |
+|    |              | gdoc-        |                           |                           |
+|    |              | f4d1e8968c9b |                           |                           |
+|    |              | 193c         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 15 | NTIA         | SPDXRef-     | hf-xet                    | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-hf-xe |                           |                           |
+|    |              | t-           |                           |                           |
+|    |              | a217a85eb9f6 |                           |                           |
+|    |              | 90e9         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 16 | NTIA         | SPDXRef-     | id                        | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-id-   |                           |                           |
+|    |              | 4bc8a8e61e59 |                           |                           |
+|    |              | 855b         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 17 | NTIA         | SPDXRef-     | idna                      | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-idna- |                           |                           |
+|    |              | d9b71cd2cb43 |                           |                           |
+|    |              | 2a4d         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 18 | NTIA         | SPDXRef-     | iniconfig                 | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-inico |                           |                           |
+|    |              | nfig-        |                           |                           |
+|    |              | 180e3a87591a |                           |                           |
+|    |              | 56e0         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 19 | NTIA         | SPDXRef-     | itsdangerous              | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-itsda |                           |                           |
+|    |              | ngerous-be2e |                           |                           |
+|    |              | e8dddcdc6798 |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 20 | NTIA         | SPDXRef-     | jieba                     | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | jieba-ba2f33 |                           |                           |
+|    |              | fde9f8124b   |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 21 | NTIA         | SPDXRef-     | jinja2                    | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-jinja |                           |                           |
+|    |              | 2-           |                           |                           |
+|    |              | 6e04fca7c0ca |                           |                           |
+|    |              | b6d4         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 22 | NTIA         | SPDXRef-     | logfire-api               | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | logfire-api- |                           |                           |
+|    |              | efe1f6d40679 |                           |                           |
+|    |              | ec8a         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 23 | NTIA         | SPDXRef-     | markdown-include-variants | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | markdown-    |                           |                           |
+|    |              | include-vari |                           |                           |
+|    |              | ants-        |                           |                           |
+|    |              | 547af4cdac83 |                           |                           |
+|    |              | e9f3         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 24 | NTIA         | SPDXRef-     | markupsafe                | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-marku |                           |                           |
+|    |              | psafe-       |                           |                           |
+|    |              | 52809634b013 |                           |                           |
+|    |              | fcd4         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 25 | NTIA         | SPDXRef-     | mdurl                     | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-mdurl |                           |                           |
+|    |              | -2e251795210 |                           |                           |
+|    |              | 0ddab        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 26 | NTIA         | SPDXRef-     | mkdocs-autorefs           | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | mkdocs-autor |                           |                           |
+|    |              | efs-         |                           |                           |
+|    |              | 4b837d46902d |                           |                           |
+|    |              | 9d6f         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 27 | NTIA         | SPDXRef-     | mkdocs-macros-plugin      | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | mkdocs-      |                           |                           |
+|    |              | macros-plugi |                           |                           |
+|    |              | n-           |                           |                           |
+|    |              | d9bccae92ad3 |                           |                           |
+|    |              | 383d         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 28 | NTIA         | SPDXRef-     | mkdocs-material           | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | mkdocs-mater |                           |                           |
+|    |              | ial-         |                           |                           |
+|    |              | 043e23fcfdc0 |                           |                           |
+|    |              | a0d2         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 29 | NTIA         | SPDXRef-     | mkdocstrings              | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-mkdoc |                           |                           |
+|    |              | strings-     |                           |                           |
+|    |              | 956a813b14da |                           |                           |
+|    |              | 1fd0         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 30 | NTIA         | SPDXRef-     | mypy                      | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-mypy- |                           |                           |
+|    |              | f7b147c7628e |                           |                           |
+|    |              | d8fe         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 31 | NTIA         | SPDXRef-     | node                      | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | binary-node- |                           |                           |
+|    |              | c28b00d3b13e |                           |                           |
+|    |              | 2263         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 32 | NTIA         | SPDXRef-     | pillow                    | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-pillo |                           |                           |
+|    |              | w-           |                           |                           |
+|    |              | 333048ca6da0 |                           |                           |
+|    |              | c454         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 33 | NTIA         | SPDXRef-     | platformdirs              | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-platf |                           |                           |
+|    |              | ormdirs-     |                           |                           |
+|    |              | a8c7866a58bb |                           |                           |
+|    |              | 5540         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 34 | NTIA         | SPDXRef-     | pre-commit-package        | Package without a package |
+|    | validation   | Package-lua- |                           | supplier                  |
+|    | error        | rocks-pre-   |                           |                           |
+|    |              | commit-packa |                           |                           |
+|    |              | ge-          |                           |                           |
+|    |              | b113fb367ebf |                           |                           |
+|    |              | b423         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 35 | NTIA         | SPDXRef-     | pydantic                  | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-pydan |                           |                           |
+|    |              | tic-         |                           |                           |
+|    |              | e48c29ff6f8d |                           |                           |
+|    |              | 9ce7         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 36 | NTIA         | SPDXRef-     | pydantic                  | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-pydan |                           |                           |
+|    |              | tic-         |                           |                           |
+|    |              | 785438714904 |                           |                           |
+|    |              | 38ae         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 37 | NTIA         | SPDXRef-     | pydantic-ai               | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | pydantic-ai- |                           |                           |
+|    |              | 1656113fb830 |                           |                           |
+|    |              | 9b32         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 38 | NTIA         | SPDXRef-     | pydantic-core             | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | pydantic-cor |                           |                           |
+|    |              | e-           |                           |                           |
+|    |              | 5338e56ec800 |                           |                           |
+|    |              | 911d         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 39 | NTIA         | SPDXRef-     | pydantic-core             | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | pydantic-cor |                           |                           |
+|    |              | e-           |                           |                           |
+|    |              | 3532b11b7a4a |                           |                           |
+|    |              | c9ea         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 40 | NTIA         | SPDXRef-     | pydantic-extra-types      | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | pydantic-    |                           |                           |
+|    |              | extra-types- |                           |                           |
+|    |              | 0cbad0ea840d |                           |                           |
+|    |              | c886         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 41 | NTIA         | SPDXRef-     | pydantic-settings         | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | pydantic-set |                           |                           |
+|    |              | tings-       |                           |                           |
+|    |              | 9d2cc1bb47cf |                           |                           |
+|    |              | e413         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 42 | NTIA         | SPDXRef-     | pygithub                  | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-pygit |                           |                           |
+|    |              | hub-         |                           |                           |
+|    |              | 41e0e8343b41 |                           |                           |
+|    |              | ebd7         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 43 | NTIA         | SPDXRef-     | pyjwt                     | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-pyjwt |                           |                           |
+|    |              | -40e751169d0 |                           |                           |
+|    |              | c769f        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 44 | NTIA         | SPDXRef-     | pyproject-hooks           | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | pyproject-ho |                           |                           |
+|    |              | oks-         |                           |                           |
+|    |              | 7a2a087cb188 |                           |                           |
+|    |              | 5640         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 45 | NTIA         | SPDXRef-     | python-multipart          | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | python-multi |                           |                           |
+|    |              | part-        |                           |                           |
+|    |              | a1831b466ad5 |                           |                           |
+|    |              | 7174         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 46 | NTIA         | SPDXRef-     | rich-toolkit              | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-rich- |                           |                           |
+|    |              | toolkit-     |                           |                           |
+|    |              | 1930f8b50b1b |                           |                           |
+|    |              | 89be         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 47 | NTIA         | SPDXRef-     | ruff                      | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-ruff- |                           |                           |
+|    |              | f7f46da5fd01 |                           |                           |
+|    |              | 1373         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 48 | NTIA         | SPDXRef-     | sniffio                   | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-sniff |                           |                           |
+|    |              | io-          |                           |                           |
+|    |              | 086821bf8480 |                           |                           |
+|    |              | 130a         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 49 | NTIA         | SPDXRef-     | sqlmodel                  | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-sqlmo |                           |                           |
+|    |              | del-         |                           |                           |
+|    |              | 7134b532d1a8 |                           |                           |
+|    |              | 6bb5         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 50 | NTIA         | SPDXRef-     | starlette                 | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-starl |                           |                           |
+|    |              | ette-        |                           |                           |
+|    |              | 9b25f6c38f47 |                           |                           |
+|    |              | 6a5d         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 51 | NTIA         | SPDXRef-     | t32                       | Package without a package |
+|    | validation   | Package-bina |                           | supplier                  |
+|    | error        | ry-t32-      |                           |                           |
+|    |              | a1fe9b6f8572 |                           |                           |
+|    |              | b4d3         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 52 | NTIA         | SPDXRef-     | t64                       | Package without a package |
+|    | validation   | Package-bina |                           | supplier                  |
+|    | error        | ry-t64-      |                           |                           |
+|    |              | c1ce9ef2e33b |                           |                           |
+|    |              | 0bf8         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 53 | NTIA         | SPDXRef-     | t64-arm                   | Package without a package |
+|    | validation   | Package-bina |                           | supplier                  |
+|    | error        | ry-t64-arm-  |                           |                           |
+|    |              | 10dc726ee059 |                           |                           |
+|    |              | aef0         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 54 | NTIA         | SPDXRef-     | t_arm                     | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | binary-t-    |                           |                           |
+|    |              | arm-fc716b72 |                           |                           |
+|    |              | ff7a30ba     |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 55 | NTIA         | SPDXRef-     | tqdm                      | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-tqdm- |                           |                           |
+|    |              | 84481a55d41e |                           |                           |
+|    |              | 78b0         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 56 | NTIA         | SPDXRef-     | truststore                | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-trust |                           |                           |
+|    |              | store-       |                           |                           |
+|    |              | 338b6a9baf15 |                           |                           |
+|    |              | da8f         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 57 | NTIA         | SPDXRef-     | typer                     | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-typer |                           |                           |
+|    |              | -31a2a5a1e71 |                           |                           |
+|    |              | 5993c        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 58 | NTIA         | SPDXRef-     | types-orjson              | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | types-orjson |                           |                           |
+|    |              | -6fab2c546f0 |                           |                           |
+|    |              | 15f77        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 59 | NTIA         | SPDXRef-     | types-orjson              | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | types-orjson |                           |                           |
+|    |              | -a7dbd12e2dc |                           |                           |
+|    |              | 665bb        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 60 | NTIA         | SPDXRef-     | types-requests            | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | types-reques |                           |                           |
+|    |              | ts-          |                           |                           |
+|    |              | 3c7ab1873856 |                           |                           |
+|    |              | 541f         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 61 | NTIA         | SPDXRef-     | types-ujson               | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | types-ujson- |                           |                           |
+|    |              | 1bc900d3cf29 |                           |                           |
+|    |              | 1e5e         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 62 | NTIA         | SPDXRef-     | types-ujson               | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | types-ujson- |                           |                           |
+|    |              | f25585a9b561 |                           |                           |
+|    |              | 14f1         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 63 | NTIA         | SPDXRef-     | typing-extensions         | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | typing-exten |                           |                           |
+|    |              | sions-       |                           |                           |
+|    |              | 595ecf24ccd0 |                           |                           |
+|    |              | 7626         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 64 | NTIA         | SPDXRef-     | uvicorn                   | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-uvico |                           |                           |
+|    |              | rn-          |                           |                           |
+|    |              | 3fb0c5418113 |                           |                           |
+|    |              | 08f3         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 65 | NTIA         | SPDXRef-     | virtualenv                | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-virtu |                           |                           |
+|    |              | alenv-       |                           |                           |
+|    |              | 8f5552d9616e |                           |                           |
+|    |              | d385         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 66 | NTIA         | SPDXRef-     | w32                       | Package without a package |
+|    | validation   | Package-bina |                           | supplier                  |
+|    | error        | ry-w32-      |                           |                           |
+|    |              | 226b836a858e |                           |                           |
+|    |              | b295         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 67 | NTIA         | SPDXRef-     | w64                       | Package without a package |
+|    | validation   | Package-bina |                           | supplier                  |
+|    | error        | ry-w64-      |                           |                           |
+|    |              | abc693c82be9 |                           |                           |
+|    |              | 5f29         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 68 | NTIA         | SPDXRef-     | w64-arm                   | Package without a package |
+|    | validation   | Package-bina |                           | supplier                  |
+|    | error        | ry-w64-arm-f |                           |                           |
+|    |              | bca5ef48daf7 |                           |                           |
+|    |              | 9de          |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 69 | NTIA         | SPDXRef-     | w_arm                     | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | binary-w-arm |                           |                           |
+|    |              | -b18be439deb |                           |                           |
+|    |              | e1d63        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 70 | NTIA         | SPDXRef-     | werkzeug                  | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-werkz |                           |                           |
+|    |              | eug-         |                           |                           |
+|    |              | 1a2193b40724 |                           |                           |
+|    |              | 4245         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 71 | NTIA         | SPDXRef-Docu | .                         | Package without a package |
+|    | validation   | mentRoot-    |                           | supplier                  |
+|    | error        | Directory-.  |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 72 | Missing      | General      | General                   | CreatorComment is missing |
+|    | mandatory    |              |                           |                           |
+|    | field from   |              |                           |                           |
+|    | CreationInfo |              |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+The SPDX file clone/python/newtag/syft.pdm.python.json is not compliant with the OpenChain Telco SBOM Guide version 1.1

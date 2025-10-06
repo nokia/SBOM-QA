@@ -1,0 +1,2 @@
+Validating scanossvendor.new.tag.spdx.json
+The SPDX file clone/python/newtag/scanossvendor.new.tag.spdx.json is compliant with the OpenChain Telco SBOM Guide version 1.1

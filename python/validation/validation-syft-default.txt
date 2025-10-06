@@ -1,0 +1,144 @@
+Validating syft.python.newtag.spdx.json
++----+--------------+--------------+---------------------------+---------------------------+
+| #  | Error type   | SPDX ID      | Package name              | Reason                    |
++----+--------------+--------------+---------------------------+---------------------------+
+| 1  | NTIA         | SPDXRef-Docu | .                         | Package without a version |
+|    | validation   | mentRoot-    |                           |                           |
+|    | error        | Directory-.  |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 2  | NTIA         | SPDXRef-     | black                     | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-black |                           |                           |
+|    |              | -2dcd3b4e9f0 |                           |                           |
+|    |              | f2bea        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 3  | NTIA         | SPDXRef-     | cairosvg                  | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-cairo |                           |                           |
+|    |              | svg-         |                           |                           |
+|    |              | c4f91fece259 |                           |                           |
+|    |              | bc72         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 4  | NTIA         | SPDXRef-     | dirty-equals              | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | dirty-equals |                           |                           |
+|    |              | -c467aa05237 |                           |                           |
+|    |              | a5ce6        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 5  | NTIA         | SPDXRef-     | griffe-typingdoc          | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | griffe-typin |                           |                           |
+|    |              | gdoc-        |                           |                           |
+|    |              | f4d1e8968c9b |                           |                           |
+|    |              | 193c         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 6  | NTIA         | SPDXRef-     | jieba                     | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | jieba-ba2f33 |                           |                           |
+|    |              | fde9f8124b   |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 7  | NTIA         | SPDXRef-     | markdown-include-variants | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | markdown-    |                           |                           |
+|    |              | include-vari |                           |                           |
+|    |              | ants-        |                           |                           |
+|    |              | 547af4cdac83 |                           |                           |
+|    |              | e9f3         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 8  | NTIA         | SPDXRef-     | mkdocs-macros-plugin      | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | mkdocs-      |                           |                           |
+|    |              | macros-plugi |                           |                           |
+|    |              | n-           |                           |                           |
+|    |              | d9bccae92ad3 |                           |                           |
+|    |              | 383d         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 9  | NTIA         | SPDXRef-     | mkdocs-material           | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | mkdocs-mater |                           |                           |
+|    |              | ial-         |                           |                           |
+|    |              | 043e23fcfdc0 |                           |                           |
+|    |              | a0d2         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 10 | NTIA         | SPDXRef-     | mkdocstrings              | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-mkdoc |                           |                           |
+|    |              | strings-     |                           |                           |
+|    |              | 956a813b14da |                           |                           |
+|    |              | 1fd0         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 11 | NTIA         | SPDXRef-     | mypy                      | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-mypy- |                           |                           |
+|    |              | f7b147c7628e |                           |                           |
+|    |              | d8fe         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 12 | NTIA         | SPDXRef-     | pillow                    | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-pillo |                           |                           |
+|    |              | w-           |                           |                           |
+|    |              | 333048ca6da0 |                           |                           |
+|    |              | c454         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 13 | NTIA         | SPDXRef-     | pydantic-ai               | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | pydantic-ai- |                           |                           |
+|    |              | 1656113fb830 |                           |                           |
+|    |              | 9b32         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 14 | NTIA         | SPDXRef-     | pyjwt                     | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-pyjwt |                           |                           |
+|    |              | -40e751169d0 |                           |                           |
+|    |              | c769f        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 15 | NTIA         | SPDXRef-     | ruff                      | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-ruff- |                           |                           |
+|    |              | f7f46da5fd01 |                           |                           |
+|    |              | 1373         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 16 | NTIA         | SPDXRef-     | sqlmodel                  | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-sqlmo |                           |                           |
+|    |              | del-         |                           |                           |
+|    |              | 7134b532d1a8 |                           |                           |
+|    |              | 6bb5         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 17 | NTIA         | SPDXRef-     | typer                     | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-typer |                           |                           |
+|    |              | -31a2a5a1e71 |                           |                           |
+|    |              | 5993c        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 18 | NTIA         | SPDXRef-     | types-orjson              | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | types-orjson |                           |                           |
+|    |              | -a7dbd12e2dc |                           |                           |
+|    |              | 665bb        |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 19 | NTIA         | SPDXRef-     | types-ujson               | Package without a package |
+|    | validation   | Package-     |                           | supplier                  |
+|    | error        | python-      |                           |                           |
+|    |              | types-ujson- |                           |                           |
+|    |              | f25585a9b561 |                           |                           |
+|    |              | 14f1         |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 20 | NTIA         | SPDXRef-Docu | .                         | Package without a package |
+|    | validation   | mentRoot-    |                           | supplier                  |
+|    | error        | Directory-.  |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+| 21 | Missing      | General      | General                   | CreatorComment is missing |
+|    | mandatory    |              |                           |                           |
+|    | field from   |              |                           |                           |
+|    | CreationInfo |              |                           |                           |
++----+--------------+--------------+---------------------------+---------------------------+
+The SPDX file clone/python/newtag/syft.python.newtag.spdx.json is not compliant with the OpenChain Telco SBOM Guide version 1.1
