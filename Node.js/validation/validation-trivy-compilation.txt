@@ -1,0 +1,349 @@
+Validating trivy-compilation.json
++----+--------------+--------------+-------------------------+---------------------------+
+| #  | Error type   | SPDX ID      | Package name            | Reason                    |
++----+--------------+--------------+-------------------------+---------------------------+
+| 1  | NTIA         | SPDXRef-Appl | package-lock.json       | Package without a version |
+|    | validation   | ication-     |                         |                           |
+|    | error        | 23fade0ea7b1 |                         |                           |
+|    |              | 493e         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 2  | NTIA         | SPDXRef-File | .                       | Package without a version |
+|    | validation   | system-      |                         |                           |
+|    | error        | 1465386cfbe4 |                         |                           |
+|    |              | e9c7         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 3  | NTIA         | SPDXRef-Appl | package-lock.json       | Package without a package |
+|    | validation   | ication-     |                         | supplier                  |
+|    | error        | 23fade0ea7b1 |                         |                           |
+|    |              | 493e         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 4  | NTIA         | SPDXRef-Pack | accepts                 | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | e65fd53a5c76 |                         |                           |
+|    |              | 1e           |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 5  | NTIA         | SPDXRef-Pack | body-parser             | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 609acc306bf3 |                         |                           |
+|    |              | 31ca         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 6  | NTIA         | SPDXRef-Pack | bytes                   | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 4f3e34805c9c |                         |                           |
+|    |              | a30e         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 7  | NTIA         | SPDXRef-     | call-bind-apply-helpers | Package without a package |
+|    | validation   | Package-cf93 |                         | supplier                  |
+|    | error        | 33e42ca8e09a |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 8  | NTIA         | SPDXRef-Pack | call-bound              | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | f62963d14c33 |                         |                           |
+|    |              | 52e1         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 9  | NTIA         | SPDXRef-     | content-disposition     | Package without a package |
+|    | validation   | Package-fafb |                         | supplier                  |
+|    | error        | e2a82c1c108a |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 10 | NTIA         | SPDXRef-Pack | content-type            | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 3c666666e290 |                         |                           |
+|    |              | c491         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 11 | NTIA         | SPDXRef-Pack | cookie                  | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | f0c14bac0c01 |                         |                           |
+|    |              | 1b87         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 12 | NTIA         | SPDXRef-     | cookie-signature        | Package without a package |
+|    | validation   | Package-dfd5 |                         | supplier                  |
+|    | error        | 0db2880d555b |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 13 | NTIA         | SPDXRef-Pack | debug                   | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 15befc6be2c2 |                         |                           |
+|    |              | 9b22         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 14 | NTIA         | SPDXRef-Pack | depd                    | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 86712d08a0e4 |                         |                           |
+|    |              | 9288         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 15 | NTIA         | SPDXRef-Pack | dunder-proto            | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 90edf5855611 |                         |                           |
+|    |              | e4bd         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 16 | NTIA         | SPDXRef-Pack | ee-first                | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | d46ff947e8af |                         |                           |
+|    |              | 1b9f         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 17 | NTIA         | SPDXRef-     | encodeurl               | Package without a package |
+|    | validation   | Package-ca78 |                         | supplier                  |
+|    | error        | b4775dec42e9 |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 18 | NTIA         | SPDXRef-Pack | es-define-property      | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 627b71703dc6 |                         |                           |
+|    |              | 6e3          |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 19 | NTIA         | SPDXRef-Pack | es-errors               | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 68f04a99d3b1 |                         |                           |
+|    |              | d79a         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 20 | NTIA         | SPDXRef-     | es-object-atoms         | Package without a package |
+|    | validation   | Package-fe82 |                         | supplier                  |
+|    | error        | 5fcf62876537 |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 21 | NTIA         | SPDXRef-Pack | escape-html             | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 862a6c4dafcc |                         |                           |
+|    |              | 3e98         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 22 | NTIA         | SPDXRef-Pack | etag                    | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | b529c2274665 |                         |                           |
+|    |              | aa18         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 23 | NTIA         | SPDXRef-Pack | finalhandler            | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 40bdab039899 |                         |                           |
+|    |              | 9f2b         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 24 | NTIA         | SPDXRef-Pack | forwarded               | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 6c7f781e1af7 |                         |                           |
+|    |              | 9c29         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 25 | NTIA         | SPDXRef-Pack | fresh                   | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 5cc75a6e702b |                         |                           |
+|    |              | 8137         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 26 | NTIA         | SPDXRef-Pack | function-bind           | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 5bf6751fdbb7 |                         |                           |
+|    |              | fb5f         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 27 | NTIA         | SPDXRef-Pack | get-intrinsic           | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | e22e5bb2fcf0 |                         |                           |
+|    |              | 24ca         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 28 | NTIA         | SPDXRef-Pack | get-proto               | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | c502ce5706d2 |                         |                           |
+|    |              | 6c73         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 29 | NTIA         | SPDXRef-     | gopd                    | Package without a package |
+|    | validation   | Package-ac9d |                         | supplier                  |
+|    | error        | 29fed1474699 |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 30 | NTIA         | SPDXRef-Pack | has-symbols             | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 6fd78630d68a |                         |                           |
+|    |              | f557         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 31 | NTIA         | SPDXRef-Pack | hasown                  | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 32c1b735dab7 |                         |                           |
+|    |              | a434         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 32 | NTIA         | SPDXRef-Pack | http-errors             | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | d9c18ef5021f |                         |                           |
+|    |              | 232f         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 33 | NTIA         | SPDXRef-Pack | iconv-lite              | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 3a617486b35b |                         |                           |
+|    |              | 0f68         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 34 | NTIA         | SPDXRef-Pack | inherits                | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 81dc7c318af2 |                         |                           |
+|    |              | c866         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 35 | NTIA         | SPDXRef-Pack | ipaddr.js               | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 521e355375a2 |                         |                           |
+|    |              | 9d43         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 36 | NTIA         | SPDXRef-Pack | is-promise              | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | a4f6eb7d5465 |                         |                           |
+|    |              | c05b         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 37 | NTIA         | SPDXRef-     | math-intrinsics         | Package without a package |
+|    | validation   | Package-ab70 |                         | supplier                  |
+|    | error        | 7e1918bc5cf6 |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 38 | NTIA         | SPDXRef-Pack | media-typer             | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | a69ebe1c3e6d |                         |                           |
+|    |              | b339         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 39 | NTIA         | SPDXRef-     | merge-descriptors       | Package without a package |
+|    | validation   | Package-ace1 |                         | supplier                  |
+|    | error        | 0f85dab20c6d |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 40 | NTIA         | SPDXRef-Pack | mime-db                 | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 53927cd87c4a |                         |                           |
+|    |              | 8e87         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 41 | NTIA         | SPDXRef-Pack | mime-types              | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 1371dc077cf8 |                         |                           |
+|    |              | 0b53         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 42 | NTIA         | SPDXRef-Pack | ms                      | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 46a1fb4f23d5 |                         |                           |
+|    |              | a80a         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 43 | NTIA         | SPDXRef-Pack | negotiator              | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 5f92ac697da6 |                         |                           |
+|    |              | 1abb         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 44 | NTIA         | SPDXRef-Pack | object-inspect          | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 71dba81627b1 |                         |                           |
+|    |              | 5a9b         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 45 | NTIA         | SPDXRef-     | on-finished             | Package without a package |
+|    | validation   | Package-be57 |                         | supplier                  |
+|    | error        | 70ee5896cd37 |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 46 | NTIA         | SPDXRef-Pack | once                    | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 435deaa6d479 |                         |                           |
+|    |              | e6e4         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 47 | NTIA         | SPDXRef-Pack | parseurl                | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 9a5d7e4d8561 |                         |                           |
+|    |              | 63c0         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 48 | NTIA         | SPDXRef-Pack | path-to-regexp          | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 31ad3a7827a8 |                         |                           |
+|    |              | a11a         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 49 | NTIA         | SPDXRef-Pack | proxy-addr              | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 71077ad59294 |                         |                           |
+|    |              | 6453         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 50 | NTIA         | SPDXRef-Pack | qs                      | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 8df0d6d2e662 |                         |                           |
+|    |              | 3ff2         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 51 | NTIA         | SPDXRef-     | range-parser            | Package without a package |
+|    | validation   | Package-edaf |                         | supplier                  |
+|    | error        | 49b2bb1102c  |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 52 | NTIA         | SPDXRef-Pack | raw-body                | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | e2428aa2e02e |                         |                           |
+|    |              | 9ca          |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 53 | NTIA         | SPDXRef-Pack | router                  | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | a4c06d9923a5 |                         |                           |
+|    |              | 06f9         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 54 | NTIA         | SPDXRef-Pack | safe-buffer             | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 361403f09491 |                         |                           |
+|    |              | ea7e         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 55 | NTIA         | SPDXRef-     | safer-buffer            | Package without a package |
+|    | validation   | Package-dd81 |                         | supplier                  |
+|    | error        | 3b354878e4ce |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 56 | NTIA         | SPDXRef-Pack | send                    | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 4630d3a52956 |                         |                           |
+|    |              | 8a5f         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 57 | NTIA         | SPDXRef-Pack | serve-static            | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 370c804e7814 |                         |                           |
+|    |              | 2e36         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 58 | NTIA         | SPDXRef-Pack | setprototypeof          | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 95fef908b47e |                         |                           |
+|    |              | 12d2         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 59 | NTIA         | SPDXRef-Pack | side-channel            | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 17133768ed08 |                         |                           |
+|    |              | d2f2         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 60 | NTIA         | SPDXRef-Pack | side-channel-list       | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 2016bd9b4019 |                         |                           |
+|    |              | d60b         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 61 | NTIA         | SPDXRef-Pack | side-channel-map        | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 7c97e55a6c27 |                         |                           |
+|    |              | 0c58         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 62 | NTIA         | SPDXRef-Pack | side-channel-weakmap    | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 1a6054d6c8ee |                         |                           |
+|    |              | f59b         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 63 | NTIA         | SPDXRef-Pack | statuses                | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 1611404f2453 |                         |                           |
+|    |              | 4a9          |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 64 | NTIA         | SPDXRef-Pack | statuses                | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 705273643507 |                         |                           |
+|    |              | 6cee         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 65 | NTIA         | SPDXRef-Pack | toidentifier            | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 6f910e3cf4ec |                         |                           |
+|    |              | 8d8b         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 66 | NTIA         | SPDXRef-Pack | type-is                 | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 652fe2b43fa0 |                         |                           |
+|    |              | 4068         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 67 | NTIA         | SPDXRef-Pack | unpipe                  | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 22bb17d71f17 |                         |                           |
+|    |              | 8bbf         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 68 | NTIA         | SPDXRef-Pack | vary                    | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 10b851cdd97f |                         |                           |
+|    |              | 3917         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 69 | NTIA         | SPDXRef-Pack | wrappy                  | Package without a package |
+|    | validation   | age-         |                         | supplier                  |
+|    | error        | 3048cf51bd46 |                         |                           |
+|    |              | a59          |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 70 | NTIA         | SPDXRef-File | .                       | Package without a package |
+|    | validation   | system-      |                         | supplier                  |
+|    | error        | 1465386cfbe4 |                         |                           |
+|    |              | e9c7         |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+| 71 | Missing      | General      | General                 | CreatorComment is missing |
+|    | mandatory    |              |                         |                           |
+|    | field from   |              |                         |                           |
+|    | CreationInfo |              |                         |                           |
++----+--------------+--------------+-------------------------+---------------------------+
+The SPDX file Downloads/trivy-compilation.json is not compliant with the OpenChain Telco SBOM Guide version 1.1
