@@ -251,12 +251,67 @@ Ensures a richer and more accurate SBOM including both direct and transitive dep
 
 
 #### 2. [Scanoss](https://github.com/scanoss) 
-**Command:**  
+
+Generating an SBOM using scanoss-py involves two steps:
+
+1. Scan the project and generate raw SBOM
+**Command:**  ( in test target root)
+```
+scanoss-py scan -o scanoss-raw.json . 
+```
+
+2. Convert raw SBOM to SPDX Lite format 
+**Command:**  ( in test target root)
+```
+scanoss-py convert --input scanoss-raw.json --format spdxlite --output  scanoss.json 
+```
+**2.1 Ecosystem:** 
+[Node.js](https://github.com/nokia/SBOM-QA/tree/main/Node.js)
+
+- **Default SBOM:**
+
+- **Compilation Step:**
+
+The project did not originally include a package-lock.json file, To ensure accurate scanning and SBOM generation, the project dependencies were prepared as follows(in root of project): 
+```
+npm install --package-lock-only
+```
+Creates ***package-lock.json*** file.  (Does not install anything into node_modules) 
+
+To Installs only production dependencies based on package-lock.json and Creates a clean environment containing runtime dependencies only, (reducing the risk of false positives from development or test packages during scanning), the following command was executed: 
+```
+npm ci --only=production
+```
+- **Enriched SBOMs:**
+
+
+**2.2 Ecosystem:** 
+[Go](https://github.com/gohugoio/hugo)
+
+- **Default SBOM:**
+
+- **Compilation Step:**
+
+To ensure all required dependencies are included and the module files are consistent, the following command was executed in the project root: 
+```
+go mod tidy
+```
+- Updated files: ***go.mod*** , ***go.sum*** 
+
+Additionally, to improve scanning accuracy, all required dependencies were copied into a local `vendor/` directory, exposing the actual source of dependencies to SCANOSS . The following command was executed: 
+```
+go mod vendor
+```
+- **Enriched SBOMs:**
+
+
+
+
 
 #### 3. [ORT](https://github.com/oss-review-toolkit/ort)  
 **Command:**
 
-For generating SBOMs for all test targets this command is used:
+For generating SBOMs for all test targets these commands are used:
 
 **Analyze phase:**
 ```
