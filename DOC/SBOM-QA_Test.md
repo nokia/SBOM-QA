@@ -693,14 +693,9 @@ Validation results and differences
 
 | Ecosystem   | Compliant | Error Types                        | Notes                                    |
 |-------------|-----------|------------------------------------|------------------------------------------|
-| Go          |     | Missing version, Missing supplier  | 10 validation errors in tidy-vendor.json |
-| Python      |     | -                                  | All checks OK                            |
-| Node.js     |         | -                                  | SBOM valid                               |
-| Java        |      | Missing license info               | Needs enrichment from build artifacts    |
-| C           |       | Missing version                    | Package without version metadata         |
-| C++ (Conan) |       | -                                  | All mandatory SPDX fields included       |
-| C++  |                |                                     |           |          |          |            |           |
-| Python2  |                |                                     |           |          |          |            |           |
+| Go, Python, Node.js, Java (Maven), C, C++ (Conan), C++, Python2        | ❌ Not compliant | NTIA validation errors, Missing mandatory fields  | All packages missing version, supplier, and CreatorComment; NTIA validation errors |
+
+> **Note:** For Trivy, all generated SBOMs—across default, lockfile-based, and vendor-tidy formats—showed consistent validation failures for every ecosystem. The non-compliance was primarily due to missing critical metadata, specifically package version, supplier, and CreatorComment, which triggered NTIA validation errors. This consistent pattern suggests that the validation issues stem from the way Trivy constructs SBOMs, rather than being caused by ecosystem-specific data.
 
 ##### 3. [ORT](https://github.com/oss-review-toolkit/ort)
 
