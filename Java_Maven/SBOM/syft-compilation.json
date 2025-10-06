@@ -1,0 +1,4062 @@
+{
+    "spdxVersion": "SPDX-2.3",
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": ".",
+    "documentNamespace": "https://anchore.com/syft/dir/d92c5933-efae-44da-8070-5e89ccd273d5",
+    "creationInfo": {
+        "licenseListVersion": "3.25",
+        "creators": [
+            "Organization: Anchore, Inc",
+            "Tool: syft-1.28.0"
+        ],
+        "created": "2025-07-31T12:41:21Z"
+    },
+    "packages": [
+        {
+            "name": "android",
+            "SPDXID": "SPDXRef-Package-java-archive-android-63077f6d4a565ed5",
+            "versionInfo": "4.1.1.4",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:com.google.android:android:4.1.1.4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:android:android:4.1.1.4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google:android:4.1.1.4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/com.google.android/android@4.1.1.4"
+                }
+            ]
+        },
+        {
+            "name": "artoolkitplus",
+            "SPDXID": "SPDXRef-Package-java-archive-artoolkitplus-de45a73f61214381",
+            "versionInfo": "2.3.1-1.5.9",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:artoolkitplus:artoolkitplus:2.3.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:artoolkitplus:2.3.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:artoolkitplus:2.3.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/artoolkitplus@2.3.1-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "artoolkitplus-platform",
+            "SPDXID": "SPDXRef-Package-java-archive-artoolkitplus-platform-c80efdcdcb793bcf",
+            "versionInfo": "2.3.1-1.5.9",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /platform/pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:artoolkitplus-platform:artoolkitplus-platform:2.3.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:artoolkitplus-platform:artoolkitplus_platform:2.3.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:artoolkitplus_platform:artoolkitplus-platform:2.3.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:artoolkitplus_platform:artoolkitplus_platform:2.3.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:artoolkitplus:artoolkitplus-platform:2.3.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:artoolkitplus:artoolkitplus_platform:2.3.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:artoolkitplus-platform:2.3.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:artoolkitplus_platform:2.3.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:artoolkitplus-platform:2.3.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:artoolkitplus_platform:2.3.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/artoolkitplus-platform@2.3.1-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "bytedeco/javacpp-presets/.github/actions/deploy-macosx",
+            "SPDXID": "SPDXRef-Package-github-action-bytedeco-javacpp-presets-.github-actions-deploy-macosx-a7fb125c41d9a4c5",
+            "versionInfo": "actions",
+            "supplier": "Organization: bytedeco",
+            "originator": "Organization: bytedeco",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/javacv.yml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy-macosx:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy-macosx:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy-macosx:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy_macosx:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy_macosx:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy-macosx:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy_macosx:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy_macosx:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy-macosx:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy_macosx:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy-macosx:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy_macosx:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy-macosx:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy_macosx:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:github/bytedeco/javacpp-presets@actions#.github/actions/deploy-macosx"
+                }
+            ]
+        },
+        {
+            "name": "bytedeco/javacpp-presets/.github/actions/deploy-ubuntu",
+            "SPDXID": "SPDXRef-Package-github-action-bytedeco-javacpp-presets-.github-actions-deploy-ubuntu-d5957f222634b1ea",
+            "versionInfo": "actions",
+            "supplier": "Organization: bytedeco",
+            "originator": "Organization: bytedeco",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/javacv.yml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy-ubuntu:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy-ubuntu:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy-ubuntu:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy_ubuntu:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy_ubuntu:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy-ubuntu:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy_ubuntu:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy_ubuntu:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy-ubuntu:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy_ubuntu:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy-ubuntu:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy_ubuntu:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy-ubuntu:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy_ubuntu:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:github/bytedeco/javacpp-presets@actions#.github/actions/deploy-ubuntu"
+                }
+            ]
+        },
+        {
+            "name": "bytedeco/javacpp-presets/.github/actions/deploy-windows",
+            "SPDXID": "SPDXRef-Package-github-action-bytedeco-javacpp-presets-.github-actions-deploy-windows-60c688574b02892a",
+            "versionInfo": "actions",
+            "supplier": "Organization: bytedeco",
+            "originator": "Organization: bytedeco",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/javacv.yml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy-windows:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy-windows:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy-windows:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy_windows:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy_windows:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy-windows:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy_windows:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy_windows:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy-windows:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy_windows:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy-windows:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy_windows:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp:bytedeco\\/javacpp-presets\\/.github\\/actions\\/deploy-windows:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco\\/javacpp:bytedeco\\/javacpp_presets\\/.github\\/actions\\/deploy_windows:actions:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:github/bytedeco/javacpp-presets@actions#.github/actions/deploy-windows"
+                }
+            ]
+        },
+        {
+            "name": "demo",
+            "SPDXID": "SPDXRef-Package-java-archive-demo-876fc1abf48530e3",
+            "versionInfo": "1.5.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /samples/pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco.javacv:javacv:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco.javacv:demo:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:javacv:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:demo:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacv:javacv:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:demo:javacv:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacv:demo:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:demo:demo:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco.javacv/demo@1.5.12"
+                }
+            ]
+        },
+        {
+            "name": "ffmpeg",
+            "SPDXID": "SPDXRef-Package-java-archive-ffmpeg-d2164418f2d4f2ae",
+            "versionInfo": "7.1.1-1.5.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:ffmpeg:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:ffmpeg:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:ffmpeg:ffmpeg:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg@7.1.1-1.5.12"
+                }
+            ]
+        },
+        {
+            "name": "ffmpeg-platform",
+            "SPDXID": "SPDXRef-Package-java-archive-ffmpeg-platform-c344e0bd90d64977",
+            "versionInfo": "7.1.1-1.5.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /platform/pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:ffmpeg-platform:ffmpeg-platform:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:ffmpeg-platform:ffmpeg_platform:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:ffmpeg_platform:ffmpeg-platform:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:ffmpeg_platform:ffmpeg_platform:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:ffmpeg-platform:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:ffmpeg_platform:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:ffmpeg-platform:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:ffmpeg_platform:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:ffmpeg:ffmpeg-platform:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:ffmpeg:ffmpeg_platform:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg-platform@7.1.1-1.5.12"
+                }
+            ]
+        },
+        {
+            "name": "ffmpeg-platform-gpl",
+            "SPDXID": "SPDXRef-Package-java-archive-ffmpeg-platform-gpl-0350ced3f120f406",
+            "versionInfo": "7.1.1-1.5.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /platform/pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:ffmpeg-platform-gpl:ffmpeg-platform-gpl:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:ffmpeg-platform-gpl:ffmpeg_platform_gpl:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:ffmpeg_platform_gpl:ffmpeg-platform-gpl:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:ffmpeg_platform_gpl:ffmpeg_platform_gpl:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:ffmpeg-platform:ffmpeg-platform-gpl:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:ffmpeg-platform:ffmpeg_platform_gpl:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:ffmpeg_platform:ffmpeg-platform-gpl:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:ffmpeg_platform:ffmpeg_platform_gpl:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:ffmpeg-platform-gpl:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:ffmpeg_platform_gpl:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:ffmpeg-platform-gpl:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:ffmpeg_platform_gpl:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:ffmpeg:ffmpeg-platform-gpl:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:ffmpeg:ffmpeg_platform_gpl:7.1.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/ffmpeg-platform-gpl@7.1.1-1.5.12"
+                }
+            ]
+        },
+        {
+            "name": "flycapture",
+            "SPDXID": "SPDXRef-Package-java-archive-flycapture-284d1223bfaa9e8b",
+            "versionInfo": "2.13.3.31-1.5.9",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:flycapture:2.13.3.31-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:flycapture:flycapture:2.13.3.31-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:flycapture:2.13.3.31-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/flycapture@2.13.3.31-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "flycapture-platform",
+            "SPDXID": "SPDXRef-Package-java-archive-flycapture-platform-0c7e52e693aab0fd",
+            "versionInfo": "2.13.3.31-1.5.9",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /platform/pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:flycapture-platform:flycapture-platform:2.13.3.31-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:flycapture-platform:flycapture_platform:2.13.3.31-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:flycapture_platform:flycapture-platform:2.13.3.31-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:flycapture_platform:flycapture_platform:2.13.3.31-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:flycapture-platform:2.13.3.31-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:flycapture_platform:2.13.3.31-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:flycapture:flycapture-platform:2.13.3.31-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:flycapture:flycapture_platform:2.13.3.31-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:flycapture-platform:2.13.3.31-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:flycapture_platform:2.13.3.31-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/flycapture-platform@2.13.3.31-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "gdx",
+            "SPDXID": "SPDXRef-Package-java-archive-gdx-144520703b30a923",
+            "versionInfo": "1.13.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:com.badlogicgames.gdx:gdx:1.13.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:badlogicgames:gdx:1.13.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gdx:gdx:1.13.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/com.badlogicgames.gdx/gdx@1.13.1"
+                }
+            ]
+        },
+        {
+            "name": "gluegen-rt-main",
+            "SPDXID": "SPDXRef-Package-java-archive-gluegen-rt-main-fe8a4649491ebef6",
+            "versionInfo": "2.3.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.jogamp.gluegen:gluegen-rt-main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.jogamp.gluegen:gluegen_rt_main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gluegen-rt-main:gluegen-rt-main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gluegen-rt-main:gluegen_rt_main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gluegen_rt_main:gluegen-rt-main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gluegen_rt_main:gluegen_rt_main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gluegen-rt:gluegen-rt-main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gluegen-rt:gluegen_rt_main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gluegen_rt:gluegen-rt-main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gluegen_rt:gluegen_rt_main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.jogamp.gluegen:gluegen:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gluegen-rt-main:gluegen:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gluegen:gluegen-rt-main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gluegen:gluegen_rt_main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gluegen_rt_main:gluegen:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogamp:gluegen-rt-main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogamp:gluegen_rt_main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gluegen-rt:gluegen:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gluegen_rt:gluegen:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gluegen:gluegen:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogamp:gluegen:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.jogamp.gluegen/gluegen-rt-main@2.3.2"
+                }
+            ]
+        },
+        {
+            "name": "javacpp",
+            "SPDXID": "SPDXRef-Package-java-archive-javacpp-088ccae0191652ef",
+            "versionInfo": "1.5.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:javacpp:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:javacpp:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacpp:javacpp:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/javacpp@1.5.12"
+                }
+            ]
+        },
+        {
+            "name": "javacpp-platform",
+            "SPDXID": "SPDXRef-Package-java-archive-javacpp-platform-a3016a4880e95a84",
+            "versionInfo": "1.5.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /platform/pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacpp-platform:javacpp-platform:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacpp-platform:javacpp_platform:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacpp_platform:javacpp-platform:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacpp_platform:javacpp_platform:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:javacpp-platform:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:javacpp_platform:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:javacpp-platform:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:javacpp_platform:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacpp:javacpp-platform:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacpp:javacpp_platform:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/javacpp-platform@1.5.12"
+                }
+            ]
+        },
+        {
+            "name": "javacv",
+            "SPDXID": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "versionInfo": "1.5.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "LicenseRef-Apache-License--Version-2.0 AND LicenseRef-GNU-General-Public-License--GPL--version-2--or-any-later-version AND LicenseRef-GPLv2-with-Classpath-exception",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:javacv:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:javacv:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacv:javacv:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/javacv@1.5.12"
+                }
+            ]
+        },
+        {
+            "name": "javacv",
+            "SPDXID": "SPDXRef-Package-java-archive-javacv-84fee431741eb122",
+            "versionInfo": "1.5.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /target/javacv-sources.jar",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "LicenseRef-Apache-License--Version-2.0 AND LicenseRef-GNU-General-Public-License--GPL--version-2--or-any-later-version AND LicenseRef-GPLv2-with-Classpath-exception",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:javacv:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:javacv:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacv:javacv:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/javacv@1.5.12"
+                }
+            ]
+        },
+        {
+            "name": "javacv",
+            "SPDXID": "SPDXRef-Package-java-archive-javacv-5a30f70571bd06bc",
+            "versionInfo": "1.5.12",
+            "supplier": "Organization: Bytedeco",
+            "originator": "Organization: Bytedeco",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "59cbe4478b9c86087d4d2e343ca0fe00c27e5e50"
+                }
+            ],
+            "sourceInfo": "acquired package info from installed java archive: /target/javacv.jar",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "LicenseRef-Apache-License--Version-2.0 AND LicenseRef-GNU-General-Public-License--GPL--version-2--or-any-later-version AND LicenseRef-GPLv2-with-Classpath-exception",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco.javacv.JavaCV:javacv:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:javacv:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:javacv:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:JavaCV:javacv:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacv:javacv:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/javacv@1.5.12"
+                }
+            ]
+        },
+        {
+            "name": "javacv-javadoc",
+            "SPDXID": "SPDXRef-Package-java-archive-javacv-javadoc-765e2045c33c0e28",
+            "versionInfo": "UNKNOWN",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "34c81e5f0d39ac9abe9f80bc17136a421cbbee6e"
+                }
+            ],
+            "sourceInfo": "acquired package info from installed java archive: /target/javacv-javadoc.jar",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacv-javadoc:javacv-javadoc:*:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacv-javadoc:javacv_javadoc:*:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacv_javadoc:javacv-javadoc:*:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacv_javadoc:javacv_javadoc:*:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacv:javacv-javadoc:*:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacv:javacv_javadoc:*:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/javacv-javadoc/javacv-javadoc"
+                }
+            ]
+        },
+        {
+            "name": "javacv-platform",
+            "SPDXID": "SPDXRef-Package-java-archive-javacv-platform-a0db3fb7575d1a6f",
+            "versionInfo": "1.5.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /platform/pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacv-platform:javacv-platform:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacv-platform:javacv_platform:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacv_platform:javacv-platform:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacv_platform:javacv_platform:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:javacv-platform:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:javacv_platform:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:javacv-platform:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:javacv_platform:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacv:javacv-platform:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacv:javacv_platform:1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/javacv-platform@1.5.12"
+                }
+            ]
+        },
+        {
+            "name": "javacv-sources",
+            "SPDXID": "SPDXRef-Package-java-archive-javacv-sources-ce833d7fb0ebd965",
+            "versionInfo": "UNKNOWN",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "0e049159e62bf311ce7599b76811f7847e9ac1b4"
+                }
+            ],
+            "sourceInfo": "acquired package info from installed java archive: /target/javacv-sources.jar",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacv-sources:javacv-sources:*:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacv-sources:javacv_sources:*:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacv_sources:javacv-sources:*:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacv_sources:javacv_sources:*:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacv:javacv-sources:*:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javacv:javacv_sources:*:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/javacv-sources/javacv-sources"
+                }
+            ]
+        },
+        {
+            "name": "javafx-graphics",
+            "SPDXID": "SPDXRef-Package-java-archive-javafx-graphics-8a733780e916ee52",
+            "versionInfo": "11",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javafx-graphics:javafx-graphics:11:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javafx-graphics:javafx_graphics:11:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javafx_graphics:javafx-graphics:11:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javafx_graphics:javafx_graphics:11:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.openjfx:javafx-graphics:11:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.openjfx:javafx_graphics:11:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx:javafx-graphics:11:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx:javafx_graphics:11:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javafx:javafx-graphics:11:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javafx:javafx_graphics:11:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.openjfx/javafx-graphics@11"
+                }
+            ]
+        },
+        {
+            "name": "javafx-graphics",
+            "SPDXID": "SPDXRef-Package-java-archive-javafx-graphics-c831a6c9a49c25d9",
+            "versionInfo": "17",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javafx-graphics:javafx-graphics:17:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javafx-graphics:javafx_graphics:17:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javafx_graphics:javafx-graphics:17:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javafx_graphics:javafx_graphics:17:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.openjfx:javafx-graphics:17:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.openjfx:javafx_graphics:17:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx:javafx-graphics:17:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx:javafx_graphics:17:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javafx:javafx-graphics:17:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javafx:javafx_graphics:17:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.openjfx/javafx-graphics@17"
+                }
+            ]
+        },
+        {
+            "name": "javafx-graphics",
+            "SPDXID": "SPDXRef-Package-java-archive-javafx-graphics-8c121f78fbe0f30f",
+            "versionInfo": "21",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javafx-graphics:javafx-graphics:21:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javafx-graphics:javafx_graphics:21:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javafx_graphics:javafx-graphics:21:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javafx_graphics:javafx_graphics:21:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.openjfx:javafx-graphics:21:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.openjfx:javafx_graphics:21:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx:javafx-graphics:21:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx:javafx_graphics:21:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javafx:javafx-graphics:21:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:javafx:javafx_graphics:21:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.openjfx/javafx-graphics@21"
+                }
+            ]
+        },
+        {
+            "name": "jocl-main",
+            "SPDXID": "SPDXRef-Package-java-archive-jocl-main-757d623bb9128fd7",
+            "versionInfo": "2.3.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.jogamp.jocl:jocl-main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.jogamp.jocl:jocl_main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.jogamp.jocl:jocl:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jocl-main:jocl-main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jocl-main:jocl_main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jocl_main:jocl-main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jocl_main:jocl_main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogamp:jocl-main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogamp:jocl_main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jocl-main:jocl:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jocl:jocl-main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jocl:jocl_main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jocl_main:jocl:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogamp:jocl:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jocl:jocl:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.jogamp.jocl/jocl-main@2.3.2"
+                }
+            ]
+        },
+        {
+            "name": "jogl-all-main",
+            "SPDXID": "SPDXRef-Package-java-archive-jogl-all-main-cf69c36c9a97a780",
+            "versionInfo": "2.3.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.jogamp.jogl:jogl-all-main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.jogamp.jogl:jogl_all_main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogl-all-main:jogl-all-main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogl-all-main:jogl_all_main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogl_all_main:jogl-all-main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogl_all_main:jogl_all_main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogl-all:jogl-all-main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogl-all:jogl_all_main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogl_all:jogl-all-main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogl_all:jogl_all_main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogamp:jogl-all-main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogamp:jogl_all_main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.jogamp.jogl:jogl:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogl-all-main:jogl:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogl:jogl-all-main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogl:jogl_all_main:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogl_all_main:jogl:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogl-all:jogl:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogl_all:jogl:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogamp:jogl:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:jogl:jogl:2.3.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.jogamp.jogl/jogl-all-main@2.3.2"
+                }
+            ]
+        },
+        {
+            "name": "junit",
+            "SPDXID": "SPDXRef-Package-java-archive-junit-400af29f68d273fb",
+            "versionInfo": "4.13.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /platform/pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:junit:junit:4.13.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/junit/junit@4.13.2"
+                }
+            ]
+        },
+        {
+            "name": "leptonica",
+            "SPDXID": "SPDXRef-Package-java-archive-leptonica-007ea37864c7e5af",
+            "versionInfo": "1.85.0-1.5.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:leptonica:1.85.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:leptonica:leptonica:1.85.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:leptonica:1.85.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/leptonica@1.85.0-1.5.12"
+                }
+            ]
+        },
+        {
+            "name": "leptonica-platform",
+            "SPDXID": "SPDXRef-Package-java-archive-leptonica-platform-e18e944508c7e8a4",
+            "versionInfo": "1.85.0-1.5.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /platform/pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:leptonica-platform:leptonica-platform:1.85.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:leptonica-platform:leptonica_platform:1.85.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:leptonica_platform:leptonica-platform:1.85.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:leptonica_platform:leptonica_platform:1.85.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:leptonica-platform:1.85.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:leptonica_platform:1.85.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:leptonica:leptonica-platform:1.85.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:leptonica:leptonica_platform:1.85.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:leptonica-platform:1.85.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:leptonica_platform:1.85.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/leptonica-platform@1.85.0-1.5.12"
+                }
+            ]
+        },
+        {
+            "name": "libdc1394",
+            "SPDXID": "SPDXRef-Package-java-archive-libdc1394-2eaf4370f65743e5",
+            "versionInfo": "2.2.6-1.5.9",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:libdc1394:2.2.6-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:libdc1394:libdc1394:2.2.6-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:libdc1394:2.2.6-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/libdc1394@2.2.6-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "libdc1394-platform",
+            "SPDXID": "SPDXRef-Package-java-archive-libdc1394-platform-c53617a7331df86f",
+            "versionInfo": "2.2.6-1.5.9",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /platform/pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:libdc1394-platform:libdc1394-platform:2.2.6-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:libdc1394-platform:libdc1394_platform:2.2.6-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:libdc1394_platform:libdc1394-platform:2.2.6-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:libdc1394_platform:libdc1394_platform:2.2.6-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:libdc1394-platform:2.2.6-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:libdc1394_platform:2.2.6-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:libdc1394:libdc1394-platform:2.2.6-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:libdc1394:libdc1394_platform:2.2.6-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:libdc1394-platform:2.2.6-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:libdc1394_platform:2.2.6-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/libdc1394-platform@2.2.6-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "libfreenect",
+            "SPDXID": "SPDXRef-Package-java-archive-libfreenect-83ce962014c33ca0",
+            "versionInfo": "0.5.7-1.5.9",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:libfreenect:0.5.7-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:libfreenect:libfreenect:0.5.7-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:libfreenect:0.5.7-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/libfreenect@0.5.7-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "libfreenect-platform",
+            "SPDXID": "SPDXRef-Package-java-archive-libfreenect-platform-60fe1df61cc1c5fe",
+            "versionInfo": "0.5.7-1.5.9",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /platform/pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:libfreenect-platform:libfreenect-platform:0.5.7-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:libfreenect-platform:libfreenect_platform:0.5.7-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:libfreenect_platform:libfreenect-platform:0.5.7-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:libfreenect_platform:libfreenect_platform:0.5.7-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:libfreenect-platform:0.5.7-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:libfreenect_platform:0.5.7-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:libfreenect:libfreenect-platform:0.5.7-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:libfreenect:libfreenect_platform:0.5.7-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:libfreenect-platform:0.5.7-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:libfreenect_platform:0.5.7-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/libfreenect-platform@0.5.7-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "libfreenect2",
+            "SPDXID": "SPDXRef-Package-java-archive-libfreenect2-c3257ca4d1bbcf39",
+            "versionInfo": "0.2.0-1.5.9",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:libfreenect2:libfreenect2:0.2.0-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:libfreenect2:0.2.0-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:libfreenect2:0.2.0-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/libfreenect2@0.2.0-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "libfreenect2-platform",
+            "SPDXID": "SPDXRef-Package-java-archive-libfreenect2-platform-1fc7bfa32ffd0aad",
+            "versionInfo": "0.2.0-1.5.9",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /platform/pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:libfreenect2-platform:libfreenect2-platform:0.2.0-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:libfreenect2-platform:libfreenect2_platform:0.2.0-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:libfreenect2_platform:libfreenect2-platform:0.2.0-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:libfreenect2_platform:libfreenect2_platform:0.2.0-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:libfreenect2:libfreenect2-platform:0.2.0-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:libfreenect2:libfreenect2_platform:0.2.0-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:libfreenect2-platform:0.2.0-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:libfreenect2_platform:0.2.0-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:libfreenect2-platform:0.2.0-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:libfreenect2_platform:0.2.0-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/libfreenect2-platform@0.2.0-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "librealsense",
+            "SPDXID": "SPDXRef-Package-java-archive-librealsense-5c1be6adf8ba493c",
+            "versionInfo": "1.12.4-1.5.9",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:librealsense:librealsense:1.12.4-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:librealsense:1.12.4-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:librealsense:1.12.4-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/librealsense@1.12.4-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "librealsense-platform",
+            "SPDXID": "SPDXRef-Package-java-archive-librealsense-platform-e7a781486f89516e",
+            "versionInfo": "1.12.4-1.5.9",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /platform/pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:librealsense-platform:librealsense-platform:1.12.4-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:librealsense-platform:librealsense_platform:1.12.4-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:librealsense_platform:librealsense-platform:1.12.4-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:librealsense_platform:librealsense_platform:1.12.4-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:librealsense:librealsense-platform:1.12.4-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:librealsense:librealsense_platform:1.12.4-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:librealsense-platform:1.12.4-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:librealsense_platform:1.12.4-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:librealsense-platform:1.12.4-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:librealsense_platform:1.12.4-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/librealsense-platform@1.12.4-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "librealsense2",
+            "SPDXID": "SPDXRef-Package-java-archive-librealsense2-b0a144e9e3c7a2f7",
+            "versionInfo": "2.53.1-1.5.9",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:librealsense2:librealsense2:2.53.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:librealsense2:2.53.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:librealsense2:2.53.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/librealsense2@2.53.1-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "librealsense2-platform",
+            "SPDXID": "SPDXRef-Package-java-archive-librealsense2-platform-a5891453fc742c2c",
+            "versionInfo": "2.53.1-1.5.9",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /platform/pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:librealsense2-platform:librealsense2-platform:2.53.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:librealsense2-platform:librealsense2_platform:2.53.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:librealsense2_platform:librealsense2-platform:2.53.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:librealsense2_platform:librealsense2_platform:2.53.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:librealsense2:librealsense2-platform:2.53.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:librealsense2:librealsense2_platform:2.53.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:librealsense2-platform:2.53.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:librealsense2_platform:2.53.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:librealsense2-platform:2.53.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:librealsense2_platform:2.53.1-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/librealsense2-platform@2.53.1-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "mxschmitt/action-tmate",
+            "SPDXID": "SPDXRef-Package-github-action-mxschmitt-action-tmate-559beee9566ead71",
+            "versionInfo": "v3.5",
+            "supplier": "Organization: mxschmitt",
+            "originator": "Organization: mxschmitt",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/javacv.yml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:mxschmitt\\/action-tmate:mxschmitt\\/action-tmate:v3.5:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:mxschmitt\\/action-tmate:mxschmitt\\/action_tmate:v3.5:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:mxschmitt\\/action_tmate:mxschmitt\\/action-tmate:v3.5:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:mxschmitt\\/action_tmate:mxschmitt\\/action_tmate:v3.5:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:mxschmitt\\/action:mxschmitt\\/action-tmate:v3.5:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:mxschmitt\\/action:mxschmitt\\/action_tmate:v3.5:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:github/mxschmitt/action-tmate@v3.5"
+                }
+            ]
+        },
+        {
+            "name": "openblas",
+            "SPDXID": "SPDXRef-Package-java-archive-openblas-ac11db2b3381e4a3",
+            "versionInfo": "0.3.30-1.5.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:openblas:0.3.30-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:openblas:0.3.30-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openblas:openblas:0.3.30-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/openblas@0.3.30-1.5.12"
+                }
+            ]
+        },
+        {
+            "name": "openblas-platform",
+            "SPDXID": "SPDXRef-Package-java-archive-openblas-platform-361ef63c98e11a10",
+            "versionInfo": "0.3.30-1.5.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /platform/pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openblas-platform:openblas-platform:0.3.30-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openblas-platform:openblas_platform:0.3.30-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openblas_platform:openblas-platform:0.3.30-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openblas_platform:openblas_platform:0.3.30-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:openblas-platform:0.3.30-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:openblas_platform:0.3.30-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:openblas-platform:0.3.30-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:openblas_platform:0.3.30-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openblas:openblas-platform:0.3.30-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openblas:openblas_platform:0.3.30-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/openblas-platform@0.3.30-1.5.12"
+                }
+            ]
+        },
+        {
+            "name": "opencv",
+            "SPDXID": "SPDXRef-Package-java-archive-opencv-b30bc730213402b1",
+            "versionInfo": "4.11.0-1.5.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:opencv:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:opencv:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:opencv:opencv:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/opencv@4.11.0-1.5.12"
+                }
+            ]
+        },
+        {
+            "name": "opencv-platform",
+            "SPDXID": "SPDXRef-Package-java-archive-opencv-platform-5e4922d578fc0947",
+            "versionInfo": "4.11.0-1.5.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /platform/pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:opencv-platform:opencv-platform:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:opencv-platform:opencv_platform:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:opencv_platform:opencv-platform:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:opencv_platform:opencv_platform:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:opencv-platform:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:opencv_platform:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:opencv-platform:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:opencv_platform:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:opencv:opencv-platform:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:opencv:opencv_platform:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/opencv-platform@4.11.0-1.5.12"
+                }
+            ]
+        },
+        {
+            "name": "opencv-platform-gpu",
+            "SPDXID": "SPDXRef-Package-java-archive-opencv-platform-gpu-a0d3ebafc64004a7",
+            "versionInfo": "4.11.0-1.5.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /platform/pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:opencv-platform-gpu:opencv-platform-gpu:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:opencv-platform-gpu:opencv_platform_gpu:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:opencv_platform_gpu:opencv-platform-gpu:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:opencv_platform_gpu:opencv_platform_gpu:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:opencv-platform:opencv-platform-gpu:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:opencv-platform:opencv_platform_gpu:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:opencv_platform:opencv-platform-gpu:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:opencv_platform:opencv_platform_gpu:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:opencv-platform-gpu:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:opencv_platform_gpu:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:opencv-platform-gpu:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:opencv_platform_gpu:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:opencv:opencv-platform-gpu:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:opencv:opencv_platform_gpu:4.11.0-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/opencv-platform-gpu@4.11.0-1.5.12"
+                }
+            ]
+        },
+        {
+            "name": "openjfx-78-backport",
+            "SPDXID": "SPDXRef-Package-java-archive-openjfx-78-backport-9dc67348a671c823",
+            "versionInfo": "1.8.0-ea-b96.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:net.java.openjfx.backport:openjfx-78-backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:net.java.openjfx.backport:openjfx_78_backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx-78-backport:openjfx-78-backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx-78-backport:openjfx_78_backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx_78_backport:openjfx-78-backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx_78_backport:openjfx_78_backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:net.java.openjfx.backport:backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:net.java.openjfx.backport:openjfx:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx-78:openjfx-78-backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx-78:openjfx_78_backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx_78:openjfx-78-backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx_78:openjfx_78_backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:backport:openjfx-78-backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:backport:openjfx_78_backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx-78-backport:backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx_78_backport:backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx-78-backport:openjfx:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx:openjfx-78-backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx:openjfx_78_backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx_78_backport:openjfx:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:java:openjfx-78-backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:java:openjfx_78_backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx-78:backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx_78:backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx-78:openjfx:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx_78:openjfx:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:backport:backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:backport:openjfx:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx:backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:openjfx:openjfx:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:java:backport:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:java:openjfx:1.8.0-ea-b96.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/net.java.openjfx.backport/openjfx-78-backport@1.8.0-ea-b96.1"
+                }
+            ]
+        },
+        {
+            "name": "tesseract",
+            "SPDXID": "SPDXRef-Package-java-archive-tesseract-a046b29161b994b6",
+            "versionInfo": "5.5.1-1.5.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:tesseract:5.5.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:tesseract:tesseract:5.5.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:tesseract:5.5.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/tesseract@5.5.1-1.5.12"
+                }
+            ]
+        },
+        {
+            "name": "tesseract-platform",
+            "SPDXID": "SPDXRef-Package-java-archive-tesseract-platform-a68ba28f550a2cad",
+            "versionInfo": "5.5.1-1.5.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /platform/pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:tesseract-platform:tesseract-platform:5.5.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:tesseract-platform:tesseract_platform:5.5.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:tesseract_platform:tesseract-platform:5.5.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:tesseract_platform:tesseract_platform:5.5.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:tesseract-platform:5.5.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:tesseract_platform:5.5.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:tesseract:tesseract-platform:5.5.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:tesseract:tesseract_platform:5.5.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:tesseract-platform:5.5.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:tesseract_platform:5.5.1-1.5.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/tesseract-platform@5.5.1-1.5.12"
+                }
+            ]
+        },
+        {
+            "name": "videoinput",
+            "SPDXID": "SPDXRef-Package-java-archive-videoinput-b5a4abb18f44f650",
+            "versionInfo": "0.200-1.5.9",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:videoinput:0.200-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:videoinput:videoinput:0.200-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:videoinput:0.200-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/videoinput@0.200-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": "videoinput-platform",
+            "SPDXID": "SPDXRef-Package-java-archive-videoinput-platform-1147eb92f716150b",
+            "versionInfo": "0.200-1.5.9",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /platform/pom.xml",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:videoinput-platform:videoinput-platform:0.200-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:videoinput-platform:videoinput_platform:0.200-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:videoinput_platform:videoinput-platform:0.200-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:videoinput_platform:videoinput_platform:0.200-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:videoinput-platform:0.200-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.bytedeco:videoinput_platform:0.200-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:videoinput:videoinput-platform:0.200-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:videoinput:videoinput_platform:0.200-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:videoinput-platform:0.200-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:bytedeco:videoinput_platform:0.200-1.5.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.bytedeco/videoinput-platform@0.200-1.5.9"
+                }
+            ]
+        },
+        {
+            "name": ".",
+            "SPDXID": "SPDXRef-DocumentRoot-Directory-.",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "primaryPackagePurpose": "FILE"
+        }
+    ],
+    "files": [
+        {
+            "fileName": ".github/workflows/javacv.yml",
+            "SPDXID": "SPDXRef-File-.github-workflows-javacv.yml-283055a27edb44e7",
+            "fileTypes": [
+                "TEXT"
+            ],
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "ed102a7582d7e6124650a5f97f8a28724e2a0d3e"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "4e3ae651df023a37ca16de10efa16c0df89a8f57504ab8c350e96e68fe0196b4"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "fileName": "platform/pom.xml",
+            "SPDXID": "SPDXRef-File-platform-pom.xml-bb287d9a893ebbb0",
+            "fileTypes": [
+                "TEXT"
+            ],
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "b2bae3cb4a865d4240bc6df6ed0f06806ebae2cb"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "3d6326f8d1b0f9dec415ec83252c22fa4ce4705952c265e8c841c28c46c56816"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "fileName": "pom.xml",
+            "SPDXID": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "fileTypes": [
+                "TEXT"
+            ],
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "7e9f7e6edb4bbfa8261990e9a6ac22a267ebe4b4"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "d2c4c6dc53bc42b5b2de1e19c09f679975addde5e3a6d222f67282bc093fd18a"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "fileName": "samples/pom.xml",
+            "SPDXID": "SPDXRef-File-samples-pom.xml-a65fe406736c39b0",
+            "fileTypes": [
+                "TEXT"
+            ],
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "13b44285a1938d6de2b7d871bd59737502fa8b2f"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "0950c0f5ed098a46350d5dfa444eb8ace81384faecfaa4f904d2d2bc66a0a1a4"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "fileName": "target/javacv-javadoc.jar",
+            "SPDXID": "SPDXRef-File-target-javacv-javadoc.jar-6858b42397f1fbac",
+            "fileTypes": [
+                "APPLICATION",
+                "ARCHIVE"
+            ],
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "34c81e5f0d39ac9abe9f80bc17136a421cbbee6e"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "46022b65e00a8b4cd03b9fd7d92ded81775ffcd51148bbbb3c8f45efe439b6db"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "fileName": "target/javacv-sources.jar",
+            "SPDXID": "SPDXRef-File-target-javacv-sources.jar-3ac6af3ed8e968ef",
+            "fileTypes": [
+                "APPLICATION",
+                "ARCHIVE"
+            ],
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "0e049159e62bf311ce7599b76811f7847e9ac1b4"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "edde9ce49cbf86b897f77b106effd81d33adad0ca68e886fe07036e33ca62b6e"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "fileName": "target/javacv.jar",
+            "SPDXID": "SPDXRef-File-target-javacv.jar-4590724e67d67d80",
+            "fileTypes": [
+                "APPLICATION"
+            ],
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "59cbe4478b9c86087d4d2e343ca0fe00c27e5e50"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "7eada75fa4b996633ad3a616f916370e46baedf202d0cdbbac35d8fdd3b927db"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ],
+            "copyrightText": "NOASSERTION"
+        }
+    ],
+    "hasExtractedLicensingInfos": [
+        {
+            "licenseId": "LicenseRef-Apache-License--Version-2.0",
+            "extractedText": "NOASSERTION",
+            "name": "Apache License, Version 2.0",
+            "seeAlsos": [
+                "http://www.apache.org/licenses/LICENSE-2.0"
+            ]
+        },
+        {
+            "licenseId": "LicenseRef-GNU-General-Public-License--GPL--version-2--or-any-later-version",
+            "extractedText": "NOASSERTION",
+            "name": "GNU General Public License (GPL) version 2, or any later version",
+            "seeAlsos": [
+                "http://www.gnu.org/licenses/"
+            ]
+        },
+        {
+            "licenseId": "LicenseRef-GPLv2-with-Classpath-exception",
+            "extractedText": "NOASSERTION",
+            "name": "GPLv2 with Classpath exception",
+            "seeAlsos": [
+                "http://www.gnu.org/software/classpath/license.html"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-leptonica-007ea37864c7e5af",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-ffmpeg-platform-gpl-0350ced3f120f406",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-demo-876fc1abf48530e3",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-ffmpeg-platform-gpl-0350ced3f120f406",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-platform-a0db3fb7575d1a6f",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-javacpp-088ccae0191652ef",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-flycapture-platform-0c7e52e693aab0fd",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-platform-a0db3fb7575d1a6f",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-videoinput-platform-1147eb92f716150b",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-platform-a0db3fb7575d1a6f",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-gdx-144520703b30a923",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-libfreenect2-platform-1fc7bfa32ffd0aad",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-platform-a0db3fb7575d1a6f",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-flycapture-284d1223bfaa9e8b",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-libdc1394-2eaf4370f65743e5",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-openblas-platform-361ef63c98e11a10",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-platform-a0db3fb7575d1a6f",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-junit-400af29f68d273fb",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-platform-a0db3fb7575d1a6f",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-librealsense-5c1be6adf8ba493c",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-opencv-platform-5e4922d578fc0947",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-platform-a0db3fb7575d1a6f",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-libfreenect-platform-60fe1df61cc1c5fe",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-platform-a0db3fb7575d1a6f",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-android-63077f6d4a565ed5",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-jocl-main-757d623bb9128fd7",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-libfreenect-83ce962014c33ca0",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-javacv-84fee431741eb122",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-sources-ce833d7fb0ebd965",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-javafx-graphics-8a733780e916ee52",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-javafx-graphics-8c121f78fbe0f30f",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-openjfx-78-backport-9dc67348a671c823",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-tesseract-a046b29161b994b6",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-opencv-platform-gpu-a0d3ebafc64004a7",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-demo-876fc1abf48530e3",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-opencv-platform-gpu-a0d3ebafc64004a7",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-platform-a0db3fb7575d1a6f",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-javacv-platform-a0db3fb7575d1a6f",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-demo-876fc1abf48530e3",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-javacpp-platform-a3016a4880e95a84",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-platform-a0db3fb7575d1a6f",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-librealsense2-platform-a5891453fc742c2c",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-platform-a0db3fb7575d1a6f",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-tesseract-platform-a68ba28f550a2cad",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-platform-a0db3fb7575d1a6f",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-openblas-ac11db2b3381e4a3",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-librealsense2-b0a144e9e3c7a2f7",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-opencv-b30bc730213402b1",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-videoinput-b5a4abb18f44f650",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-libfreenect2-c3257ca4d1bbcf39",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-ffmpeg-platform-c344e0bd90d64977",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-platform-a0db3fb7575d1a6f",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-libdc1394-platform-c53617a7331df86f",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-platform-a0db3fb7575d1a6f",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-artoolkitplus-platform-c80efdcdcb793bcf",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-platform-a0db3fb7575d1a6f",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-javafx-graphics-c831a6c9a49c25d9",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-jogl-all-main-cf69c36c9a97a780",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-ffmpeg-d2164418f2d4f2ae",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-artoolkitplus-de45a73f61214381",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-leptonica-platform-e18e944508c7e8a4",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-platform-a0db3fb7575d1a6f",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-librealsense-platform-e7a781486f89516e",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-platform-a0db3fb7575d1a6f",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-platform-a0db3fb7575d1a6f",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-gluegen-rt-main-fe8a4649491ebef6",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-leptonica-007ea37864c7e5af",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-ffmpeg-platform-gpl-0350ced3f120f406",
+            "relatedSpdxElement": "SPDXRef-File-platform-pom.xml-bb287d9a893ebbb0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-javacpp-088ccae0191652ef",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-flycapture-platform-0c7e52e693aab0fd",
+            "relatedSpdxElement": "SPDXRef-File-platform-pom.xml-bb287d9a893ebbb0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-videoinput-platform-1147eb92f716150b",
+            "relatedSpdxElement": "SPDXRef-File-platform-pom.xml-bb287d9a893ebbb0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-gdx-144520703b30a923",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-libfreenect2-platform-1fc7bfa32ffd0aad",
+            "relatedSpdxElement": "SPDXRef-File-platform-pom.xml-bb287d9a893ebbb0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-flycapture-284d1223bfaa9e8b",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-libdc1394-2eaf4370f65743e5",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-openblas-platform-361ef63c98e11a10",
+            "relatedSpdxElement": "SPDXRef-File-platform-pom.xml-bb287d9a893ebbb0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-junit-400af29f68d273fb",
+            "relatedSpdxElement": "SPDXRef-File-platform-pom.xml-bb287d9a893ebbb0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-github-action-mxschmitt-action-tmate-559beee9566ead71",
+            "relatedSpdxElement": "SPDXRef-File-.github-workflows-javacv.yml-283055a27edb44e7",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-javacv-5a30f70571bd06bc",
+            "relatedSpdxElement": "SPDXRef-File-target-javacv.jar-4590724e67d67d80",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-librealsense-5c1be6adf8ba493c",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-opencv-platform-5e4922d578fc0947",
+            "relatedSpdxElement": "SPDXRef-File-platform-pom.xml-bb287d9a893ebbb0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-github-action-bytedeco-javacpp-presets-.github-actions-deploy-windows-60c688574b02892a",
+            "relatedSpdxElement": "SPDXRef-File-.github-workflows-javacv.yml-283055a27edb44e7",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-libfreenect-platform-60fe1df61cc1c5fe",
+            "relatedSpdxElement": "SPDXRef-File-platform-pom.xml-bb287d9a893ebbb0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-android-63077f6d4a565ed5",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-jocl-main-757d623bb9128fd7",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-javacv-javadoc-765e2045c33c0e28",
+            "relatedSpdxElement": "SPDXRef-File-target-javacv-javadoc.jar-6858b42397f1fbac",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-libfreenect-83ce962014c33ca0",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-javacv-84fee431741eb122",
+            "relatedSpdxElement": "SPDXRef-File-target-javacv-sources.jar-3ac6af3ed8e968ef",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-demo-876fc1abf48530e3",
+            "relatedSpdxElement": "SPDXRef-File-samples-pom.xml-a65fe406736c39b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-javafx-graphics-8a733780e916ee52",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-javafx-graphics-8c121f78fbe0f30f",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-openjfx-78-backport-9dc67348a671c823",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-tesseract-a046b29161b994b6",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-opencv-platform-gpu-a0d3ebafc64004a7",
+            "relatedSpdxElement": "SPDXRef-File-platform-pom.xml-bb287d9a893ebbb0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-javacv-platform-a0db3fb7575d1a6f",
+            "relatedSpdxElement": "SPDXRef-File-platform-pom.xml-bb287d9a893ebbb0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-javacpp-platform-a3016a4880e95a84",
+            "relatedSpdxElement": "SPDXRef-File-platform-pom.xml-bb287d9a893ebbb0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-librealsense2-platform-a5891453fc742c2c",
+            "relatedSpdxElement": "SPDXRef-File-platform-pom.xml-bb287d9a893ebbb0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-tesseract-platform-a68ba28f550a2cad",
+            "relatedSpdxElement": "SPDXRef-File-platform-pom.xml-bb287d9a893ebbb0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-github-action-bytedeco-javacpp-presets-.github-actions-deploy-macosx-a7fb125c41d9a4c5",
+            "relatedSpdxElement": "SPDXRef-File-.github-workflows-javacv.yml-283055a27edb44e7",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-openblas-ac11db2b3381e4a3",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-librealsense2-b0a144e9e3c7a2f7",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-opencv-b30bc730213402b1",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-videoinput-b5a4abb18f44f650",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-libfreenect2-c3257ca4d1bbcf39",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-ffmpeg-platform-c344e0bd90d64977",
+            "relatedSpdxElement": "SPDXRef-File-platform-pom.xml-bb287d9a893ebbb0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-libdc1394-platform-c53617a7331df86f",
+            "relatedSpdxElement": "SPDXRef-File-platform-pom.xml-bb287d9a893ebbb0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-artoolkitplus-platform-c80efdcdcb793bcf",
+            "relatedSpdxElement": "SPDXRef-File-platform-pom.xml-bb287d9a893ebbb0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-javafx-graphics-c831a6c9a49c25d9",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-javacv-sources-ce833d7fb0ebd965",
+            "relatedSpdxElement": "SPDXRef-File-target-javacv-sources.jar-3ac6af3ed8e968ef",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-jogl-all-main-cf69c36c9a97a780",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-ffmpeg-d2164418f2d4f2ae",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-github-action-bytedeco-javacpp-presets-.github-actions-deploy-ubuntu-d5957f222634b1ea",
+            "relatedSpdxElement": "SPDXRef-File-.github-workflows-javacv.yml-283055a27edb44e7",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-artoolkitplus-de45a73f61214381",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-leptonica-platform-e18e944508c7e8a4",
+            "relatedSpdxElement": "SPDXRef-File-platform-pom.xml-bb287d9a893ebbb0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-librealsense-platform-e7a781486f89516e",
+            "relatedSpdxElement": "SPDXRef-File-platform-pom.xml-bb287d9a893ebbb0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-gluegen-rt-main-fe8a4649491ebef6",
+            "relatedSpdxElement": "SPDXRef-File-pom.xml-0328106cb52bb1b0",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-android-63077f6d4a565ed5",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-artoolkitplus-de45a73f61214381",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-artoolkitplus-platform-c80efdcdcb793bcf",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-github-action-bytedeco-javacpp-presets-.github-actions-deploy-macosx-a7fb125c41d9a4c5",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-github-action-bytedeco-javacpp-presets-.github-actions-deploy-ubuntu-d5957f222634b1ea",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-github-action-bytedeco-javacpp-presets-.github-actions-deploy-windows-60c688574b02892a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-demo-876fc1abf48530e3",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-ffmpeg-d2164418f2d4f2ae",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-ffmpeg-platform-c344e0bd90d64977",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-ffmpeg-platform-gpl-0350ced3f120f406",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-flycapture-284d1223bfaa9e8b",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-flycapture-platform-0c7e52e693aab0fd",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-gdx-144520703b30a923",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-gluegen-rt-main-fe8a4649491ebef6",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacpp-088ccae0191652ef",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacpp-platform-a3016a4880e95a84",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-e8aac55dc022b344",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-84fee431741eb122",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-5a30f70571bd06bc",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-javadoc-765e2045c33c0e28",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-platform-a0db3fb7575d1a6f",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javacv-sources-ce833d7fb0ebd965",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javafx-graphics-8a733780e916ee52",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javafx-graphics-c831a6c9a49c25d9",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-javafx-graphics-8c121f78fbe0f30f",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-jocl-main-757d623bb9128fd7",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-jogl-all-main-cf69c36c9a97a780",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-junit-400af29f68d273fb",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-leptonica-007ea37864c7e5af",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-leptonica-platform-e18e944508c7e8a4",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-libdc1394-2eaf4370f65743e5",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-libdc1394-platform-c53617a7331df86f",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-libfreenect-83ce962014c33ca0",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-libfreenect-platform-60fe1df61cc1c5fe",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-libfreenect2-c3257ca4d1bbcf39",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-libfreenect2-platform-1fc7bfa32ffd0aad",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-librealsense-5c1be6adf8ba493c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-librealsense-platform-e7a781486f89516e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-librealsense2-b0a144e9e3c7a2f7",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-librealsense2-platform-a5891453fc742c2c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-github-action-mxschmitt-action-tmate-559beee9566ead71",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-openblas-ac11db2b3381e4a3",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-openblas-platform-361ef63c98e11a10",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-opencv-b30bc730213402b1",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-opencv-platform-5e4922d578fc0947",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-opencv-platform-gpu-a0d3ebafc64004a7",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-openjfx-78-backport-9dc67348a671c823",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-tesseract-a046b29161b994b6",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-tesseract-platform-a68ba28f550a2cad",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-videoinput-b5a4abb18f44f650",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-Directory-.",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-videoinput-platform-1147eb92f716150b",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-DocumentRoot-Directory-.",
+            "relationshipType": "DESCRIBES"
+        }
+    ]
+}
