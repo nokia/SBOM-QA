@@ -138,7 +138,7 @@ For generating SBOMs for all test targets this command is used:
 syft -o spdx-json=syft-sbom.json --enrich all --verbose .
 ```
 
-**Ecosystem:** 
+**1.1 Ecosystem:** 
 [Node.js](https://github.com/nokia/SBOM-QA/tree/main/Node.js)
 
 - **Default SBOM:**
@@ -158,7 +158,7 @@ npm install --package-lock
 **Enriched SBOMs:**
 [syft-lock.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/syft-lock.json)
 
-**Ecosystem:** 
+**1.2 Ecosystem:** 
 [Go](https://github.com/gohugoio/hugo)
 
 - **Default SBOM:**
@@ -184,7 +184,7 @@ pdm install
 **Enriched SBOMs:**
 ...
 
-**Ecosystem:** 
+**1.3 Ecosystem:** 
 [Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
 
 - **Default SBOM:**
@@ -200,23 +200,23 @@ poetry install --no-dev
 **Enriched SBOMs:**
 ...
 
-**Ecosystem:** 
+**1.4 Ecosystem:** 
 [C++ (Conan)](https://github.com/catchorg/Catch2)
 
 
 - **Default SBOM:** 
 
-**Ecosystem:** 
+**1.5 Ecosystem:** 
 [C (No package manager)](https://github.com/besser82/libxcrypt)
 
 - **Default SBOM:** 
 
-**Ecosystem:** 
+**1.6 Ecosystem:** 
 [C++ (No package manager)](https://github.com/zeux/meshoptimizer)
 
 - **Default SBOM:** 
 
-**Ecosystem:**
+**1.7 Ecosystem:**
 [Java (Maven-managed)](https://github.com/bytedeco/javacv) 
 
 - **Default SBOM:**
@@ -291,7 +291,7 @@ In the examined workflow, only the Analyzer and Reporter phases were executed.
 The Analyzer phase produces the file ***analyzer-result.yml*** 
 Then the Reporter phase use this file as input file.
 
-**Ecosystem:** 
+**3.1 Ecosystem:** 
 [Go](https://github.com/gohugoio/hugo)
 
 In this project, the following files were identified: 
@@ -307,7 +307,7 @@ Indicating the use of two different **Package Managers**:
 **Generated SBOM:**
 [ORT-GO.json](https://github.com/nokia/SBOM-QA/blob/main/Go/SBOM/ort.json)
 
-**Ecosystem:** 
+**3.2 Ecosystem:** 
 [C (No package manager)](https://github.com/besser82/libxcrypt)
 
 Given that ORT relies on a package manager for SBOM generation, and no package manager was present in this project, the generated SBOM only included the project name as a package.
@@ -315,7 +315,7 @@ Given that ORT relies on a package manager for SBOM generation, and no package m
 **Generated SBOM:**
 [ORT-C-NP.json](https://github.com/nokia/SBOM-QA/blob/main/C-NP/SBOM/ort%20.json)
 
-**Ecosystem:** 
+**3.3 Ecosystem:** 
 [C++ (No package manager)](https://github.com/zeux/meshoptimizer)
 
 In this project, no package manager associated with C++ was identified; However, in the two files listed below, **NPM-related Packages** were detected. 
@@ -326,7 +326,7 @@ In this project, no package manager associated with C++ was identified; However,
 [ORT-C++-NP.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/SBOM/ortC%2B%2BMeShop.json)
 
 
-**Ecosystem:** 
+**3.4 Ecosystem:** 
 [Node.js](https://github.com/expressjs/express)  
 
 In this project, the following file was identified: 
@@ -343,7 +343,7 @@ indicating the use of a package manager:
 [ORT-Node-js.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/node.js.ORT.ScanSbom.json)
 
 
-**Ecosystem:**
+**3.5 Ecosystem:**
 [Java (Maven-managed)](https://github.com/bytedeco/javacv) 
 
 During the process, an error related to the Maven compiler was encountered, which necessitated modifications in the ***pom.xml*** file as described below: 
@@ -371,7 +371,7 @@ After the version was corrected, **ORT** was ultimately able to generate the **S
 **Generated SBOM:**
 [ORT-Java-Maven.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/SBOM/normal.ort.json)
 
-**Ecosystem:** 
+**3.6 Ecosystem:** 
 [C++ (Conan)](https://github.com/catchorg/Catch2)
 
 In this section, several points should be highlighted.  
@@ -393,13 +393,13 @@ and in total, two package managers were detected:
 **Generated SBOM:**
 [ORT-C++-CONAN.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B_CONAN/SBOM/ort.json)
 
-**Ecosystem:**
+**3.7 Ecosystem:**
 [Python (FastAPI)](https://github.com/fastapi/fastapi)
 
 Since the project utilized the PDM package manager, which was not included in the list of package managers supported by ORT, no SBOM was generated as a result. 
 
 
-**Ecosystem:**
+**3.8 Ecosystem:**
 [Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
 
 In this project, the following two files were identified: 
@@ -423,7 +423,7 @@ The SBOM was successfully generated without any errors.
 trivy fs --format spdx-json --scanners vuln,license,secret,misconfig --output trivy-sbom.spdx.json .
 ```
 
-**Ecosystem:** 
+**4.1 Ecosystem:** 
 [Node.js](https://github.com/expressjs/express)  
 
 **Generated SBOM:**
@@ -449,13 +449,13 @@ npm ci --only=production
 **Enriched SBOMs:**
 ...
 
-**Ecosystem:** 
+**4.2 Ecosystem:** 
 [C++ (Conan)](https://github.com/catchorg/Catch2)
 
 **Generated SBOM:**
 ...
 
-**Ecosystem:** 
+**4.3 Ecosystem:** 
 [Go](https://github.com/gohugoio/hugo)
 
 **Generated SBOM:**
@@ -476,13 +476,13 @@ go mod tidy
 **Enriched SBOMs:**
 ...
 
-**Ecosystem:** 
+**4.4 Ecosystem:** 
 [C++ (No package manager)](https://github.com/zeux/meshoptimizer)
 
 **Generated SBOM:**
 ...
 
-**Ecosystem:**
+**4.5 Ecosystem:**
 [Python (FastAPI)](https://github.com/fastapi/fastapi)
 
 **Generated SBOM:**
@@ -510,19 +510,19 @@ pdm install
 For more information and to track the progress of this feature, refer to the following GitHub issue: 
 [Trivy GitHub Issue: Add support for PDM lockfile parsing](https://github.com/aquasecurity/trivy/issues/9410?utm_source=chatgpt.com)
 
-**Ecosystem:**
+**4.6 Ecosystem:**
 [Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
 
 **Generated SBOM:**
 ...
 
-**Ecosystem:** 
+**4.7 Ecosystem:** 
 [C (No package manager)](https://github.com/besser82/libxcrypt)
 
 **Generated SBOM:**
 ...
 
-**Ecosystem:**
+**4.8 Ecosystem:**
 [Java (Maven-managed)](https://github.com/bytedeco/javacv) 
 
 **Generated SBOM:**
@@ -685,14 +685,9 @@ Validation results and differences
 
 | Ecosystem   | Compliant | Error Types                        | Notes                                    |
 |-------------|-----------|------------------------------------|------------------------------------------|
-| Go          | ❌ Failed | Missing version, Missing supplier  | 10 validation errors in tidy-vendor.json |
-| Python      | ✅ Passed | -                                  | All checks OK                            |
-| Node.js     |         | -                                  | SBOM valid                               |
-| Java        |         | Missing license info               | Needs enrichment from build artifacts    |
-| C           |      | Missing version                    | Package without version metadata         |
-| C++ (Conan) |      | -                                  | All mandatory SPDX fields included       |
-| C++  |                |                                     |           |          |          |            |           |
-| Python2  |                |                                     |           |          |          |            |           |
+| Go, Python, Node.js, Java (Maven), C, C++ (Conan), C++, Python2        | ❌ Not compliant | NTIA validation errors, Missing mandatory fields  | All packages missing version, supplier, and CreatorComment; NTIA validation errors |
+
+> **Note:** For Syft, both default and enriched SBOMs exhibited the same validation issues across all ecosystems. All packages were consistently non-compliant due to missing mandatory fields, including package version, supplier, and CreatorComment, resulting in NTIA validation errors. This uniform behavior indicates that the issue is systemic rather than specific to any single ecosystem.
 
 ##### 2. [Trivy](https://github.com/aquasecurity/trivy)
 
