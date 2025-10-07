@@ -142,7 +142,7 @@ syft -o spdx-json=syft-sbom.json --enrich all --verbose .
 [Node.js](https://github.com/nokia/SBOM-QA/tree/main/Node.js)
 
 - **Default SBOM:**
-[syft-default.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/syft-default.json)
+[syft-Nodejs.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/syft-default.json)
 
 Generated directly from the project source without performing any compilation step. 
 
@@ -156,17 +156,19 @@ npm install --package-lock
 - ***package-lock.json*** , ***node_modules***
 
 **Enriched SBOMs:**
-[syft-lock.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/syft-lock.json)
+[syft-Nodejs-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/syft-lock.json)
 
 **1.2 Ecosystem:** 
 [Go](https://github.com/gohugoio/hugo)
 
 - **Default SBOM:**
+[syft-Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/SBOM/syft.json)
 
 **1.3 Ecosystem:**
 [Python (FastAPI)](https://github.com/fastapi/fastapi)
 
 - **Default SBOM:** 
+[syft-python.json](https://github.com/nokia/SBOM-QA/blob/main/python/SBOM/syft.json)
 
 - **Compilation Step:**
 
@@ -182,12 +184,13 @@ pdm install
 ```
 
 **Enriched SBOMs:**
-...
+[syft-python-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/python/SBOM/syft.pdm.python.json)
 
 **1.4 Ecosystem:** 
 [Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
 
 - **Default SBOM:**
+[syft-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/syft.json)
 
 - **Compilation Step:**
 
@@ -198,28 +201,31 @@ poetry install --no-dev
 ```
 
 **Enriched SBOMs:**
-...
+[syft-python2-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/syft-build.json)
 
 **1.5 Ecosystem:** 
 [C++ (Conan)](https://github.com/catchorg/Catch2)
 
-
 - **Default SBOM:** 
+[syft-C++-CONAN.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B_CONAN/SBOM/syft.json)
 
 **1.6 Ecosystem:** 
 [C (No package manager)](https://github.com/besser82/libxcrypt)
 
 - **Default SBOM:** 
+[syft-C.json](https://github.com/nokia/SBOM-QA/blob/main/C-NP/SBOM/syft.json)
 
 **1.7 Ecosystem:** 
 [C++ (No package manager)](https://github.com/zeux/meshoptimizer)
 
 - **Default SBOM:** 
+[syft-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/SBOM/syft.json)
 
 **1.8 Ecosystem:**
 [Java (Maven-managed)](https://github.com/bytedeco/javacv) 
 
 - **Default SBOM:**
+[syft-Java.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/SBOM/syft.json)
 
 - **Compilation Step:** Build
 
@@ -237,7 +243,7 @@ mvn clean package -DskipTests
 Ensures a richer and more accurate SBOM including both direct and transitive dependencies.
 
 **Enriched SBOMs:**
-...
+[syft-Java-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/SBOM/syft-compilation.json)
 
 
 
