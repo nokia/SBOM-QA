@@ -16,6 +16,7 @@ This project helps answer key questions:
 3. **SCA Tools** – Open-source SBOM generation tools were installed, configured, and run for each project. 
 4. **Benchmarking** – Tool-generated SBOMs were compared against the reference SBOMs using SBOMDiff, and validated using OpenChain Telco SBOM Validator.
 
+> **Note:** For detailed methodology, tools, and validation process, see [Full Documentation]().
 ---
 
 ##  Test Targets
