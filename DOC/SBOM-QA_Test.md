@@ -885,7 +885,17 @@ The command used for comparison:
 ```
 sbomdiff reference.json generated.json
 ```
-The tool outputs differences in package versions, new or missing packages, and license changes. These results were summarized in the following tables.
+The tool outputs differences in package versions, new or missing packages, and license changes.
+
+- **Version_Changes:** packages exist in both SBOMs but have different version numbers.
+
+- **New_Packages:** packages are only in the generated SBOM (file 2).
+
+- **Removed_Packages:** packages are only in the reference SBOM (file 1).
+
+- **License_Changes:** packages appear in both SBOMs but with different license declarations.
+
+These results were summarized in the following tables:
 
 ##### 1. [Syft](https://github.com/anchore/syft)
 
@@ -919,13 +929,13 @@ The tool outputs differences in package versions, new or missing packages, and l
 
 | Ecosystem   | Compared Files                   | Differences file | Version Changes | New Packages | Removed Packages | License Changes  | 
 |-------------|----------------------------------|------------------|----------------|--------------|------------------|-----------------|
-| C           | [Ref-C.json](https://github.com/nokia/SBOM-QA/blob/main/C-NP/Reference/besser82_libxcrypt_8ecb92.json)  |             |     |       |               |           |        |
+| C           | [Ref-C.json](https://github.com/nokia/SBOM-QA/blob/main/C-NP/Reference/besser82_libxcrypt_8ecb92.json)  |             |  0   |       |   1            |  8         |   0     |
 | C++ (Conan) | [Ref-CONAN.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B_CONAN/Reference/catchorg_Catch2_f38fdc.json)  vs [CONAN.json]       |     [Diff-CONAN.json]      |      |           |              |      |         |
 | Python      | [Ref-python.json](https://github.com/nokia/SBOM-QA/blob/main/python/Reference/fastapi_fastapi_1aca71.json)  vs [python.json]    |             |        |        |             |            |                   |
 | Node.js     |  [Ref-Nodejs.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/Reference/expressjs_express_98d8b1.json) vs [Nodejs.json]   |             |     |         |             |            |          |
 | Java        | [Ref-Java.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/Reference/bytedeco_javacv_1aa2ee.json)  vs [Java.json]     |            |      |       |         |          |         |
 | Go          |  [Ref-Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/Reference/gohugoio_hugo_b0888a.json)  vs [Go.json]    |            |           |         |           |             |                |
-| C++         | [Ref-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/Reference/zeux_meshoptimizer_4b6446.json) vs  [C++.json]  |                                     |           |          |          |            |           |
+| C++         | [Ref-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/Reference/zeux_meshoptimizer_4b6446.json) vs  [C++.json]  |                                     |    0       |    2      |     6     |     0       |   
 | Python2     | [Ref-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Reference/AntonOsika_gpt-engineer_818115.json)    vs [python2.json]      |                                     |           |          |          |            |           |
 
 ##### 4. [SCANOSS](https://github.com/scanoss/scanoss.py)
