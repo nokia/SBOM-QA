@@ -868,18 +868,37 @@ Validation results and differences
 
 #### 5.3.2. Diffs / Comparisons  
 
+[SBOMDIFF](https://github.com/anthonyharrison/sbomdiff) | [v0.5.6](https://github.com/anthonyharrison/sbomdiff/releases/tag/v0.5.6) is a Python-based tool used to compare two SBOM  files and identify differences between them. It supports both SPDX and CycloneDX formats and detects:
+
+- Package version changes
+- Added or removed packages
+- License differences
+
+**Installation and usage:**
+SBOMDiff was installed using:
+```
+pip install sbomdiff
+```
+Each comparison was performed between the reference SBOM (exported from GitHub dependency graph) and the generated SBOM from each tool.
+
+The command used for comparison:
+```
+sbomdiff reference.json generated.json
+```
+The tool outputs differences in package versions, new or missing packages, and license changes. These results were summarized in the following tables.
+
 ##### 1. [Syft](https://github.com/anchore/syft)
 
-| Ecosystem   | Compared Files                   | Differences Found | Version Changes | New Packages | Removed Packages | License Changes  | Notes                          |
+| Ecosystem   | Compared Files| Differences Found | Version Changes | New Packages | Removed Packages | License Changes  | Notes|
 |-------------|----------------------------------|------------------|----------------|--------------|------------------|-----------------|--------------------------------|
-| C           | ref.json vs  |             |     |       |               |           |        |
-| C++ (Conan) | ref.json vs              |             |      |           |              |      |         |
-| Python      | ref.json vs            |             |        |        |             |            |                   |
-| Node.js     | ref.json vs       |             |     |         |             |            |          |
-| Java        | ref.json vs             |            |      |       |         |          |         |
-| Go          | ref.json vs             |            |           |         |           |             |                |
-| C++         | ref.json vs                |                                     |           |          |          |            |           |
-| Python2     | ref.json vs                |                                     |           |          |          |            |           |
+| C           |  vs            |             |     |       |               |           |        |
+| C++ (Conan) |  vs            |             |      |           |              |      |         |
+| Python      |  vs            |             |        |        |             |            |                   |
+| Node.js     |  vs            |             |     |         |             |            |          |
+| Java        |  vs            |            |      |       |         |          |         |
+| Go          |  vs            |            |           |         |           |             |                |
+| C++         |  vs            |                                     |           |          |          |            |           |
+| Python2     |  vs            |                                     |           |          |          |            |           |
 
 ##### 2. [Trivy](https://github.com/aquasecurity/trivy)
 
