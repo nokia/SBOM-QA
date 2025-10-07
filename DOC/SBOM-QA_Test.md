@@ -582,7 +582,7 @@ trivy fs --format spdx-json --scanners vuln,license,secret,misconfig --output tr
 [Node.js](https://github.com/expressjs/express)  
 
 **Generated SBOM:**
-...
+[trivy-Nodejs.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/trivy.default.json)
 
 - **Compilation Step:**
 
@@ -602,19 +602,16 @@ To create a clean environment with only production dependencies installed (exclu
 npm ci --only=production
 ```
 **Enriched SBOMs:**
-...
+[trivy-Nodejs-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/trivy-compilation.json)
 
 **4.2 Ecosystem:** 
 [C++ (Conan)](https://github.com/catchorg/Catch2)
 
 **Generated SBOM:**
-...
+[trivy-C++-CONAN.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B_CONAN/SBOM/trivy.json)
 
 **4.3 Ecosystem:** 
 [Go](https://github.com/gohugoio/hugo)
-
-**Generated SBOM:**
-...
 
 - **Compilation Step:**
 
@@ -629,19 +626,19 @@ go mod tidy
 - ***go.mod*** , ***go.sum***
 
 **Enriched SBOMs:**
-...
+[trivy-Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/SBOM/trivy-compilation.json)
 
 **4.4 Ecosystem:** 
 [C++ (No package manager)](https://github.com/zeux/meshoptimizer)
 
 **Generated SBOM:**
-...
+[trivy-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/SBOM/trivy.json)
 
 **4.5 Ecosystem:**
 [Python (FastAPI)](https://github.com/fastapi/fastapi)
 
 **Generated SBOM:**
-...
+[trivy-python.json](https://github.com/nokia/SBOM-QA/blob/main/python/SBOM/trivy.default.json)
 
 - **Compilation Step:**
 
@@ -658,7 +655,7 @@ pdm install
 ```
 
 **Enriched SBOMs:**
-...
+[trivy-python-compilation](https://github.com/nokia/SBOM-QA/blob/main/python/SBOM/trivy-compilation.json)
 
 > **Note:** As of now, Trivy does not support scanning Python projects managed with PDM. Specifically, Trivy does not parse the pdm.lock file, which means it cannot fully resolve and capture the project's dependency tree. This limitation affects the accuracy and completeness of Software Bill of Materials (SBOM) generation for PDM-managed Python projects. 
 
@@ -669,25 +666,19 @@ For more information and to track the progress of this feature, refer to the fol
 [Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
 
 **Generated SBOM:**
-...
+[trivy-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/trivy.json)
 
 **4.7 Ecosystem:** 
 [C (No package manager)](https://github.com/besser82/libxcrypt)
 
 **Generated SBOM:**
-...
+[trivy-C.json](https://github.com/nokia/SBOM-QA/blob/main/C-NP/SBOM/trivy.json)
 
 **4.8 Ecosystem:**
 [Java (Maven-managed)](https://github.com/bytedeco/javacv) 
 
 **Generated SBOM:**
-...
-
-
-
-
-
-
+[trivy-Java.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/SBOM/trivy-default.json)
 
 
 
