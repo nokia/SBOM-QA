@@ -241,15 +241,6 @@ Ensures a richer and more accurate SBOM including both direct and transitive dep
 
 
 
-
-
-
-
-
-
-
-
-
 #### 2. [Scanoss](https://github.com/scanoss) 
 
 Generating an SBOM using scanoss-py involves two steps:
@@ -398,6 +389,7 @@ make
 [Java (Maven-managed)](https://github.com/bytedeco/javacv) 
 
 - **Default SBOM:**
+[scanoss-Java.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/SBOM/scanoss.json)
 
 - **Compilation Step:**
 
@@ -406,7 +398,7 @@ To compile the project and resolve all dependencies, the following command was e
 mvn clean install -DskipTests
 ```
 - **Enriched SBOMs:**
-
+[scanoss-Java-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/SBOM/scanoss-build.json)
 
 
 
