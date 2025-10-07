@@ -929,27 +929,27 @@ These results were summarized in the following tables:
 
 | Ecosystem   | Compared Files                   | Differences file | Version Changes | New Packages | Removed Packages | License Changes  | 
 |-------------|----------------------------------|------------------|----------------|--------------|------------------|-----------------|
-| C           | [Ref-C.json](https://github.com/nokia/SBOM-QA/blob/main/C-NP/Reference/besser82_libxcrypt_8ecb92.json)  |             |  0   |       |   1            |  8         |   0     |
-| C++ (Conan) | [Ref-CONAN.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B_CONAN/Reference/catchorg_Catch2_f38fdc.json)  vs [CONAN.json]       |     [Diff-CONAN.json]      |      |           |              |      |         |
+| C           | [Ref-C.json](https://github.com/nokia/SBOM-QA/blob/main/C-NP/Reference/besser82_libxcrypt_8ecb92.json)  |      |  0   |   1    |  8         |   0     |
+| C++ (Conan) | [Ref-CONAN.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B_CONAN/Reference/catchorg_Catch2_f38fdc.json)  vs [CONAN.json]       |     [Diff-CONAN.json]      |  0    |   24        |    4          |   0   |
 | Python      | [Ref-python.json](https://github.com/nokia/SBOM-QA/blob/main/python/Reference/fastapi_fastapi_1aca71.json)  vs [python.json]    |             |        |        |             |            |                   |
-| Node.js     |  [Ref-Nodejs.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/Reference/expressjs_express_98d8b1.json) vs [Nodejs.json]   |             |     |         |             |            |          |
-| Java        | [Ref-Java.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/Reference/bytedeco_javacv_1aa2ee.json)  vs [Java.json]     |            |      |       |         |          |         |
-| Go          |  [Ref-Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/Reference/gohugoio_hugo_b0888a.json)  vs [Go.json]    |            |           |         |           |             |                |
+| Node.js     |  [Ref-Nodejs.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/Reference/expressjs_express_98d8b1.json) vs [Nodejs.json]   |             |  35   |      288   |     10        |    43        |
+| Java        | [Ref-Java.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/Reference/bytedeco_javacv_1aa2ee.json)  vs [Java.json]     |            |  0    |   44    |    47     |   0       |
+| Go          |  [Ref-Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/Reference/gohugoio_hugo_b0888a.json)  vs [Go.json]    |            |     8      |    62     |     21      |       169      |
 | C++         | [Ref-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/Reference/zeux_meshoptimizer_4b6446.json) vs  [C++.json]  |                                     |    0       |    2      |     6     |     0       |   
-| Python2     | [Ref-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Reference/AntonOsika_gpt-engineer_818115.json)    vs [python2.json]      |                                     |           |          |          |            |           |
+| Python2     | [Ref-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Reference/AntonOsika_gpt-engineer_818115.json)    vs [python2.json]      |                                     |      131     |   7       |   19       |   180         |
 
 ##### 4. [SCANOSS](https://github.com/scanoss/scanoss.py)
 
 | Ecosystem   | Compared Files                   | Differences file | Version Changes | New Packages | Removed Packages | License Changes  | 
 |-------------|----------------------------------|------------------|----------------|--------------|------------------|-----------------|
-| C           | ref.json vs   |             |     |       |               |           |        |
-| C++ (Conan) | [Ref-CONAN.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B_CONAN/Reference/catchorg_Catch2_f38fdc.json) vs [CONAN.json]       |    [Diff-CONAN.json]         |      |           |              |      |         |
-| Python      | [Ref-python.json](https://github.com/nokia/SBOM-QA/blob/main/python/Reference/fastapi_fastapi_1aca71.json)   vs [python.json]      |             |        |        |             |            |                   |
-| Node.js     |  [Ref-Nodejs.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/Reference/expressjs_express_98d8b1.json) vs [Nodejs.json]|             |     |         |             |            |          |
-| Java        | [Ref-Java.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/Reference/bytedeco_javacv_1aa2ee.json)  vs [Java.json]      |            |      |       |         |          |         |
-| Go          |  [Ref-Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/Reference/gohugoio_hugo_b0888a.json) vs [Go.json]    |            |           |         |           |             |                |
-| C++         | [Ref-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/Reference/zeux_meshoptimizer_4b6446.json)  vs  [C++.json]       |                                     |           |          |          |            |           |
-| Python2     | [Ref-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Reference/AntonOsika_gpt-engineer_818115.json)  vs [python2.json]       |                                     |           |          |          |            |           |
+| C           | ref.json vs   |             |    0* / 0* |    2* / 17*   |    8* / 8*           |   0* / 0*      |
+| C++ (Conan) | [Ref-CONAN.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B_CONAN/Reference/catchorg_Catch2_f38fdc.json) vs [CONAN.json]       |    [Diff-CONAN.json]         |    0* / 0* |     16* / 17*     |    4* / 4*        |   0* / 0*    |
+| Python      | [Ref-python.json](https://github.com/nokia/SBOM-QA/blob/main/python/Reference/fastapi_fastapi_1aca71.json)   vs [python.json]      |             |    0* / 4*   |   3* / 29*     |    52* / 48*        |   0* / 4*        | 
+| Node.js     |  [Ref-Nodejs.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/Reference/expressjs_express_98d8b1.json) vs [Nodejs.json]|             | 0* / 20*    |  14* / 54*      |     53* / 33*        |         0* / 20* | 
+| Java        | [Ref-Java.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/Reference/bytedeco_javacv_1aa2ee.json)  vs [Java.json]      |            |    0* / 0*  |   1* / 9*    |   47* / 47*      |   0* / 0*      |
+| Go          |  [Ref-Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/Reference/gohugoio_hugo_b0888a.json) vs [Go.json]    |            |         0* / 0* |    15* / 352*    |    190* /  190*      |   0* / 0*        | 
+| C++         | [Ref-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/Reference/zeux_meshoptimizer_4b6446.json)  vs  [C++.json]       |                                     |   0* / 0*        |   8* / 16*     |    6* / 6*      |      0* / 0*    | 
+| Python2     | [Ref-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Reference/AntonOsika_gpt-engineer_818115.json)  vs [python2.json]       |                                     |   0        |   2       |   199       |    0        |           |
 
 ##### 5. Container-Based Tools 
 ###### 5.1 [DISTRO2SBOM](https://github.com/anthonyharrison/distro2SBOM)
