@@ -889,16 +889,21 @@ The tool outputs differences in package versions, new or missing packages, and l
 
 ##### 1. [Syft](https://github.com/anchore/syft)
 
-| Ecosystem   | Compared Files| Differences Found | Version Changes | New Packages | Removed Packages | License Changes  | Notes|
+| Ecosystem   | Compared Files| Difference file | Version Changes | New Packages | Removed Packages | License Changes  | Notes|
 |-------------|----------------------------------|------------------|----------------|--------------|------------------|-----------------|--------------------------------|
-| C           |  vs            |             |     |       |               |           |        |
-| C++ (Conan) |  vs            |             |      |           |              |      |         |
-| Python      |  vs            |             |        |        |             |            |                   |
-| Node.js     |  vs            |             |     |         |             |            |          |
-| Java        |  vs            |            |      |       |         |          |         |
-| Go          |  vs            |            |           |         |           |             |                |
-| C++         |  vs            |                                     |           |          |          |            |           |
-| Python2     |  vs            |                                     |           |          |          |            |           |
+| C           | [Reference-C-NP.json](https://github.com/nokia/SBOM-QA/blob/main/C-NP/Reference/besser82_libxcrypt_8ecb92.json) vs [syft-C.json](https://github.com/nokia/SBOM-QA/blob/main/C-NP/SBOM/syft.json) | [Diff-syft-C.json](https://github.com/nokia/SBOM-QA/blob/main/C-NP/Difference/diff-syft.json)          |     |       |               |           |        |
+| C++ (Conan) |  [Reference-C++-CONAN.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B_CONAN/Reference/catchorg_Catch2_f38fdc.json) vs [syft-C++-CONAN.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B_CONAN/SBOM/syft.json)
+   |    [Diff-syft-C++-CONAN.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B_CONAN/Difference/diff-syft.json)
+         |      |           |              |      |         |
+| Python      |  [Reference-python.json](https://github.com/nokia/SBOM-QA/blob/main/python/Reference/fastapi_fastapi_1aca71.json) vs [syft-python.json](https://github.com/nokia/SBOM-QA/blob/main/python/SBOM/syft.json) & [syft-python-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/python/SBOM/syft.pdm.python.json)       |     [Diff-syft-python.json]  & [Diff-syft-python-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/python/difference/diff-syft-pdm.json)      |        |        |             |            |                   |
+| Node.js     |  [Reference-Nodejs.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/Reference/expressjs_express_98d8b1.json) vs [syft-Nodejs.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/syft-default.json) & [syft-Nodejs-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/syft-lock.json)           |      [Diff-syft-Nodejs-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/difference/diff-syft-compilation.json) & [[Diff-syft-Nodejs.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/difference/diff-syftdefault.json)     |     |         |             |            |          |
+| Java        | [Reference-Java.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/Reference/bytedeco_javacv_1aa2ee.json) vs [syft-Java.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/SBOM/syft.json) & [syft-Java-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/SBOM/syft-compilation.json)           |          [Diff-syft-Java.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/Difference/diff-normalsyft.json) &
+[Diff-syft-Java-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/Difference/diff-syftbuild.json)  |      |       |         |          |         |
+| Go          |  [Reference-Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/Reference/gohugoio_hugo_b0888a.json) vs [syft-Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/SBOM/syft.json)           |            |    [Diff-syft-Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/difference/diff-syft.json)     |         |           |             |                |
+| C++         |  [Reference-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/Reference/zeux_meshoptimizer_4b6446.json) vs  [syft-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/SBOM/syft.json)          |      [Diff-syft-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/Difference/diff-C%2B%2B.syft.json)                               |           |          |          |            |           |
+| Python2     | [Reference-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Reference/AntonOsika_gpt-engineer_818115.json) vs [syft-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/syft.json)
+ &  [syft-python2-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/syft-build.json)          |          [Diff-syft-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Difference/diff-syft.json) &
+[Diff-syft-python2-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Difference/diff-syftbuild.json)                     |           |          |          |            |           |
 
 ##### 2. [Trivy](https://github.com/aquasecurity/trivy)
 
