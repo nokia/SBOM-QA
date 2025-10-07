@@ -11,10 +11,10 @@ This project helps answer key questions:
 
 ##  Work Methodology
 
-1. **Test Targets** – Software artifacts with known dependencies built using various tech stacks.
-2. **Reference SBOMs** – Exporting SBOM via GitHub Dependencies Graph of Origin Projects.
-3. **SCA Tools** – Open source tools selected for analysis.
-4. **Benchmarking** – We compare tool-generated SBOMs with reference SBOMs and document results.
+1. **Test Targets** – Selected real-world software projects across multiple ecosystems (C, C++, C++(CONAN), Java (Maven), Python, Node.js, Go, and containers).
+2. **Reference SBOMs** – Exported from GitHub’s Dependency Graph as SPDX JSON for each test target.
+3. **SCA Tools** – Open-source SBOM generation tools were installed, configured, and run for each project. 
+4. **Benchmarking** – Tool-generated SBOMs were compared against the reference SBOMs using SBOMDiff, and validated using OpenChain Telco SBOM Validator.
 
 ---
 
