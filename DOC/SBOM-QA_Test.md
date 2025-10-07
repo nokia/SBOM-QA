@@ -269,7 +269,7 @@ scanoss-py convert --input scanoss-raw.json --format spdxlite --output  scanoss.
 [Node.js](https://github.com/nokia/SBOM-QA/tree/main/Node.js)
 
 - **Default SBOM:**
-
+[scanoss-Nodejs.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/scanoss.json)
 - **Compilation Step:**
 
 The project did not originally include a package-lock.json file, To ensure accurate scanning and SBOM generation, the project dependencies were prepared as follows(in root of project): 
@@ -283,12 +283,13 @@ To Installs only production dependencies based on package-lock.json and Cr
 npm ci --only=production
 ```
 - **Enriched SBOMs:**
-
+[scanoss-compilation-Nodejs.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/scanoss-compilation.json)
 
 **2.2 Ecosystem:** 
 [Go](https://github.com/gohugoio/hugo)
 
 - **Default SBOM:**
+[scanoss-Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/SBOM/scanoss.json)
 
 - **Compilation Step:**
 
@@ -303,12 +304,13 @@ Additionally, to improve scanning accuracy, all required dependencies were copie
 go mod vendor
 ```
 - **Enriched SBOMs:**
+[scanoss-Go-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/Go/SBOM/scanoss-compilation.json)
 
 **2.3 Ecosystem:**
 [Python (FastAPI)](https://github.com/fastapi/fastapi)
 
 - **Default SBOM:**
-
+[scanoss-python.json](https://github.com/nokia/SBOM-QA/blob/main/python/SBOM/scanoss-default.json)
 - **Compilation Step:**
 
 To ensure accurate SBOM generation with ScanOSS, all project dependencies were locked, installed, and vendored in the project root: 
@@ -334,21 +336,25 @@ pip install --target=vendor -r requirements.txt
 ```
 
 - **Enriched SBOMs:**
+[scanoss-python-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/python/SBOM/scanoss-vendor.json)
 
 **2.4 Ecosystem:** 
 [Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
 
 - **Default SBOM:**
+[scanoss-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/scanoss.json)
 
 **2.5 Ecosystem:** 
 [C++ (Conan)](https://github.com/catchorg/Catch2)
 
 - **Default SBOM:** 
+[scanoss-C++-CONAN.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B_CONAN/SBOM/scanoss.json)
 
 **2.6 Ecosystem:** 
 [C++ (No package manager)](https://github.com/zeux/meshoptimizer)
 
 - **Default SBOM:** 
+[scanoss-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/SBOM/scanoss.json)
 
 - **Compilation Step:**
 
@@ -362,11 +368,13 @@ cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build
 ```
 - **Enriched SBOMs:**
+[scanoss-C++-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/SBOM/scanoss-build.json)
 
 **2.7 Ecosystem:** 
 [C (No package manager)](https://github.com/besser82/libxcrypt)
 
 - **Default SBOM:** 
+[scanoss-C.json](https://github.com/nokia/SBOM-QA/blob/main/C-NP/SBOM/scanoss.json)
 
 - **Compilation Step:**
 
@@ -384,6 +392,7 @@ The project was configured and built using the standard autotools workflow. foll
 make 
 ```
 - **Enriched SBOMs:**
+[scanoss-C-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/C-NP/SBOM/scanoss-build.json)
 
 **2.8 Ecosystem:**
 [Java (Maven-managed)](https://github.com/bytedeco/javacv) 
