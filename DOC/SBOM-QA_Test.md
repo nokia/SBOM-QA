@@ -163,7 +163,7 @@ npm install --package-lock
 
 - **Default SBOM:**
 
-**Ecosystem:**
+**1.3 Ecosystem:**
 [Python (FastAPI)](https://github.com/fastapi/fastapi)
 
 - **Default SBOM:** 
@@ -184,7 +184,7 @@ pdm install
 **Enriched SBOMs:**
 ...
 
-**1.3 Ecosystem:** 
+**1.4 Ecosystem:** 
 [Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
 
 - **Default SBOM:**
@@ -200,30 +200,30 @@ poetry install --no-dev
 **Enriched SBOMs:**
 ...
 
-**1.4 Ecosystem:** 
+**1.5 Ecosystem:** 
 [C++ (Conan)](https://github.com/catchorg/Catch2)
 
 
 - **Default SBOM:** 
 
-**1.5 Ecosystem:** 
+**1.6 Ecosystem:** 
 [C (No package manager)](https://github.com/besser82/libxcrypt)
 
 - **Default SBOM:** 
 
-**1.6 Ecosystem:** 
+**1.7 Ecosystem:** 
 [C++ (No package manager)](https://github.com/zeux/meshoptimizer)
 
 - **Default SBOM:** 
 
-**1.7 Ecosystem:**
+**1.8 Ecosystem:**
 [Java (Maven-managed)](https://github.com/bytedeco/javacv) 
 
 - **Default SBOM:**
 
 - **Compilation Step:** Build
 
-The project was compiled to ensure that all direct and transitive dependencies were resolved and    packaged into build artifacts (target/*.jar). following command was executed in tese target root: 
+The project was compiled to ensure that all direct and transitive dependencies were resolved and packaged into build artifacts ***(target/*.jar)***. following command was executed in tese target root: 
 
 ```
 mvn clean package -DskipTests
@@ -304,6 +304,99 @@ go mod vendor
 ```
 - **Enriched SBOMs:**
 
+**2.3 Ecosystem:**
+[Python (FastAPI)](https://github.com/fastapi/fastapi)
+
+- **Default SBOM:**
+
+- **Compilation Step:**
+
+To ensure accurate SBOM generation with ScanOSS, all project dependencies were locked, installed, and vendored in the project root: 
+- Lock dependencies:
+```
+pdm lock
+```
+- Install dependencies in clean environment:
+```
+pdm install
+```
+- Export resolved dependencies:
+```
+pdm export -f requirements > requirements.txt
+```
+- Create vendor folder with actual package sources:
+```
+mkdir -p vendor
+```
+
+```
+pip install --target=vendor -r requirements.txt
+```
+
+- **Enriched SBOMs:**
+
+**2.4 Ecosystem:** 
+[Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
+
+- **Default SBOM:**
+
+**2.5 Ecosystem:** 
+[C++ (Conan)](https://github.com/catchorg/Catch2)
+
+- **Default SBOM:** 
+
+**2.6 Ecosystem:** 
+[C++ (No package manager)](https://github.com/zeux/meshoptimizer)
+
+- **Default SBOM:** 
+
+- **Compilation Step:**
+
+The project was configured and built in Release mode using CMake .following commands were executed: 
+-  Configure the project: 
+```
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+```
+- Build the project:
+```
+cmake --build build
+```
+- **Enriched SBOMs:**
+
+**2.7 Ecosystem:** 
+[C (No package manager)](https://github.com/besser82/libxcrypt)
+
+- **Default SBOM:** 
+
+- **Compilation Step:**
+
+The project was configured and built using the standard autotools workflow. following commands were executed in project root: 
+-  Prepare the build system:
+```
+/autogen.sh
+```
+- Configure the project 
+```
+./configure 
+```
+- Compile the project 
+```
+make 
+```
+- **Enriched SBOMs:**
+
+**2.8 Ecosystem:**
+[Java (Maven-managed)](https://github.com/bytedeco/javacv) 
+
+- **Default SBOM:**
+
+- **Compilation Step:**
+
+To compile the project and resolve all dependencies, the following command was executed: 
+```
+mvn clean install -DskipTests
+```
+- **Enriched SBOMs:**
 
 
 
