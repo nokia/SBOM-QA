@@ -40,7 +40,7 @@ A CLI tool and Go library for generating an SBOM from container images and files
 Exceptional for SBOM creation and integrates well with vulnerability scanners like [Grype](https://github.com/anchore/grype).
 > **Note:**  
 > **Syft** – Primary SBOM generator used across test targets.  
-> **ammend/syft** – A fork of Syft designed to generate SPDX JSON compliant with the [OpenChain Telco SBOM Guide](https://github.com/OpenChain-Project/Telco-WG/blob/main/OpenChain-Telco-SBOM-Guide_1.0_EN.md). Recommended for telecom sector requirements.
+> **[ammend/syft](https://github.com/ammend/syft)** – A fork of Syft designed to generate SPDX JSON compliant with the [OpenChain Telco SBOM Guide](https://github.com/OpenChain-Project/Telco-WG/blob/main/OpenChain-Telco-SBOM-Guide_1.0_EN.md). Recommended for telecom sector requirements.
 
 #### 2. [Trivy](https://github.com/aquasecurity/trivy) | [Docs](https://aquasecurity.github.io/trivy/) | [v0.63.0](https://github.com/aquasecurity/trivy/releases/tag/v0.63.0)
 A comprehensive security tool for SBOM generation, vulnerability detection, license analysis, misconfiguration scanning, and secret discovery across container images, filesystems, repositories, VMs, and Kubernetes environments.  
@@ -250,7 +250,7 @@ Ensures a richer and more accurate SBOM including both direct and transitive dep
 [syft-Java-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/SBOM/syft-compilation.json)
 
 > **Note:**  
-> During the review of **ammend/syft**, it was observed that this fork made no actual changes compared to the original **Syft** project. All steps, processes, and the generated SBOMs are completely identical to those produced by the original Syft.
+> During the review of **[ammend/syft](https://github.com/ammend/syft)**, it was observed that this fork made no actual changes compared to the original **Syft** project. All steps, processes, and the generated SBOMs are completely identical to those produced by the original Syft.
 
 #### 2. [Scanoss](https://github.com/scanoss) 
 
