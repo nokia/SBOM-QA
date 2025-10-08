@@ -867,9 +867,12 @@ pip install openchain-telco-sbom-validator==0.3.0
 
 - Enables checks for mandatory fields only or both mandatory and recommended fields.
 
-To run the validator for each generated SBOM this command was used:
+To run the validator for each generated SBOM these commands were used:
 ```
-python3 -m openchain_telco_sbom_validator.cli  path/generated-sbom.json   > output.txt
+python3 -m openchain_telco_sbom_validator.cli  path/generated-sbom.json   > validation_output.txt
+```
+```
+openchain-telco-sbom-validator --guide-version 1.1 path/generated-sbom.json > validation_output.txt
 ```
 The results were summarized in the following tables:
 
