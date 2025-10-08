@@ -23,23 +23,15 @@ This project helps answer key questions:
 
 | ID | Description                        | Tag                    | Artefact                     | Reference SBOM                              | Original Repo |
 |----|------------------------------------|------------------------|------------------------------|---------------------------------------------|---------|
-| 1  | C++ without package manager        | `v38.0.0-nightly.20250521` | [C++/electron](C++/electron) | [C++/electron_electron_dcefc2.json](C++/electron_electron_dcefc2.json) | https://github.com/electron/electron
-| 2  | C without package manager          | `v7_0_2beta`           |  [C/curl](C/curl) | [C/curl_curl_0c7fe9.json](C/curl_curl_0c7fe9.json) | https://github.com/curl/curl
-| 3  | C++ with Conan                     | `v1.0.0`               | [C++_CONAN/Coronan](C++_CONAN/Coronan) | [C++_CONAN/bbvch_Coronan_81a3f3.json](C++_CONAN/bbvch_Coronan_81a3f3.json)  | https://github.com/bbvch/Coronan
-| 4  | Go with dependencies               | `v0.147.4`             | [Go/hugo](Go/hugo) | [Go/gohugoio_hugo_b0888a.json](Go/gohugoio_hugo_b0888a.json)  | https://github.com/gohugoio/hugo
-| 5  | Python with dependencies           | `0.116.1`              | [python/fastapi](python/fastapi) | [python/fastapi_fastapi_1aca71.json](python/fastapi_fastapi_1aca71.json) | https://github.com/fastapi/fastapi
-| 6  | Node.js (npm)                      | `v5.1.0`               | [Node.js/express](Node.js/express) | [Node.js/expressjs_express_98d8b1.json](Node.js/expressjs_express_98d8b1.json) | https://github.com/expressjs/express
-| 7  | Java with gradle                  | `v9.0.1`               | [java/elasticsearch](java/elasticsearch) | [java/elastic_elasticsearch_3c796f.json](java/elastic_elasticsearch_3c796f.json) | https://github.com/elastic/elasticsearch
-| 8  | Container image with mixed installs| `v0.7.4`               | [ContainerImage/pggb](ContainerImage/pggb) | [ContainerImage/pangenome_pggb_4e1835.json](ContainerImage/pangenome_pggb_4e1835.json) | https://github.com/pangenome/pggb
-
----
-##  New Test Targets
-
-| ID | Description                        | Tag                    | Artefact                     | Reference SBOM                              | Original Repo |
-|----|------------------------------------|------------------------|------------------------------|---------------------------------------------|---------|
-| 1  | Python with requirements.txt       | `v0.3.1`              | [python/gpt-engineer](python/gpt-engineer) | [python/gpt_engineer_0f3e4b.json](python/gpt_engineer_0f3e4b.json) | https://github.com/AntonOsika/gpt-engineer |
-| 2  | Java with Maven                     | `1.5.12`              | [java_Maven/bytedeco-javacv](java/bytedeco-javacv) | [java/bytedeco_javacv_1aa2ee.json](java_Maven/bytedeco_javacv_1aa2ee.json) | https://github.com/bytedeco/javacv |
-| 3  | C without package manager          | `v1.9.1`           |  [C/libgit2](C/libgit2) | [C/libgit2_libgit2_92b6d7.json](C/libgit2_libgit2_92b6d7.json) | https://github.com/libgit2/libgit2
+| 1  | C++ without package manager        | `v0.24` | [C++/meshoptimizer]() | [Ref-C++.json](C++/electron_electron_dcefc2.json) | [C++-NP](https://github.com/zeux/meshoptimizer)
+| 2  | C without package manager          | `v4.4.38`       |  [C/libxcrypt]() |        | [C-NP](https://github.com/besser82/libxcrypt)
+| 3  | C++ with Conan                     | `v3.9.0`        | [C++_CONAN/Catch2]() |            | [C++-CONAN](https://github.com/catchorg/Catch2)
+| 4  | Go with dependencies               | `v0.147.4`             | [Go/hugo](Go/hugo) | [Ref-Go.json](Go/gohugoio_hugo_b0888a.json)  | [Go](https://github.com/gohugoio/hugo)
+| 5  | Python with dependencies  (pdm)      | `0.116.0`              | [Python/fastapi](python/fastapi) | [Ref-python.json](python/fastapi_fastapi_1aca71.json) | [Python](https://github.com/fastapi/fastapi)
+| 6  | Node.js (npm)                   | `v5.1.0`               | [Node.js/express](Node.js/express) | [Ref-Node.json](Node.js/expressjs_express_98d8b1.json) | [Node.js](https://github.com/expressjs/express)
+| 7 | Python with dependencies       | `v0.3.1`              | [python2/gpt-engineer](python/gpt-engineer) | [Ref-python2.json](python/gpt_engineer_0f3e4b.json) | [Python2](https://github.com/AntonOsika/gpt-engineer) |
+| 8 | Java with Maven                | `1.5.12`              | [Java_Maven/bytedeco-javacv](java/bytedeco-javacv) | [Ref-Java.json](java_Maven/bytedeco_javacv_1aa2ee.json) | [Java_Maven](https://github.com/bytedeco/javacv) |
+| 9  | Container image with mixed installs| `v0.7.4`               | [ContainerImage/pggb](ContainerImage/pggb) | [Ref-Container.json](ContainerImage/pangenome_pggb_4e1835.json) | [ContainerImage](https://github.com/pangenome/pggb)
 
 ##  Open Source SCA Tools Used
 
