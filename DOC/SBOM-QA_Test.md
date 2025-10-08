@@ -993,7 +993,6 @@ The results were summarized in the following tables:
 | C++         |  [Ref-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/Reference/zeux_meshoptimizer_4b6446.json) vs  [C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/SBOM/syft.json)    |  [Diff-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/Difference/diff-C%2B%2B.syft.json)    |     3      |   1       |     1     |    5        |           |
 | Python2     | [Ref-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Reference/AntonOsika_gpt-engineer_818115.json) vs [python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/syft.json) , [python2-comp.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/syft-build.json)  |   [Diff-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Difference/diff-syft.json) , [Diff-python2-comp.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Difference/diff-syftbuild.json) |      9     |     1     |     1     |       198     |           |
 
-> ***Note:** Each pair of numbers represents default / post-compilation results from the difference files, where the first value corresponds to the default SBOM and the second to the post-compilation SBOM.
 
 ##### 2. [Trivy](https://github.com/aquasecurity/trivy)
 
@@ -1031,7 +1030,9 @@ The results were summarized in the following tables:
 | Java        | [Ref-Java.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/Reference/bytedeco_javacv_1aa2ee.json)  vs [Java.json]      |            |    0* / 0*  |   1* / 9*    |   47* / 47*      |   0* / 0*      |
 | Go          |  [Ref-Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/Reference/gohugoio_hugo_b0888a.json) vs [Go.json]    |            |         0* / 0* |    15* / 352*    |    190* /  190*      |   0* / 0*        | 
 | C++         | [Ref-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/Reference/zeux_meshoptimizer_4b6446.json)  vs  [C++.json]       |                                     |   0* / 0*        |   8* / 16*     |    6* / 6*      |      0* / 0*    | 
-| Python2     | [Ref-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Reference/AntonOsika_gpt-engineer_818115.json)  vs [python2.json]       |                                     |   0        |   2       |   199       |    0        |           |
+| Python2     | [Ref-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Reference/AntonOsika_gpt-engineer_818115.json)  vs [python2.json]       |     |   0        |   2       |   199       |    0        |           |
+
+> ***Note:** Each pair of numbers represents default / post-compilation results from the difference files, where the first value corresponds to the default SBOM and the second to the post-compilation SBOM.
 
 ##### 5. Container-Based Tools 
 ###### 5.1 [DISTRO2SBOM](https://github.com/anthonyharrison/distro2SBOM)
@@ -1048,3 +1049,5 @@ ref.json vs   |             |     |       |               |           |        |
 |  Compared Files                   | Differences Found | Version Changes | New Packages | Removed Packages | License Changes  |
 |----------------------------------|------------------|----------------|--------------|------------------|-----------------|
 ref.json vs   |             |     |       |               |           |        |
+
+> ***Note:** Each pair of numbers represents default / post-compilation results from the difference files, where the first value corresponds to the default SBOM and the second to the post-compilation SBOM.
