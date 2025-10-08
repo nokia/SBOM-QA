@@ -839,14 +839,16 @@ SBOM richness correlates strongly with package manager maturity and standardiz
 ---
 
 ### 5.2. Tools Point of View
-Strengths and weaknesses of tools used.
 
-| Tool     | Strengths                                                                 | Weaknesses                                  |
-|----------|---------------------------------------------------------------------------|---------------------------------------------|
-| Syft     | Easy to use, fast, supports many ecosystems, SPDX JSON output             | Limited accuracy without lock/build files    |
-| Trivy    | Rich scanning (vulns, misconfigs, licenses, secrets), SBOM support        | Weak PDM (Python) support, some ecosystems partial |
-| ORT      | Comprehensive analysis, policy as code, SPDX compliant                    | Heavy setup, requires package managers, slower |
-| Scanoss  | Strong license compliance checks, lightweight                             | Limited ecosystem coverage, weaker metadata  |
+### Tool Comparison
+
+| Tools      | Strengths (Pros) | Limitations (Cons) |
+|-----------|--------------------|-----------------------|
+| **Syft**  | • Fast and lightweight CLI<br>• Good ecosystem coverage<br>• Detects dependencies accurately when lockfiles exist<br>• Works for both container and application scanning | • May miss dependencies if lockfiles are missing<br>• Limited license detection for source-only projects |
+| **Trivy** | • Detects dependencies accurately when lockfiles exist<br>• Strong integration between SBOM and vulnerability scanning | • SBOM less detailed for pure source projects<br>• May miss dependencies if lockfiles are missing |
+| **SCANOSS** | • Works without build or lockfiles<br>• Detects components directly from source code<br>• Produces high-quality SBOMs (aligned with OpenChain Telco standard)<br>• Excellent ecosystem coverage | • Weak dependency graph for Python Poetry<br>• CLI requires a two-step process (raw JSON → SPDX) and often manual completion steps for more accurate results |
+| **ORT (OSS Review Toolkit)** | • Fully automated analysis without building projects<br>• Detects all package manager files within supported ecosystems<br>• Capable of scanning and identifying known vulnerabilities | • Does not support projects without a package manager<br>• Only generates SPDX version 2.2<br>• Some package managers (e.g., Python PDM) not fully supported or produce errors<br>• Compatibility issues with newer versions of certain package managers |
+
 
 
 ---
