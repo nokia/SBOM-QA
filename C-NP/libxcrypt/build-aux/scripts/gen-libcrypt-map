@@ -1,0 +1,67 @@
+#! /usr/bin/perl
+# Written by Zack Weinberg <zackw at panix.com> in 2017 and 2021.
+# To the extent possible under law, Zack Weinberg has waived all
+# copyright and related or neighboring rights to this work.
+#
+# See https://creativecommons.org/publicdomain/zero/1.0/ for further
+# details.
+
+# Generate an ELF-style "symbol version script" from a .map.in file.
+# See libcrypt.map.in for an explanation of the format of .map.in
+# files.
+
+use v5.14;    # implicit use strict, use feature ':5.14'
+use warnings FATAL => 'all';
+use utf8;
+use open qw(:std :utf8);
+no  if $] >= 5.022, warnings => 'experimental::re_strict';
+use if $] >= 5.022, re       => 'strict';
+
+use FindBin ();
+use lib $FindBin::Bin;
+use BuildCommon qw(
+    parse_version_map_in
+);
+
+sub output {
+    my ($symvers) = @_;
+    my $basemap = $symvers->basemap;
+    print "/* Generated from $basemap by ${FindBin::Script}.  "
+        . "DO NOT EDIT.  */\n";
+
+    my %symbols_for_ver;
+    for my $sym (@{$symvers->symbols}) {
+        next if !$sym->included;
+        for my $v (@{$sym->versions}) {
+            push @{$symbols_for_ver{$v}}, $sym->name;
+        }
+    }
+
+    my $vp;
+    for my $v (@{$symvers->versions}) {
+        next unless exists $symbols_for_ver{$v};
+        print "$v {\n  global:\n";
+        for my $s (sort @{$symbols_for_ver{$v}}) {
+            print "    $s;\n";
+        }
+        if (defined $vp) {
+            print "} $vp;\n";
+        } else {
+            print "  local:\n    *;\n};\n";
+        }
+        $vp = $v;
+    }
+    close STDOUT or die "write error: $!\n";
+    return;
+}
+
+#
+# Main
+#
+exit 0 if eval {
+    output(parse_version_map_in(@ARGV));
+    1;
+};
+
+print {*STDERR} "${FindBin::Script}: $@";
+exit 1;

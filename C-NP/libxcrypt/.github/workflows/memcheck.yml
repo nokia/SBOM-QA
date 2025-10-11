@@ -1,0 +1,157 @@
+name: Memory access checking
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  skip_duplicates:
+    continue-on-error: true
+    runs-on: ubuntu-24.04
+    outputs:
+      should_skip: ${{ steps.skip_check.outputs.should_skip }}
+    steps:
+      - id: skip_check
+        uses: fkirc/skip-duplicate-actions@v5
+        with:
+          concurrent_skipping: 'same_content_newer'
+          skip_after_successful_duplicate: 'true'
+          paths_ignore: '["doc/**", "**/*.md", ".gitignore", "libxcrypt.spec.rpkg", ".packit.yaml", "rpkg.macros", "AUTHORS", "ChangeLog", "COPYING.LIB", "LICENSING", "NEWS", "README", "THANKS", "TODO"]'
+          do_not_skip: '["workflow_dispatch", "schedule"]'
+
+  Valgrind:
+    needs: skip_duplicates
+    if: ${{ needs.skip_duplicates.outputs.should_skip != 'true' }}
+
+    runs-on: ubuntu-24.04
+
+    strategy:
+      fail-fast: false
+      matrix:
+        compiler: [gcc, clang]
+
+    env:
+      CC: ${{matrix.compiler}}
+      VERBOSE: 1
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Install packages
+      run: sudo apt-get install clang libltdl-dev valgrind
+
+    - name: Versions of build tools
+      id: build-tools
+      run: ./build-aux/ci/ci-log-dependency-versions
+
+    - name: Get nprocs
+      run: echo "NPROCS=$((`nproc --all 2>/dev/null || sysctl -n hw.ncpu` * 2))" | tee $GITHUB_ENV
+
+    - name: Cache bootstrap
+      id: cache
+      uses: actions/cache@v4
+      with:
+        path: |
+          INSTALL
+          Makefile.in
+          aclocal.m4
+          config.h.in
+          configure
+          autom4te.cache/**
+          build-aux/m4/libtool.m4
+          build-aux/m4/ltoptions.m4
+          build-aux/m4/ltsugar.m4
+          build-aux/m4/ltversion.m4
+          build-aux/m4/lt~obsolete.m4
+          build-aux/m4-autogen/**
+        key: autoreconf-${{ steps.build-tools.outputs.autotools-ver }}-${{ hashFiles('autogen.sh', 'configure.ac', 'Makefile.am', 'build-aux/m4/*.m4', 'build-aux/m4-autogen/**') }}
+
+    - name: Bootstrap
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: ./autogen.sh
+
+    - name: Configure
+      run: ./build-aux/ci/configure-wrapper --enable-obsolete-api --enable-hashes=all --enable-valgrind-memcheck
+
+    - name: Build
+      run: |
+        make -j${{ env.NPROCS }} all
+        make -j${{ env.NPROCS }} test-programs
+
+    - name: Test
+      run: make -j${{ env.NPROCS }} check-valgrind-memcheck
+
+    - name: Detailed error logs
+      if: failure()
+      run: ./build-aux/ci/ci-log-logfiles
+
+  ASan-UBSan:
+    needs: skip_duplicates
+    if: ${{ needs.skip_duplicates.outputs.should_skip != 'true' }}
+
+    runs-on: ubuntu-24.04
+
+    strategy:
+      fail-fast: false
+      matrix:
+        compiler: [gcc, clang]
+
+    env:
+      CC: ${{matrix.compiler}}
+      DEB_BUILD_MAINT_OPTIONS: hardening=+all sanitize=+address,+leak,+undefined
+      VERBOSE: 1
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Install packages
+      run: |
+        packages="libltdl-dev"
+        if [ "$CC" = clang ]; then
+          packages="$packages clang"
+        fi
+        sudo apt-get install $packages
+
+    - name: Versions of build tools
+      id: build-tools
+      run: ./build-aux/ci/ci-log-dependency-versions
+
+    - name: Cache bootstrap
+      id: cache
+      uses: actions/cache@v4
+      with:
+        path: |
+          INSTALL
+          Makefile.in
+          aclocal.m4
+          config.h.in
+          configure
+          autom4te.cache/**
+          build-aux/m4/libtool.m4
+          build-aux/m4/ltoptions.m4
+          build-aux/m4/ltsugar.m4
+          build-aux/m4/ltversion.m4
+          build-aux/m4/lt~obsolete.m4
+          build-aux/m4-autogen/**
+        key: autoreconf-${{ steps.build-tools.outputs.autotools-ver }}-${{ hashFiles('autogen.sh', 'configure.ac', 'Makefile.am', 'build-aux/m4/*.m4', 'build-aux/m4-autogen/**') }}
+
+    - name: Bootstrap
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: ./autogen.sh
+
+    - name: Configure
+      run: ./build-aux/ci/configure-wrapper --enable-obsolete-api --enable-hashes=all
+
+    - name: Build
+      run: |
+        make -j${{ env.NPROCS }} all UNDEF_FLAG=
+        make -j${{ env.NPROCS }} test-programs UNDEF_FLAG=
+
+    - name: Test
+      run: make -j${{ env.NPROCS }} check
+
+    - name: Detailed error logs
+      if: failure()
+      run: ./build-aux/ci/ci-log-logfiles

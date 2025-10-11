@@ -1,0 +1,132 @@
+name: "Config Matrix"
+
+on:
+   pull_request:
+   push:
+
+jobs:
+  skip_duplicates:
+    continue-on-error: true
+    runs-on: ubuntu-24.04
+    outputs:
+      should_skip: ${{ steps.skip_check.outputs.should_skip }}
+    steps:
+      - id: skip_check
+        uses: fkirc/skip-duplicate-actions@v5
+        with:
+          concurrent_skipping: 'same_content_newer'
+          skip_after_successful_duplicate: 'true'
+          paths_ignore: '["doc/**", "**/*.md", ".gitignore", "libxcrypt.spec.rpkg", ".packit.yaml", "rpkg.macros", "AUTHORS", "ChangeLog", "COPYING.LIB", "LICENSING", "NEWS", "README", "THANKS", "TODO"]'
+          do_not_skip: '["workflow_dispatch", "schedule"]'
+
+  build:
+    needs: skip_duplicates
+    if: ${{ needs.skip_duplicates.outputs.should_skip != 'true' }}
+
+    runs-on: ubuntu-24.04
+
+    strategy:
+      fail-fast: false
+      matrix:
+        compiler: [gcc, clang]
+        config_opts:
+        # General-purpose configurations with the obsolete APIs present.
+        - "--enable-obsolete-api --enable-hashes=all"
+        - "--enable-obsolete-api --enable-hashes=all --enable-obsolete-api-enosys"
+        - "--enable-obsolete-api --enable-hashes=all --disable-failure-tokens"
+        - "--enable-obsolete-api --enable-hashes=all --enable-obsolete-api-enosys --disable-failure-tokens"
+        - "--enable-obsolete-api --enable-hashes=all --disable-symvers"
+        - "--enable-obsolete-api --enable-hashes=glibc"
+        - "--enable-obsolete-api=glibc --enable-hashes=strong,glibc"
+
+        # General-purpose configurations with the obsolete APIs absent.
+        # Note that the obsolete APIs are always absent from the static library,
+        # so --disable-shared implies --disable-obsolete-api.
+        - "--disable-obsolete-api --enable-hashes=all"
+        - "--disable-obsolete-api --enable-hashes=all --disable-shared"
+        - "--disable-obsolete-api --enable-hashes=all --disable-static"
+        - "--disable-obsolete-api --enable-hashes=all --disable-failure-tokens"
+        - "--disable-obsolete-api --enable-hashes=all --disable-symvers"
+        - "--disable-obsolete-api --enable-hashes=strong"
+
+        # Configurations with only one hash enabled.  These exist to
+        # detect build failures due to incorrect ifdeffage.
+        - "--disable-obsolete-api --enable-hashes=bcrypt"
+        - "--disable-obsolete-api --enable-hashes=bcrypt_a"
+        - "--disable-obsolete-api --enable-hashes=bcrypt_x"
+        - "--disable-obsolete-api --enable-hashes=bcrypt_y"
+        - "--disable-obsolete-api --enable-hashes=bigcrypt"
+        - "--disable-obsolete-api --enable-hashes=bsdicrypt"
+        - "--disable-obsolete-api --enable-hashes=descrypt"
+        - "--disable-obsolete-api --enable-hashes=gost-yescrypt"
+        - "--disable-obsolete-api --enable-hashes=md5crypt"
+        - "--disable-obsolete-api --enable-hashes=nt"
+        - "--disable-obsolete-api --enable-hashes=scrypt"
+        - "--disable-obsolete-api --enable-hashes=sha1crypt"
+        - "--disable-obsolete-api --enable-hashes=sha256crypt"
+        - "--disable-obsolete-api --enable-hashes=sha512crypt"
+        - "--disable-obsolete-api --enable-hashes=sm3crypt"
+        - "--disable-obsolete-api --enable-hashes=sm3-yescrypt"
+        - "--disable-obsolete-api --enable-hashes=sunmd5"
+        - "--disable-obsolete-api --enable-hashes=yescrypt"
+
+    env:
+      CC: ${{ matrix.compiler }}
+      CONFIG_OPTS: ${{ matrix.config_opts }}
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Install packages
+      run: |
+        packages="libltdl-dev"
+        if [ "$CC" = clang ]; then
+          packages="$packages clang"
+        fi
+        sudo apt-get install $packages
+
+    - name: Versions of build tools
+      id: build-tools
+      run: ./build-aux/ci/ci-log-dependency-versions
+
+    - name: Get nprocs
+      run: echo "NPROCS=$((`nproc --all 2>/dev/null || sysctl -n hw.ncpu` * 2))" | tee $GITHUB_ENV
+
+    - name: Cache bootstrap
+      id: cache
+      uses: actions/cache@v4
+      with:
+        path: |
+          INSTALL
+          Makefile.in
+          aclocal.m4
+          config.h.in
+          configure
+          autom4te.cache/**
+          build-aux/m4/libtool.m4
+          build-aux/m4/ltoptions.m4
+          build-aux/m4/ltsugar.m4
+          build-aux/m4/ltversion.m4
+          build-aux/m4/lt~obsolete.m4
+          build-aux/m4-autogen/**
+        key: autoreconf-${{ steps.build-tools.outputs.autotools-ver }}-${{ hashFiles('autogen.sh', 'configure.ac', 'Makefile.am', 'build-aux/m4/*.m4', 'build-aux/m4-autogen/**') }}
+
+    - name: Bootstrap
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: ./autogen.sh
+
+    - name: Configure
+      run: ./build-aux/ci/configure-wrapper $CONFIG_OPTS
+
+    - name: Build
+      run: |
+        make -j${{ env.NPROCS }} all
+        make -j${{ env.NPROCS }} test-programs
+
+    - name: Test
+      run: make -j${{ env.NPROCS }} check
+
+    - name: Detailed error logs
+      if: failure()
+      run: ./build-aux/ci/ci-log-logfiles

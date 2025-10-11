@@ -1,0 +1,80 @@
+#! /usr/bin/perl
+# Written by Zack Weinberg <zackw at panix.com> in 2018 and 2020.
+# To the extent possible under law, Zack Weinberg has waived all
+# copyright and related or neighboring rights to this work.
+#
+# See https://creativecommons.org/publicdomain/zero/1.0/ for further
+# details.
+
+# Using the information in lib/hashes.conf, validate a list of
+# selected hashes and hash groups that was supplied as the argument of
+# the --enable-hashes option to the configure script, expand all
+# the groups, and remove duplicates.
+#
+# Caution: if you change the format of lib/hashes.conf you will
+# probably need to modify gen-crypt-hashes-h as well as this script.
+
+use v5.14;    # implicit use strict, use feature ':5.14'
+use warnings FATAL => 'all';
+use utf8;
+use open qw(:std :utf8);
+no  if $] >= 5.022, warnings => 'experimental::re_strict';
+use if $] >= 5.022, re       => 'strict';
+
+use FindBin ();
+use lib $FindBin::Bin;
+use BuildCommon qw(
+    parse_hashes_conf
+);
+
+sub expand_selected {
+    my ($hconf, $selected) = @_;
+
+    if ($selected eq 'all') {
+        return keys %{$hconf->hashes};
+    } else {
+        my %enabled;
+        my @errors;
+        my $hashes = $hconf->hashes;
+        my $groups = $hconf->groups;
+        for my $w (split /,/, $selected) {
+            if ($w eq 'all') {
+                push @errors, "'all' must be used alone\n";
+            } elsif (exists $hashes->{$w}) {
+                $enabled{$w} = 1;
+            } elsif (exists $groups->{$w}) {
+                for my $h (@{$groups->{$w}}) {
+                    $enabled{$h->name} = 1;
+                }
+            } else {
+                push @errors, "'$w' is not a hash or group name\n";
+            }
+        }
+        if (scalar(%enabled) == 0) {
+            push @errors, "no hashes are enabled\n";
+        }
+        die join q{}, @errors if @errors;
+        return keys %enabled;
+    }
+}
+
+#
+# Main
+#
+if (scalar(@ARGV) != 2) {
+    print {*STDERR}
+        "usage: ${FindBin::Script} hashes.conf names,of,selected,hashes\n";
+    exit 1;
+}
+exit 0 if eval {
+    my ($hashes_conf, $hashes_selected) = @ARGV;
+    my $hconf   = parse_hashes_conf($hashes_conf);
+    my @enabled = expand_selected($hconf, $hashes_selected);
+
+    print ',', (join ',', sort @enabled), ",\n";
+    close STDOUT or die "write error: $!\n";
+    1;
+};
+
+print {*STDERR} "${FindBin::Script}: $@";
+exit 1;
