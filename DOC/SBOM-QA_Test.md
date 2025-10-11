@@ -888,7 +888,7 @@ The results were summarized in the following tables:
 
 | Ecosystem   | Compliant | Error Types                        | Notes                                    |
 |-------------|-----------|------------------------------------|------------------------------------------|
-| Go, Python, Node.js, Java (Maven), C, C++ (Conan), C++, Python2        | ❌ Not compliant | NTIA validation errors, Missing mandatory fields  | All packages missing version, supplier, and CreatorComment; NTIA validation errors |
+| Go, Python, Node.js, Java (Maven), C, C++ (Conan), C++, Python2        |  Not compliant | NTIA validation errors, Missing mandatory fields  | All packages missing version, supplier, and CreatorComment; NTIA validation errors |
 
 > **Note:** For Syft, both default and enriched SBOMs exhibited the same validation issues across all ecosystems. All packages were consistently non-compliant due to missing mandatory fields, including package version, supplier, and CreatorComment, resulting in NTIA validation errors. This uniform behavior indicates that the issue is systemic rather than specific to any single ecosystem.
 
@@ -896,7 +896,7 @@ The results were summarized in the following tables:
 
 | Ecosystem   | Compliant | Error Types                        | Notes                                    |
 |-------------|-----------|------------------------------------|------------------------------------------|
-| Go, Python, Node.js, Java (Maven), C, C++ (Conan), C++, Python2        | ❌ Not compliant | NTIA validation errors, Missing mandatory fields  | All packages missing version, supplier, and CreatorComment; NTIA validation errors |
+| Go, Python, Node.js, Java (Maven), C, C++ (Conan), C++, Python2        |  Not compliant | NTIA validation errors, Missing mandatory fields  | All packages missing version, supplier, and CreatorComment; NTIA validation errors |
 
 > **Note:** For Trivy, all generated SBOMs—across default, lockfile-based, and vendor-tidy formats—showed consistent validation failures for every ecosystem. The non-compliance was primarily due to missing critical metadata, specifically package version, supplier, and CreatorComment, which triggered NTIA validation errors. This consistent pattern suggests that the validation issues stem from the way Trivy constructs SBOMs, rather than being caused by ecosystem-specific data.
 
@@ -904,14 +904,14 @@ The results were summarized in the following tables:
 
 | Ecosystem   | Compliant | Error Types                        | Notes                                    |
 |-------------|-----------|------------------------------------|------------------------------------------|
-| Go          | ❌ Not compliant | NTIA validation errors, Missing mandatory fields  | Packages missing supplier; CreatorComment and Organization fields in CreationInfo missing |
+| Go          |  Not compliant | NTIA validation errors, Missing mandatory fields  | Packages missing supplier; CreatorComment and Organization fields in CreationInfo missing |
 | Python      | - | -          | No SBOM generated because PDM is not supported by ORT           |
-| Node.js     |   ❌ Not compliant    | NTIA validation errors, Missing mandatory fields   | Missing supplier and CreatorComment, causing NTIA validation errors          |
+| Node.js     |    Not compliant    | NTIA validation errors, Missing mandatory fields   | Missing supplier and CreatorComment, causing NTIA validation errors          |
 | Java_Maven       |  -  | Invalid SPDX file             | The generated JSON is not recognized as a valid SPDX file by the validator, no validation could be performed   |
 | C           |   -  |  -           | Only the project itself was included as a package      |
-| C++ (Conan) |   ❌ Not compliant  | NTIA validation errors, Missing mandatory fields          | Multiple packages missing version or supplier; CreatorComment and Organization fields in CreationInfo missing  |
+| C++ (Conan) |    Not compliant  | NTIA validation errors, Missing mandatory fields          | Multiple packages missing version or supplier; CreatorComment and Organization fields in CreationInfo missing  |
 | C++  |    -   |  -                                   |    Only the project itself and two NPM packages were included as packages   |       
-| Python2  |    ❌ Not compliant            |              SPDX validation errors, NTIA validation errors, Missing mandatory fields                       |      Several referenced SPDX IDs not found; packages missing supplier info and CreatorComment; unsupported PDM package manager     | 
+| Python2  |     Not compliant            |              SPDX validation errors, NTIA validation errors, Missing mandatory fields                       |      Several referenced SPDX IDs not found; packages missing supplier info and CreatorComment; unsupported PDM package manager     | 
 
 >**Note:** ORT-generated SBOMs revealed recurring issues across ecosystems, including missing supplier information, CreatorComment, and Organization fields in CreationInfo. In some cases, no SBOM was created or the JSON was rejected as invalid SPDX, because ORT relies on a supported package manager to generate SBOMs.
 
@@ -919,7 +919,7 @@ The results were summarized in the following tables:
 
 | Ecosystem                                                       | Compliant   | Error Types | Notes                                                                                                        |
 | --------------------------------------------------------------- | ----------- | ----------- | ------------------------------------------------------------------------------------------------------------ |
-| Go, Python, Node.js, Java (Maven), C, C++ (Conan), C++, Python2 | ✅ Compliant | None        | All SBOMs were fully compliant with the OpenChain Telco SBOM Guide v1.1, with no validation errors detected. |
+| Go, Python, Node.js, Java (Maven), C, C++ (Conan), C++, Python2 |  Compliant | None        | All SBOMs were fully compliant with the OpenChain Telco SBOM Guide v1.1, with no validation errors detected. |
 
 >**Note:** All SBOMs generated by ScanOSS were fully compliant with the OpenChain Telco SBOM Guide v1.1, showing strong consistency and reliability across all tested ecosystems.
 
@@ -929,21 +929,21 @@ The results were summarized in the following tables:
 
 | Ecosystem       | Compliant        | Error Types                              | Notes |
 |-----------------|------------------|-------------------------------------------|--------|
-| Container Image | ❌ Not compliant | Missing mandatory field in CreationInfo | Missing `Organization` in `CreationInfo` (mandatory per v1.1)|
+| Container Image |  Not compliant | Missing mandatory field in CreationInfo | Missing `Organization` in `CreationInfo` (mandatory per v1.1)|
 
 
 #### 2. Tern
 
 | Ecosystem       | Compliant        | Error Types                     | Notes |
 |-----------------|------------------|----------------------------------|--------|
-| Container Image | ❌ Not compliant  | File error, NTIA validation errors, Missing mandatory fields | File missing; missing supplier, CreatorComment, and Organization fields|
+| Container Image |  Not compliant  | File error, NTIA validation errors, Missing mandatory fields | File missing; missing supplier, CreatorComment, and Organization fields|
 
 
 #### 3. Syft
 
 | Ecosystem       | Compliant        | Error Types                              | Notes |
 |-----------------|------------------|-------------------------------------------|--------|
-| Container Image | ❌ Not compliant |NTIA validation errors, Missing mandatory fields| File missing or packages without version/supplier; missing CreatorComment and Organization fields
+| Container Image |  Not compliant |NTIA validation errors, Missing mandatory fields| File missing or packages without version/supplier; missing CreatorComment and Organization fields
 
 > **Notes:**
 > - **NTIA validation errors:** indicate missing required metadata fields such as `version`, `supplier`, or `license`.  
@@ -1034,22 +1034,23 @@ The results were summarized in the following tables:
 | C++         | [Ref-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/Reference/zeux_meshoptimizer_4b6446.json)  vs  [C++.json]       |                                     |   0* / 0*        |   8* / 16*     |    6* / 6*      |      0* / 0*    | 
 | Python2     | [Ref-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Reference/AntonOsika_gpt-engineer_818115.json)  vs [python2.json]       |     |   0        |   2       |   199       |    0        |           |
 
-> ***Note:** Each pair of numbers represents default / post-compilation results from the difference files, where the first value corresponds to the default SBOM and the second to the post-compilation SBOM.
+> ***Note:** Each pair of numbers (e.g., ` 2* / 17* `) represents default / post-compilation results from the difference files, where the first value corresponds to the default SBOM and the second to the post-compilation SBOM.
 
 ##### 5. Container-Based Tools 
 ###### 5.1 [DISTRO2SBOM](https://github.com/anthonyharrison/distro2SBOM)
-|  Compared Files                   | Differences Found | Version Changes | New Packages | Removed Packages | License Changes  |
+|  Compared Files                   | Differences file | Version Changes | New Packages | Removed Packages | License Changes  |
 |----------------------------------|------------------|----------------|--------------|------------------|-----------------|
-ref.json vs   |             |     |       |               |           |        |
+[Ref-Container.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/Reference/pangenome_pggb_4e1835.json) vs [distro.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/SBOM/distro.json)  |    [Diff-distro.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/Difference/diff-distro.json)         | 0    |  363     |  7             |  0         |
 
 ###### 5.2 [Tern](https://github.com/tern-tools/tern)
 |  Compared Files                   | Differences Found | Version Changes | New Packages | Removed Packages | License Changes  |
 |----------------------------------|------------------|----------------|--------------|------------------|-----------------|
-ref.json vs   |             |     |       |               |           |        |
+[Ref-Container.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/Reference/pangenome_pggb_4e1835.json) vs [tern.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/SBOM/tern.json) , [tern-docker.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/SBOM/tern-docer.json) |    [Diff-tern.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/Difference/diff-tern.json) , [Diff-tern-docker](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/Difference/diff-tern-docker.json)   |  0* / 0*   |  362* / 127*  |      7* / 7*   |     0* / 0*     |
 
 ###### 5.3 [Syft](https://github.com/anchore/syft)
 |  Compared Files                   | Differences Found | Version Changes | New Packages | Removed Packages | License Changes  |
 |----------------------------------|------------------|----------------|--------------|------------------|-----------------|
-ref.json vs   |             |     |       |               |           |        |
+[Ref-Container.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/Reference/pangenome_pggb_4e1835.json) vs [syft-container.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/SBOM/syft.json) , [syft-source-container.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/SBOM/Syft-source.json)  |   [Diff-syft-container.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/Difference/diff-syft.json) , [diff-syft-source-container.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/Difference/diff-syft-source.json)        |  0* / 2*  |   485* / 1*   |    7* / 5*          |     0* / 2*    |  
 
-> ***Note:** Each pair of numbers represents default / post-compilation results from the difference files, where the first value corresponds to the default SBOM and the second to the post-compilation SBOM.
+> ***Note:**  Each pair of values (e.g., `0* / 2*`) represents results from two phases — the first value corresponds to the SBOM generated in the **first phase** (default/root filesystem or image-based), and the second value corresponds to the **second phase** (Dockerfile-based or source-based) analysis.
+
