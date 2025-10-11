@@ -826,44 +826,44 @@ syft dir:./ -o spdx-json > <out put name.json>
 
 ## 5. Conclusion
 
-### 5.1. Ecosystem Point of View
+### 5.1. Ecosystem Perspective
 
 Ecosystems were categorized based on package manager maturity, which directly impacted SBOM completeness and accuracy in the test materials analyzed. 
 
-- Mature, Rich, and Well-Integrated Ecosystems:  
+#### Mature, Rich, and Well-Integrated Ecosystems:  
 
-**1. Java(Maven):** Building the project ensured all direct and transitive dependencies were captured, resulting in a complete SBOM. 
+- **Java(Maven):** Building the project ensured all direct and transitive dependencies were captured, resulting in a complete SBOM. 
 
-**2. Node.js(npm):** Preparing a production-only environment allowed SBOM tools to accurately capture runtime dependencies. 
+- **Node.js(npm):** Preparing a production-only environment allowed SBOM tools to accurately capture runtime dependencies. 
 
-**3. Python(Poetry):** Installing production dependencies produced richer SBOMs with full dependency resolution. 
+- **Python(Poetry):** Installing production dependencies produced richer SBOMs with full dependency resolution. 
 
-**4.Go:** Tidying modules and including vendored dependencies ensured a complete, reproducible dependency graph. 
+- **Go:** Tidying modules and including vendored dependencies ensured a complete, reproducible dependency graph. 
 
 > **Note:** All have strong version resolution, standard registries, and are SBOM-ready.
 
 
-- Functional but Inconsistent / Intermediate:  
+#### Functional but Inconsistent / Intermediate:  
 
-**1 .Python(PDM):** Even after dependency preparation, SBOMs remained limited, indicating partial compatibility with tools like Trivy and SCANOSS. 
+- **Python(PDM):** Even after dependency preparation, SBOMs remained limited, indicating partial compatibility with tools like Trivy and SCANOSS. 
 
 > **Note:** Good dependency management and lockfile support, but limited ecosystem maturity and metadata consistency.
 
-- Fragmented or Build-System-Dependent: 
+#### Fragmented or Build-System-Dependent: 
 
-**1. C/C++(manual/CMake):** SBOMs captured only source files; dependency metadata was largely absent. 
+- **C/C++(manual/CMake):** SBOMs captured only source files; dependency metadata was largely absent. 
 
-**2. C++(Conan):** Dependency structure improved, but SBOM completeness varied due to inconsistent metadata. 
+- **C++(Conan):** Dependency structure improved, but SBOM completeness varied due to inconsistent metadata. 
 
 > **Note:** Conan adds structure but depends on how developers define packages (no universal lockfile standard, no uniform registry metadata. 
 
-- **Key Finding:**
+#### Key Finding:
 
 SBOM richness correlates strongly with package manager maturity and standardization. Tools like Syft and Trivy performed best on Maven, npm, Poetry, and Go projects, while Python (PDM) and C/C++ projects had less complete results. SCANOSS required additional configuration (--dependencies) to detect more dependencies, but SBOMs for Python (PDM) remained less comprehensive. 
 
 ---
 
-### 5.2. Tools Point of View
+### 5.2. Tools Perspective
 
 ### Tool Comparison
 
@@ -878,7 +878,7 @@ SBOM richness correlates strongly with package manager maturity and standardiz
 
 ---
 
-### 5.3. Quality Point of View
+### 5.3. Quality Perspective
 Validation results and differences
 
 #### 5.3.1. Validation Results
