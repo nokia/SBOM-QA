@@ -13,17 +13,17 @@ Specifically, the project covers:
 This project is licensed under the [BSD 3-Clause License](https://github.com/nokia/SBOM-QA/blob/main/LICENSE).  
  
 
-## 2. Terms and Definition
+## 2. Terms and Definitions
 ### SBOM
 A Software Bill of Materials (SBOM) is a structured inventory of all software components, libraries, and dependencies within an application, including key metadata such as version, license, and origin. It enhances transparency, security, and compliance across the software supply chain.
 ### SBOM Types
-SBOMs can exist at different stages of the software lifecycle, including *Design, Source, Build, Analyzed, Deployed,* and *Runtime*, as defined in the [CISA guidelines](https://www.cisa.gov/sbom).
+SBOMs can exist at different stages of the software lifecycle, including *Design, Source, Build, Analyze, Deploye,* and *Runtime*, as defined in the [CISA guidelines](https://www.cisa.gov/sbom).
 ### Data Format
-Data Format refers to the structure in which SBOM information is represented. Common formats include [SPDX](https://spdx.dev/), [CycloneDX](https://cyclonedx.org/), or other proprietary formats. For the purposes of this case study, the SBOM is represented using the **SPDX** format.
+Data Format refers to the structure in which SBOM information is represented. Common formats include [SPDX](https://spdx.dev/), [CycloneDX](https://cyclonedx.org/), or other proprietary formats. For the purposes of this project, the SBOMs are represented using the **SPDX** format.
 ### Package 
 A package is a reusable software unit, such as a library or module, distributed via package managers and accompanied by metadata including version, license, and authorship.
 ### Package Manager 
-A package manager is a tool that automates the installation, upgrade, configuration, and removal of software packages, resolving both direct and transitive dependencies; examples include npm, pip, Maven, Gradle, and Conan.
+A package manager is a tool that automates the installation, upgrade, configuration, and removal of software packages, resolving both direct and transitive dependencies. Examples include *npm, pip, Maven, Gradle,* and *Conan*.
 ### SCA Tools (Software Composition Analysis)
 Tools that analyze software artifacts to identify components and extract metadata (e.g., licenses, versions, suppliers, vulnerabilities), commonly used to generate SBOMs for transparency, compliance, and security.
 ### Direct Dependency
