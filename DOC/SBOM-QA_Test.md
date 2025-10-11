@@ -717,7 +717,7 @@ For more information and to track the progress of this feature, refer to the fol
 
 In the selected project, the container image was based on a Linux distribution. Therefore, in order to properly execute the image and generate its corresponding SBOM, all tasks were carried out within a Linux operating system environment. 
 
-### 1. Distro2sbom 
+### 1. [Distro2SBOM](https://github.com/anthonyharrison/distro2SBOM) 
 
 **Observations:** 
 
@@ -754,7 +754,7 @@ distro2sbom --root <path-to-rootFileSystem> -s --sbom <spdx|cyclonedx> --format 
 Since a Linux environment was used, a dedicated Python virtual environment was created to ensure isolation and reproducibility. In this environment, the distro2sbom tool was installed as the main tool for generating SBOM. 
 
 
-### 2. Tern
+### 2. [Tern](https://github.com/tern-tools/tern)
 There are three main approaches to generating an SBOM with Tern: 
 
 **1.	Analyzing an exported root filesystem:** 
@@ -788,7 +788,7 @@ Tern can be pointed to a container image (local or remote) to generate an SBOM w
 tern report -i <image:tag> > sbom_image.json   
 ```
 
-### 3. Syft
+### 3. [Syft](https://github.com/anchore/syft)
 In this project, two approaches were applied to generate SBOM using Syft: 
 
 **1.	Image-based SBOM generation:** 
@@ -950,21 +950,21 @@ The results were summarized in the following tables:
 
 **Container-Based SBOM Generation Tools**
 
-#### 1. Distro2sbom
+#### 1. [Distro2SBOM](https://github.com/anthonyharrison/distro2SBOM)
 
 | Ecosystem       | Compliant        | Error Types                              | Notes |
 |-----------------|------------------|-------------------------------------------|--------|
 | Container Image |  Not compliant | Missing mandatory field in CreationInfo | Missing `Organization` in `CreationInfo` (mandatory per v1.1)|
 
 
-#### 2. Tern
+#### 2. [Tern](https://github.com/tern-tools/tern)
 
 | Ecosystem       | Compliant        | Error Types                     | Notes |
 |-----------------|------------------|----------------------------------|--------|
 | Container Image |  Not compliant  | File error, NTIA validation errors, Missing mandatory fields | File missing; missing supplier, CreatorComment, and Organization fields|
 
 
-#### 3. Syft
+#### 3. [Syft](https://github.com/anchore/syft)
 
 | Ecosystem       | Compliant        | Error Types                              | Notes |
 |-----------------|------------------|-------------------------------------------|--------|
