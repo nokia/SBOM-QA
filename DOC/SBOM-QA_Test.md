@@ -410,6 +410,19 @@ mvn clean install -DskipTests
 - **Enriched SBOMs:**
 [scanoss-Java-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/SBOM/scanoss-build.json)
 
+### Using SCANOSS with API Key
+
+To authenticate with the SCANOSS API, the API key must first be set as an environment variable:
+
+```
+export SCANOSS_API_KEY="your-api-key"
+```
+Then, run the scan command to analyze the project and output the raw results in JSON format:
+```
+scanoss-py scan --key $SCANOSS_API_KEY -o results.json .
+```
+
+> **Note:** SBOMs were also generated using the SCANOSS ***API key*** for authenticated scanning. While the number of detected packages remained almost unchanged compared to unauthenticated runs, using the API key removes rate limits and allows continuous SBOM generation without waiting periods.
 
 
 #### 3. [ORT](https://github.com/oss-review-toolkit/ort)  
