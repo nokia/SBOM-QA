@@ -292,7 +292,7 @@ npm install --package-lock-only
 ```
 Creates the ***package-lock.json*** file.  (Does not install anything into node_modules) 
 
-To Installs only production dependencies based on package-lock.json and Creates a clean environment containing runtime dependencies only, (reducing the risk of false positives from development or test packages during scanning), the following command was executed: 
+To Installs only production dependencies based on ***package-lock.json*** and Creates a clean environment containing runtime dependencies only, (reducing the risk of false positives from development or test packages during scanning), the following command was executed: 
 ```
 npm ci --only=production
 ```
@@ -749,7 +749,7 @@ docker rm tmp
 distro2sbom --root <path-to-rootFileSystem> -s --sbom <spdx|cyclonedx> --format <json|xml|yaml> -o <path-to-output-file>  
 ```
 **Generated SBOM:**
-[distro2sbom.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/SBOM/distro.json)
+[distro2SBOM.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/SBOM/distro.json)
 
 > **Note:**
 Since a Linux environment was used, a dedicated Python virtual environment was created to ensure isolation and reproducibility. In this environment, the distro2sbom tool was installed as the main tool for generating SBOM. 
@@ -979,7 +979,7 @@ The results were summarized in the following tables:
 
 #### 5.3.2. Diffs / Comparisons  
 
-[SBOMDIFF](https://github.com/anthonyharrison/sbomdiff) | [v0.5.6](https://github.com/anthonyharrison/sbomdiff/releases/tag/v0.5.6) is a Python-based tool used to compare two SBOM  files and identify differences between them. It supports both SPDX and CycloneDX formats and detects:
+The [sbomdiff](https://github.com/anthonyharrison/sbomdiff) | [v0.5.6](https://github.com/anthonyharrison/sbomdiff/releases/tag/v0.5.6) is a Python-based tool used to compare two SBOM  files and identify differences between them. It supports both SPDX and CycloneDX formats and detects:
 
 - Package version changes
 - Added or removed packages
