@@ -145,7 +145,7 @@ Validation criteria included:
 
 ## 4. Observation & Result
 
-### Tools Used
+### General-Purpose SBOM Generation Tools
 #### 1. [Syft](https://github.com/anchore/syft)
 **Command:**  
 For generating SBOMs for all test targets this command is used:
@@ -713,7 +713,7 @@ For more information and to track the progress of this feature, refer to the fol
 
 ---
 
-## Container-Based Tools  
+## Container-Based SBOM Generation Tools  
 
 In the selected project, the container image was based on a Linux distribution. Therefore, in order to properly execute the image and generate its corresponding SBOM, all tasks were carried out within a Linux operating system environment. 
 
