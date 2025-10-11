@@ -81,7 +81,7 @@ Generates an SBOM for either an installed application or a complete system insta
 The test targets linked in this part are the original, publicly available repositories of the respective projects. 
 
 ### 1. [C (No package manager)](https://github.com/besser82/libxcrypt)  
-[libxcrypt](https://github.com/besser82/libxcrypt) | [tag-v4.4.38](https://github.com/besser82/libxcrypt/releases/tag/v4.4.38) is a modern C library for one-way hashing of passwords, supporting various algorithms like bcrypt, md5crypt, and yescrypt. It provides traditional Unix `crypt` interfaces and extended functions for secure password handling. The project does not utilize a package manager, making it suitable for manual integration and analysis.
+[libxcrypt](https://github.com/besser82/libxcrypt) | [tag-v4.4.38](https://github.com/besser82/libxcrypt/releases/tag/v4.4.38) is a modern C library for one-way hashing of passwords, supporting various algorithms like ***bcrypt, md5crypt,*** and ***yescrypt***. It provides traditional Unix `crypt` interfaces and extended functions for secure password handling. The project does not utilize a package manager, making it suitable for manual integration and analysis.
 
 ### 2. [C++ (No package manager)](https://github.com/zeux/meshoptimizer)  
 [MeshOptimizer](https://github.com/zeux/meshoptimizer) | [tag-v0.24](https://github.com/zeux/meshoptimizer/releases/tag/v0.24) is an open-source C++ library developed by Arseny Kapoulkine, providing algorithms to optimize meshes for modern GPU vertex and index processing pipelines. It can reindex an existing index buffer or generate an entirely new set of indices from an unindexed vertex buffer. The project does not utilize a package manager, making it suitable for manual integration and analysis.
@@ -104,20 +104,20 @@ The test targets linked in this part are the original, publicly available reposi
 [JavaCV](https://github.com/bytedeco/javacv) | [tag-1.5.12](https://github.com/bytedeco/javacv/releases/tag/1.5.12) is a Java interface to OpenCV, FFmpeg, and other computer vision and machine learning libraries. It provides a comprehensive set of tools for image and video processing, machine learning, and computer vision tasks. The project is managed using the [Maven](https://maven.apache.org/) package manager.
 
 ### 8. [ContainerImage](https://github.com/pangenome/pggb)  
-[pggb](https://github.com/pangenome/pggb) | [tag-v0.7.4](https://github.com/pangenome/pggb/releases/tag/v0.7.4) builds pangenome variation graphs from input sequences using wfmash, seqwish, smoothxg, gfaffix, and odgi.  
+[pggb](https://github.com/pangenome/pggb) | [tag-v0.7.4](https://github.com/pangenome/pggb/releases/tag/v0.7.4) builds pangenome variation graphs from input sequences using ***wfmash, seqwish, smoothxg, gfaffix,*** and ***odgi***.  
 
->***Note:*** The project provides a **Dockerfile** for containerized usage, enabling local builds or pulls from the GitHub Container Registry.
+>***Note:*** The project provides a ***Dockerfile*** for containerized usage, enabling local builds or pulls from the GitHub Container Registry.
 
 ## 3.4. Test Targets Selection Criteria 
 - **Real-World Relevance:** Only publicly available, widely used open-source projects were considered to ensure practical evaluation of SCA tools.
 
 - **Ecosystem Diversity:** Projects cover multiple languages, build systems, both with and without package managers.
 
-- **Reference SBOM Availability:** For each test target, a Reference SBOM was available.
+- **Reference SBOM Availability:** For each test target, a ***Reference SBOM*** was available.
 
 ## 3.5. Reference SBOM
 
-A **Reference SBOM** is a standardized, machine-readable inventory of a project's dependencies and associated metadata, such as versions, licenses, and transitive relationships. It is generated directly from the **dependency graph** of the original, publicly available repositories of the respective test targets.
+A ***Reference SBOM*** is a standardized, machine-readable inventory of a project's dependencies and associated metadata, such as versions, licenses, and transitive relationships. It is generated directly from the **dependency graph** of the original, publicly available repositories of the respective test targets.
 
 These SBOMs provide a canonical representation of all software components, including direct and transitive dependencies, and serve as a baseline for comparison and validation. The dependency graph is a summary of the manifest and lock files stored in a repository and any dependencies that are submitted for the repository using the dependency submission API ([GitHub Docs: Dependency Graph](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph?utm_source=chatgpt.com)).
 
@@ -163,7 +163,7 @@ Generated directly from the project source without performing any compilation st
 
 - **Compilation Step:**
 
-The project did not originally include a package-lock.json file, which is required to resolve and capture the full dependency tree. To generate it, the following command was executed in test target root:
+The project did not originally include a ***package-lock.json*** file, which is required to resolve and capture the full dependency tree. To generate it, the following command was executed in test target root:
 ```
 npm install --package-lock
 ```
@@ -187,7 +187,7 @@ npm install --package-lock
 
 - **Compilation Step:**
 
-The project did not include a pdm.lock file. To generate it and pin all dependencies, the following command was executed:
+The project did not include a ***pdm.lock*** file. To generate it and pin all dependencies, the following command was executed:
 
 ```
 pdm lock
@@ -209,7 +209,7 @@ pdm install
 
 - **Compilation Step:**
 
-The project included both pyproject.toml and poetry.lock. To install only the production dependencies (excluding development packages), the following command was executed: 
+The project included both ***pyproject.toml*** and ***poetry.lock***. To install only the production dependencies (excluding development packages), the following command was executed: 
 
 ```
 poetry install --no-dev
@@ -283,13 +283,14 @@ scanoss-py convert --input scanoss-raw.json --format spdxlite --output  scanoss.
 
 - **Default SBOM:**
 [scanoss-Nodejs.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/scanoss.json)
+
 - **Compilation Step:**
 
-The project did not originally include a package-lock.json file, To ensure accurate scanning and SBOM generation, the project dependencies were prepared as follows(in root of project): 
+The project did not originally include a ***package-lock.json*** file, To ensure accurate scanning and SBOM generation, the project dependencies were prepared as follows(in root of project): 
 ```
 npm install --package-lock-only
 ```
-Creates ***package-lock.json*** file.  (Does not install anything into node_modules) 
+Creates the ***package-lock.json*** file.  (Does not install anything into node_modules) 
 
 To Installs only production dependencies based on package-lock.json and Creates a clean environment containing runtime dependencies only, (reducing the risk of false positives from development or test packages during scanning), the following command was executed: 
 ```
