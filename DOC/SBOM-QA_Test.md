@@ -996,6 +996,8 @@ The command used for comparison:
 ```
 sbomdiff -f json -o name.json reference.json generated.json
 ```
+> **Note:** `sbomdiff` requires Python 3.7+ (in this project this version was used: 3.12.9). Using a virtual environment (`python3 -m venv venv && source venv/bin/activate`) is recommended to isolate dependencies.
+
 The tool outputs differences in package versions, new or missing packages, and license changes.
 
 - **Version_Changes:** packages exist in both SBOMs but have different version numbers.
