@@ -994,7 +994,7 @@ Each comparison was performed between the reference SBOM (exported from GitHub d
 
 The command used for comparison:
 ```
-sbomdiff reference.json generated.json
+sbomdiff -f json -o name.json reference.json generated.json
 ```
 The tool outputs differences in package versions, new or missing packages, and license changes.
 
