@@ -438,7 +438,119 @@ scanoss-py scan --key $SCANOSS_API_KEY -o results.json .
 > **Note:** SBOMs were also generated using the SCANOSS ***API key*** for authenticated scanning. While the number of detected packages remained almost unchanged compared to unauthenticated runs, using the API key removes rate limits and allows continuous SBOM generation without waiting periods.
 
 
-#### 3. [ORT](https://github.com/oss-review-toolkit/ort)  
+
+ 
+#### 3. [Trivy](https://github.com/aquasecurity/trivy)  
+**Command:** (In test target root):
+
+```
+trivy fs --format spdx-json --scanners vuln,license,secret,misconfig --output trivy-sbom.spdx.json .
+```
+
+**3.1 Ecosystem:** 
+[Node.js](https://github.com/expressjs/express)  
+
+**Generated SBOM:**
+[trivy-Nodejs.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/trivy.default.json)
+
+- **Compilation Step:**
+
+The project did not originally include a package-lock.json file, which is required to resolve and capture the full dependency tree without actually installing dependencies, the following command was executed in test target root: 
+
+```
+npm install --package-lock-only 
+```
+
+**Created Files:**
+
+- ***package-lock.json***
+
+To create a clean environment with only production dependencies installed (excluding devDependencies), the following command was executed: 
+
+```
+npm ci --only=production
+```
+**Enriched SBOMs:**
+[trivy-Nodejs-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/trivy-compilation.json)
+
+**3.2 Ecosystem:** 
+[C++ (Conan)](https://github.com/catchorg/Catch2)
+
+**Generated SBOM:**
+[trivy-C++-CONAN.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B_CONAN/SBOM/trivy.json)
+
+**3.3 Ecosystem:** 
+[Go](https://github.com/gohugoio/hugo)
+
+- **Compilation Step:**
+
+To ensure all required dependencies are included and the module files are consistent, the following command was executed in the project root: 
+
+```
+go mod tidy
+```
+
+**Updated Files:**
+
+- ***go.mod*** , ***go.sum***
+
+**Enriched SBOMs:**
+[trivy-Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/SBOM/trivy-compilation.json)
+
+**3.4 Ecosystem:** 
+[C++ (No package manager)](https://github.com/zeux/meshoptimizer)
+
+**Generated SBOM:**
+[trivy-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/SBOM/trivy.json)
+
+**3.5 Ecosystem:**
+[Python (FastAPI)](https://github.com/fastapi/fastapi)
+
+**Generated SBOM:**
+[trivy-python.json](https://github.com/nokia/SBOM-QA/blob/main/python/SBOM/trivy.default.json)
+
+- **Compilation Step:**
+
+The project did not include a pdm.lock file. To generate it and pin all dependencies, the following command was executed:
+
+```
+pdm lock
+```
+
+Dependencies must be installed for the environment using:
+
+```
+pdm install
+```
+
+**Enriched SBOMs:**
+[trivy-python-compilation](https://github.com/nokia/SBOM-QA/blob/main/python/SBOM/trivy-compilation.json)
+
+> **Note:** As of now, Trivy does not support scanning Python projects managed with PDM. Specifically, Trivy does not parse the pdm.lock file, which means it cannot fully resolve and capture the project's dependency tree. This limitation affects the accuracy and completeness of Software Bill of Materials (SBOM) generation for PDM-managed Python projects. 
+
+For more information and to track the progress of this feature, refer to the following GitHub issue: 
+[Trivy GitHub Issue: Add support for PDM lockfile parsing](https://github.com/aquasecurity/trivy/issues/9410?utm_source=chatgpt.com)
+
+**3.6 Ecosystem:**
+[Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
+
+**Generated SBOM:**
+[trivy-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/trivy.json)
+
+**3.7 Ecosystem:** 
+[C (No package manager)](https://github.com/besser82/libxcrypt)
+
+**Generated SBOM:**
+[trivy-C.json](https://github.com/nokia/SBOM-QA/blob/main/C-NP/SBOM/trivy.json)
+
+**3.8 Ecosystem:**
+[Java (Maven-managed)](https://github.com/bytedeco/javacv) 
+
+**Generated SBOM:**
+[trivy-Java.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/SBOM/trivy-default.json)
+
+
+#### 4. [ORT](https://github.com/oss-review-toolkit/ort)  
 **Command:**
 
 For generating SBOMs for all test targets these commands are used:
@@ -476,7 +588,7 @@ In the examined workflow, only the Analyzer and Reporter phases were executed.
 The Analyzer phase produces the file ***analyzer-result.yml*** 
 Then the Reporter phase use this file as input file.
 
-**3.1 Ecosystem:** 
+**4.1 Ecosystem:** 
 [Go](https://github.com/gohugoio/hugo)
 
 In this project, the following files were identified: 
@@ -492,7 +604,7 @@ Indicating the use of two different **Package Managers**:
 **Generated SBOM:**
 [ORT-GO.json](https://github.com/nokia/SBOM-QA/blob/main/Go/SBOM/ort.json)
 
-**3.2 Ecosystem:** 
+**4.2 Ecosystem:** 
 [C (No package manager)](https://github.com/besser82/libxcrypt)
 
 Given that ORT relies on a package manager for SBOM generation, and no package manager was present in this project, the generated SBOM only included the project name as a package.
@@ -500,7 +612,7 @@ Given that ORT relies on a package manager for SBOM generation, and no package m
 **Generated SBOM:**
 [ORT-C-NP.json](https://github.com/nokia/SBOM-QA/blob/main/C-NP/SBOM/ort%20.json)
 
-**3.3 Ecosystem:** 
+**4.3 Ecosystem:** 
 [C++ (No package manager)](https://github.com/zeux/meshoptimizer)
 
 In this project, no package manager associated with C++ was identified; However, in the two files listed below, **NPM-related Packages** were detected. 
@@ -511,7 +623,7 @@ In this project, no package manager associated with C++ was identified; However,
 [ORT-C++-NP.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/SBOM/ortC%2B%2BMeShop.json)
 
 
-**3.4 Ecosystem:** 
+**4.4 Ecosystem:** 
 [Node.js](https://github.com/expressjs/express)  
 
 In this project, the following file was identified: 
@@ -528,7 +640,7 @@ indicating the use of a package manager:
 [ORT-Node-js.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/node.js.ORT.ScanSbom.json)
 
 
-**3.5 Ecosystem:**
+**4.5 Ecosystem:**
 [Java (Maven-managed)](https://github.com/bytedeco/javacv) 
 
 During the process, an error related to the Maven compiler was encountered, which necessitated modifications in the ***pom.xml*** file as described below: 
@@ -556,7 +668,7 @@ After the version was corrected, **ORT** was ultimately able to generate the **S
 **Generated SBOM:**
 [ORT-Java-Maven.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/SBOM/normal.ort.json)
 
-**3.6 Ecosystem:** 
+**4.6 Ecosystem:** 
 [C++ (Conan)](https://github.com/catchorg/Catch2)
 
 In this section, several points should be highlighted.  
@@ -578,13 +690,13 @@ and in total, two package managers were detected:
 **Generated SBOM:**
 [ORT-C++-CONAN.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B_CONAN/SBOM/ort.json)
 
-**3.7 Ecosystem:**
+**4.7 Ecosystem:**
 [Python (FastAPI)](https://github.com/fastapi/fastapi)
 
 Since the project utilized the PDM package manager, which was not included in the list of package managers supported by ORT, no SBOM was generated as a result. 
 
 
-**3.8 Ecosystem:**
+**4.8 Ecosystem:**
 [Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
 
 In this project, the following two files were identified: 
@@ -600,115 +712,7 @@ The SBOM was successfully generated without any errors.
 **Generated SBOM:**
 [ORT-python.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/ort.json)
 
- 
-#### 4. [Trivy](https://github.com/aquasecurity/trivy)  
-**Command:** (In test target root):
 
-```
-trivy fs --format spdx-json --scanners vuln,license,secret,misconfig --output trivy-sbom.spdx.json .
-```
-
-**4.1 Ecosystem:** 
-[Node.js](https://github.com/expressjs/express)  
-
-**Generated SBOM:**
-[trivy-Nodejs.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/trivy.default.json)
-
-- **Compilation Step:**
-
-The project did not originally include a package-lock.json file, which is required to resolve and capture the full dependency tree without actually installing dependencies, the following command was executed in test target root: 
-
-```
-npm install --package-lock-only 
-```
-
-**Created Files:**
-
-- ***package-lock.json***
-
-To create a clean environment with only production dependencies installed (excluding devDependencies), the following command was executed: 
-
-```
-npm ci --only=production
-```
-**Enriched SBOMs:**
-[trivy-Nodejs-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/trivy-compilation.json)
-
-**4.2 Ecosystem:** 
-[C++ (Conan)](https://github.com/catchorg/Catch2)
-
-**Generated SBOM:**
-[trivy-C++-CONAN.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B_CONAN/SBOM/trivy.json)
-
-**4.3 Ecosystem:** 
-[Go](https://github.com/gohugoio/hugo)
-
-- **Compilation Step:**
-
-To ensure all required dependencies are included and the module files are consistent, the following command was executed in the project root: 
-
-```
-go mod tidy
-```
-
-**Updated Files:**
-
-- ***go.mod*** , ***go.sum***
-
-**Enriched SBOMs:**
-[trivy-Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/SBOM/trivy-compilation.json)
-
-**4.4 Ecosystem:** 
-[C++ (No package manager)](https://github.com/zeux/meshoptimizer)
-
-**Generated SBOM:**
-[trivy-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/SBOM/trivy.json)
-
-**4.5 Ecosystem:**
-[Python (FastAPI)](https://github.com/fastapi/fastapi)
-
-**Generated SBOM:**
-[trivy-python.json](https://github.com/nokia/SBOM-QA/blob/main/python/SBOM/trivy.default.json)
-
-- **Compilation Step:**
-
-The project did not include a pdm.lock file. To generate it and pin all dependencies, the following command was executed:
-
-```
-pdm lock
-```
-
-Dependencies must be installed for the environment using:
-
-```
-pdm install
-```
-
-**Enriched SBOMs:**
-[trivy-python-compilation](https://github.com/nokia/SBOM-QA/blob/main/python/SBOM/trivy-compilation.json)
-
-> **Note:** As of now, Trivy does not support scanning Python projects managed with PDM. Specifically, Trivy does not parse the pdm.lock file, which means it cannot fully resolve and capture the project's dependency tree. This limitation affects the accuracy and completeness of Software Bill of Materials (SBOM) generation for PDM-managed Python projects. 
-
-For more information and to track the progress of this feature, refer to the following GitHub issue: 
-[Trivy GitHub Issue: Add support for PDM lockfile parsing](https://github.com/aquasecurity/trivy/issues/9410?utm_source=chatgpt.com)
-
-**4.6 Ecosystem:**
-[Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
-
-**Generated SBOM:**
-[trivy-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/trivy.json)
-
-**4.7 Ecosystem:** 
-[C (No package manager)](https://github.com/besser82/libxcrypt)
-
-**Generated SBOM:**
-[trivy-C.json](https://github.com/nokia/SBOM-QA/blob/main/C-NP/SBOM/trivy.json)
-
-**4.8 Ecosystem:**
-[Java (Maven-managed)](https://github.com/bytedeco/javacv) 
-
-**Generated SBOM:**
-[trivy-Java.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/SBOM/trivy-default.json)
 
 
 
