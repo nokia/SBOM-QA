@@ -1034,6 +1034,8 @@ The results were summarized in the following tables:
 | C++         |  [Ref-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/Reference/zeux_meshoptimizer_4b6446.json) vs  [C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/SBOM/syft.json)    |  [Diff-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/Difference/diff-C%2B%2B.syft.json)    |     3      |   1       |     1     |    5        |           |
 | Python2     | [Ref-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Reference/AntonOsika_gpt-engineer_818115.json) vs [python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/syft.json) , [python2-comp.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/syft-build.json)  |   [Diff-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Difference/diff-syft.json) , [Diff-python2-comp.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Difference/diff-syftbuild.json) |      9     |     1     |     1     |       198     |           |
 
+**Syft** showed a high number of version and license differences, especially in Python, Node.js, and Go, indicating strong detection of transitive dependencies and license data. However, the large variation between pre- and post-compilation SBOMs suggests that Syft’s accuracy depends heavily on build completeness and lockfiles.  
+
 
 ##### 2. [Trivy](https://github.com/aquasecurity/trivy)
 
