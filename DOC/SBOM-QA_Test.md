@@ -1065,7 +1065,7 @@ The results were summarized in the following tables:
 > ***Note:** Each pair of numbers (e.g., ` 2* / 17* `) represents default / post-compilation results from the difference files, where the first value corresponds to the default SBOM and the second to the post-compilation SBOM.
 
 ##### 5. Container-Based Tools 
-###### 5.1 [DISTRO2SBOM](https://github.com/anthonyharrison/distro2SBOM)
+###### 5.1 [distro2SBOM](https://github.com/anthonyharrison/distro2SBOM)
 |  Compared Files                   | Differences file | Version Changes | New Packages | Removed Packages | License Changes  |
 |----------------------------------|------------------|----------------|--------------|------------------|-----------------|
 [Ref-Container.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/Reference/pangenome_pggb_4e1835.json) vs [distro.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/SBOM/distro.json)  |    [Diff-distro.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/Difference/diff-distro.json)         | 0    |  363     |  7             |  0         |
