@@ -1050,6 +1050,8 @@ The results were summarized in the following tables:
 | C++         | [Ref-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/Reference/zeux_meshoptimizer_4b6446.json)  vs  [C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/SBOM/trivy.json)   |   [Diff-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/Difference/diff-C%2B%2B.trivy.json)        |     0      |   1       |   6       |    0        |      
 | Python2     | [Ref-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Reference/AntonOsika_gpt-engineer_818115.json) vs [python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/trivy.json)  |   [Diff-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Difference/diff-trivy.json)     |      2     |     3     |    9      |      190      |    
 
+**Trivy** produced fewer version and license changes overall. It performed well for ecosystems like Java and Go, but differences in Python and Node.js suggest it relies heavily on lockfiles and runtime context for complete detection.
+
 ##### 3. [ORT](https://github.com/oss-review-toolkit/ort)
 
 | Ecosystem   | Compared Files                   | Differences file | Version Changes | New Packages | Removed Packages | License Changes  | 
