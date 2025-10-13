@@ -829,6 +829,8 @@ syft dir:./ -o spdx-json > <out put name.json>
 
 ### 5.1. Ecosystem Perspective
 
+#### 5.1.1 General Ecosystems:
+
 Ecosystems were categorized based on package manager maturity, which directly impacted SBOM completeness and accuracy in the test materials analyzed. 
 
 #### Mature, Rich, and Well-Integrated Ecosystems:  
@@ -856,11 +858,17 @@ Ecosystems were categorized based on package manager maturity, which directly 
 
 - **C++(Conan):** Dependency structure improved, but SBOM completeness varied due to inconsistent metadata. 
 
-> **Note:** Conan adds structure but depends on how developers define packages (no universal lockfile standard, no uniform registry metadata. 
+> **Note:** Conan adds structure but depends on how developers define packages (no universal lockfile standard, no uniform registry metadata.
+
+#### 5.1.2. Container Ecosystem:
+
+- **Container images** based on Linux distributions rely on the completeness of installed system packages and layers.
+
+- **Tools** like ***Distro2SBOM, Tern,*** and ***Syft*** showed that SBOM richness depends on access to filesystem metadata and proper image preparation.
 
 #### Key Finding:
 
-SBOM richness correlates strongly with package manager maturity and standardization. Tools like Syft and Trivy performed best on Maven, npm, Poetry, and Go projects, while Python (PDM) and C/C++ projects had less complete results. SCANOSS required additional configuration (--dependencies) to detect more dependencies, but SBOMs for Python (PDM) remained less comprehensive. 
+SBOM richness correlates strongly with package manager maturity and standardization. Tools like Syft and Trivy performed best on Maven, npm, Poetry, and Go projects, while Python (PDM) and C/C++ projects had less complete results. SCANOSS required additional configuration (--dependencies) to detect more dependencies, but SBOMs for Python (PDM) remained less comprehensive. Container-based tools performed best when images were fully built and all layers were accessible.
 
 ---
 
@@ -874,6 +882,9 @@ SBOM richness correlates strongly with package manager maturity and standardiz
 | **Trivy** | • Detects dependencies accurately when lockfiles exist<br>• Strong integration between SBOM and vulnerability scanning | • SBOM less detailed for pure source projects<br>• May miss dependencies if lockfiles are missing |
 | **SCANOSS** | • Works without build or lockfiles<br>• Detects components directly from source code<br>• Produces high-quality SBOMs (aligned with OpenChain Telco standard)<br>• Excellent ecosystem coverage | • Weak dependency graph for Python Poetry<br>• CLI requires a two-step process (raw JSON → SPDX) and often manual compilation steps for more accurate results |
 | **ORT (OSS Review Toolkit)** | • Fully automated analysis without building projects<br>• Detects all package manager files within supported ecosystems<br>• Capable of scanning and identifying known vulnerabilities | • Does not support projects without a package manager<br>• Only generates SPDX version 2.2<br>• Some package managers (e.g., Python PDM) not fully supported or produce errors<br>• Compatibility issues with newer versions of certain package managers |
+| **Distro2SBOM (Container)** | • Accurate SBOM from full Linux root<br>• Captures all installed packages and system files<br>• Supports offline analysis using exported root | • Requires access to root filesystem or exported copy<br>• Not suitable for live system scanning without export<br>• Limited integration with container image layers |
+| **Tern (Container)** | • Multiple analysis approaches: exported rootfs, Dockerfile parsing, or direct image scanning<br>• Good insight into layer-level dependencies in images<br>• Supports automated image inspection pipelines | • Exported filesystem approach can be slow<br>• Direct image analysis not always used, limiting flexibility<br>• Requires Dockerfile or rootfs for accurate SBOMs |
+| **Syft (Container)** | • Works on images & source directories<br>• Fast and lightweight CLI<br>• Detects dependencies and licenses in images accurately<br>• Integrates well with CI/CD pipelines | • May miss packages if metadata is incomplete in source-based scans<br>• License detection limited for complex or custom images<br>• Requires image building or source prep for best results |
 
 
 
