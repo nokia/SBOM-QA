@@ -9,6 +9,12 @@ This project helps answer key questions:
 
 ---
 
+The initial study and creation of the repository was done in 2025 in a co-operation between Metropolia School of Applied
+Sciences (Metropolia Ammattikorkeakoulu) and Nokia. The study was conducted by Elham Rastighahfarokhi, Mehdi Nourivahid
+and Mostafa Sharghi with the overshight of Gergely Csatari.
+
+In case of any feedback or comment please create an Issue or a Pull Request.
+
 ##  Work Methodology
 
 1. **Test Targets** – Selected real-world software projects across multiple ecosystems (C, C++, C++(CONAN), Java (Maven), Python, Node.js, Go, and containers).
