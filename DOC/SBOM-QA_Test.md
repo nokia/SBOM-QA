@@ -13,17 +13,17 @@ Specifically, the project covers:
 This project is licensed under the [BSD 3-Clause License](https://github.com/nokia/SBOM-QA/blob/main/LICENSE).  
  
 
-## 2. Terms and Definition
+## 2. Terms and Definitions
 ### SBOM
 A Software Bill of Materials (SBOM) is a structured inventory of all software components, libraries, and dependencies within an application, including key metadata such as version, license, and origin. It enhances transparency, security, and compliance across the software supply chain.
 ### SBOM Types
-SBOMs can exist at different stages of the software lifecycle, including *Design, Source, Build, Analyzed, Deployed,* and *Runtime*, as defined in the [CISA guidelines](https://www.cisa.gov/sbom).
+SBOMs can exist at different stages of the software lifecycle, including *Design, Source, Build, Analyze, Deploye,* and *Runtime*, as defined in the [CISA guidelines](https://www.cisa.gov/sbom).
 ### Data Format
-Data Format refers to the structure in which SBOM information is represented. Common formats include [SPDX](https://spdx.dev/), [CycloneDX](https://cyclonedx.org/), or other proprietary formats. For the purposes of this case study, the SBOM is represented using the **SPDX** format.
+Data Format refers to the structure in which SBOM information is represented. Common formats include [SPDX](https://spdx.dev/), [CycloneDX](https://cyclonedx.org/), or other proprietary formats. For the purposes of this project, the SBOMs are represented using the **SPDX** format.
 ### Package 
 A package is a reusable software unit, such as a library or module, distributed via package managers and accompanied by metadata including version, license, and authorship.
 ### Package Manager 
-A package manager is a tool that automates the installation, upgrade, configuration, and removal of software packages, resolving both direct and transitive dependencies; examples include npm, pip, Maven, Gradle, and Conan.
+A package manager is a tool that automates the installation, upgrade, configuration, and removal of software packages, resolving both direct and transitive dependencies. Examples include *npm, pip, Maven, Gradle,* and *Conan*.
 ### SCA Tools (Software Composition Analysis)
 Tools that analyze software artifacts to identify components and extract metadata (e.g., licenses, versions, suppliers, vulnerabilities), commonly used to generate SBOMs for transparency, compliance, and security.
 ### Direct Dependency
@@ -33,8 +33,25 @@ A transitive dependency is an indirect package required by a direct dependency o
 
 
 ## 3. Methodology
-### 3.1. Tools
-**General Tools:**
+
+### 3.1. Tools Selection Criteria 
+
+- **Open Source and Actively Maintained:** Only open-source tools with active development communities and regular updates were considered to ensure relevance, reliability, and transparency. 
+
+- **Support for SPDX JSON Output:** Since SPDX JSON was the standardized SBOM format selected for comparison, all selected tools needed to either natively support or allow conversion to this format. 
+
+- **Language and Ecosystem Compatibility:** Tools were required to support multiple programming languages and environments, particularly those used in our test targets (e.g., C, C++, Java, Python, Node.js, Go, container images). 
+
+- **Alignment with OpenChain Telco SBOM Guide:** Where applicable, tools were evaluated for their ability to generate SBOMs conforming to the recommendations and structure outlined in the OpenChain Telco SBOM Guide. 
+
+- **Richness of Metadata:** Tools were assessed on the granularity and completeness of SBOM content, including license information, versioning, source origin, cryptographic hashes, and component relationships. 
+
+
+### 3.2. Tools
+
+This section lists the SBOM generation tools evaluated in this project, categorized into general-purpose and container-based tools.
+
+**General purpose tools:**
 #### 1. [Syft](https://github.com/anchore/syft) | [Docs](https://anchore.com/opensource/syft/) | [v1.26.1](https://github.com/anchore/syft/releases/tag/v1.26.1)
 A CLI tool and Go library for generating an SBOM from container images and filesystems.  
 Exceptional for SBOM creation and integrates well with vulnerability scanners like [Grype](https://github.com/anchore/grype).
@@ -46,35 +63,31 @@ A comprehensive security tool for SBOM generation, vulnerability detection, lice
 #### 3. [OSS Review Toolkit (ORT)](https://github.com/oss-review-toolkit/ort) | [Docs](https://oss-review-toolkit.org/) | [62.2.0](https://github.com/oss-review-toolkit/ort/releases/tag/62.2.0)
 A policy automation and orchestration toolkit for SBOM generation, license compliance, vulnerability detection, and open-source risk management. ORT supports CycloneDX, SPDX, and custom attribution documents, while enabling policy-as-code checks, dependency analysis, and automated reporting across software projects.  
 #### 4. [SCANOSS](https://github.com/scanoss/scanoss.py) | [Docs](https://scanoss.readthedocs.io/en/latest/) | [v1.26.2](https://github.com/scanoss/scanoss.py/releases/tag/v1.26.2)
-The SCANOSS Python package provides a simple library for interacting with SCANOSS APIs and engine, enabling SBOM generation, license compliance, and open-source component identification.  
+The SCANOSS Python package provides a simple library for interacting with the SCANOSS APIs and engine, enabling SBOM generation, license compliance, and open-source component identification.  
 
-**Container-based Tools:**
+**Tools analyzing containers:**
 #### 1. [Syft](https://github.com/anchore/syft) | [Docs](https://anchore.com/opensource/syft/) | [v1.30.0](https://github.com/anchore/syft/releases/tag/v1.30.0)
 A CLI tool and Go library for generating SBOMs from **container images**.  
 It identifies installed packages and their metadata across multiple ecosystems, supporting images from registries, local Docker/OCI images, and tar archives.
 #### 2. [Tern](https://github.com/tern-tools/tern) | [v2.12.1](https://github.com/tern-tools/tern/releases/tag/v2.12.1)
-An inspection tool to collect metadata of packages installed in a container image. It analyzes each layer of the image, executes scripts in a chroot environment to gather package information, and generates a detailed report showing packages and their metadata, with optional mapping to Dockerfile instructions.
-#### 3. [DISTRO2SBOM](https://github.com/anthonyharrison/distro2SBOM) | [0.6.0](https://github.com/anthonyharrison/distro2SBOM/releases/tag/v0.6.0)
+An inspection tool to collect metadata of packages installed in a container image. It analyzes each layer of the image, executes scripts in a chroot environment to gather package information, and generates a detailed report listing packages and their metadata, with optional mapping to Dockerfile instructions.
+#### 3. [Distro2SBOM](https://github.com/anthonyharrison/distro2SBOM) | [0.6.0](https://github.com/anthonyharrison/distro2SBOM/releases/tag/v0.6.0)
 Generates an SBOM for either an installed application or a complete system installation in formats like SPDX and CycloneDX. It identifies all dependent components of a package and is intended for use in continuous integration systems to maintain accurate SBOM records and support audit requirements.
 
+## 3.3. Test Targets Selection Criteria 
+- **Real-World Relevance:** Only publicly available, widely used open-source projects were considered to ensure practical evaluation of SCA tools.
 
-### 3.2. Tools Selection Criteria 
+- **Ecosystem Diversity:** Projects cover multiple languages, build systems, both with and without package managers.
 
-**Open Source and Actively Maintained:** Only open-source tools with active development communities and regular updates were considered to ensure relevance, reliability, and transparency. 
+- **Reference SBOM Availability:** For each test target, a ***Reference SBOM*** was available. We used the SBOMs generated by GitHub
+  for the projects.
 
-**Support for SPDX JSON Output:** Since SPDX JSON was the standardized SBOM format chosen for comparison, all selected tools needed to either natively support or allow conversion to this format. 
+## 3.4. Test Targets
 
-**Language and Ecosystem Compatibility:** Tools were required to support multiple programming languages and environments, particularly those used in our test targets (e.g., C, C++, Java, Python, Node.js, Go, container images). 
-
-**Alignment with OpenChain Telco SBOM Guide:** Where applicable, tools were evaluated for their ability to generate SBOMs conforming to the recommendations and structure outlined in the OpenChain Telco SBOM Guide. 
-
-**Richness of Metadata:** Tools were assessed on the granularity and completeness of SBOM content, including license information, versioning, source origin, cryptographic hashes, and component relationships. 
-
-## 3.3. Test Target
 The test targets linked in this part are the original, publicly available repositories of the respective projects. 
 
 ### 1. [C (No package manager)](https://github.com/besser82/libxcrypt)  
-[libxcrypt](https://github.com/besser82/libxcrypt) | [tag-v4.4.38](https://github.com/besser82/libxcrypt/releases/tag/v4.4.38) is a modern library for one-way hashing of passwords, supporting various algorithms like bcrypt, md5crypt, and yescrypt. It provides traditional Unix `crypt` interfaces and extended functions for secure password handling. The project does not utilize a package manager, making it suitable for manual integration and analysis.
+[libxcrypt](https://github.com/besser82/libxcrypt) | [tag-v4.4.38](https://github.com/besser82/libxcrypt/releases/tag/v4.4.38) is a modern C library for one-way hashing of passwords, supporting various algorithms like ***bcrypt, md5crypt,*** and ***yescrypt***. It provides traditional Unix `crypt` interfaces and extended functions for secure password handling. The project does not utilize a package manager, making it suitable for manual integration and analysis.
 
 ### 2. [C++ (No package manager)](https://github.com/zeux/meshoptimizer)  
 [MeshOptimizer](https://github.com/zeux/meshoptimizer) | [tag-v0.24](https://github.com/zeux/meshoptimizer/releases/tag/v0.24) is an open-source C++ library developed by Arseny Kapoulkine, providing algorithms to optimize meshes for modern GPU vertex and index processing pipelines. It can reindex an existing index buffer or generate an entirely new set of indices from an unindexed vertex buffer. The project does not utilize a package manager, making it suitable for manual integration and analysis.
@@ -88,7 +101,7 @@ The test targets linked in this part are the original, publicly available reposi
 ### 5. [Node.js](https://github.com/expressjs/express)  
 [Express](https://github.com/expressjs/express) | [tag-v5.1.0](https://github.com/expressjs/express/releases/tag/v5.1.0) is a minimal and flexible Node.js web application framework that provides robust features for building web and mobile applications.
 
-### 6. [Python (FastAPI)](https://github.com/fastapi/fastapi) | [Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
+### 6. Python [FastAPI](https://github.com/fastapi/fastapi) & [GPT Engineer](https://github.com/AntonOsika/gpt-engineer)
 - [FastAPI](https://github.com/fastapi/fastapi) | [tag-0.116.0](https://github.com/fastapi/fastapi/releases/tag/0.116.0) is a modern, fast (high-performance) web framework for building APIs with Python 3.7+ based on standard Python type hints. It is widely used for developing web applications and APIs efficiently.
 
 - [GPT Engineer](https://github.com/AntonOsika/gpt-engineer) | [tag-v0.3.1](https://github.com/AntonOsika/gpt-engineer/releases/tag/v0.3.1) is a Python project designed to facilitate building AI-driven solutions and applications, providing a structured environment for rapid prototyping and experimentation.
@@ -97,43 +110,44 @@ The test targets linked in this part are the original, publicly available reposi
 [JavaCV](https://github.com/bytedeco/javacv) | [tag-1.5.12](https://github.com/bytedeco/javacv/releases/tag/1.5.12) is a Java interface to OpenCV, FFmpeg, and other computer vision and machine learning libraries. It provides a comprehensive set of tools for image and video processing, machine learning, and computer vision tasks. The project is managed using the [Maven](https://maven.apache.org/) package manager.
 
 ### 8. [ContainerImage](https://github.com/pangenome/pggb)  
-[pggb](https://github.com/pangenome/pggb) | [tag-v0.7.4](https://github.com/pangenome/pggb/releases/tag/v0.7.4) builds pangenome variation graphs from input sequences using wfmash, seqwish, smoothxg, gfaffix, and odgi.  
+[pggb](https://github.com/pangenome/pggb) | [tag-v0.7.4](https://github.com/pangenome/pggb/releases/tag/v0.7.4) builds pangenome variation graphs from input sequences using ***wfmash, seqwish, smoothxg, gfaffix,*** and ***odgi***.  
 
->***Note:*** The project provides a **Dockerfile** for containerized usage, enabling local builds or pulls from the GitHub Container Registry.
-
-## 3.4. Test Targets Selection Criteria 
-**Real-World Relevance:** Only publicly available, widely used open-source projects were considered to ensure practical evaluation of SCA tools.
-
-**Ecosystem Diversity:** Projects cover multiple languages, build systems, and with or without package managers.
-
-**Reference SBOM Availability:** For each test target, a Reference SBOM was available.
+>***Note:*** The project provides a ***Dockerfile*** for containerized usage, enabling local builds or pulls from the GitHub Container Registry.
 
 ## 3.5. Reference SBOM
-A **Reference SBOM** is a standardized, machine-readable inventory of a project's dependencies and associated metadata, such as versions, licenses, and transitive relationships. It is generated directly from the **dependency graph** of the original, publicly available repositories of the respective test targets.
 
-These SBOMs provide a canonical view of all software components, including direct and transitive dependencies, and serve as a baseline for comparison and validation. The dependency graph is a summary of the manifest and lock files stored in a repository and any dependencies that are submitted for the repository using the dependency submission API ([GitHub Docs: Dependency Graph](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph?utm_source=chatgpt.com)).
+A ***Reference SBOM*** is a standardized, machine-readable inventory of a project's dependencies and associated metadata, such as versions, licenses, and transitive relationships. It is generated directly from the **dependency graph** of the original, publicly available repositories of the respective test targets.
 
-For each test target, the Reference SBOM was exported from its **GitHub repository** using automated SBOM generation tools. These SBOMs capture the original dependency tree and associated metadata (e.g., versions, licenses) before any modifications or local testing. GitHub facilitates this process by allowing users to export an SBOM from a repository's dependency graph via the UI or REST API, producing an SPDX-compatible JSON file ([GitHub Docs: Exporting SBOM](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/exporting-a-software-bill-of-materials-for-your-repository?utm_source=chatgpt.com)).
+These SBOMs provide a canonical representation of all software components, including direct and transitive dependencies, and serve as a baseline for comparison and validation. The dependency graph is a summary of the manifest and lock files stored in a repository and any dependencies that are submitted for the repository using the dependency submission API ([GitHub Docs: Dependency Graph](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph?utm_source=chatgpt.com)).
+
+For each test target, the Reference SBOM was exported from its **GitHub repository** using automated SBOM generation tools. These SBOMs capture the original dependency tree and associated metadata (e.g., versions, licenses) before any modifications or local testing. GitHub facilitates this process by enabling users to export an SBOM from a repository's dependency graph through the UI or REST API, producing an SPDX-compatible JSON file ([GitHub Docs: Exporting SBOM](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/exporting-a-software-bill-of-materials-for-your-repository?utm_source=chatgpt.com)).
+
+We are aware that these Reference SBOMs are not complete or perfect, but these SBOMs are generated with a consitent toolchain and
+in a consistent environment.
 
 ## 3.6. Comparison and Analysis 
+
 The generated SBOMs from each tool were benchmarked against the corresponding reference SBOMs. 
-The comparison focused on: 
-Dependency coverage (direct and transitive) 
-Accuracy of versioning 
-Presence of critical metadata (license, hash, source URL) 
+
+The comparison focused on the following criteria:
+
+- **Dependency coverage** (direct and transitive)
+- **Accuracy of versioning**
+- **Presence of critical metadata** (e.g., license)
 
 ## 3.7. Validation 
 [OpenChain Telco SBOM Validator](https://pypi.org/project/openchain-telco-sbom-validator/0.3.0/) was used to validate the structural compliance and metadata quality of each generated SBOM. 
-Validation criteria included: 
-Conformance to SPDX specification 
-Inclusion of mandatory and recommended fields 
-Logical consistency (e.g., relationships, identifiers) 
+Validation criteria included:
+
+- **Conformance to SPDX specification** 
+- **Inclusion of mandatory and recommended fields** 
+- **Logical consistency** (e.g., relationships, identifiers)
 
 ---
 
 ## 4. Observation & Result
 
-### Tools Used
+### General-Purpose SBOM Generation Tools
 #### 1. [Syft](https://github.com/anchore/syft)
 **Command:**  
 For generating SBOMs for all test targets this command is used:
@@ -151,7 +165,7 @@ Generated directly from the project source without performing any compilation st
 
 - **Compilation Step:**
 
-The project did not originally include a package-lock.json file, which is required to resolve and capture the full dependency tree. To generate it, the following command was executed in test target root:
+The project did not originally include a ***package-lock.json*** file, which is required to resolve and capture the full dependency tree. To generate it, the following command was executed in test target root:
 ```
 npm install --package-lock
 ```
@@ -175,7 +189,7 @@ npm install --package-lock
 
 - **Compilation Step:**
 
-The project did not include a pdm.lock file. To generate it and pin all dependencies, the following command was executed:
+The project did not include a ***pdm.lock*** file. To generate it and pin all dependencies, the following command was executed:
 
 ```
 pdm lock
@@ -197,7 +211,7 @@ pdm install
 
 - **Compilation Step:**
 
-The project included both pyproject.toml and poetry.lock. To install only the production dependencies (excluding development packages), the following command was executed: 
+The project included both ***pyproject.toml*** and ***poetry.lock***. To install only the production dependencies (excluding development packages), the following command was executed: 
 
 ```
 poetry install --no-dev
@@ -271,15 +285,16 @@ scanoss-py convert --input scanoss-raw.json --format spdxlite --output  scanoss.
 
 - **Default SBOM:**
 [scanoss-Nodejs.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/scanoss.json)
+
 - **Compilation Step:**
 
-The project did not originally include a package-lock.json file, To ensure accurate scanning and SBOM generation, the project dependencies were prepared as follows(in root of project): 
+The project did not originally include a ***package-lock.json*** file, To ensure accurate scanning and SBOM generation, the project dependencies were prepared as follows(in root of project): 
 ```
 npm install --package-lock-only
 ```
-Creates ***package-lock.json*** file.  (Does not install anything into node_modules) 
+Creates the ***package-lock.json*** file.  (Does not install anything into node_modules) 
 
-To Installs only production dependencies based on package-lock.json and Creates a clean environment containing runtime dependencies only, (reducing the risk of false positives from development or test packages during scanning), the following command was executed: 
+To Install only production dependencies based on ***package-lock.json*** and Creates a clean environment containing runtime dependencies only, (reducing the risk of false positives from development or test packages during scanning), the following command was executed: 
 ```
 npm ci --only=production
 ```
@@ -425,7 +440,119 @@ scanoss-py scan --key $SCANOSS_API_KEY -o results.json .
 > **Note:** SBOMs were also generated using the SCANOSS ***API key*** for authenticated scanning. While the number of detected packages remained almost unchanged compared to unauthenticated runs, using the API key removes rate limits and allows continuous SBOM generation without waiting periods.
 
 
-#### 3. [ORT](https://github.com/oss-review-toolkit/ort)  
+
+ 
+#### 3. [Trivy](https://github.com/aquasecurity/trivy)  
+**Command:** (In test target root):
+
+```
+trivy fs --format spdx-json --scanners vuln,license,secret,misconfig --output trivy-sbom.spdx.json .
+```
+
+**3.1 Ecosystem:** 
+[Node.js](https://github.com/expressjs/express)  
+
+***Default SBOM:***
+[trivy-Nodejs.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/trivy.default.json)
+
+- **Compilation Step:**
+
+The project did not originally include a package-lock.json file, which is required to resolve and capture the full dependency tree without actually installing dependencies, the following command was executed in test target root: 
+
+```
+npm install --package-lock-only 
+```
+
+**Created Files:**
+
+- ***package-lock.json***
+
+To create a clean environment with only production dependencies installed (excluding devDependencies), the following command was executed: 
+
+```
+npm ci --only=production
+```
+***Enriched SBOMs:***
+[trivy-Nodejs-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/trivy-compilation.json)
+
+**3.2 Ecosystem:** 
+[C++ (Conan)](https://github.com/catchorg/Catch2)
+
+***Default SBOM:***
+[trivy-C++-CONAN.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B_CONAN/SBOM/trivy.json)
+
+**3.3 Ecosystem:** 
+[Go](https://github.com/gohugoio/hugo)
+
+- **Compilation Step:**
+
+To ensure all required dependencies are included and the module files are consistent, the following command was executed in the project root: 
+
+```
+go mod tidy
+```
+
+**Updated Files:**
+
+- ***go.mod*** , ***go.sum***
+
+***Enriched SBOMs:***
+[trivy-Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/SBOM/trivy-compilation.json)
+
+**3.4 Ecosystem:** 
+[C++ (No package manager)](https://github.com/zeux/meshoptimizer)
+
+***Default SBOM:***
+[trivy-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/SBOM/trivy.json)
+
+**3.5 Ecosystem:**
+[Python (FastAPI)](https://github.com/fastapi/fastapi)
+
+***Default SBOM:***
+[trivy-python.json](https://github.com/nokia/SBOM-QA/blob/main/python/SBOM/trivy.default.json)
+
+- **Compilation Step:**
+
+The project did not include a pdm.lock file. To generate it and pin all dependencies, the following command was executed:
+
+```
+pdm lock
+```
+
+Dependencies must be installed for the environment using:
+
+```
+pdm install
+```
+
+***Enriched SBOMs:***
+[trivy-python-compilation](https://github.com/nokia/SBOM-QA/blob/main/python/SBOM/trivy-compilation.json)
+
+> **Note:** As of now, Trivy does not support scanning Python projects managed with PDM. Specifically, Trivy does not parse the pdm.lock file, which means it cannot fully resolve and capture the project's dependency tree. This limitation affects the accuracy and completeness of Software Bill of Materials (SBOM) generation for PDM-managed Python projects. 
+
+For more information and to track the progress of this feature, refer to the following GitHub issue: 
+[Trivy GitHub Issue: Add support for PDM lockfile parsing](https://github.com/aquasecurity/trivy/issues/9410?utm_source=chatgpt.com)
+
+**3.6 Ecosystem:**
+[Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
+
+***Default SBOM:***
+[trivy-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/trivy.json)
+
+**3.7 Ecosystem:** 
+[C (No package manager)](https://github.com/besser82/libxcrypt)
+
+***Default SBOM:***
+[trivy-C.json](https://github.com/nokia/SBOM-QA/blob/main/C-NP/SBOM/trivy.json)
+
+**3.8 Ecosystem:**
+[Java (Maven-managed)](https://github.com/bytedeco/javacv) 
+
+***Default SBOM:***
+[trivy-Java.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/SBOM/trivy-default.json)
+
+
+#### 4. [ORT](https://github.com/oss-review-toolkit/ort)  
 **Command:**
 
 For generating SBOMs for all test targets these commands are used:
@@ -463,7 +590,7 @@ In the examined workflow, only the Analyzer and Reporter phases were executed.
 The Analyzer phase produces the file ***analyzer-result.yml*** 
 Then the Reporter phase use this file as input file.
 
-**3.1 Ecosystem:** 
+**4.1 Ecosystem:** 
 [Go](https://github.com/gohugoio/hugo)
 
 In this project, the following files were identified: 
@@ -479,7 +606,7 @@ Indicating the use of two different **Package Managers**:
 **Generated SBOM:**
 [ORT-GO.json](https://github.com/nokia/SBOM-QA/blob/main/Go/SBOM/ort.json)
 
-**3.2 Ecosystem:** 
+**4.2 Ecosystem:** 
 [C (No package manager)](https://github.com/besser82/libxcrypt)
 
 Given that ORT relies on a package manager for SBOM generation, and no package manager was present in this project, the generated SBOM only included the project name as a package.
@@ -487,7 +614,7 @@ Given that ORT relies on a package manager for SBOM generation, and no package m
 **Generated SBOM:**
 [ORT-C-NP.json](https://github.com/nokia/SBOM-QA/blob/main/C-NP/SBOM/ort%20.json)
 
-**3.3 Ecosystem:** 
+**4.3 Ecosystem:** 
 [C++ (No package manager)](https://github.com/zeux/meshoptimizer)
 
 In this project, no package manager associated with C++ was identified; However, in the two files listed below, **NPM-related Packages** were detected. 
@@ -498,7 +625,7 @@ In this project, no package manager associated with C++ was identified; However,
 [ORT-C++-NP.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/SBOM/ortC%2B%2BMeShop.json)
 
 
-**3.4 Ecosystem:** 
+**4.4 Ecosystem:** 
 [Node.js](https://github.com/expressjs/express)  
 
 In this project, the following file was identified: 
@@ -515,7 +642,7 @@ indicating the use of a package manager:
 [ORT-Node-js.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/node.js.ORT.ScanSbom.json)
 
 
-**3.5 Ecosystem:**
+**4.5 Ecosystem:**
 [Java (Maven-managed)](https://github.com/bytedeco/javacv) 
 
 During the process, an error related to the Maven compiler was encountered, which necessitated modifications in the ***pom.xml*** file as described below: 
@@ -543,7 +670,7 @@ After the version was corrected, **ORT** was ultimately able to generate the **S
 **Generated SBOM:**
 [ORT-Java-Maven.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/SBOM/normal.ort.json)
 
-**3.6 Ecosystem:** 
+**4.6 Ecosystem:** 
 [C++ (Conan)](https://github.com/catchorg/Catch2)
 
 In this section, several points should be highlighted.  
@@ -565,13 +692,13 @@ and in total, two package managers were detected:
 **Generated SBOM:**
 [ORT-C++-CONAN.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B_CONAN/SBOM/ort.json)
 
-**3.7 Ecosystem:**
+**4.7 Ecosystem:**
 [Python (FastAPI)](https://github.com/fastapi/fastapi)
 
 Since the project utilized the PDM package manager, which was not included in the list of package managers supported by ORT, no SBOM was generated as a result. 
 
 
-**3.8 Ecosystem:**
+**4.8 Ecosystem:**
 [Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
 
 In this project, the following two files were identified: 
@@ -587,125 +714,17 @@ The SBOM was successfully generated without any errors.
 **Generated SBOM:**
 [ORT-python.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/ort.json)
 
- 
-#### 4. [Trivy](https://github.com/aquasecurity/trivy)  
-**Command:** (In test target root):
 
-```
-trivy fs --format spdx-json --scanners vuln,license,secret,misconfig --output trivy-sbom.spdx.json .
-```
-
-**4.1 Ecosystem:** 
-[Node.js](https://github.com/expressjs/express)  
-
-**Generated SBOM:**
-[trivy-Nodejs.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/trivy.default.json)
-
-- **Compilation Step:**
-
-The project did not originally include a package-lock.json file, which is required to resolve and capture the full dependency tree without actually installing dependencies, the following command was executed in test target root: 
-
-```
-npm install --package-lock-only 
-```
-
-**Created Files:**
-
-- ***package-lock.json***
-
-To create a clean environment with only production dependencies installed (excluding devDependencies), the following command was executed: 
-
-```
-npm ci --only=production
-```
-**Enriched SBOMs:**
-[trivy-Nodejs-compilation.json](https://github.com/nokia/SBOM-QA/blob/main/Node.js/SBOM/trivy-compilation.json)
-
-**4.2 Ecosystem:** 
-[C++ (Conan)](https://github.com/catchorg/Catch2)
-
-**Generated SBOM:**
-[trivy-C++-CONAN.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B_CONAN/SBOM/trivy.json)
-
-**4.3 Ecosystem:** 
-[Go](https://github.com/gohugoio/hugo)
-
-- **Compilation Step:**
-
-To ensure all required dependencies are included and the module files are consistent, the following command was executed in the project root: 
-
-```
-go mod tidy
-```
-
-**Updated Files:**
-
-- ***go.mod*** , ***go.sum***
-
-**Enriched SBOMs:**
-[trivy-Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/SBOM/trivy-compilation.json)
-
-**4.4 Ecosystem:** 
-[C++ (No package manager)](https://github.com/zeux/meshoptimizer)
-
-**Generated SBOM:**
-[trivy-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/SBOM/trivy.json)
-
-**4.5 Ecosystem:**
-[Python (FastAPI)](https://github.com/fastapi/fastapi)
-
-**Generated SBOM:**
-[trivy-python.json](https://github.com/nokia/SBOM-QA/blob/main/python/SBOM/trivy.default.json)
-
-- **Compilation Step:**
-
-The project did not include a pdm.lock file. To generate it and pin all dependencies, the following command was executed:
-
-```
-pdm lock
-```
-
-Dependencies must be installed for the environment using:
-
-```
-pdm install
-```
-
-**Enriched SBOMs:**
-[trivy-python-compilation](https://github.com/nokia/SBOM-QA/blob/main/python/SBOM/trivy-compilation.json)
-
-> **Note:** As of now, Trivy does not support scanning Python projects managed with PDM. Specifically, Trivy does not parse the pdm.lock file, which means it cannot fully resolve and capture the project's dependency tree. This limitation affects the accuracy and completeness of Software Bill of Materials (SBOM) generation for PDM-managed Python projects. 
-
-For more information and to track the progress of this feature, refer to the following GitHub issue: 
-[Trivy GitHub Issue: Add support for PDM lockfile parsing](https://github.com/aquasecurity/trivy/issues/9410?utm_source=chatgpt.com)
-
-**4.6 Ecosystem:**
-[Python (GPT Engineer)](https://github.com/AntonOsika/gpt-engineer)
-
-**Generated SBOM:**
-[trivy-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/trivy.json)
-
-**4.7 Ecosystem:** 
-[C (No package manager)](https://github.com/besser82/libxcrypt)
-
-**Generated SBOM:**
-[trivy-C.json](https://github.com/nokia/SBOM-QA/blob/main/C-NP/SBOM/trivy.json)
-
-**4.8 Ecosystem:**
-[Java (Maven-managed)](https://github.com/bytedeco/javacv) 
-
-**Generated SBOM:**
-[trivy-Java.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/SBOM/trivy-default.json)
 
 
 
 ---
 
-## Container-Based Tools  
+## Container-Based SBOM Generation Tools  
 
 In the selected project, the container image was based on a Linux distribution. Therefore, in order to properly execute the image and generate its corresponding SBOM, all tasks were carried out within a Linux operating system environment. 
 
-### 1. Distro2sbom 
+### 1. [Distro2SBOM](https://github.com/anthonyharrison/distro2SBOM) 
 
 **Observations:** 
 
@@ -736,13 +755,13 @@ docker rm tmp
 distro2sbom --root <path-to-rootFileSystem> -s --sbom <spdx|cyclonedx> --format <json|xml|yaml> -o <path-to-output-file>  
 ```
 **Generated SBOM:**
-[distro2sbom.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/SBOM/distro.json)
+[distro2SBOM.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/SBOM/distro.json)
 
 > **Note:**
 Since a Linux environment was used, a dedicated Python virtual environment was created to ensure isolation and reproducibility. In this environment, the distro2sbom tool was installed as the main tool for generating SBOM. 
 
 
-### 2. Tern
+### 2. [Tern](https://github.com/tern-tools/tern)
 There are three main approaches to generating an SBOM with Tern: 
 
 **1.	Analyzing an exported root filesystem:** 
@@ -776,7 +795,7 @@ Tern can be pointed to a container image (local or remote) to generate an SBOM w
 tern report -i <image:tag> > sbom_image.json   
 ```
 
-### 3. Syft
+### 3. [Syft](https://github.com/anchore/syft)
 In this project, two approaches were applied to generate SBOM using Syft: 
 
 **1.	Image-based SBOM generation:** 
@@ -814,44 +833,52 @@ syft dir:./ -o spdx-json > <out put name.json>
 
 ## 5. Conclusion
 
-### 5.1. Ecosystem Point of View
+### 5.1. Ecosystem Perspective
+
+#### 5.1.1 General Ecosystems:
 
 Ecosystems were categorized based on package manager maturity, which directly impacted SBOM completeness and accuracy in the test materials analyzed. 
 
-- Mature, Rich, and Well-Integrated Ecosystems:  
+#### Mature, Rich, and Well-Integrated Ecosystems:  
 
-**1. Java(Maven):** Building the project ensured all direct and transitive dependencies were captured, resulting in a complete SBOM. 
+- **Java(Maven):** Building the project ensured all direct and transitive dependencies were captured, resulting in a complete SBOM. 
 
-**2. Node.js(npm):** Preparing a production-only environment allowed SBOM tools to accurately capture runtime dependencies. 
+- **Node.js(npm):** Preparing a production-only environment allowed SBOM tools to accurately capture runtime dependencies. 
 
-**3. Python(Poetry):** Installing production dependencies produced richer SBOMs with full dependency resolution. 
+- **Python(Poetry):** Installing production dependencies produced richer SBOMs with full dependency resolution. 
 
-**4.Go:** Tidying modules and including vendored dependencies ensured a complete, reproducible dependency graph. 
+- **Go:** Tidying modules and including vendored dependencies ensured a complete, reproducible dependency graph. 
 
 > **Note:** All have strong version resolution, standard registries, and are SBOM-ready.
 
 
-- Functional but Inconsistent / Intermediate:  
+#### Functional but Inconsistent / Intermediate:  
 
-**1 .Python(PDM):** Even after dependency preparation, SBOMs remained limited, indicating partial compatibility with tools like Trivy and SCANOSS. 
+- **Python(PDM):** Even after dependency preparation, SBOMs remained limited, indicating partial compatibility with tools like Trivy and SCANOSS. 
 
 > **Note:** Good dependency management and lockfile support, but limited ecosystem maturity and metadata consistency.
 
-- Fragmented or Build-System-Dependent: 
+#### Fragmented or Build-System-Dependent: 
 
-**1. C/C++(manual/CMake):** SBOMs captured only source files; dependency metadata was largely absent. 
+- **C/C++(manual/CMake):** SBOMs captured only source files; dependency metadata was largely absent. 
 
-**2. C++(Conan):** Dependency structure improved, but SBOM completeness varied due to inconsistent metadata. 
+- **C++(Conan):** Dependency structure improved, but SBOM completeness varied due to inconsistent metadata. 
 
-> **Note:** Conan adds structure but depends on how developers define packages (no universal lockfile standard, no uniform registry metadata. 
+> **Note:** Conan adds structure but depends on how developers define packages (no universal lockfile standard, no uniform registry metadata.
 
-- **Key Finding:**
+#### 5.1.2. Container Ecosystem:
 
-SBOM richness correlates strongly with package manager maturity and standardization. Tools like Syft and Trivy performed best on Maven, npm, Poetry, and Go projects, while Python (PDM) and C/C++ projects had less complete results. SCANOSS required additional configuration (--dependencies) to detect more dependencies, but SBOMs for Python (PDM) remained less comprehensive. 
+- **Container images** based on Linux distributions rely on the completeness of installed system packages and layers.
+
+- **Tools** like ***Distro2SBOM, Tern,*** and ***Syft*** showed that SBOM richness depends on access to filesystem metadata and proper image preparation.
+
+#### Key Finding:
+
+SBOM richness correlates strongly with package manager maturity and standardization. Tools like Syft and Trivy performed best on Maven, npm, Poetry, and Go projects, while Python (PDM) and C/C++ projects had less complete results. SCANOSS required additional configuration (--dependencies) to detect more dependencies, but SBOMs for Python (PDM) remained less comprehensive. Container-based tools performed best when images were fully built and all layers were accessible.
 
 ---
 
-### 5.2. Tools Point of View
+### 5.2. Tools Perspective
 
 ### Tool Comparison
 
@@ -859,14 +886,17 @@ SBOM richness correlates strongly with package manager maturity and standardiz
 |-----------|--------------------|-----------------------|
 | **Syft**  | • Fast and lightweight CLI<br>• Good ecosystem coverage<br>• Detects dependencies accurately when lockfiles exist<br>• Works for both container and application scanning | • May miss dependencies if lockfiles are missing<br>• Limited license detection for source-only projects |
 | **Trivy** | • Detects dependencies accurately when lockfiles exist<br>• Strong integration between SBOM and vulnerability scanning | • SBOM less detailed for pure source projects<br>• May miss dependencies if lockfiles are missing |
-| **SCANOSS** | • Works without build or lockfiles<br>• Detects components directly from source code<br>• Produces high-quality SBOMs (aligned with OpenChain Telco standard)<br>• Excellent ecosystem coverage | • Weak dependency graph for Python Poetry<br>• CLI requires a two-step process (raw JSON → SPDX) and often manual completion steps for more accurate results |
+| **SCANOSS** | • Works without build or lockfiles<br>• Detects components directly from source code<br>• Produces high-quality SBOMs (aligned with OpenChain Telco standard)<br>• Excellent ecosystem coverage | • Weak dependency graph for Python Poetry<br>• CLI requires a two-step process (raw JSON → SPDX) and often manual compilation steps for more accurate results |
 | **ORT (OSS Review Toolkit)** | • Fully automated analysis without building projects<br>• Detects all package manager files within supported ecosystems<br>• Capable of scanning and identifying known vulnerabilities | • Does not support projects without a package manager<br>• Only generates SPDX version 2.2<br>• Some package managers (e.g., Python PDM) not fully supported or produce errors<br>• Compatibility issues with newer versions of certain package managers |
+| **Distro2SBOM (Container)** | • Accurate SBOM from full Linux root<br>• Captures all installed packages and system files<br>• Supports offline analysis using exported root | • Requires access to root filesystem or exported copy<br>• Not suitable for live system scanning without export<br>• Limited integration with container image layers |
+| **Tern (Container)** | • Multiple analysis approaches: exported rootfs, Dockerfile parsing, or direct image scanning<br>• Good insight into layer-level dependencies in images<br>• Supports automated image inspection pipelines | • Exported filesystem approach can be slow<br>• Direct image analysis not always used, limiting flexibility<br>• Requires Dockerfile or rootfs for accurate SBOMs |
+| **Syft (Container)** | • Works on images & source directories<br>• Fast and lightweight CLI<br>• Detects dependencies and licenses in images accurately<br>• Integrates well with CI/CD pipelines | • May miss packages if metadata is incomplete in source-based scans<br>• License detection limited for complex or custom images<br>• Requires image building or source prep for best results |
 
 
 
 ---
 
-### 5.3. Quality Point of View
+### 5.3. Quality Perspective
 Validation results and differences
 
 #### 5.3.1. Validation Results
@@ -895,7 +925,7 @@ openchain-telco-sbom-validator --guide-version 1.1 path/generated-sbom.json > va
 ```
 The results were summarized in the following tables:
 
-**General Tools**
+**General-Purpose Tools**
 
 ##### 1. [Syft](https://github.com/anchore/syft)
 
@@ -936,23 +966,23 @@ The results were summarized in the following tables:
 
 >**Note:** All SBOMs generated by ScanOSS were fully compliant with the OpenChain Telco SBOM Guide v1.1, showing strong consistency and reliability across all tested ecosystems.
 
-**Container-based Tools**
+**Container-Based SBOM Generation Tools**
 
-#### 1. Distro2sbom
+#### 1. [Distro2SBOM](https://github.com/anthonyharrison/distro2SBOM)
 
 | Ecosystem       | Compliant        | Error Types                              | Notes |
 |-----------------|------------------|-------------------------------------------|--------|
 | Container Image |  Not compliant | Missing mandatory field in CreationInfo | Missing `Organization` in `CreationInfo` (mandatory per v1.1)|
 
 
-#### 2. Tern
+#### 2. [Tern](https://github.com/tern-tools/tern)
 
 | Ecosystem       | Compliant        | Error Types                     | Notes |
 |-----------------|------------------|----------------------------------|--------|
 | Container Image |  Not compliant  | File error, NTIA validation errors, Missing mandatory fields | File missing; missing supplier, CreatorComment, and Organization fields|
 
 
-#### 3. Syft
+#### 3. [Syft](https://github.com/anchore/syft)
 
 | Ecosystem       | Compliant        | Error Types                              | Notes |
 |-----------------|------------------|-------------------------------------------|--------|
@@ -966,7 +996,7 @@ The results were summarized in the following tables:
 
 #### 5.3.2. Diffs / Comparisons  
 
-[SBOMDIFF](https://github.com/anthonyharrison/sbomdiff) | [v0.5.6](https://github.com/anthonyharrison/sbomdiff/releases/tag/v0.5.6) is a Python-based tool used to compare two SBOM  files and identify differences between them. It supports both SPDX and CycloneDX formats and detects:
+The [sbomdiff](https://github.com/anthonyharrison/sbomdiff) | [v0.5.6](https://github.com/anthonyharrison/sbomdiff/releases/tag/v0.5.6) is a Python-based tool used to compare two SBOM  files and identify differences between them. It supports both SPDX and CycloneDX formats and detects:
 
 - Package version changes
 - Added or removed packages
@@ -981,8 +1011,10 @@ Each comparison was performed between the reference SBOM (exported from GitHub d
 
 The command used for comparison:
 ```
-sbomdiff reference.json generated.json
+sbomdiff -f json -o name.json reference.json generated.json
 ```
+> **Note:** `sbomdiff` requires Python 3.7+ (in this project this version was used: 3.12.9). Using a virtual environment (`python3 -m venv venv && source venv/bin/activate`) is recommended to isolate dependencies.
+
 The tool outputs differences in package versions, new or missing packages, and license changes.
 
 - **Version_Changes:** packages exist in both SBOMs but have different version numbers.
@@ -1006,8 +1038,7 @@ The results were summarized in the following tables:
 | Java        | [Ref-Java.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/Reference/bytedeco_javacv_1aa2ee.json) vs [Java.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/SBOM/syft.json) , [Java-comp.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/SBOM/syft-compilation.json) |  [Diff-Java.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/Difference/diff-normalsyft.json) , [Diff-Java-comp.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/Difference/diff-syftbuild.json)  |    1  |   42    |   43      |    4      |         |
 | Go          |  [Ref-Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/Reference/gohugoio_hugo_b0888a.json) vs [Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/SBOM/syft.json)  |  [Diff-Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/difference/diff-syft.json)     |   177      |     6      |      13       |      177          |
 | C++         |  [Ref-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/Reference/zeux_meshoptimizer_4b6446.json) vs  [C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/SBOM/syft.json)    |  [Diff-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/Difference/diff-C%2B%2B.syft.json)    |     3      |   1       |     1     |    5        |           |
-| Python2     | [Ref-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Reference/AntonOsika_gpt-engineer_818115.json) vs [python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/syft.json) , [python2-comp.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/syft-build.json)  |   [Diff-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Difference/diff-syft.json) , [Diff-python2-comp.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Difference/diff-syftbuild.json) |      9     |     1     |     1     |       198     |           |
-
+| Python2     | [Ref-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Reference/AntonOsika_gpt-engineer_818115.json) vs [python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/syft.json) , [python2-comp.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/syft-build.json)  |   [Diff-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Difference/diff-syft.json) , [Diff-python2-comp.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Difference/diff-syftbuild.json) |      9     |     1     |     1     |       198     |  
 
 ##### 2. [Trivy](https://github.com/aquasecurity/trivy)
 
@@ -1021,6 +1052,7 @@ The results were summarized in the following tables:
 | Go          |  [Ref-Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/Reference/gohugoio_hugo_b0888a.json) vs [Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/SBOM/trivy-compilation.json) |  [Diff-Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/difference/diff-trivy.json)      |      166     |   7      |      24     |     166        |        
 | C++         | [Ref-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/Reference/zeux_meshoptimizer_4b6446.json)  vs  [C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/SBOM/trivy.json)   |   [Diff-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/Difference/diff-C%2B%2B.trivy.json)        |     0      |   1       |   6       |    0        |      
 | Python2     | [Ref-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Reference/AntonOsika_gpt-engineer_818115.json) vs [python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/trivy.json)  |   [Diff-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Difference/diff-trivy.json)     |      2     |     3     |    9      |      190      |    
+
 
 ##### 3. [ORT](https://github.com/oss-review-toolkit/ort)
 
@@ -1045,12 +1077,18 @@ The results were summarized in the following tables:
 | Java        | [Ref-Java.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/Reference/bytedeco_javacv_1aa2ee.json)  vs [Java.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/SBOM/scanoss.json) , [Java-comp.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/SBOM/scanoss-build.json)      |   [Diff-Java.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/Difference/diff-normalscanoss.json) , [Diff-Java-comp.json](https://github.com/nokia/SBOM-QA/blob/main/Java_Maven/Difference/diff-scanoss-build.json)   |    0* / 0*  |   1* / 9*    |   47* / 47*      |   0* / 0*      |
 | Go          |  [Ref-Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/Reference/gohugoio_hugo_b0888a.json) vs [Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/SBOM/scanoss.json) , [Go-comp.json](https://github.com/nokia/SBOM-QA/blob/main/Go/SBOM/scanoss-compilation.json)   |     [Diff-Go.json](https://github.com/nokia/SBOM-QA/blob/main/Go/difference/diff-scanoss.json) , [Diff-Go-comp.json](https://github.com/nokia/SBOM-QA/blob/main/Go/difference/diff-scanoss-compilation.json) |         0* / 0* |    15* / 352*    |    190* /  190*      |   0* / 0*        | 
 | C++         | [Ref-C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/Reference/zeux_meshoptimizer_4b6446.json)  vs  [C++.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/SBOM/scanoss.json) , [C++-comp.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/SBOM/scanoss-build.json)       |    [Diff-C++-comp.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/Difference/diff-C%2B%2B.scanoss.json) , [Diff-C++-comp.json](https://github.com/nokia/SBOM-QA/blob/main/C%2B%2B-NP/Difference/diff-C%2B%2B.scanoss-build.json) |   0* / 0*        |   8* / 16*     |    6* / 6*      |      0* / 0*    | 
-| Python2     | [Ref-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Reference/AntonOsika_gpt-engineer_818115.json)  vs [python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/scanoss.json)      |    [Diff-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Difference/diff-scanoss.json) |   0        |   2       |   199       |    0        |      
+| Python2     | [Ref-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Reference/AntonOsika_gpt-engineer_818115.json)  vs [python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/SBOM/scanoss.json)      |    [Diff-python2.json](https://github.com/nokia/SBOM-QA/blob/main/Python2/Difference/diff-scanoss.json) |   0        |   2       |   199       |    0        |     
 
 > ***Note:** Each pair of numbers (e.g., ` 2* / 17* `) represents default / post-compilation results from the difference files, where the first value corresponds to the default SBOM and the second to the post-compilation SBOM.
 
+**Key considerations:**
+
+- The raw numbers in the difference tables do not by themselves indicate whether a tool performed correctly. Minor version differences `(e.g., v1.2.3 vs 1.2.3)` or licenses reported as `NOASSERTION` can inflate counts. However, newly ***added*** or ***removed*** packages are more significant and often provide clearer insight into a tool’s detection accuracy. To truly assess a tool’s accuracy and compatibility, the difference files must be examined to understand the nature of each change.
+
+- Results vary across tools and ecosystems, reflecting differences in dependency detection, license resolution, and metadata handling.
+
 ##### 5. Container-Based Tools 
-###### 5.1 [DISTRO2SBOM](https://github.com/anthonyharrison/distro2SBOM)
+###### 5.1 [distro2SBOM](https://github.com/anthonyharrison/distro2SBOM)
 |  Compared Files                   | Differences file | Version Changes | New Packages | Removed Packages | License Changes  |
 |----------------------------------|------------------|----------------|--------------|------------------|-----------------|
 [Ref-Container.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/Reference/pangenome_pggb_4e1835.json) vs [distro.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/SBOM/distro.json)  |    [Diff-distro.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/Difference/diff-distro.json)         | 0    |  363     |  7             |  0         |
@@ -1066,4 +1104,6 @@ The results were summarized in the following tables:
 [Ref-Container.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/Reference/pangenome_pggb_4e1835.json) vs [syft-container.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/SBOM/syft.json) , [syft-source-container.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/SBOM/Syft-source.json)  |   [Diff-syft-container.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/Difference/diff-syft.json) , [diff-syft-source-container.json](https://github.com/nokia/SBOM-QA/blob/main/ContainerImage/Difference/diff-syft-source.json)        |  0* / 2*  |   485* / 1*   |    7* / 5*          |     0* / 2*    |  
 
 > ***Note:**  Each pair of values (e.g., `0* / 2*`) represents results from two phases — the first value corresponds to the SBOM generated in the **first phase** (default/root filesystem or image-based), and the second value corresponds to the **second phase** (Dockerfile-based or source-based) analysis.
+
+
 

@@ -9,6 +9,12 @@ This project helps answer key questions:
 
 ---
 
+The initial study and creation of the repository was done in 2025 in a co-operation between Metropolia School of Applied
+Sciences (Metropolia Ammattikorkeakoulu) and Nokia. The study was conducted by Elham Rastighahfarokhi, Mehdi Nourivahid
+and Mostafa Sharghi with the overshight of Gergely Csatari.
+
+In case of any feedback or comment please create an Issue or a Pull Request.
+
 ##  Work Methodology
 
 1. **Test Targets** – Selected real-world software projects across multiple ecosystems (C, C++, C++(CONAN), Java (Maven), Python, Node.js, Go, and containers).
@@ -16,7 +22,7 @@ This project helps answer key questions:
 3. **SCA Tools** – Open-source SBOM generation tools were installed, configured, and run for each project. 
 4. **Benchmarking** – Tool-generated SBOMs were compared against the reference SBOMs using SBOMDiff, and validated using OpenChain Telco SBOM Validator.
 
-> **Note:** For detailed methodology, tools, and validation process, see [Full Documentation]().
+> **Note:** For detailed methodology, tools, and validation process, see [Full Documentation](https://github.com/nokia/SBOM-QA/blob/main/DOC/SBOM-QA_Test.md).
 ---
 
 ##  Test Targets
@@ -37,10 +43,10 @@ This project helps answer key questions:
 
 | Tool              | Version    | Analysis Strategy                           | SPDX Support | Ecosystem Support                               | GitHub | Docs | CISA SBOM Types |
 |------------------|------------ |---------------------------------------------|--------------|--------------------------------------------------|--------------------------- | -------------------------|--------------------------|
-| **Syft**          |    `v1.26.1`    |Package managers, file system metadata      | ✅ Yes       | Go, Java, Python, JS, C/C++, containers          | [anchore/syft](https://github.com/anchore/syft) | [Syft Docs](https://anchore.com/docs/syft/) | Source, Build, Analyze | 
+| **Syft**          |    `v1.26.1`    |Package managers, file system metadata      | ✅ Yes       | Go, Java, Python, Node.js , C/C++, containers          | [anchore/syft](https://github.com/anchore/syft) | [Syft Docs](https://anchore.com/docs/syft/) | Source, Build, Analyze | 
 | **ammend/syft**   |   `v1.26.1`        | Syft fork with Telco SBOM Guide alignment   | ✅ Yes       | Same as Syft                                     | [ammend/syft](https://github.com/elhamrasti/syft) |           | Source, Build, Analyze |
-| **Trivy**         |    `v0.63.0`       | Filesystem & vulnerability analysis, SBOM Scaning        | ✅ Yes       | Containers, VMs, source code                     |   [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | [Trivy Docs](https://aquasecurity.github.io/trivy/)  | Source, Build, Analyze, Deploy |
-| **ORT**           |    `62.2.0`    | Source code, VCS, metadata                  | ✅ Yes       | Repositories                                     |  [oss-review-toolkit/ort](https://github.com/oss-review-toolkit/ort) | [ORT Docs](https://github.com/oss-review-toolkit/ort#documentation)  | Source, Build, Analyze |
+| **Trivy**         |    `v0.63.0`       | Filesystem & vulnerability analysis, SBOM Scanning        | ✅ Yes       | Containers, VMs, source code                     |   [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | [Trivy Docs](https://aquasecurity.github.io/trivy/)  | Source, Build, Analyze, Deploy |
+| **ORT**           |    `62.2.0`    | Source code, VCS, metadata                  | ✅ Yes       |       Go, Java, Python, Node.js                                |  [oss-review-toolkit/ort](https://github.com/oss-review-toolkit/ort) | [ORT Docs](https://github.com/oss-review-toolkit/ort#documentation)  | Source, Build, Analyze |
 | **SCANOSS**       |      `v1.26.2`      | Code fingerprinting, snippet detection      | ✅ Yes       | All languages, AI-generated code | [scanoss/sbom-workbench](https://github.com/scanoss/sbom-workbench)     [scanoss](https://www.scanoss.com) | [scanoss Docs](https://github.com/scanoss/sbom-workbench) | Source |
 
 **Note:** Assess SCANOSS output with and without API key access to understand the added value of the commercial dataset.
