@@ -1,0 +1,97 @@
+site_name: SBOM Quality Assurance
+site_description: A benchmarking initiative for evaluating open source Software Composition Analysis (SCA) tools and their SBOM outputs
+site_author: Nokia & Metropolia
+site_url: https://nokia.github.io/SBOM-QA
+
+repo_name: nokia/SBOM-QA
+repo_url: https://github.com/nokia/SBOM-QA
+edit_uri: edit/main/DOC/
+
+docs_dir: DOC
+
+theme:
+  name: material
+  logo: logo/SBOM-QA logo white.png
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: custom
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: custom
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+  - def_list
+  - footnotes
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+plugins:
+  - search:
+      lang: en
+  - glightbox
+
+nav:
+  - Home: index.md
+  - Objectives: Objectives.md
+  - SBOM QA Test Guide: SBOM-QA_Test.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/nokia/SBOM-QA
+  
+  version:
+    provider: mike
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: Copyright &copy; 2025 Nokia & Metropolia - Licensed under BSD 3-Clause License
