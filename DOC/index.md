@@ -20,8 +20,8 @@ SBOM QA is a benchmarking initiative for evaluating open source Software Composi
 ## Quick Links
 
 - [GitHub Repository](https://github.com/nokia/SBOM-QA)
-- [Main README](../README.md)
-- [License](../LICENSE)
+- [Main README](https://github.com/nokia/SBOM-QA/blob/main/README.md)
+- [License](https://github.com/nokia/SBOM-QA/blob/main/LICENSE)
 
 ## About
 
