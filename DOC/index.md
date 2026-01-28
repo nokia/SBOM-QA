@@ -2,20 +2,21 @@
 
 ![SBOM-QA Logo](logo/SBOM-QA%20logo.png)
 
-Welcome to the SBOM Quality Assurance (SBOM QA) project documentation.
+Welcome to the SBOM Quality Assurance (SBOM-QA) project.
 
 ## Project Overview
 
 SBOM QA is a benchmarking initiative for evaluating open source Software Composition Analysis (SCA) tools and their SBOM outputs.
 
 **Key Questions:**
+
 - How complete is the SBOM? Are all dependencies detected?
 - What is the quality of the SBOM? Is it compliant with industry standards?
 
 ## Documentation
 
-- **[Project Objectives](Objectives.md)** - Goals and scope of SBOM QA
-- **[SBOM QA Test Guide](SBOM-QA_Test.md)** - Complete methodology, tools, test targets, and results
+- **[Project Objectives](Objectives.md)** - Goals and scope of SBOM-QA
+- **[SBOM-QA Test Guide](SBOM-QA_Test.md)** - Complete methodology, tools, test targets, and results
 
 ## Quick Links
 
@@ -29,6 +30,11 @@ The initial study was conducted in 2025 through a collaboration between Metropol
 
 **Contributors:** Elham Rastighahfarokhi, Mehdi Nourivahid, Mostafa Sharghi  
 **Oversight:** Gergely Csatari
+
+## How to collaborate?
+
+* Raise any concerns and issues as a GitHub issue
+* Add more tools using GitHub pull requests
 
 ---
 
