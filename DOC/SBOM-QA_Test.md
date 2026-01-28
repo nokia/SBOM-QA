@@ -86,11 +86,11 @@ A comprehensive security tool for SBOM generation, vulnerability detection, lice
 
 #### 3. [OSS Review Toolkit (ORT)](https://github.com/oss-review-toolkit/ort) | [Docs](https://oss-review-toolkit.org/) | [62.2.0](https://github.com/oss-review-toolkit/ort/releases/tag/62.2.0)
 
-A policy automation and orchestration toolkit for SBOM generation, license compliance, vulnerability detection, and open-source risk management. ORT supports CycloneDX, SPDX, and custom attribution documents, while enabling policy-as-code checks, dependency analysis, and automated reporting across software projects.  
+A policy automation and orchestration toolkit for SBOM generation, license compliance, vulnerability detection, and open source risk management. ORT supports CycloneDX, SPDX, and custom attribution documents, while enabling policy-as-code checks, dependency analysis, and automated reporting across software projects.  
 
 #### 4. [SCANOSS](https://github.com/scanoss/scanoss.py) | [Docs](https://scanoss.readthedocs.io/en/latest/) | [v1.26.2](https://github.com/scanoss/scanoss.py/releases/tag/v1.26.2)
 
-The SCANOSS Python package provides a simple library for interacting with the SCANOSS APIs and engine, enabling SBOM generation, license compliance, and open-source component identification.  
+The SCANOSS Python package provides a simple library for interacting with the SCANOSS APIs and engine, enabling SBOM generation, license compliance, and open source component identification.  
 
 **Tools analyzing containers:**
 
@@ -124,7 +124,7 @@ The test targets linked in this part are the original, publicly available reposi
 
 ### 2. [C++ (No package manager)](https://github.com/zeux/meshoptimizer)  
 
-[MeshOptimizer](https://github.com/zeux/meshoptimizer) | [tag-v0.24](https://github.com/zeux/meshoptimizer/releases/tag/v0.24) is an open-source C++ library developed by Arseny Kapoulkine, providing algorithms to optimize meshes for modern GPU vertex and index processing pipelines. It can reindex an existing index buffer or generate an entirely new set of indices from an unindexed vertex buffer. The project does not utilize a package manager, making it suitable for manual integration and analysis.
+[MeshOptimizer](https://github.com/zeux/meshoptimizer) | [tag-v0.24](https://github.com/zeux/meshoptimizer/releases/tag/v0.24) is an open source C++ library developed by Arseny Kapoulkine, providing algorithms to optimize meshes for modern GPU vertex and index processing pipelines. It can reindex an existing index buffer or generate an entirely new set of indices from an unindexed vertex buffer. The project does not utilize a package manager, making it suitable for manual integration and analysis.
 
 ### 3. [C++ (Conan)](https://github.com/catchorg/Catch2)  
 
