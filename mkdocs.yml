@@ -88,6 +88,10 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/nokia/SBOM-QA
+  analytics:
+      provider: google
+      property: G-1924MNKDE7
+
 
 extra_css:
   - stylesheets/extra.css
